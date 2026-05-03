@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Culture Tracker</title>
+  <meta name="description" content="A daily, weekly and monthly read on what's happening in popular culture." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Culture Tracker</h1>
+      <p class="tagline" id="brief-date">Daily signals · Weekly hypes · Monthly trends</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Layer switcher -->
+    <nav class="layers" aria-label="Report layer">
+      <button data-layer="daily"   class="layer-btn active" type="button">Daily signals</button>
+      <button data-layer="weekly"  class="layer-btn"        type="button">Weekly hypes</button>
+      <button data-layer="monthly" class="layer-btn"        type="button">Monthly trends</button>
+    </nav>
+
+    <!-- Intro / hero block -->
+    <section id="intro" class="intro" aria-live="polite">
+      <p class="loading">Loading today's brief…</p>
+    </section>
+
+    <!-- Filters (only relevant for the daily layer) -->
+    <section class="filters" id="filters" aria-label="Filters">
+      <div class="filter-row">
+        <label>
+          <span>Category</span>
+          <select id="filter-category">
+            <option value="">All categories</option>
+          </select>
+        </label>
+        <label>
+          <span>Source</span>
+          <select id="filter-source">
+            <option value="">All sources</option>
+          </select>
+        </label>
+        <label>
+          <span>Min. score</span>
+          <select id="filter-score">
+            <option value="0">Any</option>
+            <option value="5">5+</option>
+            <option value="6">6+</option>
+            <option value="7">7+</option>
+            <option value="8">8+</option>
+            <option value="9">9+</option>
+          </select>
+        </label>
+        <button id="filter-reset" type="button" class="reset">Reset</button>
+      </div>
+    </section>
+
+    <!-- The three layers — only one is visible at a time -->
+    <section id="layer-daily"   class="layer" aria-label="Daily signals"></section>
+    <section id="layer-weekly"  class="layer hidden" aria-label="Weekly hypes"></section>
+    <section id="layer-monthly" class="layer hidden" aria-label="Monthly trends"></section>
+
+    <!-- Archive -->
+    <section class="archive" aria-label="Archive">
+      <h2>Archive</h2>
+      <ul id="archive-list" class="archive-list">
+        <li class="loading">Loading archive…</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Culture Tracker &middot; auto-generated &middot; <a href="./data/latest.json">latest.json</a></p>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
