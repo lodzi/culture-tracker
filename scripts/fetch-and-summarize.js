@@ -5,15 +5,22 @@
  * 1. Reads /config/sources.json
  * 2. Fetches each RSS feed and keeps items from the last LOOKBACK_HOURS
  * 3. Dedupes by URL and (case-insensitive) title
- * 4. Groups items by category and sorts newest-first within each category
- * 5. Writes /data/archive/YYYY-MM-DD.json and /data/latest.json
- * 6. Maintains /data/archive/index.json for the frontend
+ * 4. Scores every item on a popularity proxy:
+ *      - source weight (well-known publication = higher base)
+ *      - recency      (newer = higher)
+ *      - trending     (keyword overlap with other items in the same window)
+ *    RSS feeds don't expose actual read counts, so this approximates "most read"
+ *    by combining authority, freshness and cross-source momentum.
+ * 5. Groups items by category, sorts by score, keeps top MAX_ITEMS_PER_CATEGORY
+ * 6. Writes /data/archive/YYYY-MM-DD.json and /data/latest.json
+ * 7. Maintains /data/archive/index.json for the frontend
  *
  * No API keys required. No external services beyond the RSS feeds themselves.
  *
  * Optional env:
- *   LOOKBACK_HOURS     (default: 24)
- *   MAX_ITEMS_PER_FEED (default: 10)
+ *   LOOKBACK_HOURS           (default: 24)
+ *   MAX_ITEMS_PER_FEED       (default: 10)
+ *   MAX_ITEMS_PER_CATEGORY   (default: 5)
  *
  * Dependencies:
  *   - rss-parser — robust RSS/Atom parsing.
@@ -36,6 +43,7 @@ const ARCHIVE_INDEX_PATH = path.join(ARCHIVE_DIR, "index.json");
 // --- Config ---
 const LOOKBACK_HOURS = parseInt(process.env.LOOKBACK_HOURS || "24", 10);
 const MAX_ITEMS_PER_FEED = parseInt(process.env.MAX_ITEMS_PER_FEED || "10", 10);
+const MAX_ITEMS_PER_CATEGORY = parseInt(process.env.MAX_ITEMS_PER_CATEGORY || "5", 10);
 // Hard cap on a single fetch. rss-parser has its own socket timeout, but some
 // feeds redirect or stream slowly and can exceed it. We wrap every fetch in a
 // Promise.race so the run can never hang on one bad source.
@@ -69,6 +77,26 @@ const CATEGORY_ORDER = [
   "culture", "trends", "fashion", "music", "film", "gaming", "art",
   "internet", "social", "community", "marketing", "brands", "sport",
 ];
+
+// Words that don't carry topical signal and should be ignored when computing
+// cross-source keyword overlap.
+const STOPWORDS = new Set([
+  "this","that","with","from","have","been","what","when","where","they",
+  "their","them","said","about","more","than","into","over","also","just",
+  "will","would","could","should","after","before","because","while","were",
+  "your","yours","ours","once","some","most","many","much","very","such",
+  "still","first","last","next","year","week","month","day","days","says",
+  "here","there","these","those","being","without","through","between",
+  "another","other","every","each","both","again","like","only","even",
+  "make","made","makes","take","takes","took","get","gets","got","goes",
+  "going","gone","come","comes","came","know","known","new","old","best",
+  "good","great","high","low","big","small","top","look","looks","looking",
+  "back","front","up","down","right","left","really","actually","just",
+  "want","wants","need","needs","says","say","told","see","seen","seeing",
+  "een","het","een","een","van","voor","over","naar","door","met","door",
+  "deze","dit","dat","wat","hoe","waar","welke","wordt","worden","heeft",
+  "hebben","ook","maar","want","dus","echt","weer","altijd","nooit",
+]);
 
 // --- Helpers ---
 function todayISO() {
@@ -138,6 +166,7 @@ async function fetchSource(parser, source) {
       .map(function (i) {
         return {
           source: source.name,
+          source_weight: typeof source.weight === "number" ? source.weight : 6,
           category: source.category || "other",
           title: stripHtml(i.title || ""),
           url: i.link || "",
@@ -172,6 +201,68 @@ function dedupe(items) {
   return out;
 }
 
+// --- Scoring ---
+// RSS doesn't expose read counts, so we score on a popularity proxy:
+//   final = round( clamp(1..10, source*0.6 + recency + trending + 1) )
+// where:
+//   source   ∈ [1..10] — per-source weight from sources.json (default 6)
+//   recency  ∈ [0..1.5] — fresher items score higher
+//   trending ∈ [0..2.5] — overlap with other items' keywords (cross-source signal)
+function tokenize(s) {
+  return (s || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter(function (t) { return t.length > 3 && !STOPWORDS.has(t); });
+}
+
+function scoreItems(items) {
+  // Build a frequency table over title+summary tokens across all items.
+  const tokenCount = new Map();
+  const itemTokens = new Map();
+  for (const it of items) {
+    const tokens = new Set(tokenize((it.title || "") + " " + (it.summary || "")));
+    itemTokens.set(it, tokens);
+    for (const t of tokens) {
+      tokenCount.set(t, (tokenCount.get(t) || 0) + 1);
+    }
+  }
+
+  const now = Date.now();
+  const maxAgeHours = Math.max(1, LOOKBACK_HOURS);
+
+  for (const it of items) {
+    const sourceWeight = typeof it.source_weight === "number" ? it.source_weight : 6;
+
+    // Recency 0..1.5
+    let recency = 0;
+    if (it.published) {
+      const ageMs = now - new Date(it.published).getTime();
+      const ageHours = Math.max(0, ageMs / (1000 * 60 * 60));
+      recency = Math.max(0, 1.5 * (1 - Math.min(1, ageHours / maxAgeHours)));
+    }
+
+    // Trending 0..2.5 — count tokens that appear in 2+ items overall.
+    let trending = 0;
+    const tokens = itemTokens.get(it) || new Set();
+    let shared = 0;
+    let strong = 0;
+    for (const t of tokens) {
+      const cnt = tokenCount.get(t) || 0;
+      if (cnt >= 2) shared++;
+      if (cnt >= 4) strong++;
+    }
+    trending = Math.min(2.5, shared * 0.25 + strong * 0.5);
+
+    const raw = sourceWeight * 0.6 + recency + trending + 1;
+    const score = Math.max(1, Math.min(10, Math.round(raw)));
+    it.score = score;
+
+    // Strip the helper field — we don't want it in the public JSON.
+    delete it.source_weight;
+  }
+}
+
 // --- Group by category ---
 function groupByCategory(items) {
   const groups = {};
@@ -181,14 +272,19 @@ function groupByCategory(items) {
     groups[cat].push(it);
   }
 
-  // Sort items inside each group: newest first, fallback to title.
+  // Sort items inside each group: highest score first, then newest, then title.
   for (const cat of Object.keys(groups)) {
     groups[cat].sort(function (a, b) {
+      if (b.score !== a.score) return b.score - a.score;
       const ta = a.published ? new Date(a.published).getTime() : 0;
       const tb = b.published ? new Date(b.published).getTime() : 0;
       if (tb !== ta) return tb - ta;
       return (a.title || "").localeCompare(b.title || "");
     });
+    // Cap to top N per category.
+    if (groups[cat].length > MAX_ITEMS_PER_CATEGORY) {
+      groups[cat] = groups[cat].slice(0, MAX_ITEMS_PER_CATEGORY);
+    }
   }
 
   // Order categories: configured order first, then any remainder alphabetically.
@@ -261,17 +357,20 @@ async function main() {
     console.log("Deduped: " + before + " → " + allItems.length);
   }
 
+  // Score every item, then group + cap to top MAX_ITEMS_PER_CATEGORY per topic.
+  scoreItems(allItems);
+
   const themes = groupByCategory(allItems);
+  const totalShown = themes.reduce(function (sum, t) { return sum + t.items.length; }, 0);
   const date = todayISO();
 
-  const intro = allItems.length + " items from " + usedSources +
-    " sources across " + themes.length +
+  const intro = "Top " + MAX_ITEMS_PER_CATEGORY + " per topic — " + totalShown +
+    " articles from " + usedSources + " sources across " + themes.length +
     (themes.length === 1 ? " category" : " categories") +
     ", last " + LOOKBACK_HOURS + " hours.";
 
-  // Same outer shape as the original LLM-driven brief, so the frontend and
-  // email renderer keep working without changes. weekly_hypes / monthly_trends
-  // are intentionally left empty — those layers needed AI synthesis.
+  // weekly_hypes / monthly_trends are intentionally omitted — those layers
+  // needed AI synthesis and the UI no longer surfaces them.
   const brief = {
     date: date,
     daily: {
@@ -279,8 +378,6 @@ async function main() {
       intro: intro,
       themes: themes,
     },
-    weekly_hypes: [],
-    monthly_trends: [],
   };
 
   const archivePath = path.join(ARCHIVE_DIR, date + ".json");

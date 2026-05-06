@@ -4,31 +4,24 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Culture Tracker</title>
-  <meta name="description" content="A daily, weekly and monthly read on what's happening in popular culture." />
+  <meta name="description" content="A daily read on what's happening in popular culture." />
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <h1 class="logo">Culture Tracker</h1>
-      <p class="tagline" id="brief-date">Daily signals · Weekly hypes · Monthly trends</p>
+      <p class="tagline" id="brief-date">Daily signals from across popular culture</p>
     </div>
   </header>
 
   <main class="container">
-    <!-- Layer switcher -->
-    <nav class="layers" aria-label="Report layer">
-      <button data-layer="daily"   class="layer-btn active" type="button">Daily signals</button>
-      <button data-layer="weekly"  class="layer-btn"        type="button">Weekly hypes</button>
-      <button data-layer="monthly" class="layer-btn"        type="button">Monthly trends</button>
-    </nav>
-
     <!-- Intro / hero block -->
     <section id="intro" class="intro" aria-live="polite">
       <p class="loading">Loading today's brief…</p>
     </section>
 
-    <!-- Filters (only relevant for the daily layer) -->
+    <!-- Filters -->
     <section class="filters" id="filters" aria-label="Filters">
       <div class="filter-row">
         <label>
@@ -58,10 +51,8 @@
       </div>
     </section>
 
-    <!-- The three layers — only one is visible at a time -->
-    <section id="layer-daily"   class="layer" aria-label="Daily signals"></section>
-    <section id="layer-weekly"  class="layer hidden" aria-label="Weekly hypes"></section>
-    <section id="layer-monthly" class="layer hidden" aria-label="Monthly trends"></section>
+    <!-- Daily brief -->
+    <section id="layer-daily" class="layer" aria-label="Daily signals"></section>
 
     <!-- Archive -->
     <section class="archive" aria-label="Archive">

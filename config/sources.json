@@ -3,60 +3,217 @@
     "name": "Highsnobiety",
     "type": "rss",
     "url": "https://www.highsnobiety.com/feed/",
-    "category": "fashion"
+    "category": "fashion",
+    "weight": 8
   },
   {
     "name": "Hypebeast",
     "type": "rss",
     "url": "https://hypebeast.com/feed",
-    "category": "fashion"
+    "category": "fashion",
+    "weight": 8
+  },
+  {
+    "name": "Business of Fashion",
+    "type": "rss",
+    "url": "https://www.businessoffashion.com/feed/",
+    "category": "fashion",
+    "weight": 9
+  },
+  {
+    "name": "Vogue Business",
+    "type": "rss",
+    "url": "https://www.voguebusiness.com/feed",
+    "category": "fashion",
+    "weight": 8
   },
   {
     "name": "Dezeen",
     "type": "rss",
     "url": "https://www.dezeen.com/feed/",
-    "category": "art"
+    "category": "art",
+    "weight": 8
+  },
+  {
+    "name": "It's Nice That",
+    "type": "rss",
+    "url": "https://www.itsnicethat.com/feed",
+    "category": "art",
+    "weight": 7
+  },
+  {
+    "name": "Eye on Design",
+    "type": "rss",
+    "url": "https://eyeondesign.aiga.org/feed/",
+    "category": "art",
+    "weight": 7
+  },
+  {
+    "name": "Creative Review",
+    "type": "rss",
+    "url": "https://www.creativereview.co.uk/feed/",
+    "category": "art",
+    "weight": 7
+  },
+  {
+    "name": "Wallpaper*",
+    "type": "rss",
+    "url": "https://www.wallpaper.com/rss",
+    "category": "art",
+    "weight": 7
   },
   {
     "name": "The Verge",
     "type": "rss",
     "url": "https://www.theverge.com/rss/index.xml",
-    "category": "internet"
+    "category": "internet",
+    "weight": 9
+  },
+  {
+    "name": "Wired",
+    "type": "rss",
+    "url": "https://www.wired.com/feed/rss",
+    "category": "internet",
+    "weight": 9
+  },
+  {
+    "name": "404 Media",
+    "type": "rss",
+    "url": "https://www.404media.co/rss/",
+    "category": "internet",
+    "weight": 8
   },
   {
     "name": "Pitchfork News",
     "type": "rss",
     "url": "https://pitchfork.com/feed/feed-news/rss",
-    "category": "music"
+    "category": "music",
+    "weight": 8
+  },
+  {
+    "name": "Stereogum",
+    "type": "rss",
+    "url": "https://www.stereogum.com/feed/",
+    "category": "music",
+    "weight": 7
+  },
+  {
+    "name": "Consequence",
+    "type": "rss",
+    "url": "https://consequence.net/feed/",
+    "category": "music",
+    "weight": 7
   },
   {
     "name": "Polygon",
     "type": "rss",
     "url": "https://www.polygon.com/rss/index.xml",
-    "category": "gaming"
+    "category": "gaming",
+    "weight": 8
+  },
+  {
+    "name": "Eurogamer",
+    "type": "rss",
+    "url": "https://www.eurogamer.net/?format=rss",
+    "category": "gaming",
+    "weight": 8
+  },
+  {
+    "name": "Kotaku",
+    "type": "rss",
+    "url": "https://kotaku.com/rss",
+    "category": "gaming",
+    "weight": 7
   },
   {
     "name": "IndieWire",
     "type": "rss",
     "url": "https://www.indiewire.com/feed/",
-    "category": "film"
+    "category": "film",
+    "weight": 8
+  },
+  {
+    "name": "Variety",
+    "type": "rss",
+    "url": "https://variety.com/feed/",
+    "category": "film",
+    "weight": 9
+  },
+  {
+    "name": "The Hollywood Reporter",
+    "type": "rss",
+    "url": "https://www.hollywoodreporter.com/feed/",
+    "category": "film",
+    "weight": 9
   },
   {
     "name": "Dazed",
     "type": "rss",
     "url": "https://www.dazeddigital.com/rss",
-    "category": "culture"
+    "category": "culture",
+    "weight": 7
+  },
+  {
+    "name": "Vulture",
+    "type": "rss",
+    "url": "https://www.vulture.com/rss/index.xml",
+    "category": "culture",
+    "weight": 8
+  },
+  {
+    "name": "i-D",
+    "type": "rss",
+    "url": "https://i-d.co/feed/",
+    "category": "culture",
+    "weight": 7
   },
   {
     "name": "Frankwatching",
     "type": "rss",
     "url": "https://www.frankwatching.com/feed/",
-    "category": "marketing"
+    "category": "marketing",
+    "weight": 7
   },
   {
     "name": "Marketingfacts",
     "type": "rss",
     "url": "https://www.marketingfacts.nl/rss",
-    "category": "marketing"
+    "category": "marketing",
+    "weight": 7
+  },
+  {
+    "name": "Adweek",
+    "type": "rss",
+    "url": "https://www.adweek.com/feed/",
+    "category": "marketing",
+    "weight": 8
+  },
+  {
+    "name": "Marketing Week",
+    "type": "rss",
+    "url": "https://www.marketingweek.com/feed/",
+    "category": "marketing",
+    "weight": 8
+  },
+  {
+    "name": "The Drum",
+    "type": "rss",
+    "url": "https://www.thedrum.com/rss.xml",
+    "category": "marketing",
+    "weight": 8
+  },
+  {
+    "name": "Trend Hunter",
+    "type": "rss",
+    "url": "https://www.trendhunter.com/rss",
+    "category": "trends",
+    "weight": 6
+  },
+  {
+    "name": "PSFK",
+    "type": "rss",
+    "url": "https://www.psfk.com/feed",
+    "category": "trends",
+    "weight": 6
   }
 ]

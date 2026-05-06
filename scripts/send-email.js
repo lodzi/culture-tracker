@@ -195,12 +195,10 @@ function renderHTML(brief) {
     '<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:640px;">',
     '  <tr><td style="padding:0 4px 16px;border-bottom:1px solid #e5e5e0;">',
     '    <h1 style="font-family:Georgia,serif;font-size:26px;margin:0;letter-spacing:-0.02em;color:#111;">Culture Tracker</h1>',
-    dateLabel ? '    <p style="margin:4px 0 0;color:#6b6b6b;font-size:13px;">' + escapeHtml(dateLabel) + ' &middot; daily &middot; weekly &middot; monthly</p>' : '',
+    dateLabel ? '    <p style="margin:4px 0 0;color:#6b6b6b;font-size:13px;">' + escapeHtml(dateLabel) + ' &middot; daily signals</p>' : '',
     '  </td></tr>',
     dailyIntro ? '  <tr><td style="padding:20px 4px 4px;"><h2 style="font-family:Georgia,serif;font-size:20px;margin:0 0 8px;color:#111;">' + escapeHtml(dailyTitle) + '</h2><p style="margin:0;color:#333;font-size:15px;line-height:1.6;">' + escapeHtml(dailyIntro) + '</p></td></tr>' : '',
     renderDailyHTML(daily),
-    renderWeeklyHTML(brief.weekly_hypes),
-    renderMonthlyHTML(brief.monthly_trends),
     publicUrl ? '  <tr><td style="padding:24px 4px 0;border-top:1px solid #e5e5e0;"><p style="margin:12px 0 0;font-size:12px;color:#6b6b6b;"><a href="' + escapeHtml(publicUrl) + '" style="color:#6b6b6b;">View online &rarr;</a></p></td></tr>' : '',
     '  <tr><td style="padding:16px 4px 8px;"><p style="margin:0;font-size:11px;color:#9a9a94;">Culture Tracker &middot; auto-generated.</p></td></tr>',
     '</table>',
@@ -236,40 +234,6 @@ function renderText(brief) {
         lines.push("");
       });
     });
-  }
-
-  if ((brief.weekly_hypes || []).length) {
-    lines.push("=== WEEKLY HYPES ===");
-    (brief.weekly_hypes || []).forEach(function (h) {
-      const score = typeof h.score === "number" ? " [" + h.score + "/10]" : "";
-      lines.push("");
-      lines.push("# " + (h.title || "Untitled hype") + score);
-      if (h.description) lines.push(h.description);
-      if (h.why_it_matters) lines.push("Why it matters: " + h.why_it_matters);
-      if ((h.signals || []).length) {
-        lines.push("Signals:");
-        h.signals.forEach(function (s) { lines.push("  - " + s); });
-      }
-      if ((h.categories || []).length) lines.push("Categories: " + h.categories.join(", "));
-    });
-    lines.push("");
-  }
-
-  if ((brief.monthly_trends || []).length) {
-    lines.push("=== MONTHLY TRENDS ===");
-    (brief.monthly_trends || []).forEach(function (t) {
-      const score = typeof t.score === "number" ? " [" + t.score + "/10]" : "";
-      lines.push("");
-      lines.push("# " + (t.title || "Untitled trend") + score);
-      if (t.description) lines.push(t.description);
-      if (t.cultural_shift) lines.push("Cultural shift: " + t.cultural_shift);
-      if ((t.evidence || []).length) {
-        lines.push("Evidence:");
-        t.evidence.forEach(function (s) { lines.push("  - " + s); });
-      }
-      if (t.implications) lines.push("Implications: " + t.implications);
-    });
-    lines.push("");
   }
 
   return lines.join("\n");

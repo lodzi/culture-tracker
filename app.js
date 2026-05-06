@@ -1,5 +1,5 @@
 // Culture Tracker — vanilla JS frontend.
-// Renders /data/latest.json across three layers: daily / weekly / monthly.
+// Renders /data/latest.json as a single daily layer, top N per topic.
 
 (function () {
   "use strict";
@@ -7,22 +7,15 @@
   // --- DOM refs ---
   const $intro = document.getElementById("intro");
   const $briefDate = document.getElementById("brief-date");
-  const $filters = document.getElementById("filters");
   const $filterCategory = document.getElementById("filter-category");
   const $filterSource = document.getElementById("filter-source");
   const $filterScore = document.getElementById("filter-score");
   const $filterReset = document.getElementById("filter-reset");
   const $archiveList = document.getElementById("archive-list");
-  const layerEls = {
-    daily:   document.getElementById("layer-daily"),
-    weekly:  document.getElementById("layer-weekly"),
-    monthly: document.getElementById("layer-monthly"),
-  };
-  const $layerButtons = document.querySelectorAll(".layer-btn");
+  const $daily = document.getElementById("layer-daily");
 
   // --- State ---
   let brief = null;
-  let activeLayer = "daily";
 
   // --- Helpers ---
   function el(tag, attrs, children) {
@@ -63,20 +56,7 @@
 
   function scorePill(score) {
     if (typeof score !== "number") return null;
-    return el("span", { class: "item-score", title: "Score" }, "★ " + score + "/10");
-  }
-
-  // --- Layer switching ---
-  function setLayer(name) {
-    activeLayer = name;
-    Object.keys(layerEls).forEach(function (k) {
-      layerEls[k].classList.toggle("hidden", k !== name);
-    });
-    $layerButtons.forEach(function (btn) {
-      btn.classList.toggle("active", btn.dataset.layer === name);
-    });
-    // Filters are only meaningful for the daily layer.
-    $filters.classList.toggle("hidden", name !== "daily");
+    return el("span", { class: "item-score", title: "Relevance score (source authority + recency + cross-source momentum)" }, "★ " + score + "/10");
   }
 
   // --- Daily layer ---
@@ -110,7 +90,7 @@
   }
 
   function renderDaily() {
-    const root = layerEls.daily;
+    const root = $daily;
     root.innerHTML = "";
     const daily = brief.daily || {};
     const themes = Array.isArray(daily.themes) ? daily.themes : [];
@@ -148,104 +128,6 @@
     if (totalShown === 0) {
       root.appendChild(el("p", { class: "empty" }, "No items match the current filters."));
     }
-  }
-
-  // --- Weekly hypes layer ---
-  function renderHype(h) {
-    const cats = (h.categories || []).map(function (c) {
-      return el("span", { class: "pill" }, c);
-    });
-    const head = el("div", { class: "item-head" }, [
-      el("h3", { class: "card-title" }, h.title || "Untitled hype"),
-      scorePill(h.score),
-    ]);
-    const signals = Array.isArray(h.signals) && h.signals.length
-      ? el("ul", { class: "signals" }, h.signals.map(function (s) {
-          return el("li", null, s);
-        }))
-      : null;
-
-    return el("article", { class: "card" }, [
-      head,
-      h.description ? el("p", { class: "card-body" }, h.description) : null,
-      h.why_it_matters
-        ? el("p", { class: "card-aside" }, [
-            el("strong", null, "Why it matters: "),
-            document.createTextNode(h.why_it_matters),
-          ])
-        : null,
-      signals
-        ? el("div", { class: "card-section" }, [
-            el("h4", { class: "card-section-title" }, "Signals"),
-            signals,
-          ])
-        : null,
-      cats.length ? el("div", { class: "item-meta" }, cats) : null,
-    ]);
-  }
-
-  function renderWeekly() {
-    const root = layerEls.weekly;
-    root.innerHTML = "";
-    const hypes = Array.isArray(brief.weekly_hypes) ? brief.weekly_hypes : [];
-    if (hypes.length === 0) {
-      root.appendChild(el("p", { class: "empty" }, "No weekly hypes yet — they'll show up after a few days of data."));
-      return;
-    }
-    const intro = el("p", { class: "layer-intro" },
-      "Patterns gaining traction across multiple sources this week.");
-    root.appendChild(intro);
-    hypes.forEach(function (h) { root.appendChild(renderHype(h)); });
-  }
-
-  // --- Monthly trends layer ---
-  function renderTrend(t) {
-    const head = el("div", { class: "item-head" }, [
-      el("h3", { class: "card-title" }, t.title || "Untitled trend"),
-      scorePill(t.score),
-    ]);
-    const evidence = Array.isArray(t.evidence) && t.evidence.length
-      ? el("ul", { class: "signals" }, t.evidence.map(function (s) {
-          return el("li", null, s);
-        }))
-      : null;
-
-    return el("article", { class: "card" }, [
-      head,
-      t.description ? el("p", { class: "card-body" }, t.description) : null,
-      t.cultural_shift
-        ? el("p", { class: "card-aside" }, [
-            el("strong", null, "Cultural shift: "),
-            document.createTextNode(t.cultural_shift),
-          ])
-        : null,
-      evidence
-        ? el("div", { class: "card-section" }, [
-            el("h4", { class: "card-section-title" }, "Evidence"),
-            evidence,
-          ])
-        : null,
-      t.implications
-        ? el("div", { class: "card-section" }, [
-            el("h4", { class: "card-section-title" }, "Implications"),
-            el("p", { class: "card-body" }, t.implications),
-          ])
-        : null,
-    ]);
-  }
-
-  function renderMonthly() {
-    const root = layerEls.monthly;
-    root.innerHTML = "";
-    const trends = Array.isArray(brief.monthly_trends) ? brief.monthly_trends : [];
-    if (trends.length === 0) {
-      root.appendChild(el("p", { class: "empty" }, "No monthly trends yet — they'll show up after several days of data."));
-      return;
-    }
-    const intro = el("p", { class: "layer-intro" },
-      "Macro shifts in popular culture — patterns that span weeks or months.");
-    root.appendChild(intro);
-    trends.forEach(function (t) { root.appendChild(renderTrend(t)); });
   }
 
   // --- Intro + filters population ---
@@ -305,8 +187,6 @@
       renderIntro();
       populateFilters();
       renderDaily();
-      renderWeekly();
-      renderMonthly();
     } catch (err) {
       console.error("Failed to load latest.json", err);
       $intro.innerHTML = "";
@@ -336,9 +216,6 @@
   }
 
   // --- Wiring ---
-  $layerButtons.forEach(function (btn) {
-    btn.addEventListener("click", function () { setLayer(btn.dataset.layer); });
-  });
   [$filterCategory, $filterSource, $filterScore].forEach(function (el) {
     el.addEventListener("change", renderDaily);
   });
@@ -350,7 +227,6 @@
   });
 
   // --- Boot ---
-  setLayer("daily");
   loadLatest();
   loadArchive();
 })();
