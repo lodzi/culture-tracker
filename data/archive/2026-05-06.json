@@ -2,33 +2,85 @@
   "date": "2026-05-06",
   "daily": {
     "title": "Culture Tracker",
-    "intro": "25 trending topics · 75 articles from 24 sources · 12 across 3+ sources · last 24h.",
+    "intro": "25 trending topics · 95 articles from 38 sources · 20 across 3+ sources · last 24h.",
     "topics": [
       {
-        "label": "2026 · Photos",
+        "label": "2026 · Balance",
         "keywords": [
           "2026",
-          "photos"
+          "balance"
         ],
-        "sourceCount": 6,
+        "sourceCount": 15,
         "sources": [
+          "Billboard",
           "Consequence",
           "Coolhunting",
+          "DIY Magazine",
+          "Design Boom",
           "Eurogamer",
+          "GQ",
+          "IndieWire",
+          "NME",
+          "Quartz",
+          "Sneaker News",
           "The Verge",
           "Wired",
+          "Yanko Design",
           "i-D"
         ],
         "categories": [
+          "fashion",
+          "art",
           "internet",
           "music",
           "gaming",
+          "film",
           "culture",
           "trends"
         ],
         "trending": true,
         "fresh": true,
         "items": [
+          {
+            "source": "IndieWire",
+            "category": "film",
+            "title": "Sundance 2026 Movies Sold So Far: Mubi Buys Grand Jury Prize Winner ‘Nuisance Bear’",
+            "url": "https://www.indiewire.com/news/festivals/sundance-2026-movies-sold-so-far-1235174095/",
+            "published": "2026-05-06T21:06:40.000Z",
+            "summary": "Directors Gabriela Osio Vanden and Jack Weisman spent years in subzero Arctic conditions filming polar bears that have lost their fear of humans.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Quartz",
+            "category": "trends",
+            "title": "Lucid is pulling its 2026 production guidance after a seat defect halted Gravity SUV deliveries",
+            "url": "https://qz.com/lucid-earnings-miss-production-guidance-gravity-suv-seat-defect-050626",
+            "published": "2026-05-06T20:31:06.000Z",
+            "summary": "A supplier issue that caused a stop-sale of the Gravity SUV cost Lucid more than $200 million in Q1 revenue",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "Q1 2026 Earnings: Here’s What Every Music Company Made (Updating)",
+            "url": "https://www.billboard.com/lists/music-company-earnings-q1-2026-what-spotify-umg-hybe-made/",
+            "published": "2026-05-06T19:36:00.000Z",
+            "summary": "A roundup of Spotify, Live Nation, Universal Music Group and other music companies' earnings results for the quarter ending March 31, 2026.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Sneaker News",
+            "category": "fashion",
+            "title": "The New Balance 1890 “Outerspace” Drops June 2026",
+            "url": "https://sneakernews.com/2026/05/06/new-balance-1890-outerspace-u189052j/",
+            "published": "2026-05-06T19:30:03.000Z",
+            "summary": "It’s all gas, no brakes for the New Balance 1890 in 2026, led by collabs with Joe Freshgoods, JJJJound, and multiple rounds from Queens cultural... © Sneaker News, 2026. | Permalink No comment del.icio.us The post The New Balance 1890 \"Outerspace\" Drops June 2026 Sneaker News.…",
+            "score": 10,
+            "trending": true
+          },
           {
             "source": "Consequence",
             "category": "music",
@@ -50,6 +102,16 @@
             "trending": true
           },
           {
+            "source": "Sneaker News",
+            "category": "fashion",
+            "title": "Ronnie Fieg Reveals Kith x New Balance Collection For Summer 2026",
+            "url": "https://sneakernews.com/2026/05/06/kith-new-balance-hollywood/",
+            "published": "2026-05-06T17:30:23.000Z",
+            "summary": "Ronnie Fieg’s fashion empire continues to evolve. Kith is set to cut the ribbon on a redesigned West Hollywood flagship years in the making, complete... © Sneaker News, 2026. | Permalink No comment del.icio.us The post Ronnie Fieg Reveals Kith x New Balance Collection For Summer…",
+            "score": 10,
+            "trending": true
+          },
+          {
             "source": "Wired",
             "category": "internet",
             "title": "Best Carry-On Suitcases (2026): Away, Rimowa, Tumi",
@@ -58,45 +120,521 @@
             "summary": "I feel about luggage carousels the same way I feel about head lice: avoid at all costs. These are the best carry-on suitcases for those who never want to check a bag again.",
             "score": 10,
             "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Turner · Founder",
+        "keywords": [
+          "turner",
+          "founder"
+        ],
+        "sourceCount": 5,
+        "sources": [
+          "Adweek",
+          "Deadline",
+          "Fast Company",
+          "The Hollywood Reporter",
+          "Variety"
+        ],
+        "categories": [
+          "film",
+          "marketing",
+          "trends"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Ted Turner Was “Generational Entrepreneur,” David Zaslav Asserts (With A Nod To Mentor John Malone) Of CNN Founder On WBD Q1 Earnings Call",
+            "url": "https://deadline.com/2026/05/david-zaslav-ted-turner-tribute-wbd-earnings-1236883603/",
+            "published": "2026-05-06T21:04:51.000Z",
+            "summary": "If you thought David Zaslav had said all he had to say on the life and death of CNN founder Ted Turner today in his memo to Warner Bros Discovery staff earlier Wednesday, think again. “Ted was a generational entrepreneur, someone who believed deeply in the power of ideas and in…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Jane Fonda Posts Emotional Tribute To Ted Turner: “I Loved Ted With All My Heart”",
+            "url": "https://deadline.com/2026/05/jane-fonda-ted-turner-tribute-1236883612/",
+            "published": "2026-05-06T20:58:11.000Z",
+            "summary": "Jane Fonda has posted a lengthy and emotional Instagram remembrance of her ex-husband Ted Turner. “I loved Ted with all my heart,” she writes. See the entire statement below. Introducing the statement as “My immediate thoughts about Ted,” Fonda writes, “He swept into my life, a…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "Ted Turner and Rupert Murdoch: A Media Feud for the Ages",
+            "url": "https://variety.com/2026/tv/news/ted-turner-rupert-murdoch-feud-history-cnn-fox-news-1236739792/",
+            "published": "2026-05-06T20:34:21.000Z",
+            "summary": "When the news broke Wednesday that Ted Turner, the renowned media and sports mogul, had died at the age of 87, leading voices in the media and entertainment world showered praise upon his legacy. “He believed deeply in the power of ideas, in doing things differently and in…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Jane Fonda On Ted Turner’s TCM Legacy: “We Need To Know What The Greats Were Like”",
+            "url": "https://deadline.com/2026/05/jane-fonda-ted-turner-tcm-legacy-video-interview-1236883533/",
+            "published": "2026-05-06T20:25:08.000Z",
+            "summary": "Jane Fonda and Ted Turner were a 1990s power couple, having gotten together months after she and prominent California politician Tom Hayden ended their 17-year marriage. The two-time Oscar winner has yet to weigh in publicity about Turner’s death Wednesday at 87, but she talked…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "Trump Asserts Ted Turner Was “Devastated” CNN “Became Woke,” Says “Maybe” Ellisons Can Bring Back Brand’s “Credibility and Glory”",
+            "url": "https://www.hollywoodreporter.com/tv/tv-news/trump-ted-turner-cnn-woke-ellison-bring-back-credibility-1236588178/",
+            "published": "2026-05-06T19:55:14.000Z",
+            "summary": "The media mogul, who founded CNN and Turner Networks, died Wednesday at 87.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "Rupert Murdoch Lauds CNN Founder Ted Turner: ‘A Great American and Friend’",
+            "url": "https://variety.com/2026/tv/news/rupert-murdoch-cnn-ted-turner-great-american-friend-1236739714/",
+            "published": "2026-05-06T19:13:51.000Z",
+            "summary": "Rupert Murdoch and Ted Turner were business rivals — and their Fox News and CNN news networks remain fierce competitors. But Murdoch and Turner, after many years of a public and bitter feud, eventually became friends. In a statement following news about Turner’s death, Murdoch…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Fast Company",
+            "category": "trends",
+            "title": "Ted Turner, the founder of CNN, dies at 87",
+            "url": "https://www.fastcompany.com/91537887/ted-turner-cnn-death-obit",
+            "published": "2026-05-06T17:30:00.000Z",
+            "summary": "Ted Turner, a brash television pioneer who raced yachts, owned huge chunks of the American West and transformed the news business by launching CNN and introducing the 24-hour cable news cycle, died Wednesday. He was 87. Turner died surrounded by his family, according to Turner…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Adweek",
+            "category": "marketing",
+            "title": "CNN Founder Ted Turner Dies at 87",
+            "url": "https://www.adweek.com/tvnewser/cnn-founder-ted-turner-dies-at-87/",
+            "published": "2026-05-06T11:21:35.000Z",
+            "summary": "Turner pioneered the 24-hour news network, fundamentally changing the news industry.",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Trailer · Comedy",
+        "keywords": [
+          "trailer",
+          "comedy"
+        ],
+        "sourceCount": 5,
+        "sources": [
+          "Eurogamer",
+          "GQ",
+          "IndieWire",
+          "Polygon",
+          "Yanko Design"
+        ],
+        "categories": [
+          "fashion",
+          "art",
+          "gaming",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Polygon",
+            "category": "gaming",
+            "title": "New Minecraft documentary gets first teaser trailer",
+            "url": "https://www.polygon.com/battle-of-the-borough-trailer/",
+            "published": "2026-05-06T20:37:43.000Z",
+            "summary": "Battle of the Boroughs chronicles NYC public school kids competing in esports to understand civic policy. It's wild.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "IndieWire",
+            "category": "film",
+            "title": "‘Deli Boys’ Season 2 Trailer: Hulu’s Acclaimed Crime Comedy Returns for Sophomore Outing",
+            "url": "https://www.indiewire.com/news/trailers/deli-boys-season-2-trailer-1235192428/",
+            "published": "2026-05-06T17:00:00.000Z",
+            "summary": "The second season of the sitcom from creator Abdullah Saeed releases May 28.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "IndieWire",
+            "category": "film",
+            "title": "‘Maddie’s Secret’ Trailer: John Early Is a Food Influencer with a Secret in His Dark Comedy Directing Debut",
+            "url": "https://www.indiewire.com/news/trailers/maddies-secret-trailer-john-early-dark-comedy-debut-1235192556/",
+            "published": "2026-05-06T16:23:04.000Z",
+            "summary": "And the most interesting thing about Early's first directing effort isn't that he's playing a woman, either.",
+            "score": 10,
+            "trending": true
           },
           {
             "source": "Eurogamer",
             "category": "gaming",
-            "title": "Forget Wordle, the best daily puzzle of 2026 is a fiendish Pokémon-based cryptic crossword game",
-            "url": "https://www.eurogamer.net/pokecryptic-crossword-puzzle-good",
-            "published": "2026-05-06T13:09:01.000Z",
-            "summary": "Over the past few months, I have developed a taste for cryptic crosswords. Different to normal crosswords, these puzzles revolve around clues that are self-contained miniature riddles, of sorts, that prioritise wordplay and brain-teasing, rather than just giving you a direct…",
+            "title": "Battlefield 6 Season 3 kicks off next week, and its gameplay trailer bets big on Battlefield 4 nostalgia",
+            "url": "https://www.eurogamer.net/battlefield-6-season-3-trailer",
+            "published": "2026-05-06T15:28:55.000Z",
+            "summary": "Despite the usual friction with a demanding core player base and recent layoffs, Battlefield 6 is trucking along fine and in a much better spot than Battlefield 2042 was at the same time during its life cycle. Next week, it's time for Season 3, and its gameplay trailer doubles…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Yanko Design",
+            "category": "art",
+            "title": "This Tiny Bike Trailer Secretly Slides Out Into a 2-Person Camper",
+            "url": "https://www.yankodesign.com/2026/05/06/this-tiny-bike-trailer-secretly-slides-out-into-a-2-person-camper/?utm_source=rss&utm_medium=rss&utm_campaign=this-tiny-bike-trailer-secretly-slides-out-into-a-2-person-camper",
+            "published": "2026-05-06T15:20:06.000Z",
+            "summary": "This Tiny Bike Trailer Secretly Slides Out Into a 2-Person Camper Bike-towable camping trailers have their fan base. Such living on the move facilities are redefining adventures for cyclists, especially in Europe, with their versatility and...",
             "score": 9,
             "trending": true
           },
           {
-            "source": "Wired",
-            "category": "internet",
-            "title": "7 Best Digital Notebooks (2026): reMarkable, Kobo, Kindle",
-            "url": "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens/",
-            "published": "2026-05-06T12:35:00.000Z",
-            "summary": "These nifty tools combine the ease of jotting notes by hand with the power of saving them digitally.",
+            "source": "GQ",
+            "category": "fashion",
+            "title": "‘The Odyssey’ Trailer's Accents Aren't Actually That Weird",
+            "url": "https://www.gq.com/story/the-odyssey-trailer-accents",
+            "published": "2026-05-06T12:00:00.000Z",
+            "summary": "Did the ancient Greeks all talk like Matt Damon? Probably not. But the ubiquity of the British accent in films about the distant past is a more modern convention than many people realize.",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Director · Planet",
+        "keywords": [
+          "director",
+          "planet"
+        ],
+        "sourceCount": 5,
+        "sources": [
+          "Business of Fashion",
+          "Deadline",
+          "Eurogamer",
+          "The Hollywood Reporter",
+          "Variety"
+        ],
+        "categories": [
+          "fashion",
+          "gaming",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "‘Fantastic Four: First Steps’ Director Tackling New ‘Planet of the Apes’ Movie",
+            "url": "https://www.hollywoodreporter.com/movies/movie-news/matt-shakman-new-planet-of-the-apes-movie-1236588377/",
+            "published": "2026-05-06T20:57:57.000Z",
+            "summary": "And 'First Steps' co-writer Josh Friedman is on writing duties.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "New ‘Planet of the Apes’ Movie in the Works With ‘Fantastic Four: First Steps’ Director",
+            "url": "https://variety.com/2026/film/news/planet-of-the-apes-new-movie-fantastic-four-director-matt-shakman-1236739815/",
+            "published": "2026-05-06T20:16:13.000Z",
+            "summary": "Director Matt Shakman is bouncing from Marvel’s sacred timeline to “The Planet of the Apes,” as the director will shepherd a new film in the sci-fi franchise for 20th Century Studios. Shakman helmed last year’s “The Fantastic Four: First Steps” for Disney’s superhero label, and…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "New ‘Planet Of The Apes’ Movie At 20th Century To Be Directed By ‘Fantastic Four: First Steps’ Director Matt Shakman; Josh Friedman Writing",
+            "url": "https://deadline.com/2026/05/planet-of-the-apes-movie-matt-shakman-fantastic-four-writer-1236883151/",
+            "published": "2026-05-06T20:00:00.000Z",
+            "summary": "EXCLUSIVE: After helping relaunch Marvel’s Fantastic Four franchise with Fantastic Four: First Steps, director Matt Shakman and writer Josh Friedman are getting a shot at another high-profile IP. Sources tell Deadline that Shakman is set to direct an untitled Planet of the Apes…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Eurogamer",
+            "category": "gaming",
+            "title": "Paranormasight director Takanari Ishiyama believes high-quality indie games are helping smaller projects from big publishers",
+            "url": "https://www.eurogamer.net/paranormasight-director-on-getting-smaller-games-made",
+            "published": "2026-05-06T12:01:02.000Z",
+            "summary": "The two Paranormasight games, The Seven Mysteries of Honjo and The Mermaid's Curse, are among the most celebrated horror visual novels in recent years. Though it might be shocking to many, Square Enix is behind their development and publishing, and now their main creative is…",
             "score": 9,
             "trending": true
           },
           {
-            "source": "Coolhunting",
+            "source": "Business of Fashion",
+            "category": "fashion",
+            "title": "A.P.C. Names New Artistic Director Amid Flux",
+            "url": "https://www.businessoffashion.com/news/luxury/apc-names-new-artistic-director-amid-flux/",
+            "published": "2026-05-06T04:33:00.000Z",
+            "summary": "Ludivine Poiblanc is taking the creative reins at the brand founded by Jean Touitou six months after majority shareholder L Catterton installed Stephanie Phair as president.",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Launches · Tasha",
+        "keywords": [
+          "launches",
+          "tasha"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "Adweek",
+          "Billboard",
+          "DIY Magazine",
+          "Pitchfork News"
+        ],
+        "categories": [
+          "music",
+          "marketing"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "Longtime Atlantic A&R Cody Verdecias Launches Deep Love Recordings as a Place to ‘Re-establish’ Alternative Music",
+            "url": "https://www.billboard.com/pro/deep-love-recordings-cody-verdecias-atlantic-alternative/",
+            "published": "2026-05-06T19:00:00.000Z",
+            "summary": "Focused on the next era of alternative music and its subcultures, the new label is a joint venture between Verdecias and Atlantic Music Group.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Pitchfork News",
+            "category": "music",
+            "title": "Tasha Launches Album With New Song Featuring L’Rain and Jamila Woods",
+            "url": "https://pitchfork.com/news/tasha-launches-album-with-a-song-featuring-lrain-and-jamila-woods/",
+            "published": "2026-05-06T14:53:06.000Z",
+            "summary": "“Spring” and another track, “Clarion,” lead You Are Spring",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "DIY Magazine",
+            "category": "music",
+            "title": "Southbank Centre launches prize draw for Harry Styles’ fundraising Meltdown Festival show&nbsp;",
+            "url": "https://diymag.com/news/southbank-centre-prize-draw-harry-styles-meltdown-festival",
+            "published": "2026-05-06T12:11:00.000Z",
+            "summary": "The pop superstar is the curator of this year’s special festival programme.",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Adweek",
+            "category": "marketing",
+            "title": "Ziff Davis Buys Four Brands From Recurrent Ventures, Launches a Lifestyle Group",
+            "url": "https://www.adweek.com/media/ziff-davis-recurrent-ventures-dwell-domino-business-home-popsci/",
+            "published": "2026-05-06T09:00:00.000Z",
+            "summary": "The company acquired Dwell, Domino, Business of Home, and PopSci, extending a multiyear roll-up as competitors pull back from the open web.",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Million · Bags",
+        "keywords": [
+          "million",
+          "bags"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "404 Media",
+          "Fast Company",
+          "Highsnobiety",
+          "Polygon"
+        ],
+        "categories": [
+          "fashion",
+          "internet",
+          "gaming",
+          "trends"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Highsnobiety",
+            "category": "fashion",
+            "title": "Good Bags Have One Million Pockets",
+            "url": "https://www.highsnobiety.com/p/potr-dissection/",
+            "published": "2026-05-06T20:22:00.000Z",
+            "summary": "Can a bag ever have too many pockets? DISSECTION, POTR’s uber utilitarian spring 2026 collection, offers a resounding “No.”",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Polygon",
+            "category": "gaming",
+            "title": "A book with a new Brandon Sanderson story raises $1 million on Kickstarter",
+            "url": "https://www.polygon.com/brandon-sanderson-unbroken-kickstarter/",
+            "published": "2026-05-06T17:15:27.000Z",
+            "summary": "Unbroken: New Tales by Masters of Fantasy also includes work from Matt Dinniman, R.A. Salvatore, and Lev Grossman.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Fast Company",
             "category": "trends",
-            "title": "The iF Design Trend Report 2026 Trades Forecasts for Frameworks",
-            "url": "https://coolhunting.com/design/the-if-design-trend-report-2026-trades-forecasts-for-frameworks/",
-            "published": "2026-05-06T10:43:00.000Z",
-            "summary": "The fifth edition of the annual study moves past conventional forecasting, mapping the tension between emerging trends and their countertrends to argue for design as a form of connective intelligence The iF …",
-            "score": 8,
+            "title": "‘He put me in harm’s way’: Ken Griffin responds to Mamdani’s viral video of his $239 million NYC penthouse",
+            "url": "https://www.fastcompany.com/91537680/ken-griffin-citadel-ceo-billionaire-responds-to-zohran-mamdani-pied-a-terre-tax-viral-video-nyc-new-york-penthouse",
+            "published": "2026-05-06T17:00:00.000Z",
+            "summary": "Last month, New York City Mayor Zohran Mamdani celebrated Tax Day by making good on a campaign promise. “When I ran for mayor, I said I was going to tax the rich,” Mamdani said in a viral video posted to social media. “Today, we’re taxing the rich.” Mamdani went on to describe…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "404 Media",
+            "category": "internet",
+            "title": "Man Finds $1 Million Worth of Yu-Gi-Oh Cards in a Dumpster",
+            "url": "https://www.404media.co/man-finds-1-million-worth-of-yu-gi-oh-cards-in-a-dumpster/",
+            "published": "2026-05-06T13:21:59.000Z",
+            "summary": "It was already a sordid tale of online drama, blurry photographs, and erratic TikToks. Then his mom started posting.",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Sales · Lifts",
+        "keywords": [
+          "sales",
+          "lifts"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "404 Media",
+          "Business of Fashion",
+          "Kotaku",
+          "Variety"
+        ],
+        "categories": [
+          "fashion",
+          "internet",
+          "gaming",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "Miles Teller and Eddie Redmayne in Talks to Play Mismatched CIA Agents in Doug Liman Spy Thriller ‘Star One,’ CAA Launching Sales in Cannes (EXCLUSIVE)",
+            "url": "https://variety.com/2026/film/global/miles-tiller-eddie-redmayne-doug-liman-thriller-star-one-1236739814/",
+            "published": "2026-05-06T21:04:49.000Z",
+            "summary": "Miles Teller and Eddie Redmayne are in talks to star in “Star One,” a new spy thriller from Doug Liman set to launch at the market in Cannes. Liman — who recently wrapped AI thriller “Bitcoin” starring Casey Affleck and Pete Davidson — is directing from a script by David…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Kotaku",
+            "category": "gaming",
+            "title": "EA Sets A New $8 Billion Sales Record Just Months After Laying Off Battlefield 6 Developers",
+            "url": "https://kotaku.com/ea-sets-a-new-8-billion-sales-record-just-months-after-laying-off-battlefield-6-developers-2000693589",
+            "published": "2026-05-06T17:15:08.000Z",
+            "summary": "Also: Remedy made Control 2 for surprisingly cheap and we could get DLC for part three of Final Fantasy 7 Remake",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "404 Media",
+            "category": "internet",
+            "title": "Podcast: Flock Used Cameras at a Children’s Gymnastics Center for a Sales Pitch",
+            "url": "https://www.404media.co/podcast-flock-used-cameras-at-a-childrens-gymnastics-center-for-a-sales-pitch/",
+            "published": "2026-05-06T15:10:50.000Z",
+            "summary": "A Flock sales pitch; a retracted paper on ChatGPT; and Chinese interference in RightsCon.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Business of Fashion",
+            "category": "fashion",
+            "title": "Next Lifts Outlook as Strong Sales Offset Higher Iran Costs",
+            "url": "https://www.businessoffashion.com/news/retail/next-lifts-outlook-as-strong-sales-offset-higher-iran-costs/",
+            "published": "2026-05-06T09:49:56.000Z",
+            "summary": "Estimated costs related to the conflict in the Middle East tripled, with the UK retailer planning to mitigate them through measures including raising prices.",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Gala · Jimmy",
+        "keywords": [
+          "gala",
+          "jimmy"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "Billboard",
+          "Dazed",
+          "GQ",
+          "i-D"
+        ],
+        "categories": [
+          "fashion",
+          "music",
+          "culture"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "Sabrina Carpenter Says Singing With Stevie Nicks at Met Gala ‘Healed Many Things in Me’",
+            "url": "https://www.billboard.com/music/music-news/sabrina-carpenter-singing-with-stevie-nicks-met-gala-healed-1236240784/",
+            "published": "2026-05-06T19:19:32.000Z",
+            "summary": "The two stars sang Fleetwood Mac's \"Landslide\" at the star-studded event.",
+            "score": 10,
             "trending": true
           },
           {
             "source": "i-D",
             "category": "culture",
-            "title": "Your April 2026 in Photos",
-            "url": "https://i-d.co/article/your-april-2026-in-photos/",
-            "published": "2026-05-05T21:29:02.000Z",
-            "summary": "April meant returning home, getting married, birthdays, marathons, and finding UFOs.",
-            "score": 7,
+            "title": "Rashida Renée Ward Reviews the Met Gala Red Carpet",
+            "url": "https://i-d.co/article/rashida-renee-ward-reviews-the-met-gala-red-carpet-2026/",
+            "published": "2026-05-06T13:50:30.000Z",
+            "summary": "My personal favorite thing about the Met Gala is all of the rich people who don’t have to rely on fashion clout tokens to get a seat at a table, who pay fashion people exorbitant amounts of money to look good, then end up looking like crystal-encrusted doo doo instead. It’s…",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Dazed",
+            "category": "culture",
+            "title": "Audrey Nuna shares her first Met Gala beauty routine",
+            "url": "https://www.dazeddigital.com/beauty/article/70212/1/audrey-nuna-shares-her-first-met-gala-beauty-affirmations?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=audrey-nuna-shares-her-first-met-gala-beauty-routine",
+            "published": "2026-05-06T11:00:00.000Z",
+            "summary": "Read more it-girl beauty affirmations here. Choosing what to wear to your first Met Gala is a problem most of us won’t ever have to worry about, but it’s an exciting dilemma nonetheless. You want to be on theme and make an entrance – people refer to celebrities’ debut looks for…",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "GQ",
+            "category": "fashion",
+            "title": "Jimmy Butler’s Alo Yoga Hoodie-Tuxedo at the Met Gala Was a Wild Swing",
+            "url": "https://www.gq.com/story/jimmy-butler-met-gala-2026-alo-yoga-hoodie-suit",
+            "published": "2026-05-06T15:50:57.000Z",
+            "summary": "The Golden State forward brought the famous LA-based athleisure brand to fashion’s biggest night.",
+            "score": 8,
             "trending": true
           }
         ]
@@ -112,7 +650,7 @@
           "Consequence",
           "Eurogamer",
           "IndieWire",
-          "Polygon"
+          "Kotaku"
         ],
         "categories": [
           "music",
@@ -123,16 +661,6 @@
         "fresh": true,
         "items": [
           {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Mortal Kombat 2 review: A desperate apology to angry fans who hated the last movie",
-            "url": "https://www.polygon.com/mortal-kombat-2-review/",
-            "published": "2026-05-06T16:00:19.000Z",
-            "summary": "Mortal Kombat 2 is also a full-throated apology for the 2021 movie, in response to fan criticism over Cole Young and the lack of tournament fighting",
-            "score": 10,
-            "trending": true
-          },
-          {
             "source": "IndieWire",
             "category": "film",
             "title": "‘Mortal Kombat II’ Review: Not Even Kitana Can Save This Doomed IP from Another Film Fatality",
@@ -140,6 +668,16 @@
             "published": "2026-05-06T16:00:00.000Z",
             "summary": "Director Simon McQuoid returns with a muddy sequel that has its moments, just not enough of them.",
             "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Kotaku",
+            "category": "gaming",
+            "title": "Mortal Kombat Co-Creator Breaks Silence On The Box Office Showdown With Street Fighter",
+            "url": "https://kotaku.com/mortal-kombat-co-creator-breaks-silence-on-the-box-office-showdown-with-street-fighter-2000693625",
+            "published": "2026-05-06T20:38:32.000Z",
+            "summary": "Could we ever see Ryu in Mortal Kombat?",
+            "score": 9,
             "trending": true
           },
           {
@@ -165,22 +703,21 @@
         ]
       },
       {
-        "label": "Billion · Gamestop",
+        "label": "James · Marsden",
         "keywords": [
-          "billion",
-          "gamestop"
+          "james",
+          "marsden"
         ],
         "sourceCount": 4,
         "sources": [
-          "Adweek",
-          "Kotaku",
-          "Polygon",
-          "The Hollywood Reporter"
+          "Deadline",
+          "NME",
+          "The Hollywood Reporter",
+          "Variety"
         ],
         "categories": [
-          "gaming",
-          "film",
-          "marketing"
+          "music",
+          "film"
         ],
         "trending": true,
         "fresh": true,
@@ -188,41 +725,112 @@
           {
             "source": "The Hollywood Reporter",
             "category": "film",
-            "title": "Warner Bros. Discovery Lost $2.9 Billion in March Quarter — But That’s Mostly the Netflix Breakup Fee",
-            "url": "https://www.hollywoodreporter.com/business/business-news/warner-bros-discovery-lost-3-billion-to-netflix-first-quarter-1236588213/",
-            "published": "2026-05-06T20:05:00.000Z",
-            "summary": "Here's what you're getting, Paramount.",
+            "title": "Apple TV Greenlights Spy Thriller ‘Disavowed’ Starring James Marsden",
+            "url": "https://www.hollywoodreporter.com/tv/tv-news/james-marsden-apple-tv-disavowed-1236588287/",
+            "published": "2026-05-06T20:01:30.000Z",
+            "summary": "The series comes from 'Iron Man' writers Art Marcum and Matt Holloway.",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "EA Sets A New $8 Billion Sales Record Just Months After Laying Off Battlefield 6 Developers",
-            "url": "https://kotaku.com/ea-sets-a-new-8-billion-sales-record-just-months-after-laying-off-battlefield-6-developers-2000693589",
-            "published": "2026-05-06T17:15:08.000Z",
-            "summary": "Also: Remedy made Control 2 for surprisingly cheap and we could get DLC for part three of Final Fantasy 7 Remake",
+            "source": "Variety",
+            "category": "film",
+            "title": "James Marsden to Lead Apple TV Thriller Series ‘Disavowed’ From ‘Iron Man’ Writers",
+            "url": "https://variety.com/2026/tv/news/james-marsden-apple-tv-series-disavowed-disavowed-1236739752/",
+            "published": "2026-05-06T20:00:00.000Z",
+            "summary": "James Marsden is set to star in the thriller series “Disavowed” at Apple TV, Variety has learned. The logline for the show states that it follows “legendary CIA Case Officer Brad Griffin (Marsden), who is abruptly fired in the middle of a global hunt for an elusive assassin…",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "GameStop is selling $5,000 Pokémon packs after baffling $56 billion eBay bid",
-            "url": "https://www.polygon.com/gamestop-5k-pokemon-neutronium-power-packs-afford-ebay/",
-            "published": "2026-05-06T16:02:38.000Z",
-            "summary": "GameStop needs to raise $56 billion in order to afford its proposed acquisition, and the road there involves Pokémon gambling",
+            "source": "Deadline",
+            "category": "film",
+            "title": "James Marsden Stars In ‘Disavowed’ Thriller Series Ordered By Apple TV From Art Marcum, Matt Holloway & Blue Marble",
+            "url": "https://deadline.com/2026/05/james-marsden-disavowed-apple-series-art-marcum-matt-holloway-1236883424/",
+            "published": "2026-05-06T20:00:00.000Z",
+            "summary": "Apple TV has greenlighted Disavowed, an action thriller series starring and executive produced by James Marsden (Paradise). The show, created by Art Marcum & Matt Holloway (Uncharted) based on an original idea by them, comes from Apple Studios and Blue Marble Pictures, the…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "NME",
+            "category": "music",
+            "title": "Blur’s Alex James downplays Glastonbury as “a gory drugs bender”: “You’d think it’s the only festival in the world”",
+            "url": "https://www.nme.com/news/music/blurs-alex-james-downplays-glastonbury-as-a-gory-drugs-bender-youd-think-its-the-only-festival-in-the-world-3944269?utm_source=rss&utm_medium=rss&utm_campaign=blurs-alex-james-downplays-glastonbury-as-a-gory-drugs-bender-youd-think-its-the-only-festival-in-the-world",
+            "published": "2026-05-06T11:26:51.000Z",
+            "summary": "He said that others like Roskilde in Denmark which are “underrated” in comparison The post Blur’s Alex James downplays Glastonbury as “a gory drugs bender”: “You’d think it’s the only festival in the world” appeared first on NME.",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Tour · Olivia",
+        "keywords": [
+          "tour",
+          "olivia"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Consequence",
+          "NME",
+          "Pitchfork News"
+        ],
+        "categories": [
+          "music"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Pitchfork News",
+            "category": "music",
+            "title": "horsegiirL Is Going on Tour This Fall",
+            "url": "https://pitchfork.com/news/horsegiirl-is-going-on-tour-this-fall/",
+            "published": "2026-05-06T17:53:11.000Z",
+            "summary": "The musician will gallop through Los Angeles, New York, Paris, and Berlin.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "Olivia Rodrigo at Barclays: How to Get Tickets for “The Unraveled Tour” in Brooklyn",
+            "url": "https://consequence.net/2026/05/olivia-rodrigo-2027-the-unraveled-tour-brooklyn-how-to-get-tickets/",
+            "published": "2026-05-06T17:34:41.000Z",
+            "summary": "Rodrigo will perform six at Barclays Center in Brooklyn in February 2027. Learn how to get tickets here. Olivia Rodrigo at Barclays: How to Get Tickets for “The Unraveled Tour” in Brooklyn Consequence Staff",
             "score": 9,
             "trending": true
           },
           {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "Advertisers Spent $1 Billion on Criteo in Q1, Up 8% Year-Over-Year",
-            "url": "https://www.adweek.com/commerce/advertisers-spent-1-billion-on-criteo-in-q1-up-8-year-over-year/",
-            "published": "2026-05-06T09:50:20.000Z",
-            "summary": "Still, Criteo's growth numbers remain plagued by two major client losses.",
-            "score": 8
+            "source": "Consequence",
+            "category": "music",
+            "title": "Experiencing the BTS Magic at the “ARIRANG WORLD TOUR” Kickoff in Tampa: Stanning BTS Podcast",
+            "url": "https://consequence.net/2026/05/bts-arirang-tour-tampa-review-podcast/",
+            "published": "2026-05-06T16:12:55.000Z",
+            "summary": "Kayla and Bethany report back on their unforgettable Florida trip to see BTS return to the stage. Experiencing the BTS Magic at the “ARIRANG WORLD TOUR” Kickoff in Tampa: Stanning BTS Podcast Ben Kaye",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "NME",
+            "category": "music",
+            "title": "Olivia Rodrigo adds extra London shows to 2027 UK tour due to demand",
+            "url": "https://www.nme.com/news/music/olivia-rodrigo-adds-extra-london-shows-to-tour-buy-tickets-3944306?utm_source=rss&utm_medium=rss&utm_campaign=olivia-rodrigo-adds-extra-london-shows-to-tour-buy-tickets",
+            "published": "2026-05-06T14:42:05.000Z",
+            "summary": "New dates have also been added in Los Angeles, Brooklyn, Paris and more The post Olivia Rodrigo adds extra London shows to 2027 UK tour due to demand appeared first on NME.",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Pitchfork News",
+            "category": "music",
+            "title": "Lambchop Line Up Tour and Justin Vernon-Assisted Album Punching the Clown",
+            "url": "https://pitchfork.com/news/lambchop-line-up-tour-and-justin-vernon-assisted-album-punching-the-clown/",
+            "published": "2026-05-06T14:35:48.000Z",
+            "summary": "“Weakened” leads the excellently named LP, featuring Vernon on the banjo",
+            "score": 9,
+            "trending": true
           }
         ]
       },
@@ -288,53 +896,265 @@
         ]
       },
       {
-        "label": "Million · Bags",
+        "label": "Rock · Songs",
         "keywords": [
-          "million",
-          "bags"
+          "rock",
+          "songs"
         ],
         "sourceCount": 3,
         "sources": [
-          "404 Media",
-          "Highsnobiety",
-          "Polygon"
+          "Billboard",
+          "NME",
+          "Stereogum"
         ],
         "categories": [
-          "fashion",
-          "internet",
-          "gaming"
+          "music"
         ],
         "trending": true,
         "fresh": true,
         "items": [
           {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "Good Bags Have One Million Pockets",
-            "url": "https://www.highsnobiety.com/p/potr-dissection/",
-            "published": "2026-05-06T20:22:00.000Z",
-            "summary": "Can a bag ever have too many pockets? DISSECTION, POTR’s uber utilitarian spring 2026 collection, offers a resounding “No.”",
+            "source": "Stereogum",
+            "category": "music",
+            "title": "Jeff Tweedy Wrote A Rock ‘N’ Roll-Themed NYT Crossword",
+            "url": "https://stereogum.com/2498107/jeff-tweedy-wrote-a-rock-n-roll-themed-nyt-crossword/news/",
+            "published": "2026-05-06T20:18:31.000Z",
+            "summary": "This week Carole King, Diane Warren, and the Magnetic Fields' Stephin Merritt — all of whom appear on the New York Times' hotly-debated new list of the 30 Greatest Living American Songwriters — each wrote five-by-five mini puzzles for the publication's digital crossword section.…",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "A book with a new Brandon Sanderson story raises $1 million on Kickstarter",
-            "url": "https://www.polygon.com/brandon-sanderson-unbroken-kickstarter/",
-            "published": "2026-05-06T17:15:27.000Z",
-            "summary": "Unbroken: New Tales by Masters of Fantasy also includes work from Matt Dinniman, R.A. Salvatore, and Lev Grossman.",
+            "source": "Billboard",
+            "category": "music",
+            "title": "mgk & Fred Durst’s ‘Fix Ur Face’ Rules Hot Hard Rock Songs Chart",
+            "url": "https://www.billboard.com/music/chart-beat/mgk-fred-durst-fix-ur-face-hot-hard-rock-songs-chart-1236240839/",
+            "published": "2026-05-06T19:27:29.000Z",
+            "summary": "Durst previously topped the ranking as frontman of Limp Bizkit.",
             "score": 10,
             "trending": true
           },
           {
-            "source": "404 Media",
-            "category": "internet",
-            "title": "Man Finds $1 Million Worth of Yu-Gi-Oh Cards in a Dumpster",
-            "url": "https://www.404media.co/man-finds-1-million-worth-of-yu-gi-oh-cards-in-a-dumpster/",
-            "published": "2026-05-06T13:21:59.000Z",
-            "summary": "It was already a sordid tale of online drama, blurry photographs, and erratic TikToks. Then his mom started posting.",
+            "source": "Billboard",
+            "category": "music",
+            "title": "Noah Kahan Swings Open ‘Doors’ to No. 1 on Hot Rock & Alternative Songs Chart",
+            "url": "https://www.billboard.com/music/chart-beat/noah-kahan-doors-number-1-hot-rock-alternative-songs-chart-1236240778/",
+            "published": "2026-05-06T19:01:33.000Z",
+            "summary": "Parent album The Great Divide also starts at No. 1 on Top Rock & Alternative Albums.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "NME",
+            "category": "music",
+            "title": "‘Devil May Cry’ season 2 soundtrack is full of ‘00s rock anthems",
+            "url": "https://www.nme.com/news/gaming-news/devil-may-cry-season-2-soundtrack-evanescence-gunship-korn-papa-roach-3944260?utm_source=rss&utm_medium=rss&utm_campaign=devil-may-cry-season-2-soundtrack-evanescence-gunship-korn-papa-roach",
+            "published": "2026-05-06T11:19:48.000Z",
+            "summary": "An original Papa Roach song will feature alongside classics from Korn, Evanescence and more The post ‘Devil May Cry’ season 2 soundtrack is full of ‘00s rock anthems appeared first on NME.",
             "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Earnings · Paramount",
+        "keywords": [
+          "earnings",
+          "paramount"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Quartz",
+          "The Hollywood Reporter",
+          "Variety"
+        ],
+        "categories": [
+          "film",
+          "trends"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Quartz",
+            "category": "trends",
+            "title": "Apollo Global Management's assets top $1 trillion as fee earnings hit a record",
+            "url": "https://qz.com/apollo-global-management-assets-trillion-fee-earnings-record-050626",
+            "published": "2026-05-06T20:40:45.000Z",
+            "summary": "Fee-related earnings jumped 30% to $728 million in the first quarter, while total inflows reached a record $115 billion",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "UFC’s New Pact With Paramount Skydance Lifts TKO’s Q1 Earnings",
+            "url": "https://variety.com/2026/tv/news/ufc-wwe-paramount-tko-q1-earnings-1236739826/",
+            "published": "2026-05-06T20:32:50.000Z",
+            "summary": "The UFC’s new licensing deal with Paramount Skydance helped boost TKO’s first quarter earnings as the pact with Paramount+ kicked in at the start of the year. TKO saw revenue for the quarter grow 26% year over year to $1.6 billion, while adjust earnings before interest, taxes…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "TKO Earnings and Income Rise as Paramount UFC Deal Kicks Into Gear",
+            "url": "https://www.hollywoodreporter.com/business/business-news/tko-earnings-rise-paramount-ufc-deal-1236588117/",
+            "published": "2026-05-06T20:14:14.000Z",
+            "summary": "The owner of UFC and WWE will expand its share buyback program.",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Weird · Native",
+        "keywords": [
+          "weird",
+          "native"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "NME",
+          "The Verge",
+          "Wired"
+        ],
+        "categories": [
+          "internet",
+          "music"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Wired",
+            "category": "internet",
+            "title": "Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird",
+            "url": "https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/",
+            "published": "2026-05-06T18:28:52.000Z",
+            "summary": "In an unexpected turn, the two companies signed a deal for Anthropic to use computing resources from Elon Musk’s xAI.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Verge",
+            "category": "internet",
+            "title": "Native Instruments Komplete 26 adds weird new synths and experimental piano sounds",
+            "url": "https://www.theverge.com/tech/925211/native-instruments-komplete-26-absynth-massive-kontakt",
+            "published": "2026-05-06T16:37:40.000Z",
+            "summary": "Komplete is a complete music production bundle even if you don’t spend $2,000. | Image: Native Instruments The latest version of Native Instruments' Komplete music production bundle is here with 62 new additions, including the wonderfully weird Absynth 6. Komplete 26 comes in…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "NME",
+            "category": "music",
+            "title": "Paul McCartney details nostalgic new album ‘The Boys Of Dungeon Lane’ at London listening event: “Memories are a weird thing”",
+            "url": "https://www.nme.com/news/music/paul-mccartney-the-boys-of-dungeon-lane-listening-event-abbey-road-3944274?utm_source=rss&utm_medium=rss&utm_campaign=paul-mccartney-the-boys-of-dungeon-lane-listening-event-abbey-road",
+            "published": "2026-05-06T12:55:09.000Z",
+            "summary": "The Beatles legend shared stories of his former bandmates and the work behind the new record, due out later this month, for lucky fans at Abbey Road Studios yesterday The post Paul McCartney details nostalgic new album ‘The Boys Of Dungeon Lane’ at London listening event:…",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Deal · Boosts",
+        "keywords": [
+          "deal",
+          "boosts"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Deadline",
+          "Variety",
+          "Wired"
+        ],
+        "categories": [
+          "internet",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Ari Emanuel’s TKO Group Holdings Posts Mixed Q1 Results As Paramount Rights Deal Boosts UFC",
+            "url": "https://deadline.com/2026/05/ari-emanuel-tko-group-holdings-q1-2026-earnings-1236883481/",
+            "published": "2026-05-06T20:06:04.000Z",
+            "summary": "TKO Group Holdings delivered mixed first-quarter earnings results Wednesday, meeting Wall Street analysts’ revenue expectations but falling a bit short on earnings per share. Total revenue at the Ari Emanuel-led sports and live entertainment company rose 26% from the year-ago…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "Warner Bros. Discovery Saw Q1 Streaming, Studios Boosts, But Paramount Deal Spurs Large Loss",
+            "url": "https://variety.com/2026/tv/news/warner-bros-discovery-q1-streaming-studios-paramount-loss-1236739794/",
+            "published": "2026-05-06T20:04:04.000Z",
+            "summary": "Warner Bros. Discovery’s deal to be acquired by Paramount Skydance is supposed to create a behemoth of a company that includes everything from the CBS television network to the “Lord of the Rings” franchise. But as Aragorn said in that massive epic, today is not that day. A…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Wired",
+            "category": "internet",
+            "title": "Trump’s Team Wants Him to Accept an Iran Deal He’s Already Rejected",
+            "url": "https://www.wired.com/story/trumps-team-wants-him-to-accept-an-iran-deal-hes-already-rejected/",
+            "published": "2026-05-06T19:32:03.000Z",
+            "summary": "As chaotic negotiations over the end of the Iran war continue, US negotiators think they have the framework for a deal in place. Now they just have to sell the president on it.",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Billion · Netflix",
+        "keywords": [
+          "billion",
+          "netflix"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Adweek",
+          "Deadline",
+          "The Hollywood Reporter"
+        ],
+        "categories": [
+          "film",
+          "marketing"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "WBD Sees $2.9 Billion Q1 Loss On M&A Charges Including Termination Fee Paramount Paid Netflix",
+            "url": "https://deadline.com/2026/05/warner-bros-discovery-q1-loss-termination-fee-paramount-netflix-1236882987/",
+            "published": "2026-05-06T20:10:56.000Z",
+            "summary": "Warner Bros. Discovery posted a whopping $2.9 billion first quarter loss that will likely be a one-time accounting blip, it hopes, since it includes the $2.8 billion termination fee that Paramount paid Netflix to swap places on the merger board. WBD said the “amount is…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "Warner Bros. Discovery Lost $2.9 Billion in March Quarter — But That’s Mostly the Netflix Breakup Fee",
+            "url": "https://www.hollywoodreporter.com/business/business-news/warner-bros-discovery-lost-3-billion-to-netflix-first-quarter-1236588213/",
+            "published": "2026-05-06T20:05:00.000Z",
+            "summary": "Here's what you're getting, Paramount.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Adweek",
+            "category": "marketing",
+            "title": "Advertisers Spent $1 Billion on Criteo in Q1, Up 8% Year-Over-Year",
+            "url": "https://www.adweek.com/commerce/advertisers-spent-1-billion-on-criteo-in-q1-up-8-year-over-year/",
+            "published": "2026-05-06T09:50:20.000Z",
+            "summary": "Still, Criteo's growth numbers remain plagued by two major client losses.",
+            "score": 8,
             "trending": true
           }
         ]
@@ -370,295 +1190,40 @@
             "trending": true
           },
           {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "The Secret Lair Goblin Storm deck is real, and it's packing a ton of value",
-            "url": "https://www.polygon.com/mtg-secret-lair-goblin-storm-leaks-confirmed/",
-            "published": "2026-05-06T18:00:19.000Z",
-            "summary": "Here's what to expect from Goblin Storm, the new Secret Lair Commander precon",
-            "score": 7
-          },
-          {
             "source": "Adweek",
             "category": "marketing",
             "title": "The Real WPP Story Is in the Margin, Not the Revenue",
             "url": "https://www.adweek.com/agencies/the-real-wpp-story-is-in-the-margin-not-the-revenue/",
             "published": "2026-05-06T08:00:00.000Z",
             "summary": "When WPP posted its first-quarter numbers last week, one line did all the talking.",
-            "score": 7
-          }
-        ]
-      },
-      {
-        "label": "Beauty · Influencers",
-        "keywords": [
-          "beauty",
-          "influencers"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Business of Fashion",
-          "Dazed",
-          "The Verge"
-        ],
-        "categories": [
-          "fashion",
-          "internet",
-          "culture"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "The best beauty tech you can still grab in time for Mother’s Day",
-            "url": "https://www.theverge.com/gadgets/923581/best-mothers-day-beauty-tech-gift-ideas-2026",
-            "published": "2026-05-06T16:30:00.000Z",
-            "summary": "If you’re looking to indulge mom this Mother’s Day, a gift that makes her feel a little more taken care of is a good place to start. Fortunately, if you’re looking for something to make her feel pampered, we know a thing or two about beauty tech, which can deliver on that front.…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Audrey Nuna shares her first Met Gala beauty routine",
-            "url": "https://www.dazeddigital.com/beauty/article/70212/1/audrey-nuna-shares-her-first-met-gala-beauty-affirmations?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=audrey-nuna-shares-her-first-met-gala-beauty-routine",
-            "published": "2026-05-06T11:00:00.000Z",
-            "summary": "Read more it-girl beauty affirmations here. Choosing what to wear to your first Met Gala is a problem most of us won’t ever have to worry about, but it’s an exciting dilemma nonetheless. You want to be on theme and make an entrance – people refer to celebrities’ debut looks for…",
             "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Business of Fashion",
-            "category": "fashion",
-            "title": "The Influencers That Make Men Shop for Beauty",
-            "url": "https://www.businessoffashion.com/articles/beauty/mens-beauty-grooming-influencers/",
-            "published": "2026-05-06T12:00:00.000Z",
-            "summary": "They’re more likely to be athletes, stylists or dermatologists than traditional content creators.",
-            "score": 8
-          }
-        ]
-      },
-      {
-        "label": "Director · Names",
-        "keywords": [
-          "director",
-          "names"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Business of Fashion",
-          "Eurogamer",
-          "Variety"
-        ],
-        "categories": [
-          "fashion",
-          "gaming",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "New ‘Planet of the Apes’ Movie in the Works With ‘Fantastic Four: First Steps’ Director",
-            "url": "https://variety.com/2026/film/news/planet-of-the-apes-new-movie-fantastic-four-director-matt-shakman-1236739815/",
-            "published": "2026-05-06T20:16:13.000Z",
-            "summary": "Director Matt Shakman is bouncing from Marvel’s sacred timeline to “The Planet of the Apes,” as the director will shepherd a new film in the sci-fi franchise for 20th Century Studios. Shakman helmed last year’s “The Fantastic Four: First Steps” for Disney’s superhero label, and…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Eurogamer",
-            "category": "gaming",
-            "title": "Paranormasight director Takanari Ishiyama believes high-quality indie games are helping smaller projects from big publishers",
-            "url": "https://www.eurogamer.net/paranormasight-director-on-getting-smaller-games-made",
-            "published": "2026-05-06T12:01:02.000Z",
-            "summary": "The two Paranormasight games, The Seven Mysteries of Honjo and The Mermaid's Curse, are among the most celebrated horror visual novels in recent years. Though it might be shocking to many, Square Enix is behind their development and publishing, and now their main creative is…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Business of Fashion",
-            "category": "fashion",
-            "title": "A.P.C. Names New Artistic Director Amid Flux",
-            "url": "https://www.businessoffashion.com/news/luxury/apc-names-new-artistic-director-amid-flux/",
-            "published": "2026-05-06T04:33:00.000Z",
-            "summary": "Ludivine Poiblanc is taking the creative reins at the brand founded by Jean Touitou six months after majority shareholder L Catterton installed Stephanie Phair as president.",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "David · Chipperfield",
-        "keywords": [
-          "david",
-          "chipperfield"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Dezeen",
-          "The Verge",
-          "Variety"
-        ],
-        "categories": [
-          "art",
-          "internet",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "How David Sacks crashed and burned in the White House",
-            "url": "https://www.theverge.com/column/925487/david-sacks-trump-administration-ai-model-review",
-            "published": "2026-05-06T20:18:00.000Z",
-            "summary": "AI and Crypto Czar David O. Sacks speaks during a meeting of the White House Task Force on Artificial Intelligence Education at the White House. | Matt McClain/The Washington Post via Getty Images Hello and welcome to Regulator, a newsletter exclusively for Verge subscribers…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "Oscar Isaac to Lead Las Vegas Casino Series at Netflix From Brian Koppelman, David Levien",
-            "url": "https://variety.com/2026/tv/news/oscar-isaac-las-vegas-casino-series-netflix-1236739719/",
-            "published": "2026-05-06T18:48:02.000Z",
-            "summary": "Oscar Isaac is set for the lead role in an upcoming Netflix drama set in a Las Vegas casino. The show was originally announced in December and hails from creators Brian Koppelman and David Levien. Netflix has given the series an eight-episode order. With the casting, Isaac has…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "David Chipperfield creates freestanding plywood bathtub for Agape",
-            "url": "https://www.dezeen.com/2026/05/06/agape-david-chipperfield-tambre-bathtub/",
-            "published": "2026-05-06T05:00:08.000Z",
-            "summary": "David Chipperfield Design has developed a wooden bathtub for Italian bathroom brand Agape, featuring a pared-back form with an integrated seat, shelf and washbasin. For its first-ever collaboration with Agape, which launched during Milan design week, the design studio of…",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Already · Slim",
-        "keywords": [
-          "already",
-          "slim"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Polygon",
-          "The Verge",
-          "Wired"
-        ],
-        "categories": [
-          "internet",
-          "gaming"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Wired",
-            "category": "internet",
-            "title": "Trump’s Team Wants Him to Accept an Iran Deal He’s Already Rejected",
-            "url": "https://www.wired.com/story/trumps-team-wants-him-to-accept-an-iran-deal-hes-already-rejected/",
-            "published": "2026-05-06T19:32:03.000Z",
-            "summary": "As chaotic negotiations over the end of the Iran war continue, US negotiators think they have the framework for a deal in place. Now they just have to sell the president on it.",
-            "score": 10,
             "trending": true
           },
           {
             "source": "Polygon",
             "category": "gaming",
-            "title": "Angel Down's Pulitzer win confirms something horror fans already knew",
-            "url": "https://www.polygon.com/angel-down-fiction-pulitzer-importance/",
-            "published": "2026-05-06T17:34:11.000Z",
-            "summary": "Daniel Kraus' novel Angel Down won the Pulitzer Prize for Fiction, the first win for a horror novel since Cormac McCarthy’s The Road in 2007.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "This slim ice cream maker could fit in my already crowded kitchen",
-            "url": "https://www.theverge.com/tech/925124/nutribullet-chill-ice-cream-maker",
-            "published": "2026-05-06T16:07:43.000Z",
-            "summary": "The Nutribullet Chill won’t demand as much counter or storage space as other ice cream makers. | Image: Nutribullet For the past few months, I've defiantly walked past the Ninja Creami at Costco as I think about our air fryer, toaster oven, breadmaker, rice cooker, and stand…",
-            "score": 10,
-            "trending": true
+            "title": "The Secret Lair Goblin Storm deck is real, and it's packing a ton of value",
+            "url": "https://www.polygon.com/mtg-secret-lair-goblin-storm-leaks-confirmed/",
+            "published": "2026-05-06T18:00:19.000Z",
+            "summary": "Here's what to expect from Goblin Storm, the new Secret Lair Commander precon",
+            "score": 8
           }
         ]
       },
       {
-        "label": "Dark · Lego",
+        "label": "Michael · Navy",
         "keywords": [
-          "dark",
-          "lego"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Eurogamer",
-          "IndieWire",
-          "Kotaku"
-        ],
-        "categories": [
-          "gaming",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Lego Batman: Legacy Of The Dark Knight: Everything We Know About The Arkham-Style Adventure",
-            "url": "https://kotaku.com/lego-batman-legacy-dark-knight-everything-we-know-date-2000663464",
-            "published": "2026-05-06T18:50:18.000Z",
-            "summary": "The next Lego Batman is drawing clear inspiration from Rocksteady’s open-world action games, as well as other sides of the Caped Crusader's history",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "‘Maddie’s Secret’ Trailer: John Early Is a Food Influencer with a Secret in His Dark Comedy Directing Debut",
-            "url": "https://www.indiewire.com/news/trailers/maddies-secret-trailer-john-early-dark-comedy-debut-1235192556/",
-            "published": "2026-05-06T16:23:04.000Z",
-            "summary": "And the most interesting thing about Early's first directing effort isn't that he's playing a woman, either.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Eurogamer",
-            "category": "gaming",
-            "title": "Renowned comedian Matt Berry helped create \"lots of fun Bane bits\" in Lego Batman: Legacy of the Dark Knight",
-            "url": "https://www.eurogamer.net/lego-batman-legacy-dark-knight-matt-berry-bane",
-            "published": "2026-05-06T13:04:48.000Z",
-            "summary": "British comedian Matt Berry is voicing Bane in TT Games' upcoming release, Lego Batman: Legacy of the Dark Knight, and it sounds like he will be bringing an especially mischievous twist to the iconic DC villain. Read more",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Cannes · Nicolas",
-        "keywords": [
-          "cannes",
-          "nicolas"
+          "michael",
+          "navy"
         ],
         "sourceCount": 3,
         "sources": [
           "Adweek",
-          "IndieWire",
-          "Variety"
+          "Business of Fashion",
+          "Deadline"
         ],
         "categories": [
+          "fashion",
           "film",
           "marketing"
         ],
@@ -666,47 +1231,99 @@
         "fresh": true,
         "items": [
           {
-            "source": "Variety",
+            "source": "Deadline",
             "category": "film",
-            "title": "LISTEN: How Javier Bardem Tackles Cannes — and Hollywood — on His Own Terms",
-            "url": "https://variety.com/2026/film/news/javier-bardem-cannes-hollywood-penelope-cruz-daily-variety-1236739798/",
-            "published": "2026-05-06T20:06:43.000Z",
-            "summary": "On today’s episode of “Daily Variety” podcast, in our Cover Story segment, Variety’s Daniel D’Addario details his sit-down in Madrid with Javier Bardem, the incredibly busy Spaniard who brings the family drama “The Beloved” to the Cannes Film Festival this year. Bardem opens up…",
+            "title": "‘Highway To Heaven’ Reboot Gets Fox Series Order For 2027-28 From Jason Katims, Amblin Television & Michael Landon Prods.",
+            "url": "https://deadline.com/2026/05/highway-to-heaven-reboot-fox-series-jason-katims-amblin-1236883576/",
+            "published": "2026-05-06T21:00:44.000Z",
+            "summary": "EXCLUSIVE: As Fox is getting ready to launch a reboot of one of its 1980s TV series, Baywatch, this coming season, the network is bringing back another classic ’80s TV title, Highway To Heaven, for the following season. Looking ahead, Fox has ordered a new take on Michael…",
             "score": 10,
             "trending": true
           },
           {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "Nicolas Winding Refn on the ‘Pusher’ Re-Release, Cannes Comeback, and His First Film in 10 Years",
-            "url": "https://www.indiewire.com/features/interviews/nicolas-winding-refn-pusher-interview-1235192251/",
-            "published": "2026-05-06T14:00:00.000Z",
-            "summary": "The Danish filmmaker offers a candid interview with IndieWire — revealing, among other things, the origin of \"Her Private Hell\" distributor Neon's company name.",
-            "score": 9,
+            "source": "Business of Fashion",
+            "category": "fashion",
+            "title": "Old Navy Appoints Retail Veteran Michael Francis as Chief Customer Officer",
+            "url": "https://www.businessoffashion.com/news/retail/old-navy-appoints-retail-veteran-michael-francis-as-chief-customer-officer/",
+            "published": "2026-05-06T13:00:00.000Z",
+            "summary": "The former Target executive will join the Gap Inc.-owned brand in a newly created role.",
+            "score": 10,
             "trending": true
           },
           {
             "source": "Adweek",
             "category": "marketing",
-            "title": "AB InBev Wins Cannes Lions Creative Marketer of the Year for a Historic Third Time",
-            "url": "https://www.adweek.com/creativity/ab-inbev-wins-cannes-lions-creative-marketer-of-the-year-for-a-historic-third-time/",
-            "published": "2026-05-06T06:59:47.000Z",
-            "summary": "Cannes Lions has named AB InBev as its 2026 Creative Marketer of the Year.",
+            "title": "Old Navy Appoints Michael Francis as Chief Customer Officer Amid Turnaround",
+            "url": "https://www.adweek.com/brand-marketing/old-navy-appoints-michael-francis-as-chief-customer-officer-amid-turnaround/",
+            "published": "2026-05-06T09:00:00.000Z",
+            "summary": "Gap Inc. has brought on veteran brand executive Michael Francis as chief customer officer of Old Navy and head of marketing shared services for the group.",
             "score": 9,
             "trending": true
           }
         ]
       },
       {
-        "label": "Tour · Horsegiirl",
+        "label": "Stop · School",
         "keywords": [
-          "tour",
-          "horsegiirl"
+          "stop",
+          "school"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "GQ",
+          "Wired",
+          "Yanko Design"
+        ],
+        "categories": [
+          "fashion",
+          "art",
+          "internet"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Wired",
+            "category": "internet",
+            "title": "I Am Begging AI Companies to Stop Naming Features After Human Processes",
+            "url": "https://www.wired.com/story/i-am-begging-ai-companies-to-stop-naming-features-after-human-processes/",
+            "published": "2026-05-06T16:51:12.000Z",
+            "summary": "Anthropic announced “dreaming” for AI agents to sort through “memories” at its developer conference. Can we not?",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "GQ",
+            "category": "fashion",
+            "title": "4 New-School Japanese Brands Menswear Nerds Can't Stop Talking About",
+            "url": "https://www.gq.com/story/new-school-japanese-brands-menswear-fans-should-know",
+            "published": "2026-05-06T15:43:28.000Z",
+            "summary": "Give a man an Auralee jacket, and he'll be happy for a season. Teach a man to appreciate Auralee's proprietary silk fabric, and you'll have an insufferable dinner companion for life.",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Yanko Design",
+            "category": "art",
+            "title": "Stop Packing 3 Chargers: This $50 Device Does All of Them",
+            "url": "https://www.yankodesign.com/2026/05/06/stop-packing-3-chargers-this-50-device-does-all-of-them/?utm_source=rss&utm_medium=rss&utm_campaign=stop-packing-3-chargers-this-50-device-does-all-of-them",
+            "published": "2026-05-06T13:20:21.000Z",
+            "summary": "Stop Packing 3 Chargers: This $50 Device Does All of Them Traveling with a phone inevitably means traveling with a collection of accessories you’d rather leave behind. A wall charger takes up one outlet, a power...",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Boys · Mike",
+        "keywords": [
+          "boys",
+          "mike"
         ],
         "sourceCount": 2,
         "sources": [
-          "Consequence",
-          "Pitchfork News"
+          "NME",
+          "Stereogum"
         ],
         "categories": [
           "music"
@@ -715,166 +1332,40 @@
         "fresh": true,
         "items": [
           {
-            "source": "Pitchfork News",
+            "source": "Stereogum",
             "category": "music",
-            "title": "horsegiirL Is Going on Tour This Fall",
-            "url": "https://pitchfork.com/news/horsegiirl-is-going-on-tour-this-fall/",
-            "published": "2026-05-06T17:53:11.000Z",
-            "summary": "The musician will gallop through Los Angeles, New York, Paris, and Berlin.",
+            "title": "Mike D Announces Shows Following Viral Performance Of Beastie Boys Songs With His Sons",
+            "url": "https://stereogum.com/2498086/mike-d-announces-shows-following-viral-performance-of-beastie-boys-songs-with-his-sons/news/",
+            "published": "2026-05-06T17:27:51.000Z",
+            "summary": "Mike D with the master plan? A few weeks back the Beastie Boy went viral by performing his group's stone cold classic \"So Whatcha Want\" in a surprise appearance with Very Nice Person, the band led by his sons Skyler and Davis Diamond, at the Ojai Valley Women's Club. He'd…",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Pitchfork News",
+            "source": "NME",
             "category": "music",
-            "title": "Lambchop Line Up Tour and Justin Vernon-Assisted Album Punching the Clown",
-            "url": "https://pitchfork.com/news/lambchop-line-up-tour-and-justin-vernon-assisted-album-punching-the-clown/",
-            "published": "2026-05-06T14:35:48.000Z",
-            "summary": "“Weakened” leads the excellently named LP, featuring Vernon on the banjo",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Experiencing the BTS Magic at the “ARIRANG WORLD TOUR” Kickoff in Tampa: Stanning BTS Podcast",
-            "url": "https://consequence.net/2026/05/bts-arirang-tour-tampa-review-podcast/",
-            "published": "2026-05-06T16:12:55.000Z",
-            "summary": "Kayla and Bethany report back on their unforgettable Florida trip to see BTS return to the stage. Experiencing the BTS Magic at the “ARIRANG WORLD TOUR” Kickoff in Tampa: Stanning BTS Podcast Ben Kaye",
+            "title": "‘The Boys’ final episode to screen in US cinemas",
+            "url": "https://www.nme.com/news/tv/the-boys-final-episode-to-screen-in-cinemas-3944283?utm_source=rss&utm_medium=rss&utm_campaign=the-boys-final-episode-to-screen-in-cinemas",
+            "published": "2026-05-06T12:02:00.000Z",
+            "summary": "The finale will be screened in the 4DX format The post ‘The Boys’ final episode to screen in US cinemas appeared first on NME.",
             "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Olivia Rodrigo at Barclays: How to Get Tickets for “The Unraveled Tour” in Brooklyn",
-            "url": "https://consequence.net/2026/05/olivia-rodrigo-2027-the-unraveled-tour-brooklyn-how-to-get-tickets/",
-            "published": "2026-05-06T17:34:41.000Z",
-            "summary": "Rodrigo will perform six at Barclays Center in Brooklyn in February 2027. Learn how to get tickets here. Olivia Rodrigo at Barclays: How to Get Tickets for “The Unraveled Tour” in Brooklyn Consequence Staff",
-            "score": 7
-          }
-        ]
-      },
-      {
-        "label": "8217 · Microsoft",
-        "keywords": [
-          "8217",
-          "microsoft"
-        ],
-        "sourceCount": 2,
-        "sources": [
-          "Adweek",
-          "The Verge"
-        ],
-        "categories": [
-          "internet",
-          "marketing"
-        ],
-        "trending": false,
-        "fresh": true,
-        "items": [
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Here&#8217;s what Microsoft is offering long-serving employees to voluntarily retire",
-            "url": "https://www.theverge.com/report/925218/microsoft-voluntary-retirement-program-package-details",
-            "published": "2026-05-06T17:22:19.000Z",
-            "summary": "Microsoft revealed last month that it's planning to offer long-serving employees in the US the ability to voluntarily retire. While the terms of the buyout were supposed to be announced to employees tomorrow, sources at Microsoft tell me the company has posted them on its…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "Exverus by Brainlabs&#8217; Aaron Silva Is the Good Cook Behind Big Evil Barbecue",
-            "url": "https://www.adweek.com/agencies/exverus-by-brainlabs-aaron-silva-is-the-good-cook-behind-big-evil-barbecue/",
-            "published": "2026-05-06T06:00:00.000Z",
-            "summary": "The assistant director of ad ops makes all his meats at home on a collection of grills and smokers.",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "How I AI: Tech Recipes CEO Brian Chap Built a &#8216;True Decision Engine&#8217;",
-            "url": "https://www.adweek.com/brand-marketing/how-i-ai-tech-recipes-ceo-brian-chap-built-a-true-decision-engine/",
-            "published": "2026-05-06T06:00:00.000Z",
-            "summary": "Inside the strategic consultancy's RootIQ product, plus how Chap uses AI at home.",
-            "score": 8,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "Jameson Teams Up With J Balvin and KidSuper for Soccer&#8217;s Big Year",
-            "url": "https://www.adweek.com/creativity/jameson-teams-up-with-j-balvin-and-kidsuper-for-soccers-big-year/",
-            "published": "2026-05-06T04:52:56.000Z",
-            "summary": "Jameson, MLS's official whiskey, releases campaign ahead of the World Cup.",
-            "score": 8,
             "trending": true
           }
         ]
       },
       {
-        "label": "Game · Pirate",
+        "label": "Netflix · Purple",
         "keywords": [
-          "game",
-          "pirate"
+          "netflix",
+          "purple"
         ],
         "sourceCount": 2,
         "sources": [
-          "Eurogamer",
-          "Kotaku"
+          "Polygon",
+          "The Hollywood Reporter"
         ],
         "categories": [
-          "gaming"
-        ],
-        "trending": false,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "I’m Overjoyed About A Friendslop Game, Finally",
-            "url": "https://kotaku.com/steam-game-friendslop-flock-around-birding-birdwatching-like-pokemon-2000693655",
-            "published": "2026-05-06T19:06:23.000Z",
-            "summary": "Hear me out: Birding is like gaming, and that’s why Flock Around works so well",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Eurogamer",
-            "category": "gaming",
-            "title": "Pirate survival game Windrose was accidentally killing your SSD",
-            "url": "https://www.eurogamer.net/windrose-pirate-survival-ssd",
-            "published": "2026-05-06T11:40:13.000Z",
-            "summary": "No, you weren't being silly. Pirate survival game Windrose really was making your SSD work way too hard. Read more",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Borderlands 4 On Switch 2 Is ‘Doable,’ But Not A Priority Until The Game Is Fixed Elsewhere",
-            "url": "https://kotaku.com/borderlands-4-on-switch-2-is-doable-but-not-a-priority-until-the-game-is-fixed-elsewhere-2000693651",
-            "published": "2026-05-06T18:55:41.000Z",
-            "summary": "Take-Two's CEO elaborated on the hold-up",
-            "score": 7
-          }
-        ]
-      },
-      {
-        "label": "Thriller · James",
-        "keywords": [
-          "thriller",
-          "james"
-        ],
-        "sourceCount": 2,
-        "sources": [
-          "The Hollywood Reporter",
-          "Variety"
-        ],
-        "categories": [
+          "gaming",
           "film"
         ],
         "trending": false,
@@ -883,60 +1374,48 @@
           {
             "source": "The Hollywood Reporter",
             "category": "film",
-            "title": "Apple TV Greenlights Spy Thriller ‘Disavowed’ Starring James Marsden",
-            "url": "https://www.hollywoodreporter.com/tv/tv-news/james-marsden-apple-tv-disavowed-1236588287/",
-            "published": "2026-05-06T20:01:30.000Z",
-            "summary": "The series comes from 'Iron Man' writers Art Marcum and Matt Holloway.",
+            "title": "Oscar Isaac to Star in Las Vegas Drama at Netflix",
+            "url": "https://www.hollywoodreporter.com/tv/tv-news/oscar-isaac-netflix-las-vegas-drama-billions-creators-1236588254/",
+            "published": "2026-05-06T19:23:30.000Z",
+            "summary": "The actor has also signed a first-look deal with the streamer.",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Variety",
-            "category": "film",
-            "title": "James Marsden to Lead Apple TV Thriller Series ‘Disavowed’ From ‘Iron Man’ Writers",
-            "url": "https://variety.com/2026/tv/news/james-marsden-apple-tv-series-disavowed-disavowed-1236739752/",
-            "published": "2026-05-06T20:00:00.000Z",
-            "summary": "James Marsden is set to star in the thriller series “Disavowed” at Apple TV, Variety has learned. The logline for the show states that it follows “legendary CIA Case Officer Brad Griffin (Marsden), who is abruptly fired in the middle of a global hunt for an elusive assassin…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "‘M.I.A.’ Review: Peacock’s Meandering Miami-Set Revenge Thriller From ‘Ozark’ Creator Is Only Sporadically Entertaining",
-            "url": "https://www.hollywoodreporter.com/tv/tv-reviews/m-i-a-review-peacock-ozark-1236587341/",
-            "published": "2026-05-06T18:39:04.000Z",
-            "summary": "Shannon Gisela plays a young woman out to kill a dozen cartel members in this nine-episode drama from Bill Dubuque.",
-            "score": 10,
-            "trending": true
+            "source": "Polygon",
+            "category": "gaming",
+            "title": "Purple Man? Daredevil: Born Again season 2 finale sets up the return of Netflix villain Killgrave",
+            "url": "https://www.polygon.com/purple-man-daredevil-explainer/",
+            "published": "2026-05-06T20:50:24.000Z",
+            "summary": "The Daredevil: Born Again season 2 finale has reignited interest in the Purple Man, one of Daredevil's oldest and most notorious villains.",
+            "score": 9
           }
         ]
       },
       {
-        "label": "American · Balance",
+        "label": "Blue · Balance",
         "keywords": [
-          "american",
+          "blue",
           "balance"
         ],
         "sourceCount": 2,
         "sources": [
           "Highsnobiety",
-          "Variety"
+          "Sneaker News"
         ],
         "categories": [
-          "fashion",
-          "film"
+          "fashion"
         ],
         "trending": false,
         "fresh": true,
         "items": [
           {
-            "source": "Variety",
-            "category": "film",
-            "title": "Rupert Murdoch Lauds CNN Founder Ted Turner: ‘A Great American and Friend’",
-            "url": "https://variety.com/2026/tv/news/rupert-murdoch-cnn-ted-turner-great-american-friend-1236739714/",
-            "published": "2026-05-06T19:13:51.000Z",
-            "summary": "Rupert Murdoch and Ted Turner were business rivals — and their Fox News and CNN news networks remain fierce competitors. But Murdoch and Turner also (eventually) became friends. In a statement following news about Turner’s death, Murdoch gave credit to Turner for having the…",
+            "source": "Sneaker News",
+            "category": "fashion",
+            "title": "Satoshi Nakamoto’s Viral “Lucky Charms” Vans Surface In Blue",
+            "url": "https://sneakernews.com/2026/05/06/satoshi-nakamoto-vans-era-blue/",
+            "published": "2026-05-06T19:00:05.000Z",
+            "summary": "The last Satoshi Nakamoto x Vans release was a movie. Any time an in-store release requires a police presence because dudes are getting restless over... © Sneaker News, 2026. | Permalink No comment del.icio.us The post Satoshi Nakamoto's Viral \"Lucky Charms\" Vans Surface In Blue…",
             "score": 10,
             "trending": true
           },
@@ -953,15 +1432,15 @@
         ]
       },
       {
-        "label": "Sales · Lifts",
+        "label": "Beauty · Influencers",
         "keywords": [
-          "sales",
-          "lifts"
+          "beauty",
+          "influencers"
         ],
         "sourceCount": 2,
         "sources": [
-          "404 Media",
-          "Business of Fashion"
+          "Business of Fashion",
+          "The Verge"
         ],
         "categories": [
           "fashion",
@@ -971,297 +1450,62 @@
         "fresh": true,
         "items": [
           {
+            "source": "The Verge",
+            "category": "internet",
+            "title": "The best beauty tech you can still grab in time for Mother’s Day",
+            "url": "https://www.theverge.com/gadgets/923581/best-mothers-day-beauty-tech-gift-ideas-2026",
+            "published": "2026-05-06T16:30:00.000Z",
+            "summary": "If you’re looking to indulge mom this Mother’s Day, a gift that makes her feel a little more taken care of is a good place to start. Fortunately, if you’re looking for something to make her feel pampered, we know a thing or two about beauty tech, which can deliver on that front.…",
+            "score": 10,
+            "trending": true
+          },
+          {
             "source": "Business of Fashion",
             "category": "fashion",
-            "title": "Next Lifts Outlook as Strong Sales Offset Higher Iran Costs",
-            "url": "https://www.businessoffashion.com/news/retail/next-lifts-outlook-as-strong-sales-offset-higher-iran-costs/",
-            "published": "2026-05-06T09:49:56.000Z",
-            "summary": "Estimated costs related to the conflict in the Middle East tripled, with the UK retailer planning to mitigate them through measures including raising prices.",
-            "score": 8,
-            "trending": true
-          },
-          {
-            "source": "404 Media",
-            "category": "internet",
-            "title": "Podcast: Flock Used Cameras at a Children’s Gymnastics Center for a Sales Pitch",
-            "url": "https://www.404media.co/podcast-flock-used-cameras-at-a-childrens-gymnastics-center-for-a-sales-pitch/",
-            "published": "2026-05-06T15:10:50.000Z",
-            "summary": "A Flock sales pitch; a retracted paper on ChatGPT; and Chinese interference in RightsCon.",
-            "score": 7
+            "title": "The Influencers That Make Men Shop for Beauty",
+            "url": "https://www.businessoffashion.com/articles/beauty/mens-beauty-grooming-influencers/",
+            "published": "2026-05-06T12:00:00.000Z",
+            "summary": "They’re more likely to be athletes, stylists or dermatologists than traditional content creators.",
+            "score": 8
           }
         ]
       },
       {
-        "label": "Jeff · Tweedy",
+        "label": "Reveals · Disney",
         "keywords": [
-          "jeff",
-          "tweedy"
-        ],
-        "sourceCount": 2,
-        "sources": [
-          "Pitchfork News",
-          "Stereogum"
-        ],
-        "categories": [
-          "music"
-        ],
-        "trending": false,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Stereogum",
-            "category": "music",
-            "title": "Jeff Tweedy Wrote A Rock ‘N’ Roll-Themed NYT Crossword",
-            "url": "https://stereogum.com/2498107/jeff-tweedy-wrote-a-rock-n-roll-themed-nyt-crossword/news/",
-            "published": "2026-05-06T20:18:31.000Z",
-            "summary": "This week Carole King, Diane Warren, and the Magnetic Fields' Stephin Merritt — all of whom appear on the New York Times' hotly-debated new list of the 30 Greatest Living American Songwriters — each wrote five-by-five mini puzzles for the publication's digital crossword section.…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "Jeff Tweedy Wrote a New York Times Crossword Puzzle",
-            "url": "https://pitchfork.com/news/jeff-tweedy-wrote-a-new-york-times-crossword-puzzle/",
-            "published": "2026-05-06T18:18:58.000Z",
-            "summary": "Tweedy’s cruciverbalist debut pays homage to Lou Reed and several other CBGB icons",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Launches · Tasha",
-        "keywords": [
-          "launches",
-          "tasha"
+          "reveals",
+          "disney"
         ],
         "sourceCount": 2,
         "sources": [
           "Adweek",
-          "Pitchfork News"
+          "Quartz"
         ],
         "categories": [
-          "music",
-          "marketing"
+          "marketing",
+          "trends"
         ],
         "trending": false,
         "fresh": true,
         "items": [
           {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "Tasha Launches Album With New Song Featuring L’Rain and Jamila Woods",
-            "url": "https://pitchfork.com/news/tasha-launches-album-with-a-song-featuring-lrain-and-jamila-woods/",
-            "published": "2026-05-06T14:53:06.000Z",
-            "summary": "“Spring” and another track, “Clarion,” lead You Are Spring",
+            "source": "Quartz",
+            "category": "trends",
+            "title": "MoneyGram CEO Anthony Soohoo reveals new opportunities after Kraken partnership",
+            "url": "https://qz.com/moneygram-ceo-reveals-new-opportunities-kraken-partnership",
+            "published": "2026-05-06T19:00:13.000Z",
+            "summary": "MoneyGram's chief executive officer Anthony Soohoo reveals new opportunities after Kraken partnership",
             "score": 10,
             "trending": true
           },
           {
             "source": "Adweek",
             "category": "marketing",
-            "title": "Ziff Davis Buys Four Brands From Recurrent Ventures, Launches a Lifestyle Group",
-            "url": "https://www.adweek.com/media/ziff-davis-recurrent-ventures-dwell-domino-business-home-popsci/",
-            "published": "2026-05-06T09:00:00.000Z",
-            "summary": "The company acquired Dwell, Domino, Business of Home, and PopSci, extending a multiyear roll-up as competitors pull back from the open web.",
+            "title": "New Disney CEO Reveals the AI Enhancements Coming to Disney+",
+            "url": "https://www.adweek.com/convergent-tv/disney-ceo-reveals-improvements-and-ai-coming-to-disney/",
+            "published": "2026-05-06T10:05:46.000Z",
+            "summary": "In his first earnings call, CEO Josh D'Amaro calls Disney+ the 'digital centerpiece' of the company.",
             "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Studio · Lords",
-        "keywords": [
-          "studio",
-          "lords"
-        ],
-        "sourceCount": 2,
-        "sources": [
-          "Dazed",
-          "Kotaku"
-        ],
-        "categories": [
-          "gaming",
-          "culture"
-        ],
-        "trending": false,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Lords Of The Fallen 2 Studio Paid A Gaming YouTuber To Promote Its Boring Bikini Armor",
-            "url": "https://kotaku.com/lords-of-the-fallen-2-female-armor-sets-thebackgroundnpc-2000693666",
-            "published": "2026-05-06T20:02:16.000Z",
-            "summary": "Developer CI Games paid a gaming YouTuber to throw other female characters under the bus while touting the sequel's blandly sexualized armor sets",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Inside Studio Iron, Isamaya Ffrench’s new dystopian dreamworld",
-            "url": "https://www.dazeddigital.com/art-photography/article/70193/1/inside-studio-iron-isamaya-ffrench-new-dystopian-dreamworld-saatchi-yates?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=inside-studio-iron-isamaya-ffrench-s-new-dystopian-dreamworld",
-            "published": "2026-05-06T11:35:00.000Z",
-            "summary": "The day after the opening of Studio Iron, Isamaya Ffrench’s new exhibition at Saatchi Yates, Instagram is filled with images of the eclectic works occupying the space: a latex dress hanging above a plate of cracked eggs – replaced periodically by the gallery team – a feminine…",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Warner · Bros",
-        "keywords": [
-          "warner",
-          "bros"
-        ],
-        "sourceCount": 2,
-        "sources": [
-          "IndieWire",
-          "Variety"
-        ],
-        "categories": [
-          "film"
-        ],
-        "trending": false,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "Warner Bros. Discovery Saw Q1 Streaming, Studios Boosts, But Paramount Item Spurs Large Loss",
-            "url": "https://variety.com/2026/tv/news/warner-bros-discovery-q1-streaming-studios-paramount-loss-1236739794/",
-            "published": "2026-05-06T20:04:04.000Z",
-            "summary": "Warner Bros. Discovery’s deal to be acquired by Paramount Skydance is supposed to create a behemoth of a company that includes everything from the CBS television network to the “Lord of the Rings” franchise. But as Aragorn said in that massive epic, today is not that day. A…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "Ken Russell’s Controversial ‘The Devils’ Restoration Will Be Warner Bros. Clockwork’s First Repertory Release",
-            "url": "https://www.indiewire.com/news/breaking-news/ken-russell-the-devils-release-warner-bros-clockwork-1235192564/",
-            "published": "2026-05-06T17:00:50.000Z",
-            "summary": "The banned and infamously recut 1971 cult classic will be the first repertory release from the new specialized label, and will debut at Cannes later this month.",
-            "score": 10,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Turner · Trump",
-        "keywords": [
-          "turner",
-          "trump"
-        ],
-        "sourceCount": 2,
-        "sources": [
-          "Adweek",
-          "The Hollywood Reporter"
-        ],
-        "categories": [
-          "film",
-          "marketing"
-        ],
-        "trending": false,
-        "fresh": true,
-        "items": [
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "Trump Asserts Ted Turner Was “Devastated” CNN “Became Woke,” Says “Maybe” Ellisons Can Bring Back Brand’s “Credibility and Glory”",
-            "url": "https://www.hollywoodreporter.com/tv/tv-news/trump-ted-turner-cnn-woke-ellison-bring-back-credibility-1236588178/",
-            "published": "2026-05-06T19:55:14.000Z",
-            "summary": "The media mogul, who founded CNN and Turner Networks, died Wednesday at 87.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "CNN Founder Ted Turner Dies at 87",
-            "url": "https://www.adweek.com/tvnewser/cnn-founder-ted-turner-dies-at-87/",
-            "published": "2026-05-06T11:21:35.000Z",
-            "summary": "Turner pioneered the 24-hour news network, fundamentally changing the news industry.",
-            "score": 8
-          }
-        ]
-      },
-      {
-        "label": "Trailer · Battlefield",
-        "keywords": [
-          "trailer",
-          "battlefield"
-        ],
-        "sourceCount": 2,
-        "sources": [
-          "Eurogamer",
-          "IndieWire"
-        ],
-        "categories": [
-          "gaming",
-          "film"
-        ],
-        "trending": false,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Eurogamer",
-            "category": "gaming",
-            "title": "Battlefield 6 Season 3 kicks off next week, and its gameplay trailer bets big on Battlefield 4 nostalgia",
-            "url": "https://www.eurogamer.net/battlefield-6-season-3-trailer",
-            "published": "2026-05-06T15:28:55.000Z",
-            "summary": "Despite the usual friction with a demanding core player base and recent layoffs, Battlefield 6 is trucking along fine and in a much better spot than Battlefield 2042 was at the same time during its life cycle. Next week, it's time for Season 3, and its gameplay trailer doubles…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "‘Deli Boys’ Season 2 Trailer: Hulu’s Acclaimed Crime Comedy Returns for Sophomore Outing",
-            "url": "https://www.indiewire.com/news/trailers/deli-boys-season-2-trailer-1235192428/",
-            "published": "2026-05-06T17:00:00.000Z",
-            "summary": "The second season of the sitcom from creator Abdullah Saeed releases May 28.",
-            "score": 8
-          }
-        ]
-      },
-      {
-        "label": "Paramount · Earnings",
-        "keywords": [
-          "paramount",
-          "earnings"
-        ],
-        "sourceCount": 2,
-        "sources": [
-          "The Hollywood Reporter",
-          "Variety"
-        ],
-        "categories": [
-          "film"
-        ],
-        "trending": false,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "UFC’s New Pact With Paramount Skydance Lifts TKO’s Q1 Earnings",
-            "url": "https://variety.com/2026/tv/news/ufc-wwe-paramount-tko-q1-earnings-1236739826/",
-            "published": "2026-05-06T20:32:50.000Z",
-            "summary": "The UFC’s new licensing deal with Paramount Skydance helped boost TKO’s first quarter earnings as the pact with Paramount+ kicked in at the start of the year. TKO saw revenue for the quarter grow 26% year over year to $1.6 billion, while adjust earnings before interest, taxes…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "TKO Earnings and Income Rise as Paramount UFC Deal Kicks Into Gear",
-            "url": "https://www.hollywoodreporter.com/business/business-news/tko-earnings-rise-paramount-ufc-deal-1236588117/",
-            "published": "2026-05-06T20:14:14.000Z",
-            "summary": "The owner of UFC and WWE will expand its share buyback program.",
-            "score": 10,
             "trending": true
           }
         ]
