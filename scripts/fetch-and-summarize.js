@@ -49,10 +49,14 @@ const MAX_ITEMS_PER_CATEGORY = parseInt(process.env.MAX_ITEMS_PER_CATEGORY || "6
 // Hard cap on a single fetch. We use both a socket-level timeout (in the parser)
 // AND a Promise.race wrapper so slow-dripping feeds can never block the run.
 // 8 s is plenty for well-behaved feeds; anything slower is not worth waiting for.
-const PER_SOURCE_TIMEOUT_MS = parseInt(process.env.PER_SOURCE_TIMEOUT_MS || "8000", 10);
+const PER_SOURCE_TIMEOUT_MS = parseInt(process.env.PER_SOURCE_TIMEOUT_MS || "5000", 10);
 // Items published within this window get a velocity bonus when they also have
 // cross-source keyword overlap — signal that something is blowing up right now.
 const VELOCITY_WINDOW_HOURS = parseInt(process.env.VELOCITY_WINDOW_HOURS || "6", 10);
+// Maximum number of topic clusters to surface in the daily brief.
+// After clustering and scoring, only the top N most culturally relevant topics
+// (= highest cross-source coverage + item density + trending signal) are kept.
+const MAX_TOPICS = parseInt(process.env.MAX_TOPICS || "10", 10);
 
 // Human-readable labels for category buckets in the brief.
 // Anything not in this map falls back to a Title-Cased version of the category key.
@@ -499,8 +503,18 @@ function clusterByTopic(items) {
       items:       clItems.slice(0, MAX_ITEMS_PER_TOPIC),
     };
   }).sort(function (a, b) {
-    if (b.sourceCount !== a.sourceCount) return b.sourceCount - a.sourceCount;
-    return b.items.length - a.items.length;
+    // Cultural relevance score:
+    //   sourceCount × 5  — cross-source breadth is the strongest signal
+    //   + avg item score  — authority/recency/trending of constituent articles
+    //   + trending bonus  — 3+ sources = confirmed multi-outlet story
+    //   + fresh bonus     — something blowing up right now
+    function topicScore(t) {
+      const avgScore = t.items.length
+        ? t.items.reduce(function (s, i) { return s + (i.score || 0); }, 0) / t.items.length
+        : 0;
+      return t.sourceCount * 5 + avgScore * 1.5 + (t.trending ? 4 : 0) + (t.fresh ? 2 : 0);
+    }
+    return topicScore(b) - topicScore(a);
   });
 }
 
@@ -594,15 +608,15 @@ async function main() {
   // Score every item first, then cluster into cross-source topics.
   scoreItems(allItems);
 
-  const topics = clusterByTopic(allItems);
+  const topics = clusterByTopic(allItems).slice(0, MAX_TOPICS);
   const totalShown  = topics.reduce(function (sum, t) { return sum + t.items.length; }, 0);
   const hotTopics   = topics.filter(function (t) { return t.trending; }).length;
   const date = todayISO();
 
-  const intro = topics.length + " trending topic" + (topics.length !== 1 ? "s" : "") +
-    " · " + totalShown + " articles from " + usedSources + " sources" +
-    (hotTopics > 0 ? " · " + hotTopics + " across 3+ sources" : "") +
-    " · last " + LOOKBACK_HOURS + "h.";
+  const intro = "Top " + topics.length + " culturele topics" +
+    " · " + totalShown + " artikels van " + usedSources + " bronnen" +
+    (hotTopics > 0 ? " · " + hotTopics + " door 3+ bronnen" : "") +
+    " · laatste " + LOOKBACK_HOURS + "u.";
 
   const brief = {
     date: date,
