@@ -7,13 +7,6 @@
     "weight": 8
   },
   {
-    "name": "Hypebeast",
-    "type": "rss",
-    "url": "https://hypebeast.com/feed",
-    "category": "fashion",
-    "weight": 8
-  },
-  {
     "name": "Business of Fashion",
     "type": "rss",
     "url": "https://www.businessoffashion.com/feed/",
@@ -21,25 +14,11 @@
     "weight": 9
   },
   {
-    "name": "Reddit r/streetwear",
-    "type": "rss",
-    "url": "https://www.reddit.com/r/streetwear/.rss",
-    "category": "fashion",
-    "weight": 7
-  },
-  {
     "name": "Dezeen",
     "type": "rss",
     "url": "https://www.dezeen.com/feed/",
     "category": "art",
     "weight": 8
-  },
-  {
-    "name": "It's Nice That",
-    "type": "rss",
-    "url": "https://www.itsnicethat.com/rss",
-    "category": "art",
-    "weight": 7
   },
   {
     "name": "Eye on Design",
@@ -53,13 +32,6 @@
     "name": "Creative Review",
     "type": "rss",
     "url": "https://www.creativereview.co.uk/feed/",
-    "category": "art",
-    "weight": 7
-  },
-  {
-    "name": "Wallpaper*",
-    "type": "rss",
-    "url": "https://www.wallpaper.com/rss",
     "category": "art",
     "weight": 7
   },
@@ -102,20 +74,6 @@
     "name": "Consequence",
     "type": "rss",
     "url": "https://consequence.net/feed/",
-    "category": "music",
-    "weight": 7
-  },
-  {
-    "name": "Reddit r/hiphopheads",
-    "type": "rss",
-    "url": "https://www.reddit.com/r/hiphopheads/.rss",
-    "category": "music",
-    "weight": 7
-  },
-  {
-    "name": "Reddit r/popheads",
-    "type": "rss",
-    "url": "https://www.reddit.com/r/popheads/.rss",
     "category": "music",
     "weight": 7
   },
@@ -169,13 +127,6 @@
     "weight": 7
   },
   {
-    "name": "Vulture",
-    "type": "rss",
-    "url": "https://www.vulture.com/feed/",
-    "category": "culture",
-    "weight": 8
-  },
-  {
     "name": "i-D",
     "type": "rss",
     "url": "https://i-d.co/feed/",
@@ -204,20 +155,6 @@
     "weight": 8
   },
   {
-    "name": "Marketing Week",
-    "type": "rss",
-    "url": "https://www.marketingweek.com/feed/",
-    "category": "marketing",
-    "weight": 8
-  },
-  {
-    "name": "The Drum",
-    "type": "rss",
-    "url": "https://www.thedrum.com/rss",
-    "category": "marketing",
-    "weight": 8
-  },
-  {
     "name": "Google Trends (BE)",
     "type": "rss",
     "url": "https://trends.google.com/trending/rss?geo=BE",
@@ -230,30 +167,6 @@
     "url": "https://trends.google.com/trending/rss?geo=NL",
     "category": "trends",
     "weight": 10
-  },
-  {
-    "name": "TikTok Trending (NL)",
-    "type": "tiktok-trends",
-    "url": "https://ads.tiktok.com/creative_radar_api/v1/popular_trend/hashtag/list",
-    "category": "trends",
-    "country_code": "NL",
-    "period": 7,
-    "limit": 15,
-    "weight": 9
-  },
-  {
-    "name": "Know Your Meme",
-    "type": "rss",
-    "url": "https://knowyourmeme.com/memes/recent.rss",
-    "category": "trends",
-    "weight": 8
-  },
-  {
-    "name": "Trend Hunter",
-    "type": "rss",
-    "url": "https://www.trendhunter.com/rss",
-    "category": "trends",
-    "weight": 7
   },
   {
     "name": "Coolhunting",
