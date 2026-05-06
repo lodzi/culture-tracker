@@ -21,20 +21,6 @@
     "weight": 8
   },
   {
-    "name": "Sole Collector",
-    "type": "rss",
-    "url": "https://solecollector.com/rss",
-    "category": "fashion",
-    "weight": 7
-  },
-  {
-    "name": "Vogue Business",
-    "type": "rss",
-    "url": "https://www.voguebusiness.com/rss",
-    "category": "fashion",
-    "weight": 8
-  },
-  {
     "name": "GQ",
     "type": "rss",
     "url": "https://www.gq.com/feed/rss",
@@ -127,13 +113,6 @@
     "weight": 8
   },
   {
-    "name": "Gizmodo",
-    "type": "rss",
-    "url": "https://gizmodo.com/rss",
-    "category": "internet",
-    "weight": 7
-  },
-  {
     "name": "Input Mag",
     "type": "rss",
     "url": "https://www.inputmag.com/rss",
@@ -153,13 +132,6 @@
     "url": "https://pitchfork.com/feed/feed-news/rss",
     "category": "music",
     "weight": 8
-  },
-  {
-    "name": "Pitchfork Best New Music",
-    "type": "rss",
-    "url": "https://pitchfork.com/feed/feed-best/rss",
-    "category": "music",
-    "weight": 9
   },
   {
     "name": "Stereogum",
@@ -190,27 +162,6 @@
     "weight": 8
   },
   {
-    "name": "The FADER",
-    "type": "rss",
-    "url": "https://www.thefader.com/rss",
-    "category": "music",
-    "weight": 8
-  },
-  {
-    "name": "Resident Advisor",
-    "type": "rss",
-    "url": "https://ra.co/feed.xml",
-    "category": "music",
-    "weight": 7
-  },
-  {
-    "name": "Mixmag",
-    "type": "rss",
-    "url": "https://mixmag.net/feed",
-    "category": "music",
-    "weight": 7
-  },
-  {
     "name": "Crack Magazine",
     "type": "rss",
     "url": "https://crackmagazine.net/feed/",
@@ -223,20 +174,6 @@
     "url": "https://diymag.com/feed",
     "category": "music",
     "weight": 7
-  },
-  {
-    "name": "The Quietus",
-    "type": "rss",
-    "url": "https://thequietus.com/feed",
-    "category": "music",
-    "weight": 7
-  },
-  {
-    "name": "3voor12",
-    "type": "rss",
-    "url": "https://3voor12.vpro.nl/artikelen.rss",
-    "category": "music",
-    "weight": 8
   },
   {
     "name": "OOR Magazine",
@@ -323,34 +260,6 @@
     "weight": 7
   },
   {
-    "name": "Complex",
-    "type": "rss",
-    "url": "https://www.complex.com/rss",
-    "category": "culture",
-    "weight": 8
-  },
-  {
-    "name": "The Cut",
-    "type": "rss",
-    "url": "https://www.thecut.com/feed/rss",
-    "category": "culture",
-    "weight": 8
-  },
-  {
-    "name": "The Ringer",
-    "type": "rss",
-    "url": "https://www.theringer.com/rss/index.xml",
-    "category": "culture",
-    "weight": 8
-  },
-  {
-    "name": "The Atlantic",
-    "type": "rss",
-    "url": "https://www.theatlantic.com/feed/channel/entertainment/",
-    "category": "culture",
-    "weight": 8
-  },
-  {
     "name": "AnOther Magazine",
     "type": "rss",
     "url": "https://www.anothermag.com/feed",
@@ -361,27 +270,6 @@
     "name": "Document Journal",
     "type": "rss",
     "url": "https://documentjournal.com/feed/",
-    "category": "culture",
-    "weight": 7
-  },
-  {
-    "name": "VRT NWS Cultuur",
-    "type": "rss",
-    "url": "https://www.vrt.be/vrtnws/nl/rss/cultuur.rss",
-    "category": "culture",
-    "weight": 7
-  },
-  {
-    "name": "HUMO",
-    "type": "rss",
-    "url": "https://www.humo.be/rss",
-    "category": "culture",
-    "weight": 7
-  },
-  {
-    "name": "Knack",
-    "type": "rss",
-    "url": "https://www.knack.be/rss/",
     "category": "culture",
     "weight": 7
   },
@@ -438,13 +326,6 @@
     "name": "Quartz",
     "type": "rss",
     "url": "https://qz.com/rss",
-    "category": "trends",
-    "weight": 7
-  },
-  {
-    "name": "Springwise",
-    "type": "rss",
-    "url": "https://www.springwise.com/feed/",
     "category": "trends",
     "weight": 7
   }
