@@ -87,9 +87,15 @@
           {
             "source": "Google Trends (BE)",
             "category": "trends",
+<<<<<<< Updated upstream
             "title": "mbappe",
             "url": "https://trends.google.com/trending/rss?geo=BE",
             "published": "2026-05-06T19:20:00.000Z",
+=======
+            "title": "luis enrique",
+            "url": "https://trends.google.com/trending/rss?geo=BE",
+            "published": "2026-05-06T19:30:00.000Z",
+>>>>>>> Stashed changes
             "summary": "",
             "score": 8
           }
