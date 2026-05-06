@@ -146,6 +146,15 @@ function categoryLabel(cat) {
   return CATEGORY_LABELS[cat] || titleCase(cat);
 }
 
+// --- Helpers ---
+function formatNumber(n) {
+  if (!n) return "0";
+  if (n >= 1e9) return (n / 1e9).toFixed(1) + "B";
+  if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
+  if (n >= 1e3) return (n / 1e3).toFixed(1) + "K";
+  return String(n);
+}
+
 // --- Fetch RSS ---
 function withTimeout(promise, ms, label) {
   let to;
@@ -176,6 +185,81 @@ async function fetchSource(parser, source) {
       })
       .filter(function (i) { return i.title && i.url; });
     console.log("  ✓ " + source.name + ": " + items.length + " recent items");
+    return items;
+  } catch (err) {
+    console.warn("  ✗ " + source.name + ": " + err.message);
+    return [];
+  }
+}
+
+// --- Fetch TikTok Trends ---
+// Uses the TikTok Creative Center API for trending hashtags.
+// No API key required, but TikTok may return 4xx if they tighten access.
+// Endpoint: https://ads.tiktok.com/creative_radar_api/v1/popular_trend/hashtag/list
+async function fetchTikTokTrends(source) {
+  const countryCode = source.country_code || "US";
+  const period = source.period || 7;
+  const limit = Math.min(source.limit || 20, MAX_ITEMS_PER_FEED);
+
+  const url = source.url +
+    "?period=" + period +
+    "&page=1" +
+    "&limit=" + limit +
+    "&country_code=" + countryCode +
+    "&language=en";
+
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(function () { ctrl.abort(); }, PER_SOURCE_TIMEOUT_MS);
+
+    const res = await fetch(url, {
+      method: "GET",
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://ads.tiktok.com/business/creativecenter/trends/hashtag/pc/en",
+        "Origin": "https://ads.tiktok.com",
+      },
+      signal: ctrl.signal,
+    });
+    clearTimeout(t);
+
+    if (!res.ok) {
+      console.warn("  ✗ " + source.name + ": HTTP " + res.status + " from TikTok Creative Center");
+      return [];
+    }
+
+    const json = await res.json();
+
+    if (!json || json.code !== 0 || !json.data || !Array.isArray(json.data.list)) {
+      console.warn("  ✗ " + source.name + ": unexpected response (code=" + (json && json.code) + ")");
+      return [];
+    }
+
+    const now = new Date().toISOString();
+    const items = json.data.list
+      .slice(0, MAX_ITEMS_PER_FEED)
+      .map(function (h) {
+        const tag = h.hashtag_name || h.hashtag || "";
+        const posts = h.publish_cnt ? formatNumber(h.publish_cnt) + " posts" : "";
+        const views = h.video_views ? formatNumber(h.video_views) + " views" : "";
+        const trend = h.trend ? "Trending: " + h.trend : "";
+        const parts = [posts, views, trend].filter(Boolean).join(" · ");
+
+        return {
+          source: source.name,
+          source_weight: typeof source.weight === "number" ? source.weight : 6,
+          category: source.category || "trends",
+          title: "#" + tag,
+          url: "https://www.tiktok.com/tag/" + encodeURIComponent(tag),
+          published: now,
+          summary: parts || ("Trending TikTok hashtag in " + countryCode + "."),
+        };
+      })
+      .filter(function (i) { return i.title && i.title.length > 1; });
+
+    console.log("  ✓ " + source.name + ": " + items.length + " trending hashtags (country=" + countryCode + ")");
     return items;
   } catch (err) {
     console.warn("  ✗ " + source.name + ": " + err.message);
@@ -329,13 +413,18 @@ async function main() {
   // Fetch all RSS sources in parallel. One slow feed no longer holds up the
   // others, and total wall time is bounded by PER_SOURCE_TIMEOUT_MS.
   const rssSources = sources.filter(function (s) { return s.type === "rss"; });
-  sources.filter(function (s) { return s.type !== "rss"; }).forEach(function (s) {
-    console.warn("  · " + s.name + ": skipped (type '" + s.type + "', only 'rss' is supported)");
+  const tiktokSources = sources.filter(function (s) { return s.type === "tiktok-trends"; });
+  sources.filter(function (s) { return s.type !== "rss" && s.type !== "tiktok-trends"; }).forEach(function (s) {
+    console.warn("  · " + s.name + ": skipped (type '" + s.type + "', supported types: rss, tiktok-trends)");
   });
 
-  console.log("Fetching " + rssSources.length + " RSS sources in parallel (timeout: " + PER_SOURCE_TIMEOUT_MS + "ms each)…");
+  console.log("Fetching " + rssSources.length + " RSS sources and " + tiktokSources.length + " TikTok source(s) in parallel (timeout: " + PER_SOURCE_TIMEOUT_MS + "ms each)…");
   const t0 = Date.now();
-  const results = await Promise.all(rssSources.map(function (s) { return fetchSource(parser, s); }));
+  const [rssResults, tiktokResults] = await Promise.all([
+    Promise.all(rssSources.map(function (s) { return fetchSource(parser, s); })),
+    Promise.all(tiktokSources.map(function (s) { return fetchTikTokTrends(s); })),
+  ]);
+  const results = rssResults.concat(tiktokResults);
   console.log("Fetch round-trip: " + ((Date.now() - t0) / 1000).toFixed(1) + "s");
 
   let allItems = [];

@@ -215,5 +215,36 @@
     "url": "https://www.psfk.com/feed",
     "category": "trends",
     "weight": 6
+  },
+  {
+    "name": "Google Trends – Belgium",
+    "type": "rss",
+    "url": "https://trends.google.com/trends/trendingsearches/daily/rss?geo=BE",
+    "category": "trends",
+    "weight": 10
+  },
+  {
+    "name": "Google Trends – Netherlands",
+    "type": "rss",
+    "url": "https://trends.google.com/trends/trendingsearches/daily/rss?geo=NL",
+    "category": "trends",
+    "weight": 10
+  },
+  {
+    "name": "Google Trends – Global",
+    "type": "rss",
+    "url": "https://trends.google.com/trends/trendingsearches/daily/rss?geo=US",
+    "category": "trends",
+    "weight": 9
+  },
+  {
+    "name": "TikTok Trending Hashtags",
+    "type": "tiktok-trends",
+    "url": "https://ads.tiktok.com/creative_radar_api/v1/popular_trend/hashtag/list",
+    "category": "trends",
+    "weight": 10,
+    "country_code": "US",
+    "period": 7,
+    "limit": 20
   }
 ]
