@@ -36,6 +36,10 @@ const ARCHIVE_INDEX_PATH = path.join(ARCHIVE_DIR, "index.json");
 // --- Config ---
 const LOOKBACK_HOURS = parseInt(process.env.LOOKBACK_HOURS || "24", 10);
 const MAX_ITEMS_PER_FEED = parseInt(process.env.MAX_ITEMS_PER_FEED || "10", 10);
+// Hard cap on a single fetch. rss-parser has its own socket timeout, but some
+// feeds redirect or stream slowly and can exceed it. We wrap every fetch in a
+// Promise.race so the run can never hang on one bad source.
+const PER_SOURCE_TIMEOUT_MS = parseInt(process.env.PER_SOURCE_TIMEOUT_MS || "12000", 10);
 
 // Human-readable labels for category buckets in the brief.
 // Anything not in this map falls back to a Title-Cased version of the category key.
@@ -115,9 +119,19 @@ function categoryLabel(cat) {
 }
 
 // --- Fetch RSS ---
+function withTimeout(promise, ms, label) {
+  let to;
+  const timeout = new Promise(function (_, reject) {
+    to = setTimeout(function () {
+      reject(new Error("timed out after " + ms + "ms (" + label + ")"));
+    }, ms);
+  });
+  return Promise.race([promise, timeout]).finally(function () { clearTimeout(to); });
+}
+
 async function fetchSource(parser, source) {
   try {
-    const feed = await parser.parseURL(source.url);
+    const feed = await withTimeout(parser.parseURL(source.url), PER_SOURCE_TIMEOUT_MS, source.name);
     const items = (feed.items || [])
       .filter(function (i) { return within(LOOKBACK_HOURS, i.isoDate || i.pubDate); })
       .slice(0, MAX_ITEMS_PER_FEED)
@@ -214,19 +228,26 @@ async function main() {
   const sources = readJSON(SOURCES_PATH);
   console.log("Loaded " + sources.length + " sources.");
 
-  const parser = new Parser({ timeout: 15000 });
+  const parser = new Parser({ timeout: 10000 });
+
+  // Fetch all RSS sources in parallel. One slow feed no longer holds up the
+  // others, and total wall time is bounded by PER_SOURCE_TIMEOUT_MS.
+  const rssSources = sources.filter(function (s) { return s.type === "rss"; });
+  sources.filter(function (s) { return s.type !== "rss"; }).forEach(function (s) {
+    console.warn("  · " + s.name + ": skipped (type '" + s.type + "', only 'rss' is supported)");
+  });
+
+  console.log("Fetching " + rssSources.length + " RSS sources in parallel (timeout: " + PER_SOURCE_TIMEOUT_MS + "ms each)…");
+  const t0 = Date.now();
+  const results = await Promise.all(rssSources.map(function (s) { return fetchSource(parser, s); }));
+  console.log("Fetch round-trip: " + ((Date.now() - t0) / 1000).toFixed(1) + "s");
 
   let allItems = [];
   let usedSources = 0;
-  for (const source of sources) {
-    if (source.type !== "rss") {
-      console.warn("  · " + source.name + ": skipped (type '" + source.type + "', only 'rss' is supported)");
-      continue;
-    }
-    const items = await fetchSource(parser, source);
+  results.forEach(function (items) {
     if (items.length) usedSources++;
     allItems = allItems.concat(items);
-  }
+  });
 
   console.log("Total items in window: " + allItems.length);
   if (allItems.length === 0) {
