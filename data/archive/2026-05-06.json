@@ -2,7 +2,7 @@
   "date": "2026-05-06",
   "daily": {
     "title": "Culture Tracker",
-    "intro": "Top 10 culturele topics · 48 artikels van 37 bronnen · 10 door 3+ bronnen · laatste 24u.",
+    "intro": "Top 10 culturele topics · 51 artikels van 37 bronnen · 10 door 3+ bronnen · laatste 24u.",
     "topics": [
       {
         "label": "2026 · Tour",
@@ -10,12 +10,10 @@
           "2026",
           "tour"
         ],
-        "sourceCount": 14,
+        "sourceCount": 12,
         "sources": [
-          "Billboard",
           "Consequence",
           "Coolhunting",
-          "DIY Magazine",
           "Design Boom",
           "Eurogamer",
           "GQ",
@@ -60,16 +58,6 @@
             "trending": true
           },
           {
-            "source": "Billboard",
-            "category": "music",
-            "title": "Q1 2026 Earnings: Here’s What Every Music Company Made (Updating)",
-            "url": "https://www.billboard.com/lists/music-company-earnings-q1-2026-what-spotify-umg-hybe-made/",
-            "published": "2026-05-06T19:36:00.000Z",
-            "summary": "A roundup of Spotify, Live Nation, Universal Music Group and other music companies' earnings results for the quarter ending March 31, 2026.",
-            "score": 10,
-            "trending": true
-          },
-          {
             "source": "Sneaker News",
             "category": "fashion",
             "title": "The New Balance 1890 “Outerspace” Drops June 2026",
@@ -110,12 +98,22 @@
             "trending": true
           },
           {
-            "source": "DIY Magazine",
+            "source": "Eurogamer",
+            "category": "gaming",
+            "title": "Forget Wordle, the best daily puzzle of 2026 is a fiendish Pokémon-based cryptic crossword game",
+            "url": "https://www.eurogamer.net/pokecryptic-crossword-puzzle-good",
+            "published": "2026-05-06T13:09:01.000Z",
+            "summary": "Over the past few months, I have developed a taste for cryptic crosswords. Different to normal crosswords, these puzzles revolve around clues that are self-contained miniature riddles, of sorts, that prioritise wordplay and brain-teasing, rather than just giving you a direct…",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "NME",
             "category": "music",
-            "title": "East London Block Party presents second wave of 2026 lineup",
-            "url": "https://diymag.com/news/east-london-block-party-2026-lineup",
-            "published": "2026-05-06T14:05:00.000Z",
-            "summary": "slumber, SILVERWINGKILLER, Dreamwave, and The Horrors’ Faris Badwan are among the new additions.",
+            "title": "‘Black Myth: Wukong’ team confirms 2026 global soundtrack tour",
+            "url": "https://www.nme.com/news/gaming-news/black-myth-wukong-team-confirms-2026-global-soundtrack-tour-3944273?utm_source=rss&utm_medium=rss&utm_campaign=black-myth-wukong-team-confirms-2026-global-soundtrack-tour",
+            "published": "2026-05-06T11:52:24.000Z",
+            "summary": "The run of shows will deliver an “immersive ‘East-meets-West’ musical experience\" to 12 cities The post ‘Black Myth: Wukong’ team confirms 2026 global soundtrack tour appeared first on NME.",
             "score": 9,
             "trending": true
           }
@@ -127,13 +125,14 @@
           "star",
           "nintendo"
         ],
-        "sourceCount": 7,
+        "sourceCount": 8,
         "sources": [
           "Deadline",
           "Eurogamer",
           "IndieWire",
           "Kotaku",
           "Polygon",
+          "The Hollywood Reporter",
           "The Verge",
           "Variety"
         ],
@@ -145,6 +144,26 @@
         "trending": true,
         "fresh": true,
         "items": [
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Adrien Brody & Rachel Zegler To Lead Karim Aïnouz’ ‘Last Dance’ With Ben Platt Co-Starring & Writing Original Music & ‘Evita’ Star Zegler Singing; FilmNation Launching For Cannes Market",
+            "url": "https://deadline.com/2026/05/rachel-zegler-adrien-brody-last-dance-filmnation-cannes-1236883777/",
+            "published": "2026-05-06T23:26:38.000Z",
+            "summary": "EXCLUSIVE: Two-time Oscar winner Adrien Brody (The Brutalist) and Golden Globe winner Rachel Zegler (West Side Story) have been set to star in Brazilian filmmaker and Cannes habitué Karim Aïnouz’ (Firebrand) father-daughter story Last Dance. Tony, Emmy, and Grammy winner Ben…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "‘Survivor 50’ Star Stephenie LaGrossa Kendrick on What Went Wrong, That Mr. Beast Twist and Complex Cirie Relationship",
+            "url": "https://www.hollywoodreporter.com/tv/tv-features/survivor-50-exit-interview-stephenie-lagrossa-kendrick-1236581291/",
+            "published": "2026-05-06T23:16:07.000Z",
+            "summary": "The four-time player breaks down a chaotic Tribal Council where a coin-flip advantage and exposed alliances turned the vote against her.",
+            "score": 10,
+            "trending": true
+          },
           {
             "source": "Kotaku",
             "category": "gaming",
@@ -204,25 +223,153 @@
             "summary": "EXCLUSIVE: For couples who seek reproductive help, an IVF mixup and its emotional implications is one of their worst nightmares. HBO Max is tapping into that with a series in development that comes from the This Is Us duo of Mandy Moore and Julia Brownell. Moore is executive…",
             "score": 10,
             "trending": true
-          },
+          }
+        ]
+      },
+      {
+        "label": "Director · Movie",
+        "keywords": [
+          "director",
+          "movie"
+        ],
+        "sourceCount": 5,
+        "sources": [
+          "Business of Fashion",
+          "Deadline",
+          "Eurogamer",
+          "The Hollywood Reporter",
+          "Variety"
+        ],
+        "categories": [
+          "fashion",
+          "gaming",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
           {
             "source": "Deadline",
             "category": "film",
-            "title": "Doug Liman To Direct ‘Star One’ With Miles Teller & Eddie Redmayne — Cannes Market",
-            "url": "https://deadline.com/2026/05/doug-liman-star-one-miles-teller-eddie-redmayne-cia-agents-1236883666/",
-            "published": "2026-05-06T21:20:31.000Z",
-            "summary": "Doug Liman has been set to direct Miles Teller and Eddie Redmayne in Star One, which Black Bear and CAA Media Finance are launching for the Cannes market. Based on a true story, the film will follow “two mismatched CIA agents, one charismatic (Teller), the other strait-laced…",
+            "title": "David Di Donatello Awards: Feel-Good Movie ‘The Last One For The Road’ Sweeps Board To Win Best Film & Director",
+            "url": "https://deadline.com/2026/05/david-di-donatello-awards-2026-winners-1236883709/",
+            "published": "2026-05-06T23:35:43.000Z",
+            "summary": "Francesco Sossai’s comedy-drama The Last One For The Road swept the board at the 71st edition of Italy‘s David di Donatello awards at Romes Cinecittà studios on Wednesday winning in ten categories including best film and director. The road movie, which originally premiered in…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "‘Fantastic Four: First Steps’ Director Tackling New ‘Planet of the Apes’ Movie",
+            "url": "https://www.hollywoodreporter.com/movies/movie-news/matt-shakman-new-planet-of-the-apes-movie-1236588377/",
+            "published": "2026-05-06T20:57:57.000Z",
+            "summary": "And 'First Steps' co-writer Josh Friedman is on writing duties.",
             "score": 10,
             "trending": true
           },
           {
             "source": "Variety",
             "category": "film",
-            "title": "Miles Teller and Eddie Redmayne in Talks to Play Mismatched CIA Agents in Doug Liman Spy Thriller ‘Star One,’ CAA Launching Sales in Cannes (EXCLUSIVE)",
-            "url": "https://variety.com/2026/film/global/miles-tiller-eddie-redmayne-doug-liman-thriller-star-one-1236739814/",
-            "published": "2026-05-06T21:04:49.000Z",
-            "summary": "Eddie Redmayne and Miles Teller are in talks to star in “Star One,” a new spy thriller from Doug Liman set to launch at the market in Cannes. Liman — who recently wrapped AI thriller “Bitcoin” starring Casey Affleck and Pete Davidson — is directing from a script by David…",
+            "title": "New ‘Planet of the Apes’ Movie in the Works With ‘Fantastic Four: First Steps’ Director",
+            "url": "https://variety.com/2026/film/news/planet-of-the-apes-new-movie-fantastic-four-director-matt-shakman-1236739815/",
+            "published": "2026-05-06T20:16:13.000Z",
+            "summary": "Director Matt Shakman is bouncing from Marvel’s sacred timeline to “The Planet of the Apes,” as the director will shepherd a new film in the sci-fi franchise for 20th Century Studios. Shakman helmed last year’s “The Fantastic Four: First Steps” for Disney’s superhero label, and…",
             "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Eurogamer",
+            "category": "gaming",
+            "title": "Paranormasight director Takanari Ishiyama believes high-quality indie games are helping smaller projects from big publishers",
+            "url": "https://www.eurogamer.net/paranormasight-director-on-getting-smaller-games-made",
+            "published": "2026-05-06T12:01:02.000Z",
+            "summary": "The two Paranormasight games, The Seven Mysteries of Honjo and The Mermaid's Curse, are among the most celebrated horror visual novels in recent years. Though it might be shocking to many, Square Enix is behind their development and publishing, and now their main creative is…",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Business of Fashion",
+            "category": "fashion",
+            "title": "A.P.C. Names New Artistic Director Amid Flux",
+            "url": "https://www.businessoffashion.com/news/luxury/apc-names-new-artistic-director-amid-flux/",
+            "published": "2026-05-06T04:33:00.000Z",
+            "summary": "Ludivine Poiblanc is taking the creative reins at the brand founded by Jean Touitou six months after majority shareholder L Catterton installed Stephanie Phair as president.",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Mortal · Kombat",
+        "keywords": [
+          "mortal",
+          "kombat"
+        ],
+        "sourceCount": 5,
+        "sources": [
+          "Eurogamer",
+          "IndieWire",
+          "Kotaku",
+          "Stereogum",
+          "The Hollywood Reporter"
+        ],
+        "categories": [
+          "music",
+          "gaming",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Stereogum",
+            "category": "music",
+            "title": "Jared Mattson (The Mattson 2) & Ruban Nielson (Unknown Mortal Orchestra) Announce New Collaborative Album FEAR: Hear “AMERICAN EAGLE”",
+            "url": "https://stereogum.com/2498131/jared-mattson-the-mattson-2-ruban-nielson-unknown-mortal-orchestra-announce-new-collaborative-album-fear-hear-american-eagle/music/",
+            "published": "2026-05-06T23:19:51.000Z",
+            "summary": "Jared Mattson of the Mattson 2 has teamed up with Ruban Nielson of Unknown Mortal Orchestra for a collaborative album called FEAR. The LP arrives next month on Jagjaguwar, but for now you can hear the lead single “AMERICAN EAGLE.” The two musicians met in 2024 after crossing…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "Box Office Preview: ‘Mortal Kombat II’ to Battle ‘Devil Wears Prada 2’ for Mother’s Day Bouquet",
+            "url": "https://www.hollywoodreporter.com/movies/movie-news/box-office-preview-mortal-kombat-ii-devil-wears-prada-2-1236588013/",
+            "published": "2026-05-06T22:13:39.000Z",
+            "summary": "James Cameron's Billie Eilish doc and the critically acclaimed 'The Sheep Detectives' also enter the fray, while 'Michael' continues to be a crowd favorite.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Kotaku",
+            "category": "gaming",
+            "title": "Mortal Kombat Co-Creator Breaks Silence On The Box Office Showdown With Street Fighter",
+            "url": "https://kotaku.com/mortal-kombat-co-creator-breaks-silence-on-the-box-office-showdown-with-street-fighter-2000693625",
+            "published": "2026-05-06T20:38:32.000Z",
+            "summary": "Could we ever see Ryu in Mortal Kombat?",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "IndieWire",
+            "category": "film",
+            "title": "‘Mortal Kombat II’ Review: Not Even Kitana Can Save This Doomed IP from Another Film Fatality",
+            "url": "https://www.indiewire.com/criticism/movies/mortal-kombat-2-film-review-1235192434/",
+            "published": "2026-05-06T16:00:00.000Z",
+            "summary": "Director Simon McQuoid returns with a muddy sequel that has its moments, just not enough of them.",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Eurogamer",
+            "category": "gaming",
+            "title": "As Injustice 3 rumours heat up, NetherRealm boss Ed Boon says the studio is \"actively pursuing\" a new Mortal Kombat",
+            "url": "https://www.eurogamer.net/netherrealm-boss-ed-boon-on-next-mortal-kombat-plans",
+            "published": "2026-05-06T12:19:41.000Z",
+            "summary": "While 2023's Mortal Kombat 1 didn't impress critics and fans as much as the other modern entries in the series, it still proved highly successful for developer NetherRealm Studios and publisher Warner Bros. Games, with \"8 million units sold and kounting\". It's no surprise then…",
+            "score": 9,
             "trending": true
           }
         ]
@@ -267,7 +414,7 @@
             "url": "https://www.indiewire.com/news/trailers/deli-boys-season-2-trailer-1235192428/",
             "published": "2026-05-06T17:00:00.000Z",
             "summary": "The second season of the sitcom from creator Abdullah Saeed releases May 28.",
-            "score": 10,
+            "score": 9,
             "trending": true
           },
           {
@@ -291,22 +438,22 @@
             "trending": true
           },
           {
-            "source": "GQ",
-            "category": "fashion",
-            "title": "‘The Odyssey’ Trailer's Accents Aren't Actually That Weird",
-            "url": "https://www.gq.com/story/the-odyssey-trailer-accents",
-            "published": "2026-05-06T12:00:00.000Z",
-            "summary": "Did the ancient Greeks all talk like Matt Damon? Probably not. But the ubiquity of the British accent in films about the distant past is a more modern convention than many people realize.",
-            "score": 9,
-            "trending": true
-          },
-          {
             "source": "Yanko Design",
             "category": "art",
             "title": "This Tiny Bike Trailer Secretly Slides Out Into a 2-Person Camper",
             "url": "https://www.yankodesign.com/2026/05/06/this-tiny-bike-trailer-secretly-slides-out-into-a-2-person-camper/?utm_source=rss&utm_medium=rss&utm_campaign=this-tiny-bike-trailer-secretly-slides-out-into-a-2-person-camper",
             "published": "2026-05-06T15:20:06.000Z",
             "summary": "This Tiny Bike Trailer Secretly Slides Out Into a 2-Person Camper Bike-towable camping trailers have their fan base. Such living on the move facilities are redefining adventures for cyclists, especially in Europe, with their versatility and...",
+            "score": 8,
+            "trending": true
+          },
+          {
+            "source": "GQ",
+            "category": "fashion",
+            "title": "‘The Odyssey’ Trailer's Accents Aren't Actually That Weird",
+            "url": "https://www.gq.com/story/the-odyssey-trailer-accents",
+            "published": "2026-05-06T12:00:00.000Z",
+            "summary": "Did the ancient Greeks all talk like Matt Damon? Probably not. But the ubiquity of the British accent in films about the distant past is a more modern convention than many people realize.",
             "score": 8,
             "trending": true
           }
@@ -377,14 +524,137 @@
         ]
       },
       {
+        "label": "Turner · Founder",
+        "keywords": [
+          "turner",
+          "founder"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "Adweek",
+          "Fast Company",
+          "The Hollywood Reporter",
+          "Variety"
+        ],
+        "categories": [
+          "film",
+          "marketing",
+          "trends"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "Jane Fonda Remembers Ted Turner as Someone Who “Needed and Cared” for Her: “He Gave Me Confidence”",
+            "url": "https://www.hollywoodreporter.com/news/general-news/jane-fonda-tribute-ted-turner-dead-1236587911/",
+            "published": "2026-05-06T21:20:52.000Z",
+            "summary": "The two-time Oscar winner was married to the CNN founder, who died Wednesday, from 1991 to 2001.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "Ted Turner and Rupert Murdoch: A Media Feud for the Ages",
+            "url": "https://variety.com/2026/tv/news/ted-turner-rupert-murdoch-feud-history-cnn-fox-news-1236739792/",
+            "published": "2026-05-06T20:34:21.000Z",
+            "summary": "When the news broke Wednesday that Ted Turner, the renowned media and sports mogul, had died at the age of 87, leading voices in the media and entertainment world showered praise upon his legacy. “He believed deeply in the power of ideas, in doing things differently and in…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Fast Company",
+            "category": "trends",
+            "title": "Ted Turner, the founder of CNN, dies at 87",
+            "url": "https://www.fastcompany.com/91537887/ted-turner-cnn-death-obit",
+            "published": "2026-05-06T17:30:00.000Z",
+            "summary": "Ted Turner, a brash television pioneer who raced yachts, owned huge chunks of the American West and transformed the news business by launching CNN and introducing the 24-hour cable news cycle, died Wednesday. He was 87. Turner died surrounded by his family, according to Turner…",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Adweek",
+            "category": "marketing",
+            "title": "CNN Founder Ted Turner Dies at 87",
+            "url": "https://www.adweek.com/tvnewser/cnn-founder-ted-turner-dies-at-87/",
+            "published": "2026-05-06T11:21:35.000Z",
+            "summary": "Turner pioneered the 24-hour news network, fundamentally changing the news industry.",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Heaven · Stranger",
+        "keywords": [
+          "heaven",
+          "stranger"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Polygon",
+          "The Hollywood Reporter",
+          "Variety"
+        ],
+        "categories": [
+          "gaming",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Polygon",
+            "category": "gaming",
+            "title": "Sega’s Stranger Than Heaven cast includes a yakuza icon who died 12 years ago",
+            "url": "https://www.polygon.com/stranger-than-heaven-bunta-sugawara/",
+            "published": "2026-05-06T23:33:18.000Z",
+            "summary": "Bunta Sugawara starred in the Battles Without Honor and Humanity series in the 1970s, which were a huge influence on RGG Studio's Yakuza games",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Polygon",
+            "category": "gaming",
+            "title": "Stranger Than Heaven release date narrows down in new Xbox showcase",
+            "url": "https://www.polygon.com/stranger-than-heaven-xbox-showcase/",
+            "published": "2026-05-06T23:31:10.000Z",
+            "summary": "Xbox Presents: A Special Look at Stranger Than Heaven revealed details about the story, time periods, cast, combat, and mini-games in RGGs latest",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "‘Highway to Heaven’ Remake Set at Fox for 2027-28 Season",
+            "url": "https://www.hollywoodreporter.com/tv/tv-news/highway-to-heaven-remake-fox-2027-28-1236588427/",
+            "published": "2026-05-06T21:31:53.000Z",
+            "summary": "Jason Katims will be the showrunner on the new take on the show based on Michael Landon's 1980s drama.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "‘Highway to Heaven’ Reboot Set at Fox",
+            "url": "https://variety.com/2026/tv/news/highway-to-heaven-reboot-fox-1236739872/",
+            "published": "2026-05-06T21:17:22.000Z",
+            "summary": "“Highway to Heaven” is getting a second life. The drama fantasy series, which ran from 1984 to 1989 on NBC, is being rebooted by Fox for the 2027-2028 broadcast season. Emmy winning writer Jason Katims (“Friday Night Lights,” “Parenthood”) will showrun the new iteration of the…",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
         "label": "Price · Tiny",
         "keywords": [
           "price",
           "tiny"
         ],
-        "sourceCount": 4,
+        "sourceCount": 3,
         "sources": [
-          "Kotaku",
           "The Verge",
           "Variety",
           "Yanko Design"
@@ -392,7 +662,6 @@
         "categories": [
           "art",
           "internet",
-          "gaming",
           "film"
         ],
         "trending": true,
@@ -427,305 +696,66 @@
             "summary": "The black and white versions of the latest Tile Pro is $10 off, marking its best price of the year. | Image: Tile If you’re struggling to find a Mother’s Day gift under $30, location trackers are a good investment, helping mom keep tabs on keys, bags, luggage, and other…",
             "score": 10,
             "trending": true
-          },
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Mina The Hollower Has A New Release Date And An Aggressively Low Price",
-            "url": "https://kotaku.com/mina-the-hollower-has-a-new-release-date-and-an-aggressively-low-price-2000693637",
-            "published": "2026-05-06T18:12:03.000Z",
-            "summary": "The Shovel Knight team's latest game is out in May",
-            "score": 10,
-            "trending": true
           }
         ]
       },
       {
-        "label": "Turner · Founder",
+        "label": "David · Chipperfield",
         "keywords": [
-          "turner",
-          "founder"
-        ],
-        "sourceCount": 4,
-        "sources": [
-          "Adweek",
-          "Deadline",
-          "Fast Company",
-          "Variety"
-        ],
-        "categories": [
-          "film",
-          "marketing",
-          "trends"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Deadline",
-            "category": "film",
-            "title": "Ted Turner Was “Generational Entrepreneur,” David Zaslav Asserts (With A Nod To Mentor John Malone) Of CNN Founder On WBD Q1 Earnings Call",
-            "url": "https://deadline.com/2026/05/david-zaslav-ted-turner-tribute-wbd-earnings-1236883603/",
-            "published": "2026-05-06T21:04:51.000Z",
-            "summary": "If you thought David Zaslav had said all he had to say on the life and death of CNN founder Ted Turner today in his memo to Warner Bros Discovery staff earlier Wednesday, think again. “Ted was a generational entrepreneur, someone who believed deeply in the power of ideas and in…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Deadline",
-            "category": "film",
-            "title": "Jane Fonda Posts Emotional Tribute To Ted Turner: “I Loved Ted With All My Heart”",
-            "url": "https://deadline.com/2026/05/jane-fonda-ted-turner-tribute-1236883612/",
-            "published": "2026-05-06T20:58:11.000Z",
-            "summary": "Jane Fonda has posted a lengthy and emotional Instagram remembrance of her ex-husband Ted Turner, who died Wednesday at 87. “I loved Ted with all my heart,” she writes. See the entire statement below. Introducing the statement as “My immediate thoughts about Ted,” Fonda writes,…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "Ted Turner and Rupert Murdoch: A Media Feud for the Ages",
-            "url": "https://variety.com/2026/tv/news/ted-turner-rupert-murdoch-feud-history-cnn-fox-news-1236739792/",
-            "published": "2026-05-06T20:34:21.000Z",
-            "summary": "When the news broke Wednesday that Ted Turner, the renowned media and sports mogul, had died at the age of 87, leading voices in the media and entertainment world showered praise upon his legacy. “He believed deeply in the power of ideas, in doing things differently and in…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Fast Company",
-            "category": "trends",
-            "title": "Ted Turner, the founder of CNN, dies at 87",
-            "url": "https://www.fastcompany.com/91537887/ted-turner-cnn-death-obit",
-            "published": "2026-05-06T17:30:00.000Z",
-            "summary": "Ted Turner, a brash television pioneer who raced yachts, owned huge chunks of the American West and transformed the news business by launching CNN and introducing the 24-hour cable news cycle, died Wednesday. He was 87. Turner died surrounded by his family, according to Turner…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "CNN Founder Ted Turner Dies at 87",
-            "url": "https://www.adweek.com/tvnewser/cnn-founder-ted-turner-dies-at-87/",
-            "published": "2026-05-06T11:21:35.000Z",
-            "summary": "Turner pioneered the 24-hour news network, fundamentally changing the news industry.",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Million · Bags",
-        "keywords": [
-          "million",
-          "bags"
-        ],
-        "sourceCount": 4,
-        "sources": [
-          "404 Media",
-          "Fast Company",
-          "Highsnobiety",
-          "Polygon"
-        ],
-        "categories": [
-          "fashion",
-          "internet",
-          "gaming",
-          "trends"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "Good Bags Have One Million Pockets",
-            "url": "https://www.highsnobiety.com/p/potr-dissection/",
-            "published": "2026-05-06T20:22:00.000Z",
-            "summary": "Can a bag ever have too many pockets? DISSECTION, POTR’s uber utilitarian spring 2026 collection, offers a resounding “No.”",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "A book with a new Brandon Sanderson story raises $1 million on Kickstarter",
-            "url": "https://www.polygon.com/brandon-sanderson-unbroken-kickstarter/",
-            "published": "2026-05-06T17:15:27.000Z",
-            "summary": "Unbroken: New Tales by Masters of Fantasy also includes work from Matt Dinniman, R.A. Salvatore, and Lev Grossman.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Fast Company",
-            "category": "trends",
-            "title": "‘He put me in harm’s way’: Ken Griffin responds to Mamdani’s viral video of his $239 million NYC penthouse",
-            "url": "https://www.fastcompany.com/91537680/ken-griffin-citadel-ceo-billionaire-responds-to-zohran-mamdani-pied-a-terre-tax-viral-video-nyc-new-york-penthouse",
-            "published": "2026-05-06T17:00:00.000Z",
-            "summary": "Last month, New York City Mayor Zohran Mamdani celebrated Tax Day by making good on a campaign promise. “When I ran for mayor, I said I was going to tax the rich,” Mamdani said in a viral video posted to social media. “Today, we’re taxing the rich.” Mamdani went on to describe…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "404 Media",
-            "category": "internet",
-            "title": "Man Finds $1 Million Worth of Yu-Gi-Oh Cards in a Dumpster",
-            "url": "https://www.404media.co/man-finds-1-million-worth-of-yu-gi-oh-cards-in-a-dumpster/",
-            "published": "2026-05-06T13:21:59.000Z",
-            "summary": "It was already a sordid tale of online drama, blurry photographs, and erratic TikToks. Then his mom started posting.",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Weird · Native",
-        "keywords": [
-          "weird",
-          "native"
+          "david",
+          "chipperfield"
         ],
         "sourceCount": 3,
         "sources": [
-          "NME",
-          "The Verge",
-          "Wired"
+          "Dezeen",
+          "The Hollywood Reporter",
+          "The Verge"
         ],
         "categories": [
+          "art",
           "internet",
-          "music"
+          "film"
         ],
         "trending": true,
         "fresh": true,
         "items": [
           {
-            "source": "Wired",
-            "category": "internet",
-            "title": "Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird",
-            "url": "https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/",
-            "published": "2026-05-06T18:28:52.000Z",
-            "summary": "In an unexpected turn, the two companies signed a deal for Anthropic to use computing resources from Elon Musk’s xAI.",
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "Paul Shaffer Sings Frank Sinatra, Shares Stage with David Letterman and John Mulaney at Netflix Event",
+            "url": "https://www.hollywoodreporter.com/tv/tv-news/david-letterman-netflix-john-mulaney-paul-shaffer-live-show-1236588416/",
+            "published": "2026-05-06T23:21:42.000Z",
+            "summary": "Mulaney made the most of his time on the Montalban stage by praising comedian Robby Hoffman, teasing a return to 'Everybody's in LA' and trashing the Michael Jackson biopic: \"It looks like dog shit.\"",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "David Zaslav Says HBO Max Is “Probably” Warner Bros. Discovery’s “Most Important Asset”",
+            "url": "https://www.hollywoodreporter.com/business/business-news/david-zaslav-hbo-max-most-important-asset-paramount-1236588400/",
+            "published": "2026-05-06T21:37:16.000Z",
+            "summary": "Rude to the water tower.",
             "score": 10,
             "trending": true
           },
           {
             "source": "The Verge",
             "category": "internet",
-            "title": "Native Instruments Komplete 26 adds weird new synths and experimental piano sounds",
-            "url": "https://www.theverge.com/tech/925211/native-instruments-komplete-26-absynth-massive-kontakt",
-            "published": "2026-05-06T16:37:40.000Z",
-            "summary": "Komplete is a complete music production bundle even if you don’t spend $2,000. | Image: Native Instruments The latest version of Native Instruments' Komplete music production bundle is here with 62 new additions, including the wonderfully weird Absynth 6. Komplete 26 comes in…",
+            "title": "How David Sacks crashed and burned in the White House",
+            "url": "https://www.theverge.com/column/925487/david-sacks-trump-administration-ai-model-review",
+            "published": "2026-05-06T20:18:00.000Z",
+            "summary": "AI and Crypto Czar David O. Sacks speaks during a meeting of the White House Task Force on Artificial Intelligence Education at the White House. | Matt McClain/The Washington Post via Getty Images Hello and welcome to Regulator, a newsletter exclusively for Verge subscribers…",
             "score": 10,
             "trending": true
           },
           {
-            "source": "NME",
-            "category": "music",
-            "title": "Paul McCartney details nostalgic new album ‘The Boys Of Dungeon Lane’ at London listening event: “Memories are a weird thing”",
-            "url": "https://www.nme.com/news/music/paul-mccartney-the-boys-of-dungeon-lane-listening-event-abbey-road-3944274?utm_source=rss&utm_medium=rss&utm_campaign=paul-mccartney-the-boys-of-dungeon-lane-listening-event-abbey-road",
-            "published": "2026-05-06T12:55:09.000Z",
-            "summary": "The Beatles legend shared stories of his former bandmates and the work behind the new record, due out later this month, for lucky fans at Abbey Road Studios yesterday The post Paul McCartney details nostalgic new album ‘The Boys Of Dungeon Lane’ at London listening event:…",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Michael · Navy",
-        "keywords": [
-          "michael",
-          "navy"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Adweek",
-          "Business of Fashion",
-          "Deadline"
-        ],
-        "categories": [
-          "fashion",
-          "film",
-          "marketing"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Deadline",
-            "category": "film",
-            "title": "‘Highway To Heaven’ Reboot Gets Fox Series Order For 2027-28 From Jason Katims, Amblin Television & Michael Landon Prods.",
-            "url": "https://deadline.com/2026/05/highway-to-heaven-reboot-fox-series-jason-katims-amblin-1236883576/",
-            "published": "2026-05-06T21:00:44.000Z",
-            "summary": "EXCLUSIVE: As Fox is getting ready to launch a reboot of one of its 1980s TV series, Baywatch, this coming season, the network is bringing back another classic ’80s TV title, Highway To Heaven, for the following season. Looking ahead, Fox has ordered a new take on Michael…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Business of Fashion",
-            "category": "fashion",
-            "title": "Old Navy Appoints Retail Veteran Michael Francis as Chief Customer Officer",
-            "url": "https://www.businessoffashion.com/news/retail/old-navy-appoints-retail-veteran-michael-francis-as-chief-customer-officer/",
-            "published": "2026-05-06T13:00:00.000Z",
-            "summary": "The former Target executive will join the Gap Inc.-owned brand in a newly created role.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "Old Navy Appoints Michael Francis as Chief Customer Officer Amid Turnaround",
-            "url": "https://www.adweek.com/brand-marketing/old-navy-appoints-michael-francis-as-chief-customer-officer-amid-turnaround/",
-            "published": "2026-05-06T09:00:00.000Z",
-            "summary": "Gap Inc. has brought on veteran brand executive Michael Francis as chief customer officer of Old Navy and head of marketing shared services for the group.",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Lego · Batman",
-        "keywords": [
-          "lego",
-          "batman"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Eurogamer",
-          "Kotaku",
-          "Yanko Design"
-        ],
-        "categories": [
-          "art",
-          "gaming"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Yanko Design",
+            "source": "Dezeen",
             "category": "art",
-            "title": "The Artemis II ‘Earthset’ Photo Is Now a LEGO Set and It Looks Incredible",
-            "url": "https://www.yankodesign.com/2026/05/06/the-artemis-ii-earthset-photo-is-now-a-lego-set-and-it-looks-incredible/?utm_source=rss&utm_medium=rss&utm_campaign=the-artemis-ii-earthset-photo-is-now-a-lego-set-and-it-looks-incredible",
-            "published": "2026-05-06T22:30:06.000Z",
-            "summary": "The Artemis II ‘Earthset’ Photo Is Now a LEGO Set and It Looks Incredible On Christmas Eve 1968, astronaut Bill Anders looked out of Apollo 8’s window and saw something no human had ever seen before: Earth, whole and...",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Lego Batman: Legacy Of The Dark Knight: Everything We Know About The Arkham-Style Adventure",
-            "url": "https://kotaku.com/lego-batman-legacy-dark-knight-everything-we-know-date-2000663464",
-            "published": "2026-05-06T18:50:18.000Z",
-            "summary": "The next Lego Batman is drawing clear inspiration from Rocksteady’s open-world action games, as well as other sides of the Caped Crusader's history",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Eurogamer",
-            "category": "gaming",
-            "title": "Renowned comedian Matt Berry helped create \"lots of fun Bane bits\" in Lego Batman: Legacy of the Dark Knight",
-            "url": "https://www.eurogamer.net/lego-batman-legacy-dark-knight-matt-berry-bane",
-            "published": "2026-05-06T13:04:48.000Z",
-            "summary": "British comedian Matt Berry is voicing Bane in TT Games' upcoming release, Lego Batman: Legacy of the Dark Knight, and it sounds like he will be bringing an especially mischievous twist to the iconic DC villain. Read more",
+            "title": "David Chipperfield creates freestanding plywood bathtub for Agape",
+            "url": "https://www.dezeen.com/2026/05/06/agape-david-chipperfield-tambre-bathtub/",
+            "published": "2026-05-06T05:00:08.000Z",
+            "summary": "David Chipperfield Design has developed a wooden bathtub for Italian bathroom brand Agape, featuring a pared-back form with an integrated seat, shelf and washbasin. For its first-ever collaboration with Agape, which launched during Milan design week, the design studio of…",
             "score": 9,
             "trending": true
           }
