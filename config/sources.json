@@ -21,6 +21,13 @@
     "weight": 9
   },
   {
+    "name": "Reddit r/streetwear",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/streetwear/.rss",
+    "category": "fashion",
+    "weight": 7
+  },
+  {
     "name": "Dezeen",
     "type": "rss",
     "url": "https://www.dezeen.com/feed/",
@@ -95,6 +102,20 @@
     "name": "Consequence",
     "type": "rss",
     "url": "https://consequence.net/feed/",
+    "category": "music",
+    "weight": 7
+  },
+  {
+    "name": "Reddit r/hiphopheads",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/hiphopheads/.rss",
+    "category": "music",
+    "weight": 7
+  },
+  {
+    "name": "Reddit r/popheads",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/popheads/.rss",
     "category": "music",
     "weight": 7
   },
@@ -197,24 +218,48 @@
     "weight": 8
   },
   {
-    "name": "Trend Hunter",
+    "name": "Google Trends (BE)",
     "type": "rss",
-    "url": "https://www.trendhunter.com/rss",
+    "url": "https://trends.google.com/trending/rss?geo=BE",
     "category": "trends",
-    "weight": 6
+    "weight": 10
+  },
+  {
+    "name": "Google Trends (NL)",
+    "type": "rss",
+    "url": "https://trends.google.com/trending/rss?geo=NL",
+    "category": "trends",
+    "weight": 10
+  },
+  {
+    "name": "TikTok Trending (NL)",
+    "type": "tiktok-trends",
+    "url": "https://ads.tiktok.com/creative_radar_api/v1/popular_trend/hashtag/list",
+    "category": "trends",
+    "country_code": "NL",
+    "period": 7,
+    "limit": 15,
+    "weight": 9
   },
   {
     "name": "Know Your Meme",
     "type": "rss",
     "url": "https://knowyourmeme.com/memes/recent.rss",
     "category": "trends",
+    "weight": 8
+  },
+  {
+    "name": "Trend Hunter",
+    "type": "rss",
+    "url": "https://www.trendhunter.com/rss",
+    "category": "trends",
     "weight": 7
   },
   {
-    "name": "Mashable",
+    "name": "Coolhunting",
     "type": "rss",
-    "url": "https://mashable.com/feeds/rss/all",
+    "url": "https://coolhunting.com/feed/",
     "category": "trends",
-    "weight": 7
+    "weight": 8
   }
 ]
