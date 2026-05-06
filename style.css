@@ -205,6 +205,96 @@ a:hover { opacity: 0.7; }
   padding: 32px 0; font-size: 15px;
 }
 
+/* ─── Topics (new trending-cluster format) ─────────────────────────────── */
+
+.topic {
+  margin: 0 0 44px;
+  padding-left: 0;
+  border-left: 3px solid transparent;
+  transition: border-color 0.15s;
+}
+
+/* 3+ sources = hot topic: warm left accent */
+.topic.is-trending {
+  border-left-color: #d4600a;
+  padding-left: 16px;
+}
+
+.topic-header { margin: 0 0 14px; }
+
+/* Title row: label + source-count badge side by side */
+.topic-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 0 10px;
+}
+
+.topic-label {
+  font-family: var(--font-serif);
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+/* Badges */
+.badge {
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+.badge-hot {
+  background: #fff0e6;
+  color: #c05000;
+}
+.badge-neutral {
+  background: var(--pill);
+  color: var(--muted);
+  font-weight: 400;
+}
+
+/* Source pills row — shown directly below the title */
+.topic-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 8px;
+}
+
+/* Category tags row */
+.topic-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 4px;
+}
+
+/* Source name inside an article card */
+.source-name {
+  background: transparent;
+  border: 1px solid var(--line);
+  font-weight: 500;
+}
+
+/* Relative timestamp inside article card */
+.item-age {
+  font-size: 12px;
+  color: var(--muted);
+  margin-left: 2px;
+}
+
+/* Dark mode tweaks */
+@media (prefers-color-scheme: dark) {
+  .badge-hot    { background: #3a1800; color: #ff8c42; }
+  .topic.is-trending { border-left-color: #ff8c42; }
+}
+
 /* Mobile */
 @media (max-width: 480px) {
   .filter-row { flex-direction: column; align-items: stretch; }
@@ -214,4 +304,6 @@ a:hover { opacity: 0.7; }
   .intro h2 { font-size: 20px; }
   .layers { gap: 4px; }
   .layer-btn { padding: 7px 12px; font-size: 12px; }
+  .topic-label { font-size: 18px; }
+  .topic.is-trending { padding-left: 12px; }
 }

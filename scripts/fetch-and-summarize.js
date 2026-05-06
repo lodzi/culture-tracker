@@ -101,6 +101,11 @@ const STOPWORDS = new Set([
   "een","het","een","een","van","voor","over","naar","door","met","door",
   "deze","dit","dat","wat","hoe","waar","welke","wordt","worden","heeft",
   "hebben","ook","maar","want","dus","echt","weer","altijd","nooit",
+  // Domain-specific generic words — too broad to signal a real topic
+  "music","fashion","gaming","culture","design","brands","media","series",
+  "season","album","films","games","shows","trend","trends","report",
+  "podcast","interview","review","release","debut","launch","announce",
+  "feature","story","style","looks","brand","video","watch","reads",
 ]);
 
 // --- Helpers ---
@@ -371,42 +376,131 @@ function scoreItems(items) {
   }
 }
 
-// --- Group by category ---
-function groupByCategory(items) {
-  const groups = {};
-  for (const it of items) {
-    const cat = it.category || "other";
-    if (!groups[cat]) groups[cat] = [];
-    groups[cat].push(it);
-  }
+// --- Cluster by topic ---
+// Groups items into trending topic clusters based on cross-source keyword overlap.
+// Only clusters whose articles come from ≥2 different sources are surfaced.
+// Items that don't fit any cross-source topic are silently discarded — they're
+// not trending, just recent.
+//
+// Algorithm:
+//   1. Tokenize every article title → build keyword→{items,sources} maps
+//   2. Hot keywords = appear in ≥2 sources AND cover ≤30% of all items (not generic)
+//   3. Score keywords: sourceCount*4 + itemCount + velocity bonus
+//   4. Greedy assign: process keywords best-first; each article assigned once
+//   5. Name each cluster by its top 2 most-frequent title tokens
+//   6. Sort clusters by source count desc
+const MAX_ITEMS_PER_TOPIC = parseInt(process.env.MAX_ITEMS_PER_TOPIC || "8", 10);
 
-  // Sort items inside each group: highest score first, then newest, then title.
-  for (const cat of Object.keys(groups)) {
-    groups[cat].sort(function (a, b) {
-      if (b.score !== a.score) return b.score - a.score;
-      const ta = a.published ? new Date(a.published).getTime() : 0;
-      const tb = b.published ? new Date(b.published).getTime() : 0;
-      if (tb !== ta) return tb - ta;
-      return (a.title || "").localeCompare(b.title || "");
-    });
-    // Cap to top N per category.
-    if (groups[cat].length > MAX_ITEMS_PER_CATEGORY) {
-      groups[cat] = groups[cat].slice(0, MAX_ITEMS_PER_CATEGORY);
+function clusterByTopic(items) {
+  const now = Date.now();
+  const velocityWindowMs = VELOCITY_WINDOW_HOURS * 60 * 60 * 1000;
+  const totalItems = items.length;
+
+  // 1. Tokenize titles; build keyword maps.
+  const itemTitleTokens = new Map(); // item → Set<token>  (title only, for naming)
+  const kwToItems   = new Map();     // token → [item]
+  const kwToSources = new Map();     // token → Set<sourceName>
+
+  for (const it of items) {
+    const tokens = new Set(tokenize(it.title || ""));
+    itemTitleTokens.set(it, tokens);
+    for (const t of tokens) {
+      if (!kwToItems.has(t))   kwToItems.set(t, []);
+      if (!kwToSources.has(t)) kwToSources.set(t, new Set());
+      kwToItems.get(t).push(it);
+      kwToSources.get(t).add(it.source);
     }
   }
 
-  // Order categories: configured order first, then any remainder alphabetically.
-  const remaining = Object.keys(groups)
-    .filter(function (c) { return CATEGORY_ORDER.indexOf(c) === -1; })
-    .sort();
-  const ordered = CATEGORY_ORDER.filter(function (c) { return groups[c]; }).concat(remaining);
+  // 2. Score and filter keywords → candidates.
+  const candidates = [];
+  for (const [kw, sources] of kwToSources) {
+    if (sources.size < 2) continue;                        // must span ≥2 sources
+    const kwItems = kwToItems.get(kw);
+    if (kwItems.length / totalItems > 0.30) continue;     // too generic (>30% coverage)
 
-  return ordered.map(function (cat) {
+    const freshCount = kwItems.filter(function (i) {
+      return i.published && (now - new Date(i.published).getTime()) <= velocityWindowMs;
+    }).length;
+
+    const score = sources.size * 4 + kwItems.length + (freshCount > 0 ? 1.5 : 0);
+    candidates.push({ kw, sources, items: kwItems, score });
+  }
+
+  candidates.sort(function (a, b) { return b.score - a.score; });
+
+  // 3. Greedy clustering — each article assigned to its highest-scoring keyword.
+  const assignedItems = new Set();
+  const rawClusters   = [];
+
+  for (const cand of candidates) {
+    const unassigned = cand.items.filter(function (i) { return !assignedItems.has(i); });
+    if (unassigned.length === 0) continue;
+
+    const remainingSources = new Set(unassigned.map(function (i) { return i.source; }));
+    if (remainingSources.size < 2) continue; // lost multi-source property after assignment
+
+    for (const it of unassigned) assignedItems.add(it);
+    rawClusters.push({ seedKw: cand.kw, items: unassigned, sources: remainingSources });
+
+    if (rawClusters.length >= 25) break;
+  }
+
+  // 4. Name each cluster and format output.
+  return rawClusters.map(function (cluster) {
+    const clItems = cluster.items;
+    const clSrcs  = cluster.sources;
+
+    // Count title-token frequency within this cluster.
+    const titleTokenFreq = new Map();
+    for (const it of clItems) {
+      const tt = itemTitleTokens.get(it) || new Set();
+      for (const t of tt) titleTokenFreq.set(t, (titleTokenFreq.get(t) || 0) + 1);
+    }
+
+    // Top 2 tokens by frequency = cluster label.
+    const topTokens = Array.from(titleTokenFreq.entries())
+      .sort(function (a, b) { return b[1] - a[1]; })
+      .slice(0, 2)
+      .map(function (pair) {
+        const t = pair[0];
+        return t.charAt(0).toUpperCase() + t.slice(1);
+      });
+
+    const label = topTokens.length > 0
+      ? topTokens.join(" · ")
+      : cluster.seedKw.charAt(0).toUpperCase() + cluster.seedKw.slice(1);
+
+    const categories = Array.from(
+      new Set(clItems.map(function (i) { return i.category; }).filter(Boolean))
+    );
+
+    // Sort items: highest score first, then most recent.
+    clItems.sort(function (a, b) {
+      if ((b.score || 0) !== (a.score || 0)) return (b.score || 0) - (a.score || 0);
+      const ta = a.published ? new Date(a.published).getTime() : 0;
+      const tb = b.published ? new Date(b.published).getTime() : 0;
+      return tb - ta;
+    });
+
+    const trending = clSrcs.size >= 3;
+    const fresh    = clItems.some(function (i) {
+      return i.published && (now - new Date(i.published).getTime()) <= velocityWindowMs;
+    });
+
     return {
-      title: categoryLabel(cat),
-      summary: "",
-      items: groups[cat],
+      label:       label,
+      keywords:    topTokens.map(function (t) { return t.toLowerCase(); }),
+      sourceCount: clSrcs.size,
+      sources:     Array.from(clSrcs).sort(),
+      categories:  categories,
+      trending:    trending,
+      fresh:       fresh,
+      items:       clItems.slice(0, MAX_ITEMS_PER_TOPIC),
     };
+  }).sort(function (a, b) {
+    if (b.sourceCount !== a.sourceCount) return b.sourceCount - a.sourceCount;
+    return b.items.length - a.items.length;
   });
 }
 
@@ -497,30 +591,25 @@ async function main() {
     console.log("Deduped: " + before + " → " + allItems.length);
   }
 
-  // Score every item, then group + cap to top MAX_ITEMS_PER_CATEGORY per topic.
+  // Score every item first, then cluster into cross-source topics.
   scoreItems(allItems);
 
-  const themes = groupByCategory(allItems);
-  const totalShown = themes.reduce(function (sum, t) { return sum + t.items.length; }, 0);
+  const topics = clusterByTopic(allItems);
+  const totalShown  = topics.reduce(function (sum, t) { return sum + t.items.length; }, 0);
+  const hotTopics   = topics.filter(function (t) { return t.trending; }).length;
   const date = todayISO();
 
-  const trendingCount = themes.reduce(function (sum, t) {
-    return sum + t.items.filter(function (i) { return i.trending; }).length;
-  }, 0);
-  const intro = "Top " + MAX_ITEMS_PER_CATEGORY + " per topic — " + totalShown +
-    " articles from " + usedSources + " sources across " + themes.length +
-    (themes.length === 1 ? " category" : " categories") +
-    ", last " + LOOKBACK_HOURS + " hours." +
-    (trendingCount > 0 ? " " + trendingCount + " trending across multiple sources." : "");
+  const intro = topics.length + " trending topic" + (topics.length !== 1 ? "s" : "") +
+    " · " + totalShown + " articles from " + usedSources + " sources" +
+    (hotTopics > 0 ? " · " + hotTopics + " across 3+ sources" : "") +
+    " · last " + LOOKBACK_HOURS + "h.";
 
-  // weekly_hypes / monthly_trends are intentionally omitted — those layers
-  // needed AI synthesis and the UI no longer surfaces them.
   const brief = {
     date: date,
     daily: {
-      title: "Culture Brief",
+      title: "Culture Tracker",
       intro: intro,
-      themes: themes,
+      topics: topics,
     },
   };
 

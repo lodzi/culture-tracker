@@ -1,18 +1,19 @@
 // Culture Tracker — vanilla JS frontend.
-// Renders /data/latest.json as a single daily layer, top N per topic.
+// Renders /data/latest.json as trending topic clusters.
+// Each topic = articles from ≥2 different sources discussing the same subject.
 
 (function () {
   "use strict";
 
   // --- DOM refs ---
-  const $intro = document.getElementById("intro");
-  const $briefDate = document.getElementById("brief-date");
+  const $intro          = document.getElementById("intro");
+  const $briefDate      = document.getElementById("brief-date");
   const $filterCategory = document.getElementById("filter-category");
-  const $filterSource = document.getElementById("filter-source");
-  const $filterScore = document.getElementById("filter-score");
-  const $filterReset = document.getElementById("filter-reset");
-  const $archiveList = document.getElementById("archive-list");
-  const $daily = document.getElementById("layer-daily");
+  const $filterSource   = document.getElementById("filter-source");
+  const $filterMinSrc   = document.getElementById("filter-min-sources");
+  const $filterReset    = document.getElementById("filter-reset");
+  const $archiveList    = document.getElementById("archive-list");
+  const $daily          = document.getElementById("layer-daily");
 
   // --- State ---
   let brief = null;
@@ -50,117 +51,163 @@
     } catch (e) { return iso; }
   }
 
-  function unique(values) {
-    return Array.from(new Set(values.filter(Boolean))).sort();
+  function relativeTime(iso) {
+    if (!iso) return "";
+    try {
+      const diff = Date.now() - new Date(iso).getTime();
+      if (diff < 0) return "net";
+      const h = Math.floor(diff / 3600000);
+      if (h < 1) return "< 1u geleden";
+      if (h < 24) return h + "u geleden";
+      const d = Math.floor(h / 24);
+      return d + "d geleden";
+    } catch (e) { return ""; }
   }
 
-  function scorePill(score) {
-    if (typeof score !== "number") return null;
-    return el("span", { class: "item-score", title: "Relevance score (source authority + recency + cross-source momentum)" }, "★ " + score + "/10");
-  }
+  // --- Single article within a topic ---
+  function renderTopicItem(item) {
+    const titleNode = item.url
+      ? el("a", { href: item.url, target: "_blank", rel: "noopener noreferrer" }, item.title || "Untitled")
+      : document.createTextNode(item.title || "Untitled");
 
-  // --- Daily layer ---
-  function renderDailyItem(item) {
-    const meta = el("div", { class: "item-meta" });
-    if (item.category) meta.appendChild(el("span", { class: "pill" }, item.category));
+    const metaParts = [];
     if (item.source) {
-      const sourceText = item.url
-        ? el("a", { href: item.url, target: "_blank", rel: "noopener noreferrer" }, item.source)
-        : document.createTextNode(item.source);
-      meta.appendChild(el("span", { class: "pill source" }, [sourceText]));
+      metaParts.push(el("span", { class: "pill source-name" }, item.source));
     }
-
-    const head = el("div", { class: "item-head" }, [
-      el("h4", { class: "item-title" },
-        item.url
-          ? [el("a", { href: item.url, target: "_blank", rel: "noopener noreferrer" }, item.title || "Untitled")]
-          : item.title || "Untitled"
-      ),
-      scorePill(item.score),
-    ]);
+    if (item.published) {
+      metaParts.push(el("span", { class: "item-age" }, relativeTime(item.published)));
+    }
 
     return el("article", { class: "item" }, [
-      head,
+      el("div", { class: "item-head" }, [
+        el("h4", { class: "item-title" }, [titleNode]),
+      ]),
       item.summary ? el("p", { class: "item-summary" }, item.summary) : null,
-      item.cultural_relevance
-        ? el("p", { class: "item-relevance" }, item.cultural_relevance)
-        : null,
-      meta,
+      el("div", { class: "item-meta" }, metaParts),
     ]);
   }
 
-  function renderDaily() {
-    const root = $daily;
-    root.innerHTML = "";
-    const daily = brief.daily || {};
-    const themes = Array.isArray(daily.themes) ? daily.themes : [];
+  // --- Full topic block ---
+  function renderTopic(topic) {
+    // Badge: 🔥 for topics covered by 3+ sources, neutral otherwise
+    const badge = topic.trending
+      ? el("span", { class: "badge badge-hot" }, "🔥 " + topic.sourceCount + " bronnen")
+      : el("span", { class: "badge badge-neutral" }, topic.sourceCount + " bronnen");
 
-    const cat = $filterCategory.value;
-    const src = $filterSource.value;
-    const minScore = parseInt($filterScore.value, 10) || 0;
+    const titleRow = el("div", { class: "topic-title-row" }, [
+      el("h3", { class: "topic-label" }, topic.label),
+      badge,
+    ]);
 
-    let totalShown = 0;
+    // One pill per source — this is the core of the "who covers this?" view
+    const sourcePills = (topic.sources || []).map(function (s) {
+      return el("span", { class: "pill source" }, s);
+    });
+    const sourcesRow = el("div", { class: "topic-sources" }, sourcePills);
 
-    themes.forEach(function (theme) {
-      const filtered = (theme.items || []).filter(function (item) {
-        if (cat && item.category !== cat) return false;
-        if (src && item.source !== src) return false;
-        if (minScore > 0 && (typeof item.score !== "number" || item.score < minScore)) return false;
-        return true;
-      });
-      if (filtered.length === 0) return;
+    // Category tags (music, fashion, internet, …)
+    const catPills = (topic.categories || []).map(function (c) {
+      return el("span", { class: "pill" }, c);
+    });
+    const catsRow = catPills.length
+      ? el("div", { class: "topic-cats" }, catPills)
+      : null;
 
-      const items = el("div", { class: "items" });
-      filtered.forEach(function (item) {
-        items.appendChild(renderDailyItem(item));
-        totalShown++;
-      });
+    const header = el("header", { class: "topic-header" }, [titleRow, sourcesRow, catsRow]);
 
-      root.appendChild(el("section", { class: "theme" }, [
-        el("header", { class: "theme-header" }, [
-          el("h3", { class: "theme-title" }, theme.title || "Untitled theme"),
-          theme.summary ? el("p", { class: "theme-summary" }, theme.summary) : null,
-        ]),
-        items,
-      ]));
+    // Individual articles
+    const itemsEl = el("div", { class: "items" });
+    (topic.items || []).forEach(function (item) {
+      itemsEl.appendChild(renderTopicItem(item));
     });
 
-    if (totalShown === 0) {
-      root.appendChild(el("p", { class: "empty" }, "No items match the current filters."));
-    }
+    const cls = ["topic",
+      topic.trending ? "is-trending" : "",
+      topic.fresh    ? "is-fresh"    : "",
+    ].filter(Boolean).join(" ");
+
+    return el("section", { class: cls }, [header, itemsEl]);
   }
 
-  // --- Intro + filters population ---
+  // --- Render all topics (called on load + every filter change) ---
+  function renderTopics() {
+    $daily.innerHTML = "";
+    const daily = (brief && brief.daily) || {};
+
+    // Support both new format (topics) and legacy archive format (themes).
+    let topics = Array.isArray(daily.topics) ? daily.topics : [];
+    if (topics.length === 0 && Array.isArray(daily.themes)) {
+      topics = daily.themes.map(function (theme) {
+        const srcs = Array.from(
+          new Set((theme.items || []).map(function (i) { return i.source; }).filter(Boolean))
+        );
+        return {
+          label:       theme.title || "Topic",
+          sourceCount: srcs.length,
+          sources:     srcs,
+          categories:  Array.from(new Set((theme.items || []).map(function (i) { return i.category; }).filter(Boolean))),
+          trending:    false,
+          fresh:       false,
+          items:       theme.items || [],
+        };
+      });
+    }
+
+    // Apply filters
+    const cat    = $filterCategory.value;
+    const src    = $filterSource.value;
+    const minSrc = parseInt($filterMinSrc.value, 10) || 2;
+
+    const filtered = topics.filter(function (t) {
+      if (t.sourceCount < minSrc) return false;
+      if (cat && !(t.categories || []).includes(cat)) return false;
+      if (src && !(t.sources    || []).includes(src)) return false;
+      return true;
+    });
+
+    if (filtered.length === 0) {
+      $daily.appendChild(el("p", { class: "empty" }, "Geen topics gevonden met deze filters."));
+      return;
+    }
+
+    filtered.forEach(function (topic) {
+      $daily.appendChild(renderTopic(topic));
+    });
+  }
+
+  // --- Intro block ---
   function renderIntro() {
     $intro.innerHTML = "";
-    const daily = brief.daily || {};
-    $intro.appendChild(el("h2", null, daily.title || "Daily Culture Brief"));
+    const daily = (brief && brief.daily) || {};
+    $intro.appendChild(el("h2", null, daily.title || "Culture Tracker"));
     if (daily.intro) $intro.appendChild(el("p", null, daily.intro));
-    if (brief.date) $briefDate.textContent = formatDate(brief.date);
+    if (brief && brief.date) $briefDate.textContent = formatDate(brief.date);
   }
 
+  // --- Populate filter dropdowns from current data ---
   function populateFilters() {
-    const themes = (brief.daily && brief.daily.themes) || [];
-    const allItems = [];
-    themes.forEach(function (t) {
-      (t.items || []).forEach(function (i) { allItems.push(i); });
+    const daily  = (brief && brief.daily) || {};
+    const topics = Array.isArray(daily.topics) ? daily.topics : [];
+
+    const allCats = new Set();
+    const allSrcs = new Set();
+    topics.forEach(function (t) {
+      (t.categories || []).forEach(function (c) { allCats.add(c); });
+      (t.sources    || []).forEach(function (s) { allSrcs.add(s); });
     });
-    const categories = unique(allItems.map(function (i) { return i.category; }));
-    const sources = unique(allItems.map(function (i) { return i.source; }));
 
-    // Reset and refill (in case of reload).
     $filterCategory.length = 1;
-    $filterSource.length = 1;
+    $filterSource.length   = 1;
 
-    categories.forEach(function (c) {
+    Array.from(allCats).sort().forEach(function (c) {
       $filterCategory.appendChild(el("option", { value: c }, c));
     });
-    sources.forEach(function (s) {
+    Array.from(allSrcs).sort().forEach(function (s) {
       $filterSource.appendChild(el("option", { value: s }, s));
     });
   }
 
-  // --- Archive ---
+  // --- Archive list ---
   function renderArchive(entries) {
     $archiveList.innerHTML = "";
     if (!entries || entries.length === 0) {
@@ -169,10 +216,10 @@
     }
     entries.forEach(function (entry) {
       const date = typeof entry === "string" ? entry : entry.date;
-      const path = "./data/archive/" + date + ".json";
       $archiveList.appendChild(
         el("li", null, [
-          el("a", { href: path }, formatDate(date) + " — " + date + ".json"),
+          el("a", { href: "./data/archive/" + date + ".json" },
+            formatDate(date) + " — " + date + ".json"),
         ])
       );
     });
@@ -186,16 +233,14 @@
       brief = await res.json();
       renderIntro();
       populateFilters();
-      renderDaily();
+      renderTopics();
     } catch (err) {
       console.error("Failed to load latest.json", err);
       $intro.innerHTML = "";
-      $intro.appendChild(el("h2", null, "Daily Culture Brief"));
-      $intro.appendChild(
-        el("p", null,
-          "Could not load today's brief. Make sure /data/latest.json exists. (" + err.message + ")"
-        )
-      );
+      $intro.appendChild(el("h2", null, "Culture Tracker"));
+      $intro.appendChild(el("p", null,
+        "Kon de brief niet laden. Zorg dat /data/latest.json bestaat. (" + err.message + ")"
+      ));
     }
   }
 
@@ -215,15 +260,15 @@
     }
   }
 
-  // --- Wiring ---
-  [$filterCategory, $filterSource, $filterScore].forEach(function (el) {
-    el.addEventListener("change", renderDaily);
+  // --- Event wiring ---
+  [$filterCategory, $filterSource, $filterMinSrc].forEach(function (input) {
+    input.addEventListener("change", renderTopics);
   });
   $filterReset.addEventListener("click", function () {
     $filterCategory.value = "";
-    $filterSource.value = "";
-    $filterScore.value = "0";
-    renderDaily();
+    $filterSource.value   = "";
+    $filterMinSrc.value   = "2";
+    renderTopics();
   });
 
   // --- Boot ---
