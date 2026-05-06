@@ -42,116 +42,15 @@
     "category": "film"
   },
   {
-    "name": "ESPN Top Headlines",
-    "type": "rss",
-    "url": "https://www.espn.com/espn/rss/news",
-    "category": "sport"
-  },
-
-  {
-    "name": "TrendHunter",
-    "type": "rss",
-    "url": "https://www.trendhunter.com/feed",
-    "category": "trends"
-  },
-  {
-    "name": "Springwise",
-    "type": "rss",
-    "url": "https://www.springwise.com/feed/",
-    "category": "innovation"
-  },
-  {
-    "name": "PSFK",
-    "type": "website",
-    "url": "https://www.psfk.com",
-    "category": "trends"
-  },
-  {
-    "name": "Contagious",
-    "type": "website",
-    "url": "https://www.contagious.com",
-    "category": "marketing"
-  },
-
-  {
-    "name": "Google Trends",
-    "type": "website",
-    "url": "https://trends.google.com",
-    "category": "data"
-  },
-  {
-    "name": "Exploding Topics",
-    "type": "rss",
-    "url": "https://explodingtopics.com/blog/feed",
-    "category": "trends"
-  },
-  {
-    "name": "TikTok Creative Center",
-    "type": "website",
-    "url": "https://ads.tiktok.com/business/creativecenter",
-    "category": "social"
-  },
-
-  {
     "name": "Dazed",
     "type": "rss",
     "url": "https://www.dazeddigital.com/rss",
     "category": "culture"
   },
   {
-    "name": "i-D Magazine",
-    "type": "website",
-    "url": "https://i-d.vice.com",
-    "category": "culture"
-  },
-  {
-    "name": "Know Your Meme",
-    "type": "rss",
-    "url": "https://knowyourmeme.com/feed",
-    "category": "internet"
-  },
-  {
-    "name": "Reddit Trending",
-    "type": "website",
-    "url": "https://www.reddit.com/r/popular/",
-    "category": "community"
-  },
-  {
-    "name": "Are.na",
-    "type": "website",
-    "url": "https://www.are.na",
-    "category": "creative"
-  },
-
-  {
-    "name": "Think with Google",
-    "type": "rss",
-    "url": "https://www.thinkwithgoogle.com/rss/",
-    "category": "marketing"
-  },
-  {
-    "name": "YouTube Trends",
-    "type": "website",
-    "url": "https://www.youtube.com/trends",
-    "category": "video"
-  },
-  {
-    "name": "Pinterest Predicts",
-    "type": "website",
-    "url": "https://business.pinterest.com/pinterest-predicts/",
-    "category": "trends"
-  },
-
-  {
     "name": "Frankwatching",
     "type": "rss",
     "url": "https://www.frankwatching.com/feed/",
-    "category": "marketing"
-  },
-  {
-    "name": "Adformatie",
-    "type": "rss",
-    "url": "https://www.adformatie.nl/rss.xml",
     "category": "marketing"
   },
   {
