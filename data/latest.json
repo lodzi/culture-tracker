@@ -1,568 +1,153 @@
 {
-  "date": "2026-05-06",
+  "date": "2026-05-01",
   "daily": {
-    "title": "Culture Brief",
-    "intro": "Top 6 per topic — 50 articles from 24 sources across 9 categories, last 24 hours. 49 trending across multiple sources.",
+    "title": "Daily Culture Brief",
+    "intro": "Today the conversation is split between AI's first real chart moment in pop music, fashion's loud rebuke of stealth wealth, and a quiet but striking shift in how brands sign athletes — as creative directors, not endorsers.",
     "themes": [
       {
-        "title": "Culture",
-        "summary": "",
+        "title": "AI music gets its first real chart moment",
+        "summary": "An AI-assisted track has cracked the global top 10 — and the industry is still figuring out how to credit it.",
         "items": [
           {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "In pictures: Kim Petras’ ‘Jeep’ is a Tumblr fantasy come to life",
-            "url": "https://www.dazeddigital.com/music/article/70201/1/exclusive-bts-from-kim-petras-jeep-tumblr-fantasy-music-video?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=in-pictures-kim-petras-jeep-is-a-tumblr-fantasy-come-to-life",
-            "published": "2026-05-06T16:30:00.000Z",
-            "summary": "Skippy Peanut Butter, Jeffrey Campbell Litas, colourful cigarettes, Marc Jacobs mouse flats, tinsel hair, Brandy Melville-style layering, pastel sunsets, festival wristbands, and Froot Loops in those bright, hyper-American e-colours – these are just some of the references that…",
-            "score": 10,
-            "trending": true
+            "title": "Anonymous producer's AI collab debuts at #6 on Spotify Global",
+            "summary": "The track, credited only to a pseudonymous artist, was reportedly co-written with a generative model. Labels are now in negotiations.",
+            "cultural_relevance": "First mainstream chart breakthrough for AI-assisted pop music. The conversation shifts from 'will it happen' to 'how do we credit and pay for it'.",
+            "source": "Pitchfork",
+            "url": "https://pitchfork.com/",
+            "category": "music",
+            "score": 9
           },
           {
-            "source": "i-D",
-            "category": "culture",
-            "title": "Rashida Renée Ward Reviews the Met Gala Red Carpet",
-            "url": "https://i-d.co/article/rashida-renee-ward-reviews-the-met-gala-red-carpet-2026/",
-            "published": "2026-05-06T13:50:30.000Z",
-            "summary": "My personal favorite thing about the Met Gala is all of the rich people who don’t have to rely on fashion clout tokens to get a seat at a table, who pay fashion people exorbitant amounts of money to look good, then end up looking like crystal-encrusted doo doo instead. It’s…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "This album unites the ‘Jackson Pollock and Agnes Martin’ of Chinese rap",
-            "url": "https://www.dazeddigital.com/music/article/70213/1/bloodzebra-unites-jackson-pollock-and-agnes-martin-chinese-rap?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=this-album-unites-the-jackson-pollock-and-agnes-martin-of-chinese-rap",
-            "published": "2026-05-06T16:26:00.000Z",
-            "summary": "Bloodzebra, the new collaborative album from Chinese rappers Bloodz Boi and Jackzebra, is a riddle: it contains both profound significance, and also evades any concrete understanding. This is partly due to both rappers occupying singular and inimitable places in music.…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Inside Studio Iron, Isamaya Ffrench’s new dystopian dreamworld",
-            "url": "https://www.dazeddigital.com/art-photography/article/70193/1/inside-studio-iron-isamaya-ffrench-new-dystopian-dreamworld-saatchi-yates?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=inside-studio-iron-isamaya-ffrench-s-new-dystopian-dreamworld",
-            "published": "2026-05-06T11:35:00.000Z",
-            "summary": "The day after the opening of Studio Iron, Isamaya Ffrench’s new exhibition at Saatchi Yates, Instagram is filled with images of the eclectic works occupying the space: a latex dress hanging above a plate of cracked eggs – replaced periodically by the gallery team – a feminine…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Audrey Nuna shares her first Met Gala beauty routine",
-            "url": "https://www.dazeddigital.com/beauty/article/70212/1/audrey-nuna-shares-her-first-met-gala-beauty-affirmations?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=audrey-nuna-shares-her-first-met-gala-beauty-routine",
-            "published": "2026-05-06T11:00:00.000Z",
-            "summary": "Read more it-girl beauty affirmations here. Choosing what to wear to your first Met Gala is a problem most of us won’t ever have to worry about, but it’s an exciting dilemma nonetheless. You want to be on theme and make an entrance – people refer to celebrities’ debut looks for…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Who would we be attracted to if we didn’t know what we looked like?",
-            "url": "https://www.dazeddigital.com/beauty/article/70211/1/self-image-league-dating-desire-who-attracted-to-if-didnt-know-looked-like?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=who-would-we-be-attracted-to-if-we-didn-t-know-what-we-looked-like",
-            "published": "2026-05-06T10:53:00.000Z",
-            "summary": "Robbie,* 29, who works in marketing, met Larry* on Hinge in 2022. Larry wasn’t someone he initially found attractive, but, struggling with dating in London and amused by his witty opener, Robbie agreed to meet. Larry’s kindness disarmed him, and one date led to another, then…",
-            "score": 8,
-            "trending": true
+            "title": "Songwriter union calls for mandatory AI disclosure on streaming",
+            "summary": "Following the chart debut, the union is pushing platforms to label any track using generative tools.",
+            "cultural_relevance": "Mirrors the earlier fight over sample credits and ghostwriting — a structural shift in how authorship is defined in music.",
+            "source": "The Verge",
+            "url": "https://www.theverge.com/",
+            "category": "music",
+            "score": 7
           }
         ]
       },
       {
-        "title": "Trends",
-        "summary": "",
+        "title": "Fashion goes loud again",
+        "summary": "Maximalism is reasserting itself across runways and feeds, an explicit rebuke of the post-pandemic stealth-wealth uniform.",
         "items": [
           {
-            "source": "Coolhunting",
-            "category": "trends",
-            "title": "The iF Design Trend Report 2026 Trades Forecasts for Frameworks",
-            "url": "https://coolhunting.com/design/the-if-design-trend-report-2026-trades-forecasts-for-frameworks/",
-            "published": "2026-05-06T10:43:00.000Z",
-            "summary": "The fifth edition of the annual study moves past conventional forecasting, mapping the tension between emerging trends and their countertrends to argue for design as a form of connective intelligence The iF …",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Google Trends (BE)",
-            "category": "trends",
-<<<<<<< Updated upstream
-            "title": "mbappe",
-            "url": "https://trends.google.com/trending/rss?geo=BE",
-            "published": "2026-05-06T19:20:00.000Z",
-=======
-            "title": "luis enrique",
-            "url": "https://trends.google.com/trending/rss?geo=BE",
-            "published": "2026-05-06T19:30:00.000Z",
->>>>>>> Stashed changes
-            "summary": "",
+            "title": "Schiaparelli's Paris show leans full surrealist",
+            "summary": "Daniel Roseberry sent out gilded body armor and trompe-l'œil tailoring.",
+            "cultural_relevance": "Signals fashion's cyclical pivot back to spectacle, a tell that broader consumer aesthetics — interiors, beauty, even UI — will follow within 12 months.",
+            "source": "Highsnobiety",
+            "url": "https://www.highsnobiety.com/",
+            "category": "fashion",
             "score": 8
-          }
-        ]
-      },
-      {
-        "title": "Fashion",
-        "summary": "",
-        "items": [
-          {
-            "source": "Business of Fashion",
-            "category": "fashion",
-            "title": "The Debrief | Why People Hate AI",
-            "url": "https://www.businessoffashion.com/podcasts/technology/the-debrief-why-people-hate-ai/",
-            "published": "2026-05-06T19:13:54.000Z",
-            "summary": "The Debrief host Sheena Butler-Young is joined by BoF’s Marc Bain and Haley Crawford to unpack why the industry’s push for AI-led efficiency is starting to rub shoppers the wrong way.",
-            "score": 10,
-            "trending": true
           },
           {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "Haider Ackermann Made the World's Fanciest Sunglasses Even Fancier (EXCLUSIVE)",
-            "url": "https://www.highsnobiety.com/p/haider-ackermann-jacques-marie-mage/",
-            "published": "2026-05-06T14:07:26.000Z",
-            "summary": "Haider Ackermann is a modern master of sensual leather clothes. In collaboration with eyewear artisan Jacques Marie Mage, he's move onto leather sunglasses.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Business of Fashion",
-            "category": "fashion",
-            "title": "Old Navy Appoints Retail Veteran Michael Francis as Chief Customer Officer",
-            "url": "https://www.businessoffashion.com/news/retail/old-navy-appoints-retail-veteran-michael-francis-as-chief-customer-officer/",
-            "published": "2026-05-06T13:00:00.000Z",
-            "summary": "The former Target executive will join the Gap Inc.-owned brand in a newly created role.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Business of Fashion",
-            "category": "fashion",
-            "title": "Inside Accademia del Lusso’s Master’s In Fashion Brand Management",
-            "url": "https://www.businessoffashion.com/articles/workplace-talent/inside-accademia-del-lusso-masters-fashion-brand-management-strategic-skills-fashion-industry/",
-            "published": "2026-05-06T10:15:40.000Z",
-            "summary": "The Milanese fashion and design school is preparing students to enter the industry with the strategic management skills required to tackle the demands of the evolving job market.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "The Best Birkenstock Sandals Are Becoming Real Studs",
-            "url": "https://www.highsnobiety.com/p/birkenstock-studded-sandals/",
-            "published": "2026-05-06T18:25:00.000Z",
-            "summary": "A new sub-genre of Birkenstock sandals is slowly gaining momentum: studded sandals. They're a little punk, a little flashy, and extremely cool.",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Business of Fashion",
-            "category": "fashion",
-            "title": "Edgewell Results Beat Estimates, Warn of Inflation Pressure",
-            "url": "https://www.businessoffashion.com/news/beauty/edgewell-beats-estimates-inflation-tariff-warning/",
-            "published": "2026-05-06T13:06:36.000Z",
-            "summary": "The US owner of Schick and Hawaiian Tropic, which recently divested its feminine care division, reported strong performance for grooming brand Cremo.",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "title": "Music",
-        "summary": "",
-        "items": [
-          {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Motionless in White Announce New Album, Unleash “Playing God” Featuring Corey Taylor: Stream",
-            "url": "https://consequence.net/2026/05/motionless-in-white-new-album-playing-god-corey-taylor/",
-            "published": "2026-05-06T19:32:23.000Z",
-            "summary": "The album Decades is due out July 17th and also includes guest appearances by Skylar Grey and Anthony Martinez. Motionless in White Announce New Album, Unleash “Playing God” Featuring Corey Taylor: Stream Langdon Hickman",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Stereogum",
-            "category": "music",
-            "title": "Action Bronson – “Peppers” (Feat. Roc Marciano)",
-            "url": "https://stereogum.com/2498104/action-bronson-peppers-feat-roc-marciano/music/",
-            "published": "2026-05-06T19:10:54.000Z",
-            "summary": "Are we witnessing the Action Bronsonaissance? “Triceratops,” the NYC rap foodie’s recent collab with Paul Wall and Lil Yachty, was fire. So is the next single from Planet Frog, Bronson’s new LP out this week. “Peppers” pairs him with fellow New York emcee extraordinare Roc…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Yungblud Launches 2026 North American Tour with Explosive Performances: Photos, Video + Setlist",
-            "url": "https://consequence.net/2026/05/yungblud-launches-north-american-tour-photos-video-setlist/",
-            "published": "2026-05-06T18:59:37.000Z",
-            "summary": "The UK singer kicked off the outing with shows in Sterling Heights, Michigan, and Toronto. Yungblud Launches 2026 North American Tour with Explosive Performances: Photos, Video + Setlist Spencer Kaufman",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Sting Explains Why His Kids Must “Make Their Own Way” and Not Live Off His Money",
-            "url": "https://consequence.net/2026/05/sting-children-work-ethic/",
-            "published": "2026-05-06T18:05:06.000Z",
-            "summary": "The musician thinks, \"The worst thing you can do to a kid is to say, 'You don't have to work.'\" Sting Explains Why His Kids Must “Make Their Own Way” and Not Live Off His Money Eddie Fu",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Stereogum",
-            "category": "music",
-            "title": "Slippers – “Wasted Tonight”",
-            "url": "https://stereogum.com/2498100/slippers-wasted-tonight/music/",
-            "published": "2026-05-06T18:03:02.000Z",
-            "summary": "We liked “Wants For Everyone” and “Fool In Your Room” — the first two singles from Slippers’ upcoming debut album Slippers 08 — both so much that they each made our lists of the Best Songs Of The Week. Today Madeline Babuka Black is sharing the album’s final single “Wasted…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "horsegiirL Is Going on Tour This Fall",
-            "url": "https://pitchfork.com/news/horsegiirl-is-going-on-tour-this-fall/",
-            "published": "2026-05-06T17:53:11.000Z",
-            "summary": "The musician will gallop through Los Angeles, New York, Paris, and Berlin.",
-            "score": 10,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "title": "Film",
-        "summary": "",
-        "items": [
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "Consider This When Reading Emmys Coverage on IndieWire",
-            "url": "https://www.indiewire.com/awards/consider-this/consider-this-2026-emmys-coverage-indiewire-1235192477/",
-            "published": "2026-05-06T19:30:00.000Z",
-            "summary": "IndieWire Awards Editor Marcus Jones gives a preview of our 2026 Emmys coverage, and how it can help predict some surprise winners come September.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "Oscar Isaac to Star in Las Vegas Drama at Netflix",
-            "url": "https://www.hollywoodreporter.com/tv/tv-news/oscar-isaac-netflix-las-vegas-drama-billions-creators-1236588254/",
-            "published": "2026-05-06T19:23:30.000Z",
-            "summary": "The actor has also signed a first-look deal with the streamer.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "Rupert Murdoch Lauds CNN Founder Ted Turner: ‘A Great American and Friend’",
-            "url": "https://variety.com/2026/tv/news/rupert-murdoch-cnn-ted-turner-great-american-friend-1236739714/",
-            "published": "2026-05-06T19:13:51.000Z",
-            "summary": "Rupert Murdoch and Ted Turner were business rivals — and their Fox News and CNN news networks remain fierce competitors. But Murdoch and Turner were also friends. In a statement following news about Turner’s death, Murdoch gave credit to Turner for having the vision to launch…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "Hayden Panettiere Comes Out as Bisexual at 36 After Fearing ‘Public Opinion’ and ‘What My Team Was Going to Think’",
-            "url": "https://variety.com/2026/film/news/hayden-panettiere-comes-out-bisexual-1236739685/",
-            "published": "2026-05-06T19:05:42.000Z",
-            "summary": "Hayden Panettiere came out publicly as bisexual in a new interview with US Weekly ahead of the publication of her memoir, “This Is Me: A Reckoning.” The 36-year-old actor got her start in Hollywood as a child actor and revealed she never discussed her sexuality publicly over the…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "Clavicular Facing Firearm Charges After Alligator Shooting",
-            "url": "https://www.hollywoodreporter.com/news/general-news/clavicular-alligator-shooting-firearm-charges-1236588200/",
-            "published": "2026-05-06T18:57:59.000Z",
-            "summary": "A lawyer for the influencer whose real name is Braden Peters said the streamer was \"following the instructions\" of the boat guide and that the alligator was already dead.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "Josh Charles, Abigail Spencer and Josh Segarra Celebrate ‘Best Medicine’ With The Hollywood Reporter",
-            "url": "https://www.hollywoodreporter.com/tv/tv-news/josh-charles-abigail-spencer-best-medicine-event-1236587966/",
-            "published": "2026-05-06T18:53:45.000Z",
-            "summary": "Wednesday’s FYC event included a Q&A, a surprise appearance from canine star Wattson and a Port Wenn-style Cinco de Mayo party on the Fox lot.",
-            "score": 10,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "title": "Gaming",
-        "summary": "",
-        "items": [
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "I’m Overjoyed About A Friendslop Game, Finally",
-            "url": "https://kotaku.com/steam-game-friendslop-flock-around-birding-birdwatching-like-pokemon-2000693655",
-            "published": "2026-05-06T19:06:23.000Z",
-            "summary": "Hear me out: Birding is like gaming, and that’s why Flock Around works so well",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Lego Batman: Legacy Of The Dark Knight: Everything We Know About The Arkham-Style Adventure",
-            "url": "https://kotaku.com/lego-batman-legacy-dark-knight-everything-we-know-date-2000663464",
-            "published": "2026-05-06T18:50:18.000Z",
-            "summary": "The next Lego Batman is drawing clear inspiration from Rocksteady’s open-world action games, as well as other sides of the Caped Crusader's history",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Ubisoft RTS RUSE is back on Steam, thanks to the original dev",
-            "url": "https://www.polygon.com/ubisoft-ruse-rts-pc-game-steam-release/",
-            "published": "2026-05-06T18:18:23.000Z",
-            "summary": "RUSE, the 2010 World War II strategy game with bluffing mechanics, is back online and on Steam, thanks to a major re-release.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Mina The Hollower Has A New Release Date And An Aggressively Low Price",
-            "url": "https://kotaku.com/mina-the-hollower-has-a-new-release-date-and-an-aggressively-low-price-2000693637",
-            "published": "2026-05-06T18:12:03.000Z",
-            "summary": "The Shovel Knight team's latest game is out in May",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "A Valve glitch made Steam Controllers cheaper for early adopters",
-            "url": "https://www.polygon.com/valve-steam-controller-price-glitch-sales-tax-buy/",
-            "published": "2026-05-06T17:55:20.000Z",
-            "summary": "Steam fans are all making fun of a user who alerted Valve to a beneficial tax glitch that made its new controller a little less expensive.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Angel Down's Pulitzer win confirms something horror fans already knew",
-            "url": "https://www.polygon.com/angel-down-fiction-pulitzer-importance/",
-            "published": "2026-05-06T17:34:11.000Z",
-            "summary": "Daniel Kraus' novel Angel Down won the Pulitzer Prize for Fiction, the first win for a horror novel since Cormac McCarthy’s The Road in 2007.",
-            "score": 10,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "title": "Art & Design",
-        "summary": "",
-        "items": [
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Changes in architecture degree classification may \"push students out of the profession\" says AIA",
-            "url": "https://www.dezeen.com/2026/05/06/aia-architecture-degress-professional-degree/",
-            "published": "2026-05-06T18:49:34.000Z",
-            "summary": "The American Institute of Architects has released a statement criticising the federal government's exclusion of architecture as a professional degree, which it says may discourage students from becoming architects. Late last year, under the One Big Beautiful Bill, the advanced…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Bar Extra forms stylish social centrepiece for Montreal Design Week",
-            "url": "https://www.dezeen.com/2026/05/06/bar-extra-zebulon-perronmontreal-design-week/",
-            "published": "2026-05-06T16:25:40.000Z",
-            "summary": "Culinary studio Menu Extra and local interior design studio Atelier Zébulon Perron have created a temporary bar outfitted with a custom chandelier for festival-goers at Montreal Design Week. A collaboration between Menu Extra, which puts on dinners in famous architectural…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Ringo lighting by Joan Gaspar for Marset",
-            "url": "https://www.dezeen.com/2026/05/06/ringo-lighting-joan-gaspar-marset-dezeen-showroom/",
-            "published": "2026-05-06T13:00:27.000Z",
-            "summary": "Dezeen Showroom: designer Joan Gaspar and Spanish brand Marset created this ice block-like light from a material that the company describes as \"astonishing\". The Ringo light is made from transparent polycarbonate that is rotomoulded so it develops a dimpled texture similar to…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "ODDO Architects looks to urban alleyways for narrow extension in Vietnam",
-            "url": "https://www.dezeen.com/2026/05/06/oddo-architects-th-house-extension/",
-            "published": "2026-05-06T10:30:45.000Z",
-            "summary": "Local studio ODDO Architects has extended TH+ House in Vietnam, organising a series of shared, flexible spaces around tall voids informed by the \"social intensity\" of Hanoi's urban alleyways. The project saw ODDO Architects returning to the site of TH House, which it completed…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "A simple guide to parametricism",
-            "url": "https://www.dezeen.com/2026/05/06/parametricism-simple-guide/",
-            "published": "2026-05-06T10:00:09.000Z",
-            "summary": "What actually is parametricism? As part of our series on the style, we've written a quick and simple overview of the notoriously complex and contentious concept. What exactly is it? Parametricism is a 21st-century architectural style and theoretical movement closely associated…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Linde Freya Tangelder blends \"ancient and contemporary\" crafts in Fluid Re-Collection",
-            "url": "https://www.dezeen.com/2026/05/06/linde-freya-tangelder-crafts-fluid-re-collection/",
-            "published": "2026-05-06T08:00:15.000Z",
-            "summary": "Dutch designer Linde Freya Tangelder has partnered with Italian brand Cassina on a Milan exhibition featuring furniture and lighting made from blown glass, cast bronze, sheet metal and lacquered wood. Presented at 10 Corso Como during Milan design week, the Fluid Re-Collection…",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "title": "Internet",
-        "summary": "",
-        "items": [
-          {
-            "source": "Wired",
+            "title": "TikTok's #louderthebetter hashtag passes 2B views",
+            "summary": "A new aesthetic tag celebrating clashing prints and statement jewellery is outpacing #quietluxury for the first time.",
+            "cultural_relevance": "Consumer-side proof the maximalist turn isn't just a runway story — Gen Z is actively rejecting the minimalist look.",
+            "source": "Complex",
+            "url": "https://www.complex.com/",
             "category": "internet",
-            "title": "Trump's Team Wants Him to Accept an Iran Deal He's Already Rejected",
-            "url": "https://www.wired.com/story/trumps-team-wants-him-to-accept-an-iran-deal-hes-already-rejected/",
-            "published": "2026-05-06T19:32:03.000Z",
-            "summary": "As chaotic negotiations over the end of the Iran war continue, US negotiators think they have the framework for a deal in place. Now they just have to sell the president on it.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "The latest Tile Pro is down to $25 — its best price of the year",
-            "url": "https://www.theverge.com/gadgets/925294/tile-pro-mothers-day-gift-bluetooth-tracker-deal-sale",
-            "published": "2026-05-06T19:00:00.000Z",
-            "summary": "The black and white versions of the latest Tile Pro is $10 off, marking its best price of the year. | Image: Tile If you’re struggling to find a Mother’s Day gift under $30, location trackers are a good investment, helping mom keep tabs on keys, bags, luggage, and other…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Wired",
-            "category": "internet",
-            "title": "Using AI for Just 10 Minutes Might Make You Lazy and Dumb, Study Shows",
-            "url": "https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/",
-            "published": "2026-05-06T18:00:00.000Z",
-            "summary": "New research suggests that reliance on AI assistants can have a negative impact on people’s ability to think and problem solve.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Mira Murati tells the court that she couldn’t trust Sam Altman’s words",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati",
-            "published": "2026-05-06T17:55:53.000Z",
-            "summary": "Mira Murati, OpenAI's former CTO, has testified under oath that CEO Sam Altman lied to her about the safety standards for a new AI model. In a video deposition shown during the ongoing Musk v. Altman trial on Wednesday, Murati said Altman falsely stated that OpenAI's legal…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "The 44 best last-minute Mother’s Day gift ideas for 2026",
-            "url": "https://www.theverge.com/gadgets/907032/best-mothers-day-gift-ideas-2026-mom-tech-gadgets",
-            "published": "2026-05-06T17:34:00.000Z",
-            "summary": "Whether it's managing a busy home or looking out for everyone around them, moms spend a lot of time every day caring for others. This Sunday, Mother's Day, is an opportunity to return the favor, so we've rounded up practical gadgets and little luxuries that can lighten her load.…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Here&#8217;s what Microsoft is offering long-serving employees to voluntarily retire",
-            "url": "https://www.theverge.com/report/925218/microsoft-voluntary-retirement-program-package-details",
-            "published": "2026-05-06T17:22:19.000Z",
-            "summary": "Microsoft revealed last month that it's planning to offer long-serving employees in the US the ability to voluntarily retire. While the terms of the buyout were supposed to be announced to employees tomorrow, sources at Microsoft tell me the company has posted them on its…",
-            "score": 10,
-            "trending": true
+            "score": 7
           }
         ]
       },
       {
-        "title": "Marketing",
-        "summary": "",
+        "title": "Athletes as creative directors",
+        "summary": "Brands are restructuring athlete deals around editorial control rather than endorsement.",
         "items": [
           {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "Old Navy Appoints Michael Francis as Chief Customer Officer Amid Turnaround",
-            "url": "https://www.adweek.com/brand-marketing/old-navy-appoints-michael-francis-as-chief-customer-officer-amid-turnaround/",
-            "published": "2026-05-06T09:00:00.000Z",
-            "summary": "Gap Inc. has brought on veteran brand executive Michael Francis as chief customer officer of Old Navy and head of marketing shared services for the group.",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "Ziff Davis Buys Four Brands From Recurrent Ventures, Launches a Lifestyle Group",
-            "url": "https://www.adweek.com/media/ziff-davis-recurrent-ventures-dwell-domino-business-home-popsci/",
-            "published": "2026-05-06T09:00:00.000Z",
-            "summary": "The company acquired Dwell, Domino, Business of Home, and PopSci, extending a multiyear roll-up as competitors pull back from the open web.",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "AB InBev Wins Cannes Lions Creative Marketer of the Year for a Historic Third Time",
-            "url": "https://www.adweek.com/creativity/ab-inbev-wins-cannes-lions-creative-marketer-of-the-year-for-a-historic-third-time/",
-            "published": "2026-05-06T06:59:47.000Z",
-            "summary": "Cannes Lions has named AB InBev as its 2026 Creative Marketer of the Year.",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "Exverus by Brainlabs&#8217; Aaron Silva Is the Good Cook Behind Big Evil Barbecue",
-            "url": "https://www.adweek.com/agencies/exverus-by-brainlabs-aaron-silva-is-the-good-cook-behind-big-evil-barbecue/",
-            "published": "2026-05-06T06:00:00.000Z",
-            "summary": "The assistant director of ad ops makes all his meats at home on a collection of grills and smokers.",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "How I AI: Tech Recipes CEO Brian Chap Built a &#8216;True Decision Engine&#8217;",
-            "url": "https://www.adweek.com/brand-marketing/how-i-ai-tech-recipes-ceo-brian-chap-built-a-true-decision-engine/",
-            "published": "2026-05-06T06:00:00.000Z",
-            "summary": "Inside the strategic consultancy's RootIQ product, plus how Chap uses AI at home.",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "CNN Founder Ted Turner Dies at 87",
-            "url": "https://www.adweek.com/tvnewser/cnn-founder-ted-turner-dies-at-87/",
-            "published": "2026-05-06T11:21:35.000Z",
-            "summary": "Turner pioneered the 24-hour news network, fundamentally changing the news industry.",
-            "score": 8,
-            "trending": true
+            "title": "Nike signs 17-year-old skater to a creative deal, not an athletic one",
+            "summary": "The contract reportedly gives the skater editorial control over a sub-line, a structure usually reserved for designers.",
+            "cultural_relevance": "Continues the blurring of athlete and creative-director roles, building on the Drake-NOCTA and Travis Scott-Jordan playbook.",
+            "source": "Hypebeast",
+            "url": "https://hypebeast.com/",
+            "category": "sport",
+            "score": 7
           }
         ]
       }
     ]
-  }
+  },
+  "weekly_hypes": [
+    {
+      "title": "Generative music goes from gimmick to product",
+      "description": "Multiple AI-assisted tracks crossing into mainstream charts and playlists, with at least three labels publicly hiring 'prompt producers'.",
+      "why_it_matters": "Previously a fringe experiment, generative music is now competing for the same shelf space as human-only releases — forcing platforms, labels and unions to define rules in real time.",
+      "signals": [
+        "AI track in Spotify Global top 10",
+        "Songwriter union pushes mandatory disclosure",
+        "Two majors publicly post 'prompt producer' roles",
+        "Sora-generated music videos trending on TikTok"
+      ],
+      "categories": ["music", "internet"],
+      "score": 8
+    },
+    {
+      "title": "Maximalist aesthetics across feeds and runways",
+      "description": "Loud prints, statement jewellery and surrealist tailoring appearing in coordinated waves across TikTok, runway coverage and creator content.",
+      "why_it_matters": "Consumer aesthetic cycles drive 12-month roadmaps for product, packaging and even UI design. Brands still leaning into stealth-wealth visuals are mistiming the next cycle.",
+      "signals": [
+        "#louderthebetter passes 2B views",
+        "Schiaparelli surrealist show",
+        "Three major creators pivot to clash-print content",
+        "Pinterest 'maximalist interiors' searches up sharply"
+      ],
+      "categories": ["fashion", "internet"],
+      "score": 7
+    },
+    {
+      "title": "Mid-budget gaming reclaims attention",
+      "description": "Word-of-mouth single-player titles from small studios are outperforming AAA live-service forecasts.",
+      "why_it_matters": "Audiences are signalling fatigue with infinite-content live-service models. Marketing budgets are shifting from launch-day spend to creator and community seeding.",
+      "signals": [
+        "30-person studio's debut RPG passes 5M copies",
+        "Two AAA live-service launches missing internal targets",
+        "Discord communities outpacing official channels for promo"
+      ],
+      "categories": ["gaming"],
+      "score": 6
+    }
+  ],
+  "monthly_trends": [
+    {
+      "title": "The end of stealth-wealth as cultural default",
+      "description": "After two-plus years of beige-on-beige, quiet-luxury aesthetic dominance, a coordinated shift toward expressive, identity-driven dress is showing up across runway, social and search data.",
+      "cultural_shift": "From signalling status through restraint to signalling identity through specificity. Self-expression replaces taste-as-tribal-signal.",
+      "evidence": [
+        "Maximalist hashtags overtaking quiet-luxury counterparts on TikTok",
+        "Major fashion houses returning to surrealist and ornate collections",
+        "Decline in muted-palette product launches at big retailers",
+        "Rise of vintage-led, archive-driven creator content"
+      ],
+      "implications": "Brands and creators built around minimalism need to plan a credible second act. Expect a wave of 'expressive line extensions' and collab-heavy launches across luxury, beauty and home over the next two seasons.",
+      "score": 8
+    },
+    {
+      "title": "Athletes as IP owners, not faces",
+      "description": "A multi-year shift in how brands structure deals with athletes — from endorsement contracts to creative-director and equity arrangements.",
+      "cultural_shift": "The athlete is now treated as a cultural distribution channel and IP holder, on par with designers and musicians. Endorsement is increasingly seen as a low-leverage 2010s relic.",
+      "evidence": [
+        "Nike signing teenage skater to a creative-control deal",
+        "Multiple F1 drivers launching own labels with house support",
+        "WNBA players negotiating equity rather than fees",
+        "Drake-NOCTA and Travis-Jordan continuing to outperform pure endorsement deals"
+      ],
+      "implications": "Brand strategists should rethink athlete deal structures: less 'face of the campaign', more co-author relationships. Expect creative-director titles to keep migrating across categories.",
+      "score": 7
+    },
+    {
+      "title": "Authorship is being renegotiated everywhere",
+      "description": "From music (AI co-writers) to fashion (athlete creative directors) to gaming (community-driven launches), the question of who 'made' something is becoming culturally and contractually ambiguous.",
+      "cultural_shift": "Authorship is moving from a single-name model to a credits-stack model, similar to film. This affects pay, rights, recognition and brand storytelling.",
+      "evidence": [
+        "Songwriter union pushing AI-disclosure rules",
+        "Athlete creative-director deal structures spreading",
+        "Indie game launches credited via Discord moderators",
+        "Rise of 'art directed by' framing in fashion campaigns"
+      ],
+      "implications": "Expect brands to adopt richer credits language, contracts to grow in complexity, and audiences to start asking 'who actually made this' as a buying signal.",
+      "score": 7
+    }
+  ]
 }
