@@ -20,7 +20,8 @@
  * Optional env:
  *   LOOKBACK_HOURS           (default: 24)
  *   MAX_ITEMS_PER_FEED       (default: 10)
- *   MAX_ITEMS_PER_CATEGORY   (default: 5)
+ *   MAX_ITEMS_PER_CATEGORY   (default: 6)
+ *   VELOCITY_WINDOW_HOURS    (default: 6)  — items this fresh get a velocity bonus if cross-source
  *
  * Dependencies:
  *   - rss-parser — robust RSS/Atom parsing.
@@ -44,11 +45,14 @@ const ARCHIVE_INDEX_PATH = path.join(ARCHIVE_DIR, "index.json");
 // --- Config ---
 const LOOKBACK_HOURS = parseInt(process.env.LOOKBACK_HOURS || "24", 10);
 const MAX_ITEMS_PER_FEED = parseInt(process.env.MAX_ITEMS_PER_FEED || "10", 10);
-const MAX_ITEMS_PER_CATEGORY = parseInt(process.env.MAX_ITEMS_PER_CATEGORY || "5", 10);
-// Hard cap on a single fetch. rss-parser has its own socket timeout, but some
-// feeds redirect or stream slowly and can exceed it. We wrap every fetch in a
-// Promise.race so the run can never hang on one bad source.
-const PER_SOURCE_TIMEOUT_MS = parseInt(process.env.PER_SOURCE_TIMEOUT_MS || "12000", 10);
+const MAX_ITEMS_PER_CATEGORY = parseInt(process.env.MAX_ITEMS_PER_CATEGORY || "6", 10);
+// Hard cap on a single fetch. We use both a socket-level timeout (in the parser)
+// AND a Promise.race wrapper so slow-dripping feeds can never block the run.
+// 8 s is plenty for well-behaved feeds; anything slower is not worth waiting for.
+const PER_SOURCE_TIMEOUT_MS = parseInt(process.env.PER_SOURCE_TIMEOUT_MS || "8000", 10);
+// Items published within this window get a velocity bonus when they also have
+// cross-source keyword overlap — signal that something is blowing up right now.
+const VELOCITY_WINDOW_HOURS = parseInt(process.env.VELOCITY_WINDOW_HOURS || "6", 10);
 
 // Human-readable labels for category buckets in the brief.
 // Anything not in this map falls back to a Title-Cased version of the category key.
@@ -288,11 +292,19 @@ function dedupe(items) {
 
 // --- Scoring ---
 // RSS doesn't expose read counts, so we score on a popularity proxy:
-//   final = round( clamp(1..10, source*0.6 + recency + trending + 1) )
-// where:
-//   source   ∈ [1..10] — per-source weight from sources.json (default 6)
-//   recency  ∈ [0..1.5] — fresher items score higher
-//   trending ∈ [0..2.5] — overlap with other items' keywords (cross-source signal)
+//
+//   final = round( clamp(1..10, source*0.6 + recency + trending + velocity + 1) )
+//
+// Components:
+//   source   ∈ [1..10]  — per-source weight from sources.json (default 6)
+//   recency  ∈ [0..1.5] — fresher items score higher within the lookback window
+//   trending ∈ [0..2.5] — cross-source keyword overlap: how many other items
+//                          discuss the same topic (≥3 items → "shared", ≥5 → "strong")
+//   velocity ∈ [0..1.0] — bonus for items < VELOCITY_WINDOW_HOURS old that are
+//                          already showing cross-source overlap; signals something
+//                          blowing up *right now* vs. just popular yesterday
+//
+// Items with trending > 1.0 are flagged `trending: true` so the UI can highlight them.
 function tokenize(s) {
   return (s || "")
     .toLowerCase()
@@ -315,33 +327,44 @@ function scoreItems(items) {
 
   const now = Date.now();
   const maxAgeHours = Math.max(1, LOOKBACK_HOURS);
+  const velocityWindowMs = VELOCITY_WINDOW_HOURS * 60 * 60 * 1000;
 
   for (const it of items) {
     const sourceWeight = typeof it.source_weight === "number" ? it.source_weight : 6;
 
-    // Recency 0..1.5
+    // Recency 0..1.5 — linear decay over the full lookback window.
     let recency = 0;
+    let ageHours = maxAgeHours;
     if (it.published) {
       const ageMs = now - new Date(it.published).getTime();
-      const ageHours = Math.max(0, ageMs / (1000 * 60 * 60));
+      ageHours = Math.max(0, ageMs / (1000 * 60 * 60));
       recency = Math.max(0, 1.5 * (1 - Math.min(1, ageHours / maxAgeHours)));
     }
 
-    // Trending 0..2.5 — count tokens that appear in 2+ items overall.
-    let trending = 0;
+    // Trending 0..2.5 — tokens that appear in ≥3 items = "shared", ≥5 = "strong".
+    // Raised from ≥2/≥4 to filter out coincidental single-word overlaps.
     const tokens = itemTokens.get(it) || new Set();
     let shared = 0;
     let strong = 0;
     for (const t of tokens) {
       const cnt = tokenCount.get(t) || 0;
-      if (cnt >= 2) shared++;
-      if (cnt >= 4) strong++;
+      if (cnt >= 3) shared++;
+      if (cnt >= 5) strong++;
     }
-    trending = Math.min(2.5, shared * 0.25 + strong * 0.5);
+    const trending = Math.min(2.5, shared * 0.3 + strong * 0.6);
 
-    const raw = sourceWeight * 0.6 + recency + trending + 1;
+    // Velocity 0..1.0 — extra reward for items that are both fresh AND already
+    // showing cross-source overlap. This surfaces things exploding right now.
+    const isVelocityWindow = it.published &&
+      (now - new Date(it.published).getTime()) <= velocityWindowMs;
+    const velocity = (isVelocityWindow && shared >= 2) ? Math.min(1.0, shared * 0.2) : 0;
+
+    const raw = sourceWeight * 0.6 + recency + trending + velocity + 1;
     const score = Math.max(1, Math.min(10, Math.round(raw)));
     it.score = score;
+
+    // Flag items with meaningful cross-source momentum so the UI can highlight them.
+    if (trending > 1.0) it.trending = true;
 
     // Strip the helper field — we don't want it in the public JSON.
     delete it.source_weight;
@@ -411,12 +434,18 @@ async function main() {
 
   // Default parser — includes a browser-like User-Agent so sites that block
   // bots (e.g. Marketing Week, Trend Hunter) are more likely to respond.
+  // requestOptions.timeout sets the socket-level inactivity timeout so slow-
+  // dripping feeds (ones that send data byte-by-byte) are killed too, not just
+  // stalled connections. The outer withTimeout() wrapper covers the full wall time.
   const BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
   const parserOpts = {
-    timeout: 10000,
+    timeout: PER_SOURCE_TIMEOUT_MS - 1000,
     headers: {
       "User-Agent": BROWSER_UA,
       "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+    },
+    requestOptions: {
+      timeout: PER_SOURCE_TIMEOUT_MS - 1000,
     },
   };
   const parser = new Parser(parserOpts);
@@ -425,6 +454,7 @@ async function main() {
   // (e.g. Eye on Design whose intermediate cert is missing server-side).
   const sslParser = new Parser(Object.assign({}, parserOpts, {
     requestOptions: {
+      timeout: PER_SOURCE_TIMEOUT_MS - 1000,
       agent: new https.Agent({ rejectUnauthorized: false }),
     },
   }));
@@ -474,10 +504,14 @@ async function main() {
   const totalShown = themes.reduce(function (sum, t) { return sum + t.items.length; }, 0);
   const date = todayISO();
 
+  const trendingCount = themes.reduce(function (sum, t) {
+    return sum + t.items.filter(function (i) { return i.trending; }).length;
+  }, 0);
   const intro = "Top " + MAX_ITEMS_PER_CATEGORY + " per topic — " + totalShown +
     " articles from " + usedSources + " sources across " + themes.length +
     (themes.length === 1 ? " category" : " categories") +
-    ", last " + LOOKBACK_HOURS + " hours.";
+    ", last " + LOOKBACK_HOURS + " hours." +
+    (trendingCount > 0 ? " " + trendingCount + " trending across multiple sources." : "");
 
   // weekly_hypes / monthly_trends are intentionally omitted — those layers
   // needed AI synthesis and the UI no longer surfaces them.
