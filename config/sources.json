@@ -21,13 +21,6 @@
     "weight": 9
   },
   {
-    "name": "Vogue Business",
-    "type": "rss",
-    "url": "https://www.voguebusiness.com/feed",
-    "category": "fashion",
-    "weight": 8
-  },
-  {
     "name": "Dezeen",
     "type": "rss",
     "url": "https://www.dezeen.com/feed/",
@@ -37,7 +30,7 @@
   {
     "name": "It's Nice That",
     "type": "rss",
-    "url": "https://www.itsnicethat.com/feed",
+    "url": "https://www.itsnicethat.com/rss",
     "category": "art",
     "weight": 7
   },
@@ -46,7 +39,8 @@
     "type": "rss",
     "url": "https://eyeondesign.aiga.org/feed/",
     "category": "art",
-    "weight": 7
+    "weight": 7,
+    "skipSslVerify": true
   },
   {
     "name": "Creative Review",
@@ -156,7 +150,7 @@
   {
     "name": "Vulture",
     "type": "rss",
-    "url": "https://www.vulture.com/rss/index.xml",
+    "url": "https://www.vulture.com/feed/",
     "category": "culture",
     "weight": 8
   },
@@ -198,7 +192,7 @@
   {
     "name": "The Drum",
     "type": "rss",
-    "url": "https://www.thedrum.com/rss.xml",
+    "url": "https://www.thedrum.com/rss",
     "category": "marketing",
     "weight": 8
   },
@@ -210,41 +204,17 @@
     "weight": 6
   },
   {
-    "name": "PSFK",
+    "name": "Know Your Meme",
     "type": "rss",
-    "url": "https://www.psfk.com/feed",
+    "url": "https://knowyourmeme.com/memes/recent.rss",
     "category": "trends",
-    "weight": 6
+    "weight": 7
   },
   {
-    "name": "Google Trends – Belgium",
+    "name": "Mashable",
     "type": "rss",
-    "url": "https://trends.google.com/trends/trendingsearches/daily/rss?geo=BE",
+    "url": "https://mashable.com/feeds/rss/all",
     "category": "trends",
-    "weight": 10
-  },
-  {
-    "name": "Google Trends – Netherlands",
-    "type": "rss",
-    "url": "https://trends.google.com/trends/trendingsearches/daily/rss?geo=NL",
-    "category": "trends",
-    "weight": 10
-  },
-  {
-    "name": "Google Trends – Global",
-    "type": "rss",
-    "url": "https://trends.google.com/trends/trendingsearches/daily/rss?geo=US",
-    "category": "trends",
-    "weight": 9
-  },
-  {
-    "name": "TikTok Trending Hashtags",
-    "type": "tiktok-trends",
-    "url": "https://ads.tiktok.com/creative_radar_api/v1/popular_trend/hashtag/list",
-    "category": "trends",
-    "weight": 10,
-    "country_code": "US",
-    "period": 7,
-    "limit": 20
+    "weight": 7
   }
 ]

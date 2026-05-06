@@ -29,6 +29,7 @@
 "use strict";
 
 const fs = require("fs");
+const https = require("https");
 const path = require("path");
 const Parser = require("rss-parser");
 
@@ -408,7 +409,25 @@ async function main() {
   const sources = readJSON(SOURCES_PATH);
   console.log("Loaded " + sources.length + " sources.");
 
-  const parser = new Parser({ timeout: 10000 });
+  // Default parser — includes a browser-like User-Agent so sites that block
+  // bots (e.g. Marketing Week, Trend Hunter) are more likely to respond.
+  const BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
+  const parserOpts = {
+    timeout: 10000,
+    headers: {
+      "User-Agent": BROWSER_UA,
+      "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+    },
+  };
+  const parser = new Parser(parserOpts);
+
+  // SSL-permissive parser — used only for sources that set skipSslVerify:true
+  // (e.g. Eye on Design whose intermediate cert is missing server-side).
+  const sslParser = new Parser(Object.assign({}, parserOpts, {
+    requestOptions: {
+      agent: new https.Agent({ rejectUnauthorized: false }),
+    },
+  }));
 
   // Fetch all RSS sources in parallel. One slow feed no longer holds up the
   // others, and total wall time is bounded by PER_SOURCE_TIMEOUT_MS.
@@ -421,7 +440,9 @@ async function main() {
   console.log("Fetching " + rssSources.length + " RSS sources and " + tiktokSources.length + " TikTok source(s) in parallel (timeout: " + PER_SOURCE_TIMEOUT_MS + "ms each)…");
   const t0 = Date.now();
   const [rssResults, tiktokResults] = await Promise.all([
-    Promise.all(rssSources.map(function (s) { return fetchSource(parser, s); })),
+    Promise.all(rssSources.map(function (s) {
+      return fetchSource(s.skipSslVerify ? sslParser : parser, s);
+    })),
     Promise.all(tiktokSources.map(function (s) { return fetchTikTokTrends(s); })),
   ]);
   const results = rssResults.concat(tiktokResults);

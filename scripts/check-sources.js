@@ -100,34 +100,6 @@ async function checkOne(s) {
     } else {
       result.note = "reachable but not a feed (script skips this source)";
     }
-  } else if (s.type === "tiktok-trends") {
-    // Probe the Creative Center API and confirm it returns valid JSON.
-    const apiUrl = s.url +
-      "?period=" + (s.period || 7) +
-      "&page=1&limit=5" +
-      "&country_code=" + (s.country_code || "US") +
-      "&language=en";
-    const th = await fetchHead(apiUrl);
-    if (th.error) {
-      result.note = "fetch failed: " + th.error;
-      return result;
-    }
-    result.status = th.status;
-    result.ctype = th.ctype.split(";")[0];
-    if (th.status >= 400) {
-      result.note = "HTTP " + th.status + " (TikTok may block server-side requests)";
-      return result;
-    }
-    try {
-      const json = JSON.parse(th.body);
-      const count = (json && json.data && Array.isArray(json.data.list)) ? json.data.list.length : 0;
-      result.ok = count > 0;
-      result.note = result.ok
-        ? count + " hashtags returned (code=" + json.code + ")"
-        : "response OK but no hashtags in list (code=" + (json && json.code) + ")";
-    } catch (e) {
-      result.note = "response is not valid JSON (" + e.message + ")";
-    }
   } else {
     result.note = "unknown type '" + s.type + "'";
   }

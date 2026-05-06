@@ -1,691 +1,153 @@
 {
-  "date": "2026-05-06",
+  "date": "2026-05-01",
   "daily": {
-    "title": "Culture Brief",
-    "intro": "79 items from 10 sources across 8 categories, last 24 hours.",
+    "title": "Daily Culture Brief",
+    "intro": "Today the conversation is split between AI's first real chart moment in pop music, fashion's loud rebuke of stealth wealth, and a quiet but striking shift in how brands sign athletes — as creative directors, not endorsers.",
     "themes": [
       {
-        "title": "Culture",
-        "summary": "",
+        "title": "AI music gets its first real chart moment",
+        "summary": "An AI-assisted track has cracked the global top 10 — and the industry is still figuring out how to credit it.",
         "items": [
           {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Inside Studio Iron, Isamaya Ffrench’s new dystopian dreamworld",
-            "url": "https://www.dazeddigital.com/art-photography/article/70193/1/inside-studio-iron-isamaya-ffrench-new-dystopian-dreamworld-saatchi-yates?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=inside-studio-iron-isamaya-ffrench-s-new-dystopian-dreamworld",
-            "published": "2026-05-06T11:35:00.000Z",
-            "summary": "The day after the opening of Studio Iron, Isamaya Ffrench’s new exhibition at Saatchi Yates, Instagram is filled with images of the eclectic works occupying the space: a latex dress hanging above a plate of cracked eggs – replaced periodically by the gallery team – a feminine…"
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "‘It’s pretty brutal’: Why UK landlords have been rushing to evict renters",
-            "url": "https://www.dazeddigital.com/life-culture/article/70209/1/the-final-victims-of-no-fault-evictions-uk-renters-rights-act-section-21-tenants?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=it-s-pretty-brutal-why-uk-landlords-have-been-rushing-to-evict-renters",
-            "published": "2026-05-06T11:20:00.000Z",
-            "summary": "Renting in the UK is, more often than not, a headache. Or, in extreme cases, a horror story: damp box rooms costing a grand a month, mice sightings, and unreachable, unbothered landlords. Perhaps the most traumatic of all is the fact that, up until May 1, you could be forced out…"
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Audrey Nuna shares her first Met Gala beauty routine",
-            "url": "https://www.dazeddigital.com/beauty/article/70212/1/audrey-nuna-shares-her-first-met-gala-beauty-affirmations?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=audrey-nuna-shares-her-first-met-gala-beauty-routine",
-            "published": "2026-05-06T11:00:00.000Z",
-            "summary": "Read more it-girl beauty affirmations here. Choosing what to wear to your first Met Gala is a problem most of us won’t ever have to worry about, but it’s an exciting dilemma nonetheless. You want to be on theme and make an entrance – people refer to celebrities’ debut looks for…"
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Who would we be attracted to if we didn’t know what we looked like?",
-            "url": "https://www.dazeddigital.com/beauty/article/70211/1/self-image-league-dating-desire-who-attracted-to-if-didnt-know-looked-like?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=who-would-we-be-attracted-to-if-we-didn-t-know-what-we-looked-like",
-            "published": "2026-05-06T10:53:00.000Z",
-            "summary": "Robbie,* 29, who works in marketing, met Larry* on Hinge in 2022. Larry wasn’t someone he initially found attractive, but, struggling with dating in London and amused by his witty opener, Robbie agreed to meet. Larry’s kindness disarmed him, and one date led to another, then…"
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "How the Kardashians became the ultimate media machine",
-            "url": "https://www.dazeddigital.com/life-culture/article/70204/1/dekonstructing-the-kardashians-mj-corey-author-new-book-interview?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=how-the-kardashians-became-the-ultimate-media-machine",
-            "published": "2026-05-06T07:00:00.000Z",
-            "summary": "MJ Corey wouldn’t define herself as a fan of the Kardashians. It’s perhaps a confusing point for those who take a quick glimpse at her social media platforms, which are dedicated to expounding incidents of Kar-Jenner lore – from Kim wearing Marilyn Monroe’s dress at the 2022 Met…"
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Horoscopes May 2026: It’s a money month, so expect a surprise windfall",
-            "url": "https://www.dazeddigital.com/beauty/article/70208/1/horoscopes-may-2026-taurus-gemini-pluto-retrograde-uranus?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=horoscopes-may-2026-it-s-a-money-month-so-expect-a-surprise-windfall",
-            "published": "2026-05-05T16:24:00.000Z",
-            "summary": "Grace McGrade is an intuitive astrologer based in Los Angeles. She is the head astrologer of the app Stars Align. Her sessions include birth chart readings, transits, energetic clearings and psychic consultations. For more astrology, read her guide to read more raquo;"
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Oakley drops new signature styles with Kylian Mbappé and Jaylen Brown",
-            "url": "https://www.dazeddigital.com/fashion/article/70192/1/oakley-drops-new-signature-styles-with-kylian-mbappe-and-jaylen-brown?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=oakley-drops-new-signature-styles-with-kylian-mbappe-and-jaylen-brown",
-            "published": "2026-05-05T16:00:00.000Z",
-            "summary": "Though masters of different games, Team Oakley athletes Kylian Mbappé and Jaylen Brown have more in common than you might think. Both are considered forces in their respective fields – Mbappé is regarded as one of the world’s top footballers, and Brown is a five-time NBA…"
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Got artwork that deserves wall space? Share it with us!",
-            "url": "https://www.dazeddigital.com/art-photography/article/70202/1/got-artwork-that-deserves-wall-space-share-it-with-us-drool?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=got-artwork-that-deserves-wall-space-share-it-with-us",
-            "published": "2026-05-05T15:49:00.000Z",
-            "summary": "At Dazed, we’re big fans of DROOL, the go-to destination for unique contemporary art prints. Built to make art more accessible, the London-based brand champions emerging talent, offering early-career artists a platform to showcase and sell their work. Now, DROOL is inviting…"
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "The best Dev Patel lookalikes at the London contest",
-            "url": "https://www.dazeddigital.com/life-culture/article/70206/1/dev-patel-actor-lookalikes-london-fields-contest-photos?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=the-best-dev-patel-lookalikes-at-the-london-contest",
-            "published": "2026-05-05T15:30:00.000Z",
-            "summary": "When did Dev Patel first steal your heart? Was it as the horny, sex-crazed Anwar Kharral in Skins? Or as the bright-eyed and bushy-tailed David Copperfield in The Personal History of David Copperfield? Was it when he played the kindhearted and singularly obsessed Jamal Malik in…"
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Hunter Schafer’s hairstylist shares how to recreate her Met Gala 2026 look",
-            "url": "https://www.dazeddigital.com/beauty/article/70195/1/met-gala-2026-hunter-schafer-hairstylist-prada-gustav-klimt?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=hunter-schafer-s-hairstylist-shares-how-to-recreate-her-met-gala-2026-look",
-            "published": "2026-05-05T14:34:53.000Z",
-            "summary": "‘Fashion is Art’ was the name of the game at this year’s Met Gala and some of the celebrities took the theme very seriously. Turning to paintings for inspiration, Rachel Zegler referenced “The Execution of Lady Jane Grey” by Paul Delaroche, while Angela Bassett paid homage to…"
-          }
-        ]
-      },
-      {
-        "title": "Fashion",
-        "summary": "",
-        "items": [
-          {
-            "source": "Hypebeast",
-            "category": "fashion",
-            "title": "Unimatic x Norwegian Rain Mark 15 Years With Bespoke Copper GMT Watches",
-            "url": "https://hypebeast.com/2026/5/norwegian-rain-unimatic-ii-the-alex-u2gmtnra-the-t-u2gmtnrt-limited-editions-release-info",
-            "published": "2026-05-06T10:58:59.000Z",
-            "summary": "SummaryUnimatic and Norwegian Rain celebrate anniversaries with two limited-edition 300m GMT watchesBoth feature unique oxidized copper dials and repurposed Norwegian military tent strapsDubbed \"The Alex\" and \"The T,\" both models are available for pre-order from around $1,515…"
-          },
-          {
-            "source": "Hypebeast",
-            "category": "fashion",
-            "title": "A.P.C. x Brain Dead Return With “INTERACTION #29” Capsule Drop",
-            "url": "https://hypebeast.com/2026/5/a-p-c-brain-dead-interaction-29-capsule-release-info",
-            "published": "2026-05-06T10:58:54.000Z",
-            "summary": "SummaryA.P.C. and Brain Dead debut “INTERACTION #29,” a relaxed capsule inspired by friendshipThe drop features rigid indigo denim, Breton-style polos and collaborative lifestyle accessoriesReleasing May 8, 2026, the collection prioritizes \"lived-in\" textures and premium…"
-          },
-          {
-            "source": "Hypebeast",
-            "category": "fashion",
-            "title": "Olivia Rodrigo Teams up With Spotify To Release Exclusive FC Barcelona Kits",
-            "url": "https://hypebeast.com/2026/5/olivia-rodrigo-spotify-release-exclusive-fc-barcelona-kits",
-            "published": "2026-05-06T09:56:21.000Z",
-            "summary": "SummaryOlivia Rodrigo is the latest musical heavyweight to take over the front of the FC Barcelona jersey for the highly anticipated El Clásico matchesShe is the eighth and youngest artist to participate in the Spotify partnership tradition, following icons like The Rolling…"
-          },
-          {
-            "source": "Hypebeast",
-            "category": "fashion",
-            "title": "The adidas Fear Of God Athletics Basketball III Arrives in a Muted \"Cinder\" Colorway",
-            "url": "https://hypebeast.com/2026/5/adidas-fear-of-god-athletics-basketball-iii-cinder-release-info",
-            "published": "2026-05-06T09:21:47.000Z",
-            "summary": "Name: adidas Fear Of God Athletics Basketball III \"Cinder\"Colorway: CinderSKU: TBDMSRP: $180 USDRelease Date: May 2026Where to Buy: adidasJerry Lorenzo is continuing to seamlessly blend high-fashion minimalism with athletic performance. Expanding his highly coveted partnership…"
-          },
-          {
-            "source": "Hypebeast",
-            "category": "fashion",
-            "title": "FX and Hulu Drop Surprise Prequel Episode of 'The Bear' Starring Jon Bernthal and Ebon Moss-Bachrach",
-            "url": "https://hypebeast.com/2026/5/fx-hulu-drop-surprise-prequel-episode-of-the-bear-starring-jon-bernthal-ebon-moss-bachrach",
-            "published": "2026-05-06T09:21:16.000Z",
-            "summary": "SummaryFX and Hulu surprised fans by dropping a standalone prequel episode of The Bear titled \"Gary\" on Tuesday, May 5, 2026The 59-minute episode follows Richie (Ebon Moss-Bachrach) and Mikey Berzatto (Jon Bernthal) on a road trip from Chicago to Gary, IndianaSet before the…"
-          },
-          {
-            "source": "Hypebeast",
-            "category": "fashion",
-            "title": "Closer Look at A$AP Rocky's Jewelry for the Met Gala Produced Under His Own Brand, PAVĒ NITEŌ",
-            "url": "https://hypebeast.com/2026/5/asap-rocky-jewelry-pave-niteo-met-gala-2026-closer-look",
-            "published": "2026-05-06T09:14:09.000Z",
-            "summary": "SummaryA$AP Rocky elevated his 2026 Met Gala look with a staggering array of custom jewelry produced under his own design label, PAVĒ NITEŌThe pieces were meticulously crafted in collaboration with the historic Venetian jewelry house Maison Codognato, seamlessly blending classic…"
-          },
-          {
-            "source": "Hypebeast",
-            "category": "fashion",
-            "title": "Aleali May’s New Clarks Wallabee Is a Corduroy Dream",
-            "url": "https://hypebeast.com/2026/5/aleali-may-clarks-originals-wallabee-collaboration-collection-grey-beige-combi-26185905-26185907-release-info",
-            "published": "2026-05-06T09:12:07.000Z",
-            "summary": "Name: Aleali May x Clarks Originals WallabeeColorway: Grey Combi, Beige CombiSKU: 26185905, 26185907MSRP: €170 EURRelease Date: May 21Where to Buy: AFEWAleali May and Clarks Originals are teaming up for two collaborative Wallabee models, expanding the LA-based creative's…"
-          },
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "New Balance’s American Dad Shoe Looks Blue-tiful Under the Moonlight",
-            "url": "https://www.highsnobiety.com/p/new-balance-990v4-moonbeam-blue/",
-            "published": "2026-05-06T09:05:54.000Z",
-            "summary": "New Balance debuts \"Moonbeam\" 990v4 Made in U.S.A. sneakers in two colorways, including \"Cloud Blue.\""
-          },
-          {
-            "source": "Hypebeast",
-            "category": "fashion",
-            "title": "Henrik Vibskov Spins the KEEN UNEEK Into a Colorful SS26 Masterpiece",
-            "url": "https://hypebeast.com/2026/5/henrik-vibskov-keen-uneek-360-leather-spring-summer-ss-2026-collaboration-collection-1032222-1032223-1032541-1032540-release-info",
-            "published": "2026-05-06T09:01:34.000Z",
-            "summary": "Name: Henrik Vibskov x KEEN UNEEK 360, Henrik Vibskov x KEEN UNEEK LeatherColorway: Brindle/Scarlet Ibis, Green Spring, Tangerine CreamSKU: 1032222, 1032223, 1032541, 1032540MSRP: $200 USD, $160 USDRelease Date: Available nowWhere to Buy: KEENKEEN has joined forces with Henrik…"
-          },
-          {
-            "source": "Hypebeast",
-            "category": "fashion",
-            "title": "Did Bad Bunny Just Tease a New Logo?",
-            "url": "https://hypebeast.com/2026/5/bad-bunny-tease-benito-antonio-new-logo-met-gala-2026-zara-custom-suit-reports",
-            "published": "2026-05-06T08:49:27.000Z",
-            "summary": "SummaryInternet detectives recently uncovered official trademark filings for Bad Bunny's legal name, \"Benito Antonio,\" covering clothing and leather goods in the US and SingaporeThe Puerto Rican hitmaker recently walked the 2026 Met Gala red carpet in a custom all-black suit…"
-          },
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "Even ASICS Techy Dad Sneaker Feels the Breeze",
-            "url": "https://www.highsnobiety.com/p/asics-gt-2160-breeze-sneakers/",
-            "published": "2026-05-06T08:49:04.000Z",
-            "summary": "ASICS' GT-2160 Breeze is a summer sandal version of the classic sneaker, featuring a more breathable design & outdoorsy touches. Clean colorways, too."
-          },
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "adidas Put Its Seriously Slim Gazelle Sneaker on a Stricter Diet",
-            "url": "https://www.highsnobiety.com/p/spick-and-span-adidas-gazelle-lo-pro/",
-            "published": "2026-05-06T08:42:35.000Z",
-            "summary": "adidas' super slip Gazelle Lo Pro is a classic adidas sneaker that just got on a serious GLP-1."
-          },
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "Nike’s Iced-Out Air Forces Are Invisible (Again)",
-            "url": "https://www.highsnobiety.com/p/nike-air-force-1-invisible-woman-restock/",
-            "published": "2026-05-06T08:37:44.000Z",
-            "summary": "Nike's Marvel-inspired Air Force 1 Low \"Invisible Woman 2.0\" sneaker is back & still see-through ever. Here's everything on the clean restock."
-          },
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "Nike's Retired Football Sneaker Sneaker Finds Its Whimsy",
-            "url": "https://www.highsnobiety.com/p/nike-field-general-lace-doily/",
-            "published": "2026-05-06T08:34:46.000Z",
-            "summary": "Nike's Field General \"Lace Doily\" sneaker lands with quirky-cute details like lace branding & patterned uppers."
-          },
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "Nike's Most Elegant Air Jordans Might Be Even Finer Than Wine",
-            "url": "https://www.highsnobiety.com/p/jordan-3-bin23-sneakers/",
-            "published": "2026-05-06T08:31:53.000Z",
-            "summary": "Nike's Air Jordan 3 sneaker receives the luxurious \"Bin23\" treatment, resulting in the most elegant version of the model yet."
-          },
-          {
-            "source": "Hypebeast",
-            "category": "fashion",
-            "title": "8 Drops You Don't Want to Miss This Week",
-            "url": "https://hypebeast.com/2026/5/best-drops-may-week-1-palace-number-nine-bape-8-drops-you-dont-want-to-miss-this-week",
-            "published": "2026-05-06T06:45:56.000Z",
-            "summary": "With another week upon us, we have yet another installment of our product drops series.This week’s lineup of drops kicks off with Palace launching its Summer 2026 collection, blending elevated sportswear with classic irreverence through Mozart varsity jackets and exclusive Nike…"
-          },
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "Fashion’s Biggest Night Was Also Fast Fashion’s Biggest Night",
-            "url": "https://www.highsnobiety.com/p/met-gala-2026-fast-fashion/",
-            "published": "2026-05-05T20:39:38.000Z",
-            "summary": "At the 2026 Met Gala, fast fashion labels created some of the most major moments, from Bad Bunny's Grandpa look to Kendall Jenner’s sculptural gown."
-          },
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "I’ve Spent My Whole Life Trying to Dress Like My Mom",
-            "url": "https://www.highsnobiety.com/p/mothers-day-style/",
-            "published": "2026-05-05T20:32:22.000Z",
-            "summary": "People love to ask fashion writers about their style heroes... as writer Faran Krentcil outlines for us, it often starts at home."
-          },
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "“It’s a Place Where I Can Lose Myself”: Inside Alessandro Michele’s Los Angeles Book Party",
-            "url": "https://www.highsnobiety.com/p/valentino-alessandro-michele-specula-mundi-book-party/",
-            "published": "2026-05-05T19:57:46.000Z",
-            "summary": "The creative director hosted dozens of stars for the release of his new book, “Specula Mundi,” including Teyana Taylor, Dree Hemingway, and Patricia Arquette."
-          },
-          {
-            "source": "Highsnobiety",
-            "category": "fashion",
-            "title": "Nicholas Hoult Felt “Very Fashionable and Very Sexy” in Prada Leather at the Met",
-            "url": "https://www.highsnobiety.com/p/nicholas-hoult-prada-met-gala-interview/",
-            "published": "2026-05-05T19:28:13.000Z",
-            "summary": "Highsnobiety got ready for the biggest party in May with the actor who talked pre-carpet nerves, style inspiration, and the Prada family."
-          }
-        ]
-      },
-      {
-        "title": "Music",
-        "summary": "",
-        "items": [
-          {
-            "source": "Pitchfork News",
+            "title": "Anonymous producer's AI collab debuts at #6 on Spotify Global",
+            "summary": "The track, credited only to a pseudonymous artist, was reportedly co-written with a generative model. Labels are now in negotiations.",
+            "cultural_relevance": "First mainstream chart breakthrough for AI-assisted pop music. The conversation shifts from 'will it happen' to 'how do we credit and pay for it'.",
+            "source": "Pitchfork",
+            "url": "https://pitchfork.com/",
             "category": "music",
-            "title": "Meet the Man Turning Your Favorite Musicians Old",
-            "url": "https://pitchfork.com/news/the-weeknd-bad-bunny-met-gala-mike-marino/",
-            "published": "2026-05-05T20:44:49.000Z",
-            "summary": "“I'm walking into a party zone and doing a surgery in front of 30 people”"
+            "score": 9
           },
           {
-            "source": "Pitchfork News",
+            "title": "Songwriter union calls for mandatory AI disclosure on streaming",
+            "summary": "Following the chart debut, the union is pushing platforms to label any track using generative tools.",
+            "cultural_relevance": "Mirrors the earlier fight over sample credits and ghostwriting — a structural shift in how authorship is defined in music.",
+            "source": "The Verge",
+            "url": "https://www.theverge.com/",
             "category": "music",
-            "title": "Kelela Announces Third Album New Avatar",
-            "url": "https://pitchfork.com/news/watch-kelelas-video-for-new-linknb-song/",
-            "published": "2026-05-05T17:14:59.000Z",
-            "summary": "It arrives July 10 and features the new singles “Linknb” and “Idea 1”"
-          },
-          {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "The Rolling Stones Unveil New Album Foreign Tongues",
-            "url": "https://pitchfork.com/news/the-rolling-stones-unveil-new-album-foreign-tongues/",
-            "published": "2026-05-05T16:11:56.000Z",
-            "summary": "The Hackney Diamonds follow-up drops July 10"
-          },
-          {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "Charli XCX, the XX to Headline Austin City Limits Festival 2026",
-            "url": "https://pitchfork.com/news/charli-xcx-the-xx-to-headline-austin-city-limits-festival-2026/",
-            "published": "2026-05-05T16:05:13.000Z",
-            "summary": "Geese, Lorde, Turnstile, Fakemink, Underscores, and more are also booked for the festival’s 25th-anniversary edition"
-          },
-          {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "Watch Foo Fighters Perform Two Songs on Colbert",
-            "url": "https://pitchfork.com/news/watch-foo-fighters-perform-two-songs-on-colbert/",
-            "published": "2026-05-05T15:28:38.000Z",
-            "summary": "Dave Grohl also sat down to discuss Nirvana, Your Favorite Toy, and his daughter Violet"
-          },
-          {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "Kylie Minogue Netflix Series Gets First Trailer",
-            "url": "https://pitchfork.com/news/kylie-minogue-netflix-series-gets-first-trailer/",
-            "published": "2026-05-05T14:15:06.000Z",
-            "summary": "“Kylie is this force,” says Nick Cave in a clip from the three-part documentary"
+            "score": 7
           }
         ]
       },
       {
-        "title": "Film",
-        "summary": "",
+        "title": "Fashion goes loud again",
+        "summary": "Maximalism is reasserting itself across runways and feeds, an explicit rebuke of the post-pandemic stealth-wealth uniform.",
         "items": [
           {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "Fantasia Fest 2026 Announces AI Noir, Teen Nazi Hunters, and More Genre Fuel in First-Wave Lineup",
-            "url": "https://www.indiewire.com/news/festivals/fantasia-fest-2026-first-wave-programming-lineup-1235192483/",
-            "published": "2026-05-05T22:40:35.000Z",
-            "summary": "Noomi Rapace, Lulu Wilson, and a wave of international genre standouts headline the Montreal fest."
+            "title": "Schiaparelli's Paris show leans full surrealist",
+            "summary": "Daniel Roseberry sent out gilded body armor and trompe-l'œil tailoring.",
+            "cultural_relevance": "Signals fashion's cyclical pivot back to spectacle, a tell that broader consumer aesthetics — interiors, beauty, even UI — will follow within 12 months.",
+            "source": "Highsnobiety",
+            "url": "https://www.highsnobiety.com/",
+            "category": "fashion",
+            "score": 8
           },
           {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "You Won’t Watch John Candy Movies the Same Way After Seeing Colin Hanks’ New Documentary",
-            "url": "https://www.indiewire.com/features/interviews/colin-hanks-john-candy-i-like-me-documentary-interview-1235148976/",
-            "published": "2026-05-05T19:30:42.000Z",
-            "summary": "Ahead of the festival's opening night world premiere of \"John Candy: I Like Me,\" filmmaker Hanks told IndieWire about the challenges of making a doc about someone universally beloved — and the many surprises along the way."
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "‘The Terror: Devil in Silver’ Review: Dan Stevens Battles the Horrors of American Healthcare",
-            "url": "https://www.indiewire.com/criticism/shows/the-terror-devil-in-silver-review-dan-stevens-series-1235192171/",
-            "published": "2026-05-05T19:00:00.000Z",
-            "summary": "Chris Cantwell and Victor LaValle adapt the latter's book into a six-part series about a dilapidated psychiatric hospital where a new patient has to face down his demons — and perhaps one from the Bible, as well."
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "Sean Baker Talks Marilyn Monroe (and Norma Jeane) in Excerpt from New Book Celebrating Her Centennial",
-            "url": "https://www.indiewire.com/features/general/sean-baker-joshua-john-miller-marilyn-monroe-read-excerpt-1235192417/",
-            "published": "2026-05-05T18:15:00.000Z",
-            "summary": "Exclusive: Read an excerpt from \"The Marilyn Monroe Century: From Norma Jeane to Icon―A Story in Photographs,\" out May 19."
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "New ‘The Odyssey’ Trailer Lays Out the Epic Stakes for Matt Damon (and Shows Off Some New Armor)",
-            "url": "https://www.indiewire.com/news/trailers/the-odyssey-second-trailer-1235192386/",
-            "published": "2026-05-05T16:59:53.000Z",
-            "summary": "Christopher Nolan's star-studded take on Homer's epic poem hits theaters this July."
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "‘The Bear’ Drops Surprise Episode on Hulu, Starring Jon Bernthal and Ebon Moss-Bachrach",
-            "url": "https://www.indiewire.com/news/breaking-news/the-bear-surprise-episode-jon-bernthal-ebon-moss-bachrach-1235192393/",
-            "published": "2026-05-05T16:44:17.000Z",
-            "summary": "Titled \"Gary,\" the episode is a prequel to the popular culinary show and comes to the streamer ahead of the show's fifth and final season."
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "Sundance 2026 Movies Sold So Far: World Cinema Prize Winner ‘How to Divorce During the War’ Lands at Kino Lorber and Zeitgeist Films",
-            "url": "https://www.indiewire.com/news/festivals/sundance-2026-movies-sold-so-far-1235174095/",
-            "published": "2026-05-05T16:23:36.000Z",
-            "summary": "Andrius Blazevicius won the Directing Award at Sundance earlier this year."
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "You’re Going to Be Able to Play ‘Game Changer’ at Home Soon",
-            "url": "https://www.indiewire.com/features/interviews/game-changer-kickstarter-dropout-sam-reich-1235192360/",
-            "published": "2026-05-05T16:15:00.000Z",
-            "summary": "Sam Reich tells IndieWire about the upcoming \"Game Changer: Home Edition\" — the very first Dropout board game."
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "Provincetown Film Festival Lineup: Ryan Murphy, ‘Stop! That! Train!,’ John Waters on ‘Sick of Myself,’ and More",
-            "url": "https://www.indiewire.com/news/festivals/provincetown-film-festival-2026-lineup-1235192292/",
-            "published": "2026-05-05T15:00:00.000Z",
-            "summary": "The Provincetown International Film Festival runs June 10–14, opening with Adam Shankman's \"Stop! That! Train!\" and closing with Kevin Bacon and Kyra Sedgwick's \"Family Movie.\""
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "Join IndieWire’s ‘Screen Talk’ Podcast Live at Tribeca Festival with Ronan Farrow This June",
-            "url": "https://www.indiewire.com/news/festivals/tribeca-screen-talk-live-ronan-farrow-1235192112/",
-            "published": "2026-05-05T14:30:00.000Z",
-            "summary": "\"Screen Talk\" co-hosts Anne Thompson and Ryan Lattanzio will sit down with Ronan Farrow for a live conversation in New York City on Tuesday, June 9, during Tribeca Festival."
+            "title": "TikTok's #louderthebetter hashtag passes 2B views",
+            "summary": "A new aesthetic tag celebrating clashing prints and statement jewellery is outpacing #quietluxury for the first time.",
+            "cultural_relevance": "Consumer-side proof the maximalist turn isn't just a runway story — Gen Z is actively rejecting the minimalist look.",
+            "source": "Complex",
+            "url": "https://www.complex.com/",
+            "category": "internet",
+            "score": 7
           }
         ]
       },
       {
-        "title": "Gaming",
-        "summary": "",
+        "title": "Athletes as creative directors",
+        "summary": "Brands are restructuring athlete deals around editorial control rather than endorsement.",
         "items": [
           {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "These two Secrets of Strixhaven cards resurrect Magic's oldest combo",
-            "url": "https://www.polygon.com/secrets-of-strixhaven-witherbloom-pestilence-lifegain-combo/",
-            "published": "2026-05-06T12:51:37.000Z",
-            "summary": "The prepared mechanic in Magic: The Gathering's Secrets of Strixhaven can lead to a deadly combo available for the Witherbloom Pestilence deck."
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Diablo 4 secret cow level found after 3 years and 2 expansions",
-            "url": "https://www.polygon.com/diablo-4-secret-cow-level/",
-            "published": "2026-05-06T12:13:22.000Z",
-            "summary": "Players have finally unlocked the Secret Cow Level in Diablo 4 after solving complex clues in Vessel of Hatred and Lord of Hatred"
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "YouTube is finally on the Nintendo Switch 2… sort of",
-            "url": "https://www.polygon.com/youtube-nintendo-switch-2-super-animal-royale/",
-            "published": "2026-05-06T12:08:29.000Z",
-            "summary": "You can watch YouTube on the Switch 2 by downloading Super Animal Royale and playing one of its videos in the external browser."
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Dead as Disco's musical brawling hits the right notes in early access",
-            "url": "https://www.polygon.com/dead-as-disco-early-access-impressions/",
-            "published": "2026-05-06T12:00:19.000Z",
-            "summary": "Rhythm action game Dead as Disco just entered early access, delivering some very promising musical kung-fu brawling."
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Captain America: Civil War took the MCU down the wrong path",
-            "url": "https://www.polygon.com/captain-america-civil-war-10-years-ago/",
-            "published": "2026-05-06T11:00:19.000Z",
-            "summary": "The movie itself is plenty fun, but Captain America: Civil War helped bring about the end of the MCU's golden age"
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Life is Strange director says her official adaptation will honor the game",
-            "url": "https://www.polygon.com/karyn-kusama-life-is-strange-interview/",
-            "published": "2026-05-06T10:01:30.000Z",
-            "summary": "Horror director Karyn Kusama (The Invitation, Jennifer's Body) shares her approach to bringing Don't Nod's narrative time-travel game to TV."
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Daredevil Born Again season 3 plot, cast, release date window and everything else we know",
-            "url": "https://www.polygon.com/daredevil-born-again-season-3-plot-cast-release-date/",
-            "published": "2026-05-06T02:00:30.000Z",
-            "summary": "Explore the potential plot twists and character developments in Daredevil: Born Again season 3"
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Daredevil: Born Again season 2 ending explained: Is the Marvel show about January 6?",
-            "url": "https://www.polygon.com/daredevil-born-again-season-2-finale-pro-january-6th/",
-            "published": "2026-05-06T01:52:20.000Z",
-            "summary": "Daredevil: Born Again takes a surprising turn in its season finale, drawing parallels between New York citizens and the January 6th insurrection"
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Catch up on this terrific manga mystery before the official anime version",
-            "url": "https://www.polygon.com/go-with-clouds-north-by-northwest-manga-recommendation/",
-            "published": "2026-05-05T22:56:20.000Z",
-            "summary": "Aki Irie's Icelandic saga Go with the Clouds, North-by-Northwest is one of the most engaging mystery manga in years."
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Diablo 4 interactive map",
-            "url": "https://www.polygon.com/c/diablo-4-guides/23778174/diablo-iv-map-altars-of-lilith-dungeons-waypoints/",
-            "published": "2026-05-05T22:31:19.000Z",
-            "summary": "Here's our Diablo 4 interactive map, detailing the various waypoints, Altars of Lilith, and more."
-          }
-        ]
-      },
-      {
-        "title": "Art & Design",
-        "summary": "",
-        "items": [
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "ODDO Architects looks to urban alleyways for narrow extension in Vietnam",
-            "url": "https://www.dezeen.com/2026/05/06/oddo-architects-th-house-extension/",
-            "published": "2026-05-06T10:30:45.000Z",
-            "summary": "Local studio ODDO Architects has extended TH+ House in Vietnam, organising a series of shared, flexible spaces around tall voids informed by the \"social intensity\" of Hanoi's urban alleyways. The project saw ODDO Architects returning to the site of TH House, which it completed…"
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "A simple guide to parametricism",
-            "url": "https://www.dezeen.com/2026/05/06/parametricism-simple-guide/",
-            "published": "2026-05-06T10:00:09.000Z",
-            "summary": "What actually is parametricism? As part of our series on the style, we've written a quick and simple overview of the notoriously complex and contentious concept. What exactly is it? Parametricism is a 21st-century architectural style and theoretical movement closely associated…"
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Rocket-like skyscraper becomes Morocco's tallest building",
-            "url": "https://www.dezeen.com/2026/05/06/mohammed-vi-tower-morocco-tallest-building-rafael-de-la%e2%80%91hoz-hakim-benjelloun/",
-            "published": "2026-05-06T09:55:01.000Z",
-            "summary": "The 250-metre-tall Mohammed VI Tower designed by architecture studios Rafael de La‑Hoz and Hakim Benjelloun has opened in Morocco as the country's tallest building and the third tallest in Africa. Named after Mohammed VI, who has reigned as King of Morocco since 1999, the…"
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Linde Freya Tangelder blends \"ancient and contemporary\" crafts in Fluid Re-Collection",
-            "url": "https://www.dezeen.com/2026/05/06/linde-freya-tangelder-crafts-fluid-re-collection/",
-            "published": "2026-05-06T08:00:15.000Z",
-            "summary": "Dutch designer Linde Freya Tangelder has partnered with Italian brand Cassina on a Milan exhibition featuring furniture and lighting made from blown glass, cast bronze, sheet metal and lacquered wood. Presented at 10 Corso Como during Milan design week, the Fluid Re-Collection…"
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "David Chipperfield creates freestanding plywood bathtub for Agape",
-            "url": "https://www.dezeen.com/2026/05/06/agape-david-chipperfield-tambre-bathtub/",
-            "published": "2026-05-06T05:00:08.000Z",
-            "summary": "David Chipperfield Design has developed a wooden bathtub for Italian bathroom brand Agape, featuring a pared-back form with an integrated seat, shelf and washbasin. For its first-ever collaboration with Agape, which launched during Milan design week, the design studio of…"
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Montreal students convert Olympic Stadium roof into design objects",
-            "url": "https://www.dezeen.com/2026/05/05/montreal-students-convert-olympic-stadium-roof-into-design-objects/",
-            "published": "2026-05-05T19:00:57.000Z",
-            "summary": "Students at Concordia University in Montreal, Canada, have converted the Kevlar fabric used for the infamous Montreal Olympic Stadium into furniture for an exhibition held during Montreal Design Week. Led by designer and Concordia instructor Jeremy Petrus, the O-cycle Project…"
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Gensler reveals design for Trump Tower skyscraper in Georgia",
-            "url": "https://www.dezeen.com/2026/05/05/trump-tower-tbilisi-georgia-design-revelaed/",
-            "published": "2026-05-05T18:28:21.000Z",
-            "summary": "Designs have been revealed for a Trump Tower development in Tbilisi, Georgia, designed by Gensler, which will contain \"six architecturally distinctive towers\", including a 70-storey skyscraper that is set to be the tallest in the country. Following news architecture studio…"
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Olson Kundig installs double-decker elevators at the Seattle Space Needle",
-            "url": "https://www.dezeen.com/2026/05/05/olson-kundig-otis-elevators-double-decker-elevators-space-needle/",
-            "published": "2026-05-05T17:04:54.000Z",
-            "summary": "As part of the ongoing renovations to the Space Needle in Seattle, American architecture studio Olson Kundig and engineering firm Otis Elevators have installed all-glass, double-decker elevators on the tower's exposed core. The elevator project is a continuation of the…"
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Peterson Rich Office designs Condé M Nast Galleries at The Met in time for yearly gala exhibition",
-            "url": "https://www.dezeen.com/2026/05/05/peterson-rich-office-met-galleries/",
-            "published": "2026-05-05T15:00:36.000Z",
-            "summary": "Brooklyn-based architecture studio Peterson Rich Office has completed the design of five spaces at the Metropolitan Museum of Art in New York, revealing historic facades to showcase the layered history of the museum. Peterson Rich Office (PRO) was tasked with revamping five…"
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Nest bed by Bolzan",
-            "url": "https://www.dezeen.com/2026/05/05/nest-bed-by-bolzan-dezeen-showroom/",
-            "published": "2026-05-05T13:00:12.000Z",
-            "summary": "Dezeen Showroom: fine wood craftsmanship is celebrated in the Nest bed, created by Italian furniture brand Bolzan to help turn bedrooms into design-forward retreats. Designed in-house by Bolzan Lab, the Nest bed aims to balance strength and lightness, with an ash wood structure…"
-          }
-        ]
-      },
-      {
-        "title": "Internet",
-        "summary": "",
-        "items": [
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Energizer’s new coin batteries won’t cause ingestion burns if swallowed",
-            "url": "https://www.theverge.com/tech/924966/energizer-ultimate-child-shield-batteries-ingestion-swallow-burn-prevention",
-            "published": "2026-05-06T12:00:00.000Z",
-            "summary": "The safer coin batteries are available in 2032, 2025, and 2016 varieties. | Image: Energizer Energizer has announced a new line of lithium coin batteries it claims are the world's first to eliminate the risk of ingestion burns if swallowed. Its Ultimate Child Shield line…"
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Remarkable’s next E Ink digital notepad skips the color screen",
-            "url": "https://www.theverge.com/tech/923994/remarkable-e-ink-tablet-paper-pure-black-and-white-pricing-availability",
-            "published": "2026-05-06T12:00:00.000Z",
-            "summary": "Remarkable announced a new paper tablet today - albeit one without the advanced color screen found in its recent Paper Pro and Paper Pro Move tablets. The new Remarkable Paper Pure instead features an upgraded version of the black-and-white E Ink display found in the Remarkable…"
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "The Remarkable Paper Pure is the best digital notepad I&#8217;ve ever used",
-            "url": "https://www.theverge.com/tech/922843/remarkable-paper-pure-e-ink-tablet-digital-notebook-notepad-hands-on",
-            "published": "2026-05-06T12:00:00.000Z",
-            "summary": "Was I writing with pen and paper, or a stylus on a tablet? It’s getting more difficult than ever to tell. The Remarkable Paper Pure is a follow-up to 2020’s Remarkable 2 and a couple of premium color E Ink tablets. As with Remarkable’s first two digital notepads, the Paper Pure…"
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Microsoft’s Office and LinkedIn chief now runs Teams in latest reshuffle",
-            "url": "https://www.theverge.com/tech/924931/microsoft-office-copilot-windows-reorg-shuffle",
-            "published": "2026-05-06T11:45:41.000Z",
-            "summary": "Microsoft's LinkedIn chief, Ryan Roslansky, took on an expanded role at the company as head of Office last year, and he's now getting more responsibilities as part of the latest leadership reshuffle inside Microsoft. Sources tell me that the Microsoft Teams organization is…"
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "The clippening",
-            "url": "https://www.theverge.com/report/920005/social-media-clipping-podcasts-clavicular-marketing-mrbeast",
-            "published": "2026-05-06T11:00:00.000Z",
-            "summary": "Earlier this year, after a tumultuous period serving as the former second-in-command at the FBI, Dan Bongino went back to what he is perhaps known best for: video podcasting. After Bongino exited the role in January, he began promotion for the return of his podcast, The Dan…"
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Chrome’s AI features may be hogging 4GB of your computer storage",
-            "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
-            "published": "2026-05-06T10:13:09.000Z",
-            "summary": "Google Chrome may be taking up more of your storage than expected thanks to a large on-device AI model file that, in some cases, is being automatically downloaded to the browser's system folders. Users who have noticed unexplained drops in their available desktop device storage…"
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Google Home&#8217;s Gemini AI can handle more complicated requests",
-            "url": "https://www.theverge.com/tech/924755/google-home-gemini-3-1-upgrade",
-            "published": "2026-05-05T21:46:04.000Z",
-            "summary": "Google Home users can now ask Gemini to complete more complex, multi-step tasks and combine multiple tasks in a single command. Google has updated Gemini for Home to Gemini 3.1, which it says will improve the smart home assistant's ability to interpret and act on requests. The…"
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Apple agrees to pay iPhone owners $250 million for not delivering AI Siri",
-            "url": "https://www.theverge.com/tech/924706/apple-iphone-siri-intelligence-class-action-lawsuit-settlement",
-            "published": "2026-05-05T21:18:23.000Z",
-            "summary": "Apple has agreed to pay $250 million to settle a class action lawsuit that accused it of misleading customers about the availability of its Apple Intelligence features. The proposed settlement would apply to people in the US who purchased all models of the iPhone 16 and the…"
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Microsoft gives up on Xbox Copilot AI",
-            "url": "https://www.theverge.com/games/924551/microsoft-xbox-ceo-copilot-ai-asha-sharma",
-            "published": "2026-05-05T19:54:37.000Z",
-            "summary": "Xbox is \"winding down Copilot on mobile\" and \"will stop development of Copilot on console,\" new Xbox CEO Asha Sharma announced on Tuesday. The move follows Sharma's reorganization of the Xbox platform team earlier on Tuesday, which added executives from Microsoft's CoreAI team -…"
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Apple could let you pick a favorite AI model in iOS 27",
-            "url": "https://www.theverge.com/tech/924515/apple-intelligence-third-party-chatbot-extensions-ios-27",
-            "published": "2026-05-05T19:45:30.000Z",
-            "summary": "The next update to Apple's operating systems could allow users to choose their preferred AI model for running Apple Intelligence. According to Bloomberg's Mark Gurman, Apple is planning to allow third-party chatbots to power its AI features system-wide in iOS 27, iPadOS 27, and…"
-          }
-        ]
-      },
-      {
-        "title": "Marketing",
-        "summary": "",
-        "items": [
-          {
-            "source": "Frankwatching",
-            "category": "marketing",
-            "title": "6 communicatietips om je medewerkers meer betrokken te krijgen",
-            "url": "https://www.frankwatching.com/archive/2026/05/06/communicatietips-voor-medewerkersbetrokkenheid/",
-            "published": "2026-05-06T11:00:00.000Z",
-            "summary": "Volgens Gallup is wereldwijd nog maar 20 procent van de medewerkers betrokken bij hun werk. Dat is het laagste niveau sinds 2020 en kost de wereldeconomie naar schatting 10 biljoen dollar aan verloren productiviteit. Dat..."
-          },
-          {
-            "source": "Frankwatching",
-            "category": "marketing",
-            "title": "Zero-click marketing: je contentstrategie klopt, je organisatie niet",
-            "url": "https://www.frankwatching.com/archive/2026/05/06/contentstrategie-marketing-zero-click/",
-            "published": "2026-05-06T06:00:00.000Z",
-            "summary": "Marketingteams zijn tegenwoordig vaak gebouwd rond het doel om zoveel mogelijk kliks te genereren. In het klassieke model klikt onze prospect zich door de funnel richting klant worden. Dat klinkt logisch. Jarenlang was dat precies..."
-          },
-          {
-            "source": "Marketingfacts",
-            "category": "marketing",
-            "title": "Van intentie naar gedrag: waar marketeers de mist in gaan",
-            "url": "https://www.marketingfacts.nl/berichten/waarom-baseren-we-nog-steeds-zoveel-marketingbeslissingen-op-wat-mensen-zeggen-terwijl-we-weten-dat-gedrag-anders-werkt/",
-            "published": "2026-05-06T05:00:04.000Z",
-            "summary": "Het bericht Van intentie naar gedrag: waar marketeers de mist in gaan verscheen eerst op Marketingfacts."
+            "title": "Nike signs 17-year-old skater to a creative deal, not an athletic one",
+            "summary": "The contract reportedly gives the skater editorial control over a sub-line, a structure usually reserved for designers.",
+            "cultural_relevance": "Continues the blurring of athlete and creative-director roles, building on the Drake-NOCTA and Travis Scott-Jordan playbook.",
+            "source": "Hypebeast",
+            "url": "https://hypebeast.com/",
+            "category": "sport",
+            "score": 7
           }
         ]
       }
     ]
   },
-  "weekly_hypes": [],
-  "monthly_trends": []
+  "weekly_hypes": [
+    {
+      "title": "Generative music goes from gimmick to product",
+      "description": "Multiple AI-assisted tracks crossing into mainstream charts and playlists, with at least three labels publicly hiring 'prompt producers'.",
+      "why_it_matters": "Previously a fringe experiment, generative music is now competing for the same shelf space as human-only releases — forcing platforms, labels and unions to define rules in real time.",
+      "signals": [
+        "AI track in Spotify Global top 10",
+        "Songwriter union pushes mandatory disclosure",
+        "Two majors publicly post 'prompt producer' roles",
+        "Sora-generated music videos trending on TikTok"
+      ],
+      "categories": ["music", "internet"],
+      "score": 8
+    },
+    {
+      "title": "Maximalist aesthetics across feeds and runways",
+      "description": "Loud prints, statement jewellery and surrealist tailoring appearing in coordinated waves across TikTok, runway coverage and creator content.",
+      "why_it_matters": "Consumer aesthetic cycles drive 12-month roadmaps for product, packaging and even UI design. Brands still leaning into stealth-wealth visuals are mistiming the next cycle.",
+      "signals": [
+        "#louderthebetter passes 2B views",
+        "Schiaparelli surrealist show",
+        "Three major creators pivot to clash-print content",
+        "Pinterest 'maximalist interiors' searches up sharply"
+      ],
+      "categories": ["fashion", "internet"],
+      "score": 7
+    },
+    {
+      "title": "Mid-budget gaming reclaims attention",
+      "description": "Word-of-mouth single-player titles from small studios are outperforming AAA live-service forecasts.",
+      "why_it_matters": "Audiences are signalling fatigue with infinite-content live-service models. Marketing budgets are shifting from launch-day spend to creator and community seeding.",
+      "signals": [
+        "30-person studio's debut RPG passes 5M copies",
+        "Two AAA live-service launches missing internal targets",
+        "Discord communities outpacing official channels for promo"
+      ],
+      "categories": ["gaming"],
+      "score": 6
+    }
+  ],
+  "monthly_trends": [
+    {
+      "title": "The end of stealth-wealth as cultural default",
+      "description": "After two-plus years of beige-on-beige, quiet-luxury aesthetic dominance, a coordinated shift toward expressive, identity-driven dress is showing up across runway, social and search data.",
+      "cultural_shift": "From signalling status through restraint to signalling identity through specificity. Self-expression replaces taste-as-tribal-signal.",
+      "evidence": [
+        "Maximalist hashtags overtaking quiet-luxury counterparts on TikTok",
+        "Major fashion houses returning to surrealist and ornate collections",
+        "Decline in muted-palette product launches at big retailers",
+        "Rise of vintage-led, archive-driven creator content"
+      ],
+      "implications": "Brands and creators built around minimalism need to plan a credible second act. Expect a wave of 'expressive line extensions' and collab-heavy launches across luxury, beauty and home over the next two seasons.",
+      "score": 8
+    },
+    {
+      "title": "Athletes as IP owners, not faces",
+      "description": "A multi-year shift in how brands structure deals with athletes — from endorsement contracts to creative-director and equity arrangements.",
+      "cultural_shift": "The athlete is now treated as a cultural distribution channel and IP holder, on par with designers and musicians. Endorsement is increasingly seen as a low-leverage 2010s relic.",
+      "evidence": [
+        "Nike signing teenage skater to a creative-control deal",
+        "Multiple F1 drivers launching own labels with house support",
+        "WNBA players negotiating equity rather than fees",
+        "Drake-NOCTA and Travis-Jordan continuing to outperform pure endorsement deals"
+      ],
+      "implications": "Brand strategists should rethink athlete deal structures: less 'face of the campaign', more co-author relationships. Expect creative-director titles to keep migrating across categories.",
+      "score": 7
+    },
+    {
+      "title": "Authorship is being renegotiated everywhere",
+      "description": "From music (AI co-writers) to fashion (athlete creative directors) to gaming (community-driven launches), the question of who 'made' something is becoming culturally and contractually ambiguous.",
+      "cultural_shift": "Authorship is moving from a single-name model to a credits-stack model, similar to film. This affects pay, rights, recognition and brand storytelling.",
+      "evidence": [
+        "Songwriter union pushing AI-disclosure rules",
+        "Athlete creative-director deal structures spreading",
+        "Indie game launches credited via Discord moderators",
+        "Rise of 'art directed by' framing in fashion campaigns"
+      ],
+      "implications": "Expect brands to adopt richer credits language, contracts to grow in complexity, and audiences to start asking 'who actually made this' as a buying signal.",
+      "score": 7
+    }
+  ]
 }
