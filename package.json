@@ -2,7 +2,7 @@
   "name": "culture-tracker",
   "version": "1.0.0",
   "private": true,
-  "description": "A lightweight daily culture brief — static frontend + Node.js update script powered by Claude.",
+  "description": "A lightweight daily culture brief — static frontend + Node.js script that aggregates RSS feeds. No API keys required.",
   "scripts": {
     "update": "node scripts/fetch-and-summarize.js",
     "email": "node scripts/send-email.js",
@@ -14,7 +14,6 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.30.0",
     "nodemailer": "^6.9.14",
     "rss-parser": "^3.13.0"
   }

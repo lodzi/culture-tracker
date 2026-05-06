@@ -44,13 +44,11 @@ jobs:
       - name: Install dependencies
         run: npm ci || npm install
 
-      - name: Run fetch & summarize
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # Optional overrides:
-          # ANTHROPIC_MODEL: claude-sonnet-4-6
-          # LOOKBACK_HOURS: "24"
-          # MAX_ITEMS_PER_FEED: "10"
+      - name: Run fetch & group
+        # No API keys — this just pulls RSS and groups by category.
+        # Optional overrides:
+        #   LOOKBACK_HOURS: "24"
+        #   MAX_ITEMS_PER_FEED: "10"
         run: npm run update
 
       - name: Commit updated data
