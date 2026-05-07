@@ -1,33 +1,47 @@
 {
   "date": "2026-05-07",
-  "aiModel": "claude-haiku-4-5-20251001",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
   "daily": {
-    "generatedAt": "2026-05-07T18:23:57.864Z",
-    "intro": "6 categorieën · 12 trends · laatste 24u",
+    "generatedAt": "2026-05-07T19:07:02.190Z",
+    "intro": "5 categorieën · 9 trends · laatste 24u",
     "categories": [
       {
         "id": "music",
         "label": "Muziek",
         "insights": [
           {
-            "trend": "Legacy acts dominating 2026 live performance landscape",
-            "summary": "L7's farewell tour, No Doubt's Sphere residency, and major festival lineups (AMAs) are centered on '90s-2000s nostalgia acts. Coverage from Billboard, Consequence, and Creative Review highlights this generational moment.",
-            "why_it_matters": "Millennial and Gen X audiences are reshaping live music economics by driving demand for legacy performances and reunion events.",
+            "trend": "Nineties-artiesten domineren stadium residencies 2026",
+            "summary": "No Doubt kondigt Sphere-residency aan, L7 brengt 'Last Hurrah Tour' uit; Tyler, The Creator's All Points East takeover trekt nineties/Y2K-acts. Dit is hoogtepunt van nostalgische touring.",
+            "why_it_matters": "Dit signaleert dat millennial purchasing power stadium-experiences nu dicteert, met generational comfort met bekende acts boven discovery.",
+            "trajectory": "piekend",
             "sources": [
-              "Billboard",
               "Consequence",
               "Crack Magazine",
               "Creative Review",
-              "Dezeen",
               "GQ",
               "IndieWire",
               "NME",
               "Pitchfork News",
-              "Sneaker News",
               "Wired"
             ],
             "trending": true,
             "articles": [
+              {
+                "title": "Cannes 2026 Movies Sold So Far: ‘Paper Tiger,’ ‘The Devils’ 4K Restoration, and ‘Minotaur’ Find Homes Early",
+                "url": "https://www.indiewire.com/news/festivals/cannes-2026-movies-sold-so-far-paper-tiger-minotaur-1235191174/",
+                "source": "IndieWire",
+                "published": "2026-05-07T19:00:00.000Z"
+              },
+              {
+                "title": "How I Fixed My Webcam Lighting for Zoom Calls (2026)",
+                "url": "https://www.wired.com/story/how-to-fix-bad-webcam-lighting/",
+                "source": "Wired",
+                "published": "2026-05-07T18:29:54.000Z"
+              },
               {
                 "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
                 "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
@@ -39,156 +53,17 @@
                 "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
                 "source": "Consequence",
                 "published": "2026-05-07T17:47:17.000Z"
-              },
-              {
-                "title": "Here’s the Full List of Performers Announced So Far for the 2026 American Music Awards",
-                "url": "https://www.billboard.com/lists/2026-american-music-awards-performers/",
-                "source": "Billboard",
-                "published": "2026-05-07T17:18:58.000Z"
-              },
-              {
-                "title": "Watch Shakira Tease ‘Dai Dai,’ the Official 2026 FIFA World Cup Song With Burna Boy",
-                "url": "https://www.billboard.com/music/latin/shakira-dai-dai-2026-fifa-world-cup-song-burna-boy-teaser-1236241647/",
-                "source": "Billboard",
-                "published": "2026-05-07T17:16:09.000Z"
               }
             ]
           },
           {
-            "trend": "Genre experimentation in indie and alternative music",
-            "summary": "Yard Act's new album and Father John Misty's psychedelic releases demonstrate artists pushing sonic boundaries in indie/alternative spaces. Charli xcx's 'Rock Music' adds mainstream pop experimentation to this trend (Billboard, Pitchfork News).",
-            "why_it_matters": "Genre boundaries are dissolving as artists gain creative freedom, particularly those operating outside major label constraints.",
-            "sources": [
-              "Billboard",
-              "Consequence",
-              "Design Boom",
-              "Pitchfork News"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Harry Styles Demonstrates the Power of Dancing & His Little Red Shorts in Playful ‘Dance No More’ Music Video",
-                "url": "https://www.billboard.com/music/music-news/harry-styles-dance-no-more-video-red-shorts-1236241509/",
-                "source": "Billboard",
-                "published": "2026-05-07T16:36:10.000Z"
-              },
-              {
-                "title": "Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream",
-                "url": "https://consequence.net/2026/05/yard-act-youre-gonna-need-a-little-music-new-album-redeemer-new-song-stream/",
-                "source": "Consequence",
-                "published": "2026-05-07T15:48:12.000Z"
-              },
-              {
-                "title": "Yard Act Ready New Album You’re Gonna Need a Little Music",
-                "url": "https://pitchfork.com/news/yard-act-ready-new-album-youre-gonna-need-a-little-music/",
-                "source": "Pitchfork News",
-                "published": "2026-05-07T13:11:03.000Z"
-              },
-              {
-                "title": "‘a little theater of life’: JR weaves monumental tapestry of community care in venice",
-                "url": "https://www.designboom.com/art/a-little-theater-of-life-jr-weaves-monumental-tapestry-of-community-care-in-venice/",
-                "source": "Design Boom",
-                "published": "2026-05-07T10:38:29.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Artists reclaiming 'voice' through independence and alternative platforms",
-            "summary": "Ben Gibbard, Chris Young, Jill Scott, and others are going indie to regain creative control, while Kelly Clarkson returns to 'The Voice'—a show centered on vocal authenticity. Variety and Billboard document this shift toward autonomy.",
-            "why_it_matters": "The cultural conversation around artistic 'voice'—both literal and metaphorical—reflects deeper anxieties about creative ownership in streaming economies.",
-            "sources": [
-              "Billboard",
-              "Deadline",
-              "The Verge",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Kelly Clarkson Sets ‘The Voice’ Return for Season 30",
-                "url": "https://variety.com/2026/tv/news/kelly-clarkson-the-voice-return-season-30-1236740800/",
-                "source": "Variety",
-                "published": "2026-05-07T18:12:34.000Z"
-              },
-              {
-                "title": "Kelly Clarkson Returning To ‘The Voice’ For Season 30",
-                "url": "https://deadline.com/2026/05/kelly-clarkson-the-voice-returning-season-30-1236886288/",
-                "source": "Deadline",
-                "published": "2026-05-07T17:54:29.000Z"
-              },
-              {
-                "title": "Why Ben Gibbard, Chris Young, Jill Scott, Ricardo Montaner & Bebe Rexha Went Indie: ‘My Creative Voice and My Vision Are Heard Better Now’",
-                "url": "https://www.billboard.com/lists/jill-scott-bebe-rexha-death-cab-why-i-went-indie/",
-                "source": "Billboard",
-                "published": "2026-05-07T17:01:08.000Z"
-              },
-              {
-                "title": "Hannah Berner on Her ‘None of My Business’ Hulu Special and Why Stand-Up Comedy Was ‘Healing’ After Reality TV: ‘I Felt Like My Voice Was Shrunk’ (EXCLUSIVE)",
-                "url": "https://variety.com/2026/tv/news/hannah-berner-hulu-comedy-special-1236739923/",
-                "source": "Variety",
-                "published": "2026-05-07T17:00:00.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "fashion",
-        "label": "Fashion",
-        "insights": [
-          {
-            "trend": "Celebrity festival moments dominate 2026 culture",
-            "summary": "Multiple music and entertainment icons are announcing major 2026 events—L7's farewell tour, No Doubt's Sphere residency, and BLACKPINK's Met Gala reunion—signaling a convergence of legacy acts and high-profile entertainment moments. These announcements span Billboard, Consequence, and Creative Review.",
-            "why_it_matters": "Nostalgia and retrospective celebration are becoming central to mainstream culture, as Gen X and millennial icons reclaim the spotlight.",
-            "sources": [
-              "Billboard",
-              "Consequence",
-              "Crack Magazine",
-              "Creative Review",
-              "Dezeen",
-              "GQ",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
-              "Sneaker News",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
-                "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
-                "source": "Consequence",
-                "published": "2026-05-07T18:11:31.000Z"
-              },
-              {
-                "title": "No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist",
-                "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
-                "source": "Consequence",
-                "published": "2026-05-07T17:47:17.000Z"
-              },
-              {
-                "title": "Here’s the Full List of Performers Announced So Far for the 2026 American Music Awards",
-                "url": "https://www.billboard.com/lists/2026-american-music-awards-performers/",
-                "source": "Billboard",
-                "published": "2026-05-07T17:18:58.000Z"
-              },
-              {
-                "title": "Watch Shakira Tease ‘Dai Dai,’ the Official 2026 FIFA World Cup Song With Burna Boy",
-                "url": "https://www.billboard.com/music/latin/shakira-dai-dai-2026-fifa-world-cup-song-burna-boy-teaser-1236241647/",
-                "source": "Billboard",
-                "published": "2026-05-07T17:16:09.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Athlete-celebrity crossover in sports marketing campaigns",
-            "summary": "Timothée Chalamet and David Beckham are headlining adidas' World Cup campaign, with coverage from Adweek and Business of Fashion highlighting celebrity-athlete partnerships. This represents a shift in how global sporting events are marketed.",
-            "why_it_matters": "Luxury fashion and sports are converging as celebrity endorsements become essential to athletic brand positioning.",
+            "trend": "Solo-artiesten kondigen comeback-shows strategisch aan",
+            "summary": "Hayley Williams en Phoebe Bridgers kondigen solo comeback-optredens aan na periodes van inactiviteit. Dit is gecoördineerd teruggrijpen naar live performance.",
+            "why_it_matters": "Dit toont hoe female solo-artiesten touring herdefiniëren buiten traditionele album-cycles, met locatie-specifieke statements (Roswell symboliek).",
+            "trajectory": "opkomend",
             "sources": [
               "404 Media",
               "Adweek",
-              "Business of Fashion",
               "Creative Review",
               "Design Boom",
               "NME"
@@ -228,70 +103,84 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Political comedy as prestige television narrative",
-            "summary": "Larry David and Barack Obama's HBO project signals a trend of high-profile comedy collaborations addressing politics and power. Covered by Consequence, Deadline, and Variety, this merges political satire with prestige drama.",
-            "why_it_matters": "Comedy is being repositioned as a serious vehicle for political commentary and cultural conversation rather than pure entertainment.",
+            "trend": "Cannes 2026 versnelt deal-making voor prestige cinema",
+            "summary": "Films als 'Paper Tiger' en 'Minotaur' sluiten distributieverhandeling af vóór officiële Cannes-screening. Dit toont accelerated acquisition van art-house cinema.",
+            "why_it_matters": "Dit duidt op toenemende competitie om prestige-content en zorgen van distributors over fensterslot in streaming-era.",
+            "trajectory": "opkomend",
             "sources": [
               "Consequence",
-              "Deadline",
-              "Variety"
+              "Crack Magazine",
+              "Creative Review",
+              "GQ",
+              "IndieWire",
+              "NME",
+              "Pitchfork News",
+              "Wired"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Larry David & Barack Obama’s ‘Life, Larry & The Pursuit Of Unhappiness’ Unveils First-Look Photos & Teaser",
-                "url": "https://deadline.com/2026/05/larry-david-barack-obama-hbo-series-photo-teaser-1236886171/",
-                "source": "Deadline",
-                "published": "2026-05-07T17:28:53.000Z"
+                "title": "Cannes 2026 Movies Sold So Far: ‘Paper Tiger,’ ‘The Devils’ 4K Restoration, and ‘Minotaur’ Find Homes Early",
+                "url": "https://www.indiewire.com/news/festivals/cannes-2026-movies-sold-so-far-paper-tiger-minotaur-1235191174/",
+                "source": "IndieWire",
+                "published": "2026-05-07T19:00:00.000Z"
               },
               {
-                "title": "Marisa Tomei, Kelly Macdonald and David Harewood Set for Second Season of HBO, Sky Legal Drama ‘War’",
-                "url": "https://variety.com/2026/tv/global/marisa-tomei-kelly-macdonald-david-harewood-season-2-war-1236740698/",
-                "source": "Variety",
-                "published": "2026-05-07T16:56:43.000Z"
+                "title": "How I Fixed My Webcam Lighting for Zoom Calls (2026)",
+                "url": "https://www.wired.com/story/how-to-fix-bad-webcam-lighting/",
+                "source": "Wired",
+                "published": "2026-05-07T18:29:54.000Z"
               },
               {
-                "title": "Larry David Tries to Make Barack Obama His Emergency Contact in Teaser for New HBO Show",
-                "url": "https://consequence.net/2026/05/larry-david-barack-obama-hbo-show-teaser/",
+                "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
+                "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
                 "source": "Consequence",
-                "published": "2026-05-07T16:31:53.000Z"
+                "published": "2026-05-07T18:11:31.000Z"
+              },
+              {
+                "title": "No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist",
+                "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
+                "source": "Consequence",
+                "published": "2026-05-07T17:47:17.000Z"
               }
             ]
           },
           {
-            "trend": "Thriller adaptations and remakes dominating streaming platforms",
-            "summary": "Netflix's AI thriller, Studiocanal's 'The Divorce' adaptation, and cape Fear's episodic remake show streamers investing heavily in adaptations of existing thriller IP. Deadline, IndieWire, and Variety document this pattern.",
-            "why_it_matters": "Streaming platforms are favoring recognizable intellectual property and genre security over original narratives, signaling risk-aversion in prestige content.",
+            "trend": "Netflix neemt fysieke filmproductie-infrastructuur over",
+            "summary": "Netflix koopt Radford Studio Center terwijl het AI-thriller van Joseph Gordon-Levitt ontwikkelt. Dit signaleert verticale integratie van productie-assets.",
+            "why_it_matters": "Dit toont Netflix' commitment aan theatrical/premium content door garantie van in-house productie-capaciteit, concurrerend met traditionele studios.",
+            "trajectory": "opkomend",
             "sources": [
-              "Deadline",
-              "IndieWire",
+              "Quartz",
+              "Sneaker News",
+              "The Hollywood Reporter",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Jeff Daniels, Joel Edgerton, Caleb McLaughlin & Nnamdi Asomugha Join Netflix’s AI Thriller From Joseph Gordon-Levitt",
-                "url": "https://deadline.com/2026/05/jeff-daniels-joel-edgerton-jospeh-gordon-levitt-1236884015/",
-                "source": "Deadline",
-                "published": "2026-05-07T18:00:00.000Z"
+                "title": "Gear Up For Summer With Exclusive SNIPES Heat",
+                "url": "https://sneakernews.com/2026/05/07/snipes-shopping-guide-spring-summer-2026/",
+                "source": "Sneaker News",
+                "published": "2026-05-07T19:00:05.000Z"
               },
               {
-                "title": "Stephen Dorff & Kevin Dillon Set For Action Thriller ‘Red Stick Hoods’",
-                "url": "https://deadline.com/2026/05/stephen-dorff-kevin-dillon-join-red-stick-hoods-thriller-1236886296/",
-                "source": "Deadline",
-                "published": "2026-05-07T17:53:47.000Z"
-              },
-              {
-                "title": "‘Housemaid’ Author Freida McFadden’s Next Thriller ‘The Divorce’ Lands at Studiocanal",
-                "url": "https://variety.com/2026/film/news/freida-mcfadden-thriller-the-divorce-studiocanal-movie-1236740105/",
+                "title": "‘My Name Is Earl’ Star Jaime Pressly Launches OnlyFans: ‘I’ve Always Believed in Evolving With the Times’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/tv/news/jaime-pressly-onlyfans-my-name-is-earl-1236740685/",
                 "source": "Variety",
-                "published": "2026-05-07T17:15:00.000Z"
+                "published": "2026-05-07T19:00:00.000Z"
               },
               {
-                "title": "‘Cape Fear’ Trailer: The Classic Thriller Gets an Episodic Remake with Javier Bardem, Amy Adams, and Patrick Wilson",
-                "url": "https://www.indiewire.com/news/trailers/cape-fear-trailer-javier-bardem-amy-adams-1235192718/",
-                "source": "IndieWire",
-                "published": "2026-05-07T13:00:00.000Z"
+                "title": "Nintendo is bringing back Star Fox with a Switch 2-exclusive remake launching in June",
+                "url": "https://qz.com/nintendo-star-fox-switch-2-remake-june-050726",
+                "source": "Quartz",
+                "published": "2026-05-07T18:01:09.000Z"
+              },
+              {
+                "title": "Director Lucia Alenar Iglesias Explores Family Trauma in ‘Forastera’ Trailer (Exclusive)",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/forastera-trailer-director-lucia-alenar-iglesias-1236589109/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-05-07T17:10:35.000Z"
               }
             ]
           }
@@ -302,71 +191,85 @@
         "label": "Art & Design",
         "insights": [
           {
-            "trend": "Music videos as experimental visual art forms",
-            "summary": "Harry Styles' 'Dance No More' and Charli xcx's 'Rock Music' are showcasing elaborate, narrative-driven music videos that blur boundaries between music promotion and contemporary art. Coverage spans Billboard, Consequence, and Pitchfork News.",
-            "why_it_matters": "Music videos are evolving beyond promotional tools into standalone artistic statements that reflect broader trends in visual culture.",
+            "trend": "Klassieke films krijgen 4K-restauratie in mainstream",
+            "summary": "Klassieke films zoals 'The Devils' worden in 4K hersteld en verhandeld op grote filmfestivals zoals Cannes 2026. Dit toont een groeiende markt voor gerestaureerde cinema-klassiekers in ultra-high-definition.",
+            "why_it_matters": "Dit signaleert een verschuiving naar filmpreservatie als cultureel en commercieel prioriteit, waarbij oude meesterwerken hernieuw leven krijgen voor contemporary audiences.",
+            "trajectory": "opkomend",
             "sources": [
-              "Billboard",
               "Consequence",
-              "Design Boom",
-              "Pitchfork News"
+              "Crack Magazine",
+              "Creative Review",
+              "GQ",
+              "IndieWire",
+              "NME",
+              "Pitchfork News",
+              "Wired"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Harry Styles Demonstrates the Power of Dancing & His Little Red Shorts in Playful ‘Dance No More’ Music Video",
-                "url": "https://www.billboard.com/music/music-news/harry-styles-dance-no-more-video-red-shorts-1236241509/",
-                "source": "Billboard",
-                "published": "2026-05-07T16:36:10.000Z"
+                "title": "Cannes 2026 Movies Sold So Far: ‘Paper Tiger,’ ‘The Devils’ 4K Restoration, and ‘Minotaur’ Find Homes Early",
+                "url": "https://www.indiewire.com/news/festivals/cannes-2026-movies-sold-so-far-paper-tiger-minotaur-1235191174/",
+                "source": "IndieWire",
+                "published": "2026-05-07T19:00:00.000Z"
               },
               {
-                "title": "Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream",
-                "url": "https://consequence.net/2026/05/yard-act-youre-gonna-need-a-little-music-new-album-redeemer-new-song-stream/",
+                "title": "How I Fixed My Webcam Lighting for Zoom Calls (2026)",
+                "url": "https://www.wired.com/story/how-to-fix-bad-webcam-lighting/",
+                "source": "Wired",
+                "published": "2026-05-07T18:29:54.000Z"
+              },
+              {
+                "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
+                "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
                 "source": "Consequence",
-                "published": "2026-05-07T15:48:12.000Z"
+                "published": "2026-05-07T18:11:31.000Z"
               },
               {
-                "title": "Yard Act Ready New Album You’re Gonna Need a Little Music",
-                "url": "https://pitchfork.com/news/yard-act-ready-new-album-youre-gonna-need-a-little-music/",
-                "source": "Pitchfork News",
-                "published": "2026-05-07T13:11:03.000Z"
-              },
-              {
-                "title": "‘a little theater of life’: JR weaves monumental tapestry of community care in venice",
-                "url": "https://www.designboom.com/art/a-little-theater-of-life-jr-weaves-monumental-tapestry-of-community-care-in-venice/",
-                "source": "Design Boom",
-                "published": "2026-05-07T10:38:29.000Z"
+                "title": "No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist",
+                "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
+                "source": "Consequence",
+                "published": "2026-05-07T17:47:17.000Z"
               }
             ]
           },
           {
-            "trend": "Environmental and community-focused land art installations",
-            "summary": "Projects like the South African colored-pencil tree installation and JR's community-care tapestry in Venice demonstrate a rise in large-scale public art with environmental or social themes. Design Boom and Creative Review document this shift.",
-            "why_it_matters": "Public art is increasingly becoming a vehicle for addressing climate and social justice concerns rather than purely aesthetic expression.",
+            "trend": "AI in creatieve industrie vraagt om menselijke validatie",
+            "summary": "De Golden Globes stellen AI-regels vast die 'human creative direction' als primary requirement stellen, terwijl Netflix AI-gestuurde features integreert. Er ontstaat consensus dat AI-tools moeten worden gebruikt onder menselijke leiding.",
+            "why_it_matters": "Dit reflecteert maatschappelijke onzekerheid over AI's rol in kunst: tools accepteren zolang humans de artistieke visie behouden.",
+            "trajectory": "piekend",
             "sources": [
+              "404 Media",
               "Adweek",
+              "Creative Review",
               "Design Boom",
-              "Yanko Design"
+              "NME"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Google’s $99 Gemini Speaker Is About to Land",
-                "url": "https://www.yankodesign.com/2026/05/07/googles-99-gemini-speaker-is-about-to-land/?utm_source=rss&utm_medium=rss&utm_campaign=googles-99-gemini-speaker-is-about-to-land",
-                "source": "Yanko Design",
-                "published": "2026-05-07T14:20:15.000Z"
+                "title": "‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame",
+                "url": "https://www.nme.com/news/gaming-news/angry-birds-silent-hill-fifa-world-video-game-hall-of-fame-3944425?utm_source=rss&utm_medium=rss&utm_campaign=angry-birds-silent-hill-fifa-world-video-game-hall-of-fame",
+                "source": "NME",
+                "published": "2026-05-07T14:30:54.000Z"
               },
               {
-                "title": "24 sculpted trees become giant colored pencils in south african land art installation",
-                "url": "https://www.designboom.com/art/24-sculpted-trees-giant-colored-pencils-south-africa-land-art-installation-strijdom-van-der-merwe/",
-                "source": "Design Boom",
-                "published": "2026-05-07T09:00:50.000Z"
+                "title": "‘HELLO BOSS’: Inside the Chinese Realtime Deepfake Software Powering Scams Around the World",
+                "url": "https://www.404media.co/hello-boss-inside-the-chinese-realtime-deepfake-software-powering-scams-around-the-world/",
+                "source": "404 Media",
+                "published": "2026-05-07T13:12:05.000Z"
               },
               {
-                "title": "CNN Readies for America&#8217;s 250th Birthday With This Land Docuseries",
-                "url": "https://www.adweek.com/tvnewser/cnn-readies-for-americas-250th-birthday-with-this-land-docuseries/",
+                "title": "Timothée Chalamet and David Beckham kick off adidas’ World Cup campaign",
+                "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
+                "source": "Creative Review",
+                "published": "2026-05-07T10:36:19.000Z"
+              },
+              {
+                "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
+                "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
                 "source": "Adweek",
-                "published": "2026-05-07T12:00:00.000Z"
+                "published": "2026-05-07T04:00:00.000Z"
               }
             ]
           }
@@ -377,13 +280,56 @@
         "label": "Internet",
         "insights": [
           {
-            "trend": "Deepfake technology scaling criminal fraud operations",
-            "summary": "404 Media's investigation into 'HELLO BOSS' Chinese deepfake software reveals real-time AI fraud tools enabling scams at scale. This represents a critical moment where deepfake technology has moved from experimental to weaponized.",
-            "why_it_matters": "Deepfakes are no longer a theoretical threat but an active infrastructure for organized crime, requiring urgent policy and technical responses.",
+            "trend": "Deepfake-technologie evolueert naar real-time scampraktijken",
+            "summary": "Chinese real-time deepfake software ('HELLO BOSS') wordt op grote schaal gebruikt voor internationale oplichting. 404 Media en Adweek documenteren hoe this tech criminele implementatie bereikt.",
+            "why_it_matters": "Dit markeert een kritieke fase waar deepfakes van laboratorium-curiositeit naar weaponized fraud-tool transformeren, met urgente implicaties voor digitale veiligheid.",
+            "trajectory": "piekend",
+            "sources": [
+              "Consequence",
+              "Crack Magazine",
+              "Creative Review",
+              "GQ",
+              "IndieWire",
+              "NME",
+              "Pitchfork News",
+              "Wired"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Cannes 2026 Movies Sold So Far: ‘Paper Tiger,’ ‘The Devils’ 4K Restoration, and ‘Minotaur’ Find Homes Early",
+                "url": "https://www.indiewire.com/news/festivals/cannes-2026-movies-sold-so-far-paper-tiger-minotaur-1235191174/",
+                "source": "IndieWire",
+                "published": "2026-05-07T19:00:00.000Z"
+              },
+              {
+                "title": "How I Fixed My Webcam Lighting for Zoom Calls (2026)",
+                "url": "https://www.wired.com/story/how-to-fix-bad-webcam-lighting/",
+                "source": "Wired",
+                "published": "2026-05-07T18:29:54.000Z"
+              },
+              {
+                "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
+                "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
+                "source": "Consequence",
+                "published": "2026-05-07T18:11:31.000Z"
+              },
+              {
+                "title": "No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist",
+                "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
+                "source": "Consequence",
+                "published": "2026-05-07T17:47:17.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Streamingdiensten zoeken lokale broadcastpartners voor expansie",
+            "summary": "Disney+ sluit alliance met TV Azteca in Mexico voor livestream reality-content; Paramount werkt samen met Warner Music. Streamers zoeken local partnerships ipv pure-play dominatie.",
+            "why_it_matters": "Dit toont dat globale streamingplatformen lokale mediainstituten nodig hebben voor regulatory fit en content-legitimiteit in gereguleerde markten.",
+            "trajectory": "opkomend",
             "sources": [
               "404 Media",
               "Adweek",
-              "Business of Fashion",
               "Creative Review",
               "Design Boom",
               "NME"
@@ -413,44 +359,6 @@
                 "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
                 "source": "Adweek",
                 "published": "2026-05-07T04:00:00.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "AI voice technology reshaping entertainment and autonomy",
-            "summary": "Artists like Ben Gibbard and Bebe Rexha are going independent to reclaim creative control, while Hannah Berner discusses how stand-up comedy restored her 'voice' after reality TV. Netflix's AI voice search also signals automation in media consumption (Billboard, Variety).",
-            "why_it_matters": "Questions about who controls creative voice—human artists or AI platforms—are becoming central to discussions about artistic autonomy in the digital age.",
-            "sources": [
-              "Billboard",
-              "Deadline",
-              "The Verge",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Kelly Clarkson Sets ‘The Voice’ Return for Season 30",
-                "url": "https://variety.com/2026/tv/news/kelly-clarkson-the-voice-return-season-30-1236740800/",
-                "source": "Variety",
-                "published": "2026-05-07T18:12:34.000Z"
-              },
-              {
-                "title": "Kelly Clarkson Returning To ‘The Voice’ For Season 30",
-                "url": "https://deadline.com/2026/05/kelly-clarkson-the-voice-returning-season-30-1236886288/",
-                "source": "Deadline",
-                "published": "2026-05-07T17:54:29.000Z"
-              },
-              {
-                "title": "Why Ben Gibbard, Chris Young, Jill Scott, Ricardo Montaner & Bebe Rexha Went Indie: ‘My Creative Voice and My Vision Are Heard Better Now’",
-                "url": "https://www.billboard.com/lists/jill-scott-bebe-rexha-death-cab-why-i-went-indie/",
-                "source": "Billboard",
-                "published": "2026-05-07T17:01:08.000Z"
-              },
-              {
-                "title": "Hannah Berner on Her ‘None of My Business’ Hulu Special and Why Stand-Up Comedy Was ‘Healing’ After Reality TV: ‘I Felt Like My Voice Was Shrunk’ (EXCLUSIVE)",
-                "url": "https://variety.com/2026/tv/news/hannah-berner-hulu-comedy-special-1236739923/",
-                "source": "Variety",
-                "published": "2026-05-07T17:00:00.000Z"
               }
             ]
           }
@@ -461,13 +369,13 @@
         "label": "Marketing",
         "insights": [
           {
-            "trend": "Sports properties as premium celebrity marketing vehicles",
-            "summary": "The World Cup and FIFA campaigns are attracting major celebrity-athlete partnerships (Timothée Chalamet, David Beckham, Shakira with Burna Boy). Adweek, Business of Fashion, and Consequence show global sports as premium advertising platforms.",
-            "why_it_matters": "Global sporting events have become essential to luxury brand storytelling and cross-cultural celebrity positioning.",
+            "trend": "Celebrity sports marketing wordt cinematic storytelling",
+            "summary": "Adidas positioneert Timothée Chalamet en David Beckham in World Cup campaign als narratief-driven short-form content (niet enkel endorsement). Sport-branding verschuift naar auteur-driven content.",
+            "why_it_matters": "Dit reflecteert dat consumer-trust nu verschoven is van product-features naar character-alignment en storytelling-credibility.",
+            "trajectory": "opkomend",
             "sources": [
               "404 Media",
               "Adweek",
-              "Business of Fashion",
               "Creative Review",
               "Design Boom",
               "NME"
@@ -501,6 +409,32 @@
             ]
           }
         ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-05-07T19:07:06.616Z",
+    "megaTrends": [
+      {
+        "trend": "Nostalgie als strategische infrastructuurspeel",
+        "summary": "Nineties-artiesten domineren stadium residencies terwijl klassieke films 4K-restauraties krijgen: beide gebruiken gedigitaliseerde nostalgie als aanleiding voor nieuwe infrastructuurinvesteringen (concertlocaties, streamingplatforms). Dit is niet zomaar retro, maar een economische strategie om legacy-content te monetiseren via upgrading.",
+        "why_it_matters": "Dit onthult dat nostalgie in 2026 niet consumptief maar infrastructureel is—het rechtvaardigt kapitaalintensieve investeringen in fysieke en digitale systemen.",
+        "categories": [
+          "music",
+          "art"
+        ],
+        "strength": "matig"
+      },
+      {
+        "trend": "Technologie eist menselijke authenticiteit als validatie",
+        "summary": "AI-gegenereerde content (deepfakes in internet, AI in creatieve industrie) triggert een parallelle vraag naar menselijke validatie en authenticiteit. Solo-artiesten kondigen comebacks strategisch aan als bewijs van 'echt' artistiek belang, terwijl klassieke filmrestauraties aandacht vragen voor curatie door mensen.",
+        "why_it_matters": "De opkomst van schaalbare AI-content maakt menselijke intentie en authenticiteit tot zeldzaam goed—merken en kunstenaars benutten dit als differentiator.",
+        "categories": [
+          "music",
+          "art",
+          "internet"
+        ],
+        "strength": "sterk"
       }
     ]
   }
