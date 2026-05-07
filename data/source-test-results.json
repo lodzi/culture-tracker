@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-05-07T09:17:17.750Z",
+  "testedAt": "2026-05-07T19:34:06.752Z",
   "results": [
     {
       "name": "Sneaker News",
@@ -8,7 +8,7 @@
       "url": "https://sneakernews.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 180,
+      "ms": 112,
       "recentItems": 7,
       "note": "7 items (24h) · 7 items (7d)"
     },
@@ -19,7 +19,7 @@
       "url": "https://solecollector.com/rss",
       "ok": false,
       "status": null,
-      "ms": 134,
+      "ms": 36,
       "recentItems": 0,
       "note": "Fout: fetch failed"
     },
@@ -30,7 +30,7 @@
       "url": "https://www.complex.com/rss",
       "ok": false,
       "status": 404,
-      "ms": 808,
+      "ms": 435,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -41,7 +41,7 @@
       "url": "https://www.voguebusiness.com/rss",
       "ok": false,
       "status": 404,
-      "ms": 897,
+      "ms": 973,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -52,9 +52,9 @@
       "url": "https://www.gq.com/feed/rss",
       "ok": true,
       "status": 200,
-      "ms": 245,
-      "recentItems": 10,
-      "note": "10 items (24h) · 30 items (7d)"
+      "ms": 81,
+      "recentItems": 8,
+      "note": "8 items (24h) · 30 items (7d)"
     },
     {
       "name": "Dapper Lou",
@@ -63,7 +63,7 @@
       "url": "https://dapperlou.com/feed/",
       "ok": false,
       "status": 404,
-      "ms": 711,
+      "ms": 720,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -74,7 +74,7 @@
       "url": "https://www.billboard.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 418,
+      "ms": 110,
       "recentItems": 10,
       "note": "10 items (24h) · 10 items (7d)"
     },
@@ -85,7 +85,7 @@
       "url": "https://www.nme.com/feed",
       "ok": true,
       "status": 200,
-      "ms": 446,
+      "ms": 126,
       "recentItems": 10,
       "note": "10 items (24h) · 10 items (7d)"
     },
@@ -96,7 +96,7 @@
       "url": "https://www.thefader.com/rss",
       "ok": false,
       "status": 404,
-      "ms": 437,
+      "ms": 122,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -107,7 +107,7 @@
       "url": "https://ra.co/feed.xml",
       "ok": false,
       "status": 200,
-      "ms": 1211,
+      "ms": 2345,
       "recentItems": 0,
       "note": "200 maar geen RSS/Atom in body"
     },
@@ -118,7 +118,7 @@
       "url": "https://mixmag.net/feed",
       "ok": false,
       "status": 403,
-      "ms": 338,
+      "ms": 114,
       "recentItems": 0,
       "note": "HTTP 403"
     },
@@ -129,9 +129,9 @@
       "url": "https://crackmagazine.net/feed/",
       "ok": true,
       "status": 200,
-      "ms": 768,
-      "recentItems": 0,
-      "note": "0 items (24h) · 2 items (7d)"
+      "ms": 780,
+      "recentItems": 1,
+      "note": "1 items (24h) · 3 items (7d)"
     },
     {
       "name": "DIY Magazine",
@@ -140,9 +140,9 @@
       "url": "https://diymag.com/feed",
       "ok": true,
       "status": 200,
-      "ms": 1209,
-      "recentItems": 5,
-      "note": "5 items (24h) · 14 items (7d)"
+      "ms": 1498,
+      "recentItems": 0,
+      "note": "0 items (24h) · 9 items (7d)"
     },
     {
       "name": "Pitchfork Best New",
@@ -151,7 +151,7 @@
       "url": "https://pitchfork.com/feed/feed-best/rss",
       "ok": false,
       "status": 404,
-      "ms": 152,
+      "ms": 186,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -162,7 +162,7 @@
       "url": "https://thequietus.com/feed",
       "ok": false,
       "status": 403,
-      "ms": 131,
+      "ms": 71,
       "recentItems": 0,
       "note": "HTTP 403"
     },
@@ -173,7 +173,7 @@
       "url": "https://pitchfork.com/feed/feed-reviews/rss",
       "ok": false,
       "status": 404,
-      "ms": 122,
+      "ms": 133,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -184,7 +184,7 @@
       "url": "https://www.thecut.com/feed/rss",
       "ok": false,
       "status": 404,
-      "ms": 142,
+      "ms": 118,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -195,7 +195,7 @@
       "url": "https://www.theringer.com/rss/index.xml",
       "ok": false,
       "status": 404,
-      "ms": 7877,
+      "ms": 5160,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -206,7 +206,7 @@
       "url": "https://www.inputmag.com/rss",
       "ok": true,
       "status": 200,
-      "ms": 282,
+      "ms": 75,
       "recentItems": 0,
       "note": "0 items (24h) · 0 items (7d)"
     },
@@ -217,7 +217,7 @@
       "url": "https://gizmodo.com/rss",
       "ok": false,
       "status": 403,
-      "ms": 100,
+      "ms": 33,
       "recentItems": 0,
       "note": "HTTP 403"
     },
@@ -228,7 +228,7 @@
       "url": "https://melmagazine.com/feed",
       "ok": true,
       "status": 200,
-      "ms": 104,
+      "ms": 39,
       "recentItems": 0,
       "note": "0 items (24h) · 0 items (7d)"
     },
@@ -239,7 +239,7 @@
       "url": "https://www.vice.com/en/section/tech/rss",
       "ok": false,
       "status": 404,
-      "ms": 575,
+      "ms": 931,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -250,9 +250,9 @@
       "url": "https://www.designboom.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 778,
-      "recentItems": 10,
-      "note": "10 items (24h) · 10 items (7d)"
+      "ms": 694,
+      "recentItems": 9,
+      "note": "9 items (24h) · 10 items (7d)"
     },
     {
       "name": "Colossal",
@@ -261,9 +261,9 @@
       "url": "https://www.thisiscolossal.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 468,
-      "recentItems": 3,
-      "note": "3 items (24h) · 10 items (7d)"
+      "ms": 284,
+      "recentItems": 2,
+      "note": "2 items (24h) · 10 items (7d)"
     },
     {
       "name": "Ignant",
@@ -272,7 +272,7 @@
       "url": "https://www.ignant.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 690,
+      "ms": 634,
       "recentItems": 0,
       "note": "0 items (24h) · 0 items (7d)"
     },
@@ -283,7 +283,7 @@
       "url": "https://www.core77.com/rss.xml",
       "ok": true,
       "status": 200,
-      "ms": 603,
+      "ms": 586,
       "recentItems": 0,
       "note": "0 items (24h) · 0 items (7d)"
     },
@@ -294,7 +294,7 @@
       "url": "https://www.domusweb.it/en/rss/all.rss.html",
       "ok": false,
       "status": 404,
-      "ms": 503,
+      "ms": 573,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -305,7 +305,7 @@
       "url": "https://www.sightunseen.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 549,
+      "ms": 432,
       "recentItems": 0,
       "note": "0 items (24h) · 2 items (7d)"
     },
@@ -316,7 +316,7 @@
       "url": "https://www.yankodesign.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 415,
+      "ms": 332,
       "recentItems": 10,
       "note": "10 items (24h) · 10 items (7d)"
     },
@@ -327,7 +327,7 @@
       "url": "https://deadline.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 1282,
+      "ms": 65,
       "recentItems": 12,
       "note": "12 items (24h) · 12 items (7d)"
     },
@@ -338,7 +338,7 @@
       "url": "https://www.screendaily.com/rss",
       "ok": false,
       "status": 404,
-      "ms": 599,
+      "ms": 672,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -349,9 +349,9 @@
       "url": "https://lwlies.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 788,
+      "ms": 745,
       "recentItems": 2,
-      "note": "2 items (24h) · 6 items (7d)"
+      "note": "2 items (24h) · 7 items (7d)"
     },
     {
       "name": "Film Comment",
@@ -360,7 +360,7 @@
       "url": "https://www.filmcomment.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 173,
+      "ms": 116,
       "recentItems": 0,
       "note": "0 items (24h) · 1 items (7d)"
     },
@@ -371,7 +371,7 @@
       "url": "https://www.theatlantic.com/feed/channel/entertainment/",
       "ok": false,
       "status": 404,
-      "ms": 317,
+      "ms": 163,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -382,7 +382,7 @@
       "url": "https://documentjournal.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 926,
+      "ms": 528,
       "recentItems": 0,
       "note": "0 items (24h) · 0 items (7d)"
     },
@@ -393,7 +393,7 @@
       "url": "https://www.anothermag.com/feed",
       "ok": true,
       "status": 200,
-      "ms": 747,
+      "ms": 628,
       "recentItems": 0,
       "note": "0 items (24h) · 0 items (7d)"
     },
@@ -404,7 +404,7 @@
       "url": "https://thebaffler.com/feed",
       "ok": true,
       "status": 200,
-      "ms": 330,
+      "ms": 308,
       "recentItems": 1,
       "note": "1 items (24h) · 3 items (7d)"
     },
@@ -415,7 +415,7 @@
       "url": "https://www.vrt.be/vrtnws/nl/rss/cultuur.rss",
       "ok": false,
       "status": 404,
-      "ms": 505,
+      "ms": 595,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -426,7 +426,7 @@
       "url": "https://www.demorgen.be/cultuur/rss.xml",
       "ok": true,
       "status": 200,
-      "ms": 626,
+      "ms": 1334,
       "recentItems": 1,
       "note": "1 items (24h) · 1 items (7d)"
     },
@@ -437,7 +437,7 @@
       "url": "https://www.knack.be/rss/",
       "ok": false,
       "status": 405,
-      "ms": 719,
+      "ms": 340,
       "recentItems": 0,
       "note": "HTTP 405"
     },
@@ -448,7 +448,7 @@
       "url": "https://www.humo.be/rss",
       "ok": false,
       "status": 403,
-      "ms": 934,
+      "ms": 748,
       "recentItems": 0,
       "note": "HTTP 403"
     },
@@ -459,7 +459,7 @@
       "url": "https://3voor12.vpro.nl/artikelen.rss",
       "ok": false,
       "status": 404,
-      "ms": 458,
+      "ms": 782,
       "recentItems": 0,
       "note": "HTTP 404"
     },
@@ -470,7 +470,7 @@
       "url": "https://www.oor.nl/feed/",
       "ok": true,
       "status": 200,
-      "ms": 1608,
+      "ms": 1935,
       "recentItems": 0,
       "note": "0 items (24h) · 0 items (7d)"
     },
@@ -490,11 +490,11 @@
       "category": "trends",
       "weight": 7,
       "url": "https://qz.com/rss",
-      "ok": false,
+      "ok": true,
       "status": 200,
-      "ms": 657,
-      "recentItems": 0,
-      "note": "200 maar geen RSS/Atom in body"
+      "ms": 556,
+      "recentItems": 50,
+      "note": "50 items (24h) · 50 items (7d)"
     },
     {
       "name": "MIT Tech Review",
@@ -503,9 +503,9 @@
       "url": "https://www.technologyreview.com/feed/",
       "ok": true,
       "status": 200,
-      "ms": 539,
-      "recentItems": 2,
-      "note": "2 items (24h) · 10 items (7d)"
+      "ms": 450,
+      "recentItems": 3,
+      "note": "3 items (24h) · 10 items (7d)"
     },
     {
       "name": "Springwise",
@@ -514,7 +514,7 @@
       "url": "https://www.springwise.com/feed/",
       "ok": false,
       "status": 403,
-      "ms": 1257,
+      "ms": 910,
       "recentItems": 0,
       "note": "HTTP 403"
     }
