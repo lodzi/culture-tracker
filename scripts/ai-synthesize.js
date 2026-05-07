@@ -208,7 +208,7 @@ ${JSON.stringify(promptData, null, 2)}`;
 
   console.log("  [Haiku] Daily synthesis…");
   const msg = await client.messages.create({
-    model: HAIKU, max_tokens: 2048,
+    model: HAIKU, max_tokens: 4096,
     messages: [{ role: "user", content: prompt }],
   });
   console.log("  Tokens: " + msg.usage.input_tokens + " in + " + msg.usage.output_tokens + " out");
@@ -301,7 +301,7 @@ ${JSON.stringify(compact, null, 2)}`;
 
   console.log("  [Haiku] Cross-categorie detectie…");
   const msg = await client.messages.create({
-    model: HAIKU, max_tokens: 1024,
+    model: HAIKU, max_tokens: 2048,
     messages: [{ role: "user", content: prompt }],
   });
   console.log("  Tokens: " + msg.usage.input_tokens + " in + " + msg.usage.output_tokens + " out");
