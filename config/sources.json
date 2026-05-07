@@ -328,5 +328,61 @@
     "url": "https://qz.com/rss",
     "category": "trends",
     "weight": 7
+  },
+  {
+    "name": "The Sociology of Business",
+    "type": "rss",
+    "url": "https://anaandjelic.substack.com/feed",
+    "category": "trends",
+    "weight": 8
+  },
+  {
+    "name": "Dirt",
+    "type": "rss",
+    "url": "https://dirt.fyi/feed",
+    "category": "culture",
+    "weight": 8
+  },
+  {
+    "name": "Blackbird Spyplane",
+    "type": "rss",
+    "url": "https://blackbirdspyplane.substack.com/feed",
+    "category": "fashion",
+    "weight": 7
+  },
+  {
+    "name": "Why is this interesting?",
+    "type": "rss",
+    "url": "https://whyisthisinteresting.substack.com/feed",
+    "category": "trends",
+    "weight": 7
+  },
+  {
+    "name": "Dense Discovery",
+    "type": "rss",
+    "url": "https://www.densediscovery.com/feed",
+    "category": "art",
+    "weight": 7
+  },
+  {
+    "name": "The Honest Broker",
+    "type": "rss",
+    "url": "https://tedgioia.substack.com/feed",
+    "category": "music",
+    "weight": 8
+  },
+  {
+    "name": "Embedded",
+    "type": "rss",
+    "url": "https://www.embedded.fm/episodes?format=rss",
+    "category": "internet",
+    "weight": 7
+  },
+  {
+    "name": "Culture Study",
+    "type": "rss",
+    "url": "https://annehelen.substack.com/feed",
+    "category": "culture",
+    "weight": 7
   }
 ]
