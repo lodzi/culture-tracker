@@ -739,19 +739,34 @@ async function main() {
     },
   };
 
-  // Write raw data for ai-synthesize.js to consume.
-  // Also write latest.json as a raw fallback (overwritten by synthesis when it runs).
   ensureDir(DATA_DIR);
   ensureDir(ARCHIVE_DIR);
-  writeJSON(RAW_PATH, brief);
-  writeJSON(LATEST_PATH, brief);
-  updateArchiveIndex(date);
 
+  // Schrijf altijd latest-raw.json — dit is de input voor ai-synthesize.js.
+  writeJSON(RAW_PATH, brief);
   console.log("✓ Schreef " + RAW_PATH + " (" + topics.length + " topics)");
-  console.log("✓ Schreef " + LATEST_PATH);
-  console.log("✓ Updated " + ARCHIVE_INDEX_PATH);
-  // Bevestig dat het bestand echt bestaat (diagnose voor CI-omgeving)
   console.log("  Bestand bestaat: " + fs.existsSync(RAW_PATH));
+
+  // Schrijf latest.json ALLEEN als fallback: als er nog geen AI-synthesis data in zit.
+  // Dit voorkomt dat de hourly fetch de AI-verrijkte data van de ochtend overschrijft.
+  let writeLatest = true;
+  if (fs.existsSync(LATEST_PATH)) {
+    try {
+      const existing = readJSON(LATEST_PATH);
+      if (Array.isArray(existing.daily && existing.daily.categories) &&
+          existing.daily.categories.length > 0) {
+        writeLatest = false; // AI-data bewaren, niet overschrijven
+        console.log("✓ latest.json heeft AI-data — niet overschreven door fetch.");
+      }
+    } catch (e) { /* corrupt → overschrijven */ }
+  }
+  if (writeLatest) {
+    writeJSON(LATEST_PATH, brief);
+    console.log("✓ Schreef " + LATEST_PATH + " (fallback, nog geen AI-data).");
+  }
+
+  updateArchiveIndex(date);
+  console.log("✓ Updated " + ARCHIVE_INDEX_PATH);
 }
 
 // Force exit zodat hangende HTTP-sockets (chunked feeds die nooit afsluiten)

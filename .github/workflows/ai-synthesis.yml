@@ -1,10 +1,10 @@
-name: Daily AI synthesis
+name: Daily AI synthesis + email
 
 on:
   schedule:
-    # Elke dag om 07:30 UTC (= 09:30 Brussel zomertijd)
-    # Na de hourly fetch die om 07:00 draait, zodat latest-raw.json vers is.
-    - cron: "30 7 * * *"
+    # 07:00 UTC = 09:00 Brussel zomertijd (CEST)
+    # Fetch + synthesis + email in één run zodat de mail om ~09:05-09:10 arriveert.
+    - cron: "0 7 * * *"
   workflow_dispatch:
 
 env:
@@ -24,7 +24,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Haal de laatste commit op (inclusief latest-raw.json van de fetch run)
           ref: main
 
       - name: Setup Node
@@ -56,3 +55,16 @@ jobs:
             git commit -m "chore(data): AI synthesis $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
             git push
           fi
+
+      - name: Send daily email digest
+        # Gaat door ook als SMTP-secrets ontbreken — workflow faalt dan niet.
+        continue-on-error: true
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO:   ${{ secrets.EMAIL_TO }}
+          PUBLIC_URL: ${{ secrets.PUBLIC_URL }}
+        run: npm run email

@@ -1,43 +1,45 @@
 #!/usr/bin/env node
 /**
- * Culture Tracker — send daily email
+ * Culture Tracker — dagelijkse HTML-maildigest
  *
- * Reads /data/latest.json and emails it as a clean editorial HTML digest
- * with three sections: Daily Signals, Weekly Hypes, Monthly Trends.
+ * Leest data/latest.json en stuurt een volledig opgemaakte HTML-mail met:
+ *   - Culture Radar (cross-categorie mega-trends)
+ *   - Daily trends per categorie (AI-formaat met trajectory/streak)
+ *   - Weekly patronen (indien beschikbaar)
  *
- * Required env:
+ * Vereiste env-vars:
  *   SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, EMAIL_FROM, EMAIL_TO
  *
- * Optional env:
- *   SMTP_SECURE   "true" to force TLS on connect (port 465). Default: auto.
- *   PUBLIC_URL    e.g. https://culture.yourdomain.com — used for the "view online" link.
+ * Optioneel:
+ *   SMTP_SECURE   "true" voor directe TLS (port 465). Default: auto.
+ *   PUBLIC_URL    bv. https://lodzi.github.io/culture-tracker
  */
 
 "use strict";
 
-const fs = require("fs");
-const path = require("path");
+const fs         = require("fs");
+const path       = require("path");
 const nodemailer = require("nodemailer");
 
-const ROOT = path.resolve(__dirname, "..");
+const ROOT        = path.resolve(__dirname, "..");
 const LATEST_PATH = path.join(ROOT, "data", "latest.json");
 
-// --- Helpers ---
-function escapeHtml(s) {
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+function esc(s) {
   if (s == null) return "";
   return String(s)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
+    .replace(/&/g,  "&amp;")
+    .replace(/</g,  "&lt;")
+    .replace(/>/g,  "&gt;")
+    .replace(/"/g,  "&quot;");
 }
 
 function formatDate(iso) {
   try {
     const d = new Date(iso + "T00:00:00");
     if (isNaN(d.getTime())) return iso;
-    return d.toLocaleDateString("en-GB", {
+    return d.toLocaleDateString("nl-BE", {
       weekday: "long", year: "numeric", month: "long", day: "numeric",
     });
   } catch (e) { return iso; }
@@ -45,193 +47,379 @@ function formatDate(iso) {
 
 function required(name) {
   const v = process.env[name];
-  if (!v) throw new Error("Missing required env var: " + name);
+  if (!v) throw new Error("Ontbrekende env-var: " + name);
   return v;
 }
 
-function scoreBadge(score) {
-  if (typeof score !== "number") return "";
-  return '<span style="display:inline-block;background:#f1f1ec;color:#333;padding:2px 8px;border-radius:999px;font-size:11px;font-variant-numeric:tabular-nums;">★ ' + score + '/10</span>';
+// ─── HTML-bouwstenen ──────────────────────────────────────────────────────────
+
+function sectionLabel(text) {
+  return `
+<tr><td style="padding:28px 0 10px;">
+  <p style="margin:0;font-size:11px;font-weight:700;text-transform:uppercase;
+     letter-spacing:0.1em;color:#6b6b6b;border-bottom:1px solid #e5e5e0;
+     padding-bottom:8px;">${esc(text)}</p>
+</td></tr>`;
 }
 
-function sectionHeader(label) {
-  return [
-    '<tr><td style="padding:28px 4px 8px;">',
-    '  <p style="margin:0;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:#6b6b6b;">' + escapeHtml(label) + '</p>',
-    '</td></tr>',
-  ].join("\n");
+function trajectoryBadge(t) {
+  const map = {
+    "opkomend":  { icon: "▲", color: "#1a7a46", bg: "#e6f7ef" },
+    "piekend":   { icon: "●", color: "#c05800", bg: "#fff3e0" },
+    "afbouwend": { icon: "▼", color: "#6b6b6b", bg: "#f1f1ec" },
+  };
+  const m = t && map[t];
+  if (!m) return "";
+  return `<span style="display:inline-block;background:${m.bg};color:${m.color};
+    padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600;
+    margin-right:4px;">${m.icon} ${esc(t)}</span>`;
 }
 
-// --- Daily ---
-function renderDailyHTML(daily) {
-  const themes = (daily && daily.themes) || [];
-  if (themes.length === 0) return "";
+function continuityBadge(insight) {
+  if (insight.isNew !== false) {
+    // isNew=true of niet ingevuld → nieuw vandaag
+    return `<span style="display:inline-block;background:#e0f7f7;color:#0b6b6b;
+      padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700;">✦ Nieuw vandaag</span>`;
+  }
+  if (insight.daysActive && insight.daysActive > 1) {
+    return `<span style="display:inline-block;background:#ede9ff;color:#4a2eb5;
+      padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600;">↻ ${insight.daysActive} dagen actief</span>`;
+  }
+  return "";
+}
 
-  const themesHtml = themes.map(function (theme) {
-    const itemsHtml = (theme.items || []).map(function (item) {
-      const titleHtml = item.url
-        ? '<a href="' + escapeHtml(item.url) + '" style="color:#111;text-decoration:none;">' + escapeHtml(item.title || "Untitled") + '</a>'
-        : escapeHtml(item.title || "Untitled");
-      const sourceLine = item.source
-        ? (item.url
-            ? '<a href="' + escapeHtml(item.url) + '" style="color:#6b6b6b;text-decoration:none;">' + escapeHtml(item.source) + '</a>'
-            : escapeHtml(item.source))
-        : "";
-      const meta = [item.category ? escapeHtml(item.category) : "", sourceLine].filter(Boolean).join(" &middot; ");
+function sourcePillsHTML(sources) {
+  if (!sources || !sources.length) return "";
+  const pills = sources.slice(0, 5).map(function (s) {
+    return `<span style="display:inline-block;border:1px solid #e5e5e0;color:#6b6b6b;
+      padding:2px 8px;border-radius:999px;font-size:11px;margin:2px 2px 0 0;">${esc(s)}</span>`;
+  }).join("");
+  return `<p style="margin:8px 0 0;">${pills}</p>`;
+}
 
-      return [
-        '<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin:0 0 12px;background:#ffffff;border:1px solid #e5e5e0;border-radius:6px;">',
-        '  <tr><td style="padding:14px 16px;">',
-        '    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">',
-        '      <tr>',
-        '        <td style="font-size:15px;font-weight:600;line-height:1.35;color:#111;">' + titleHtml + '</td>',
-        scoreBadge(item.score) ? '        <td align="right" style="padding-left:10px;white-space:nowrap;">' + scoreBadge(item.score) + '</td>' : '',
-        '      </tr>',
-        '    </table>',
-        item.summary ? '    <p style="margin:8px 0 0;font-size:14px;color:#111;line-height:1.55;">' + escapeHtml(item.summary) + '</p>' : '',
-        item.cultural_relevance ? '    <p style="margin:8px 0 0;padding-left:10px;border-left:2px solid #e5e5e0;font-size:13px;color:#6b6b6b;font-style:italic;line-height:1.55;">' + escapeHtml(item.cultural_relevance) + '</p>' : '',
-        meta ? '    <p style="margin:10px 0 0;font-size:12px;color:#6b6b6b;">' + meta + '</p>' : '',
-        '  </td></tr>',
-        '</table>',
-      ].filter(Boolean).join("\n");
-    }).join("\n");
+function articleLinksHTML(articles) {
+  if (!articles || !articles.length) return "";
+  const items = articles.slice(0, 3).map(function (a) {
+    const title = esc(a.title || "Artikel");
+    const src   = a.source ? ` <span style="color:#9a9a94;font-size:12px;">(${esc(a.source)})</span>` : "";
+    return a.url
+      ? `<li style="margin-bottom:5px;"><a href="${esc(a.url)}" style="color:#111;font-size:13px;line-height:1.45;">${title}</a>${src}</li>`
+      : `<li style="margin-bottom:5px;font-size:13px;">${title}${src}</li>`;
+  }).join("");
+  return `<ul style="margin:10px 0 0;padding-left:18px;line-height:1.5;">${items}</ul>`;
+}
 
-    return [
-      '<div style="margin:0 0 24px;">',
-      '  <h3 style="font-family:Georgia,serif;font-size:19px;margin:0 0 4px;color:#111;letter-spacing:-0.01em;">' + escapeHtml(theme.title || "Untitled theme") + '</h3>',
-      theme.summary ? '  <p style="margin:0 0 10px;color:#6b6b6b;font-size:14px;">' + escapeHtml(theme.summary) + '</p>' : '',
-      itemsHtml,
-      '</div>',
-    ].filter(Boolean).join("\n");
+function insightCard(insight) {
+  const badgeCount   = (insight.sources || []).length;
+  const leftBorder   = insight.trending ? "border-left:3px solid #d4600a;" : "border-left:3px solid #e5e5e0;";
+  const sourceBadge  = insight.trending
+    ? `<span style="display:inline-block;background:#fff0e6;color:#c05000;
+        padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600;white-space:nowrap;">🔥 ${badgeCount} bronnen</span>`
+    : (badgeCount >= 2
+        ? `<span style="display:inline-block;background:#f1f1ec;color:#6b6b6b;
+            padding:2px 8px;border-radius:999px;font-size:11px;white-space:nowrap;">${badgeCount} bronnen</span>`
+        : "");
+
+  const metaBadges = [
+    trajectoryBadge(insight.trajectory),
+    continuityBadge(insight),
+  ].filter(Boolean).join(" ");
+
+  return `
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"
+  style="margin:0 0 14px;background:#ffffff;border:1px solid #e5e5e0;border-radius:6px;${leftBorder}">
+  <tr><td style="padding:16px 18px 16px 14px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+      <td style="font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:700;
+          line-height:1.3;color:#111;letter-spacing:-0.01em;">${esc(insight.trend)}</td>
+      ${sourceBadge ? `<td align="right" valign="top" style="padding-left:10px;">${sourceBadge}</td>` : ""}
+    </tr></table>
+    ${metaBadges ? `<p style="margin:8px 0 0;">${metaBadges}</p>` : ""}
+    ${insight.summary
+      ? `<p style="margin:10px 0 0;font-size:15px;color:#111;line-height:1.65;">${esc(insight.summary)}</p>`
+      : ""}
+    ${insight.why_it_matters
+      ? `<p style="margin:10px 0 0;padding:8px 12px;border-left:2px solid #e5e5e0;
+           font-size:13px;color:#6b6b6b;font-style:italic;line-height:1.55;">
+           <strong style="font-style:normal;color:#6b6b6b;">Waarom relevant:</strong>
+           ${esc(insight.why_it_matters)}</p>`
+      : ""}
+    ${sourcePillsHTML(insight.sources)}
+    ${articleLinksHTML(insight.articles)}
+  </td></tr>
+</table>`;
+}
+
+// ─── Culture Radar (cross-categorie) ──────────────────────────────────────────
+
+function renderCultureRadar(crossCat) {
+  const mega = (crossCat && Array.isArray(crossCat.megaTrends))
+    ? crossCat.megaTrends.filter(function (m) { return m.trend; })
+    : [];
+  if (mega.length === 0) return "";
+
+  const cards = mega.map(function (mt) {
+    const strengthBadge = mt.strength === "sterk"
+      ? `<span style="display:inline-block;background:#ede9ff;color:#4a2eb5;
+          padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600;
+          white-space:nowrap;">⚡ Sterk signaal</span>`
+      : `<span style="display:inline-block;background:#ede9ff;color:#4a2eb5;
+          padding:2px 8px;border-radius:999px;font-size:11px;white-space:nowrap;">Cross-categorie</span>`;
+    const catPills = (mt.categories || []).map(function (c) {
+      return `<span style="display:inline-block;background:#ede9ff;color:#4a2eb5;
+        padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700;
+        text-transform:uppercase;letter-spacing:0.05em;margin:2px 2px 0 0;">${esc(c)}</span>`;
+    }).join("");
+
+    return `
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"
+  style="margin:0 0 14px;background:#faf8ff;border:1px solid #d8d0ff;border-radius:6px;border-left:4px solid #6c47ff;">
+  <tr><td style="padding:16px 18px 16px 14px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+      <td style="font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:700;
+          line-height:1.3;color:#111;">${esc(mt.trend)}</td>
+      <td align="right" valign="top" style="padding-left:10px;">${strengthBadge}</td>
+    </tr></table>
+    ${mt.summary
+      ? `<p style="margin:10px 0 0;font-size:15px;color:#111;line-height:1.65;">${esc(mt.summary)}</p>`
+      : ""}
+    ${mt.why_it_matters
+      ? `<p style="margin:10px 0 0;padding:8px 12px;border-left:2px solid #6c47ff;
+           font-size:13px;color:#6b6b6b;font-style:italic;line-height:1.55;">
+           <strong style="font-style:normal;color:#6b6b6b;">Waarom:</strong>
+           ${esc(mt.why_it_matters)}</p>`
+      : ""}
+    ${catPills ? `<p style="margin:10px 0 0;">${catPills}</p>` : ""}
+  </td></tr>
+</table>`;
   }).join("\n");
 
-  return [
-    sectionHeader("Daily signals"),
-    '<tr><td style="padding:0 4px;">' + themesHtml + '</td></tr>',
-  ].join("\n");
+  return `
+${sectionLabel("⚡ Culture Radar — mega-trends van vandaag")}
+<tr><td style="padding:0 0 4px;">${cards}</td></tr>`;
 }
 
-// --- Weekly ---
-function renderHypeHTML(h) {
-  const cats = (h.categories || []).map(function (c) {
-    return '<span style="display:inline-block;background:#f1f1ec;color:#333;padding:3px 8px;border-radius:999px;font-size:11px;text-transform:lowercase;margin-right:4px;">' + escapeHtml(c) + '</span>';
-  }).join("");
-  const signalsList = (h.signals || []).map(function (s) {
-    return '<li style="margin-bottom:4px;">' + escapeHtml(s) + '</li>';
-  }).join("");
+// ─── Daily (AI-formaat: categories + insights) ────────────────────────────────
 
-  return [
-    '<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin:0 0 14px;background:#ffffff;border:1px solid #e5e5e0;border-radius:6px;">',
-    '  <tr><td style="padding:16px 18px;">',
-    '    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">',
-    '      <tr>',
-    '        <td style="font-family:Georgia,serif;font-size:18px;font-weight:600;line-height:1.3;color:#111;letter-spacing:-0.01em;">' + escapeHtml(h.title || "Untitled hype") + '</td>',
-    scoreBadge(h.score) ? '        <td align="right" style="padding-left:10px;white-space:nowrap;">' + scoreBadge(h.score) + '</td>' : '',
-    '      </tr>',
-    '    </table>',
-    h.description ? '    <p style="margin:8px 0 0;font-size:14px;color:#111;line-height:1.55;">' + escapeHtml(h.description) + '</p>' : '',
-    h.why_it_matters ? '    <p style="margin:10px 0 0;padding:10px 12px;background:#f1f1ec;border-radius:6px;font-size:13px;color:#111;line-height:1.55;"><strong>Why it matters:</strong> ' + escapeHtml(h.why_it_matters) + '</p>' : '',
-    signalsList ? '    <p style="margin:12px 0 4px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:#6b6b6b;">Signals</p><ul style="margin:0;padding-left:18px;font-size:13px;line-height:1.5;color:#111;">' + signalsList + '</ul>' : '',
-    cats ? '    <p style="margin:12px 0 0;">' + cats + '</p>' : '',
-    '  </td></tr>',
-    '</table>',
-  ].filter(Boolean).join("\n");
+function renderDailyAI(daily) {
+  const cats = Array.isArray(daily.categories) ? daily.categories : [];
+  if (cats.length === 0) return "";
+
+  return cats.map(function (cat) {
+    const insights = cat.insights || [];
+    if (insights.length === 0) return "";
+    const cards = insights.map(insightCard).join("\n");
+    return `
+${sectionLabel(cat.label || cat.id)}
+<tr><td style="padding:0 0 4px;">${cards}</td></tr>`;
+  }).filter(Boolean).join("\n");
 }
 
-function renderWeeklyHTML(hypes) {
-  if (!hypes || hypes.length === 0) return "";
-  return [
-    sectionHeader("Weekly hypes"),
-    '<tr><td style="padding:0 4px 4px;"><p style="margin:0 0 12px;color:#6b6b6b;font-size:13px;font-style:italic;">Patterns gaining traction across multiple sources this week.</p>' + hypes.map(renderHypeHTML).join("\n") + '</td></tr>',
-  ].join("\n");
+// ─── Fallback: raw topics (vóór AI synthesis) ─────────────────────────────────
+
+function renderDailyRaw(daily) {
+  const topics = Array.isArray(daily.topics) ? daily.topics : [];
+  if (topics.length === 0) return "";
+
+  const cards = topics.slice(0, 8).map(function (topic) {
+    const badge = topic.trending
+      ? `<span style="display:inline-block;background:#fff0e6;color:#c05000;
+          padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600;">🔥 ${topic.sourceCount} bronnen</span>`
+      : "";
+    const items = (topic.items || []).slice(0, 3).map(function (a) {
+      const t = esc(a.title || "");
+      return a.url
+        ? `<li style="margin-bottom:5px;"><a href="${esc(a.url)}" style="color:#111;font-size:13px;">${t}</a></li>`
+        : `<li style="margin-bottom:5px;font-size:13px;">${t}</li>`;
+    }).join("");
+    return `
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"
+  style="margin:0 0 14px;background:#fff;border:1px solid #e5e5e0;border-radius:6px;">
+  <tr><td style="padding:14px 16px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+      <td style="font-family:Georgia,serif;font-size:18px;font-weight:700;color:#111;">${esc(topic.label)}</td>
+      ${badge ? `<td align="right" valign="top" style="padding-left:10px;">${badge}</td>` : ""}
+    </tr></table>
+    ${items ? `<ul style="margin:8px 0 0;padding-left:18px;line-height:1.5;">${items}</ul>` : ""}
+  </td></tr>
+</table>`;
+  }).join("\n");
+
+  return `
+${sectionLabel("Daily trends")}
+<tr><td style="padding:0 0 4px;">${cards}</td></tr>`;
 }
 
-// --- Monthly ---
-function renderTrendHTML(t) {
-  const evidenceList = (t.evidence || []).map(function (s) {
-    return '<li style="margin-bottom:4px;">' + escapeHtml(s) + '</li>';
-  }).join("");
+// ─── Weekly ───────────────────────────────────────────────────────────────────
 
-  return [
-    '<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin:0 0 14px;background:#ffffff;border:1px solid #e5e5e0;border-radius:6px;">',
-    '  <tr><td style="padding:16px 18px;">',
-    '    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">',
-    '      <tr>',
-    '        <td style="font-family:Georgia,serif;font-size:18px;font-weight:600;line-height:1.3;color:#111;letter-spacing:-0.01em;">' + escapeHtml(t.title || "Untitled trend") + '</td>',
-    scoreBadge(t.score) ? '        <td align="right" style="padding-left:10px;white-space:nowrap;">' + scoreBadge(t.score) + '</td>' : '',
-    '      </tr>',
-    '    </table>',
-    t.description ? '    <p style="margin:8px 0 0;font-size:14px;color:#111;line-height:1.55;">' + escapeHtml(t.description) + '</p>' : '',
-    t.cultural_shift ? '    <p style="margin:10px 0 0;padding:10px 12px;background:#f1f1ec;border-radius:6px;font-size:13px;color:#111;line-height:1.55;"><strong>Cultural shift:</strong> ' + escapeHtml(t.cultural_shift) + '</p>' : '',
-    evidenceList ? '    <p style="margin:12px 0 4px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:#6b6b6b;">Evidence</p><ul style="margin:0;padding-left:18px;font-size:13px;line-height:1.5;color:#111;">' + evidenceList + '</ul>' : '',
-    t.implications ? '    <p style="margin:12px 0 4px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:#6b6b6b;">Implications</p><p style="margin:0;font-size:13px;line-height:1.55;color:#111;">' + escapeHtml(t.implications) + '</p>' : '',
-    '  </td></tr>',
-    '</table>',
-  ].filter(Boolean).join("\n");
+function renderWeekly(weekly) {
+  const cats = (weekly && Array.isArray(weekly.categories)) ? weekly.categories : [];
+  if (cats.length === 0) return "";
+
+  const intro = weekly.intro || ("Opkomende patronen van de afgelopen " + (weekly.daysAnalyzed || 7) + " dagen.");
+
+  const sections = cats.map(function (cat) {
+    const insights = (cat.insights || []).slice(0, 2);
+    if (insights.length === 0) return "";
+    const cards = insights.map(function (ins) {
+      const momentumBadge = ins.momentum
+        ? `<span style="display:inline-block;background:#e6f7ef;color:#1a7a46;
+            padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600;
+            white-space:nowrap;">${esc(ins.momentum)}</span>`
+        : "";
+      return `
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"
+  style="margin:0 0 12px;background:#fff;border:1px solid #e5e5e0;border-radius:6px;">
+  <tr><td style="padding:14px 16px;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+      <td style="font-family:Georgia,serif;font-size:17px;font-weight:700;color:#111;
+          line-height:1.3;">${esc(ins.trend)}</td>
+      ${momentumBadge ? `<td align="right" valign="top" style="padding-left:10px;">${momentumBadge}</td>` : ""}
+    </tr></table>
+    ${ins.summary
+      ? `<p style="margin:8px 0 0;font-size:14px;color:#111;line-height:1.6;">${esc(ins.summary)}</p>`
+      : ""}
+    ${ins.why_it_matters
+      ? `<p style="margin:8px 0 0;padding:8px 12px;border-left:2px solid #e5e5e0;
+           font-size:13px;color:#6b6b6b;font-style:italic;line-height:1.55;">
+           <strong style="font-style:normal;">Culturele verschuiving:</strong>
+           ${esc(ins.why_it_matters)}</p>`
+      : ""}
+  </td></tr>
+</table>`;
+    }).join("\n");
+    return `${sectionLabel("Weekly · " + (cat.label || cat.id))}<tr><td style="padding:0 0 4px;">${cards}</td></tr>`;
+  }).filter(Boolean).join("\n");
+
+  if (!sections) return "";
+
+  return `
+<tr><td style="padding:32px 0 0;border-top:2px solid #e5e5e0;">
+  <h2 style="font-family:Georgia,serif;font-size:20px;margin:0;color:#111;">Weekly patronen</h2>
+  <p style="margin:4px 0 0;font-size:13px;color:#6b6b6b;font-style:italic;">${esc(intro)}</p>
+</td></tr>
+${sections}`;
 }
 
-function renderMonthlyHTML(trends) {
-  if (!trends || trends.length === 0) return "";
-  return [
-    sectionHeader("Monthly trends"),
-    '<tr><td style="padding:0 4px 4px;"><p style="margin:0 0 12px;color:#6b6b6b;font-size:13px;font-style:italic;">Macro shifts spanning weeks or months.</p>' + trends.map(renderTrendHTML).join("\n") + '</td></tr>',
-  ].join("\n");
-}
+// ─── Volledige HTML-mail ───────────────────────────────────────────────────────
 
-// --- Full HTML ---
-function renderHTML(brief) {
-  const publicUrl = process.env.PUBLIC_URL || "";
-  const dateLabel = brief.date ? formatDate(brief.date) : "";
-  const daily = brief.daily || {};
-  const dailyTitle = daily.title || "Daily Culture Brief";
+function buildHTML(brief) {
+  const publicUrl  = process.env.PUBLIC_URL || "";
+  const dateLabel  = brief.date ? formatDate(brief.date) : "";
+  const daily      = brief.daily || {};
   const dailyIntro = daily.intro || "";
 
+  const dailyContent = (Array.isArray(daily.categories) && daily.categories.length > 0)
+    ? renderDailyAI(daily)
+    : renderDailyRaw(daily);
+
   return [
-    '<!doctype html>',
-    '<html><head><meta charset="utf-8"><title>' + escapeHtml(dailyTitle) + '</title></head>',
-    '<body style="margin:0;padding:0;background:#fafaf7;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111;">',
-    '<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background:#fafaf7;">',
-    '<tr><td align="center" style="padding:24px 12px;">',
-    '<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:640px;">',
-    '  <tr><td style="padding:0 4px 16px;border-bottom:1px solid #e5e5e0;">',
-    '    <h1 style="font-family:Georgia,serif;font-size:26px;margin:0;letter-spacing:-0.02em;color:#111;">Culture Tracker</h1>',
-    dateLabel ? '    <p style="margin:4px 0 0;color:#6b6b6b;font-size:13px;">' + escapeHtml(dateLabel) + ' &middot; daily signals</p>' : '',
-    '  </td></tr>',
-    dailyIntro ? '  <tr><td style="padding:20px 4px 4px;"><h2 style="font-family:Georgia,serif;font-size:20px;margin:0 0 8px;color:#111;">' + escapeHtml(dailyTitle) + '</h2><p style="margin:0;color:#333;font-size:15px;line-height:1.6;">' + escapeHtml(dailyIntro) + '</p></td></tr>' : '',
-    renderDailyHTML(daily),
-    publicUrl ? '  <tr><td style="padding:24px 4px 0;border-top:1px solid #e5e5e0;"><p style="margin:12px 0 0;font-size:12px;color:#6b6b6b;"><a href="' + escapeHtml(publicUrl) + '" style="color:#6b6b6b;">View online &rarr;</a></p></td></tr>' : '',
-    '  <tr><td style="padding:16px 4px 8px;"><p style="margin:0;font-size:11px;color:#9a9a94;">Culture Tracker &middot; auto-generated.</p></td></tr>',
-    '</table>',
-    '</td></tr></table>',
-    '</body></html>',
+    `<!doctype html>`,
+    `<html lang="nl"><head>`,
+    `<meta charset="utf-8">`,
+    `<meta name="viewport" content="width=device-width,initial-scale=1">`,
+    `<title>Culture Tracker — ${esc(dateLabel)}</title>`,
+    `</head>`,
+    `<body style="margin:0;padding:0;background:#fafaf7;`,
+    `font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;`,
+    `color:#111;-webkit-font-smoothing:antialiased;">`,
+    `<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"`,
+    `  style="background:#fafaf7;">`,
+    `<tr><td align="center" style="padding:28px 12px 56px;">`,
+    `<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"`,
+    `  style="max-width:600px;">`,
+
+    // Header
+    `<tr><td style="padding:0 0 20px;border-bottom:2px solid #111;">`,
+    `  <h1 style="font-family:Georgia,'Times New Roman',serif;font-size:28px;`,
+    `      margin:0;letter-spacing:-0.02em;color:#111;">Culture Tracker</h1>`,
+    dateLabel
+      ? `  <p style="margin:6px 0 0;color:#6b6b6b;font-size:13px;">${esc(dateLabel)} &middot; dagelijkse trendsignalen</p>`
+      : "",
+    `</td></tr>`,
+
+    // Intro
+    dailyIntro
+      ? `<tr><td style="padding:18px 0 0;"><p style="margin:0;font-size:15px;color:#6b6b6b;line-height:1.6;font-style:italic;">${esc(dailyIntro)}</p></td></tr>`
+      : "",
+
+    // Culture Radar
+    renderCultureRadar(brief.crossCategory),
+
+    // Daily
+    dailyContent,
+
+    // Weekly
+    renderWeekly(brief.weekly),
+
+    // Footer
+    `<tr><td style="padding:32px 0 0;border-top:1px solid #e5e5e0;">`,
+    `  <p style="margin:0;font-size:11px;color:#9a9a94;">`,
+    `    Culture Tracker &middot; automatisch gegenereerd via Claude AI`,
+    publicUrl ? ` &middot; <a href="${esc(publicUrl)}" style="color:#9a9a94;">Bekijk online &rarr;</a>` : "",
+    `  </p>`,
+    `</td></tr>`,
+
+    `</table></td></tr></table>`,
+    `</body></html>`,
   ].filter(Boolean).join("\n");
 }
 
-// --- Plain-text fallback ---
-function renderText(brief) {
-  const lines = [];
-  const daily = brief.daily || {};
-  lines.push(daily.title || "Daily Culture Brief");
-  if (brief.date) lines.push(formatDate(brief.date));
-  lines.push("");
-  if (daily.intro) { lines.push(daily.intro); lines.push(""); }
+// ─── Plain-text fallback ──────────────────────────────────────────────────────
 
-  if ((daily.themes || []).length) {
-    lines.push("=== DAILY SIGNALS ===");
-    (daily.themes || []).forEach(function (theme) {
+function buildText(brief) {
+  const lines = [];
+  const daily  = brief.daily || {};
+
+  lines.push("CULTURE TRACKER — " + (brief.date || ""));
+  lines.push("=".repeat(50));
+  if (daily.intro) { lines.push(""); lines.push(daily.intro); }
+
+  // Culture Radar
+  const mega = brief.crossCategory && Array.isArray(brief.crossCategory.megaTrends)
+    ? brief.crossCategory.megaTrends.filter(function (m) { return m.trend; }) : [];
+  if (mega.length > 0) {
+    lines.push(""); lines.push("⚡ CULTURE RADAR"); lines.push("-".repeat(30));
+    mega.forEach(function (mt) {
       lines.push("");
-      lines.push("# " + (theme.title || "Untitled theme"));
-      if (theme.summary) lines.push(theme.summary);
+      lines.push("# " + mt.trend);
+      if (mt.summary)        lines.push(mt.summary);
+      if (mt.why_it_matters) lines.push("Waarom: " + mt.why_it_matters);
+      if (mt.categories)     lines.push("Categorieën: " + mt.categories.join(", "));
+    });
+  }
+
+  // Daily
+  const cats = Array.isArray(daily.categories) ? daily.categories : [];
+  cats.forEach(function (cat) {
+    lines.push(""); lines.push("── " + (cat.label || cat.id).toUpperCase());
+    (cat.insights || []).forEach(function (ins) {
       lines.push("");
-      (theme.items || []).forEach(function (item) {
-        const score = typeof item.score === "number" ? " [" + item.score + "/10]" : "";
-        lines.push("- " + (item.title || "Untitled") + score);
-        if (item.summary) lines.push("  " + item.summary);
-        if (item.cultural_relevance) lines.push("  Why: " + item.cultural_relevance);
-        const meta = [item.source, item.category].filter(Boolean).join(" / ");
-        if (meta) lines.push("  " + meta);
-        if (item.url) lines.push("  " + item.url);
-        lines.push("");
+      const traj   = ins.trajectory ? " [" + ins.trajectory + "]" : "";
+      const streak = ins.daysActive > 1
+        ? " [" + ins.daysActive + " dagen]"
+        : (ins.isNew !== false ? " [NIEUW]" : "");
+      lines.push("• " + (ins.trend || "") + traj + streak);
+      if (ins.summary)        lines.push("  " + ins.summary);
+      if (ins.why_it_matters) lines.push("  → " + ins.why_it_matters);
+      if (ins.sources)        lines.push("  Bronnen: " + ins.sources.join(", "));
+      (ins.articles || []).slice(0, 2).forEach(function (a) {
+        if (a.title) lines.push("  - " + a.title + (a.url ? "\n    " + a.url : ""));
+      });
+    });
+  });
+
+  // Weekly
+  const weeklyCats = (brief.weekly && Array.isArray(brief.weekly.categories))
+    ? brief.weekly.categories : [];
+  if (weeklyCats.length > 0) {
+    lines.push(""); lines.push(""); lines.push("WEEKLY PATRONEN");
+    lines.push("=".repeat(30));
+    weeklyCats.forEach(function (cat) {
+      lines.push(""); lines.push("── " + (cat.label || cat.id).toUpperCase());
+      (cat.insights || []).slice(0, 2).forEach(function (ins) {
+        lines.push("• " + (ins.trend || ""));
+        if (ins.summary) lines.push("  " + ins.summary);
       });
     });
   }
@@ -239,40 +427,43 @@ function renderText(brief) {
   return lines.join("\n");
 }
 
-// --- Main ---
+// ─── Main ─────────────────────────────────────────────────────────────────────
+
 async function main() {
   if (!fs.existsSync(LATEST_PATH)) {
-    throw new Error("Cannot find " + LATEST_PATH + ". Run fetch-and-summarize.js first.");
+    throw new Error("Kan " + LATEST_PATH + " niet vinden. Run eerst ai-synthesize.js.");
   }
+
   const brief = JSON.parse(fs.readFileSync(LATEST_PATH, "utf8"));
 
-  const host = required("SMTP_HOST");
-  const port = parseInt(process.env.SMTP_PORT || "587", 10);
-  const user = required("SMTP_USER");
-  const pass = required("SMTP_PASS");
-  const from = required("EMAIL_FROM");
-  const to = required("EMAIL_TO");
+  const host   = required("SMTP_HOST");
+  const port   = parseInt(process.env.SMTP_PORT || "587", 10);
+  const user   = required("SMTP_USER");
+  const pass   = required("SMTP_PASS");
+  const from   = required("EMAIL_FROM");
+  const to     = required("EMAIL_TO");
   const secure = process.env.SMTP_SECURE
     ? process.env.SMTP_SECURE === "true"
     : port === 465;
 
-  const transporter = nodemailer.createTransport({
-    host: host, port: port, secure: secure,
-    auth: { user: user, pass: pass },
-  });
+  const transporter = nodemailer.createTransport({ host, port, secure, auth: { user, pass } });
 
-  const dailyTitle = (brief.daily && brief.daily.title) || "Daily Culture Brief";
-  const subject = dailyTitle + (brief.date ? " — " + brief.date : "");
+  const dateLabel = brief.date
+    ? new Date(brief.date + "T00:00:00").toLocaleDateString("nl-BE", {
+        weekday: "long", day: "numeric", month: "long",
+      })
+    : "";
+  const subject = "Culture Tracker" + (dateLabel ? " — " + dateLabel : "");
 
-  console.log("→ Sending email to " + to + " via " + host + ":" + port + " (secure=" + secure + ")");
+  console.log("→ Stuur mail naar " + to + " via " + host + ":" + port + " (secure=" + secure + ")");
 
   const info = await transporter.sendMail({
-    from: from, to: to, subject: subject,
-    text: renderText(brief),
-    html: renderHTML(brief),
+    from, to, subject,
+    text: buildText(brief),
+    html: buildHTML(brief),
   });
 
-  console.log("✓ Sent. Message ID: " + info.messageId);
+  console.log("✓ Verzonden. Message ID: " + info.messageId);
 }
 
 main().catch(function (err) {
