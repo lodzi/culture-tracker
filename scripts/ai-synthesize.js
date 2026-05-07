@@ -94,6 +94,34 @@ function updateArchiveIndex(date) {
   }
 }
 
+// ── Trend-continuïteit: laad recente trend-namen uit archief ──────────────
+// Leest de laatste `daysBack` archief-bestanden en verzamelt alle trend-titels.
+// Resultaat: [{daysAgo: 1, date: "2026-05-06", trends: ["Trend A", "Trend B"]}, ...]
+
+function loadRecentTrends(daysBack) {
+  const result = [];
+  const today = new Date();
+  for (let i = 1; i <= daysBack; i++) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - i);
+    const iso = d.toISOString().slice(0, 10);
+    const p = path.join(ARCHIVE_DIR, iso + ".json");
+    if (!fs.existsSync(p)) continue;
+    try {
+      const data = readJSON(p);
+      const cats = (data.daily && data.daily.categories) || [];
+      const trends = [];
+      for (const cat of cats) {
+        for (const ins of (cat.insights || [])) {
+          if (ins.trend) trends.push(ins.trend);
+        }
+      }
+      if (trends.length > 0) result.push({ daysAgo: i, date: iso, trends });
+    } catch (e) { /* skip corrupt file */ }
+  }
+  return result;
+}
+
 // ── Daily synthesis ────────────────────────────────────────────────────────
 // Stuurt cluster-titels naar Haiku. Haiku valideert coherentie + schrijft
 // per categorie max. 3 trend-insights met samenvatting en culturele duiding.
@@ -124,6 +152,15 @@ async function synthesizeDaily(client, rawData) {
     });
   }
 
+  // Laad recente trend-geschiedenis voor continuïteit-context
+  const recentHistory = loadRecentTrends(3);
+  const historyContext = recentHistory.length > 0
+    ? recentHistory.map(function (h) {
+        const label = h.daysAgo === 1 ? "Gisteren" : h.daysAgo + " dagen geleden";
+        return label + " (" + h.date + "): " + h.trends.join(", ");
+      }).join("\n")
+    : "Geen archief beschikbaar (eerste run).";
+
   const prompt = `Je bent een scherpe culturele trendwatcher. Analyseer deze nieuwsclusters per categorie.
 
 KRITISCH: een cluster = artikels die hetzelfde keyword delen, maar dat betekent NIET dat ze over hetzelfde gaan.
@@ -134,11 +171,16 @@ Schrijf per categorie maximaal ${MAX_INSIGHTS} ECHTE culturele trends. Een echte
 - Heeft culturele relevantie, niet alleen nieuwswaarde
 - Is specifiek (niet "muziek is populair" maar "de comeback van neo-soul in mainstream pop")
 
+TREND-CONTINUÏTEIT — recent archief (gebruik dit voor daysActive en isNew):
+${historyContext}
+
 Geef voor elke insight:
 - trend: pakkende titel van 4-6 woorden (Nederlands of Engels, wat het best past)
 - summary: 2 zinnen — wat er precies gebeurt, wie/wat erbij betrokken is
 - why_it_matters: 1 zin — de bredere culturele betekenis of wat dit voorspelt
-- trajectory: "opkomend" | "piekend" | "afbouwend" (schat in op basis van bronnen en context)
+- trajectory: "opkomend" | "piekend" | "afbouwend" (gebaseerd op bronnen + context)
+- daysActive: hoeveel dagen dit thema al actief is (1 = nieuw vandaag, 2 = ook gisteren aanwezig, 3+ = al meerdere dagen — maak een eerlijke schatting op basis van het archief)
+- isNew: true als het thema gisteren NIET aanwezig was, false als het een voortzetting is
 
 Antwoord ALLEEN met JSON:
 {
@@ -152,7 +194,9 @@ Antwoord ALLEEN met JSON:
           "trend": "...",
           "summary": "...",
           "why_it_matters": "...",
-          "trajectory": "opkomend"
+          "trajectory": "opkomend",
+          "daysActive": 1,
+          "isNew": true
         }
       ]
     }
@@ -193,6 +237,8 @@ ${JSON.stringify(promptData, null, 2)}`;
         summary:        ins.summary,
         why_it_matters: ins.why_it_matters,
         trajectory:     ins.trajectory || null,
+        daysActive:     typeof ins.daysActive === "number" ? ins.daysActive : 1,
+        isNew:          ins.isNew !== false,   // default true (nieuw) als AI het niet invult
         sources:        topic.sources,
         trending:       topic.trending || false,
         articles:       topic.items.slice(0, 4).map(function (a) {

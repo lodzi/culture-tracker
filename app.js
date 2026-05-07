@@ -78,20 +78,24 @@
       ? el("div", { class: "mega-cats" }, catPills)
       : null;
 
-    const signal = mt.signal
+    // strength: "sterk" | "matig" — uit AI-output
+    const strengthLabel = mt.strength === "sterk" ? "⚡ Sterk signaal" : "Cross-categorie";
+    const strengthBadge = el("span", { class: "badge badge-mega" }, strengthLabel);
+
+    const why = mt.why_it_matters
       ? el("p", { class: "mega-signal" }, [
-          el("strong", null, "Signaal: "),
-          mt.signal,
+          el("strong", null, "Waarom: "),
+          mt.why_it_matters,
         ])
       : null;
 
-    return el("div", { class: "mega-trend" }, [
+    return el("div", { class: "mega-trend" + (mt.strength === "sterk" ? " is-strong" : "") }, [
       el("div", { class: "mega-trend-header" }, [
-        el("h3", { class: "mega-trend-name" }, mt.name || ""),
-        el("span", { class: "badge badge-mega" }, "Cross-categorie"),
+        el("h3", { class: "mega-trend-name" }, mt.trend || ""),
+        strengthBadge,
       ]),
       mt.summary ? el("p", { class: "mega-summary" }, mt.summary) : null,
-      signal,
+      why,
       catsRow,
     ]);
   }
@@ -101,11 +105,13 @@
       ? crossCat.megaTrends : [];
     if (megaTrends.length === 0) return;
 
-    const wrap = el("section", { class: "cross-category" }, [
-      el("div", { class: "category-header" }, [
-        el("h2", { class: "category-title" }, "Mega-trends — cross-categorie"),
-      ]),
+    const wrap = el("section", { class: "cross-category" });
+    const headerEl = el("div", { class: "category-header cross-category-header" }, [
+      el("h2", { class: "category-title" }, "Culture Radar"),
+      el("span", { class: "cross-category-sub" },
+        megaTrends.length + " mega-" + (megaTrends.length === 1 ? "trend" : "trends") + " vandaag"),
     ]);
+    wrap.appendChild(headerEl);
     const grid = el("div", { class: "mega-trends-grid" });
     megaTrends.forEach(function (mt) { grid.appendChild(renderMegaTrend(mt)); });
     wrap.appendChild(grid);
@@ -131,7 +137,7 @@
 
   function renderInsight(insight) {
     const badgeCount = insight.sources ? insight.sources.length : 0;
-    const badge = insight.trending
+    const sourceBadge = insight.trending
       ? el("span", { class: "badge badge-hot" }, "🔥 " + badgeCount + " bronnen")
       : (badgeCount >= 2
           ? el("span", { class: "badge badge-neutral" }, badgeCount + " bronnen")
@@ -139,8 +145,29 @@
 
     const header = el("div", { class: "insight-header" }, [
       el("h3", { class: "insight-trend" }, insight.trend || ""),
-      badge,
+      sourceBadge,
     ]);
+
+    // Trajectory + streak/new meta-badges
+    const metaBadges = [];
+    if (insight.trajectory) {
+      const tMap = {
+        "opkomend":  { label: "▲ opkomend",  cls: "badge-up" },
+        "piekend":   { label: "● piekend",   cls: "badge-peak" },
+        "afbouwend": { label: "▼ afbouwend", cls: "badge-down" },
+      };
+      const t = tMap[insight.trajectory];
+      if (t) metaBadges.push(el("span", { class: "badge " + t.cls }, t.label));
+    }
+    if (insight.isNew) {
+      metaBadges.push(el("span", { class: "badge badge-new" }, "✦ Nieuw vandaag"));
+    } else if (insight.daysActive && insight.daysActive > 1) {
+      metaBadges.push(el("span", { class: "badge badge-streak" },
+        "↻ " + insight.daysActive + " dagen actief"));
+    }
+    const metaRow = metaBadges.length
+      ? el("div", { class: "insight-meta-badges" }, metaBadges)
+      : null;
 
     const summary = insight.summary
       ? el("p", { class: "insight-summary" }, insight.summary)
@@ -172,7 +199,7 @@
     }
 
     const cls = ["insight", insight.trending ? "is-trending" : ""].filter(Boolean).join(" ");
-    return el("div", { class: cls }, [header, summary, why, srcsRow, articlesEl]);
+    return el("div", { class: cls }, [header, metaRow, summary, why, srcsRow, articlesEl]);
   }
 
   function renderWeeklyInsight(insight) {

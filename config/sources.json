@@ -428,5 +428,110 @@
     "url": "https://letterboxd.com/films/popular/this/week/rss/",
     "category": "film",
     "weight": 8
+  },
+  {
+    "name": "Hypebeast",
+    "type": "rss",
+    "url": "https://hypebeast.com/feed",
+    "category": "fashion",
+    "weight": 8
+  },
+  {
+    "name": "r/streetwear",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/streetwear/.rss",
+    "category": "fashion",
+    "weight": 6
+  },
+  {
+    "name": "It's Nice That",
+    "type": "rss",
+    "url": "https://www.itsnicethat.com/rss",
+    "category": "art",
+    "weight": 8
+  },
+  {
+    "name": "The Cut",
+    "type": "rss",
+    "url": "https://www.thecut.com/rss/index.xml",
+    "category": "culture",
+    "weight": 7
+  },
+  {
+    "name": "r/OutOfTheLoop",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/OutOfTheLoop/.rss",
+    "category": "culture",
+    "weight": 7
+  },
+  {
+    "name": "r/indieheads",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/indieheads/.rss",
+    "category": "music",
+    "weight": 6
+  },
+  {
+    "name": "r/listentothis",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/listentothis/.rss",
+    "category": "music",
+    "weight": 6
+  },
+  {
+    "name": "r/hiphopheads",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/hiphopheads/.rss",
+    "category": "music",
+    "weight": 6
+  },
+  {
+    "name": "A.V. Club",
+    "type": "rss",
+    "url": "https://www.avclub.com/rss",
+    "category": "film",
+    "weight": 7
+  },
+  {
+    "name": "r/movies",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/movies/.rss",
+    "category": "film",
+    "weight": 6
+  },
+  {
+    "name": "Ars Technica",
+    "type": "rss",
+    "url": "https://feeds.arstechnica.com/arstechnica/index",
+    "category": "internet",
+    "weight": 8
+  },
+  {
+    "name": "r/Futurology",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/Futurology/.rss",
+    "category": "internet",
+    "weight": 6
+  },
+  {
+    "name": "Trend Hunter",
+    "type": "rss",
+    "url": "https://www.trendhunter.com/rss.xml",
+    "category": "trends",
+    "weight": 7
+  },
+  {
+    "name": "Knack",
+    "type": "rss",
+    "url": "https://www.knack.be/rss/",
+    "category": "lokaal",
+    "weight": 7
+  },
+  {
+    "name": "r/belgium",
+    "type": "rss",
+    "url": "https://www.reddit.com/r/belgium/.rss",
+    "category": "lokaal",
+    "weight": 6
   }
 ]

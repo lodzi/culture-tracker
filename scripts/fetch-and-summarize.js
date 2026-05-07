@@ -91,6 +91,10 @@ const CATEGORY_ORDER = [
   "internet", "social", "community", "marketing", "brands", "sport",
 ];
 
+// Browser-like User-Agent — used in both the RSS parser and the Wikipedia fetch.
+// Defined at module scope so all functions can access it.
+const BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
+
 // Words that don't carry topical signal and should be ignored when computing
 // cross-source keyword overlap.
 const STOPWORDS = new Set([
@@ -649,7 +653,6 @@ async function main() {
   // requestOptions.timeout sets the socket-level inactivity timeout so slow-
   // dripping feeds (ones that send data byte-by-byte) are killed too, not just
   // stalled connections. The outer withTimeout() wrapper covers the full wall time.
-  const BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
   const parserOpts = {
     timeout: PER_SOURCE_TIMEOUT_MS - 1000,
     headers: {

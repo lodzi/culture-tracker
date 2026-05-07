@@ -362,12 +362,84 @@ a:hover { opacity: 0.7; }
   .insight.is-trending { border-left-color: #ff8c42; }
 }
 
+/* ─── Trajectory, streak & new badges ──────────────────────────────────── */
+
+.insight-meta-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 10px;
+}
+
+/* ▲ opkomend — groen */
+.badge-up {
+  background: #e6f7ef;
+  color: #1a7a46;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* ● piekend — amber */
+.badge-peak {
+  background: #fff3e0;
+  color: #c05800;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* ▼ afbouwend — grijs */
+.badge-down {
+  background: var(--pill);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 400;
+}
+
+/* ✦ Nieuw vandaag — teal */
+.badge-new {
+  background: #e0f7f7;
+  color: #0b6b6b;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* ↻ N dagen actief — blauw-paars */
+.badge-streak {
+  background: #ede9ff;
+  color: #4a2eb5;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  .badge-up     { background: #0d2b1a; color: #4ecb89; }
+  .badge-peak   { background: #2a1600; color: #ff9c40; }
+  .badge-down   { background: var(--pill); color: var(--muted); }
+  .badge-new    { background: #002a2a; color: #3ecfcf; }
+  .badge-streak { background: #1e1540; color: #b49fff; }
+}
+
 /* ─── Cross-category mega-trends ───────────────────────────────────────── */
 
 .cross-category {
   margin: 0 0 48px;
   padding-bottom: 32px;
   border-bottom: 2px solid var(--line);
+}
+
+.cross-category-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.cross-category-sub {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 .mega-trends-grid {
