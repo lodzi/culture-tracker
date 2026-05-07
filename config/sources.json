@@ -384,5 +384,26 @@
     "url": "https://annehelen.substack.com/feed",
     "category": "culture",
     "weight": 7
+  },
+  {
+    "name": "VRT NWS",
+    "type": "rss",
+    "url": "https://www.vrt.be/vrtnws/nl.rss.articles.xml",
+    "category": "lokaal",
+    "weight": 8
+  },
+  {
+    "name": "De Tijd",
+    "type": "rss",
+    "url": "https://www.tijd.be/rss/top_stories.xml",
+    "category": "lokaal",
+    "weight": 8
+  },
+  {
+    "name": "Bruzz",
+    "type": "rss",
+    "url": "https://www.bruzz.be/rss.xml",
+    "category": "lokaal",
+    "weight": 7
   }
 ]

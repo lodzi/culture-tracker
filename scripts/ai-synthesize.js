@@ -42,7 +42,7 @@ const MAX_TITLES     = 5;   // max artikel-titels per cluster in de prompt (houd
 const LOOKBACK_DAYS  = 7;   // voor weekly synthesis
 
 const CATEGORIES_ORDER = [
-  "culture", "music", "fashion", "film", "art",
+  "lokaal", "culture", "music", "fashion", "film", "art",
   "internet", "gaming", "trends", "marketing",
 ];
 
@@ -56,6 +56,7 @@ const CATEGORY_LABELS = {
   culture:    "Cultuur",
   trends:     "Trends",
   marketing:  "Marketing",
+  lokaal:     "Lokaal",
 };
 
 // --- Helpers ---

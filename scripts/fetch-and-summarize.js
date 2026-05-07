@@ -64,9 +64,9 @@ const MAX_TOPICS = parseInt(process.env.MAX_TOPICS || "10", 10);
 // Human-readable labels for category buckets in the brief.
 // Anything not in this map falls back to a Title-Cased version of the category key.
 const CATEGORY_LABELS = {
-  music:      "Music",
+  music:      "Muziek",
   fashion:    "Fashion",
-  film:       "Film",
+  film:       "Film & TV",
   internet:   "Internet",
   sport:      "Sport",
   gaming:     "Gaming",
@@ -74,8 +74,9 @@ const CATEGORY_LABELS = {
   brands:     "Brands",
   social:     "Social",
   marketing:  "Marketing",
-  culture:    "Culture",
+  culture:    "Cultuur",
   trends:     "Trends",
+  lokaal:     "Lokaal",
   community:  "Community",
   innovation: "Innovation",
   creative:   "Creative",
