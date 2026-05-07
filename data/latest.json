@@ -1,766 +1,153 @@
 {
-  "date": "2026-05-06",
+  "date": "2026-05-01",
   "daily": {
-    "title": "Culture Tracker",
-    "intro": "Top 10 culturele topics · 51 artikels van 37 bronnen · 10 door 3+ bronnen · laatste 24u.",
-    "topics": [
+    "title": "Daily Culture Brief",
+    "intro": "Today the conversation is split between AI's first real chart moment in pop music, fashion's loud rebuke of stealth wealth, and a quiet but striking shift in how brands sign athletes — as creative directors, not endorsers.",
+    "themes": [
       {
-        "label": "2026 · Tour",
-        "keywords": [
-          "2026",
-          "tour"
-        ],
-        "sourceCount": 12,
-        "sources": [
-          "Consequence",
-          "Coolhunting",
-          "Design Boom",
-          "Eurogamer",
-          "GQ",
-          "IndieWire",
-          "NME",
-          "Quartz",
-          "Sneaker News",
-          "The Verge",
-          "Wired",
-          "Yanko Design"
-        ],
-        "categories": [
-          "fashion",
-          "art",
-          "internet",
-          "music",
-          "gaming",
-          "film",
-          "trends"
-        ],
-        "trending": true,
-        "fresh": true,
+        "title": "AI music gets its first real chart moment",
+        "summary": "An AI-assisted track has cracked the global top 10 — and the industry is still figuring out how to credit it.",
         "items": [
           {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "Sundance 2026 Movies Sold So Far: Mubi Buys Grand Jury Prize Winner ‘Nuisance Bear’",
-            "url": "https://www.indiewire.com/news/festivals/sundance-2026-movies-sold-so-far-1235174095/",
-            "published": "2026-05-06T21:06:40.000Z",
-            "summary": "Directors Gabriela Osio Vanden and Jack Weisman spent years in subzero Arctic conditions filming polar bears that have lost their fear of humans.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Quartz",
-            "category": "trends",
-            "title": "Lucid is pulling its 2026 production guidance after a seat defect halted Gravity SUV deliveries",
-            "url": "https://qz.com/lucid-earnings-miss-production-guidance-gravity-suv-seat-defect-050626",
-            "published": "2026-05-06T20:31:06.000Z",
-            "summary": "A supplier issue that caused a stop-sale of the Gravity SUV cost Lucid more than $200 million in Q1 revenue",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Sneaker News",
-            "category": "fashion",
-            "title": "The New Balance 1890 “Outerspace” Drops June 2026",
-            "url": "https://sneakernews.com/2026/05/06/new-balance-1890-outerspace-u189052j/",
-            "published": "2026-05-06T19:30:03.000Z",
-            "summary": "It’s all gas, no brakes for the New Balance 1890 in 2026, led by collabs with Joe Freshgoods, JJJJound, and multiple rounds from Queens cultural... © Sneaker News, 2026. | Permalink No comment del.icio.us The post The New Balance 1890 \"Outerspace\" Drops June 2026 Sneaker News.…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Consequence",
+            "title": "Anonymous producer's AI collab debuts at #6 on Spotify Global",
+            "summary": "The track, credited only to a pseudonymous artist, was reportedly co-written with a generative model. Labels are now in negotiations.",
+            "cultural_relevance": "First mainstream chart breakthrough for AI-assisted pop music. The conversation shifts from 'will it happen' to 'how do we credit and pay for it'.",
+            "source": "Pitchfork",
+            "url": "https://pitchfork.com/",
             "category": "music",
-            "title": "Yungblud Launches 2026 North American Tour with Explosive Performances: Photos, Video + Setlist",
-            "url": "https://consequence.net/2026/05/yungblud-launches-north-american-tour-photos-video-setlist/",
-            "published": "2026-05-06T18:59:37.000Z",
-            "summary": "The UK singer kicked off the outing with shows in Sterling Heights, Michigan, and Toronto. Yungblud Launches 2026 North American Tour with Explosive Performances: Photos, Video + Setlist Spencer Kaufman",
-            "score": 10,
-            "trending": true
+            "score": 9
           },
           {
+            "title": "Songwriter union calls for mandatory AI disclosure on streaming",
+            "summary": "Following the chart debut, the union is pushing platforms to label any track using generative tools.",
+            "cultural_relevance": "Mirrors the earlier fight over sample credits and ghostwriting — a structural shift in how authorship is defined in music.",
             "source": "The Verge",
-            "category": "internet",
-            "title": "The 44 best last-minute Mother’s Day gift ideas for 2026",
-            "url": "https://www.theverge.com/gadgets/907032/best-mothers-day-gift-ideas-2026-mom-tech-gadgets",
-            "published": "2026-05-06T17:34:00.000Z",
-            "summary": "Whether it's managing a busy home or looking out for everyone around them, moms spend a lot of time every day caring for others. This Sunday, Mother's Day, is an opportunity to return the favor, so we've rounded up practical gadgets and little luxuries that can lighten her load.…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Wired",
-            "category": "internet",
-            "title": "Best Carry-On Suitcases (2026): Away, Rimowa, Tumi",
-            "url": "https://www.wired.com/story/best-carry-on-suitcases/",
-            "published": "2026-05-06T14:13:19.000Z",
-            "summary": "I feel about luggage carousels the same way I feel about head lice: avoid at all costs. These are the best carry-on suitcases for those who never want to check a bag again.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Eurogamer",
-            "category": "gaming",
-            "title": "Forget Wordle, the best daily puzzle of 2026 is a fiendish Pokémon-based cryptic crossword game",
-            "url": "https://www.eurogamer.net/pokecryptic-crossword-puzzle-good",
-            "published": "2026-05-06T13:09:01.000Z",
-            "summary": "Over the past few months, I have developed a taste for cryptic crosswords. Different to normal crosswords, these puzzles revolve around clues that are self-contained miniature riddles, of sorts, that prioritise wordplay and brain-teasing, rather than just giving you a direct…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "NME",
+            "url": "https://www.theverge.com/",
             "category": "music",
-            "title": "‘Black Myth: Wukong’ team confirms 2026 global soundtrack tour",
-            "url": "https://www.nme.com/news/gaming-news/black-myth-wukong-team-confirms-2026-global-soundtrack-tour-3944273?utm_source=rss&utm_medium=rss&utm_campaign=black-myth-wukong-team-confirms-2026-global-soundtrack-tour",
-            "published": "2026-05-06T11:52:24.000Z",
-            "summary": "The run of shows will deliver an “immersive ‘East-meets-West’ musical experience\" to 12 cities The post ‘Black Myth: Wukong’ team confirms 2026 global soundtrack tour appeared first on NME.",
-            "score": 9,
-            "trending": true
+            "score": 7
           }
         ]
       },
       {
-        "label": "Star · Nintendo",
-        "keywords": [
-          "star",
-          "nintendo"
-        ],
-        "sourceCount": 8,
-        "sources": [
-          "Deadline",
-          "Eurogamer",
-          "IndieWire",
-          "Kotaku",
-          "Polygon",
-          "The Hollywood Reporter",
-          "The Verge",
-          "Variety"
-        ],
-        "categories": [
-          "internet",
-          "gaming",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
+        "title": "Fashion goes loud again",
+        "summary": "Maximalism is reasserting itself across runways and feeds, an explicit rebuke of the post-pandemic stealth-wealth uniform.",
         "items": [
           {
-            "source": "Deadline",
-            "category": "film",
-            "title": "Adrien Brody & Rachel Zegler To Lead Karim Aïnouz’ ‘Last Dance’ With Ben Platt Co-Starring & Writing Original Music & ‘Evita’ Star Zegler Singing; FilmNation Launching For Cannes Market",
-            "url": "https://deadline.com/2026/05/rachel-zegler-adrien-brody-last-dance-filmnation-cannes-1236883777/",
-            "published": "2026-05-06T23:26:38.000Z",
-            "summary": "EXCLUSIVE: Two-time Oscar winner Adrien Brody (The Brutalist) and Golden Globe winner Rachel Zegler (West Side Story) have been set to star in Brazilian filmmaker and Cannes habitué Karim Aïnouz’ (Firebrand) father-daughter story Last Dance. Tony, Emmy, and Grammy winner Ben…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "‘Survivor 50’ Star Stephenie LaGrossa Kendrick on What Went Wrong, That Mr. Beast Twist and Complex Cirie Relationship",
-            "url": "https://www.hollywoodreporter.com/tv/tv-features/survivor-50-exit-interview-stephenie-lagrossa-kendrick-1236581291/",
-            "published": "2026-05-06T23:16:07.000Z",
-            "summary": "The four-time player breaks down a chaotic Tribal Council where a coin-flip advantage and exposed alliances turned the vote against her.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Everything We Saw At The Surprise Star Fox Nintendo Direct",
-            "url": "https://kotaku.com/nintendo-direct-star-fox-switch-2-mario-galaxy-64-2000693715",
-            "published": "2026-05-06T22:22:42.000Z",
-            "summary": "Nintendo shadow-dropped a Direct about the star of The Super Mario Galaxy Movie",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Eurogamer",
-            "category": "gaming",
-            "title": "A remake of Star Fox 64 is coming to Switch 2 this June",
-            "url": "https://www.eurogamer.net/a-remake-of-star-fox-64-is-coming-to-switch-2-this-june",
-            "published": "2026-05-06T22:15:16.000Z",
-            "summary": "After his unexpected and much-discussed debut in THe Super Mario Galaxy Movie, Fox 'Star FOc' McCloud also gets to appear in his own brand new Switch 2 game. Announced tonight during a very unexpected Nintendo Direct, we got our first look at the title, which is simply called…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Nintendo announces new Star Fox for Nintendo Switch 2",
-            "url": "https://www.polygon.com/star-fox-2026-game-nintendo-switch-2/",
-            "published": "2026-05-06T22:09:04.000Z",
-            "summary": "Star Fox 64 is getting a major remake for Nintendo Switch 2, Shigeru Miyamoto announced during surprise Nintendo Direct showcase.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Nintendo announces a new Star Fox for the Switch 2",
-            "url": "https://www.theverge.com/entertainment/925601/star-fox-nintendo-switch-2",
-            "published": "2026-05-06T22:07:46.000Z",
-            "summary": "It turns out Fox McCloud's appearance in the Super Mario Galaxy Movie was a tease of things to come: Nintendo just surprise announced the first new Star Fox game in a decade. The game is called, simply, Star Fox, and it's out very soon, launching on June 25th. Nintendo says that…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Nintendo Announces Surprise Remake Of Star Fox 64 For Switch 2 And It Looks Fine",
-            "url": "https://kotaku.com/nintendo-announces-surprise-remake-of-star-fox-64-for-switch-2-and-it-looks-very-cool-2000693718",
-            "published": "2026-05-06T22:06:11.000Z",
-            "summary": "The game has received a complete next-gen overhaul",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Deadline",
-            "category": "film",
-            "title": "Mandy Moore To Executive Produce & Potentially Star In IVF Series In Works At HBO Max From Julia Brownell & Averie Huffine",
-            "url": "https://deadline.com/2026/05/mandy-moore-ivf-series-hbo-max-from-julia-brownell-1236883562/",
-            "published": "2026-05-06T21:41:54.000Z",
-            "summary": "EXCLUSIVE: For couples who seek reproductive help, an IVF mixup and its emotional implications is one of their worst nightmares. HBO Max is tapping into that with a series in development that comes from the This Is Us duo of Mandy Moore and Julia Brownell. Moore is executive…",
-            "score": 10,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Director · Movie",
-        "keywords": [
-          "director",
-          "movie"
-        ],
-        "sourceCount": 5,
-        "sources": [
-          "Business of Fashion",
-          "Deadline",
-          "Eurogamer",
-          "The Hollywood Reporter",
-          "Variety"
-        ],
-        "categories": [
-          "fashion",
-          "gaming",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Deadline",
-            "category": "film",
-            "title": "David Di Donatello Awards: Feel-Good Movie ‘The Last One For The Road’ Sweeps Board To Win Best Film & Director",
-            "url": "https://deadline.com/2026/05/david-di-donatello-awards-2026-winners-1236883709/",
-            "published": "2026-05-06T23:35:43.000Z",
-            "summary": "Francesco Sossai’s comedy-drama The Last One For The Road swept the board at the 71st edition of Italy‘s David di Donatello awards at Romes Cinecittà studios on Wednesday winning in ten categories including best film and director. The road movie, which originally premiered in…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "‘Fantastic Four: First Steps’ Director Tackling New ‘Planet of the Apes’ Movie",
-            "url": "https://www.hollywoodreporter.com/movies/movie-news/matt-shakman-new-planet-of-the-apes-movie-1236588377/",
-            "published": "2026-05-06T20:57:57.000Z",
-            "summary": "And 'First Steps' co-writer Josh Friedman is on writing duties.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "New ‘Planet of the Apes’ Movie in the Works With ‘Fantastic Four: First Steps’ Director",
-            "url": "https://variety.com/2026/film/news/planet-of-the-apes-new-movie-fantastic-four-director-matt-shakman-1236739815/",
-            "published": "2026-05-06T20:16:13.000Z",
-            "summary": "Director Matt Shakman is bouncing from Marvel’s sacred timeline to “The Planet of the Apes,” as the director will shepherd a new film in the sci-fi franchise for 20th Century Studios. Shakman helmed last year’s “The Fantastic Four: First Steps” for Disney’s superhero label, and…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Eurogamer",
-            "category": "gaming",
-            "title": "Paranormasight director Takanari Ishiyama believes high-quality indie games are helping smaller projects from big publishers",
-            "url": "https://www.eurogamer.net/paranormasight-director-on-getting-smaller-games-made",
-            "published": "2026-05-06T12:01:02.000Z",
-            "summary": "The two Paranormasight games, The Seven Mysteries of Honjo and The Mermaid's Curse, are among the most celebrated horror visual novels in recent years. Though it might be shocking to many, Square Enix is behind their development and publishing, and now their main creative is…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Business of Fashion",
+            "title": "Schiaparelli's Paris show leans full surrealist",
+            "summary": "Daniel Roseberry sent out gilded body armor and trompe-l'œil tailoring.",
+            "cultural_relevance": "Signals fashion's cyclical pivot back to spectacle, a tell that broader consumer aesthetics — interiors, beauty, even UI — will follow within 12 months.",
+            "source": "Highsnobiety",
+            "url": "https://www.highsnobiety.com/",
             "category": "fashion",
-            "title": "A.P.C. Names New Artistic Director Amid Flux",
-            "url": "https://www.businessoffashion.com/news/luxury/apc-names-new-artistic-director-amid-flux/",
-            "published": "2026-05-06T04:33:00.000Z",
-            "summary": "Ludivine Poiblanc is taking the creative reins at the brand founded by Jean Touitou six months after majority shareholder L Catterton installed Stephanie Phair as president.",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Mortal · Kombat",
-        "keywords": [
-          "mortal",
-          "kombat"
-        ],
-        "sourceCount": 5,
-        "sources": [
-          "Eurogamer",
-          "IndieWire",
-          "Kotaku",
-          "Stereogum",
-          "The Hollywood Reporter"
-        ],
-        "categories": [
-          "music",
-          "gaming",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Stereogum",
-            "category": "music",
-            "title": "Jared Mattson (The Mattson 2) & Ruban Nielson (Unknown Mortal Orchestra) Announce New Collaborative Album FEAR: Hear “AMERICAN EAGLE”",
-            "url": "https://stereogum.com/2498131/jared-mattson-the-mattson-2-ruban-nielson-unknown-mortal-orchestra-announce-new-collaborative-album-fear-hear-american-eagle/music/",
-            "published": "2026-05-06T23:19:51.000Z",
-            "summary": "Jared Mattson of the Mattson 2 has teamed up with Ruban Nielson of Unknown Mortal Orchestra for a collaborative album called FEAR. The LP arrives next month on Jagjaguwar, but for now you can hear the lead single “AMERICAN EAGLE.” The two musicians met in 2024 after crossing…",
-            "score": 10,
-            "trending": true
+            "score": 8
           },
           {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "Box Office Preview: ‘Mortal Kombat II’ to Battle ‘Devil Wears Prada 2’ for Mother’s Day Bouquet",
-            "url": "https://www.hollywoodreporter.com/movies/movie-news/box-office-preview-mortal-kombat-ii-devil-wears-prada-2-1236588013/",
-            "published": "2026-05-06T22:13:39.000Z",
-            "summary": "James Cameron's Billie Eilish doc and the critically acclaimed 'The Sheep Detectives' also enter the fray, while 'Michael' continues to be a crowd favorite.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Mortal Kombat Co-Creator Breaks Silence On The Box Office Showdown With Street Fighter",
-            "url": "https://kotaku.com/mortal-kombat-co-creator-breaks-silence-on-the-box-office-showdown-with-street-fighter-2000693625",
-            "published": "2026-05-06T20:38:32.000Z",
-            "summary": "Could we ever see Ryu in Mortal Kombat?",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "‘Mortal Kombat II’ Review: Not Even Kitana Can Save This Doomed IP from Another Film Fatality",
-            "url": "https://www.indiewire.com/criticism/movies/mortal-kombat-2-film-review-1235192434/",
-            "published": "2026-05-06T16:00:00.000Z",
-            "summary": "Director Simon McQuoid returns with a muddy sequel that has its moments, just not enough of them.",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Eurogamer",
-            "category": "gaming",
-            "title": "As Injustice 3 rumours heat up, NetherRealm boss Ed Boon says the studio is \"actively pursuing\" a new Mortal Kombat",
-            "url": "https://www.eurogamer.net/netherrealm-boss-ed-boon-on-next-mortal-kombat-plans",
-            "published": "2026-05-06T12:19:41.000Z",
-            "summary": "While 2023's Mortal Kombat 1 didn't impress critics and fans as much as the other modern entries in the series, it still proved highly successful for developer NetherRealm Studios and publisher Warner Bros. Games, with \"8 million units sold and kounting\". It's no surprise then…",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Trailer · Comedy",
-        "keywords": [
-          "trailer",
-          "comedy"
-        ],
-        "sourceCount": 5,
-        "sources": [
-          "Eurogamer",
-          "GQ",
-          "IndieWire",
-          "Polygon",
-          "Yanko Design"
-        ],
-        "categories": [
-          "fashion",
-          "art",
-          "gaming",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "New Minecraft documentary gets first teaser trailer",
-            "url": "https://www.polygon.com/battle-of-the-borough-trailer/",
-            "published": "2026-05-06T20:37:43.000Z",
-            "summary": "Battle of the Boroughs chronicles NYC public school kids competing in esports to understand civic policy. It's wild.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "‘Deli Boys’ Season 2 Trailer: Hulu’s Acclaimed Crime Comedy Returns for Sophomore Outing",
-            "url": "https://www.indiewire.com/news/trailers/deli-boys-season-2-trailer-1235192428/",
-            "published": "2026-05-06T17:00:00.000Z",
-            "summary": "The second season of the sitcom from creator Abdullah Saeed releases May 28.",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "‘Maddie’s Secret’ Trailer: John Early Is a Food Influencer with a Secret in His Dark Comedy Directing Debut",
-            "url": "https://www.indiewire.com/news/trailers/maddies-secret-trailer-john-early-dark-comedy-debut-1235192556/",
-            "published": "2026-05-06T16:23:04.000Z",
-            "summary": "And the most interesting thing about Early's first directing effort isn't that he's playing a woman, either.",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Eurogamer",
-            "category": "gaming",
-            "title": "Battlefield 6 Season 3 kicks off next week, and its gameplay trailer bets big on Battlefield 4 nostalgia",
-            "url": "https://www.eurogamer.net/battlefield-6-season-3-trailer",
-            "published": "2026-05-06T15:28:55.000Z",
-            "summary": "Despite the usual friction with a demanding core player base and recent layoffs, Battlefield 6 is trucking along fine and in a much better spot than Battlefield 2042 was at the same time during its life cycle. Next week, it's time for Season 3, and its gameplay trailer doubles…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Yanko Design",
-            "category": "art",
-            "title": "This Tiny Bike Trailer Secretly Slides Out Into a 2-Person Camper",
-            "url": "https://www.yankodesign.com/2026/05/06/this-tiny-bike-trailer-secretly-slides-out-into-a-2-person-camper/?utm_source=rss&utm_medium=rss&utm_campaign=this-tiny-bike-trailer-secretly-slides-out-into-a-2-person-camper",
-            "published": "2026-05-06T15:20:06.000Z",
-            "summary": "This Tiny Bike Trailer Secretly Slides Out Into a 2-Person Camper Bike-towable camping trailers have their fan base. Such living on the move facilities are redefining adventures for cyclists, especially in Europe, with their versatility and...",
-            "score": 8,
-            "trending": true
-          },
-          {
-            "source": "GQ",
-            "category": "fashion",
-            "title": "‘The Odyssey’ Trailer's Accents Aren't Actually That Weird",
-            "url": "https://www.gq.com/story/the-odyssey-trailer-accents",
-            "published": "2026-05-06T12:00:00.000Z",
-            "summary": "Did the ancient Greeks all talk like Matt Damon? Probably not. But the ubiquity of the British accent in films about the distant past is a more modern convention than many people realize.",
-            "score": 8,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "People · Think",
-        "keywords": [
-          "people",
-          "think"
-        ],
-        "sourceCount": 4,
-        "sources": [
-          "Billboard",
-          "Business of Fashion",
-          "Fast Company",
-          "Variety"
-        ],
-        "categories": [
-          "fashion",
-          "music",
-          "film",
-          "trends"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "Dave Chappelle Says the Media Gets His Trans Jokes ‘Wrong’: ‘People Would Think It’s Me vs. the Gay Community. I Never Looked at It Like That’",
-            "url": "https://variety.com/2026/tv/news/dave-chappelle-media-gets-trans-jokes-wrong-1236740017/",
-            "published": "2026-05-06T22:27:25.000Z",
-            "summary": "Dave Chappelle said during a recent episode of the “IMO” podcast that the media gets his comedy “wrong” when covering his transgender jokes. The stand-up legend urged audiences to account for a “margin of error” when watching his sets. “People would think it’s me vs. the gay…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Billboard",
-            "category": "music",
-            "title": "Ye Testifies at ‘Donda’ Copyright Trial: ‘A Lot of People Try to Take Advantage of Me’",
-            "url": "https://www.billboard.com/pro/kanye-west-testifies-donda-music-copyright-trial/",
-            "published": "2026-05-06T22:00:42.000Z",
-            "summary": "The rapper took the witness stand on Wednesday (May 6) in a trial over a sample on early versions of the songs \"Hurricane\" and \"Moon.\"",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Fast Company",
-            "category": "trends",
-            "title": "The GLP-1 paradox study: Here’s what people really think about your Ozempic weight loss",
-            "url": "https://www.fastcompany.com/91537786/glp-1-paradox-ozempic-weight-loss-what-people-really-think-study",
-            "published": "2026-05-06T19:45:00.000Z",
-            "summary": "Weight-loss culture in America is nothing new: Our collective obsession with being thin is more than a societal ideal—it’s practically a religion. But in a country where self-improvement through hard work is lauded, the quick-fix GLP-1 weight-loss revolution—without the…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Business of Fashion",
-            "category": "fashion",
-            "title": "The Debrief | Why People Hate AI",
-            "url": "https://www.businessoffashion.com/podcasts/technology/the-debrief-why-people-hate-ai/",
-            "published": "2026-05-06T19:13:54.000Z",
-            "summary": "The Debrief host Sheena Butler-Young is joined by BoF’s Marc Bain and Haley Crawford to unpack why the industry’s push for AI-led efficiency is starting to rub shoppers the wrong way.",
-            "score": 10,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Turner · Founder",
-        "keywords": [
-          "turner",
-          "founder"
-        ],
-        "sourceCount": 4,
-        "sources": [
-          "Adweek",
-          "Fast Company",
-          "The Hollywood Reporter",
-          "Variety"
-        ],
-        "categories": [
-          "film",
-          "marketing",
-          "trends"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "Jane Fonda Remembers Ted Turner as Someone Who “Needed and Cared” for Her: “He Gave Me Confidence”",
-            "url": "https://www.hollywoodreporter.com/news/general-news/jane-fonda-tribute-ted-turner-dead-1236587911/",
-            "published": "2026-05-06T21:20:52.000Z",
-            "summary": "The two-time Oscar winner was married to the CNN founder, who died Wednesday, from 1991 to 2001.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "Ted Turner and Rupert Murdoch: A Media Feud for the Ages",
-            "url": "https://variety.com/2026/tv/news/ted-turner-rupert-murdoch-feud-history-cnn-fox-news-1236739792/",
-            "published": "2026-05-06T20:34:21.000Z",
-            "summary": "When the news broke Wednesday that Ted Turner, the renowned media and sports mogul, had died at the age of 87, leading voices in the media and entertainment world showered praise upon his legacy. “He believed deeply in the power of ideas, in doing things differently and in…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Fast Company",
-            "category": "trends",
-            "title": "Ted Turner, the founder of CNN, dies at 87",
-            "url": "https://www.fastcompany.com/91537887/ted-turner-cnn-death-obit",
-            "published": "2026-05-06T17:30:00.000Z",
-            "summary": "Ted Turner, a brash television pioneer who raced yachts, owned huge chunks of the American West and transformed the news business by launching CNN and introducing the 24-hour cable news cycle, died Wednesday. He was 87. Turner died surrounded by his family, according to Turner…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "CNN Founder Ted Turner Dies at 87",
-            "url": "https://www.adweek.com/tvnewser/cnn-founder-ted-turner-dies-at-87/",
-            "published": "2026-05-06T11:21:35.000Z",
-            "summary": "Turner pioneered the 24-hour news network, fundamentally changing the news industry.",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Heaven · Stranger",
-        "keywords": [
-          "heaven",
-          "stranger"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Polygon",
-          "The Hollywood Reporter",
-          "Variety"
-        ],
-        "categories": [
-          "gaming",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Sega’s Stranger Than Heaven cast includes a yakuza icon who died 12 years ago",
-            "url": "https://www.polygon.com/stranger-than-heaven-bunta-sugawara/",
-            "published": "2026-05-06T23:33:18.000Z",
-            "summary": "Bunta Sugawara starred in the Battles Without Honor and Humanity series in the 1970s, which were a huge influence on RGG Studio's Yakuza games",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Stranger Than Heaven release date narrows down in new Xbox showcase",
-            "url": "https://www.polygon.com/stranger-than-heaven-xbox-showcase/",
-            "published": "2026-05-06T23:31:10.000Z",
-            "summary": "Xbox Presents: A Special Look at Stranger Than Heaven revealed details about the story, time periods, cast, combat, and mini-games in RGGs latest",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "‘Highway to Heaven’ Remake Set at Fox for 2027-28 Season",
-            "url": "https://www.hollywoodreporter.com/tv/tv-news/highway-to-heaven-remake-fox-2027-28-1236588427/",
-            "published": "2026-05-06T21:31:53.000Z",
-            "summary": "Jason Katims will be the showrunner on the new take on the show based on Michael Landon's 1980s drama.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "‘Highway to Heaven’ Reboot Set at Fox",
-            "url": "https://variety.com/2026/tv/news/highway-to-heaven-reboot-fox-1236739872/",
-            "published": "2026-05-06T21:17:22.000Z",
-            "summary": "“Highway to Heaven” is getting a second life. The drama fantasy series, which ran from 1984 to 1989 on NBC, is being rebooted by Fox for the 2027-2028 broadcast season. Emmy winning writer Jason Katims (“Friday Night Lights,” “Parenthood”) will showrun the new iteration of the…",
-            "score": 10,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Price · Tiny",
-        "keywords": [
-          "price",
-          "tiny"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "The Verge",
-          "Variety",
-          "Yanko Design"
-        ],
-        "categories": [
-          "art",
-          "internet",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "More Than Half of Gen Z Users Cancel and Renew Streaming Services for a Single Title, Won’t Purchase Full-Price Video Games, New Study Finds",
-            "url": "https://variety.com/2026/tv/news/gen-z-cancels-streaming-subs-one-show-dont-buy-games-1236739557/",
-            "published": "2026-05-06T21:39:00.000Z",
-            "summary": "Gen Z is unsubscribing: A study has found that more than half of the younger age demographic cancels and renews streaming subscriptions based on the availability of one TV series or film, and nearly a third won’t pay full price for a game and would rather sample via a gaming…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Yanko Design",
-            "category": "art",
-            "title": "This $30,000 Tiny Home Puts the Bed on the Ground Floor and the Price Below Every Competitor",
-            "url": "https://www.yankodesign.com/2026/05/06/this-30000-tiny-home-puts-the-bed-on-the-ground-floor-and-the-price-below-every-competitor/?utm_source=rss&utm_medium=rss&utm_campaign=this-30000-tiny-home-puts-the-bed-on-the-ground-floor-and-the-price-below-every-competitor",
-            "published": "2026-05-06T21:30:16.000Z",
-            "summary": "This $30,000 Tiny Home Puts the Bed on the Ground Floor and the Price Below Every Competitor At just $30,000, the Shanti by Simplify Further Tiny Homes might be the most honest tiny home on the market right now. No gimmicks, no...",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
+            "title": "TikTok's #louderthebetter hashtag passes 2B views",
+            "summary": "A new aesthetic tag celebrating clashing prints and statement jewellery is outpacing #quietluxury for the first time.",
+            "cultural_relevance": "Consumer-side proof the maximalist turn isn't just a runway story — Gen Z is actively rejecting the minimalist look.",
+            "source": "Complex",
+            "url": "https://www.complex.com/",
             "category": "internet",
-            "title": "The latest Tile Pro is down to $25 — its best price of the year",
-            "url": "https://www.theverge.com/gadgets/925294/tile-pro-mothers-day-gift-bluetooth-tracker-deal-sale",
-            "published": "2026-05-06T19:00:00.000Z",
-            "summary": "The black and white versions of the latest Tile Pro is $10 off, marking its best price of the year. | Image: Tile If you’re struggling to find a Mother’s Day gift under $30, location trackers are a good investment, helping mom keep tabs on keys, bags, luggage, and other…",
-            "score": 10,
-            "trending": true
+            "score": 7
           }
         ]
       },
       {
-        "label": "David · Chipperfield",
-        "keywords": [
-          "david",
-          "chipperfield"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Dezeen",
-          "The Hollywood Reporter",
-          "The Verge"
-        ],
-        "categories": [
-          "art",
-          "internet",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
+        "title": "Athletes as creative directors",
+        "summary": "Brands are restructuring athlete deals around editorial control rather than endorsement.",
         "items": [
           {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "Paul Shaffer Sings Frank Sinatra, Shares Stage with David Letterman and John Mulaney at Netflix Event",
-            "url": "https://www.hollywoodreporter.com/tv/tv-news/david-letterman-netflix-john-mulaney-paul-shaffer-live-show-1236588416/",
-            "published": "2026-05-06T23:21:42.000Z",
-            "summary": "Mulaney made the most of his time on the Montalban stage by praising comedian Robby Hoffman, teasing a return to 'Everybody's in LA' and trashing the Michael Jackson biopic: \"It looks like dog shit.\"",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "David Zaslav Says HBO Max Is “Probably” Warner Bros. Discovery’s “Most Important Asset”",
-            "url": "https://www.hollywoodreporter.com/business/business-news/david-zaslav-hbo-max-most-important-asset-paramount-1236588400/",
-            "published": "2026-05-06T21:37:16.000Z",
-            "summary": "Rude to the water tower.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "How David Sacks crashed and burned in the White House",
-            "url": "https://www.theverge.com/column/925487/david-sacks-trump-administration-ai-model-review",
-            "published": "2026-05-06T20:18:00.000Z",
-            "summary": "AI and Crypto Czar David O. Sacks speaks during a meeting of the White House Task Force on Artificial Intelligence Education at the White House. | Matt McClain/The Washington Post via Getty Images Hello and welcome to Regulator, a newsletter exclusively for Verge subscribers…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "David Chipperfield creates freestanding plywood bathtub for Agape",
-            "url": "https://www.dezeen.com/2026/05/06/agape-david-chipperfield-tambre-bathtub/",
-            "published": "2026-05-06T05:00:08.000Z",
-            "summary": "David Chipperfield Design has developed a wooden bathtub for Italian bathroom brand Agape, featuring a pared-back form with an integrated seat, shelf and washbasin. For its first-ever collaboration with Agape, which launched during Milan design week, the design studio of…",
-            "score": 9,
-            "trending": true
+            "title": "Nike signs 17-year-old skater to a creative deal, not an athletic one",
+            "summary": "The contract reportedly gives the skater editorial control over a sub-line, a structure usually reserved for designers.",
+            "cultural_relevance": "Continues the blurring of athlete and creative-director roles, building on the Drake-NOCTA and Travis Scott-Jordan playbook.",
+            "source": "Hypebeast",
+            "url": "https://hypebeast.com/",
+            "category": "sport",
+            "score": 7
           }
         ]
       }
     ]
-  }
+  },
+  "weekly_hypes": [
+    {
+      "title": "Generative music goes from gimmick to product",
+      "description": "Multiple AI-assisted tracks crossing into mainstream charts and playlists, with at least three labels publicly hiring 'prompt producers'.",
+      "why_it_matters": "Previously a fringe experiment, generative music is now competing for the same shelf space as human-only releases — forcing platforms, labels and unions to define rules in real time.",
+      "signals": [
+        "AI track in Spotify Global top 10",
+        "Songwriter union pushes mandatory disclosure",
+        "Two majors publicly post 'prompt producer' roles",
+        "Sora-generated music videos trending on TikTok"
+      ],
+      "categories": ["music", "internet"],
+      "score": 8
+    },
+    {
+      "title": "Maximalist aesthetics across feeds and runways",
+      "description": "Loud prints, statement jewellery and surrealist tailoring appearing in coordinated waves across TikTok, runway coverage and creator content.",
+      "why_it_matters": "Consumer aesthetic cycles drive 12-month roadmaps for product, packaging and even UI design. Brands still leaning into stealth-wealth visuals are mistiming the next cycle.",
+      "signals": [
+        "#louderthebetter passes 2B views",
+        "Schiaparelli surrealist show",
+        "Three major creators pivot to clash-print content",
+        "Pinterest 'maximalist interiors' searches up sharply"
+      ],
+      "categories": ["fashion", "internet"],
+      "score": 7
+    },
+    {
+      "title": "Mid-budget gaming reclaims attention",
+      "description": "Word-of-mouth single-player titles from small studios are outperforming AAA live-service forecasts.",
+      "why_it_matters": "Audiences are signalling fatigue with infinite-content live-service models. Marketing budgets are shifting from launch-day spend to creator and community seeding.",
+      "signals": [
+        "30-person studio's debut RPG passes 5M copies",
+        "Two AAA live-service launches missing internal targets",
+        "Discord communities outpacing official channels for promo"
+      ],
+      "categories": ["gaming"],
+      "score": 6
+    }
+  ],
+  "monthly_trends": [
+    {
+      "title": "The end of stealth-wealth as cultural default",
+      "description": "After two-plus years of beige-on-beige, quiet-luxury aesthetic dominance, a coordinated shift toward expressive, identity-driven dress is showing up across runway, social and search data.",
+      "cultural_shift": "From signalling status through restraint to signalling identity through specificity. Self-expression replaces taste-as-tribal-signal.",
+      "evidence": [
+        "Maximalist hashtags overtaking quiet-luxury counterparts on TikTok",
+        "Major fashion houses returning to surrealist and ornate collections",
+        "Decline in muted-palette product launches at big retailers",
+        "Rise of vintage-led, archive-driven creator content"
+      ],
+      "implications": "Brands and creators built around minimalism need to plan a credible second act. Expect a wave of 'expressive line extensions' and collab-heavy launches across luxury, beauty and home over the next two seasons.",
+      "score": 8
+    },
+    {
+      "title": "Athletes as IP owners, not faces",
+      "description": "A multi-year shift in how brands structure deals with athletes — from endorsement contracts to creative-director and equity arrangements.",
+      "cultural_shift": "The athlete is now treated as a cultural distribution channel and IP holder, on par with designers and musicians. Endorsement is increasingly seen as a low-leverage 2010s relic.",
+      "evidence": [
+        "Nike signing teenage skater to a creative-control deal",
+        "Multiple F1 drivers launching own labels with house support",
+        "WNBA players negotiating equity rather than fees",
+        "Drake-NOCTA and Travis-Jordan continuing to outperform pure endorsement deals"
+      ],
+      "implications": "Brand strategists should rethink athlete deal structures: less 'face of the campaign', more co-author relationships. Expect creative-director titles to keep migrating across categories.",
+      "score": 7
+    },
+    {
+      "title": "Authorship is being renegotiated everywhere",
+      "description": "From music (AI co-writers) to fashion (athlete creative directors) to gaming (community-driven launches), the question of who 'made' something is becoming culturally and contractually ambiguous.",
+      "cultural_shift": "Authorship is moving from a single-name model to a credits-stack model, similar to film. This affects pay, rights, recognition and brand storytelling.",
+      "evidence": [
+        "Songwriter union pushing AI-disclosure rules",
+        "Athlete creative-director deal structures spreading",
+        "Indie game launches credited via Discord moderators",
+        "Rise of 'art directed by' framing in fashion campaigns"
+      ],
+      "implications": "Expect brands to adopt richer credits language, contracts to grow in complexity, and audiences to start asking 'who actually made this' as a buying signal.",
+      "score": 7
+    }
+  ]
 }

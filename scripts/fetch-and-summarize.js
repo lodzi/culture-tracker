@@ -672,7 +672,11 @@ async function main() {
   console.log("✓ Updated " + ARCHIVE_INDEX_PATH);
 }
 
-main().catch(function (err) {
+// Force exit zodat hangende HTTP-sockets (chunked feeds die nooit afsluiten)
+// de Node.js event loop niet blokkeren na afloop van het script.
+main().then(function () {
+  process.exit(0);
+}).catch(function (err) {
   console.error("Fatal:", err);
   process.exit(1);
 });
