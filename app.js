@@ -3,25 +3,27 @@
 //   1. AI-formaat  → brief.daily.categories  (array van {id, label, insights[]})
 //   2. Raw-formaat → brief.daily.topics      (array van topic-clusters, fallback)
 //
-// Tabs: Daily · Weekly (alleen als brief.weekly aanwezig is)
+// Tabs: Daily · Weekly · Monthly (alleen als data aanwezig is)
 
 (function () {
   "use strict";
 
   // --- DOM refs ---
-  const $intro      = document.getElementById("intro");
-  const $briefDate  = document.getElementById("brief-date");
-  const $catFilter  = document.getElementById("filter-category");
-  const $resetBtn   = document.getElementById("filter-reset");
-  const $layerDaily = document.getElementById("layer-daily");
-  const $layerWeek  = document.getElementById("layer-weekly");
-  const $tabDaily   = document.getElementById("tab-daily");
-  const $tabWeek    = document.getElementById("tab-weekly");
-  const $archList   = document.getElementById("archive-list");
+  const $intro       = document.getElementById("intro");
+  const $briefDate   = document.getElementById("brief-date");
+  const $catFilter   = document.getElementById("filter-category");
+  const $resetBtn    = document.getElementById("filter-reset");
+  const $layerDaily  = document.getElementById("layer-daily");
+  const $layerWeek   = document.getElementById("layer-weekly");
+  const $layerMonth  = document.getElementById("layer-monthly");
+  const $tabDaily    = document.getElementById("tab-daily");
+  const $tabWeek     = document.getElementById("tab-weekly");
+  const $tabMonth    = document.getElementById("tab-monthly");
+  const $archList    = document.getElementById("archive-list");
 
   // --- State ---
   let brief  = null;
-  let curTab = "daily";  // "daily" | "weekly"
+  let curTab = "daily";  // "daily" | "weekly" | "monthly"
 
   // --- Helpers ---
   function el(tag, attrs, children) {
@@ -64,6 +66,50 @@
       if (h < 24) return h + "u geleden";
       return Math.floor(h / 24) + "d geleden";
     } catch (e) { return ""; }
+  }
+
+  // ── Cross-category mega-trends rendering ─────────────────────────────────
+
+  function renderMegaTrend(mt) {
+    const catPills = (mt.categories || []).map(function (c) {
+      return el("span", { class: "pill mega-cat" }, c);
+    });
+    const catsRow = catPills.length
+      ? el("div", { class: "mega-cats" }, catPills)
+      : null;
+
+    const signal = mt.signal
+      ? el("p", { class: "mega-signal" }, [
+          el("strong", null, "Signaal: "),
+          mt.signal,
+        ])
+      : null;
+
+    return el("div", { class: "mega-trend" }, [
+      el("div", { class: "mega-trend-header" }, [
+        el("h3", { class: "mega-trend-name" }, mt.name || ""),
+        el("span", { class: "badge badge-mega" }, "Cross-categorie"),
+      ]),
+      mt.summary ? el("p", { class: "mega-summary" }, mt.summary) : null,
+      signal,
+      catsRow,
+    ]);
+  }
+
+  function renderCrossCategory(crossCat, $container) {
+    const megaTrends = (crossCat && Array.isArray(crossCat.megaTrends))
+      ? crossCat.megaTrends : [];
+    if (megaTrends.length === 0) return;
+
+    const wrap = el("section", { class: "cross-category" }, [
+      el("div", { class: "category-header" }, [
+        el("h2", { class: "category-title" }, "Mega-trends — cross-categorie"),
+      ]),
+    ]);
+    const grid = el("div", { class: "mega-trends-grid" });
+    megaTrends.forEach(function (mt) { grid.appendChild(renderMegaTrend(mt)); });
+    wrap.appendChild(grid);
+    $container.appendChild(wrap);
   }
 
   // ── AI-formaat rendering ──────────────────────────────────────────────────
@@ -130,8 +176,12 @@
   }
 
   function renderWeeklyInsight(insight) {
+    const momentumBadge = insight.momentum
+      ? el("span", { class: "badge badge-momentum" }, insight.momentum)
+      : null;
     const header = el("div", { class: "insight-header" }, [
       el("h3", { class: "insight-trend" }, insight.trend || ""),
+      momentumBadge,
     ]);
     const summary = insight.summary
       ? el("p", { class: "insight-summary" }, insight.summary)
@@ -145,18 +195,42 @@
     return el("div", { class: "insight" }, [header, summary, why]);
   }
 
-  function renderCategorySection(cat, isWeekly) {
+  function renderMonthlyInsight(insight) {
+    const horizonBadge = insight.horizon
+      ? el("span", { class: "badge badge-horizon" }, "↗ " + insight.horizon)
+      : null;
+    const header = el("div", { class: "insight-header" }, [
+      el("h3", { class: "insight-trend" }, insight.trend || ""),
+      horizonBadge,
+    ]);
+    const summary = insight.summary
+      ? el("p", { class: "insight-summary" }, insight.summary)
+      : null;
+    const why = insight.why_it_matters
+      ? el("p", { class: "insight-why" }, [
+          el("strong", null, "Strategische impact: "),
+          insight.why_it_matters,
+        ])
+      : null;
+    return el("div", { class: "insight" }, [header, summary, why]);
+  }
+
+  function renderCategorySection(cat, mode) {
+    // mode: "daily" | "weekly" | "monthly"
     const header = el("div", { class: "category-header" }, [
       el("h2", { class: "category-title" }, cat.label || cat.id),
     ]);
     const insightsEl = el("div", { class: "insights" });
     (cat.insights || []).forEach(function (ins) {
-      insightsEl.appendChild(isWeekly ? renderWeeklyInsight(ins) : renderInsight(ins));
+      if (mode === "monthly")     insightsEl.appendChild(renderMonthlyInsight(ins));
+      else if (mode === "weekly") insightsEl.appendChild(renderWeeklyInsight(ins));
+      else                        insightsEl.appendChild(renderInsight(ins));
     });
     return el("section", { class: "category" }, [header, insightsEl]);
   }
 
-  function renderAiLayer(data, $container, isWeekly) {
+  function renderAiLayer(data, $container, mode) {
+    // mode: "daily" | "weekly" | "monthly"
     $container.innerHTML = "";
     const cats     = Array.isArray(data.categories) ? data.categories : [];
     const filterVal = $catFilter ? $catFilter.value : "";
@@ -167,7 +241,7 @@
       return;
     }
     filtered.forEach(function (cat) {
-      $container.appendChild(renderCategorySection(cat, isWeekly));
+      $container.appendChild(renderCategorySection(cat, mode || "daily"));
     });
   }
 
@@ -222,10 +296,12 @@
 
   function showTab(tab) {
     curTab = tab;
-    if ($tabDaily) $tabDaily.classList.toggle("active", tab === "daily");
-    if ($tabWeek)  $tabWeek.classList.toggle("active",  tab === "weekly");
+    if ($tabDaily)  $tabDaily.classList.toggle("active",  tab === "daily");
+    if ($tabWeek)   $tabWeek.classList.toggle("active",   tab === "weekly");
+    if ($tabMonth)  $tabMonth.classList.toggle("active",  tab === "monthly");
     if ($layerDaily) $layerDaily.classList.toggle("hidden", tab !== "daily");
     if ($layerWeek)  $layerWeek.classList.toggle("hidden",  tab !== "weekly");
+    if ($layerMonth) $layerMonth.classList.toggle("hidden", tab !== "monthly");
     renderCurrentTab();
   }
 
@@ -233,13 +309,29 @@
     if (!brief) return;
 
     if (curTab === "daily" && $layerDaily) {
+      $layerDaily.innerHTML = "";
       const daily = brief.daily || {};
-      if (Array.isArray(daily.categories)) renderAiLayer(daily, $layerDaily, false);
+      // Render cross-category mega-trends at top (if present)
+      if (brief.crossCategory && Array.isArray(brief.crossCategory.megaTrends) &&
+          brief.crossCategory.megaTrends.length > 0) {
+        renderCrossCategory(brief.crossCategory, $layerDaily);
+      }
+      if (Array.isArray(daily.categories)) renderAiLayer(daily, $layerDaily, "daily");
       else renderRawLayer(daily, $layerDaily);
     }
 
     if (curTab === "weekly" && $layerWeek && brief.weekly) {
-      renderAiLayer(brief.weekly, $layerWeek, true);
+      renderAiLayer(brief.weekly, $layerWeek, "weekly");
+    }
+
+    if (curTab === "monthly" && $layerMonth && brief.monthly) {
+      if (Array.isArray(brief.monthly.categories)) {
+        renderAiLayer(brief.monthly, $layerMonth, "monthly");
+      } else {
+        $layerMonth.innerHTML = "";
+        $layerMonth.appendChild(el("p", { class: "empty" },
+          "Maandoverzicht wordt gegenereerd zodra er genoeg weekdata is (7+ dagen archief)."));
+      }
     }
   }
 
@@ -270,8 +362,10 @@
   }
 
   function updateTabVisibility() {
-    const hasWeekly = brief && brief.weekly && Array.isArray(brief.weekly.categories);
-    if ($tabWeek) $tabWeek.classList.toggle("hidden", !hasWeekly);
+    const hasWeekly  = brief && brief.weekly  && Array.isArray(brief.weekly.categories);
+    const hasMonthly = brief && brief.monthly && Array.isArray(brief.monthly.categories);
+    if ($tabWeek)  $tabWeek.classList.toggle("hidden",  !hasWeekly);
+    if ($tabMonth) $tabMonth.classList.toggle("hidden", !hasMonthly);
   }
 
   // ── Archive ───────────────────────────────────────────────────────────────
@@ -330,8 +424,9 @@
 
   // ── Event wiring ──────────────────────────────────────────────────────────
 
-  if ($tabDaily) $tabDaily.addEventListener("click", function () { showTab("daily"); });
-  if ($tabWeek)  $tabWeek.addEventListener("click",  function () { showTab("weekly"); });
+  if ($tabDaily)  $tabDaily.addEventListener("click",  function () { showTab("daily"); });
+  if ($tabWeek)   $tabWeek.addEventListener("click",   function () { showTab("weekly"); });
+  if ($tabMonth)  $tabMonth.addEventListener("click",  function () { showTab("monthly"); });
   if ($catFilter) $catFilter.addEventListener("change", renderCurrentTab);
   if ($resetBtn)  $resetBtn.addEventListener("click", function () {
     if ($catFilter) $catFilter.value = "";

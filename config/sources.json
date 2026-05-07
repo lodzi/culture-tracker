@@ -405,5 +405,28 @@
     "url": "https://www.bruzz.be/rss.xml",
     "category": "lokaal",
     "weight": 7
+  },
+  {
+    "name": "Wikipedia Trending NL",
+    "type": "wikipedia-trending",
+    "language": "nl",
+    "category": "trends",
+    "weight": 9,
+    "limit": 25
+  },
+  {
+    "name": "Wikipedia Trending EN",
+    "type": "wikipedia-trending",
+    "language": "en",
+    "category": "trends",
+    "weight": 8,
+    "limit": 20
+  },
+  {
+    "name": "Letterboxd",
+    "type": "rss",
+    "url": "https://letterboxd.com/films/popular/this/week/rss/",
+    "category": "film",
+    "weight": 8
   }
 ]

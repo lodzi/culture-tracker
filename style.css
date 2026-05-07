@@ -362,6 +362,108 @@ a:hover { opacity: 0.7; }
   .insight.is-trending { border-left-color: #ff8c42; }
 }
 
+/* ─── Cross-category mega-trends ───────────────────────────────────────── */
+
+.cross-category {
+  margin: 0 0 48px;
+  padding-bottom: 32px;
+  border-bottom: 2px solid var(--line);
+}
+
+.mega-trends-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.mega-trend {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  border-left: 4px solid #6c47ff;
+  padding: 18px 20px;
+}
+
+.mega-trend-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0 0 10px;
+}
+
+.mega-trend-name {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.mega-summary {
+  margin: 0 0 10px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--fg);
+}
+
+.mega-signal {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: var(--muted);
+  font-style: italic;
+  border-left: 2px solid #6c47ff;
+  padding-left: 10px;
+}
+.mega-signal strong { font-style: normal; color: var(--muted); font-weight: 600; }
+
+.mega-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pill.mega-cat {
+  background: #ede9ff;
+  color: #4a2eb5;
+  border: none;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.badge-mega {
+  background: #ede9ff;
+  color: #4a2eb5;
+  flex-shrink: 0;
+  font-size: 11px;
+}
+
+.badge-momentum {
+  background: #e6f7ef;
+  color: #1a7a46;
+  flex-shrink: 0;
+  font-size: 11px;
+}
+
+.badge-horizon {
+  background: #fff8e6;
+  color: #8a5a00;
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  .mega-trend { border-left-color: #9b7dff; }
+  .mega-signal { border-left-color: #9b7dff; }
+  .pill.mega-cat { background: #1e1540; color: #b49fff; }
+  .badge-mega   { background: #1e1540; color: #b49fff; }
+  .badge-momentum { background: #0d2b1a; color: #4ecb89; }
+  .badge-horizon  { background: #2a1f00; color: #d4a017; }
+}
+
 /* Mobile */
 @media (max-width: 480px) {
   .filter-row { flex-direction: column; align-items: stretch; }

@@ -1,45 +1,44 @@
 #!/usr/bin/env node
 /**
- * Culture Tracker — AI synthesis via Claude Haiku.
+ * Culture Tracker — AI synthesis via Claude.
  *
- * Reads data/latest-raw.json (output van fetch-and-summarize.js) en de
- * laatste 7 archieven voor weekly synthesis.
+ * Leest data/latest-raw.json + archief en produceert data/latest.json met:
+ *   - daily:    top 3 trends per categorie           (Haiku — goedkoop, snel)
+ *   - megaTrends: cross-categorie mega-trends        (Haiku — één extra call)
+ *   - weekly:   opkomende patronen over 7 dagen      (Sonnet — beter redeneren)
+ *   - monthly:  macro-verschuivingen over 30 dagen   (Sonnet — alleen als stale)
  *
- * Stappen:
- *   1. Daily: stuurt gegroepeerde cluster-titels naar Haiku in één call.
- *      Haiku valideert semantische coherentie + schrijft per categorie
- *      max. 3 trend-insights.
- *   2. Weekly: stuurt geaggregeerde dagelijkse inzichten van de afgelopen
- *      7 dagen naar Haiku voor patroonherkenning.
- *   3. Schrijft data/latest.json (AI-verrijkt) + data/archive/YYYY-MM-DD.json.
+ * Caching: weekly wordt alleen herberekend als >6 dagen oud.
+ *          monthly wordt alleen herberekend als >25 dagen oud.
  *
- * Kosten (Claude Haiku):
- *   Daily call  ≈ $0.005 · Weekly call ≈ $0.002 → < $0.20/maand bij dagelijks gebruik.
+ * Kosten: daily+cross ≈ $0.006 · weekly ≈ $0.03 · monthly ≈ $0.05
+ *         Maandelijks totaal: ~$0.50
  *
- * Vereist: ANTHROPIC_API_KEY omgevingsvariabele.
- *
- * Dependencies: @anthropic-ai/sdk
+ * Vereist: ANTHROPIC_API_KEY
  */
 
 "use strict";
 
-const fs   = require("fs");
-const path = require("path");
+const fs      = require("fs");
+const path    = require("path");
 const Anthropic = require("@anthropic-ai/sdk");
 
 // --- Paths ---
-const ROOT             = path.resolve(__dirname, "..");
-const DATA_DIR         = path.join(ROOT, "data");
-const ARCHIVE_DIR      = path.join(DATA_DIR, "archive");
-const RAW_PATH         = path.join(DATA_DIR, "latest-raw.json");
-const LATEST_PATH      = path.join(DATA_DIR, "latest.json");
-const ARCHIVE_INDEX    = path.join(ARCHIVE_DIR, "index.json");
+const ROOT          = path.resolve(__dirname, "..");
+const DATA_DIR      = path.join(ROOT, "data");
+const ARCHIVE_DIR   = path.join(DATA_DIR, "archive");
+const RAW_PATH      = path.join(DATA_DIR, "latest-raw.json");
+const LATEST_PATH   = path.join(DATA_DIR, "latest.json");
+const ARCHIVE_INDEX = path.join(ARCHIVE_DIR, "index.json");
+
+// --- Models ---
+const HAIKU  = "claude-haiku-4-5-20251001";   // snel + goedkoop → daily
+const SONNET = "claude-sonnet-4-6";            // beter redeneren → weekly/monthly
 
 // --- Config ---
-const MAX_INSIGHTS   = 3;   // max trends per categorie per tijdsframe
-const MAX_CLUSTERS   = 6;   // max clusters per categorie die we naar de API sturen
-const MAX_TITLES     = 5;   // max artikel-titels per cluster in de prompt (houdt tokens laag)
-const LOOKBACK_DAYS  = 7;   // voor weekly synthesis
+const MAX_INSIGHTS      = 3;
+const MAX_CLUSTERS_SENT = 6;   // clusters per cat die we naar API sturen
+const MAX_TITLES_SENT   = 5;   // titels per cluster
 
 const CATEGORIES_ORDER = [
   "lokaal", "culture", "music", "fashion", "film", "art",
@@ -60,28 +59,27 @@ const CATEGORY_LABELS = {
 };
 
 // --- Helpers ---
-function readJSON(p) {
-  return JSON.parse(fs.readFileSync(p, "utf8"));
-}
+function readJSON(p)       { return JSON.parse(fs.readFileSync(p, "utf8")); }
+function writeJSON(p, obj) { fs.writeFileSync(p, JSON.stringify(obj, null, 2) + "\n", "utf8"); }
+function todayISO()        { return new Date().toISOString().slice(0, 10); }
+function catLabel(id)      { return CATEGORY_LABELS[id] || id.charAt(0).toUpperCase() + id.slice(1); }
 
-function writeJSON(p, data) {
-  fs.writeFileSync(p, JSON.stringify(data, null, 2) + "\n", "utf8");
-}
-
-function todayISO() {
-  return new Date().toISOString().slice(0, 10);
-}
-
-function categoryLabel(id) {
-  return CATEGORY_LABELS[id] || (id.charAt(0).toUpperCase() + id.slice(1));
-}
-
-function sortCategories(categories) {
-  return categories.slice().sort(function (a, b) {
+function sortCats(cats) {
+  return cats.slice().sort(function (a, b) {
     const ai = CATEGORIES_ORDER.indexOf(a.id);
     const bi = CATEGORIES_ORDER.indexOf(b.id);
     return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
   });
+}
+
+function ageDays(isoDate) {
+  if (!isoDate) return 999;
+  return (Date.now() - new Date(isoDate).getTime()) / 86400000;
+}
+
+function parseAIJson(text) {
+  const match = text.match(/\{[\s\S]*\}/);
+  return JSON.parse(match ? match[0] : text);
 }
 
 function updateArchiveIndex(date) {
@@ -97,47 +95,52 @@ function updateArchiveIndex(date) {
 }
 
 // ── Daily synthesis ────────────────────────────────────────────────────────
+// Stuurt cluster-titels naar Haiku. Haiku valideert coherentie + schrijft
+// per categorie max. 3 trend-insights met samenvatting en culturele duiding.
 
 async function synthesizeDaily(client, rawData) {
   const topics = (rawData.daily && rawData.daily.topics) || [];
-
   if (topics.length === 0) {
-    console.warn("  Geen topics in raw data.");
-    return { categories: [], intro: "Geen data beschikbaar." };
+    return { categories: [], intro: "Geen data beschikbaar.", generatedAt: new Date().toISOString() };
   }
 
-  // Groepeer clusters per categorie; neem de top MAX_CLUSTERS per categorie
+  // Groepeer per categorie, sorteer op sourceCount
   const byCategory = {};
-  for (const topic of topics) {
-    for (const cat of (topic.categories || [])) {
+  for (const t of topics) {
+    for (const cat of (t.categories || [])) {
       if (!byCategory[cat]) byCategory[cat] = [];
-      byCategory[cat].push(topic);
+      byCategory[cat].push(t);
     }
   }
 
-  // Bouw compacte promptdata: alleen titels (geen summaries) om tokens laag te houden.
-  // Structuur: { categoryId: [ { idx, sources, titles } ] }
   const promptData = {};
   for (const [cat, catTopics] of Object.entries(byCategory)) {
-    promptData[cat] = catTopics.slice(0, MAX_CLUSTERS).map(function (t, idx) {
+    promptData[cat] = catTopics.slice(0, MAX_CLUSTERS_SENT).map(function (t, idx) {
       return {
         idx:     idx,
-        sources: t.sources.slice(0, 4),
-        titles:  t.items.slice(0, MAX_TITLES).map(function (a) { return a.title; }),
+        bronnen: t.sources.slice(0, 4),
+        titels:  t.items.slice(0, MAX_TITLES_SENT).map(function (a) { return a.title; }),
       };
     });
   }
 
-  const prompt = `Je bent een cultureel trendanalist. Analyseer deze artikel-clusters per categorie.
+  const prompt = `Je bent een scherpe culturele trendwatcher. Analyseer deze nieuwsclusters per categorie.
 
-Elke cluster bevat artikels die hetzelfde keyword delen, maar dat betekent NIET dat ze over hetzelfde gaan.
-Jouw taak: bepaal welke clusters écht over hetzelfde culturele onderwerp gaan (coherent), en schrijf daarvoor een trend-insight.
+KRITISCH: een cluster = artikels die hetzelfde keyword delen, maar dat betekent NIET dat ze over hetzelfde gaan.
+Bepaal of de artikels echt over hetzelfde specifieke onderwerp gaan (coherent = true/false).
 
-Geef maximaal ${MAX_INSIGHTS} echte trends per categorie. Een echte trend:
-- Heeft artikels van 2+ verschillende bronnen over hetzelfde specifieke onderwerp
-- Is cultureel significant (niet enkel een random nieuwsfeit)
+Schrijf per categorie maximaal ${MAX_INSIGHTS} ECHTE culturele trends. Een echte trend:
+- Wordt gedekt door 2+ onafhankelijke bronnen over precies hetzelfde onderwerp
+- Heeft culturele relevantie, niet alleen nieuwswaarde
+- Is specifiek (niet "muziek is populair" maar "de comeback van neo-soul in mainstream pop")
 
-Antwoord ALLEEN met geldige JSON, geen uitleg erbuiten:
+Geef voor elke insight:
+- trend: pakkende titel van 4-6 woorden (Nederlands of Engels, wat het best past)
+- summary: 2 zinnen — wat er precies gebeurt, wie/wat erbij betrokken is
+- why_it_matters: 1 zin — de bredere culturele betekenis of wat dit voorspelt
+- trajectory: "opkomend" | "piekend" | "afbouwend" (schat in op basis van bronnen en context)
+
+Antwoord ALLEEN met JSON:
 {
   "categories": [
     {
@@ -146,46 +149,38 @@ Antwoord ALLEEN met geldige JSON, geen uitleg erbuiten:
         {
           "idx": 0,
           "coherent": true,
-          "trend": "Trendsamenvatting in 4-6 woorden",
-          "summary": "2 zinnen: wat er precies gebeurt en wie erbij betrokken is.",
-          "why_it_matters": "1 zin over bredere culturele betekenis."
+          "trend": "...",
+          "summary": "...",
+          "why_it_matters": "...",
+          "trajectory": "opkomend"
         }
       ]
     }
   ]
 }
 
-Zet coherent: false als de artikels van een cluster niet écht over hetzelfde gaan.
-Geef enkel de ${MAX_INSIGHTS} meest significante trends per categorie.
-
 Clusters per categorie:
 ${JSON.stringify(promptData, null, 2)}`;
 
-  console.log("  Haiku aanroepen voor daily synthesis…");
+  console.log("  [Haiku] Daily synthesis…");
   const msg = await client.messages.create({
-    model:      "claude-haiku-4-5-20251001",
-    max_tokens: 2048,
-    messages:   [{ role: "user", content: prompt }],
+    model: HAIKU, max_tokens: 2048,
+    messages: [{ role: "user", content: prompt }],
   });
-
-  const text = msg.content[0].text;
   console.log("  Tokens: " + msg.usage.input_tokens + " in + " + msg.usage.output_tokens + " out");
 
   let aiResult;
-  try {
-    const match = text.match(/\{[\s\S]*\}/);
-    aiResult = JSON.parse(match ? match[0] : text);
-  } catch (e) {
-    console.error("  Kon AI-antwoord niet parsen:", text.slice(0, 300));
+  try { aiResult = parseAIJson(msg.content[0].text); }
+  catch (e) {
+    console.error("  Parse mislukt:", msg.content[0].text.slice(0, 200));
     throw e;
   }
 
-  // Combineer AI-insights met de originele clusterdata (bronnen, artikels)
   const categories = [];
   let totalInsights = 0;
 
   for (const catResult of (aiResult.categories || [])) {
-    const catId     = catResult.id;
+    const catId    = catResult.id;
     const catTopics = byCategory[catId] || [];
     const insights  = [];
 
@@ -193,11 +188,11 @@ ${JSON.stringify(promptData, null, 2)}`;
       if (!ins.coherent) continue;
       const topic = catTopics[ins.idx];
       if (!topic) continue;
-
       insights.push({
         trend:          ins.trend,
         summary:        ins.summary,
         why_it_matters: ins.why_it_matters,
+        trajectory:     ins.trajectory || null,
         sources:        topic.sources,
         trending:       topic.trending || false,
         articles:       topic.items.slice(0, 4).map(function (a) {
@@ -207,28 +202,83 @@ ${JSON.stringify(promptData, null, 2)}`;
     }
 
     if (insights.length > 0) {
-      categories.push({ id: catId, label: categoryLabel(catId), insights: insights });
+      categories.push({ id: catId, label: catLabel(catId), insights });
       totalInsights += insights.length;
     }
   }
 
-  const sorted = sortCategories(categories);
-  const intro  = sorted.length + " categorieën · " + totalInsights +
-    " trends · laatste 24u";
-
+  const sorted = sortCats(categories);
   return {
     generatedAt: new Date().toISOString(),
-    intro:       intro,
-    categories:  sorted,
+    intro: sorted.length + " categorieën · " + totalInsights + " trends · laatste 24u",
+    categories: sorted,
   };
 }
 
-// ── Weekly synthesis ───────────────────────────────────────────────────────
+// ── Cross-categorie mega-trends ────────────────────────────────────────────
+// Één goedkope Haiku-call die detecteert welke thema's over categoriegrenzen heen gaan.
+// Input: alleen de trend-titels van de daily synthesis (compacte call).
 
-function loadLastNDays(n) {
+async function synthesizeCrossCategory(client, dailyCategories) {
+  if (!dailyCategories || dailyCategories.length < 3) return null;
+
+  const compact = {};
+  for (const cat of dailyCategories) {
+    compact[cat.id] = (cat.insights || []).map(function (i) { return i.trend; });
+  }
+
+  const prompt = `Je bent een culturele trendanalist. Hieronder staan de trends van vandaag per categorie.
+
+Identificeer 1 tot 3 MEGA TRENDS: thema's, personen, merken of bewegingen die in MEERDERE categorieën (2+) tegelijk opduiken. Dit zijn de meest cultureel significante signalen.
+
+Wees specifiek: niet "technologie beïnvloedt cultuur" maar "AI-gegenereerde esthetiek verspreidt zich van internet naar fashion en muziekproductie".
+
+Geef alleen verbindingen die echt in de data zichtbaar zijn.
+
+Antwoord ALLEEN met JSON:
+{
+  "megaTrends": [
+    {
+      "trend": "Pakkende naam (4-6 woorden)",
+      "summary": "2 zinnen: wat verbindt deze categorieën en hoe uit zich dat?",
+      "why_it_matters": "1 zin: wat zegt dit over de bredere cultuur?",
+      "categories": ["music", "fashion"],
+      "strength": "sterk" | "matig"
+    }
+  ]
+}
+
+Als er geen echte cross-categorie verbindingen zijn, geef dan {"megaTrends": []}.
+
+Trends per categorie:
+${JSON.stringify(compact, null, 2)}`;
+
+  console.log("  [Haiku] Cross-categorie detectie…");
+  const msg = await client.messages.create({
+    model: HAIKU, max_tokens: 1024,
+    messages: [{ role: "user", content: prompt }],
+  });
+  console.log("  Tokens: " + msg.usage.input_tokens + " in + " + msg.usage.output_tokens + " out");
+
+  try {
+    const result = parseAIJson(msg.content[0].text);
+    const mega = (result.megaTrends || []).filter(function (m) {
+      return m.categories && m.categories.length >= 2 && m.trend;
+    });
+    return mega.length > 0 ? { generatedAt: new Date().toISOString(), megaTrends: mega } : null;
+  } catch (e) {
+    console.error("  Cross-categorie parse mislukt.");
+    return null;
+  }
+}
+
+// ── Weekly synthesis ───────────────────────────────────────────────────────
+// Leest de laatste 7 archieven. Gebruikt Sonnet voor betere patroonherkenning.
+// Wordt alleen herberekend als >6 dagen oud (kostenbesparing).
+
+function loadArchiveDays(n) {
   const days = [];
   const today = new Date();
-
   for (let i = 1; i <= n; i++) {
     const d = new Date(today);
     d.setDate(d.getDate() - i);
@@ -237,13 +287,11 @@ function loadLastNDays(n) {
     if (!fs.existsSync(p)) continue;
     try {
       const data = readJSON(p);
-      // Accepteer zowel AI-formaat (daily.categories) als raw (daily.topics)
       const cats = (data.daily && data.daily.categories) || null;
       const topics = (data.daily && data.daily.topics) || null;
       if (cats && cats.length > 0) {
         days.push({ date: iso, categories: cats });
       } else if (topics && topics.length > 0) {
-        // Converteer raw topics naar compacte vorm
         const byCat = {};
         for (const t of topics) {
           for (const cat of (t.categories || [])) {
@@ -251,99 +299,188 @@ function loadLastNDays(n) {
             byCat[cat].push({ trend: t.label });
           }
         }
-        const fakeCats = Object.entries(byCat).map(function (pair) {
-          return { id: pair[0], insights: pair[1].slice(0, 3) };
+        const fakeCats = Object.entries(byCat).map(function ([id, ins]) {
+          return { id, insights: ins.slice(0, 3) };
         });
-        if (fakeCats.length > 0) days.push({ date: iso, categories: fakeCats });
+        if (fakeCats.length) days.push({ date: iso, categories: fakeCats });
       }
-    } catch (e) { /* skip */ }
+    } catch (e) { /* skip corrupt */ }
   }
-
   return days;
 }
 
-async function synthesizeWeekly(client) {
-  const days = loadLastNDays(LOOKBACK_DAYS);
+async function synthesizeWeekly(client, existingWeekly) {
+  if (existingWeekly && ageDays(existingWeekly.generatedAt) < 6) {
+    console.log("  Weekly is nog vers (" + ageDays(existingWeekly.generatedAt).toFixed(1) + " dagen oud) — hergebruik.");
+    return existingWeekly;
+  }
 
+  const days = loadArchiveDays(7);
   if (days.length < 2) {
-    console.log("  Te weinig archiefdagen voor weekly synthesis (" + days.length + " gevonden).");
+    console.log("  Te weinig archiefdagen (" + days.length + ") voor weekly synthesis.");
     return null;
   }
 
-  // Bouw super-compact promptdata: alleen trend-titels per categorie per dag
-  // Bijv. { music: [ { date: "2026-05-06", trends: ["Titel A", "Titel B"] } ] }
+  // Compacte input: alleen trend-titels + trajectories per dag per categorie
   const byCat = {};
   for (const day of days) {
     for (const cat of (day.categories || [])) {
       if (!byCat[cat.id]) byCat[cat.id] = [];
-      const trendTitles = (cat.insights || []).map(function (i) {
-        return i.trend || i.label || "";
-      }).filter(Boolean);
-      if (trendTitles.length > 0) {
-        byCat[cat.id].push({ date: day.date, trends: trendTitles });
-      }
+      const trends = (cat.insights || []).map(function (i) {
+        return i.trajectory ? i.trend + " [" + i.trajectory + "]" : i.trend;
+      });
+      if (trends.length) byCat[cat.id].push({ datum: day.date, trends });
     }
   }
+  if (!Object.keys(byCat).length) return null;
 
-  if (Object.keys(byCat).length === 0) return null;
+  const prompt = `Je bent een senior cultureel strateeg. Hieronder staan ${days.length} dagen aan dagelijkse trendsignalen per categorie, met trajectories (opkomend/piekend/afbouwend).
 
-  const prompt = `Je bent een cultureel trendanalist. Hieronder staan dagelijkse trend-signalen van de afgelopen ${days.length} dagen, per categorie.
+Identificeer de ${MAX_INSIGHTS} meest significante OPKOMENDE PATRONEN per categorie:
+- Thema's die meermaals opduiken of momentum opbouwen
+- Bewegingen die van niche naar mainstream gaan
+- Culturele verschuivingen met strategische betekenis voor merken
 
-Identificeer de ${MAX_INSIGHTS} meest significante OPKOMENDE PATRONEN per categorie — thema's die over meerdere dagen terugkomen of momentum opbouwen.
+Vermijd: louter herhalende nieuwsfeiten zonder diepere betekenis.
 
-Antwoord ALLEEN met geldige JSON:
+Geef per pattern:
+- trend: naam van het opkomende patroon (4-6 woorden)
+- summary: 2 zinnen — wat bouwt op en hoe manifesteert het zich?
+- why_it_matters: 1 zin — strategische of culturele betekenis
+- momentum: "versnellend" | "stabiel" | "afvlakkend"
+
+Antwoord ALLEEN met JSON:
 {
   "categories": [
     {
       "id": "categoryId",
       "insights": [
         {
-          "trend": "Patroon in 4-6 woorden",
-          "summary": "2 zinnen: welk patroon is aan het opkomen en waarom.",
-          "why_it_matters": "1 zin over de bredere culturele verschuiving."
+          "trend": "...",
+          "summary": "...",
+          "why_it_matters": "...",
+          "momentum": "versnellend"
         }
       ]
     }
   ]
 }
 
-Dagelijkse signalen per categorie:
+Dagelijkse signalen per categorie (${days.length} dagen):
 ${JSON.stringify(byCat, null, 2)}`;
 
-  console.log("  Haiku aanroepen voor weekly synthesis…");
+  console.log("  [Sonnet] Weekly synthesis (" + days.length + " dagen)…");
   const msg = await client.messages.create({
-    model:      "claude-haiku-4-5-20251001",
-    max_tokens: 1536,
-    messages:   [{ role: "user", content: prompt }],
+    model: SONNET, max_tokens: 2048,
+    messages: [{ role: "user", content: prompt }],
   });
-
-  const text = msg.content[0].text;
   console.log("  Tokens: " + msg.usage.input_tokens + " in + " + msg.usage.output_tokens + " out");
 
   let aiResult;
-  try {
-    const match = text.match(/\{[\s\S]*\}/);
-    aiResult = JSON.parse(match ? match[0] : text);
-  } catch (e) {
-    console.error("  Kon weekly AI-antwoord niet parsen.");
-    return null;
-  }
+  try { aiResult = parseAIJson(msg.content[0].text); }
+  catch (e) { console.error("  Weekly parse mislukt."); return null; }
 
-  const categories = (aiResult.categories || [])
-    .filter(function (c) { return c.insights && c.insights.length > 0; })
-    .map(function (c) {
-      return { id: c.id, label: categoryLabel(c.id), insights: c.insights };
-    });
+  const categories = sortCats(
+    (aiResult.categories || [])
+      .filter(function (c) { return c.insights && c.insights.length > 0; })
+      .map(function (c) { return { id: c.id, label: catLabel(c.id), insights: c.insights }; })
+  );
 
-  const sorted = sortCategories(categories);
-  const totalInsights = sorted.reduce(function (s, c) { return s + c.insights.length; }, 0);
-
+  const total = categories.reduce(function (s, c) { return s + c.insights.length; }, 0);
   return {
     generatedAt:  new Date().toISOString(),
     daysAnalyzed: days.length,
-    intro:        sorted.length + " categorieën · " + totalInsights +
-      " patronen · laatste " + days.length + " dagen",
-    categories:   sorted,
+    intro:        categories.length + " categorieën · " + total + " patronen · laatste " + days.length + " dagen",
+    categories,
+  };
+}
+
+// ── Monthly synthesis ──────────────────────────────────────────────────────
+// Leest max. 30 archieven. Gebruikt Sonnet voor macro-verschuivingen.
+// Wordt alleen herberekend als >25 dagen oud of niet aanwezig.
+
+async function synthesizeMonthly(client, existingMonthly) {
+  if (existingMonthly && ageDays(existingMonthly.generatedAt) < 25) {
+    console.log("  Monthly is nog vers (" + Math.round(ageDays(existingMonthly.generatedAt)) + " dagen oud) — hergebruik.");
+    return existingMonthly;
+  }
+
+  const days = loadArchiveDays(30);
+  if (days.length < 7) {
+    console.log("  Te weinig archiefdagen (" + days.length + ") voor monthly synthesis — minimum 7 nodig.");
+    return null;
+  }
+
+  // Extreem compact: enkel trend-titels per categorie, geen datums
+  const byCat = {};
+  for (const day of days) {
+    for (const cat of (day.categories || [])) {
+      if (!byCat[cat.id]) byCat[cat.id] = [];
+      (cat.insights || []).forEach(function (i) {
+        if (i.trend) byCat[cat.id].push(i.trend);
+      });
+    }
+  }
+  if (!Object.keys(byCat).length) return null;
+
+  const prompt = `Je bent een cultureel futurist. Hieronder staan trendsignalen van de afgelopen ${days.length} dagen per categorie.
+
+Identificeer de ${MAX_INSIGHTS} grootste MACRO-VERSCHUIVINGEN per categorie:
+- Trage, structurele veranderingen in smaak, gedrag of waarden
+- Dingen die in 6-12 maanden mainstream worden
+- Signalen die de toekomst van die categorie voorspellen
+
+Dit zijn GEEN korte hypes maar fundamentele culturele bewegingen.
+
+Geef per macro-trend:
+- trend: naam van de verschuiving (4-6 woorden)
+- summary: 2 zinnen — wat verandert er structureel en hoe zien we dat?
+- why_it_matters: 1 zin — wat betekent dit voor de komende 6-12 maanden?
+- horizon: "3 maanden" | "6 maanden" | "12 maanden" (wanneer bereikt dit mainstream?)
+
+Antwoord ALLEEN met JSON:
+{
+  "categories": [
+    {
+      "id": "categoryId",
+      "insights": [
+        {
+          "trend": "...",
+          "summary": "...",
+          "why_it_matters": "...",
+          "horizon": "6 maanden"
+        }
+      ]
+    }
+  ]
+}
+
+Trendsignalen per categorie (${days.length} dagen):
+${JSON.stringify(byCat, null, 2)}`;
+
+  console.log("  [Sonnet] Monthly synthesis (" + days.length + " dagen)…");
+  const msg = await client.messages.create({
+    model: SONNET, max_tokens: 2048,
+    messages: [{ role: "user", content: prompt }],
+  });
+  console.log("  Tokens: " + msg.usage.input_tokens + " in + " + msg.usage.output_tokens + " out");
+
+  let aiResult;
+  try { aiResult = parseAIJson(msg.content[0].text); }
+  catch (e) { console.error("  Monthly parse mislukt."); return null; }
+
+  const categories = sortCats(
+    (aiResult.categories || [])
+      .filter(function (c) { return c.insights && c.insights.length > 0; })
+      .map(function (c) { return { id: c.id, label: catLabel(c.id), insights: c.insights }; })
+  );
+
+  const total = categories.reduce(function (s, c) { return s + c.insights.length; }, 0);
+  return {
+    generatedAt:  new Date().toISOString(),
+    daysAnalyzed: days.length,
+    intro:        categories.length + " categorieën · " + total + " macro-trends · laatste " + days.length + " dagen",
+    categories,
   };
 }
 
@@ -354,25 +491,32 @@ async function main() {
   console.log("Datum: " + todayISO());
 
   if (!process.env.ANTHROPIC_API_KEY) {
-    console.error("ANTHROPIC_API_KEY niet ingesteld. Zie README voor instructies.");
+    console.error("ANTHROPIC_API_KEY niet ingesteld.");
     process.exit(1);
   }
 
-  // Accepteer latest-raw.json (voorkeur) of latest.json als fallback.
+  // Laad brondata
   let sourcePath = RAW_PATH;
   if (!fs.existsSync(RAW_PATH)) {
     if (fs.existsSync(LATEST_PATH)) {
-      console.warn("  latest-raw.json niet gevonden, gebruik latest.json als fallback.");
+      console.warn("latest-raw.json niet gevonden — gebruik latest.json als fallback.");
       sourcePath = LATEST_PATH;
     } else {
-      console.error("Geen brondata gevonden (latest-raw.json of latest.json).");
+      console.error("Geen brondata gevonden.");
       process.exit(1);
     }
+  }
+
+  // Laad bestaande latest.json voor caching van weekly/monthly
+  let existing = {};
+  if (fs.existsSync(LATEST_PATH)) {
+    try { existing = readJSON(LATEST_PATH); } catch (e) { existing = {}; }
   }
 
   const client  = new Anthropic();
   const rawData = readJSON(sourcePath);
 
+  // 1. Daily
   console.log("\n[Daily synthesis]");
   let daily;
   try {
@@ -380,32 +524,57 @@ async function main() {
     console.log("  ✓ " + daily.categories.length + " categorieën, " +
       daily.categories.reduce(function (s, c) { return s + c.insights.length; }, 0) + " insights");
   } catch (e) {
-    console.error("  Daily synthesis mislukt:", e.message);
-    // Fallback: gebruik raw topics uit latest.json
-    daily = (rawData.daily) || { topics: [], intro: "Geen AI-synthesis beschikbaar." };
+    console.error("  Daily mislukt:", e.message);
+    daily = rawData.daily || { topics: [], intro: "AI synthesis mislukt." };
   }
 
+  // 2. Cross-categorie mega-trends
+  console.log("\n[Cross-categorie detectie]");
+  let crossCategory = null;
+  try {
+    crossCategory = await synthesizeCrossCategory(client, daily.categories || []);
+    if (crossCategory) {
+      console.log("  ✓ " + crossCategory.megaTrends.length + " mega-trends gevonden");
+    } else {
+      console.log("  Geen cross-categorie verbindingen gevonden.");
+    }
+  } catch (e) {
+    console.error("  Cross-categorie mislukt:", e.message);
+  }
+
+  // 3. Weekly (Sonnet, gecached)
   console.log("\n[Weekly synthesis]");
   let weekly = null;
   try {
-    weekly = await synthesizeWeekly(client);
-    if (weekly) {
-      console.log("  ✓ " + weekly.categories.length + " categorieën over " +
-        weekly.daysAnalyzed + " dagen");
-    }
+    weekly = await synthesizeWeekly(client, existing.weekly || null);
+    if (weekly) console.log("  ✓ " + weekly.categories.length + " categorieën");
   } catch (e) {
-    console.error("  Weekly synthesis mislukt:", e.message);
+    console.error("  Weekly mislukt:", e.message);
   }
 
+  // 4. Monthly (Sonnet, gecached)
+  console.log("\n[Monthly synthesis]");
+  let monthly = null;
+  try {
+    monthly = await synthesizeMonthly(client, existing.monthly || null);
+    if (monthly) console.log("  ✓ " + monthly.categories.length + " categorieën");
+  } catch (e) {
+    console.error("  Monthly mislukt:", e.message);
+  }
+
+  // Schrijf latest.json
   const date  = todayISO();
   const brief = {
-    date:    date,
-    aiModel: "claude-haiku-4-5-20251001",
-    daily:   daily,
-    ...(weekly ? { weekly: weekly } : {}),
+    date,
+    aiModel: { daily: HAIKU, weekly: SONNET, monthly: SONNET },
+    daily,
+    ...(crossCategory ? { crossCategory } : {}),
+    ...(weekly        ? { weekly }        : {}),
+    ...(monthly       ? { monthly }       : {}),
   };
 
-  // Schrijf AI-verrijkt latest.json + archief
+  fs.mkdirSync(DATA_DIR,    { recursive: true });
+  fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
   writeJSON(LATEST_PATH, brief);
   const archivePath = path.join(ARCHIVE_DIR, date + ".json");
   writeJSON(archivePath, brief);
@@ -413,10 +582,11 @@ async function main() {
 
   console.log("\n✓ Schreef " + LATEST_PATH);
   console.log("✓ Schreef " + archivePath);
-  console.log("✓ Updated " + ARCHIVE_INDEX);
 }
 
-main().catch(function (err) {
+main().then(function () {
+  process.exit(0);
+}).catch(function (err) {
   console.error("Fatal:", err);
   process.exit(1);
 });

@@ -210,6 +210,75 @@ async function fetchSource(parser, source) {
   }
 }
 
+// --- Fetch Wikipedia Trending ---
+// Uses the Wikimedia Pageviews API to get yesterday's most-viewed articles.
+// No API key required. Returns cultural articles filtered from utility pages.
+const WIKI_SKIP_PREFIXES = [
+  "Wikipedia:", "Bestand:", "Portal:", "Gebruiker:", "Overleg:", "Help:",
+  "Sjabloon:", "Categorie:", "Special:", "File:", "Template:", "Category:",
+  "User:", "Talk:", "Project:",
+];
+const WIKI_SKIP_REGEX = /^(Hoofdpagina|Main_Page|Lijst_van|Index_van|Wikimedia|MediaWiki|\d{4}$)/;
+
+async function fetchWikipediaTrending(source) {
+  const d = new Date();
+  d.setDate(d.getDate() - 1); // gebruik gisteren (vandaag is nog niet compleet)
+  const yyyy = d.getFullYear();
+  const mm   = String(d.getMonth() + 1).padStart(2, "0");
+  const dd   = String(d.getDate()).padStart(2, "0");
+  const lang = source.language || "nl";
+  const limit = Math.min(source.limit || 25, MAX_ITEMS_PER_FEED * 3);
+  const url = "https://wikimedia.org/api/rest_v1/metrics/pageviews/top/" +
+    lang + ".wikipedia.org/all-access/" + yyyy + "/" + mm + "/" + dd;
+
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(function () { ctrl.abort(); }, PER_SOURCE_TIMEOUT_MS);
+    const res = await fetch(url, {
+      headers: { "User-Agent": BROWSER_UA, "Accept": "application/json" },
+      signal: ctrl.signal,
+    });
+    clearTimeout(t);
+
+    if (!res.ok) {
+      console.warn("  ✗ " + source.name + ": HTTP " + res.status);
+      return [];
+    }
+
+    const json   = await res.json();
+    const arts   = (json.items && json.items[0] && json.items[0].articles) || [];
+    const now    = new Date().toISOString();
+
+    const items = arts
+      .filter(function (a) {
+        const name = a.article || "";
+        if (WIKI_SKIP_REGEX.test(name)) return false;
+        if (WIKI_SKIP_PREFIXES.some(function (p) { return name.startsWith(p); })) return false;
+        return true;
+      })
+      .slice(0, limit)
+      .map(function (a) {
+        const title = a.article.replace(/_/g, " ");
+        const views = a.views ? a.views.toLocaleString("nl-BE") : "?";
+        return {
+          source:        source.name,
+          source_weight: source.weight || 9,
+          category:      source.category || "trends",
+          title:         title,
+          url:           "https://" + lang + ".wikipedia.org/wiki/" + a.article,
+          published:     now,
+          summary:       views + " views op " + lang + ".wikipedia — rang #" + a.rank + ".",
+        };
+      });
+
+    console.log("  ✓ " + source.name + ": " + items.length + " trending artikels");
+    return items;
+  } catch (err) {
+    console.warn("  ✗ " + source.name + ": " + err.message);
+    return [];
+  }
+}
+
 // --- Fetch TikTok Trends ---
 // Uses the TikTok Creative Center API for trending hashtags.
 // No API key required, but TikTok may return 4xx if they tighten access.
@@ -604,21 +673,26 @@ async function main() {
 
   // Fetch all RSS sources in parallel. One slow feed no longer holds up the
   // others, and total wall time is bounded by PER_SOURCE_TIMEOUT_MS.
-  const rssSources = sources.filter(function (s) { return s.type === "rss"; });
-  const tiktokSources = sources.filter(function (s) { return s.type === "tiktok-trends"; });
-  sources.filter(function (s) { return s.type !== "rss" && s.type !== "tiktok-trends"; }).forEach(function (s) {
-    console.warn("  · " + s.name + ": skipped (type '" + s.type + "', supported types: rss, tiktok-trends)");
+  const rssSources     = sources.filter(function (s) { return s.type === "rss"; });
+  const tiktokSources  = sources.filter(function (s) { return s.type === "tiktok-trends"; });
+  const wikiSources    = sources.filter(function (s) { return s.type === "wikipedia-trending"; });
+  sources.filter(function (s) {
+    return s.type !== "rss" && s.type !== "tiktok-trends" && s.type !== "wikipedia-trending";
+  }).forEach(function (s) {
+    console.warn("  · " + s.name + ": skipped (type '" + s.type + "')");
   });
 
-  console.log("Fetching " + rssSources.length + " RSS sources and " + tiktokSources.length + " TikTok source(s) in parallel (timeout: " + PER_SOURCE_TIMEOUT_MS + "ms each)…");
+  console.log("Fetching " + rssSources.length + " RSS + " + wikiSources.length +
+    " Wikipedia + " + tiktokSources.length + " TikTok sources in parallel…");
   const t0 = Date.now();
-  const [rssResults, tiktokResults] = await Promise.all([
+  const [rssResults, tiktokResults, wikiResults] = await Promise.all([
     Promise.all(rssSources.map(function (s) {
       return fetchSource(s.skipSslVerify ? sslParser : parser, s);
     })),
     Promise.all(tiktokSources.map(function (s) { return fetchTikTokTrends(s); })),
+    Promise.all(wikiSources.map(function (s) { return fetchWikipediaTrending(s); })),
   ]);
-  const results = rssResults.concat(tiktokResults);
+  const results = rssResults.concat(tiktokResults).concat(wikiResults);
   console.log("Fetch round-trip: " + ((Date.now() - t0) / 1000).toFixed(1) + "s");
 
   let allItems = [];

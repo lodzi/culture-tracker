@@ -13,10 +13,11 @@
       <h1 class="logo">Culture Tracker</h1>
       <p class="tagline" id="brief-date">Dagelijkse signalen uit de populaire cultuur</p>
 
-      <!-- Tab switcher: Daily / Weekly -->
+      <!-- Tab switcher: Daily / Weekly / Monthly -->
       <nav class="layers" aria-label="Tijdsframe">
-        <button id="tab-daily" class="layer-btn active" type="button">Daily</button>
-        <button id="tab-weekly" class="layer-btn hidden" type="button">Weekly</button>
+        <button id="tab-daily"   class="layer-btn active" type="button">Daily</button>
+        <button id="tab-weekly"  class="layer-btn hidden" type="button">Weekly</button>
+        <button id="tab-monthly" class="layer-btn hidden" type="button">Monthly</button>
       </nav>
     </div>
   </header>
@@ -46,6 +47,9 @@
     <!-- Weekly layer (hidden until data is available) -->
     <section id="layer-weekly" class="layer hidden" aria-label="Weekly trends"></section>
 
+    <!-- Monthly layer (hidden until data is available) -->
+    <section id="layer-monthly" class="layer hidden" aria-label="Monthly trends"></section>
+
     <!-- Archive -->
     <section class="archive" aria-label="Archief">
       <h2>Archief</h2>
@@ -57,7 +61,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>Culture Tracker &middot; powered by Claude Haiku &middot; <a href="./data/latest.json">latest.json</a></p>
+      <p>Culture Tracker &middot; powered by Claude Haiku &amp; Sonnet &middot; <a href="./data/latest.json">latest.json</a></p>
     </div>
   </footer>
 
