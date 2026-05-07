@@ -1,0 +1,55 @@
+name: Daily AI synthesis
+
+on:
+  schedule:
+    # Elke dag om 07:30 UTC (= 09:30 Brussel zomertijd)
+    # Na de hourly fetch die om 07:00 draait, zodat latest-raw.json vers is.
+    - cron: "30 7 * * *"
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: culture-synthesis
+  cancel-in-progress: false
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Haal de laatste commit op (inclusief latest-raw.json van de fetch run)
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run AI synthesis
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run synthesize
+
+      - name: Commit AI-enhanced data
+        run: |
+          git config user.name  "culture-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add data/latest.json data/archive/
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen."
+          else
+            git commit -m "chore(data): AI synthesis $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
+            git push
+          fi
