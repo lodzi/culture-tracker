@@ -7,7 +7,7 @@
   },
   "daily": {
     "title": "Culture Tracker",
-    "intro": "Top 10 culturele topics · 51 artikels van 44 bronnen · 10 door 3+ bronnen · laatste 24u.",
+    "intro": "Top 10 culturele topics · 54 artikels van 42 bronnen · 10 door 3+ bronnen · laatste 24u.",
     "topics": [
       {
         "label": "2026 · Tour",
@@ -46,7 +46,7 @@
             "category": "trends",
             "title": "2026 Tamil Nadu Legislative Assembly election",
             "url": "https://en.wikipedia.org/wiki/2026_Tamil_Nadu_Legislative_Assembly_election",
-            "published": "2026-05-07T19:35:47.957Z",
+            "published": "2026-05-07T19:46:50.342Z",
             "summary": "275.753 views op en.wikipedia — rang #6.",
             "score": 10,
             "trending": true
@@ -56,7 +56,7 @@
             "category": "trends",
             "title": "Deaths in 2026",
             "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-            "published": "2026-05-07T19:35:47.957Z",
+            "published": "2026-05-07T19:46:50.342Z",
             "summary": "138.010 views op en.wikipedia — rang #14.",
             "score": 10,
             "trending": true
@@ -66,7 +66,7 @@
             "category": "trends",
             "title": "2026 West Bengal Legislative Assembly election",
             "url": "https://en.wikipedia.org/wiki/2026_West_Bengal_Legislative_Assembly_election",
-            "published": "2026-05-07T19:35:47.957Z",
+            "published": "2026-05-07T19:46:50.342Z",
             "summary": "122.825 views op en.wikipedia — rang #15.",
             "score": 10,
             "trending": true
@@ -76,7 +76,7 @@
             "category": "trends",
             "title": "Michael (2026 film)",
             "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-            "published": "2026-05-07T19:35:47.957Z",
+            "published": "2026-05-07T19:46:50.342Z",
             "summary": "116.584 views op en.wikipedia — rang #17.",
             "score": 10,
             "trending": true
@@ -86,7 +86,7 @@
             "category": "trends",
             "title": "The Odyssey (2026 film)",
             "url": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
-            "published": "2026-05-07T19:35:47.957Z",
+            "published": "2026-05-07T19:46:50.342Z",
             "summary": "104.812 views op en.wikipedia — rang #19.",
             "score": 10,
             "trending": true
@@ -221,6 +221,80 @@
         ]
       },
       {
+        "label": "Exclusive · Industry",
+        "keywords": [
+          "exclusive",
+          "industry"
+        ],
+        "sourceCount": 5,
+        "sources": [
+          "Adweek",
+          "Business of Fashion",
+          "Sneaker News",
+          "The Hollywood Reporter",
+          "Variety"
+        ],
+        "categories": [
+          "fashion",
+          "film",
+          "marketing"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Sneaker News",
+            "category": "fashion",
+            "title": "Gear Up For Summer With Exclusive SNIPES Heat",
+            "url": "https://sneakernews.com/2026/05/07/snipes-shopping-guide-spring-summer-2026/",
+            "published": "2026-05-07T19:00:05.000Z",
+            "summary": "SPONSORED BY Photography: Jared Moody As the weather shifts and rotation season officially begins, SNIPES leads with a lineup delivering style, comfort, and versatility without... © Sneaker News, 2026. | Permalink No comment del.icio.us The post Gear Up For Summer With Exclusive…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "‘My Name Is Earl’ Star Jaime Pressly Launches OnlyFans: ‘I’ve Always Believed in Evolving With the Times’ (EXCLUSIVE)",
+            "url": "https://variety.com/2026/tv/news/jaime-pressly-onlyfans-my-name-is-earl-1236740685/",
+            "published": "2026-05-07T19:00:00.000Z",
+            "summary": "Jaime Pressly is the latest Hollywood star to make the jump to OnlyFans. The actor’s page on the subscription-based content platform officially launches May 7 at 1 p.m. PT / 4 p.m. ET. “I’ve always believed in evolving with the times,” Pressly said in a statement to Variety…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "Director Lucia Alenar Iglesias Explores Family Trauma in ‘Forastera’ Trailer (Exclusive)",
+            "url": "https://www.hollywoodreporter.com/movies/movie-news/forastera-trailer-director-lucia-alenar-iglesias-1236589109/",
+            "published": "2026-05-07T17:10:35.000Z",
+            "summary": "Zoe Stein plays a vacationing teenager who after the sudden death of her grandmother cares for her grief-stricken grandfather in the Toronto Fest title set for a theatrical release to kick off May 29.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Adweek",
+            "category": "marketing",
+            "title": "EXCLUSIVE: The Trade Desk&#8217;s Chief Strategy Officer Samantha Jacobson Is Heading to OpenAI",
+            "url": "https://www.adweek.com/media/exclusive-the-trade-desks-chief-strategy-officer-samantha-jacobson-is-heading-to-openai/",
+            "published": "2026-05-07T15:39:27.000Z",
+            "summary": "Jacobson will remain on The Trade Desk’s board as the company searches for her successor.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Business of Fashion",
+            "category": "fashion",
+            "title": "Industry Leaders Gather in London for Exclusive AI Insights from The Business of Fashion",
+            "url": "https://www.businessoffashion.com/articles/technology/london-industry-leaders-ai-insights-briefing/",
+            "published": "2026-05-07T09:43:48.000Z",
+            "summary": "Senior leaders from Bottega Veneta, Harrods, Bvlgari, Selfridges, Manolo Blahnik and Tiffany & Co., among others, attended an intimate aperitivo evening at The Roof Gardens in London to explore the integration of artificial intelligence across the fashion and beauty industries.",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
         "label": "Tour · Hayley",
         "keywords": [
           "tour",
@@ -241,6 +315,16 @@
         "trending": true,
         "fresh": true,
         "items": [
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "Olivia Rodrigo’s “The Unraveled Tour” Is Sold Out — Here’s How You Can Still Get Tickets",
+            "url": "https://consequence.net/2026/05/olivia-rodrigo-tour-sold-out-ticket-guide/",
+            "published": "2026-05-07T19:43:38.000Z",
+            "summary": "If you missed the pre-sale for Olivia Rodrigo's 2026-2027 tour, fret not — you can still get tickets before the tour kicks off. Olivia Rodrigo’s “The Unraveled Tour” Is Sold Out — Here’s How You Can Still Get Tickets Paolo Ragusa",
+            "score": 10,
+            "trending": true
+          },
           {
             "source": "Variety",
             "category": "film",
@@ -299,6 +383,80 @@
             "published": "2026-05-07T13:00:00.000Z",
             "summary": "The stadium-sized catharsis of Eilish's best bridges hit harder with 17 3D cameras.",
             "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Song · Listen",
+        "keywords": [
+          "song",
+          "listen"
+        ],
+        "sourceCount": 5,
+        "sources": [
+          "Billboard",
+          "Consequence",
+          "Deadline",
+          "Kotaku",
+          "Pitchfork News"
+        ],
+        "categories": [
+          "music",
+          "gaming",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Gavin Brivik And Andrew Bird On Pitching And Creating The First Original Song For ‘The Pitt’ – Sound & Screen TV",
+            "url": "https://deadline.com/2026/05/gavin-brivik-andrew-bird-the-pitt-need-someone-song-1236885388/",
+            "published": "2026-05-07T18:30:00.000Z",
+            "summary": "SPOILER ALERT: This story contains details of Season 2 of HBO Max’s The Pitt. Season 2 of The Pitt features an original song in episode 6. “Need Someone” plays when a recurring patient named Louie (Ernest Harden Jr.) dies. Songwriter Andrew Bird sang and played the song with…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "Gene Simmons Reveals KISS Just Recorded a New Song",
+            "url": "https://consequence.net/2026/05/gene-simmons-kiss-new-song/",
+            "published": "2026-05-07T18:26:01.000Z",
+            "summary": "The reveal came during an interview with YouTube KISSbySienna which also included news of a KISS theme park being developed by Pophouse. Gene Simmons Reveals KISS Just Recorded a New Song Langdon Hickman",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "Charli xcx Destroys an Electric Guitar in ‘Rock Music’ Video Teaser & Announces New Song’s Release Date",
+            "url": "https://www.billboard.com/music/music-news/charli-xcx-new-song-rock-music-video-release-date-1236241803/",
+            "published": "2026-05-07T18:05:21.000Z",
+            "summary": "The pop star has been teasing that the track is her edgiest yet.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Kotaku",
+            "category": "gaming",
+            "title": "New Lego Batman Trailer Uses The Perfect Song To Get Me Freakin’ Pumped For Launch",
+            "url": "https://kotaku.com/new-lego-batman-trailer-uses-kiss-from-a-rose-seal-perfect-song-launch-ps5-xbox-2000694000",
+            "published": "2026-05-07T16:30:18.000Z",
+            "summary": "Legacy of the Dark Knight is shaping up to be the best damn Batman game in a long, long time",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Pitchfork News",
+            "category": "music",
+            "title": "Listen to Father John Misty’s New Song “The Payoff”",
+            "url": "https://pitchfork.com/news/listen-to-father-john-mistys-new-song-the-payoff/",
+            "published": "2026-05-07T04:07:45.000Z",
+            "summary": "He co-produced it with frequent collaborator Drew Erickson",
+            "score": 8,
             "trending": true
           }
         ]
@@ -502,109 +660,99 @@
         ]
       },
       {
-        "label": "Song · Listen",
+        "label": "House · Atelier",
         "keywords": [
-          "song",
-          "listen"
+          "house",
+          "atelier"
         ],
         "sourceCount": 4,
         "sources": [
-          "Consequence",
-          "Deadline",
-          "Kotaku",
-          "Pitchfork News"
+          "Adweek",
+          "Dezeen",
+          "Variety",
+          "Yanko Design"
         ],
         "categories": [
-          "music",
-          "gaming",
-          "film"
+          "art",
+          "film",
+          "marketing"
         ],
         "trending": true,
         "fresh": true,
         "items": [
           {
-            "source": "Deadline",
+            "source": "Dezeen",
+            "category": "art",
+            "title": "Atelier Carle creates \"unconventional layout\" for hemlock-clad Quebec house",
+            "url": "https://www.dezeen.com/2026/05/07/sono-residence-ateliercarle-quebec-house/",
+            "published": "2026-05-07T19:14:35.000Z",
+            "summary": "Montreal-based studio Atelier Carle has completed a mountainside house with wood and board-formed concrete finishes in Quebec. Known as SONO Residence, the 214-square metre (2,300-square-foot) project was completed in 2025 in Wentworth-North. Atelier Carle founder Alain Carle…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
             "category": "film",
-            "title": "Gavin Brivik And Andrew Bird On Pitching And Creating The First Original Song For ‘The Pitt’ – Sound & Screen TV",
-            "url": "https://deadline.com/2026/05/gavin-brivik-andrew-bird-the-pitt-need-someone-song-1236885388/",
-            "published": "2026-05-07T18:30:00.000Z",
-            "summary": "SPOILER ALERT: This story contains details of Season 2 of HBO Max’s The Pitt. Season 2 of The Pitt features an original song in episode 6. “Need Someone” plays when a recurring patient named Louie (Ernest Harden Jr.) dies. Songwriter Andrew Bird sang and played the song with…",
+            "title": "White House Slams Mark Hamill as ‘Sick Individual’ After ‘Star Wars’ Actor Posts Image of Donald Trump Dead",
+            "url": "https://variety.com/2026/digital/news/white-house-mark-hamill-sick-individual-donald-trump-dead-1236740821/",
+            "published": "2026-05-07T18:31:55.000Z",
+            "summary": "UPDATE, 12:20 p.m. PT: Mark Hamill deleted the image of President Donald Trump lying in front of a gravestone from his Bluesky account. In a new post Thursday, he wrote: “Accurate Edit for Clarity: ‘He should live long enough to… be held accountable for his… crimes.’ Actually, I…",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Gene Simmons Reveals KISS Just Recorded a New Song",
-            "url": "https://consequence.net/2026/05/gene-simmons-kiss-new-song/",
-            "published": "2026-05-07T18:26:01.000Z",
-            "summary": "The reveal came during an interview with YouTube KISSbySienna which also included news of a KISS theme park being developed by Pophouse. Gene Simmons Reveals KISS Just Recorded a New Song Langdon Hickman",
+            "source": "Adweek",
+            "category": "marketing",
+            "title": "What Publishers Can Learn From Penguin Random House&#8217;s $1 Million In-House Media Experiment",
+            "url": "https://www.adweek.com/media/taste-food-media-brand-penguin-random-house/",
+            "published": "2026-05-07T15:06:36.000Z",
+            "summary": "The newsletter and podcast, which operates within Penguin Random House, has evolved from content marketing into a standalone brand.",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "New Lego Batman Trailer Uses The Perfect Song To Get Me Freakin’ Pumped For Launch",
-            "url": "https://kotaku.com/new-lego-batman-trailer-uses-kiss-from-a-rose-seal-perfect-song-launch-ps5-xbox-2000694000",
-            "published": "2026-05-07T16:30:18.000Z",
-            "summary": "Legacy of the Dark Knight is shaping up to be the best damn Batman game in a long, long time",
+            "source": "Dezeen",
+            "category": "art",
+            "title": "Isabel Strauss wins competition for public bathroom at Gropius House",
+            "url": "https://www.dezeen.com/2026/05/07/isabel-strauss-competition-restroom-gropius-house-massachusetts/",
+            "published": "2026-05-07T14:00:30.000Z",
+            "summary": "Architectural designer Isabel Strauss has designed a public bathroom for the grounds of German-American architect Walter Gropius's self-designed home in Massachusetts, USA, chosen from hundreds of submissions. Strauss designed the winning submission for the contest initiated by…",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream",
-            "url": "https://consequence.net/2026/05/yard-act-youre-gonna-need-a-little-music-new-album-redeemer-new-song-stream/",
-            "published": "2026-05-07T15:48:12.000Z",
-            "summary": "The post-punk quartet will unveil their third album on July 17th. Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream Paolo Ragusa",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "Listen to Father John Misty’s New Song “The Payoff”",
-            "url": "https://pitchfork.com/news/listen-to-father-john-mistys-new-song-the-payoff/",
-            "published": "2026-05-07T04:07:45.000Z",
-            "summary": "He co-produced it with frequent collaborator Drew Erickson",
+            "source": "Yanko Design",
+            "category": "art",
+            "title": "This Is the Tiny House the Short-Term Rental Market Has Been Waiting For",
+            "url": "https://www.yankodesign.com/2026/05/06/this-is-the-tiny-house-the-short-term-rental-market-has-been-waiting-for/?utm_source=rss&utm_medium=rss&utm_campaign=this-is-the-tiny-house-the-short-term-rental-market-has-been-waiting-for",
+            "published": "2026-05-07T00:30:07.000Z",
+            "summary": "This Is the Tiny House the Short-Term Rental Market Has Been Waiting For I truly love a well-designed tiny home — one that doesn’t just compress living into a smaller footprint but genuinely rethinks how space can work...",
             "score": 8,
             "trending": true
           }
         ]
       },
       {
-        "label": "Time · Nintendo",
+        "label": "Openai · Elon",
         "keywords": [
-          "time",
-          "nintendo"
+          "openai",
+          "elon"
         ],
         "sourceCount": 4,
         "sources": [
-          "Dazed",
-          "Kotaku",
-          "Polygon",
-          "Quartz"
+          "Adweek",
+          "Ars Technica",
+          "Quartz",
+          "The Verge"
         ],
         "categories": [
-          "gaming",
-          "culture",
+          "internet",
+          "marketing",
           "trends"
         ],
         "trending": true,
         "fresh": true,
         "items": [
-          {
-            "source": "Quartz",
-            "category": "trends",
-            "title": "FDA authorizes fruit-flavored e-cigarettes for the first time",
-            "url": "https://qz.com/fda-fruit-flavored-e-cigarettes-authorized-glas-050726",
-            "published": "2026-05-07T19:30:34.000Z",
-            "summary": "The FDA greenlighted mango and blueberry vaping products from Los Angeles-based Glas Inc., marking a policy shift under the Trump administration",
-            "score": 10,
-            "trending": true
-          },
           {
             "source": "Quartz",
             "category": "trends",
@@ -616,147 +764,33 @@
             "trending": true
           },
           {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Nintendo's Star Fox reveal backs up Zelda Ocarina of Time remake rumors",
-            "url": "https://www.polygon.com/zelda-ocarina-of-time-remake-switch-2-star-fox/",
-            "published": "2026-05-07T18:30:19.000Z",
-            "summary": "Star Fox's return on Switch 2 all but confirms another big rumor: Nintendo is remaking The Legend of Zelda: Ocarina of Time in 2026.",
+            "source": "The Verge",
+            "category": "internet",
+            "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+            "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+            "published": "2026-05-07T17:40:50.000Z",
+            "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus…",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Slay The Spire 2 Is Getting Review Bombed Again, This Time Because Of Chuds",
-            "url": "https://kotaku.com/slay-the-spire-2-is-getting-review-bombed-again-this-time-because-of-chuds-2000693961",
-            "published": "2026-05-07T17:30:15.000Z",
-            "summary": "An influx of new players are using Steam reviews to relitigate Gamegate",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "Beata Rydbacken is taking over your feed, one big clip hoodie at a time",
-            "url": "https://www.dazeddigital.com/fashion/article/70214/1/beata-rydbacken-big-clip-hoodie-swedish-designer-on-the-rise-rosalia?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=beata-rydbacken-is-taking-over-your-feed-one-big-clip-hoodie-at-a-time",
-            "published": "2026-05-07T07:00:00.000Z",
-            "summary": "If you’ve been anywhere near the internet in the last couple of months, chances are you’ve seen a certain grey, zip-up sweatshirt, fastened together by three blown-up pastel hair clips. Beata Rydbacken’s big clip hoodie may have entered the canon of viral It-items, but its…",
-            "score": 8,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Land · Sculpted",
-        "keywords": [
-          "land",
-          "sculpted"
-        ],
-        "sourceCount": 4,
-        "sources": [
-          "Adweek",
-          "Design Boom",
-          "Stereogum",
-          "Yanko Design"
-        ],
-        "categories": [
-          "art",
-          "music",
-          "marketing"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Stereogum",
-            "category": "music",
-            "title": "JPEGMAFIA – “War Over Land”",
-            "url": "https://stereogum.com/2498230/jpegmafia-war-over-land/music/",
-            "published": "2026-05-07T16:08:47.000Z",
-            "summary": "JPEGMAFIA’s new album Experimental Rap isn’t even out for another two weeks, but it’s already led to the extremely entertaining Instagram-comments feud between Peggy and Earl Sweatshirt. That bit of gossip will probably get more attention than any of the actual music on…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Yanko Design",
-            "category": "art",
-            "title": "Google’s $99 Gemini Speaker Is About to Land",
-            "url": "https://www.yankodesign.com/2026/05/07/googles-99-gemini-speaker-is-about-to-land/?utm_source=rss&utm_medium=rss&utm_campaign=googles-99-gemini-speaker-is-about-to-land",
-            "published": "2026-05-07T14:20:15.000Z",
-            "summary": "Google’s $99 Gemini Speaker Is About to Land The smart speaker category has been quietly stagnating. Go ahead and look around your house. Chances are there’s a Nest Audio or an Amazon Echo...",
-            "score": 10,
+            "source": "Ars Technica",
+            "category": "internet",
+            "title": "Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla",
+            "url": "https://arstechnica.com/tech-policy/2026/05/elon-musk-tried-to-hire-openai-founders-to-start-ai-unit-inside-tesla/",
+            "published": "2026-05-07T13:14:01.000Z",
+            "summary": "Musk was “prepared to do the for-profit, provided he would get control.”",
+            "score": 9,
             "trending": true
           },
           {
             "source": "Adweek",
             "category": "marketing",
-            "title": "CNN Readies for America&#8217;s 250th Birthday With This Land Docuseries",
-            "url": "https://www.adweek.com/tvnewser/cnn-readies-for-americas-250th-birthday-with-this-land-docuseries/",
-            "published": "2026-05-07T12:00:00.000Z",
-            "summary": "Over six episodes, the CNN original series charts the growth of the United States into the country it is today.",
+            "title": "OpenAI Aggressively Expands Ads Pilot to More Countries",
+            "url": "https://www.adweek.com/media/openai-aggressively-expands-ads-pilot-to-more-countries/",
+            "published": "2026-05-07T09:00:00.000Z",
+            "summary": "Just two days after OpenAI launched its self-service ads platform in the U.S., the ChatGPT maker said it will expand its ads pilot to the UK, Japan, South Korea, Brazil, and Mexico markets in the coming weeks.",
             "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Design Boom",
-            "category": "art",
-            "title": "24 sculpted trees become giant colored pencils in south african land art installation",
-            "url": "https://www.designboom.com/art/24-sculpted-trees-giant-colored-pencils-south-africa-land-art-installation-strijdom-van-der-merwe/",
-            "published": "2026-05-07T09:00:50.000Z",
-            "summary": "developed by strijdom van der merwe, the project examines intervention within a living environment. The post 24 sculpted trees become giant colored pencils in south african land art installation appeared first on designboom | architecture & design magazine.",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Announces · Charli",
-        "keywords": [
-          "announces",
-          "charli"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Billboard",
-          "NME",
-          "Polygon"
-        ],
-        "categories": [
-          "music",
-          "gaming"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Polygon",
-            "category": "gaming",
-            "title": "Valve announces new Steam Controller pre-order dates and rules",
-            "url": "https://www.polygon.com/steam-controller-preorders-open-valve-date-time/",
-            "published": "2026-05-07T18:23:57.000Z",
-            "summary": "Valve's Steam Controller is sold out, but a new round of pre-orders is coming to Steam on May 8. This time, Valve is blocking resellers with new rules",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Billboard",
-            "category": "music",
-            "title": "Charli xcx Destroys an Electric Guitar in ‘Rock Music’ Video Teaser & Announces New Song’s Release Date",
-            "url": "https://www.billboard.com/music/music-news/charli-xcx-new-song-rock-music-video-release-date-1236241803/",
-            "published": "2026-05-07T18:05:21.000Z",
-            "summary": "The pop star has been teasing that the track is her edgiest yet.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "NME",
-            "category": "music",
-            "title": "Kelela announces album ‘New Avatar’ with single ‘linknb’",
-            "url": "https://www.nme.com/news/music/kelela-announces-album-new-avatar-with-single-linknb-3944435?utm_source=rss&utm_medium=rss&utm_campaign=kelela-announces-album-new-avatar-with-single-linknb",
-            "published": "2026-05-07T14:38:22.000Z",
-            "summary": "She said the album, which features collaborations with PinkPantheress, A. K. Paul, and Fousheé, \"finds solace in confronting\" The post Kelela announces album ‘New Avatar’ with single ‘linknb’ appeared first on NME.",
-            "score": 10,
             "trending": true
           }
         ]
