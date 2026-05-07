@@ -1,440 +1,747 @@
 {
   "date": "2026-05-07",
-  "aiModel": {
-    "daily": "claude-haiku-4-5-20251001",
-    "weekly": "claude-sonnet-4-6",
-    "monthly": "claude-sonnet-4-6"
-  },
   "daily": {
-    "generatedAt": "2026-05-07T19:07:02.190Z",
-    "intro": "5 categorieën · 9 trends · laatste 24u",
-    "categories": [
+    "title": "Culture Tracker",
+    "intro": "Top 10 culturele topics · 50 artikels van 40 bronnen · 10 door 3+ bronnen · laatste 24u.",
+    "topics": [
       {
-        "id": "music",
-        "label": "Muziek",
-        "insights": [
-          {
-            "trend": "Nineties-artiesten domineren stadium residencies 2026",
-            "summary": "No Doubt kondigt Sphere-residency aan, L7 brengt 'Last Hurrah Tour' uit; Tyler, The Creator's All Points East takeover trekt nineties/Y2K-acts. Dit is hoogtepunt van nostalgische touring.",
-            "why_it_matters": "Dit signaleert dat millennial purchasing power stadium-experiences nu dicteert, met generational comfort met bekende acts boven discovery.",
-            "trajectory": "piekend",
-            "sources": [
-              "Consequence",
-              "Crack Magazine",
-              "Creative Review",
-              "GQ",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Cannes 2026 Movies Sold So Far: ‘Paper Tiger,’ ‘The Devils’ 4K Restoration, and ‘Minotaur’ Find Homes Early",
-                "url": "https://www.indiewire.com/news/festivals/cannes-2026-movies-sold-so-far-paper-tiger-minotaur-1235191174/",
-                "source": "IndieWire",
-                "published": "2026-05-07T19:00:00.000Z"
-              },
-              {
-                "title": "How I Fixed My Webcam Lighting for Zoom Calls (2026)",
-                "url": "https://www.wired.com/story/how-to-fix-bad-webcam-lighting/",
-                "source": "Wired",
-                "published": "2026-05-07T18:29:54.000Z"
-              },
-              {
-                "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
-                "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
-                "source": "Consequence",
-                "published": "2026-05-07T18:11:31.000Z"
-              },
-              {
-                "title": "No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist",
-                "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
-                "source": "Consequence",
-                "published": "2026-05-07T17:47:17.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Solo-artiesten kondigen comeback-shows strategisch aan",
-            "summary": "Hayley Williams en Phoebe Bridgers kondigen solo comeback-optredens aan na periodes van inactiviteit. Dit is gecoördineerd teruggrijpen naar live performance.",
-            "why_it_matters": "Dit toont hoe female solo-artiesten touring herdefiniëren buiten traditionele album-cycles, met locatie-specifieke statements (Roswell symboliek).",
-            "trajectory": "opkomend",
-            "sources": [
-              "404 Media",
-              "Adweek",
-              "Creative Review",
-              "Design Boom",
-              "NME"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame",
-                "url": "https://www.nme.com/news/gaming-news/angry-birds-silent-hill-fifa-world-video-game-hall-of-fame-3944425?utm_source=rss&utm_medium=rss&utm_campaign=angry-birds-silent-hill-fifa-world-video-game-hall-of-fame",
-                "source": "NME",
-                "published": "2026-05-07T14:30:54.000Z"
-              },
-              {
-                "title": "‘HELLO BOSS’: Inside the Chinese Realtime Deepfake Software Powering Scams Around the World",
-                "url": "https://www.404media.co/hello-boss-inside-the-chinese-realtime-deepfake-software-powering-scams-around-the-world/",
-                "source": "404 Media",
-                "published": "2026-05-07T13:12:05.000Z"
-              },
-              {
-                "title": "Timothée Chalamet and David Beckham kick off adidas’ World Cup campaign",
-                "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
-                "source": "Creative Review",
-                "published": "2026-05-07T10:36:19.000Z"
-              },
-              {
-                "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
-                "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
-                "source": "Adweek",
-                "published": "2026-05-07T04:00:00.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "film",
-        "label": "Film & TV",
-        "insights": [
-          {
-            "trend": "Cannes 2026 versnelt deal-making voor prestige cinema",
-            "summary": "Films als 'Paper Tiger' en 'Minotaur' sluiten distributieverhandeling af vóór officiële Cannes-screening. Dit toont accelerated acquisition van art-house cinema.",
-            "why_it_matters": "Dit duidt op toenemende competitie om prestige-content en zorgen van distributors over fensterslot in streaming-era.",
-            "trajectory": "opkomend",
-            "sources": [
-              "Consequence",
-              "Crack Magazine",
-              "Creative Review",
-              "GQ",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Cannes 2026 Movies Sold So Far: ‘Paper Tiger,’ ‘The Devils’ 4K Restoration, and ‘Minotaur’ Find Homes Early",
-                "url": "https://www.indiewire.com/news/festivals/cannes-2026-movies-sold-so-far-paper-tiger-minotaur-1235191174/",
-                "source": "IndieWire",
-                "published": "2026-05-07T19:00:00.000Z"
-              },
-              {
-                "title": "How I Fixed My Webcam Lighting for Zoom Calls (2026)",
-                "url": "https://www.wired.com/story/how-to-fix-bad-webcam-lighting/",
-                "source": "Wired",
-                "published": "2026-05-07T18:29:54.000Z"
-              },
-              {
-                "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
-                "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
-                "source": "Consequence",
-                "published": "2026-05-07T18:11:31.000Z"
-              },
-              {
-                "title": "No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist",
-                "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
-                "source": "Consequence",
-                "published": "2026-05-07T17:47:17.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Netflix neemt fysieke filmproductie-infrastructuur over",
-            "summary": "Netflix koopt Radford Studio Center terwijl het AI-thriller van Joseph Gordon-Levitt ontwikkelt. Dit signaleert verticale integratie van productie-assets.",
-            "why_it_matters": "Dit toont Netflix' commitment aan theatrical/premium content door garantie van in-house productie-capaciteit, concurrerend met traditionele studios.",
-            "trajectory": "opkomend",
-            "sources": [
-              "Quartz",
-              "Sneaker News",
-              "The Hollywood Reporter",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Gear Up For Summer With Exclusive SNIPES Heat",
-                "url": "https://sneakernews.com/2026/05/07/snipes-shopping-guide-spring-summer-2026/",
-                "source": "Sneaker News",
-                "published": "2026-05-07T19:00:05.000Z"
-              },
-              {
-                "title": "‘My Name Is Earl’ Star Jaime Pressly Launches OnlyFans: ‘I’ve Always Believed in Evolving With the Times’ (EXCLUSIVE)",
-                "url": "https://variety.com/2026/tv/news/jaime-pressly-onlyfans-my-name-is-earl-1236740685/",
-                "source": "Variety",
-                "published": "2026-05-07T19:00:00.000Z"
-              },
-              {
-                "title": "Nintendo is bringing back Star Fox with a Switch 2-exclusive remake launching in June",
-                "url": "https://qz.com/nintendo-star-fox-switch-2-remake-june-050726",
-                "source": "Quartz",
-                "published": "2026-05-07T18:01:09.000Z"
-              },
-              {
-                "title": "Director Lucia Alenar Iglesias Explores Family Trauma in ‘Forastera’ Trailer (Exclusive)",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/forastera-trailer-director-lucia-alenar-iglesias-1236589109/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-05-07T17:10:35.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "art",
-        "label": "Art & Design",
-        "insights": [
-          {
-            "trend": "Klassieke films krijgen 4K-restauratie in mainstream",
-            "summary": "Klassieke films zoals 'The Devils' worden in 4K hersteld en verhandeld op grote filmfestivals zoals Cannes 2026. Dit toont een groeiende markt voor gerestaureerde cinema-klassiekers in ultra-high-definition.",
-            "why_it_matters": "Dit signaleert een verschuiving naar filmpreservatie als cultureel en commercieel prioriteit, waarbij oude meesterwerken hernieuw leven krijgen voor contemporary audiences.",
-            "trajectory": "opkomend",
-            "sources": [
-              "Consequence",
-              "Crack Magazine",
-              "Creative Review",
-              "GQ",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Cannes 2026 Movies Sold So Far: ‘Paper Tiger,’ ‘The Devils’ 4K Restoration, and ‘Minotaur’ Find Homes Early",
-                "url": "https://www.indiewire.com/news/festivals/cannes-2026-movies-sold-so-far-paper-tiger-minotaur-1235191174/",
-                "source": "IndieWire",
-                "published": "2026-05-07T19:00:00.000Z"
-              },
-              {
-                "title": "How I Fixed My Webcam Lighting for Zoom Calls (2026)",
-                "url": "https://www.wired.com/story/how-to-fix-bad-webcam-lighting/",
-                "source": "Wired",
-                "published": "2026-05-07T18:29:54.000Z"
-              },
-              {
-                "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
-                "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
-                "source": "Consequence",
-                "published": "2026-05-07T18:11:31.000Z"
-              },
-              {
-                "title": "No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist",
-                "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
-                "source": "Consequence",
-                "published": "2026-05-07T17:47:17.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "AI in creatieve industrie vraagt om menselijke validatie",
-            "summary": "De Golden Globes stellen AI-regels vast die 'human creative direction' als primary requirement stellen, terwijl Netflix AI-gestuurde features integreert. Er ontstaat consensus dat AI-tools moeten worden gebruikt onder menselijke leiding.",
-            "why_it_matters": "Dit reflecteert maatschappelijke onzekerheid over AI's rol in kunst: tools accepteren zolang humans de artistieke visie behouden.",
-            "trajectory": "piekend",
-            "sources": [
-              "404 Media",
-              "Adweek",
-              "Creative Review",
-              "Design Boom",
-              "NME"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame",
-                "url": "https://www.nme.com/news/gaming-news/angry-birds-silent-hill-fifa-world-video-game-hall-of-fame-3944425?utm_source=rss&utm_medium=rss&utm_campaign=angry-birds-silent-hill-fifa-world-video-game-hall-of-fame",
-                "source": "NME",
-                "published": "2026-05-07T14:30:54.000Z"
-              },
-              {
-                "title": "‘HELLO BOSS’: Inside the Chinese Realtime Deepfake Software Powering Scams Around the World",
-                "url": "https://www.404media.co/hello-boss-inside-the-chinese-realtime-deepfake-software-powering-scams-around-the-world/",
-                "source": "404 Media",
-                "published": "2026-05-07T13:12:05.000Z"
-              },
-              {
-                "title": "Timothée Chalamet and David Beckham kick off adidas’ World Cup campaign",
-                "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
-                "source": "Creative Review",
-                "published": "2026-05-07T10:36:19.000Z"
-              },
-              {
-                "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
-                "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
-                "source": "Adweek",
-                "published": "2026-05-07T04:00:00.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "internet",
-        "label": "Internet",
-        "insights": [
-          {
-            "trend": "Deepfake-technologie evolueert naar real-time scampraktijken",
-            "summary": "Chinese real-time deepfake software ('HELLO BOSS') wordt op grote schaal gebruikt voor internationale oplichting. 404 Media en Adweek documenteren hoe this tech criminele implementatie bereikt.",
-            "why_it_matters": "Dit markeert een kritieke fase waar deepfakes van laboratorium-curiositeit naar weaponized fraud-tool transformeren, met urgente implicaties voor digitale veiligheid.",
-            "trajectory": "piekend",
-            "sources": [
-              "Consequence",
-              "Crack Magazine",
-              "Creative Review",
-              "GQ",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Cannes 2026 Movies Sold So Far: ‘Paper Tiger,’ ‘The Devils’ 4K Restoration, and ‘Minotaur’ Find Homes Early",
-                "url": "https://www.indiewire.com/news/festivals/cannes-2026-movies-sold-so-far-paper-tiger-minotaur-1235191174/",
-                "source": "IndieWire",
-                "published": "2026-05-07T19:00:00.000Z"
-              },
-              {
-                "title": "How I Fixed My Webcam Lighting for Zoom Calls (2026)",
-                "url": "https://www.wired.com/story/how-to-fix-bad-webcam-lighting/",
-                "source": "Wired",
-                "published": "2026-05-07T18:29:54.000Z"
-              },
-              {
-                "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
-                "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
-                "source": "Consequence",
-                "published": "2026-05-07T18:11:31.000Z"
-              },
-              {
-                "title": "No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist",
-                "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
-                "source": "Consequence",
-                "published": "2026-05-07T17:47:17.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Streamingdiensten zoeken lokale broadcastpartners voor expansie",
-            "summary": "Disney+ sluit alliance met TV Azteca in Mexico voor livestream reality-content; Paramount werkt samen met Warner Music. Streamers zoeken local partnerships ipv pure-play dominatie.",
-            "why_it_matters": "Dit toont dat globale streamingplatformen lokale mediainstituten nodig hebben voor regulatory fit en content-legitimiteit in gereguleerde markten.",
-            "trajectory": "opkomend",
-            "sources": [
-              "404 Media",
-              "Adweek",
-              "Creative Review",
-              "Design Boom",
-              "NME"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame",
-                "url": "https://www.nme.com/news/gaming-news/angry-birds-silent-hill-fifa-world-video-game-hall-of-fame-3944425?utm_source=rss&utm_medium=rss&utm_campaign=angry-birds-silent-hill-fifa-world-video-game-hall-of-fame",
-                "source": "NME",
-                "published": "2026-05-07T14:30:54.000Z"
-              },
-              {
-                "title": "‘HELLO BOSS’: Inside the Chinese Realtime Deepfake Software Powering Scams Around the World",
-                "url": "https://www.404media.co/hello-boss-inside-the-chinese-realtime-deepfake-software-powering-scams-around-the-world/",
-                "source": "404 Media",
-                "published": "2026-05-07T13:12:05.000Z"
-              },
-              {
-                "title": "Timothée Chalamet and David Beckham kick off adidas’ World Cup campaign",
-                "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
-                "source": "Creative Review",
-                "published": "2026-05-07T10:36:19.000Z"
-              },
-              {
-                "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
-                "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
-                "source": "Adweek",
-                "published": "2026-05-07T04:00:00.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "marketing",
-        "label": "Marketing",
-        "insights": [
-          {
-            "trend": "Celebrity sports marketing wordt cinematic storytelling",
-            "summary": "Adidas positioneert Timothée Chalamet en David Beckham in World Cup campaign als narratief-driven short-form content (niet enkel endorsement). Sport-branding verschuift naar auteur-driven content.",
-            "why_it_matters": "Dit reflecteert dat consumer-trust nu verschoven is van product-features naar character-alignment en storytelling-credibility.",
-            "trajectory": "opkomend",
-            "sources": [
-              "404 Media",
-              "Adweek",
-              "Creative Review",
-              "Design Boom",
-              "NME"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame",
-                "url": "https://www.nme.com/news/gaming-news/angry-birds-silent-hill-fifa-world-video-game-hall-of-fame-3944425?utm_source=rss&utm_medium=rss&utm_campaign=angry-birds-silent-hill-fifa-world-video-game-hall-of-fame",
-                "source": "NME",
-                "published": "2026-05-07T14:30:54.000Z"
-              },
-              {
-                "title": "‘HELLO BOSS’: Inside the Chinese Realtime Deepfake Software Powering Scams Around the World",
-                "url": "https://www.404media.co/hello-boss-inside-the-chinese-realtime-deepfake-software-powering-scams-around-the-world/",
-                "source": "404 Media",
-                "published": "2026-05-07T13:12:05.000Z"
-              },
-              {
-                "title": "Timothée Chalamet and David Beckham kick off adidas’ World Cup campaign",
-                "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
-                "source": "Creative Review",
-                "published": "2026-05-07T10:36:19.000Z"
-              },
-              {
-                "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
-                "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
-                "source": "Adweek",
-                "published": "2026-05-07T04:00:00.000Z"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "crossCategory": {
-    "generatedAt": "2026-05-07T19:07:06.616Z",
-    "megaTrends": [
-      {
-        "trend": "Nostalgie als strategische infrastructuurspeel",
-        "summary": "Nineties-artiesten domineren stadium residencies terwijl klassieke films 4K-restauraties krijgen: beide gebruiken gedigitaliseerde nostalgie als aanleiding voor nieuwe infrastructuurinvesteringen (concertlocaties, streamingplatforms). Dit is niet zomaar retro, maar een economische strategie om legacy-content te monetiseren via upgrading.",
-        "why_it_matters": "Dit onthult dat nostalgie in 2026 niet consumptief maar infrastructureel is—het rechtvaardigt kapitaalintensieve investeringen in fysieke en digitale systemen.",
-        "categories": [
-          "music",
-          "art"
+        "label": "2026 · Tour",
+        "keywords": [
+          "2026",
+          "tour"
         ],
-        "strength": "matig"
-      },
-      {
-        "trend": "Technologie eist menselijke authenticiteit als validatie",
-        "summary": "AI-gegenereerde content (deepfakes in internet, AI in creatieve industrie) triggert een parallelle vraag naar menselijke validatie en authenticiteit. Solo-artiesten kondigen comebacks strategisch aan als bewijs van 'echt' artistiek belang, terwijl klassieke filmrestauraties aandacht vragen voor curatie door mensen.",
-        "why_it_matters": "De opkomst van schaalbare AI-content maakt menselijke intentie en authenticiteit tot zeldzaam goed—merken en kunstenaars benutten dit als differentiator.",
+        "sourceCount": 10,
+        "sources": [
+          "Billboard",
+          "Consequence",
+          "Crack Magazine",
+          "Creative Review",
+          "GQ",
+          "IndieWire",
+          "Kotaku",
+          "NME",
+          "Pitchfork News",
+          "Wired"
+        ],
         "categories": [
-          "music",
+          "fashion",
           "art",
-          "internet"
+          "internet",
+          "music",
+          "gaming",
+          "film"
         ],
-        "strength": "sterk"
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "IndieWire",
+            "category": "film",
+            "title": "Cannes 2026 Movies Sold So Far: ‘Paper Tiger,’ ‘The Devils’ 4K Restoration, and ‘Minotaur’ Find Homes Early",
+            "url": "https://www.indiewire.com/news/festivals/cannes-2026-movies-sold-so-far-paper-tiger-minotaur-1235191174/",
+            "published": "2026-05-07T19:00:00.000Z",
+            "summary": "Janus Films also jumped early to acquire Kiyoshi Kurosawa's latest film \"The Samurai and the Prisoner.\"",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Wired",
+            "category": "internet",
+            "title": "How I Fixed My Webcam Lighting for Zoom Calls (2026)",
+            "url": "https://www.wired.com/story/how-to-fix-bad-webcam-lighting/",
+            "published": "2026-05-07T18:29:54.000Z",
+            "summary": "I have a horrendous lighting setup in my home office, but as a mixed-use room, my options for fixing it were limited.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
+            "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
+            "published": "2026-05-07T18:11:31.000Z",
+            "summary": "The final world tour kicks off in October with US stops in Austin, Nashville, Atlanta, New York, Chicago, and Los Angeles. L7 Announce 2026 Farewell “The Last Hurrah Tour” Eddie Fu",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist",
+            "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
+            "published": "2026-05-07T17:47:17.000Z",
+            "summary": "The California band played a selection of their biggest hits alongside a few deep cuts for the opening show of their Sphere residency. No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist Paolo Ragusa",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "Here’s the Full List of Performers Announced So Far for the 2026 American Music Awards",
+            "url": "https://www.billboard.com/lists/2026-american-music-awards-performers/",
+            "published": "2026-05-07T17:18:58.000Z",
+            "summary": "Five more artists have joined the list.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "Watch Shakira Tease ‘Dai Dai,’ the Official 2026 FIFA World Cup Song With Burna Boy",
+            "url": "https://www.billboard.com/music/latin/shakira-dai-dai-2026-fifa-world-cup-song-burna-boy-teaser-1236241647/",
+            "published": "2026-05-07T17:16:09.000Z",
+            "summary": "The Colombian artist remains the Queen of World Cup Music.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "BLACKPINK Reunites for a Bathroom Selfie at the 2026 Met Gala",
+            "url": "https://www.billboard.com/music/music-news/blackpink-reunites-2026-met-gala-bathroom-selfie-1236241688/",
+            "published": "2026-05-07T17:10:47.000Z",
+            "summary": "The ladies walked the carpet separately, but joined forces once inside.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "2026 Billboard Women in Music Polaroids",
+            "url": "https://www.billboard.com/photos/billboard-women-in-music-2026-polaroids-1236241563/",
+            "published": "2026-05-07T17:07:08.000Z",
+            "summary": "Check out our gallery of Billboard Women in Music 2026 Polaroids, including snaps of HUNTR/X, Tate McRae, Brandi Carlile, Zara Larsson and more.",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "World · Timoth",
+        "keywords": [
+          "world",
+          "timoth"
+        ],
+        "sourceCount": 6,
+        "sources": [
+          "404 Media",
+          "Adweek",
+          "Business of Fashion",
+          "Creative Review",
+          "Design Boom",
+          "NME"
+        ],
+        "categories": [
+          "fashion",
+          "art",
+          "internet",
+          "music",
+          "marketing"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "NME",
+            "category": "music",
+            "title": "‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame",
+            "url": "https://www.nme.com/news/gaming-news/angry-birds-silent-hill-fifa-world-video-game-hall-of-fame-3944425?utm_source=rss&utm_medium=rss&utm_campaign=angry-birds-silent-hill-fifa-world-video-game-hall-of-fame",
+            "published": "2026-05-07T14:30:54.000Z",
+            "summary": "The Strong Museum celebrates titles that have “significantly influenced popular culture and the video game industry The post ‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame appeared first on NME.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "404 Media",
+            "category": "internet",
+            "title": "‘HELLO BOSS’: Inside the Chinese Realtime Deepfake Software Powering Scams Around the World",
+            "url": "https://www.404media.co/hello-boss-inside-the-chinese-realtime-deepfake-software-powering-scams-around-the-world/",
+            "published": "2026-05-07T13:12:05.000Z",
+            "summary": "404 Media has obtained a copy of ‘Haotian AI’, a popular piece of realtime deepfake software marketed to scammers. It can turn a fraudster's face into anyone else's on WhatsApp, Zoom, and Teams.",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Creative Review",
+            "category": "art",
+            "title": "Timothée Chalamet and David Beckham kick off adidas’ World Cup campaign",
+            "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
+            "published": "2026-05-07T10:36:19.000Z",
+            "summary": "They line up alongside Lionel Messi, Jude Bellingham and Bad Bunny for a nostalgic, cinematic short that celebrates grassroots football culture",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Adweek",
+            "category": "marketing",
+            "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
+            "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
+            "published": "2026-05-07T04:00:00.000Z",
+            "summary": "The 5-minute spot kicks off the shoe brand's Tier-1 sponsorship of the tournament",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Business of Fashion",
+            "category": "fashion",
+            "title": "Eli Lilly’s Mounjaro Becomes World’s Top-Selling Drug",
+            "url": "https://www.businessoffashion.com/news/beauty/mounjaro-worlds-top-selling-drug-eli-lilly-glp-1/",
+            "published": "2026-05-07T11:41:25.000Z",
+            "summary": "The GLP-1 medication has surpassed Merck & Co.’s cancer therapy Keytruda as the world’s best-selling medication.",
+            "score": 8
+          },
+          {
+            "source": "Design Boom",
+            "category": "art",
+            "title": "how aki inomata turns shells and insects into living collaborators for soft world-making",
+            "url": "https://www.designboom.com/art/aki-inomata-shells-insects-living-collaborators-soft-world-making/",
+            "published": "2026-05-06T19:30:07.000Z",
+            "summary": "the japanese artist explores coexistence through hermit crabs, oysters, insects, and shared shelters shaped by interspecies collaboration. The post how aki inomata turns shells and insects into living collaborators for soft world-making appeared first on designboom |…",
+            "score": 8,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Tour · Hayley",
+        "keywords": [
+          "tour",
+          "hayley"
+        ],
+        "sourceCount": 5,
+        "sources": [
+          "Billboard",
+          "Consequence",
+          "IndieWire",
+          "Stereogum",
+          "Variety"
+        ],
+        "categories": [
+          "music",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "Hayley Williams Unveils Full Itinerary for Fall Amphitheater Tour, Which Will Include Material From All Her Solo Albums Plus ‘Surprises’",
+            "url": "https://variety.com/2026/music/news/hayley-williams-tour-announces-fall-live-in-americas-1236740608/",
+            "published": "2026-05-07T19:14:47.000Z",
+            "summary": "Anyone who missed out on the very tough-to-get tickets for Hayley Williams’ current tour of theaters will soon get a shot at picking up seats for a run of shows she’s doing in amphitheaters in the fall … although all indicators are that even these more sizable venues may prove…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Stereogum",
+            "category": "music",
+            "title": "Hayley Williams Announces “The Hayley Williams Show” Tour Dates With Magdalena Bay & Rico Nasty",
+            "url": "https://stereogum.com/2498234/hayley-williams-announces-the-hayley-williams-show-tour-dates-with-magdalena-bay-rico-nasty/news/",
+            "published": "2026-05-07T19:02:58.000Z",
+            "summary": "The Hayley Williams Show is coming to a city near you. Currently, the Paramore musician is on her first-ever solo tour supporting her recent album Ego Death At A Bachelorette Party. Today, she's announcing dates for The Hayley Williams Show, which will showcase music from across…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "Hayley Williams Announces “The Hayley Williams Show” Tour",
+            "url": "https://consequence.net/2026/05/hayley-williams-new-2026-tour-dates/",
+            "published": "2026-05-07T19:00:00.000Z",
+            "summary": "\"The Hayley Williams Show\" tour features new shows across the US and Latin America. Hayley Williams Announces “The Hayley Williams Show” Tour Eddie Fu",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Stereogum",
+            "category": "music",
+            "title": "L7 Announce Farewell Tour",
+            "url": "https://stereogum.com/2498172/l7-announce-farewell-tour/news/",
+            "published": "2026-05-07T17:48:02.000Z",
+            "summary": "Legendary '90s grunge-punk band L7 have announced their final world tour. They'll be announcing more dates in the coming months, but, as of right now, the US leg of the Last Hurrah Tour begins on Oct. 9 in Arizona. Before that, they're playing some shows this summer in Canada…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "Cazzu’s Latinaje Tour Lights Up NYC With Drama, Trap & Tango: 5 Best Moments From Her First-Ever U.S. Trek",
+            "url": "https://www.billboard.com/lists/cazzu-united-states-tour-2026-latinaje-new-york-review/",
+            "published": "2026-05-07T17:04:20.000Z",
+            "summary": "The Argentine singer/rapper performed at the Infosys Theater at Madison Square Garden on Wednesday night (May 6).",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "IndieWire",
+            "category": "film",
+            "title": "‘Billie Eilish – Hit Me Hard and Soft: The Tour’ Review: James Cameron Captures the Singer in 3D, and in All Her Doomy Grandeur",
+            "url": "https://www.indiewire.com/criticism/movies/billie-eilish-hit-me-hard-and-soft-the-tour-movie-review-1235192691/",
+            "published": "2026-05-07T13:00:00.000Z",
+            "summary": "The stadium-sized catharsis of Eilish's best bridges hit harder with 17 3D cameras.",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Game · Star",
+        "keywords": [
+          "game",
+          "star"
+        ],
+        "sourceCount": 5,
+        "sources": [
+          "Eurogamer",
+          "GQ",
+          "Kotaku",
+          "Stereogum",
+          "Variety"
+        ],
+        "categories": [
+          "fashion",
+          "music",
+          "gaming",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "Layoffs Hit ‘Project Ethos’ Team as 2K Unveils New Concept Art, Details for Game",
+            "url": "https://variety.com/2026/gaming/news/project-ethos-game-details-art-layoffs-2k-studio-1236740779/",
+            "published": "2026-05-07T17:49:14.000Z",
+            "summary": "Video game developer 2K’s 31st Union studio is experiencing a round of layoffs amid development on its upcoming “Project Ethos” video game project. The unconfirmed number of cuts come as the Take-Two Interactive-owned 2K has unveiled new concept art (which readers can view…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Stereogum",
+            "category": "music",
+            "title": "New Video Game Mixtape Puts You In The Role Of An Aspiring Music Supervisor",
+            "url": "https://stereogum.com/2498243/new-video-game-mixtape-puts-you-in-the-role-of-an-aspiring-music-supervisor/news/",
+            "published": "2026-05-07T16:56:44.000Z",
+            "summary": "Mixtape, a new video game out today, tells a classic teen-movie coming-of-age story, following three kids who are trying to make it to a mythic party on their last day of school, avoiding getting caught along the way. It's the latest game from Beethoven & Dinosaur, the Melbourne…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Kotaku",
+            "category": "gaming",
+            "title": "Star Fox Needs Aura And It’s Missing From The New Game",
+            "url": "https://kotaku.com/star-fox-64-switch-2-redesigns-artstyle-comparison-2000693977",
+            "published": "2026-05-07T14:50:32.000Z",
+            "summary": "Nintendo just had a perfect version of Fox McCloud last month and now we have…this",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Eurogamer",
+            "category": "gaming",
+            "title": "Star Fox's original artist reckons Fox McCloud's design is better in The Super Mario Galaxy Movie than it is in the Switch 2 game",
+            "url": "https://www.eurogamer.net/star-fox-64-remake-fox-mccloud-design",
+            "published": "2026-05-07T14:49:53.000Z",
+            "summary": "The former Nintendo art director who originally designed the Star Fox characters in the '90s has admitted he prefers the recent Super Mario Galaxy film's design of Fox McCloud to the newly-announced game's. Read more",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Eurogamer",
+            "category": "gaming",
+            "title": "Civilization 7's huge 'Test of Time' update arrives this month, and it's full of deep changes to the divisive 4X game",
+            "url": "https://www.eurogamer.net/civilization-7-test-of-time-update-gets-date-and-details",
+            "published": "2026-05-07T14:24:08.000Z",
+            "summary": "Sid Meier's Civilization 7 was in no way a flop - in fact, it's been performing well enough and has long-term potential, according to Take-Two - but there's no denying it caused a rift with its more daring design decisions that have split the community since its early 2025…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "GQ",
+            "category": "fashion",
+            "title": "The Real-Life Diet of Josh Hart, Who Drinks 400 to 500 Milligrams of Caffeine Before a Game",
+            "url": "https://www.gq.com/story/real-life-diet-josh-hart",
+            "published": "2026-05-07T12:00:00.000Z",
+            "summary": "The New York Knicks’ sparkplug is listening to his body, which is telling him to strengthen his tendons, slam explosive pregame energy drinks, and wash down a tough loss with a glass of wine.",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Song · Listen",
+        "keywords": [
+          "song",
+          "listen"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "Consequence",
+          "Deadline",
+          "Kotaku",
+          "Pitchfork News"
+        ],
+        "categories": [
+          "music",
+          "gaming",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Gavin Brivik And Andrew Bird On Pitching And Creating The First Original Song For ‘The Pitt’ – Sound & Screen TV",
+            "url": "https://deadline.com/2026/05/gavin-brivik-andrew-bird-the-pitt-need-someone-song-1236885388/",
+            "published": "2026-05-07T18:30:00.000Z",
+            "summary": "SPOILER ALERT: This story contains details of Season 2 of HBO Max’s The Pitt. Season 2 of The Pitt features an original song in episode 6. “Need Someone” plays when a recurring patient named Louie (Ernest Harden Jr.) dies. Songwriter Andrew Bird sang and played the song with…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "Gene Simmons Reveals KISS Just Recorded a New Song",
+            "url": "https://consequence.net/2026/05/gene-simmons-kiss-new-song/",
+            "published": "2026-05-07T18:26:01.000Z",
+            "summary": "The reveal came during an interview with YouTube KISSbySienna which also included news of a KISS theme park being developed by Pophouse. Gene Simmons Reveals KISS Just Recorded a New Song Langdon Hickman",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Kotaku",
+            "category": "gaming",
+            "title": "New Lego Batman Trailer Uses The Perfect Song To Get Me Freakin’ Pumped For Launch",
+            "url": "https://kotaku.com/new-lego-batman-trailer-uses-kiss-from-a-rose-seal-perfect-song-launch-ps5-xbox-2000694000",
+            "published": "2026-05-07T16:30:18.000Z",
+            "summary": "Legacy of the Dark Knight is shaping up to be the best damn Batman game in a long, long time",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream",
+            "url": "https://consequence.net/2026/05/yard-act-youre-gonna-need-a-little-music-new-album-redeemer-new-song-stream/",
+            "published": "2026-05-07T15:48:12.000Z",
+            "summary": "The post-punk quartet will unveil their third album on July 17th. Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream Paolo Ragusa",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Pitchfork News",
+            "category": "music",
+            "title": "Listen to Father John Misty’s New Song “The Payoff”",
+            "url": "https://pitchfork.com/news/listen-to-father-john-mistys-new-song-the-payoff/",
+            "published": "2026-05-07T04:07:45.000Z",
+            "summary": "He co-produced it with frequent collaborator Drew Erickson",
+            "score": 8,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Time · Nintendo",
+        "keywords": [
+          "time",
+          "nintendo"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "Dazed",
+          "Kotaku",
+          "Polygon",
+          "Quartz"
+        ],
+        "categories": [
+          "gaming",
+          "culture",
+          "trends"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Quartz",
+            "category": "trends",
+            "title": "FDA authorizes fruit-flavored e-cigarettes for the first time",
+            "url": "https://qz.com/fda-fruit-flavored-e-cigarettes-authorized-glas-050726",
+            "published": "2026-05-07T19:21:27.000Z",
+            "summary": "The FDA greenlighted mango and blueberry vaping products from Los Angeles-based Glas Inc., marking a policy shift under the Trump administration",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Quartz",
+            "category": "trends",
+            "title": "OpenAI is launching 3 new real-time voice models for developers",
+            "url": "https://qz.com/openai-realtime-voice-models-developers-050726",
+            "published": "2026-05-07T19:20:18.000Z",
+            "summary": "The models handle live reasoning, speech translation across 70+ languages, and real-time transcription via the Realtime API",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Polygon",
+            "category": "gaming",
+            "title": "Nintendo's Star Fox reveal backs up Zelda Ocarina of Time remake rumors",
+            "url": "https://www.polygon.com/zelda-ocarina-of-time-remake-switch-2-star-fox/",
+            "published": "2026-05-07T18:30:19.000Z",
+            "summary": "Star Fox's return on Switch 2 all but confirms another big rumor: Nintendo is remaking The Legend of Zelda: Ocarina of Time in 2026.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Kotaku",
+            "category": "gaming",
+            "title": "Slay The Spire 2 Is Getting Review Bombed Again, This Time Because Of Chuds",
+            "url": "https://kotaku.com/slay-the-spire-2-is-getting-review-bombed-again-this-time-because-of-chuds-2000693961",
+            "published": "2026-05-07T17:30:15.000Z",
+            "summary": "An influx of new players are using Steam reviews to relitigate Gamegate",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Dazed",
+            "category": "culture",
+            "title": "Beata Rydbacken is taking over your feed, one big clip hoodie at a time",
+            "url": "https://www.dazeddigital.com/fashion/article/70214/1/beata-rydbacken-big-clip-hoodie-swedish-designer-on-the-rise-rosalia?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=beata-rydbacken-is-taking-over-your-feed-one-big-clip-hoodie-at-a-time",
+            "published": "2026-05-07T07:00:00.000Z",
+            "summary": "If you’ve been anywhere near the internet in the last couple of months, chances are you’ve seen a certain grey, zip-up sweatshirt, fastened together by three blown-up pastel hair clips. Beata Rydbacken’s big clip hoodie may have entered the canon of viral It-items, but its…",
+            "score": 8,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Land · Sculpted",
+        "keywords": [
+          "land",
+          "sculpted"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "Adweek",
+          "Design Boom",
+          "Stereogum",
+          "Yanko Design"
+        ],
+        "categories": [
+          "art",
+          "music",
+          "marketing"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Stereogum",
+            "category": "music",
+            "title": "JPEGMAFIA – “War Over Land”",
+            "url": "https://stereogum.com/2498230/jpegmafia-war-over-land/music/",
+            "published": "2026-05-07T16:08:47.000Z",
+            "summary": "JPEGMAFIA’s new album Experimental Rap isn’t even out for another two weeks, but it’s already led to the extremely entertaining Instagram-comments feud between Peggy and Earl Sweatshirt. That bit of gossip will probably get more attention than any of the actual music on…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Yanko Design",
+            "category": "art",
+            "title": "Google’s $99 Gemini Speaker Is About to Land",
+            "url": "https://www.yankodesign.com/2026/05/07/googles-99-gemini-speaker-is-about-to-land/?utm_source=rss&utm_medium=rss&utm_campaign=googles-99-gemini-speaker-is-about-to-land",
+            "published": "2026-05-07T14:20:15.000Z",
+            "summary": "Google’s $99 Gemini Speaker Is About to Land The smart speaker category has been quietly stagnating. Go ahead and look around your house. Chances are there’s a Nest Audio or an Amazon Echo...",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Adweek",
+            "category": "marketing",
+            "title": "CNN Readies for America&#8217;s 250th Birthday With This Land Docuseries",
+            "url": "https://www.adweek.com/tvnewser/cnn-readies-for-americas-250th-birthday-with-this-land-docuseries/",
+            "published": "2026-05-07T12:00:00.000Z",
+            "summary": "Over six episodes, the CNN original series charts the growth of the United States into the country it is today.",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Design Boom",
+            "category": "art",
+            "title": "24 sculpted trees become giant colored pencils in south african land art installation",
+            "url": "https://www.designboom.com/art/24-sculpted-trees-giant-colored-pencils-south-africa-land-art-installation-strijdom-van-der-merwe/",
+            "published": "2026-05-07T09:00:50.000Z",
+            "summary": "developed by strijdom van der merwe, the project examines intervention within a living environment. The post 24 sculpted trees become giant colored pencils in south african land art installation appeared first on designboom | architecture & design magazine.",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Announces · Charli",
+        "keywords": [
+          "announces",
+          "charli"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Billboard",
+          "NME",
+          "Polygon"
+        ],
+        "categories": [
+          "music",
+          "gaming"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Polygon",
+            "category": "gaming",
+            "title": "Valve announces new Steam Controller pre-order dates and rules",
+            "url": "https://www.polygon.com/steam-controller-preorders-open-valve-date-time/",
+            "published": "2026-05-07T18:23:57.000Z",
+            "summary": "Valve's Steam Controller is sold out, but a new round of pre-orders is coming to Steam on May 8. This time, Valve is blocking resellers with new rules",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "Charli xcx Destroys an Electric Guitar in ‘Rock Music’ Video Teaser & Announces New Song’s Release Date",
+            "url": "https://www.billboard.com/music/music-news/charli-xcx-new-song-rock-music-video-release-date-1236241803/",
+            "published": "2026-05-07T18:05:21.000Z",
+            "summary": "The pop star has been teasing that the track is her edgiest yet.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "NME",
+            "category": "music",
+            "title": "Kelela announces album ‘New Avatar’ with single ‘linknb’",
+            "url": "https://www.nme.com/news/music/kelela-announces-album-new-avatar-with-single-linknb-3944435?utm_source=rss&utm_medium=rss&utm_campaign=kelela-announces-album-new-avatar-with-single-linknb",
+            "published": "2026-05-07T14:38:22.000Z",
+            "summary": "She said the album, which features collaborations with PinkPantheress, A. K. Paul, and Fousheé, \"finds solace in confronting\" The post Kelela announces album ‘New Avatar’ with single ‘linknb’ appeared first on NME.",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Exclusive · Industry",
+        "keywords": [
+          "exclusive",
+          "industry"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Business of Fashion",
+          "Sneaker News",
+          "The Hollywood Reporter"
+        ],
+        "categories": [
+          "fashion",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Sneaker News",
+            "category": "fashion",
+            "title": "Gear Up For Summer With Exclusive SNIPES Heat",
+            "url": "https://sneakernews.com/2026/05/07/snipes-shopping-guide-spring-summer-2026/",
+            "published": "2026-05-07T19:00:05.000Z",
+            "summary": "SPONSORED BY Photography: Jared Moody As the weather shifts and rotation season officially begins, SNIPES leads with a lineup delivering style, comfort, and versatility without... © Sneaker News, 2026. | Permalink No comment del.icio.us The post Gear Up For Summer With Exclusive…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "Director Lucia Alenar Iglesias Explores Family Trauma in ‘Forastera’ Trailer (Exclusive)",
+            "url": "https://www.hollywoodreporter.com/movies/movie-news/forastera-trailer-director-lucia-alenar-iglesias-1236589109/",
+            "published": "2026-05-07T17:10:35.000Z",
+            "summary": "Zoe Stein plays a vacationing teenager who after the sudden death of her grandmother cares for her grief-stricken grandfather in the Toronto Fest title set for a theatrical release to kick off May 29.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "Chris Willard Communications Names Kyle Pleva Brand Storytelling Accounts Lead (Exclusive)",
+            "url": "https://www.hollywoodreporter.com/tv/tv-news/chris-willard-communications-hires-kyle-pleva-brand-lead-1236587350/",
+            "published": "2026-05-07T16:41:04.000Z",
+            "summary": "You may remember Pleva from such companies as Amazon, Vice Media and Paramount.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Business of Fashion",
+            "category": "fashion",
+            "title": "Industry Leaders Gather in London for Exclusive AI Insights from The Business of Fashion",
+            "url": "https://www.businessoffashion.com/articles/technology/london-industry-leaders-ai-insights-briefing/",
+            "published": "2026-05-07T09:43:48.000Z",
+            "summary": "Senior leaders from Bottega Veneta, Harrods, Bvlgari, Selfridges, Manolo Blahnik and Tiffany & Co., among others, attended an intimate aperitivo evening at The Roof Gardens in London to explore the integration of artificial intelligence across the fashion and beauty industries.",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Disney · Future",
+        "keywords": [
+          "disney",
+          "future"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Adweek",
+          "The Hollywood Reporter",
+          "The Verge"
+        ],
+        "categories": [
+          "internet",
+          "film",
+          "marketing"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "Disney+ Reveals Its Latest Content Alliance With a Broadcaster – Mexico’s TV Azteca",
+            "url": "https://www.hollywoodreporter.com/business/business-news/disney-plus-mexico-tv-azteca-content-deal-masterchef-24-7-1236589055/",
+            "published": "2026-05-07T18:35:00.000Z",
+            "summary": "'MasterChef 24/7' and other reality shows and live TV channels are all part of the collaboration.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Verge",
+            "category": "internet",
+            "title": "The future of Disney Plus is a confused mess",
+            "url": "https://www.theverge.com/streaming/925973/josh-damaro-disney-plus-disney-parks",
+            "published": "2026-05-07T16:00:00.000Z",
+            "summary": "Newly minted CEO Josh D'Amaro says that he wants to turn Disney Plus into \"the immersive, interactive digital centerpiece of the company.\" It used to be that people went to the movies or theme parks to immerse themselves in Disney's fictional worlds. But now, D'Amaro says that…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Adweek",
+            "category": "marketing",
+            "title": "Getting an Ad Into Disney&#8217;s Super Bowl Takes More Than a Big Check",
+            "url": "https://www.adweek.com/convergent-tv/disney-unbelievable-demand-for-super-bowl-upfront/",
+            "published": "2026-05-07T15:04:05.000Z",
+            "summary": "Ahead of the upfront, Disney ad sales chief Rita Ferro shares her plans to make Super Bowl 2027 memorable.",
+            "score": 10,
+            "trending": true
+          }
+        ]
       }
     ]
   }
