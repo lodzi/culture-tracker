@@ -1,69 +1,63 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Culture Tracker</title>
-  <meta name="description" content="A daily read on what's happening in popular culture." />
+  <meta name="description" content="Dagelijkse signalen uit de populaire cultuur." />
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <h1 class="logo">Culture Tracker</h1>
-      <p class="tagline" id="brief-date">Daily signals from across popular culture</p>
+      <p class="tagline" id="brief-date">Dagelijkse signalen uit de populaire cultuur</p>
+
+      <!-- Tab switcher: Daily / Weekly -->
+      <nav class="layers" aria-label="Tijdsframe">
+        <button id="tab-daily" class="layer-btn active" type="button">Daily</button>
+        <button id="tab-weekly" class="layer-btn hidden" type="button">Weekly</button>
+      </nav>
     </div>
   </header>
 
   <main class="container">
-    <!-- Intro / hero block -->
+    <!-- Intro block -->
     <section id="intro" class="intro" aria-live="polite">
-      <p class="loading">Loading today's brief…</p>
+      <p class="loading">Brief laden…</p>
     </section>
 
-    <!-- Filters -->
+    <!-- Category filter -->
     <section class="filters" id="filters" aria-label="Filters">
       <div class="filter-row">
         <label>
-          <span>Category</span>
+          <span>Categorie</span>
           <select id="filter-category">
-            <option value="">All categories</option>
-          </select>
-        </label>
-        <label>
-          <span>Source</span>
-          <select id="filter-source">
-            <option value="">All sources</option>
-          </select>
-        </label>
-        <label>
-          <span>Min. bronnen</span>
-          <select id="filter-min-sources">
-            <option value="2">2+ bronnen</option>
-            <option value="3">3+ bronnen</option>
-            <option value="4">4+ bronnen</option>
-            <option value="5">5+ bronnen</option>
+            <option value="">Alle categorieën</option>
           </select>
         </label>
         <button id="filter-reset" type="button" class="reset">Reset</button>
       </div>
     </section>
 
-    <!-- Daily brief -->
-    <section id="layer-daily" class="layer" aria-label="Daily signals"></section>
+    <!-- Daily layer -->
+    <section id="layer-daily" class="layer" aria-label="Daily trends"></section>
+
+    <!-- Weekly layer (hidden until data is available) -->
+    <section id="layer-weekly" class="layer hidden" aria-label="Weekly trends"></section>
 
     <!-- Archive -->
-    <section class="archive" aria-label="Archive">
-      <h2>Archive</h2>
+    <section class="archive" aria-label="Archief">
+      <h2>Archief</h2>
       <ul id="archive-list" class="archive-list">
-        <li class="loading">Loading archive…</li>
+        <li class="loading">Archief laden…</li>
       </ul>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>Culture Tracker &middot; auto-generated &middot; <a href="./data/latest.json">latest.json</a></p>
+      <p>Culture Tracker &middot; powered by Claude Haiku &middot; <a href="./data/latest.json">latest.json</a></p>
     </div>
   </footer>
 

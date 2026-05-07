@@ -39,7 +39,10 @@ const ROOT = path.resolve(__dirname, "..");
 const SOURCES_PATH = path.join(ROOT, "config", "sources.json");
 const DATA_DIR = path.join(ROOT, "data");
 const ARCHIVE_DIR = path.join(DATA_DIR, "archive");
-const LATEST_PATH = path.join(DATA_DIR, "latest.json");
+// latest-raw.json = output van fetch (geen AI). ai-synthesize.js leest dit
+// en schrijft het AI-verrijkte latest.json + archief.
+const RAW_PATH    = path.join(DATA_DIR, "latest-raw.json");
+const LATEST_PATH = path.join(DATA_DIR, "latest.json");   // fallback voor als synthesis nog niet gedraaid heeft
 const ARCHIVE_INDEX_PATH = path.join(ARCHIVE_DIR, "index.json");
 
 // --- Config ---
@@ -450,8 +453,39 @@ function clusterByTopic(items) {
     if (rawClusters.length >= 25) break;
   }
 
-  // 4. Name each cluster and format output.
+  // 4. Coherence filter — remove articles that don't share ≥1 title token
+  //    with at least half of the other cluster members. This weeds out articles
+  //    that landed in a cluster only because of an incidental keyword match
+  //    (e.g. "apple" in a tech story and a food story).
+  function filterCoherent(clItems) {
+    if (clItems.length <= 2) return clItems;
+    const tokSets = clItems.map(function (it) {
+      return new Set(tokenize(it.title || ""));
+    });
+    return clItems.filter(function (it, idx) {
+      var myToks = tokSets[idx];
+      var threshold = Math.ceil((clItems.length - 1) / 2);
+      var matches = 0;
+      for (var j = 0; j < clItems.length; j++) {
+        if (j === idx) continue;
+        var other = tokSets[j];
+        var shared = false;
+        myToks.forEach(function (t) { if (other.has(t)) shared = true; });
+        if (shared) matches++;
+      }
+      return matches >= threshold;
+    });
+  }
+
+  // 5. Name each cluster and format output.
   return rawClusters.map(function (cluster) {
+    // Re-run coherence filter on this cluster's articles
+    var coherent = filterCoherent(cluster.items);
+    // Re-check: must still span ≥2 sources after filtering
+    var coherentSources = new Set(coherent.map(function (i) { return i.source; }));
+    if (coherentSources.size < 2) return null;
+    cluster.items   = coherent;
+    cluster.sources = coherentSources;
     const clItems = cluster.items;
     const clSrcs  = cluster.sources;
 
@@ -502,7 +536,7 @@ function clusterByTopic(items) {
       fresh:       fresh,
       items:       clItems.slice(0, MAX_ITEMS_PER_TOPIC),
     };
-  }).sort(function (a, b) {
+  }).filter(Boolean).sort(function (a, b) {
     // Cultural relevance score:
     //   sourceCount × 5  — cross-source breadth is the strongest signal
     //   + avg item score  — authority/recency/trending of constituent articles
@@ -627,13 +661,14 @@ async function main() {
     },
   };
 
-  const archivePath = path.join(ARCHIVE_DIR, date + ".json");
-  writeJSON(archivePath, brief);
+  // Write raw data for ai-synthesize.js to consume.
+  // Also write latest.json as a raw fallback (overwritten by synthesis when it runs).
+  writeJSON(RAW_PATH, brief);
   writeJSON(LATEST_PATH, brief);
   updateArchiveIndex(date);
 
-  console.log("✓ Wrote " + archivePath);
-  console.log("✓ Wrote " + LATEST_PATH);
+  console.log("✓ Wrote " + RAW_PATH + " (raw — for AI synthesis step)");
+  console.log("✓ Wrote " + LATEST_PATH + " (raw fallback)");
   console.log("✓ Updated " + ARCHIVE_INDEX_PATH);
 }
 

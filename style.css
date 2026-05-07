@@ -295,6 +295,73 @@ a:hover { opacity: 0.7; }
   .topic.is-trending { border-left-color: #ff8c42; }
 }
 
+/* ─── Category sections (AI-formaat) ───────────────────────────────────── */
+
+.category { margin: 0 0 44px; }
+
+.category-header {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+}
+
+.category-title {
+  font-size: 11px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--muted); margin: 0;
+}
+
+/* ─── Insight cards ─────────────────────────────────────────────────────── */
+
+.insights { display: grid; gap: 16px; }
+
+.insight {
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 20px 22px;
+  border-left: 3px solid transparent;
+}
+.insight.is-trending { border-left-color: #d4600a; }
+
+.insight-header {
+  display: flex; justify-content: space-between;
+  align-items: flex-start; gap: 12px; margin: 0 0 10px;
+}
+
+.insight-trend {
+  font-family: var(--font-serif); font-size: 19px; font-weight: 700;
+  margin: 0; letter-spacing: -0.01em; line-height: 1.3;
+}
+
+.insight-summary {
+  margin: 0 0 8px; font-size: 15px; line-height: 1.65; color: var(--fg);
+}
+
+.insight-why {
+  margin: 0 0 14px; font-size: 14px; color: var(--muted);
+  font-style: italic; border-left: 2px solid var(--line); padding-left: 10px;
+}
+.insight-why strong { font-style: normal; color: var(--muted); font-weight: 600; }
+
+.insight-sources { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+
+.insight-articles {
+  border-top: 1px solid var(--line); padding-top: 12px; margin-top: 2px;
+}
+.insight-articles summary {
+  font-size: 13px; color: var(--muted); cursor: pointer;
+  list-style: none; display: flex; align-items: center; gap: 6px;
+  user-select: none;
+}
+.insight-articles summary::before {
+  content: "▶"; font-size: 9px; transition: transform 0.15s ease;
+}
+.insight-articles[open] summary::before { transform: rotate(90deg); }
+.insight-articles summary:hover { color: var(--fg); }
+.insight-articles .items { margin-top: 10px; }
+
+@media (prefers-color-scheme: dark) {
+  .insight.is-trending { border-left-color: #ff8c42; }
+}
+
 /* Mobile */
 @media (max-width: 480px) {
   .filter-row { flex-direction: column; align-items: stretch; }
