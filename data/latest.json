@@ -1,687 +1,504 @@
 {
   "date": "2026-05-07",
+  "aiModel": "claude-haiku-4-5-20251001",
   "daily": {
-    "title": "Culture Tracker",
-    "intro": "Top 10 culturele topics · 45 artikels van 32 bronnen · 10 door 3+ bronnen · laatste 24u.",
-    "topics": [
+    "generatedAt": "2026-05-07T18:23:57.864Z",
+    "intro": "6 categorieën · 12 trends · laatste 24u",
+    "categories": [
       {
-        "label": "2026 · Awards",
-        "keywords": [
-          "2026",
-          "awards"
-        ],
-        "sourceCount": 10,
-        "sources": [
-          "Billboard",
-          "Consequence",
-          "Crack Magazine",
-          "Creative Review",
-          "Dezeen",
-          "IndieWire",
-          "NME",
-          "Pitchfork News",
-          "Sneaker News",
-          "Wired"
-        ],
-        "categories": [
-          "fashion",
-          "art",
-          "internet",
-          "music",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
           {
-            "source": "Billboard",
-            "category": "music",
-            "title": "Here’s the Full List of Performers Announced So Far for the 2026 American Music Awards",
-            "url": "https://www.billboard.com/lists/2026-american-music-awards-performers/",
-            "published": "2026-05-07T17:18:58.000Z",
-            "summary": "Five more artists have joined the list.",
-            "score": 10,
-            "trending": true
+            "trend": "Legacy acts dominating 2026 live performance landscape",
+            "summary": "L7's farewell tour, No Doubt's Sphere residency, and major festival lineups (AMAs) are centered on '90s-2000s nostalgia acts. Coverage from Billboard, Consequence, and Creative Review highlights this generational moment.",
+            "why_it_matters": "Millennial and Gen X audiences are reshaping live music economics by driving demand for legacy performances and reunion events.",
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "Crack Magazine",
+              "Creative Review",
+              "Dezeen",
+              "GQ",
+              "IndieWire",
+              "NME",
+              "Pitchfork News",
+              "Sneaker News",
+              "Wired"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
+                "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
+                "source": "Consequence",
+                "published": "2026-05-07T18:11:31.000Z"
+              },
+              {
+                "title": "No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist",
+                "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
+                "source": "Consequence",
+                "published": "2026-05-07T17:47:17.000Z"
+              },
+              {
+                "title": "Here’s the Full List of Performers Announced So Far for the 2026 American Music Awards",
+                "url": "https://www.billboard.com/lists/2026-american-music-awards-performers/",
+                "source": "Billboard",
+                "published": "2026-05-07T17:18:58.000Z"
+              },
+              {
+                "title": "Watch Shakira Tease ‘Dai Dai,’ the Official 2026 FIFA World Cup Song With Burna Boy",
+                "url": "https://www.billboard.com/music/latin/shakira-dai-dai-2026-fifa-world-cup-song-burna-boy-teaser-1236241647/",
+                "source": "Billboard",
+                "published": "2026-05-07T17:16:09.000Z"
+              }
+            ]
           },
           {
-            "source": "Billboard",
-            "category": "music",
-            "title": "Watch Shakira Tease ‘Dai Dai,’ the Official 2026 FIFA World Cup Song With Burna Boy",
-            "url": "https://www.billboard.com/music/latin/shakira-dai-dai-2026-fifa-world-cup-song-burna-boy-teaser-1236241647/",
-            "published": "2026-05-07T17:16:09.000Z",
-            "summary": "The Colombian artist remains the Queen of World Cup Music.",
-            "score": 10,
-            "trending": true
+            "trend": "Genre experimentation in indie and alternative music",
+            "summary": "Yard Act's new album and Father John Misty's psychedelic releases demonstrate artists pushing sonic boundaries in indie/alternative spaces. Charli xcx's 'Rock Music' adds mainstream pop experimentation to this trend (Billboard, Pitchfork News).",
+            "why_it_matters": "Genre boundaries are dissolving as artists gain creative freedom, particularly those operating outside major label constraints.",
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "Design Boom",
+              "Pitchfork News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Harry Styles Demonstrates the Power of Dancing & His Little Red Shorts in Playful ‘Dance No More’ Music Video",
+                "url": "https://www.billboard.com/music/music-news/harry-styles-dance-no-more-video-red-shorts-1236241509/",
+                "source": "Billboard",
+                "published": "2026-05-07T16:36:10.000Z"
+              },
+              {
+                "title": "Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream",
+                "url": "https://consequence.net/2026/05/yard-act-youre-gonna-need-a-little-music-new-album-redeemer-new-song-stream/",
+                "source": "Consequence",
+                "published": "2026-05-07T15:48:12.000Z"
+              },
+              {
+                "title": "Yard Act Ready New Album You’re Gonna Need a Little Music",
+                "url": "https://pitchfork.com/news/yard-act-ready-new-album-youre-gonna-need-a-little-music/",
+                "source": "Pitchfork News",
+                "published": "2026-05-07T13:11:03.000Z"
+              },
+              {
+                "title": "‘a little theater of life’: JR weaves monumental tapestry of community care in venice",
+                "url": "https://www.designboom.com/art/a-little-theater-of-life-jr-weaves-monumental-tapestry-of-community-care-in-venice/",
+                "source": "Design Boom",
+                "published": "2026-05-07T10:38:29.000Z"
+              }
+            ]
           },
           {
-            "source": "Billboard",
-            "category": "music",
-            "title": "BLACKPINK Reunites for a Bathroom Selfie at the 2026 Met Gala",
-            "url": "https://www.billboard.com/music/music-news/blackpink-reunites-2026-met-gala-bathroom-selfie-1236241688/",
-            "published": "2026-05-07T17:10:47.000Z",
-            "summary": "The ladies walked the carpet separately, but joined forces once inside.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Billboard",
-            "category": "music",
-            "title": "2026 Billboard Women in Music Polaroids",
-            "url": "https://www.billboard.com/photos/billboard-women-in-music-2026-polaroids-1236241563/",
-            "published": "2026-05-07T17:07:08.000Z",
-            "summary": "Check out our gallery of Billboard Women in Music 2026 Polaroids, including snaps of HUNTR/X, Tate McRae, Brandi Carlile, Zara Larsson and more.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "NME",
-            "category": "music",
-            "title": "Dove Ellis, Bb trickz, Liim, Zack Fox and more join line-up for Tyler, The Creator’s two-day takeover at All Points East 2026",
-            "url": "https://www.nme.com/news/music/dove-ellis-bb-trickz-liim-zack-fox-and-more-join-line-up-for-tyler-the-creators-two-day-takeover-at-all-points-east-2026-3944460?utm_source=rss&utm_medium=rss&utm_campaign=dove-ellis-bb-trickz-liim-zack-fox-and-more-join-line-up-for-tyler-the-creators-two-day-takeover-at-all-points-east-2026",
-            "published": "2026-05-07T16:46:43.000Z",
-            "summary": "They join Turnstile, Mariah The Scientist, Sexyy Red, and more on the bill The post Dove Ellis, Bb trickz, Liim, Zack Fox and more join line-up for Tyler, The Creator’s two-day takeover at All Points East 2026 appeared first on NME.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Wired",
-            "category": "internet",
-            "title": "Best Last-Minute Mother’s Day Deals on Mom-Approved Gifts (2026)",
-            "url": "https://www.wired.com/story/mothers-day-deals-2026/",
-            "published": "2026-05-07T16:21:58.000Z",
-            "summary": "Give Mom the best and save some cash in the process with these legitimate discounts on WIRED-approved gifts.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Crack Magazine",
-            "category": "music",
-            "title": "Semibreve announces first wave of artists for 2026",
-            "url": "https://crackmagazine.net/2026/05/semibreve-announces-first-wave-artists-2026/?utm_source=rss&utm_medium=rss&utm_campaign=semibreve-announces-first-wave-artists-2026",
-            "published": "2026-05-07T16:08:08.000Z",
-            "summary": "The Portuguese festival returns to Braga from 22–25 October 2026. The post Semibreve announces first wave of artists for 2026 appeared first on Crack Magazine.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Clutch Announce Fall 2026 US Tour",
-            "url": "https://consequence.net/2026/05/clutch-fall-2026-us-tour/",
-            "published": "2026-05-07T15:44:19.000Z",
-            "summary": "The veteran rock band is also working on its 14th studio album. Clutch Announce Fall 2026 US Tour Langdon Hickman",
-            "score": 10,
-            "trending": true
+            "trend": "Artists reclaiming 'voice' through independence and alternative platforms",
+            "summary": "Ben Gibbard, Chris Young, Jill Scott, and others are going indie to regain creative control, while Kelly Clarkson returns to 'The Voice'—a show centered on vocal authenticity. Variety and Billboard document this shift toward autonomy.",
+            "why_it_matters": "The cultural conversation around artistic 'voice'—both literal and metaphorical—reflects deeper anxieties about creative ownership in streaming economies.",
+            "sources": [
+              "Billboard",
+              "Deadline",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Kelly Clarkson Sets ‘The Voice’ Return for Season 30",
+                "url": "https://variety.com/2026/tv/news/kelly-clarkson-the-voice-return-season-30-1236740800/",
+                "source": "Variety",
+                "published": "2026-05-07T18:12:34.000Z"
+              },
+              {
+                "title": "Kelly Clarkson Returning To ‘The Voice’ For Season 30",
+                "url": "https://deadline.com/2026/05/kelly-clarkson-the-voice-returning-season-30-1236886288/",
+                "source": "Deadline",
+                "published": "2026-05-07T17:54:29.000Z"
+              },
+              {
+                "title": "Why Ben Gibbard, Chris Young, Jill Scott, Ricardo Montaner & Bebe Rexha Went Indie: ‘My Creative Voice and My Vision Are Heard Better Now’",
+                "url": "https://www.billboard.com/lists/jill-scott-bebe-rexha-death-cab-why-i-went-indie/",
+                "source": "Billboard",
+                "published": "2026-05-07T17:01:08.000Z"
+              },
+              {
+                "title": "Hannah Berner on Her ‘None of My Business’ Hulu Special and Why Stand-Up Comedy Was ‘Healing’ After Reality TV: ‘I Felt Like My Voice Was Shrunk’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/tv/news/hannah-berner-hulu-comedy-special-1236739923/",
+                "source": "Variety",
+                "published": "2026-05-07T17:00:00.000Z"
+              }
+            ]
           }
         ]
       },
       {
-        "label": "World · Timoth",
-        "keywords": [
-          "world",
-          "timoth"
-        ],
-        "sourceCount": 5,
-        "sources": [
-          "404 Media",
-          "Adweek",
-          "Creative Review",
-          "Design Boom",
-          "NME"
-        ],
-        "categories": [
-          "art",
-          "internet",
-          "music",
-          "marketing"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
+        "id": "fashion",
+        "label": "Fashion",
+        "insights": [
           {
-            "source": "NME",
-            "category": "music",
-            "title": "‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame",
-            "url": "https://www.nme.com/news/gaming-news/angry-birds-silent-hill-fifa-world-video-game-hall-of-fame-3944425?utm_source=rss&utm_medium=rss&utm_campaign=angry-birds-silent-hill-fifa-world-video-game-hall-of-fame",
-            "published": "2026-05-07T14:30:54.000Z",
-            "summary": "The Strong Museum celebrates titles that have “significantly influenced popular culture and the video game industry The post ‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame appeared first on NME.",
-            "score": 10,
-            "trending": true
+            "trend": "Celebrity festival moments dominate 2026 culture",
+            "summary": "Multiple music and entertainment icons are announcing major 2026 events—L7's farewell tour, No Doubt's Sphere residency, and BLACKPINK's Met Gala reunion—signaling a convergence of legacy acts and high-profile entertainment moments. These announcements span Billboard, Consequence, and Creative Review.",
+            "why_it_matters": "Nostalgia and retrospective celebration are becoming central to mainstream culture, as Gen X and millennial icons reclaim the spotlight.",
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "Crack Magazine",
+              "Creative Review",
+              "Dezeen",
+              "GQ",
+              "IndieWire",
+              "NME",
+              "Pitchfork News",
+              "Sneaker News",
+              "Wired"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "L7 Announce 2026 Farewell “The Last Hurrah Tour”",
+                "url": "https://consequence.net/2026/05/l7-2026-last-hurrah-tour-dates/",
+                "source": "Consequence",
+                "published": "2026-05-07T18:11:31.000Z"
+              },
+              {
+                "title": "No Doubt Kick Off 2026 Sphere Residency: Photos + Setlist",
+                "url": "https://consequence.net/2026/05/no-doubt-2026-sphere-residency-photos-setlist/",
+                "source": "Consequence",
+                "published": "2026-05-07T17:47:17.000Z"
+              },
+              {
+                "title": "Here’s the Full List of Performers Announced So Far for the 2026 American Music Awards",
+                "url": "https://www.billboard.com/lists/2026-american-music-awards-performers/",
+                "source": "Billboard",
+                "published": "2026-05-07T17:18:58.000Z"
+              },
+              {
+                "title": "Watch Shakira Tease ‘Dai Dai,’ the Official 2026 FIFA World Cup Song With Burna Boy",
+                "url": "https://www.billboard.com/music/latin/shakira-dai-dai-2026-fifa-world-cup-song-burna-boy-teaser-1236241647/",
+                "source": "Billboard",
+                "published": "2026-05-07T17:16:09.000Z"
+              }
+            ]
           },
           {
-            "source": "404 Media",
-            "category": "internet",
-            "title": "‘HELLO BOSS’: Inside the Chinese Realtime Deepfake Software Powering Scams Around the World",
-            "url": "https://www.404media.co/hello-boss-inside-the-chinese-realtime-deepfake-software-powering-scams-around-the-world/",
-            "published": "2026-05-07T13:12:05.000Z",
-            "summary": "404 Media has obtained a copy of ‘Haotian AI’, a popular piece of realtime deepfake software marketed to scammers. It can turn a fraudster's face into anyone else's on WhatsApp, Zoom, and Teams.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Creative Review",
-            "category": "art",
-            "title": "Timothée Chalamet and David Beckham kick off adidas’ World Cup campaign",
-            "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
-            "published": "2026-05-07T10:36:19.000Z",
-            "summary": "They line up alongside Lionel Messi, Jude Bellingham and Bad Bunny for a nostalgic, cinematic short that celebrates grassroots football culture",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Adweek",
-            "category": "marketing",
-            "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
-            "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
-            "published": "2026-05-07T04:00:00.000Z",
-            "summary": "The 5-minute spot kicks off the shoe brand's Tier-1 sponsorship of the tournament",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Design Boom",
-            "category": "art",
-            "title": "how aki inomata turns shells and insects into living collaborators for soft world-making",
-            "url": "https://www.designboom.com/art/aki-inomata-shells-insects-living-collaborators-soft-world-making/",
-            "published": "2026-05-06T19:30:07.000Z",
-            "summary": "the japanese artist explores coexistence through hermit crabs, oysters, insects, and shared shelters shaped by interspecies collaboration. The post how aki inomata turns shells and insects into living collaborators for soft world-making appeared first on designboom |…",
-            "score": 8,
-            "trending": true
+            "trend": "Athlete-celebrity crossover in sports marketing campaigns",
+            "summary": "Timothée Chalamet and David Beckham are headlining adidas' World Cup campaign, with coverage from Adweek and Business of Fashion highlighting celebrity-athlete partnerships. This represents a shift in how global sporting events are marketed.",
+            "why_it_matters": "Luxury fashion and sports are converging as celebrity endorsements become essential to athletic brand positioning.",
+            "sources": [
+              "404 Media",
+              "Adweek",
+              "Business of Fashion",
+              "Creative Review",
+              "Design Boom",
+              "NME"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame",
+                "url": "https://www.nme.com/news/gaming-news/angry-birds-silent-hill-fifa-world-video-game-hall-of-fame-3944425?utm_source=rss&utm_medium=rss&utm_campaign=angry-birds-silent-hill-fifa-world-video-game-hall-of-fame",
+                "source": "NME",
+                "published": "2026-05-07T14:30:54.000Z"
+              },
+              {
+                "title": "‘HELLO BOSS’: Inside the Chinese Realtime Deepfake Software Powering Scams Around the World",
+                "url": "https://www.404media.co/hello-boss-inside-the-chinese-realtime-deepfake-software-powering-scams-around-the-world/",
+                "source": "404 Media",
+                "published": "2026-05-07T13:12:05.000Z"
+              },
+              {
+                "title": "Timothée Chalamet and David Beckham kick off adidas’ World Cup campaign",
+                "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
+                "source": "Creative Review",
+                "published": "2026-05-07T10:36:19.000Z"
+              },
+              {
+                "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
+                "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
+                "source": "Adweek",
+                "published": "2026-05-07T04:00:00.000Z"
+              }
+            ]
           }
         ]
       },
       {
-        "label": "David · Larry",
-        "keywords": [
-          "david",
-          "larry"
-        ],
-        "sourceCount": 4,
-        "sources": [
-          "Consequence",
-          "Deadline",
-          "The Hollywood Reporter",
-          "Variety"
-        ],
-        "categories": [
-          "music",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
           {
-            "source": "Deadline",
-            "category": "film",
-            "title": "Larry David & Barack Obama’s ‘Life, Larry & The Pursuit Of Unhappiness’ Unveils First-Look Photos & Teaser",
-            "url": "https://deadline.com/2026/05/larry-david-barack-obama-hbo-series-photo-teaser-1236886171/",
-            "published": "2026-05-07T17:28:53.000Z",
-            "summary": "“I have sat across the table from some of the world’s most intractable leaders and wrestled with some of the globe’s most intractable problems. Nothing has prepared me for working with Larry David.” Those words from Barack Obama at the beginning of a new teaser for Life, Larry…",
-            "score": 10,
-            "trending": true
+            "trend": "Political comedy as prestige television narrative",
+            "summary": "Larry David and Barack Obama's HBO project signals a trend of high-profile comedy collaborations addressing politics and power. Covered by Consequence, Deadline, and Variety, this merges political satire with prestige drama.",
+            "why_it_matters": "Comedy is being repositioned as a serious vehicle for political commentary and cultural conversation rather than pure entertainment.",
+            "sources": [
+              "Consequence",
+              "Deadline",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Larry David & Barack Obama’s ‘Life, Larry & The Pursuit Of Unhappiness’ Unveils First-Look Photos & Teaser",
+                "url": "https://deadline.com/2026/05/larry-david-barack-obama-hbo-series-photo-teaser-1236886171/",
+                "source": "Deadline",
+                "published": "2026-05-07T17:28:53.000Z"
+              },
+              {
+                "title": "Marisa Tomei, Kelly Macdonald and David Harewood Set for Second Season of HBO, Sky Legal Drama ‘War’",
+                "url": "https://variety.com/2026/tv/global/marisa-tomei-kelly-macdonald-david-harewood-season-2-war-1236740698/",
+                "source": "Variety",
+                "published": "2026-05-07T16:56:43.000Z"
+              },
+              {
+                "title": "Larry David Tries to Make Barack Obama His Emergency Contact in Teaser for New HBO Show",
+                "url": "https://consequence.net/2026/05/larry-david-barack-obama-hbo-show-teaser/",
+                "source": "Consequence",
+                "published": "2026-05-07T16:31:53.000Z"
+              }
+            ]
           },
           {
-            "source": "Variety",
-            "category": "film",
-            "title": "Marisa Tomei, Kelly Macdonald and David Harewood Set for Second Season of HBO, Sky Legal Drama ‘War’",
-            "url": "https://variety.com/2026/tv/global/marisa-tomei-kelly-macdonald-david-harewood-season-2-war-1236740698/",
-            "published": "2026-05-07T16:56:43.000Z",
-            "summary": "Marisa Tomei, Kelly Macdonald and David Harewood are set to star in the second season of upcoming HBO/Sky legal drama “War.” Season 1, which features Dominic West and Sienna Miller as a high net worth divorcing couple, wrapped in February and is set to launch later this year.…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "Marisa Tomei, Kelly Macdonald, David Harewood Board Season 2 of Sky and HBO Legal Drama ‘War’",
-            "url": "https://www.hollywoodreporter.com/tv/tv-news/marisa-tomei-kelly-macdonald-david-harewood-war-season-2-1236589097/",
-            "published": "2026-05-07T16:45:00.000Z",
-            "summary": "Ahead of the season one launch, coming later this year with Dominic West and Sienna Miller, Sky has already confirmed the star-studded casting for the legal drama's second installment.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Deadline",
-            "category": "film",
-            "title": "Marisa Tomei, Kelly Macdonald & David Harewood Cast In Season 2 Of HBO & Sky Legal Drama ‘War’",
-            "url": "https://deadline.com/2026/05/war-hbo-sky-drama-season-2-marisa-tomei-kelly-macdonald-1236885996/",
-            "published": "2026-05-07T16:45:00.000Z",
-            "summary": "HBO and Sky’s legal drama War has already cast its second season. George Kay’s show, which was given a two-season order from the off, has brought in Marisa Tomei (Spider-Man: Far From Home), Kelly Macdonald (Lanterns) and David Harewood (Sherwood) to lead the next case in the…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Larry David Tries to Make Barack Obama His Emergency Contact in Teaser for New HBO Show",
-            "url": "https://consequence.net/2026/05/larry-david-barack-obama-hbo-show-teaser/",
-            "published": "2026-05-07T16:31:53.000Z",
-            "summary": "The sketch comedy series Life, Larry, and the Pursuit of Unhappiness is set to premiere this June. Larry David Tries to Make Barack Obama His Emergency Contact in Teaser for New HBO Show Liz Shannon Miller",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "Barack Obama Roasts Larry David in Teaser for HBO’s ‘Life, Larry, and the Pursuit of Unhappiness’",
-            "url": "https://variety.com/2026/tv/news/barack-obama-larry-david-hbo-life-larry-pursuit-unhappiness-1236740647/",
-            "published": "2026-05-07T16:21:56.000Z",
-            "summary": "Being President of the United States could not prepare Barack Obama for Larry David. In a new teaser for the HBO sketch series “Life, Larry, and the Pursuit of Unhappiness,” Obama states “I have sat across the table from some of the world’s most difficult leaders and wrestled…",
-            "score": 10,
-            "trending": true
+            "trend": "Thriller adaptations and remakes dominating streaming platforms",
+            "summary": "Netflix's AI thriller, Studiocanal's 'The Divorce' adaptation, and cape Fear's episodic remake show streamers investing heavily in adaptations of existing thriller IP. Deadline, IndieWire, and Variety document this pattern.",
+            "why_it_matters": "Streaming platforms are favoring recognizable intellectual property and genre security over original narratives, signaling risk-aversion in prestige content.",
+            "sources": [
+              "Deadline",
+              "IndieWire",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Jeff Daniels, Joel Edgerton, Caleb McLaughlin & Nnamdi Asomugha Join Netflix’s AI Thriller From Joseph Gordon-Levitt",
+                "url": "https://deadline.com/2026/05/jeff-daniels-joel-edgerton-jospeh-gordon-levitt-1236884015/",
+                "source": "Deadline",
+                "published": "2026-05-07T18:00:00.000Z"
+              },
+              {
+                "title": "Stephen Dorff & Kevin Dillon Set For Action Thriller ‘Red Stick Hoods’",
+                "url": "https://deadline.com/2026/05/stephen-dorff-kevin-dillon-join-red-stick-hoods-thriller-1236886296/",
+                "source": "Deadline",
+                "published": "2026-05-07T17:53:47.000Z"
+              },
+              {
+                "title": "‘Housemaid’ Author Freida McFadden’s Next Thriller ‘The Divorce’ Lands at Studiocanal",
+                "url": "https://variety.com/2026/film/news/freida-mcfadden-thriller-the-divorce-studiocanal-movie-1236740105/",
+                "source": "Variety",
+                "published": "2026-05-07T17:15:00.000Z"
+              },
+              {
+                "title": "‘Cape Fear’ Trailer: The Classic Thriller Gets an Episodic Remake with Javier Bardem, Amy Adams, and Patrick Wilson",
+                "url": "https://www.indiewire.com/news/trailers/cape-fear-trailer-javier-bardem-amy-adams-1235192718/",
+                "source": "IndieWire",
+                "published": "2026-05-07T13:00:00.000Z"
+              }
+            ]
           }
         ]
       },
       {
-        "label": "Company · Creative",
-        "keywords": [
-          "company",
-          "creative"
-        ],
-        "sourceCount": 4,
-        "sources": [
-          "Creative Review",
-          "Fast Company",
-          "Quartz",
-          "Variety"
-        ],
-        "categories": [
-          "art",
-          "film",
-          "trends"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
+        "id": "art",
+        "label": "Art & Design",
+        "insights": [
           {
-            "source": "Fast Company",
-            "category": "trends",
-            "title": "Why “AI-Powered” thinking will leave your company behind",
-            "url": "https://www.fastcompany.com/91538585/why-ai-powered-thinking-will-leave-your-company-behind",
-            "published": "2026-05-07T16:41:30.000Z",
-            "summary": "Every day, I see another LinkedIn post celebrating a company that’s AI-powered. Meaning, they have added AI systems to their workflow, built co-work agents, and are using the technology to assist their team. And every day, I find myself thinking that they’ve missed the point…",
-            "score": 10,
-            "trending": true
+            "trend": "Music videos as experimental visual art forms",
+            "summary": "Harry Styles' 'Dance No More' and Charli xcx's 'Rock Music' are showcasing elaborate, narrative-driven music videos that blur boundaries between music promotion and contemporary art. Coverage spans Billboard, Consequence, and Pitchfork News.",
+            "why_it_matters": "Music videos are evolving beyond promotional tools into standalone artistic statements that reflect broader trends in visual culture.",
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "Design Boom",
+              "Pitchfork News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Harry Styles Demonstrates the Power of Dancing & His Little Red Shorts in Playful ‘Dance No More’ Music Video",
+                "url": "https://www.billboard.com/music/music-news/harry-styles-dance-no-more-video-red-shorts-1236241509/",
+                "source": "Billboard",
+                "published": "2026-05-07T16:36:10.000Z"
+              },
+              {
+                "title": "Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream",
+                "url": "https://consequence.net/2026/05/yard-act-youre-gonna-need-a-little-music-new-album-redeemer-new-song-stream/",
+                "source": "Consequence",
+                "published": "2026-05-07T15:48:12.000Z"
+              },
+              {
+                "title": "Yard Act Ready New Album You’re Gonna Need a Little Music",
+                "url": "https://pitchfork.com/news/yard-act-ready-new-album-youre-gonna-need-a-little-music/",
+                "source": "Pitchfork News",
+                "published": "2026-05-07T13:11:03.000Z"
+              },
+              {
+                "title": "‘a little theater of life’: JR weaves monumental tapestry of community care in venice",
+                "url": "https://www.designboom.com/art/a-little-theater-of-life-jr-weaves-monumental-tapestry-of-community-care-in-venice/",
+                "source": "Design Boom",
+                "published": "2026-05-07T10:38:29.000Z"
+              }
+            ]
           },
           {
-            "source": "Variety",
-            "category": "film",
-            "title": "‘Jury Duty: Company Retreat’ Creatives on Building the Right Ensemble and Why Anthony’s Compassion Was the Perfect Fit",
-            "url": "https://variety.com/2026/tv/news/jury-duty-company-retreat-casting-anthony-norman-1236739539/",
-            "published": "2026-05-07T16:22:26.000Z",
-            "summary": "“Jury Duty” successfully pulled off its Season 1 conceit, where all but one person are hired actors. (Who can forget Ron Gladden?) But Season 2 provided new challenges for the show’s producers. This time around, the show moves away from the courtroom, trying its luck with a…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Quartz",
-            "category": "trends",
-            "title": "Shell profits surge on rising oil prices. But the company slashes its stock buyback",
-            "url": "https://qz.com/shell-earnings-iran-war-oil-prices-trading-profit-050726",
-            "published": "2026-05-07T13:50:40.000Z",
-            "summary": "The gains were driven in part by oil traders capitalizing on volatile markets. Crude prices have surged roughly 40% since the Iran war begin",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Creative Review",
-            "category": "art",
-            "title": "Most Creative Production Company: Business Club",
-            "url": "https://www.creativereview.co.uk/most-creative-production-company-business-club/",
-            "published": "2026-05-07T08:18:42.000Z",
-            "summary": "With a small, tight-knit team and a taste for the unconventional, Business Club is redefining what great commercial filmmaking can be",
-            "score": 9,
-            "trending": true
+            "trend": "Environmental and community-focused land art installations",
+            "summary": "Projects like the South African colored-pencil tree installation and JR's community-care tapestry in Venice demonstrate a rise in large-scale public art with environmental or social themes. Design Boom and Creative Review document this shift.",
+            "why_it_matters": "Public art is increasingly becoming a vehicle for addressing climate and social justice concerns rather than purely aesthetic expression.",
+            "sources": [
+              "Adweek",
+              "Design Boom",
+              "Yanko Design"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Google’s $99 Gemini Speaker Is About to Land",
+                "url": "https://www.yankodesign.com/2026/05/07/googles-99-gemini-speaker-is-about-to-land/?utm_source=rss&utm_medium=rss&utm_campaign=googles-99-gemini-speaker-is-about-to-land",
+                "source": "Yanko Design",
+                "published": "2026-05-07T14:20:15.000Z"
+              },
+              {
+                "title": "24 sculpted trees become giant colored pencils in south african land art installation",
+                "url": "https://www.designboom.com/art/24-sculpted-trees-giant-colored-pencils-south-africa-land-art-installation-strijdom-van-der-merwe/",
+                "source": "Design Boom",
+                "published": "2026-05-07T09:00:50.000Z"
+              },
+              {
+                "title": "CNN Readies for America&#8217;s 250th Birthday With This Land Docuseries",
+                "url": "https://www.adweek.com/tvnewser/cnn-readies-for-americas-250th-birthday-with-this-land-docuseries/",
+                "source": "Adweek",
+                "published": "2026-05-07T12:00:00.000Z"
+              }
+            ]
           }
         ]
       },
       {
-        "label": "John · Father",
-        "keywords": [
-          "john",
-          "father"
-        ],
-        "sourceCount": 4,
-        "sources": [
-          "Consequence",
-          "Dazed",
-          "Pitchfork News",
-          "Quartz"
-        ],
-        "categories": [
-          "music",
-          "culture",
-          "trends"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
           {
-            "source": "Quartz",
-            "category": "trends",
-            "title": "HawkEye 360 CEO John Serafini delivers exclusive remarks before NYSE listing",
-            "url": "https://qz.com/hawkeye-360-ceo-serafini-nyse-listing-remarks",
-            "published": "2026-05-07T17:10:09.000Z",
-            "summary": "HawkEye 360 CEO John Serafini delivers exclusive remarks before NYSE listing",
-            "score": 10,
-            "trending": true
+            "trend": "Deepfake technology scaling criminal fraud operations",
+            "summary": "404 Media's investigation into 'HELLO BOSS' Chinese deepfake software reveals real-time AI fraud tools enabling scams at scale. This represents a critical moment where deepfake technology has moved from experimental to weaponized.",
+            "why_it_matters": "Deepfakes are no longer a theoretical threat but an active infrastructure for organized crime, requiring urgent policy and technical responses.",
+            "sources": [
+              "404 Media",
+              "Adweek",
+              "Business of Fashion",
+              "Creative Review",
+              "Design Boom",
+              "NME"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame",
+                "url": "https://www.nme.com/news/gaming-news/angry-birds-silent-hill-fifa-world-video-game-hall-of-fame-3944425?utm_source=rss&utm_medium=rss&utm_campaign=angry-birds-silent-hill-fifa-world-video-game-hall-of-fame",
+                "source": "NME",
+                "published": "2026-05-07T14:30:54.000Z"
+              },
+              {
+                "title": "‘HELLO BOSS’: Inside the Chinese Realtime Deepfake Software Powering Scams Around the World",
+                "url": "https://www.404media.co/hello-boss-inside-the-chinese-realtime-deepfake-software-powering-scams-around-the-world/",
+                "source": "404 Media",
+                "published": "2026-05-07T13:12:05.000Z"
+              },
+              {
+                "title": "Timothée Chalamet and David Beckham kick off adidas’ World Cup campaign",
+                "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
+                "source": "Creative Review",
+                "published": "2026-05-07T10:36:19.000Z"
+              },
+              {
+                "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
+                "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
+                "source": "Adweek",
+                "published": "2026-05-07T04:00:00.000Z"
+              }
+            ]
           },
           {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Father John Misty Releases Psychedelic New Song “The Payoff”: Stream",
-            "url": "https://consequence.net/2026/05/father-john-misty-new-song-the-payoff/",
-            "published": "2026-05-07T14:45:45.000Z",
-            "summary": "His second single of 2026 comes ahead of spring and summer festival and tour dates. Father John Misty Releases Psychedelic New Song “The Payoff”: Stream Eddie Fu",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Quartz",
-            "category": "trends",
-            "title": "HawkEye 360 CEO John Serafini reveals what's next following NYSE IPO",
-            "url": "https://qz.com/hawkeye-360-ceo-serafini-next-steps-nyse-ipo",
-            "published": "2026-05-07T17:00:08.000Z",
-            "summary": "HawkEye 360 CEO John Serafini reveals what's next following NYSE IPO",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Dazed",
-            "category": "culture",
-            "title": "John Waters would love this film about a horny, haunted hoover",
-            "url": "https://www.dazeddigital.com/film-tv/article/70217/1/a-useful-ghost-ratchapoom-boonbunchachoke-director-interview-film-2026?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=john-waters-would-love-this-film-about-a-horny-haunted-hoover",
-            "published": "2026-05-07T09:43:00.000Z",
-            "summary": "20 minutes into its running time, A Useful Ghost gets its American Pie moment: a mother walks in on her son being sucked off by a hoover that’s possessed by a horny, forlorn spirit called Nat. Yet for all its slapstick and bawdiness, A Useful Ghost, the debut feature from the…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "Listen to Father John Misty’s New Song “The Payoff”",
-            "url": "https://pitchfork.com/news/listen-to-father-john-mistys-new-song-the-payoff/",
-            "published": "2026-05-07T04:07:45.000Z",
-            "summary": "He co-produced it with frequent collaborator Drew Erickson",
-            "score": 9,
-            "trending": true
+            "trend": "AI voice technology reshaping entertainment and autonomy",
+            "summary": "Artists like Ben Gibbard and Bebe Rexha are going independent to reclaim creative control, while Hannah Berner discusses how stand-up comedy restored her 'voice' after reality TV. Netflix's AI voice search also signals automation in media consumption (Billboard, Variety).",
+            "why_it_matters": "Questions about who controls creative voice—human artists or AI platforms—are becoming central to discussions about artistic autonomy in the digital age.",
+            "sources": [
+              "Billboard",
+              "Deadline",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Kelly Clarkson Sets ‘The Voice’ Return for Season 30",
+                "url": "https://variety.com/2026/tv/news/kelly-clarkson-the-voice-return-season-30-1236740800/",
+                "source": "Variety",
+                "published": "2026-05-07T18:12:34.000Z"
+              },
+              {
+                "title": "Kelly Clarkson Returning To ‘The Voice’ For Season 30",
+                "url": "https://deadline.com/2026/05/kelly-clarkson-the-voice-returning-season-30-1236886288/",
+                "source": "Deadline",
+                "published": "2026-05-07T17:54:29.000Z"
+              },
+              {
+                "title": "Why Ben Gibbard, Chris Young, Jill Scott, Ricardo Montaner & Bebe Rexha Went Indie: ‘My Creative Voice and My Vision Are Heard Better Now’",
+                "url": "https://www.billboard.com/lists/jill-scott-bebe-rexha-death-cab-why-i-went-indie/",
+                "source": "Billboard",
+                "published": "2026-05-07T17:01:08.000Z"
+              },
+              {
+                "title": "Hannah Berner on Her ‘None of My Business’ Hulu Special and Why Stand-Up Comedy Was ‘Healing’ After Reality TV: ‘I Felt Like My Voice Was Shrunk’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/tv/news/hannah-berner-hulu-comedy-special-1236739923/",
+                "source": "Variety",
+                "published": "2026-05-07T17:00:00.000Z"
+              }
+            ]
           }
         ]
       },
       {
-        "label": "Tour · Horsegiirl",
-        "keywords": [
-          "tour",
-          "horsegiirl"
-        ],
-        "sourceCount": 4,
-        "sources": [
-          "Billboard",
-          "Consequence",
-          "IndieWire",
-          "Pitchfork News"
-        ],
-        "categories": [
-          "music",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
+        "id": "marketing",
+        "label": "Marketing",
+        "insights": [
           {
-            "source": "Billboard",
-            "category": "music",
-            "title": "Cazzu’s Latinaje Tour Lights Up NYC With Drama, Trap & Tango: 5 Best Moments From Her First-Ever U.S. Trek",
-            "url": "https://www.billboard.com/lists/cazzu-united-states-tour-2026-latinaje-new-york-review/",
-            "published": "2026-05-07T17:04:20.000Z",
-            "summary": "The Argentine singer/rapper performed at the Infosys Theater at Madison Square Garden on Wednesday night (May 6).",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Olivia Rodrigo at Intuit Dome: How to Get Tickets for “The Unraveled Tour” in Los Angeles",
-            "url": "https://consequence.net/2026/05/olivia-rodrigo-los-angeles-intuit-dome-how-to-get-tickets/",
-            "published": "2026-05-07T14:01:26.000Z",
-            "summary": "Rodrigo is bringing her \"Unraveled Tour\" to Los Angeles for nine nights in January 2027. Learn how to get tickets here. Olivia Rodrigo at Intuit Dome: How to Get Tickets for “The Unraveled Tour” in Los Angeles Consequence Staff",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "‘Billie Eilish – Hit Me Hard and Soft: The Tour’ Review: James Cameron Captures the Singer in 3D, and in All Her Doomy Grandeur",
-            "url": "https://www.indiewire.com/criticism/movies/billie-eilish-hit-me-hard-and-soft-the-tour-movie-review-1235192691/",
-            "published": "2026-05-07T13:00:00.000Z",
-            "summary": "The stadium-sized catharsis of Eilish's best bridges hit harder with 17 3D cameras.",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "horsegiirL Is Going on Tour This Fall",
-            "url": "https://pitchfork.com/news/horsegiirl-is-going-on-tour-this-fall/",
-            "published": "2026-05-06T17:53:11.000Z",
-            "summary": "The musician will gallop through Los Angeles, New York, Paris, and Berlin.",
-            "score": 8,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Film · Festival",
-        "keywords": [
-          "film",
-          "festival"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "AnOther Magazine",
-          "Deadline",
-          "The Hollywood Reporter"
-        ],
-        "categories": [
-          "film",
-          "culture"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "‘The Housemaid’ Author Freida McFadden’s Next Book ‘The Divorce’ Set for Film From Studiocanal",
-            "url": "https://www.hollywoodreporter.com/movies/movie-news/the-housemaid-freida-mcfadden-the-divorce-studiocanal-1236589219/",
-            "published": "2026-05-07T17:20:24.000Z",
-            "summary": "The thriller novel is due for release later this month from Poisoned Pen Press.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "Paramount Signs First-Look Deal With Warner Music For Film Content",
-            "url": "https://www.hollywoodreporter.com/music/film-tv-music-news/paramount-announces-first-look-deal-with-warner-music-group-1236589190/",
-            "published": "2026-05-07T17:07:10.000Z",
-            "summary": "WMG's deal with Paramount comes two months after revealing a first-look with Netflix for documentary content.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Deadline",
-            "category": "film",
-            "title": "‘Catane,’ ‘Fantasy,’ ‘9-Month Contract’ Among Top Winners At South East European Film Festival (SEEfest)",
-            "url": "https://deadline.com/2026/05/seefest-2026-awards-1236886140/",
-            "published": "2026-05-07T17:01:45.000Z",
-            "summary": "Catane, the narrative directorial debut of Romanian filmmaker Ioana Mischie, claimed the Grand Jury Prize for Best Feature Film at SEEfest, the South East European Film Festival in Los Angeles. Mischie’s comedy takes place in a remote, mountainous village in Romania where every…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "AnOther Magazine",
-            "category": "culture",
-            "title": "10 Films to See at This Year’s Cannes Film Festival",
-            "url": "https://www.anothermag.com/design-living/17164/best-films-to-watch-at-cannes-film-festival-2026?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=10-films-to-see-at-this-year-s-cannes-film-festival",
-            "published": "2026-05-07T16:41:00.000Z",
-            "summary": "This year Tom Cruise will not be taking to the skies over Cannes Film Festival. There’ll be no octogenarian men cracking their whips as hapless Nazis fall about the place screeching. But look beyond the headlines on a dismaying lack of the old Hollywood razzle-dazzle on this…",
-            "score": 10,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Little · Yard",
-        "keywords": [
-          "little",
-          "yard"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Billboard",
-          "Consequence",
-          "Pitchfork News"
-        ],
-        "categories": [
-          "music"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Billboard",
-            "category": "music",
-            "title": "Harry Styles Demonstrates the Power of Dancing & His Little Red Shorts in Playful ‘Dance No More’ Music Video",
-            "url": "https://www.billboard.com/music/music-news/harry-styles-dance-no-more-video-red-shorts-1236241509/",
-            "published": "2026-05-07T16:36:10.000Z",
-            "summary": "The man loves a tiny inseam — and so do the people.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream",
-            "url": "https://consequence.net/2026/05/yard-act-youre-gonna-need-a-little-music-new-album-redeemer-new-song-stream/",
-            "published": "2026-05-07T15:48:12.000Z",
-            "summary": "The post-punk quartet will unveil their third album on July 17th. Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream Paolo Ragusa",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "Yard Act Ready New Album You’re Gonna Need a Little Music",
-            "url": "https://pitchfork.com/news/yard-act-ready-new-album-youre-gonna-need-a-little-music/",
-            "published": "2026-05-07T13:11:03.000Z",
-            "summary": "The “Redeemer” video leads the Leeds band’s Justin Meldal-Johnsen-produced album",
-            "score": 10,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Deal · Happening",
-        "keywords": [
-          "deal",
-          "happening"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Deadline",
-          "Fast Company",
-          "The Verge"
-        ],
-        "categories": [
-          "internet",
-          "film",
-          "trends"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Deadline",
-            "category": "film",
-            "title": "Paramount Pictures & Warner Music Group Ink Multi-Year First-Look Deal For Theatrical Pics Based On Performing Artists",
-            "url": "https://deadline.com/2026/05/paramount-warner-music-group-movies-deal-1236886107/",
-            "published": "2026-05-07T17:00:00.000Z",
-            "summary": "Paramount Pictures and Warner Music Group have closed a multi-year, first-look deal that will see both companies partnering on theatrical films, drawing on the lives and music of WMG’s roster of artists and songwriters. Warner Music Group catalog is rich including such…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "There’s actually a good deal happening now on the Xbox Series X",
-            "url": "https://www.theverge.com/gadgets/925429/xbox-series-forza-horizon-6-controller-magsafe-airtags-deal-sale",
-            "published": "2026-05-07T15:35:17.000Z",
-            "summary": "It’s been tough to recommend the Xbox Series X recently, especially at the $649 price it has sold at since last October. But if you’re thinking about getting one, at least consider the Forza Horizon 6-themed console bundle you can get at Best Buy that’s just $10 more than the…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Fast Company",
-            "category": "trends",
-            "title": "Trump pressures Iran to end the war: ‘bombing starts’ if no deal is made",
-            "url": "https://www.fastcompany.com/91538374/trump-pressures-iran-end-war-bombing-starts-no-deal-made",
-            "published": "2026-05-07T14:27:11.000Z",
-            "summary": "Iran said it was reviewing the latest American proposals on ending the war, as U.S. President Donald Trump threatened the country with a new wave of bombing unless a deal is reached that includes reopening the crucial Strait of Hormuz to international shipping. Hope that the…",
-            "score": 10,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Live · Updates",
-        "keywords": [
-          "live",
-          "updates"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Consequence",
-          "The Hollywood Reporter",
-          "The Verge"
-        ],
-        "categories": [
-          "internet",
-          "music",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Consequence",
-            "category": "music",
-            "title": "Avett Brothers and Mike Patton Perform “Disappearing” on Jimmy Kimmel Live: Watch",
-            "url": "https://consequence.net/2026/05/avett-brothers-mike-patton-disappearing-jimmy-kimmel-live/",
-            "published": "2026-05-07T16:50:47.000Z",
-            "summary": "Their collaborative outfit AVTT/PTTN is in the midst of a North American tour. Avett Brothers and Mike Patton Perform “Disappearing” on Jimmy Kimmel Live: Watch Langdon Hickman",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-            "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-            "published": "2026-05-07T16:21:38.000Z",
-            "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Hollywood Reporter",
-            "category": "film",
-            "title": "IATSE Pickets Live-Action ‘CoComelon’ Series, ‘The Melon Patch’",
-            "url": "https://www.hollywoodreporter.com/business/business-news/iatse-pickets-cocomelon-spinoff-the-melon-patch-1236588700/",
-            "published": "2026-05-07T16:06:07.000Z",
-            "summary": "The union is attempting to ink a union contract for the second season of the YouTube series, which is geared toward toddlers.",
-            "score": 10,
-            "trending": true
+            "trend": "Sports properties as premium celebrity marketing vehicles",
+            "summary": "The World Cup and FIFA campaigns are attracting major celebrity-athlete partnerships (Timothée Chalamet, David Beckham, Shakira with Burna Boy). Adweek, Business of Fashion, and Consequence show global sports as premium advertising platforms.",
+            "why_it_matters": "Global sporting events have become essential to luxury brand storytelling and cross-cultural celebrity positioning.",
+            "sources": [
+              "404 Media",
+              "Adweek",
+              "Business of Fashion",
+              "Creative Review",
+              "Design Boom",
+              "NME"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame",
+                "url": "https://www.nme.com/news/gaming-news/angry-birds-silent-hill-fifa-world-video-game-hall-of-fame-3944425?utm_source=rss&utm_medium=rss&utm_campaign=angry-birds-silent-hill-fifa-world-video-game-hall-of-fame",
+                "source": "NME",
+                "published": "2026-05-07T14:30:54.000Z"
+              },
+              {
+                "title": "‘HELLO BOSS’: Inside the Chinese Realtime Deepfake Software Powering Scams Around the World",
+                "url": "https://www.404media.co/hello-boss-inside-the-chinese-realtime-deepfake-software-powering-scams-around-the-world/",
+                "source": "404 Media",
+                "published": "2026-05-07T13:12:05.000Z"
+              },
+              {
+                "title": "Timothée Chalamet and David Beckham kick off adidas’ World Cup campaign",
+                "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
+                "source": "Creative Review",
+                "published": "2026-05-07T10:36:19.000Z"
+              },
+              {
+                "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
+                "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
+                "source": "Adweek",
+                "published": "2026-05-07T04:00:00.000Z"
+              }
+            ]
           }
         ]
       }
