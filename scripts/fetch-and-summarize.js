@@ -663,13 +663,17 @@ async function main() {
 
   // Write raw data for ai-synthesize.js to consume.
   // Also write latest.json as a raw fallback (overwritten by synthesis when it runs).
+  ensureDir(DATA_DIR);
+  ensureDir(ARCHIVE_DIR);
   writeJSON(RAW_PATH, brief);
   writeJSON(LATEST_PATH, brief);
   updateArchiveIndex(date);
 
-  console.log("✓ Wrote " + RAW_PATH + " (raw — for AI synthesis step)");
-  console.log("✓ Wrote " + LATEST_PATH + " (raw fallback)");
+  console.log("✓ Schreef " + RAW_PATH + " (" + topics.length + " topics)");
+  console.log("✓ Schreef " + LATEST_PATH);
   console.log("✓ Updated " + ARCHIVE_INDEX_PATH);
+  // Bevestig dat het bestand echt bestaat (diagnose voor CI-omgeving)
+  console.log("  Bestand bestaat: " + fs.existsSync(RAW_PATH));
 }
 
 // Force exit zodat hangende HTTP-sockets (chunked feeds die nooit afsluiten)

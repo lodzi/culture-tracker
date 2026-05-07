@@ -357,13 +357,20 @@ async function main() {
     process.exit(1);
   }
 
+  // Accepteer latest-raw.json (voorkeur) of latest.json als fallback.
+  let sourcePath = RAW_PATH;
   if (!fs.existsSync(RAW_PATH)) {
-    console.error("latest-raw.json niet gevonden. Voer eerst fetch-and-summarize uit.");
-    process.exit(1);
+    if (fs.existsSync(LATEST_PATH)) {
+      console.warn("  latest-raw.json niet gevonden, gebruik latest.json als fallback.");
+      sourcePath = LATEST_PATH;
+    } else {
+      console.error("Geen brondata gevonden (latest-raw.json of latest.json).");
+      process.exit(1);
+    }
   }
 
   const client  = new Anthropic();
-  const rawData = readJSON(RAW_PATH);
+  const rawData = readJSON(sourcePath);
 
   console.log("\n[Daily synthesis]");
   let daily;
