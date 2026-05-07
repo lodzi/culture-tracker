@@ -43,7 +43,7 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Run fetch & group
         # No API keys — this just pulls RSS and groups by category.
