@@ -1,365 +1,752 @@
 {
   "date": "2026-05-07",
-  "aiModel": "claude-haiku-4-5-20251001",
   "daily": {
-    "generatedAt": "2026-05-07T09:23:53.092Z",
-    "intro": "8 categorieën · 9 trends · laatste 24u",
-    "categories": [
+    "title": "Culture Tracker",
+    "intro": "Top 10 culturele topics · 51 artikels van 33 bronnen · 10 door 3+ bronnen · laatste 24u.",
+    "topics": [
       {
-        "id": "lokaal",
-        "label": "Lokaal",
-        "insights": [
+        "label": "2026 · Awards",
+        "keywords": [
+          "2026",
+          "awards"
+        ],
+        "sourceCount": 12,
+        "sources": [
+          "Billboard",
+          "Consequence",
+          "Creative Review",
+          "Deadline",
+          "Dezeen",
+          "GQ",
+          "IndieWire",
+          "Quartz",
+          "Sneaker News",
+          "The Verge",
+          "Variety",
+          "Wired"
+        ],
+        "categories": [
+          "fashion",
+          "art",
+          "internet",
+          "music",
+          "film",
+          "trends"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
           {
-            "trend": "Elon Musk's influence on tech corporate governance",
-            "summary": "VRT NWS en The Verge berichten hoe Musk als insider bij OpenAI functioneert en bedrijfsdynamica beïnvloedt. Shivon Zilis' testimonium toont persoonlijke stakeholder-conflicten.",
-            "why_it_matters": "Toont hoe individuele tech-figuren institutionele besluitvorming destabiliseren en geopolitieke implicaties creëren.",
-            "sources": [
-              "The Verge",
-              "VRT NWS",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Shivon Zilis, moeder van 4 kinderen van Elon Musk, zegt op OpenAI-proces dat ze \"bemiddelde\" (niet spioneerde)",
-                "url": "https://vrtnws.be/p.Wk6PVkRK1",
-                "source": "VRT NWS",
-                "published": "2026-05-07T06:41:43.000Z"
-              },
-              {
-                "title": "Musk’s biggest loyalist became his biggest liability",
-                "url": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
-                "source": "The Verge",
-                "published": "2026-05-06T23:37:02.000Z"
-              },
-              {
-                "title": "Elon Musk’s Last-Ditch Effort to Control OpenAI: Recruit Sam Altman to Tesla",
-                "url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
-                "source": "Wired",
-                "published": "2026-05-06T23:23:45.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "music",
-        "label": "Muziek",
-        "insights": [
-          {
-            "trend": "Legacy artists launching extended Vegas residencies",
-            "summary": "No Doubt en Mary J. Blige lanceren uitgebreide Vegas-residenties met meerdere data. Dit vernieuwt het klassieke Vegas-residency-model voor iconische acts.",
-            "why_it_matters": "Toont hoe klassieke artiesten Vegas gebruiken als duurzaam inkomstenmodel in plaats van traditionele tour-cycles.",
-            "sources": [
-              "Billboard",
-              "Consequence",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "No Doubt Transport Las Vegas Sphere to Orange County for New Residency: See Their Full Night 1 Setlist",
-                "url": "https://www.billboard.com/lists/no-doubt-sphere-setlist-las-vegas-opening-night/",
-                "source": "Billboard",
-                "published": "2026-05-07T07:41:18.000Z"
-              },
-              {
-                "title": "No Doubt Set List: Every Song Played at Sphere Residency Opener in Las Vegas",
-                "url": "https://variety.com/2026/music/news/no-doubt-set-list-sphere-las-vegas-1236739547/",
-                "source": "Variety",
-                "published": "2026-05-07T03:53:33.000Z"
-              },
-              {
-                "title": "Mary J. Blige Extends Las Vegas Residency with 10 New Dates",
-                "url": "https://consequence.net/2026/05/mjb-extends-2026-las-vegas-residency/",
-                "source": "Consequence",
-                "published": "2026-05-06T21:35:03.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "fashion",
-        "label": "Fashion",
-        "insights": [
-          {
-            "trend": "Celebrity-driven luxury design collaborations",
-            "summary": "High-end designers zoals Haider Ackermann en Timothée Chalamet werken samen aan exclusieve luxeproducten. Dit gebeurt via advertentiecampagnes en fashion partnerships die celebrity-cachet met designer-prestige combineren.",
-            "why_it_matters": "Toont hoe luxury modemerken steeds meer op celebrity-endorsement vertrouwen om aspirationaliteit en exclusiviteit te creëren.",
-            "sources": [
-              "Adweek",
-              "Deadline",
-              "Design Boom",
-              "Highsnobiety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Former Berlinale World Cinema Fund Head Vincenzo Bugno To Be Honored In Cannes",
-                "url": "https://deadline.com/2026/05/berlin-world-cinema-fund-head-vincenzo-bugno-honor-cannes-1236884096/",
-                "source": "Deadline",
-                "published": "2026-05-07T08:23:23.000Z"
-              },
-              {
-                "title": "how aki inomata turns shells and insects into living collaborators for soft world-making",
-                "url": "https://www.designboom.com/art/aki-inomata-shells-insects-living-collaborators-soft-world-making/",
-                "source": "Design Boom",
-                "published": "2026-05-07T07:30:07.000Z"
-              },
-              {
-                "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
-                "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
-                "source": "Adweek",
-                "published": "2026-05-07T04:00:00.000Z"
-              },
-              {
-                "title": "Haider Ackermann Made the World's Fanciest Sunglasses Even Fancier (EXCLUSIVE)",
-                "url": "https://www.highsnobiety.com/p/haider-ackermann-jacques-marie-mage/",
-                "source": "Highsnobiety",
-                "published": "2026-05-06T14:07:26.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "film",
-        "label": "Film & TV",
-        "insights": [
-          {
-            "trend": "Dark comedies with genre-mixing and influencer narratives",
-            "summary": "Trailers voor 'Maddie's Secret' en 'Deli Boys' laten zien dat donkere komedies experimenteren met influencer-cultuur en onderliggende maatschappelijke spanning. John Early en Hulu leiden deze trend.",
-            "why_it_matters": "Toont hoe mainstream media sociale media-cultuur absorberen en dramatiseren om relevantie te behouden.",
-            "sources": [
-              "GQ",
-              "IndieWire",
-              "Polygon",
-              "The Hollywood Reporter",
-              "Yanko Design"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "‘Shana’ Must Deal With a Toxic Partner Leaving Prison, a Death and More. Can a Ring Protect Her? (Exclusive Cannes Directors’ Fortnight Trailer)",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/shana-film-trailer-2026-cannes-directors-fortnight-1236588047/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-05-07T06:59:00.000Z"
-              },
-              {
-                "title": "‘Deli Boys’ Season 2 Trailer: Hulu’s Acclaimed Crime Comedy Returns for Sophomore Outing",
-                "url": "https://www.indiewire.com/news/trailers/deli-boys-season-2-trailer-1235192428/",
-                "source": "IndieWire",
-                "published": "2026-05-06T17:00:00.000Z"
-              },
-              {
-                "title": "‘Maddie’s Secret’ Trailer: John Early Is a Food Influencer with a Secret in His Dark Comedy Directing Debut",
-                "url": "https://www.indiewire.com/news/trailers/maddies-secret-trailer-john-early-dark-comedy-debut-1235192556/",
-                "source": "IndieWire",
-                "published": "2026-05-06T16:23:04.000Z"
-              },
-              {
-                "title": "New Minecraft documentary gets first teaser trailer",
-                "url": "https://www.polygon.com/battle-of-the-borough-trailer/",
-                "source": "Polygon",
-                "published": "2026-05-06T20:37:43.000Z"
-              }
-            ]
+            "source": "Deadline",
+            "category": "film",
+            "title": "‘Great 8’ 2026: Ray Panthaki’s Debut Feature ‘In Starland’ Among Titles Set For Cannes Market With The BFI",
+            "url": "https://deadline.com/2026/05/great-8-2026-ray-panthaki-in-starland-bfi-1236884244/",
+            "published": "2026-05-07T10:20:08.000Z",
+            "summary": "The BFI has revealed the lineup of titles it will take to the upcoming Cannes Market as part of its Great 8 initiative for first and second-time filmmakers. The list of titles includes In Starland, the debut feature directed by veteran British actor Ray Panthaki, and Daughter of…",
+            "score": 10,
+            "trending": true
           },
           {
-            "trend": "International crime dramas with period settings",
-            "summary": "Series als 'Legends' (Netflix, Groot-Brittannië) en 'Matka King' (Prime, India) grondvesten crime-drama in specifieke historische contexten. Dit vertegenwoordigt decentralisatie van crime-narratieven.",
-            "why_it_matters": "Laat zien hoe streamingplatforms lokale crime-verhalen globaal distribueren met culturele authenticiteit.",
-            "sources": [
-              "Deadline",
-              "NME",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Steve Coogan and Tom Burke Excel as Undercover Agents in Netflix War on Drugs Drama ‘Legends’: TV Review",
-                "url": "https://variety.com/2026/tv/reviews/legends-review-steve-coogan-netflix-1236738403/",
-                "source": "Variety",
-                "published": "2026-05-07T07:01:00.000Z"
-              },
-              {
-                "title": "‘Legends’ review: sprawling crime drama spotlights Britain’s unsung drug-busters",
-                "url": "https://www.nme.com/reviews/tv-reviews/legends-review-steve-coogan-netflix-3944313?utm_source=rss&utm_medium=rss&utm_campaign=legends-review-steve-coogan-netflix",
-                "source": "NME",
-                "published": "2026-05-07T07:00:38.000Z"
-              },
-              {
-                "title": "‘Matka King’: Prime Video Crowns Second Season Of Crime Drama Set In 1960s India",
-                "url": "https://deadline.com/2026/05/matka-king-prime-video-season-2-india-1236882674/",
-                "source": "Deadline",
-                "published": "2026-05-07T06:25:00.000Z"
-              }
-            ]
+            "source": "Wired",
+            "category": "internet",
+            "title": "Everyone Should Travel With a Pair of Cheap Wired Headphones (2026)",
+            "url": "https://www.wired.com/story/cheap-wired-headphones-rave/",
+            "published": "2026-05-07T09:31:00.000Z",
+            "summary": "Admit it: It’s inevitable you will forget to charge your Bluetooth pair.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Quartz",
+            "category": "trends",
+            "title": "The best music-themed cruises for every genre in 2026",
+            "url": "https://qz.com/best-music-themed-cruises-every-genre-2026",
+            "published": "2026-05-07T09:13:40.000Z",
+            "summary": "The best music-themed cruises at sea, from a 1960s Flower Power sailing to a hard rock festival aboard Carnival Horizon",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Creative Review",
+            "category": "art",
+            "title": "Welcome to the Annual Awards 2026 showcase",
+            "url": "https://www.creativereview.co.uk/main-annual-awards-2026/",
+            "published": "2026-05-07T08:19:48.000Z",
+            "summary": "",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Dezeen",
+            "category": "art",
+            "title": "Elisa Ossino and Malini Doshi named Dezeen Awards 2026 judges",
+            "url": "https://www.dezeen.com/2026/05/07/elisa-ossino-malini-doshi-dezeen-awards-2026-judges/",
+            "published": "2026-05-07T07:00:34.000Z",
+            "summary": "Architect Malini Doshi, interior designer Elisa Ossino and designers Lucas Muñoz and Mario Tsai have joined the judging panel for Dezeen Awards 2026. Dezeen Awards, in partnership with Trimble, is searching for the world's best architecture, interiors and design. There are fewer…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "Tennis on Sling TV: Here’s How To Watch Italian Open 2026 Live Online",
+            "url": "https://variety.com/2026/shopping/news/sling-tv-how-to-watch-italian-open-2026-tennis-live-online-1236740149/",
+            "published": "2026-05-07T06:00:00.000Z",
+            "summary": "Ahead of the French Open (Roland-Garros) in mid-May, the best pro tennis players from around the world, such as Jannik Sinner, Novak Djokovic, Aryna Sabalenka, Coco Gauff and others, are in Italy to compete for the Internazionali d’italia Trophy during the 83rd edition of the…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Wired",
+            "category": "internet",
+            "title": "Vimeo Promo Code: 40% Off This May 2026",
+            "url": "https://www.wired.com/story/vimeo-promo-code/",
+            "published": "2026-05-07T05:00:00.000Z",
+            "summary": "Enjoy 25% off a membership, 40% off, plus an additional 10% off annual plans, and more deals to save at Vimeo.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Wired",
+            "category": "internet",
+            "title": "Groupon Promo Codes: 60% Off in May 2026",
+            "url": "https://www.wired.com/story/groupon-promo-code/",
+            "published": "2026-05-07T05:00:00.000Z",
+            "summary": "Unlock up to 60% off, 40% off packages, and 20% off with top Groupon coupon codes. Explore coupons to save extra on travel getaways, holiday gifts, spa days, and event tickets.",
+            "score": 10,
+            "trending": true
           }
         ]
       },
       {
-        "id": "art",
-        "label": "Art & Design",
-        "insights": [
+        "label": "Star · Nintendo",
+        "keywords": [
+          "star",
+          "nintendo"
+        ],
+        "sourceCount": 6,
+        "sources": [
+          "Deadline",
+          "IndieWire",
+          "Kotaku",
+          "NME",
+          "The Verge",
+          "Variety"
+        ],
+        "categories": [
+          "internet",
+          "music",
+          "gaming",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
           {
-            "trend": "Collaboration between nature and artistic practice",
-            "summary": "Kunstenaars zoals Aki Inomata gebruiken levende materialen (schelpen, insecten) als actieve partners in hun kunstwerk. Dit vertegenwoordigt een verschuiving naar meer-dan-menselijke kunstpraktijken.",
-            "why_it_matters": "Weerspiegelt groeiende interesse in ecologische kunst en het decentraliseren van menselijk agency in creatieve processen.",
-            "sources": [
-              "Adweek",
-              "Deadline",
-              "Design Boom",
-              "Highsnobiety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Former Berlinale World Cinema Fund Head Vincenzo Bugno To Be Honored In Cannes",
-                "url": "https://deadline.com/2026/05/berlin-world-cinema-fund-head-vincenzo-bugno-honor-cannes-1236884096/",
-                "source": "Deadline",
-                "published": "2026-05-07T08:23:23.000Z"
-              },
-              {
-                "title": "how aki inomata turns shells and insects into living collaborators for soft world-making",
-                "url": "https://www.designboom.com/art/aki-inomata-shells-insects-living-collaborators-soft-world-making/",
-                "source": "Design Boom",
-                "published": "2026-05-07T07:30:07.000Z"
-              },
-              {
-                "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
-                "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
-                "source": "Adweek",
-                "published": "2026-05-07T04:00:00.000Z"
-              },
-              {
-                "title": "Haider Ackermann Made the World's Fanciest Sunglasses Even Fancier (EXCLUSIVE)",
-                "url": "https://www.highsnobiety.com/p/haider-ackermann-jacques-marie-mage/",
-                "source": "Highsnobiety",
-                "published": "2026-05-06T14:07:26.000Z"
-              }
-            ]
+            "source": "NME",
+            "category": "music",
+            "title": "‘Star Fox 64’ remake coming to Nintendo Switch 2 this year following ‘Mario’ movie cameo",
+            "url": "https://www.nme.com/news/gaming-news/star-fox-64-remake-nintendo-switch-2-release-date-3944354?utm_source=rss&utm_medium=rss&utm_campaign=star-fox-64-remake-nintendo-switch-2-release-date",
+            "published": "2026-05-07T09:41:10.000Z",
+            "summary": "The game will feature overhauled visuals and new game modes The post ‘Star Fox 64’ remake coming to Nintendo Switch 2 this year following ‘Mario’ movie cameo appeared first on NME.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Rooney Mara To Star In ‘Quest For Love’ — Cannes Market",
+            "url": "https://deadline.com/2026/05/rooney-mara-quest-for-love-cannes-market-1236884144/",
+            "published": "2026-05-07T09:32:03.000Z",
+            "summary": "Rooney Mara (Carol) will lead Quest For Love, a new feature written and directed by Antonia Campbell-Hughes (It Is in Us All). Rooney Mara will star as the lead Maris. The character has been described as a “deeply complex woman who explores her capacity to feel love through her…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "James Nelson Joyce, Richard E. Grant and Dominic West to Star in Dark Comedy ‘The Man Who Stole Portugal’",
+            "url": "https://variety.com/2026/film/global/james-nelson-joyce-the-man-who-stole-portugal-1236739743/",
+            "published": "2026-05-07T09:00:00.000Z",
+            "summary": "Principal photography has begun on “The Man Who Stole Portugal,” a darkly comic period heist inspired by one of the most audacious financial frauds of the 20th century. Directed by BAFTA nominee Thomas Napper (“Jawbone,” “Widow Clicquot”), the script is by Richard Galazka,…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Verge",
+            "category": "internet",
+            "title": "Nintendo announces a new Star Fox for the Switch 2",
+            "url": "https://www.theverge.com/entertainment/925601/star-fox-nintendo-switch-2",
+            "published": "2026-05-06T22:07:46.000Z",
+            "summary": "It turns out Fox McCloud's appearance in the Super Mario Galaxy Movie was a tease of things to come: Nintendo just surprise announced the first new Star Fox game in a decade. The game is called, simply, Star Fox, and it's out very soon, launching on June 25th. Nintendo says that…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "IndieWire",
+            "category": "film",
+            "title": "Scarlett Johansson to Star in Ari Aster’s Next Film ‘Scapegoat’ for A24",
+            "url": "https://www.indiewire.com/news/breaking-news/scarlett-johansson-ari-aster-next-film-scapegoat-a24-1235192583/",
+            "published": "2026-05-06T16:46:32.000Z",
+            "summary": "Aster's fifth feature is another original idea that is keeping its plot under wraps.",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Kotaku",
+            "category": "gaming",
+            "title": "The Internet Reacts To Star Fox‘s New Look",
+            "url": "https://kotaku.com/the-internet-reacts-to-star-foxs-new-look-2000693733",
+            "published": "2026-05-06T23:05:54.000Z",
+            "summary": "It's life, Jim, but not as we know it",
+            "score": 8,
+            "trending": true
+          },
+          {
+            "source": "Kotaku",
+            "category": "gaming",
+            "title": "Everything We Saw At The Surprise Star Fox Nintendo Direct",
+            "url": "https://kotaku.com/nintendo-direct-star-fox-switch-2-mario-galaxy-64-2000693715",
+            "published": "2026-05-06T22:22:42.000Z",
+            "summary": "Nintendo shadow-dropped a Direct about the star of The Super Mario Galaxy Movie",
+            "score": 8,
+            "trending": true
+          },
+          {
+            "source": "Kotaku",
+            "category": "gaming",
+            "title": "Nintendo Announces Surprise Remake Of Star Fox 64 For Switch 2 And It Looks Fine",
+            "url": "https://kotaku.com/nintendo-announces-surprise-remake-of-star-fox-64-for-switch-2-and-it-looks-very-cool-2000693718",
+            "published": "2026-05-06T22:06:11.000Z",
+            "summary": "The game has received a complete next-gen overhaul",
+            "score": 8,
+            "trending": true
           }
         ]
       },
       {
-        "id": "internet",
-        "label": "Internet",
-        "insights": [
+        "label": "Film · Exclusive",
+        "keywords": [
+          "film",
+          "exclusive"
+        ],
+        "sourceCount": 5,
+        "sources": [
+          "Dazed",
+          "Deadline",
+          "Fast Company",
+          "IndieWire",
+          "Variety"
+        ],
+        "categories": [
+          "film",
+          "culture",
+          "trends"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
           {
-            "trend": "Elon Musk's internal conflicts with tech leadership",
-            "summary": "Meerdere bronnen rapporteren over Musk's pogingen om controle over OpenAI te behouden en verschillende loyaliteitsconflicten binnen zijn bedrijven. Dit omvat zijn relatie met Sam Altman en interne verraad-narratieven.",
-            "why_it_matters": "Illustreert spanningen in tech-leiderschap en hoe persoonlijke machtsdynamieken bedrijfsstructuren destabiliseren.",
-            "sources": [
-              "The Verge",
-              "VRT NWS",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Shivon Zilis, moeder van 4 kinderen van Elon Musk, zegt op OpenAI-proces dat ze \"bemiddelde\" (niet spioneerde)",
-                "url": "https://vrtnws.be/p.Wk6PVkRK1",
-                "source": "VRT NWS",
-                "published": "2026-05-07T06:41:43.000Z"
-              },
-              {
-                "title": "Musk’s biggest loyalist became his biggest liability",
-                "url": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
-                "source": "The Verge",
-                "published": "2026-05-06T23:37:02.000Z"
-              },
-              {
-                "title": "Elon Musk’s Last-Ditch Effort to Control OpenAI: Recruit Sam Altman to Tesla",
-                "url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
-                "source": "Wired",
-                "published": "2026-05-06T23:23:45.000Z"
-              }
-            ]
+            "source": "Fast Company",
+            "category": "trends",
+            "title": "This Gen Z film distributor is using influencer events to get his peers going to the movies",
+            "url": "https://www.fastcompany.com/91534387/this-gen-z-film-distributor-is-using-influencer-events-to-get-his-peers-going-to-the-movies",
+            "published": "2026-05-07T10:03:00.000Z",
+            "summary": "Peter Gold has always loved making films. While attending film school in New York, he became involved with a film called Our Hero Balthazar, directed by Oscar Boyson, known for his work as an executive producer on Uncut Gems. Gold instantly knew the film was something special.…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Dazed",
+            "category": "culture",
+            "title": "John Waters would love this film about a horny, haunted hoover",
+            "url": "https://www.dazeddigital.com/film-tv/article/70217/1/a-useful-ghost-ratchapoom-boonbunchachoke-director-interview-film-2026?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=john-waters-would-love-this-film-about-a-horny-haunted-hoover",
+            "published": "2026-05-07T09:43:00.000Z",
+            "summary": "20 minutes into its running time, A Useful Ghost gets its American Pie moment: a mother walks in on her son being sucked off by a hoover that’s possessed by a horny, forlorn spirit called Nat. Yet for all its slapstick and bawdiness, A Useful Ghost, the debut feature from the…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "Nomadic Film Space Launches Traveling Market Platform for African Creative Producers at Cannes (EXCLUSIVE)",
+            "url": "https://variety.com/2026/film/global/nomadic-film-space-traveling-market-africa-cannes-1236739489/",
+            "published": "2026-05-07T09:24:48.000Z",
+            "summary": "A new traveling market platform designed to connect African creative producers with fresh sources of financing will launch with a series of events May 14 – 15 at the Cannes Marché du Film. Curated and operated by the pan-African film studio Yetu (Un)limited, in partnership with…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Helen Mirren To Be Honored With Lifetime Achievement Award At Italy’s Taormina Film Festival",
+            "url": "https://deadline.com/2026/05/helen-mirren-lifetime-achievement-award-taormina-festival-1236884120/",
+            "published": "2026-05-07T09:13:39.000Z",
+            "summary": "EXCLUSIVE: Helen Mirren will be the guest of honor at Italy’s Taormina Film Festival in June where she will be honored with its Lifetime Achievement Award during a special evening dedicated to late Italian acting icon Anna Magnani. “It is an immense honor to welcome Helen Mirren…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "Adil Hussain, Neha Dhupia’s Lionel Messi Fan Drama ’52 Blue’ to Open London Indian Film Festival (EXCLUSIVE)",
+            "url": "https://variety.com/2026/film/news/lionel-messi-fan-film-52-blue-london-indian-film-festival-1236739373/",
+            "published": "2026-05-07T07:00:00.000Z",
+            "summary": "“52 Blue,” a coming-of-age drama about a sheltered young man’s journey from Kerala to the FIFA World Cup in Qatar in pursuit of his childhood idol, Lionel Messi, will open the 17th London Indian Film Festival with its European premiere at BFI Southbank on July 9. Directed by Ali…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "IndieWire",
+            "category": "film",
+            "title": "‘Mortal Kombat II’ Review: Not Even Kitana Can Save This Doomed IP from Another Film Fatality",
+            "url": "https://www.indiewire.com/criticism/movies/mortal-kombat-2-film-review-1235192434/",
+            "published": "2026-05-06T16:00:00.000Z",
+            "summary": "Director Simon McQuoid returns with a muddy sequel that has its moments, just not enough of them.",
+            "score": 9,
+            "trending": true
           }
         ]
       },
       {
-        "id": "gaming",
-        "label": "Gaming",
-        "insights": [
+        "label": "Live · Saturday",
+        "keywords": [
+          "live",
+          "saturday"
+        ],
+        "sourceCount": 5,
+        "sources": [
+          "Consequence",
+          "Deadline",
+          "NME",
+          "The Hollywood Reporter",
+          "Variety"
+        ],
+        "categories": [
+          "music",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
           {
-            "trend": "Nintendo Switch 2 franchise reboots and retrospectives",
-            "summary": "Nintendo kondigt Star Fox aan voor Switch 2 met mediaberichtgeving die alle vorige installaties overloopt. Dit patroon van nostalgia-marketing combineert new hardware met franchise-legacy.",
-            "why_it_matters": "Illustreert hoe nieuwe consoles legacy-franchises leveragen voor launch-relevantie en generatie-connecting.",
-            "sources": [
-              "IndieWire",
-              "Kotaku",
-              "Polygon",
-              "The Hollywood Reporter",
-              "The Verge",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "James Nelson Joyce, Richard E. Grant and Dominic West to Star in Dark Comedy ‘The Man Who Stole Portugal’",
-                "url": "https://variety.com/2026/film/global/james-nelson-joyce-the-man-who-stole-portugal-1236739743/",
-                "source": "Variety",
-                "published": "2026-05-07T09:00:00.000Z"
-              },
-              {
-                "title": "‘Survivor 50’ Star Stephenie LaGrossa Kendrick on What Went Wrong, That Mr. Beast Twist and Complex Cirie Relationship",
-                "url": "https://www.hollywoodreporter.com/tv/tv-features/survivor-50-exit-interview-stephenie-lagrossa-kendrick-1236581291/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-05-06T23:16:07.000Z"
-              },
-              {
-                "title": "Nintendo announces a new Star Fox for the Switch 2",
-                "url": "https://www.theverge.com/entertainment/925601/star-fox-nintendo-switch-2",
-                "source": "The Verge",
-                "published": "2026-05-06T22:07:46.000Z"
-              },
-              {
-                "title": "All Star Fox games that the new Star Fox game is technically a remake of",
-                "url": "https://www.polygon.com/star-fox-2026-remake-64-3d-zero/",
-                "source": "Polygon",
-                "published": "2026-05-07T01:46:27.000Z"
-              }
-            ]
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "‘Saturday Night Live U.K.’ Gets Season 2 Renewal From Sky",
+            "url": "https://www.hollywoodreporter.com/tv/tv-news/saturday-night-live-uk-season-2-sky-snl-1236588953/",
+            "published": "2026-05-07T09:48:45.000Z",
+            "summary": "“I’m incredibly proud of our team and the show,\" says executive producer Lorne Michaels. \"It keeps getting better every week.\"",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "‘Saturday Night Live UK’ Renewed For Season 2 At Sky",
+            "url": "https://deadline.com/2026/05/saturday-night-live-uk-renewed-season-2-at-sky-1236884143/",
+            "published": "2026-05-07T09:30:11.000Z",
+            "summary": "Saturday Night Live UK has been renewed for a second season. The first ends in nine days’ time but Sky and Universal Television Alternative Studio (UTAS) have liked what they’ve seen enough to give an early greenlight for a second run, which will air an extended 12 episodes from…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "‘Saturday Night Live U.K.’ Set to be Renewed for Season 2 (EXCLUSIVE)",
+            "url": "https://variety.com/2026/tv/global/saturday-night-live-uk-renewed-season-2-1236732134/",
+            "published": "2026-05-07T09:25:29.000Z",
+            "summary": "“Saturday Night Live U.K.” is set to be renewed for a second season. Although Sky initially declined to comment, multiple sources confirmed the news to Variety, saying that despite rocky ratings the Comcast-owned network are thrilled with the show. Since Variety first published…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "NME",
+            "category": "music",
+            "title": "Watch Super Furry Animals reunite for first live show in a decade in Dublin",
+            "url": "https://www.nme.com/news/music/watch-super-furry-animals-reunite-for-first-live-show-in-a-decade-in-dublin-3944359?utm_source=rss&utm_medium=rss&utm_campaign=watch-super-furry-animals-reunite-for-first-live-show-in-a-decade-in-dublin",
+            "published": "2026-05-07T09:18:00.000Z",
+            "summary": "They kicked off the tour by only playing material from their early discography The post Watch Super Furry Animals reunite for first live show in a decade in Dublin appeared first on NME.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "Win Two Tickets to Blu DeTiger’s Sold Out Live at Lagunitas Concert",
+            "url": "https://consequence.net/2026/05/win-two-tickets-to-blu-detigers-sold-out-live-at-lagunitas-concert/",
+            "published": "2026-05-06T21:36:00.000Z",
+            "summary": "Lagunitas' \"Live at Lagunitas\" concert series is back for 2026, and we're giving away tickets to the first concert, featuring Blu DeTiger. Win Two Tickets to Blu DeTiger’s Sold Out Live at Lagunitas Concert Consequence Staff",
+            "score": 8,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "Sting Explains Why His Kids Must “Make Their Own Way” and Not Live Off His Money",
+            "url": "https://consequence.net/2026/05/sting-children-work-ethic/",
+            "published": "2026-05-06T18:05:06.000Z",
+            "summary": "The musician thinks, \"The worst thing you can do to a kid is to say, 'You don't have to work.'\" Sting Explains Why His Kids Must “Make Their Own Way” and Not Live Off His Money Eddie Fu",
+            "score": 8,
+            "trending": true
           }
         ]
       },
       {
-        "id": "trends",
-        "label": "Trends",
-        "insights": [
+        "label": "Exclusive · Cannes",
+        "keywords": [
+          "exclusive",
+          "cannes"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "Business of Fashion",
+          "Highsnobiety",
+          "The Hollywood Reporter",
+          "Variety"
+        ],
+        "categories": [
+          "fashion",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
           {
-            "trend": "Public skepticism toward AI and pharmaceutical disruption",
-            "summary": "Fast Company en Variety analyseren maatschappelijke resistance tegen AI-integratie en GLP-1 gewichtsverlies-paradoxen. Dit weerspiegelt breder onbehagen met technologische/medische innovation.",
-            "why_it_matters": "Toont verschuiving van techno-optimisme naar kritisch consumentensentiment over nieuwe technologieën.",
-            "sources": [
-              "Business of Fashion",
-              "Fast Company",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "‘Avengers: Doomsday’ Director Joe Russo Says Spoilers Are ‘Over-Policed’: ‘People Are Anxious About Engaging With Anything’",
-                "url": "https://variety.com/2026/film/news/avengers-joe-russo-spoilers-over-policed-fans-anxious-1236740172/",
-                "source": "Variety",
-                "published": "2026-05-07T03:31:59.000Z"
-              },
-              {
-                "title": "The Debrief | Why People Hate AI",
-                "url": "https://www.businessoffashion.com/podcasts/technology/the-debrief-why-people-hate-ai/",
-                "source": "Business of Fashion",
-                "published": "2026-05-06T19:13:54.000Z"
-              },
-              {
-                "title": "The GLP-1 paradox study: Here’s what people really think about your Ozempic weight loss",
-                "url": "https://www.fastcompany.com/91537786/glp-1-paradox-ozempic-weight-loss-what-people-really-think-study",
-                "source": "Fast Company",
-                "published": "2026-05-06T19:45:00.000Z"
-              }
-            ]
+            "source": "Variety",
+            "category": "film",
+            "title": "Cannes Focus COPRO Introduces Seven Projects – and Filmmakers With ‘Bold and Distinctive Visions’ (EXCLUSIVE)",
+            "url": "https://variety.com/2026/film/global/cannes-focus-copro-debuting-filmmakers-1236737946/",
+            "published": "2026-05-07T10:00:32.000Z",
+            "summary": "It’s time: Cannes’ Focus COPRO, dedicated to first feature films, has announced this year’s seven projects. That includes “A Summer Tale” (Germany) directed by Berthold Wahjudi, “Algiers Haze” (France) by Sarra Ryma, Gaël Kamilindi’s “The Zebra’s Shadow” (Switzerland), Laura…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Business of Fashion",
+            "category": "fashion",
+            "title": "Industry Leaders Gather in London for Exclusive AI Insights from The Business of Fashion",
+            "url": "https://www.businessoffashion.com/articles/technology/london-industry-leaders-ai-insights-briefing/",
+            "published": "2026-05-07T09:43:48.000Z",
+            "summary": "Senior leaders from Bottega Veneta, Harrods, Bvlgari, Selfridges, Manolo Blahnik and Tiffany & Co, among others, attended an intimate aperitivo evening in London to explore the integration of artificial intelligence across the fashion and beauty industries.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "‘Shana’ Must Deal With a Toxic Partner Leaving Prison, a Death and More. Can a Ring Protect Her? (Exclusive Cannes Directors’ Fortnight Trailer)",
+            "url": "https://www.hollywoodreporter.com/movies/movie-news/shana-film-trailer-2026-cannes-directors-fortnight-1236588047/",
+            "published": "2026-05-07T06:59:00.000Z",
+            "summary": "Lila Pinell’s feature adaptation of her short ‘Le Roi David,’ stars Eva Huault and Noémie Lvovsky and will world premiere on the Croisette.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Highsnobiety",
+            "category": "fashion",
+            "title": "Haider Ackermann Made the World's Fanciest Sunglasses Even Fancier (EXCLUSIVE)",
+            "url": "https://www.highsnobiety.com/p/haider-ackermann-jacques-marie-mage/",
+            "published": "2026-05-06T14:07:26.000Z",
+            "summary": "Haider Ackermann is a modern master of sensual leather clothes. In collaboration with eyewear artisan Jacques Marie Mage, he's move onto leather sunglasses.",
+            "score": 8,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Gala · Jimmy",
+        "keywords": [
+          "gala",
+          "jimmy"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "Dazed",
+          "GQ",
+          "NME",
+          "i-D"
+        ],
+        "categories": [
+          "fashion",
+          "music",
+          "culture"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "NME",
+            "category": "music",
+            "title": "Sabrina Carpenter says duetting with Stevie Nicks at the Met Gala “healed many things in me”",
+            "url": "https://www.nme.com/news/music/sabrina-carpenter-says-duetting-with-stevie-nicks-at-the-met-gala-healed-many-things-in-me-3944376?utm_source=rss&utm_medium=rss&utm_campaign=sabrina-carpenter-says-duetting-with-stevie-nicks-at-the-met-gala-healed-many-things-in-me",
+            "published": "2026-05-07T10:02:00.000Z",
+            "summary": "They came together to sing ‘Don’t Stop’ and ‘Landslide’ at the 2026 fashion event The post Sabrina Carpenter says duetting with Stevie Nicks at the Met Gala “healed many things in me” appeared first on NME.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "GQ",
+            "category": "fashion",
+            "title": "Jimmy Butler’s Alo Yoga Hoodie-Tuxedo at the Met Gala Was a Wild Swing",
+            "url": "https://www.gq.com/story/jimmy-butler-met-gala-2026-alo-yoga-hoodie-suit",
+            "published": "2026-05-06T15:50:57.000Z",
+            "summary": "The Golden State forward brought the famous LA-based athleisure brand to fashion’s biggest night.",
+            "score": 8,
+            "trending": true
+          },
+          {
+            "source": "Dazed",
+            "category": "culture",
+            "title": "Audrey Nuna shares her first Met Gala beauty routine",
+            "url": "https://www.dazeddigital.com/beauty/article/70212/1/audrey-nuna-shares-her-first-met-gala-beauty-affirmations?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=audrey-nuna-shares-her-first-met-gala-beauty-routine",
+            "published": "2026-05-06T11:00:00.000Z",
+            "summary": "Read more it-girl beauty affirmations here. Choosing what to wear to your first Met Gala is a problem most of us won’t ever have to worry about, but it’s an exciting dilemma nonetheless. You want to be on theme and make an entrance – people refer to celebrities’ debut looks for…",
+            "score": 8,
+            "trending": true
+          },
+          {
+            "source": "i-D",
+            "category": "culture",
+            "title": "Rashida Renée Ward Reviews the Met Gala Red Carpet",
+            "url": "https://i-d.co/article/rashida-renee-ward-reviews-the-met-gala-red-carpet-2026/",
+            "published": "2026-05-06T13:50:30.000Z",
+            "summary": "My personal favorite thing about the Met Gala is all of the rich people who don’t have to rely on fashion clout tokens to get a seat at a table, who pay fashion people exorbitant amounts of money to look good, then end up looking like crystal-encrusted doo doo instead. It’s…",
+            "score": 7,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Cannes · Rooney",
+        "keywords": [
+          "cannes",
+          "rooney"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Deadline",
+          "The Hollywood Reporter",
+          "Variety"
+        ],
+        "categories": [
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Ken Loach Returns To Cannes With ‘Land And Freedom’ In Cinéma De Plage Lineup Alongside ‘Top Gun’ & ‘All The President’s Men’",
+            "url": "https://deadline.com/2026/05/cannes-cinema-de-plage-loach-top-gun-presidents-men-1236884271/",
+            "published": "2026-05-07T10:52:10.000Z",
+            "summary": "Cannes Palme d’Or winner Ken Loach will be back at the festival for the first time in three years for a screening of Spanish Civil War drama Land and Freedom in the Cinéma de Plage strand which was unveiled today. It is among 11 films programmed for the festival’s nightly…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "BFI’s Cannes Great 8 Showcase Includes Films With Christina Hendricks, Joe Locke, Hiam Abbass",
+            "url": "https://www.hollywoodreporter.com/movies/movie-news/bfi-cannes-great-8-showcase-films-2026-christina-hendricks-1236588067/",
+            "published": "2026-05-07T10:00:00.000Z",
+            "summary": "The feature directing debut of 'Boiling Point' actor Ray Panthaki, starring Clarence Maclin in his first leading role, also features in the annual spotlight on features for distributors and festival programmers.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "Rooney Mara to Play an ‘Enigmatic, Beautiful, Violent’ Mother in Paris-Set ‘Quest for Love’ From Antonia Campbell-Hughes, HanWay Launching in Cannes",
+            "url": "https://variety.com/2026/film/global/rooney-mara-quest-for-love-antonia-campbell-hughes-hanway-1236740286/",
+            "published": "2026-05-07T09:30:00.000Z",
+            "summary": "Oscar nominee Rooney Mara is escaping to Paris to explore intimacy, morality and the limits of human connection in the newly-announced feature “Quest for Love,” which she will also exec produce. The film marks the latest feature behind the camera for Irish actress and…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Gary Lineker & Jorge Valdano-Narrated Cannes Doc ‘The Match’ About Argentina-England “Hand Of God” Game Sets Sales With Round 12",
+            "url": "https://deadline.com/2026/05/the-match-cannes-round-12-goodfellas-mediawan-1236883377/",
+            "published": "2026-05-07T09:01:00.000Z",
+            "summary": "EXCLUSIVE: Round 12 has acquired international sales rights for Juan Cabral and Santiago Franco’s documentary The Match, about the legendary Argentina-England 1986 World Cup quarter final, ahead of its debut in Cannes Premiere. It marks the first sales acquisition of a Cannes…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Richard E. Grant & Dominic West Among Cast Set For Dark Comedy ‘The Man Who Stole Portugal’ — Cannes Market",
+            "url": "https://deadline.com/2026/05/richard-e-grant-dominic-west-the-man-who-stole-portugal-1236884097/",
+            "published": "2026-05-07T09:00:00.000Z",
+            "summary": "Principal photography has begun on The Man Who Stole Portugal, a feature project from director Thomas Napper (Jawbone) that has been described as a “darkly comic period heist” about “one of the most audacious financial frauds of the 20th century.” The film stars James Nelson…",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Trump · Tariff",
+        "keywords": [
+          "trump",
+          "tariff"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Business of Fashion",
+          "Fast Company",
+          "Wired"
+        ],
+        "categories": [
+          "fashion",
+          "internet",
+          "trends"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Fast Company",
+            "category": "trends",
+            "title": "Trump’s latest logos leave out Vice President Vance",
+            "url": "https://www.fastcompany.com/91537689/trump-latest-logos-leave-out-vice-president-vance",
+            "published": "2026-05-07T10:30:00.000Z",
+            "summary": "Since Donald Trump named then-Senator JD Vance of Ohio his running mate in July 2024, his campaign logo has included both of their last names placed within a rectangular frame. In fundraising emails sent to the president’s mailing list last month, though, a different version of…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Wired",
+            "category": "internet",
+            "title": "There Is No Evidence the Trump Assassination Attempts Were Staged. People Still Believe They Were",
+            "url": "https://www.wired.com/story/there-is-no-evidence-the-trump-assassination-attempts-were-staged-people-still-believe-they-were/",
+            "published": "2026-05-07T10:00:00.000Z",
+            "summary": "Elements of the right and the left are united in the baseless belief that two attempts on Donald Trump's life were staged.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Business of Fashion",
+            "category": "fashion",
+            "title": "Tariff Refunds Have Started Being Paid by Trump Administration",
+            "url": "https://www.businessoffashion.com/news/retail/tariff-refunds-have-started-being-paid-by-trump-administration/",
+            "published": "2026-05-07T08:44:55.000Z",
+            "summary": "Refunds for the $166 billion in global tariffs that the US Supreme Court declared unlawful earlier this year have started hitting importers’ bank accounts.",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Vegas · Residency",
+        "keywords": [
+          "vegas",
+          "residency"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Billboard",
+          "Consequence",
+          "Variety"
+        ],
+        "categories": [
+          "music",
+          "film"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "Gwen Stefani & No Doubt Leave No Orange Unturned for Night 1 of Las Vegas Sphere Residency: 7 Best Moments",
+            "url": "https://www.billboard.com/lists/no-doubt-sphere-recap-best-moments-gwen-stefani-las-vegas/",
+            "published": "2026-05-07T10:06:30.000Z",
+            "summary": "Stefani is now the first woman to headline the Sphere.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Billboard",
+            "category": "music",
+            "title": "No Doubt Transport Las Vegas Sphere to Orange County for New Residency: See Their Full Night 1 Setlist",
+            "url": "https://www.billboard.com/lists/no-doubt-sphere-setlist-las-vegas-opening-night/",
+            "published": "2026-05-07T07:41:18.000Z",
+            "summary": "The Gwen Stefani-fronted band is playing dates through June 13.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "No Doubt Set List: Every Song Played at Sphere Residency Opener in Las Vegas",
+            "url": "https://variety.com/2026/music/news/no-doubt-set-list-sphere-las-vegas-1236739547/",
+            "published": "2026-05-07T03:53:33.000Z",
+            "summary": "No Doubt kicked off their Las Vegas residency tonight at Sphere, giving a first look at what to expect from the 12 shows they have booked at the venue. The quartet, consisting of Gwen Stefani, Tony Kanal, Tom Dumont and Adrian Young, initially announced the run of shows at…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "Mary J. Blige Extends Las Vegas Residency with 10 New Dates",
+            "url": "https://consequence.net/2026/05/mjb-extends-2026-las-vegas-residency/",
+            "published": "2026-05-06T21:35:03.000Z",
+            "summary": "The expansion comes after a sold-out opening weekend packed with surprise appearances from hip-hop heavyweights. Mary J. Blige Extends Las Vegas Residency with 10 New Dates Alex Krinsky",
+            "score": 8,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "World · Timoth",
+        "keywords": [
+          "world",
+          "timoth"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Adweek",
+          "Creative Review",
+          "Design Boom"
+        ],
+        "categories": [
+          "art",
+          "marketing"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Creative Review",
+            "category": "art",
+            "title": "Timothée Chalamet, David Beckham kick off Adidas’ World Cup campaign",
+            "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
+            "published": "2026-05-07T10:36:19.000Z",
+            "summary": "They line up alongside Lionel Messi, Jude Bellingham and Bad Bunny for a nostalgic, cinematic short that celebrates grassroots football culture",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Adweek",
+            "category": "marketing",
+            "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
+            "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
+            "published": "2026-05-07T04:00:00.000Z",
+            "summary": "The 5-minute spot kicks off the shoe brand's Tier-1 sponsorship of the tournament",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Design Boom",
+            "category": "art",
+            "title": "how aki inomata turns shells and insects into living collaborators for soft world-making",
+            "url": "https://www.designboom.com/art/aki-inomata-shells-insects-living-collaborators-soft-world-making/",
+            "published": "2026-05-06T19:30:07.000Z",
+            "summary": "the japanese artist explores coexistence through hermit crabs, oysters, insects, and shared shelters shaped by interspecies collaboration. The post how aki inomata turns shells and insects into living collaborators for soft world-making appeared first on designboom |…",
+            "score": 9,
+            "trending": true
           }
         ]
       }
