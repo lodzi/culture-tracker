@@ -2,120 +2,78 @@
   "date": "2026-05-07",
   "aiModel": "claude-haiku-4-5-20251001",
   "daily": {
-    "generatedAt": "2026-05-07T08:27:58.736Z",
-    "intro": "7 categorieën · 12 trends · laatste 24u",
+    "generatedAt": "2026-05-07T09:23:53.092Z",
+    "intro": "8 categorieën · 9 trends · laatste 24u",
     "categories": [
+      {
+        "id": "lokaal",
+        "label": "Lokaal",
+        "insights": [
+          {
+            "trend": "Elon Musk's influence on tech corporate governance",
+            "summary": "VRT NWS en The Verge berichten hoe Musk als insider bij OpenAI functioneert en bedrijfsdynamica beïnvloedt. Shivon Zilis' testimonium toont persoonlijke stakeholder-conflicten.",
+            "why_it_matters": "Toont hoe individuele tech-figuren institutionele besluitvorming destabiliseren en geopolitieke implicaties creëren.",
+            "sources": [
+              "The Verge",
+              "VRT NWS",
+              "Wired"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Shivon Zilis, moeder van 4 kinderen van Elon Musk, zegt op OpenAI-proces dat ze \"bemiddelde\" (niet spioneerde)",
+                "url": "https://vrtnws.be/p.Wk6PVkRK1",
+                "source": "VRT NWS",
+                "published": "2026-05-07T06:41:43.000Z"
+              },
+              {
+                "title": "Musk’s biggest loyalist became his biggest liability",
+                "url": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
+                "source": "The Verge",
+                "published": "2026-05-06T23:37:02.000Z"
+              },
+              {
+                "title": "Elon Musk’s Last-Ditch Effort to Control OpenAI: Recruit Sam Altman to Tesla",
+                "url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
+                "source": "Wired",
+                "published": "2026-05-06T23:23:45.000Z"
+              }
+            ]
+          }
+        ]
+      },
       {
         "id": "music",
         "label": "Muziek",
         "insights": [
           {
-            "trend": "Hip-hop artists embrace experimental livestream formats",
-            "summary": "Drake announces exclusive livestreamed episodes ('Iceman'), while Beastie Boys' Mike D announces rare live shows in major cities. Artists are using direct-to-fan digital and physical experiences to bypass traditional release mechanisms.",
-            "why_it_matters": "Demonstrates artists' shift toward intimate, event-based engagement rather than album-centric marketing.",
+            "trend": "Legacy artists launching extended Vegas residencies",
+            "summary": "No Doubt en Mary J. Blige lanceren uitgebreide Vegas-residenties met meerdere data. Dit vernieuwt het klassieke Vegas-residency-model voor iconische acts.",
+            "why_it_matters": "Toont hoe klassieke artiesten Vegas gebruiken als duurzaam inkomstenmodel in plaats van traditionele tour-cycles.",
             "sources": [
               "Billboard",
               "Consequence",
-              "DIY Magazine",
-              "Kotaku",
-              "Polygon",
-              "Stereogum",
-              "The Verge"
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Drake Announces ‘Iceman’ Episode 4 Livestream Date",
-                "url": "https://www.billboard.com/music/rb-hip-hop/drake-iceman-episode-4-date-livestream-1236241082/",
+                "title": "No Doubt Transport Las Vegas Sphere to Orange County for New Residency: See Their Full Night 1 Setlist",
+                "url": "https://www.billboard.com/lists/no-doubt-sphere-setlist-las-vegas-opening-night/",
                 "source": "Billboard",
-                "published": "2026-05-06T23:13:27.000Z"
+                "published": "2026-05-07T07:41:18.000Z"
               },
               {
-                "title": "Nintendo announces a new Star Fox for the Switch 2",
-                "url": "https://www.theverge.com/entertainment/925601/star-fox-nintendo-switch-2",
-                "source": "The Verge",
-                "published": "2026-05-06T22:07:46.000Z"
+                "title": "No Doubt Set List: Every Song Played at Sphere Residency Opener in Las Vegas",
+                "url": "https://variety.com/2026/music/news/no-doubt-set-list-sphere-las-vegas-1236739547/",
+                "source": "Variety",
+                "published": "2026-05-07T03:53:33.000Z"
               },
               {
-                "title": "Nintendo announces new Star Fox for Nintendo Switch 2",
-                "url": "https://www.polygon.com/star-fox-2026-game-nintendo-switch-2/",
-                "source": "Polygon",
-                "published": "2026-05-06T22:09:04.000Z"
-              },
-              {
-                "title": "Nintendo Announces Surprise Remake Of Star Fox 64 For Switch 2 And It Looks Fine",
-                "url": "https://kotaku.com/nintendo-announces-surprise-remake-of-star-fox-64-for-switch-2-and-it-looks-very-cool-2000693718",
-                "source": "Kotaku",
-                "published": "2026-05-06T22:06:11.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Cross-genre collaboration between indie and electronic",
-            "summary": "Jared Mattson and Ruban Nielson (Unknown Mortal Orchestra) announce collaborative album FEAR with experimental single 'American Eagle'. Multiple indie outlets cover this as significant genre fusion.",
-            "why_it_matters": "Shows ongoing indie music trend toward boundary-breaking sonic experimentalism and artist partnerships.",
-            "sources": [
-              "Eurogamer",
-              "IndieWire",
-              "Kotaku",
-              "Stereogum"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Jared Mattson (The Mattson 2) & Ruban Nielson (Unknown Mortal Orchestra) Announce New Collaborative Album FEAR: Hear “AMERICAN EAGLE”",
-                "url": "https://stereogum.com/2498131/jared-mattson-the-mattson-2-ruban-nielson-unknown-mortal-orchestra-announce-new-collaborative-album-fear-hear-american-eagle/music/",
-                "source": "Stereogum",
-                "published": "2026-05-06T23:19:51.000Z"
-              },
-              {
-                "title": "‘Mortal Kombat II’ Review: Not Even Kitana Can Save This Doomed IP from Another Film Fatality",
-                "url": "https://www.indiewire.com/criticism/movies/mortal-kombat-2-film-review-1235192434/",
-                "source": "IndieWire",
-                "published": "2026-05-06T16:00:00.000Z"
-              },
-              {
-                "title": "As Injustice 3 rumours heat up, NetherRealm boss Ed Boon says the studio is \"actively pursuing\" a new Mortal Kombat",
-                "url": "https://www.eurogamer.net/netherrealm-boss-ed-boon-on-next-mortal-kombat-plans",
-                "source": "Eurogamer",
-                "published": "2026-05-06T12:19:41.000Z"
-              },
-              {
-                "title": "Mortal Kombat Co-Creator Breaks Silence On The Box Office Showdown With Street Fighter",
-                "url": "https://kotaku.com/mortal-kombat-co-creator-breaks-silence-on-the-box-office-showdown-with-street-fighter-2000693625",
-                "source": "Kotaku",
-                "published": "2026-05-06T20:38:32.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Legacy artists stage nostalgia-driven cultural moments",
-            "summary": "Father John Misty releases new material while Paul Shaffer performs Frank Sinatra standards alongside contemporary comedians (David Letterman, John Mulaney) on Netflix. Legacy acts are reclaiming cultural relevance through contemporary collaborations.",
-            "why_it_matters": "Reflects how older artists leverage streaming platforms and comedy crossovers to remain culturally relevant to younger audiences.",
-            "sources": [
-              "Creative Review",
-              "Pitchfork News",
-              "The Hollywood Reporter"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "John Lewis: Tableau commercial",
-                "url": "https://www.creativereview.co.uk/john-lewis-tableau-commercial/",
-                "source": "Creative Review",
-                "published": "2026-05-07T07:31:25.000Z"
-              },
-              {
-                "title": "Listen to Father John Misty’s New Song “The Payoff”",
-                "url": "https://pitchfork.com/news/listen-to-father-john-mistys-new-song-the-payoff/",
-                "source": "Pitchfork News",
-                "published": "2026-05-07T04:07:45.000Z"
-              },
-              {
-                "title": "Paul Shaffer Sings Frank Sinatra, Shares Stage with David Letterman and John Mulaney at Netflix Event",
-                "url": "https://www.hollywoodreporter.com/tv/tv-news/david-letterman-netflix-john-mulaney-paul-shaffer-live-show-1236588416/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-05-06T23:21:42.000Z"
+                "title": "Mary J. Blige Extends Las Vegas Residency with 10 New Dates",
+                "url": "https://consequence.net/2026/05/mjb-extends-2026-las-vegas-residency/",
+                "source": "Consequence",
+                "published": "2026-05-06T21:35:03.000Z"
               }
             ]
           }
@@ -126,9 +84,9 @@
         "label": "Fashion",
         "insights": [
           {
-            "trend": "Luxury brands elevate everyday accessories",
-            "summary": "High-fashion designers like Haider Ackermann and Timothée Chalamet collaborations are transforming utilitarian items—sunglasses, sportswear—into statement luxury pieces. Multiple luxury houses are investing in premium versions of casual goods.",
-            "why_it_matters": "Reflects democratization of luxury through accessible product categories, blurring lines between high fashion and everyday wear.",
+            "trend": "Celebrity-driven luxury design collaborations",
+            "summary": "High-end designers zoals Haider Ackermann en Timothée Chalamet werken samen aan exclusieve luxeproducten. Dit gebeurt via advertentiecampagnes en fashion partnerships die celebrity-cachet met designer-prestige combineren.",
+            "why_it_matters": "Toont hoe luxury modemerken steeds meer op celebrity-endorsement vertrouwen om aspirationaliteit en exclusiviteit te creëren.",
             "sources": [
               "Adweek",
               "Deadline",
@@ -170,11 +128,10 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Dark comedy trailers dominate prestige streaming launches",
-            "summary": "Multiple trailers showcased on Cannes/IndieWire for dark comedies ('Maddie's Secret' with John Early, 'Deli Boys' season 2, 'Shana'). Prestige streaming platforms are banking on irreverent comedy as flagship content.",
-            "why_it_matters": "Shows streaming shift toward edgy, character-driven comedies as counter-programming to big-budget franchises.",
+            "trend": "Dark comedies with genre-mixing and influencer narratives",
+            "summary": "Trailers voor 'Maddie's Secret' en 'Deli Boys' laten zien dat donkere komedies experimenteren met influencer-cultuur en onderliggende maatschappelijke spanning. John Early en Hulu leiden deze trend.",
+            "why_it_matters": "Toont hoe mainstream media sociale media-cultuur absorberen en dramatiseren om relevantie te behouden.",
             "sources": [
-              "Eurogamer",
               "GQ",
               "IndieWire",
               "Polygon",
@@ -202,49 +159,41 @@
                 "published": "2026-05-06T16:23:04.000Z"
               },
               {
-                "title": "Battlefield 6 Season 3 kicks off next week, and its gameplay trailer bets big on Battlefield 4 nostalgia",
-                "url": "https://www.eurogamer.net/battlefield-6-season-3-trailer",
-                "source": "Eurogamer",
-                "published": "2026-05-06T15:28:55.000Z"
+                "title": "New Minecraft documentary gets first teaser trailer",
+                "url": "https://www.polygon.com/battle-of-the-borough-trailer/",
+                "source": "Polygon",
+                "published": "2026-05-06T20:37:43.000Z"
               }
             ]
           },
           {
-            "trend": "A24 directors attract A-list talent for prestige projects",
-            "summary": "Scarlett Johansson stars in Ari Aster's 'Scapegoat' for A24 across multiple entertainment outlets. Avant-garde indie label A24 is successfully attracting major Hollywood talent to auteur-driven films.",
-            "why_it_matters": "Reflects A24's cultural ascendancy in positioning arthouse cinema as prestigious alternative to studio filmmaking.",
+            "trend": "International crime dramas with period settings",
+            "summary": "Series als 'Legends' (Netflix, Groot-Brittannië) en 'Matka King' (Prime, India) grondvesten crime-drama in specifieke historische contexten. Dit vertegenwoordigt decentralisatie van crime-narratieven.",
+            "why_it_matters": "Laat zien hoe streamingplatforms lokale crime-verhalen globaal distribueren met culturele authenticiteit.",
             "sources": [
-              "Eurogamer",
-              "IndieWire",
-              "Kotaku",
-              "Polygon",
-              "The Hollywood Reporter"
+              "Deadline",
+              "NME",
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "‘Survivor 50’ Star Stephenie LaGrossa Kendrick on What Went Wrong, That Mr. Beast Twist and Complex Cirie Relationship",
-                "url": "https://www.hollywoodreporter.com/tv/tv-features/survivor-50-exit-interview-stephenie-lagrossa-kendrick-1236581291/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-05-06T23:16:07.000Z"
+                "title": "Steve Coogan and Tom Burke Excel as Undercover Agents in Netflix War on Drugs Drama ‘Legends’: TV Review",
+                "url": "https://variety.com/2026/tv/reviews/legends-review-steve-coogan-netflix-1236738403/",
+                "source": "Variety",
+                "published": "2026-05-07T07:01:00.000Z"
               },
               {
-                "title": "All Star Fox games that the new Star Fox game is technically a remake of",
-                "url": "https://www.polygon.com/star-fox-2026-remake-64-3d-zero/",
-                "source": "Polygon",
-                "published": "2026-05-07T01:46:27.000Z"
+                "title": "‘Legends’ review: sprawling crime drama spotlights Britain’s unsung drug-busters",
+                "url": "https://www.nme.com/reviews/tv-reviews/legends-review-steve-coogan-netflix-3944313?utm_source=rss&utm_medium=rss&utm_campaign=legends-review-steve-coogan-netflix",
+                "source": "NME",
+                "published": "2026-05-07T07:00:38.000Z"
               },
               {
-                "title": "Everything We Saw At The Surprise Star Fox Nintendo Direct",
-                "url": "https://kotaku.com/nintendo-direct-star-fox-switch-2-mario-galaxy-64-2000693715",
-                "source": "Kotaku",
-                "published": "2026-05-06T22:22:42.000Z"
-              },
-              {
-                "title": "A remake of Star Fox 64 is coming to Switch 2 this June",
-                "url": "https://www.eurogamer.net/a-remake-of-star-fox-64-is-coming-to-switch-2-this-june",
-                "source": "Eurogamer",
-                "published": "2026-05-06T22:15:16.000Z"
+                "title": "‘Matka King’: Prime Video Crowns Second Season Of Crime Drama Set In 1960s India",
+                "url": "https://deadline.com/2026/05/matka-king-prime-video-season-2-india-1236882674/",
+                "source": "Deadline",
+                "published": "2026-05-07T06:25:00.000Z"
               }
             ]
           }
@@ -255,9 +204,9 @@
         "label": "Art & Design",
         "insights": [
           {
-            "trend": "Nature as artistic medium and collaborator",
-            "summary": "Artist Aki Inomata is using shells and insects as living collaborators in installations, exploring symbiosis between human creativity and natural organisms. This represents a shift toward bio-art and sustainable creative practices.",
-            "why_it_matters": "Signals growing artistic interest in environmental collaboration and moving beyond human-centric art narratives.",
+            "trend": "Collaboration between nature and artistic practice",
+            "summary": "Kunstenaars zoals Aki Inomata gebruiken levende materialen (schelpen, insecten) als actieve partners in hun kunstwerk. Dit vertegenwoordigt een verschuiving naar meer-dan-menselijke kunstpraktijken.",
+            "why_it_matters": "Weerspiegelt groeiende interesse in ecologische kunst en het decentraliseren van menselijk agency in creatieve processen.",
             "sources": [
               "Adweek",
               "Deadline",
@@ -295,29 +244,71 @@
         ]
       },
       {
-        "id": "gaming",
-        "label": "Gaming",
+        "id": "internet",
+        "label": "Internet",
         "insights": [
           {
-            "trend": "Nintendo leverages nostalgia for hardware launches",
-            "summary": "Nintendo announced Star Fox 64 remake for Switch 2 across multiple gaming outlets, generating significant coverage. Retro game remakes are central to next-gen console marketing strategy.",
-            "why_it_matters": "Shows gaming industry reliance on IP nostalgia to drive hardware adoption rather than new creative franchises.",
+            "trend": "Elon Musk's internal conflicts with tech leadership",
+            "summary": "Meerdere bronnen rapporteren over Musk's pogingen om controle over OpenAI te behouden en verschillende loyaliteitsconflicten binnen zijn bedrijven. Dit omvat zijn relatie met Sam Altman en interne verraad-narratieven.",
+            "why_it_matters": "Illustreert spanningen in tech-leiderschap en hoe persoonlijke machtsdynamieken bedrijfsstructuren destabiliseren.",
             "sources": [
-              "Billboard",
-              "Consequence",
-              "DIY Magazine",
-              "Kotaku",
-              "Polygon",
-              "Stereogum",
-              "The Verge"
+              "The Verge",
+              "VRT NWS",
+              "Wired"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Drake Announces ‘Iceman’ Episode 4 Livestream Date",
-                "url": "https://www.billboard.com/music/rb-hip-hop/drake-iceman-episode-4-date-livestream-1236241082/",
-                "source": "Billboard",
-                "published": "2026-05-06T23:13:27.000Z"
+                "title": "Shivon Zilis, moeder van 4 kinderen van Elon Musk, zegt op OpenAI-proces dat ze \"bemiddelde\" (niet spioneerde)",
+                "url": "https://vrtnws.be/p.Wk6PVkRK1",
+                "source": "VRT NWS",
+                "published": "2026-05-07T06:41:43.000Z"
+              },
+              {
+                "title": "Musk’s biggest loyalist became his biggest liability",
+                "url": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
+                "source": "The Verge",
+                "published": "2026-05-06T23:37:02.000Z"
+              },
+              {
+                "title": "Elon Musk’s Last-Ditch Effort to Control OpenAI: Recruit Sam Altman to Tesla",
+                "url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
+                "source": "Wired",
+                "published": "2026-05-06T23:23:45.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "Nintendo Switch 2 franchise reboots and retrospectives",
+            "summary": "Nintendo kondigt Star Fox aan voor Switch 2 met mediaberichtgeving die alle vorige installaties overloopt. Dit patroon van nostalgia-marketing combineert new hardware met franchise-legacy.",
+            "why_it_matters": "Illustreert hoe nieuwe consoles legacy-franchises leveragen voor launch-relevantie en generatie-connecting.",
+            "sources": [
+              "IndieWire",
+              "Kotaku",
+              "Polygon",
+              "The Hollywood Reporter",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "James Nelson Joyce, Richard E. Grant and Dominic West to Star in Dark Comedy ‘The Man Who Stole Portugal’",
+                "url": "https://variety.com/2026/film/global/james-nelson-joyce-the-man-who-stole-portugal-1236739743/",
+                "source": "Variety",
+                "published": "2026-05-07T09:00:00.000Z"
+              },
+              {
+                "title": "‘Survivor 50’ Star Stephenie LaGrossa Kendrick on What Went Wrong, That Mr. Beast Twist and Complex Cirie Relationship",
+                "url": "https://www.hollywoodreporter.com/tv/tv-features/survivor-50-exit-interview-stephenie-lagrossa-kendrick-1236581291/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-05-06T23:16:07.000Z"
               },
               {
                 "title": "Nintendo announces a new Star Fox for the Switch 2",
@@ -326,85 +317,10 @@
                 "published": "2026-05-06T22:07:46.000Z"
               },
               {
-                "title": "Nintendo announces new Star Fox for Nintendo Switch 2",
-                "url": "https://www.polygon.com/star-fox-2026-game-nintendo-switch-2/",
+                "title": "All Star Fox games that the new Star Fox game is technically a remake of",
+                "url": "https://www.polygon.com/star-fox-2026-remake-64-3d-zero/",
                 "source": "Polygon",
-                "published": "2026-05-06T22:09:04.000Z"
-              },
-              {
-                "title": "Nintendo Announces Surprise Remake Of Star Fox 64 For Switch 2 And It Looks Fine",
-                "url": "https://kotaku.com/nintendo-announces-surprise-remake-of-star-fox-64-for-switch-2-and-it-looks-very-cool-2000693718",
-                "source": "Kotaku",
-                "published": "2026-05-06T22:06:11.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Fighting game franchises compete through IP expansion",
-            "summary": "Multiple outlets cover Mortal Kombat franchise struggles (failed film, Injustice 3 rumors, Street Fighter competition). Fighting game brands are battling for relevance across film, games, and pop culture.",
-            "why_it_matters": "Illustrates how legacy gaming franchises must succeed across multiple media to maintain cultural dominance.",
-            "sources": [
-              "Eurogamer",
-              "IndieWire",
-              "Kotaku",
-              "Stereogum"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Jared Mattson (The Mattson 2) & Ruban Nielson (Unknown Mortal Orchestra) Announce New Collaborative Album FEAR: Hear “AMERICAN EAGLE”",
-                "url": "https://stereogum.com/2498131/jared-mattson-the-mattson-2-ruban-nielson-unknown-mortal-orchestra-announce-new-collaborative-album-fear-hear-american-eagle/music/",
-                "source": "Stereogum",
-                "published": "2026-05-06T23:19:51.000Z"
-              },
-              {
-                "title": "‘Mortal Kombat II’ Review: Not Even Kitana Can Save This Doomed IP from Another Film Fatality",
-                "url": "https://www.indiewire.com/criticism/movies/mortal-kombat-2-film-review-1235192434/",
-                "source": "IndieWire",
-                "published": "2026-05-06T16:00:00.000Z"
-              },
-              {
-                "title": "As Injustice 3 rumours heat up, NetherRealm boss Ed Boon says the studio is \"actively pursuing\" a new Mortal Kombat",
-                "url": "https://www.eurogamer.net/netherrealm-boss-ed-boon-on-next-mortal-kombat-plans",
-                "source": "Eurogamer",
-                "published": "2026-05-06T12:19:41.000Z"
-              },
-              {
-                "title": "Mortal Kombat Co-Creator Breaks Silence On The Box Office Showdown With Street Fighter",
-                "url": "https://kotaku.com/mortal-kombat-co-creator-breaks-silence-on-the-box-office-showdown-with-street-fighter-2000693625",
-                "source": "Kotaku",
-                "published": "2026-05-06T20:38:32.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Game studios face backlash over exploitative marketing",
-            "summary": "Lords of the Fallen 2 studio paid YouTubers to promote bikini armor, while RGG Studio (Yakuza) manages community expectations on new releases. Gaming culture is becoming more critical of exploitative design and marketing practices.",
-            "why_it_matters": "Demonstrates emerging accountability culture within gaming communities around sexualization and authentic creator partnerships.",
-            "sources": [
-              "Dazed",
-              "Eurogamer",
-              "Kotaku"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Yakuza and Like a Dragon developer RGG Studio finally gives Stranger Than Heaven a release window",
-                "url": "https://www.eurogamer.net/stranger-than-heaven-release-window",
-                "source": "Eurogamer",
-                "published": "2026-05-07T03:40:44.000Z"
-              },
-              {
-                "title": "Lords Of The Fallen 2 Studio Paid A Gaming YouTuber To Promote Its Boring Bikini Armor",
-                "url": "https://kotaku.com/lords-of-the-fallen-2-female-armor-sets-thebackgroundnpc-2000693666",
-                "source": "Kotaku",
-                "published": "2026-05-06T20:02:16.000Z"
-              },
-              {
-                "title": "Inside Studio Iron, Isamaya Ffrench’s new dystopian dreamworld",
-                "url": "https://www.dazeddigital.com/art-photography/article/70193/1/inside-studio-iron-isamaya-ffrenchs-new-dystopian-dreamworld?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=inside-studio-iron-isamaya-ffrench-s-new-dystopian-dreamworld",
-                "source": "Dazed",
-                "published": "2026-05-06T11:35:00.000Z"
+                "published": "2026-05-07T01:46:27.000Z"
               }
             ]
           }
@@ -415,9 +331,9 @@
         "label": "Trends",
         "insights": [
           {
-            "trend": "Cultural anxiety around AI and spoiler culture",
-            "summary": "Fast Company and Variety outlets report on widespread public distrust of AI systems, while Marvel directors critique over-policing of spoilers. Audiences are experiencing fatigue with both algorithmic control and content restrictions.",
-            "why_it_matters": "Signals broader tension between technological mediation of culture and human desire for organic social experience.",
+            "trend": "Public skepticism toward AI and pharmaceutical disruption",
+            "summary": "Fast Company en Variety analyseren maatschappelijke resistance tegen AI-integratie en GLP-1 gewichtsverlies-paradoxen. Dit weerspiegelt breder onbehagen met technologische/medische innovation.",
+            "why_it_matters": "Toont verschuiving van techno-optimisme naar kritisch consumentensentiment over nieuwe technologieën.",
             "sources": [
               "Business of Fashion",
               "Fast Company",
@@ -442,50 +358,6 @@
                 "url": "https://www.fastcompany.com/91537786/glp-1-paradox-ozempic-weight-loss-what-people-really-think-study",
                 "source": "Fast Company",
                 "published": "2026-05-06T19:45:00.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "marketing",
-        "label": "Marketing",
-        "insights": [
-          {
-            "trend": "Celebrity brand ambassadorships emphasize cultural capital",
-            "summary": "Timothée Chalamet appears in Adidas World Cup shorts while Haider Ackermann sunglasses receive major media coverage. Luxury and sportswear brands are using celebrity partnerships to signal taste and cultural relevance.",
-            "why_it_matters": "Shows how celebrity endorsements function less as product promotion and more as cultural legitimacy markers for luxury goods.",
-            "sources": [
-              "Adweek",
-              "Deadline",
-              "Design Boom",
-              "Highsnobiety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Former Berlinale World Cinema Fund Head Vincenzo Bugno To Be Honored In Cannes",
-                "url": "https://deadline.com/2026/05/berlin-world-cinema-fund-head-vincenzo-bugno-honor-cannes-1236884096/",
-                "source": "Deadline",
-                "published": "2026-05-07T08:23:23.000Z"
-              },
-              {
-                "title": "how aki inomata turns shells and insects into living collaborators for soft world-making",
-                "url": "https://www.designboom.com/art/aki-inomata-shells-insects-living-collaborators-soft-world-making/",
-                "source": "Design Boom",
-                "published": "2026-05-07T07:30:07.000Z"
-              },
-              {
-                "title": "Timothée Chalamet Builds His Dream Soccer Team in Adidas&#8217; World Cup Short",
-                "url": "https://www.adweek.com/brand-marketing/timothee-chalamet-builds-his-dream-soccer-team-in-adidas-world-cup-short/",
-                "source": "Adweek",
-                "published": "2026-05-07T04:00:00.000Z"
-              },
-              {
-                "title": "Haider Ackermann Made the World's Fanciest Sunglasses Even Fancier (EXCLUSIVE)",
-                "url": "https://www.highsnobiety.com/p/haider-ackermann-jacques-marie-mage/",
-                "source": "Highsnobiety",
-                "published": "2026-05-06T14:07:26.000Z"
               }
             ]
           }
