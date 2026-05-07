@@ -2,22 +2,21 @@
   "date": "2026-05-07",
   "daily": {
     "title": "Culture Tracker",
-    "intro": "Top 10 culturele topics · 43 artikels van 34 bronnen · 10 door 3+ bronnen · laatste 24u.",
+    "intro": "Top 10 culturele topics · 45 artikels van 32 bronnen · 10 door 3+ bronnen · laatste 24u.",
     "topics": [
       {
-        "label": "2026 · Tested",
+        "label": "2026 · Awards",
         "keywords": [
           "2026",
-          "tested"
+          "awards"
         ],
-        "sourceCount": 11,
+        "sourceCount": 10,
         "sources": [
           "Billboard",
           "Consequence",
+          "Crack Magazine",
           "Creative Review",
           "Dezeen",
-          "GQ",
-          "Google Trends (BE)",
           "IndieWire",
           "NME",
           "Pitchfork News",
@@ -29,8 +28,7 @@
           "art",
           "internet",
           "music",
-          "film",
-          "trends"
+          "film"
         ],
         "trending": true,
         "fresh": true,
@@ -38,80 +36,80 @@
           {
             "source": "Billboard",
             "category": "music",
-            "title": "TOMORROW X TOGETHER Hit the Stage in First Trailer For ‘2026 TXT MOA CON IN JAPAN: LIVE VIEWING’ Concert Film: Watch",
-            "url": "https://www.billboard.com/music/pop/tomorrow-x-together-trailer-2026-txt-moa-con-concert-film-watch-1236241331/",
-            "published": "2026-05-07T15:09:55.000Z",
-            "summary": "The May 24 show from IG Arena in Nagoya, Japan will be broadcast live to cinemas around the world.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Pitchfork News",
-            "category": "music",
-            "title": "L7 Map 2026 Farewell Tour Dates",
-            "url": "https://pitchfork.com/news/l7-map-2026-farewell-tour-dates/",
-            "published": "2026-05-07T15:07:53.000Z",
-            "summary": "The Last Hurrah Tour is reportedly the first leg of the ’90s grunge band’s final tour",
+            "title": "Here’s the Full List of Performers Announced So Far for the 2026 American Music Awards",
+            "url": "https://www.billboard.com/lists/2026-american-music-awards-performers/",
+            "published": "2026-05-07T17:18:58.000Z",
+            "summary": "Five more artists have joined the list.",
             "score": 10,
             "trending": true
           },
           {
             "source": "Billboard",
             "category": "music",
-            "title": "Justin Bieber, Noah Kahan & Olivia Rodrigo: Which Pop Stars Won April 2026?",
-            "url": "https://www.billboard.com/music/pop/greatest-pop-stars-april-2026-podcast-justin-bieber-1236241377/",
-            "published": "2026-05-07T15:03:46.000Z",
-            "summary": "This Who Won the Month episode of the 'Greatest Pop Stars' podcast checks in on a busy month for pop stars new and old.",
+            "title": "Watch Shakira Tease ‘Dai Dai,’ the Official 2026 FIFA World Cup Song With Burna Boy",
+            "url": "https://www.billboard.com/music/latin/shakira-dai-dai-2026-fifa-world-cup-song-burna-boy-teaser-1236241647/",
+            "published": "2026-05-07T17:16:09.000Z",
+            "summary": "The Colombian artist remains the Queen of World Cup Music.",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Consequence",
+            "source": "Billboard",
             "category": "music",
-            "title": "2026 Four Chord Music Fest Headlined by Knocked Loose and Pierce the Veil",
-            "url": "https://consequence.net/2026/05/2026-four-chord-music-fest-lineup/",
-            "published": "2026-05-07T14:05:19.000Z",
-            "summary": "The two-day Pittsburgh festival also boasts Underoath, Kublai Khan TX, We Came As Romans, Mayday Parade, and more. 2026 Four Chord Music Fest Headlined by Knocked Loose and Pierce the Veil Spencer Kaufman",
+            "title": "BLACKPINK Reunites for a Bathroom Selfie at the 2026 Met Gala",
+            "url": "https://www.billboard.com/music/music-news/blackpink-reunites-2026-met-gala-bathroom-selfie-1236241688/",
+            "published": "2026-05-07T17:10:47.000Z",
+            "summary": "The ladies walked the carpet separately, but joined forces once inside.",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Wired",
-            "category": "internet",
-            "title": "Google Ditches the Screen With the New Fitbit Air (2026)",
-            "url": "https://www.wired.com/story/google-fitbit-air/",
-            "published": "2026-05-07T14:00:00.000Z",
-            "summary": "Powered by Gemini and designed around simplicity, the new Fitbit Air could finally give the screenless fitness tracker market a compelling alternative to Whoop.",
+            "source": "Billboard",
+            "category": "music",
+            "title": "2026 Billboard Women in Music Polaroids",
+            "url": "https://www.billboard.com/photos/billboard-women-in-music-2026-polaroids-1236241563/",
+            "published": "2026-05-07T17:07:08.000Z",
+            "summary": "Check out our gallery of Billboard Women in Music 2026 Polaroids, including snaps of HUNTR/X, Tate McRae, Brandi Carlile, Zara Larsson and more.",
             "score": 10,
             "trending": true
           },
           {
             "source": "NME",
             "category": "music",
-            "title": "Mighty Hoopla Malta 2026 has been cancelled due to rising costs in the airline industry",
-            "url": "https://www.nme.com/news/music/mighty-hoopla-malta-2026-has-been-cancelled-rising-costs-in-the-airline-industry-3944418?utm_source=rss&utm_medium=rss&utm_campaign=mighty-hoopla-malta-2026-has-been-cancelled-rising-costs-in-the-airline-industry",
-            "published": "2026-05-07T13:00:46.000Z",
-            "summary": "Organisers apologised to ticketholders, and revealed that they had been left in a “very different position to when we first launched the event” The post Mighty Hoopla Malta 2026 has been cancelled due to rising costs in the airline industry appeared first on NME.",
+            "title": "Dove Ellis, Bb trickz, Liim, Zack Fox and more join line-up for Tyler, The Creator’s two-day takeover at All Points East 2026",
+            "url": "https://www.nme.com/news/music/dove-ellis-bb-trickz-liim-zack-fox-and-more-join-line-up-for-tyler-the-creators-two-day-takeover-at-all-points-east-2026-3944460?utm_source=rss&utm_medium=rss&utm_campaign=dove-ellis-bb-trickz-liim-zack-fox-and-more-join-line-up-for-tyler-the-creators-two-day-takeover-at-all-points-east-2026",
+            "published": "2026-05-07T16:46:43.000Z",
+            "summary": "They join Turnstile, Mariah The Scientist, Sexyy Red, and more on the bill The post Dove Ellis, Bb trickz, Liim, Zack Fox and more join line-up for Tyler, The Creator’s two-day takeover at All Points East 2026 appeared first on NME.",
             "score": 10,
             "trending": true
           },
           {
             "source": "Wired",
             "category": "internet",
-            "title": "Best Printers for Any Home-Office Need (2026): Brother, HP, and More",
-            "url": "https://www.wired.com/gallery/best-printers/",
-            "published": "2026-05-07T11:33:00.000Z",
-            "summary": "Need to print labels, stickers, stacks of pages, color photos, or even a textured mug? I tested the best home printers, including ink-tank, cartridge, and laser options.",
+            "title": "Best Last-Minute Mother’s Day Deals on Mom-Approved Gifts (2026)",
+            "url": "https://www.wired.com/story/mothers-day-deals-2026/",
+            "published": "2026-05-07T16:21:58.000Z",
+            "summary": "Give Mom the best and save some cash in the process with these legitimate discounts on WIRED-approved gifts.",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Wired",
-            "category": "internet",
-            "title": "Best Bug Spray (2026), Tested and Reviewed",
-            "url": "https://www.wired.com/story/best-bug-sprays/",
-            "published": "2026-05-07T11:30:00.000Z",
-            "summary": "Our writer tried some of the most popular insect repellents during runs, hikes, and evening walks. These are the ones we recommend.",
+            "source": "Crack Magazine",
+            "category": "music",
+            "title": "Semibreve announces first wave of artists for 2026",
+            "url": "https://crackmagazine.net/2026/05/semibreve-announces-first-wave-artists-2026/?utm_source=rss&utm_medium=rss&utm_campaign=semibreve-announces-first-wave-artists-2026",
+            "published": "2026-05-07T16:08:08.000Z",
+            "summary": "The Portuguese festival returns to Braga from 22–25 October 2026. The post Semibreve announces first wave of artists for 2026 appeared first on Crack Magazine.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "Clutch Announce Fall 2026 US Tour",
+            "url": "https://consequence.net/2026/05/clutch-fall-2026-us-tour/",
+            "published": "2026-05-07T15:44:19.000Z",
+            "summary": "The veteran rock band is also working on its 14th studio album. Clutch Announce Fall 2026 US Tour Langdon Hickman",
             "score": 10,
             "trending": true
           }
@@ -123,22 +121,18 @@
           "world",
           "timoth"
         ],
-        "sourceCount": 7,
+        "sourceCount": 5,
         "sources": [
           "404 Media",
           "Adweek",
-          "Business of Fashion",
           "Creative Review",
           "Design Boom",
-          "NME",
-          "Variety"
+          "NME"
         ],
         "categories": [
-          "fashion",
           "art",
           "internet",
           "music",
-          "film",
           "marketing"
         ],
         "trending": true,
@@ -151,16 +145,6 @@
             "url": "https://www.nme.com/news/gaming-news/angry-birds-silent-hill-fifa-world-video-game-hall-of-fame-3944425?utm_source=rss&utm_medium=rss&utm_campaign=angry-birds-silent-hill-fifa-world-video-game-hall-of-fame",
             "published": "2026-05-07T14:30:54.000Z",
             "summary": "The Strong Museum celebrates titles that have “significantly influenced popular culture and the video game industry The post ‘Angry Birds’, ‘Silent Hill’ and ‘FIFA’ added to World Video Game Hall Of Fame appeared first on NME.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "‘Angry Birds’ Inducted Into World Video Game Hall of Fame",
-            "url": "https://variety.com/2026/gaming/news/angry-birds-world-video-game-hall-of-fame-1236739560/",
-            "published": "2026-05-07T14:30:00.000Z",
-            "summary": "“Angry Birds” has been inducted into the World Video Game Hall of Fame, located in Rochester, New York at The Strong National Museum of Play. Originally created by Rovio Entertainment Ltd., the uber popular video game has defined the new era of mobile gaming; since its launch in…",
             "score": 10,
             "trending": true
           },
@@ -181,17 +165,8 @@
             "url": "https://www.creativereview.co.uk/adidas-backyard-legends-film-timothee-chalamet-jude-bellingham-bad-bunny/",
             "published": "2026-05-07T10:36:19.000Z",
             "summary": "They line up alongside Lionel Messi, Jude Bellingham and Bad Bunny for a nostalgic, cinematic short that celebrates grassroots football culture",
-            "score": 10,
+            "score": 9,
             "trending": true
-          },
-          {
-            "source": "Business of Fashion",
-            "category": "fashion",
-            "title": "Eli Lilly’s Mounjaro Becomes World’s Top-Selling Drug",
-            "url": "https://www.businessoffashion.com/news/beauty/mounjaro-worlds-top-selling-drug-eli-lilly-glp-1/",
-            "published": "2026-05-07T11:41:25.000Z",
-            "summary": "The GLP-1 medication has surpassed Merck & Co.’s cancer therapy Keytruda as the world’s best-selling medication.",
-            "score": 9
           },
           {
             "source": "Adweek",
@@ -210,28 +185,26 @@
             "url": "https://www.designboom.com/art/aki-inomata-shells-insects-living-collaborators-soft-world-making/",
             "published": "2026-05-06T19:30:07.000Z",
             "summary": "the japanese artist explores coexistence through hermit crabs, oysters, insects, and shared shelters shaped by interspecies collaboration. The post how aki inomata turns shells and insects into living collaborators for soft world-making appeared first on designboom |…",
-            "score": 9,
+            "score": 8,
             "trending": true
           }
         ]
       },
       {
-        "label": "Star · Nintendo",
+        "label": "David · Larry",
         "keywords": [
-          "star",
-          "nintendo"
+          "david",
+          "larry"
         ],
         "sourceCount": 4,
         "sources": [
+          "Consequence",
           "Deadline",
-          "Kotaku",
-          "NME",
-          "The Verge"
+          "The Hollywood Reporter",
+          "Variety"
         ],
         "categories": [
-          "internet",
           "music",
-          "gaming",
           "film"
         ],
         "trending": true,
@@ -240,41 +213,197 @@
           {
             "source": "Deadline",
             "category": "film",
-            "title": "Allison Williams & Michelle Randolph To Star In Sci-Fi Survival Thriller ‘Homewrecker’ For ‘Under Paris’ Director Xavier Gens — Cannes Market",
-            "url": "https://deadline.com/2026/05/allison-williams-michelle-randolph-homewrecker-xavier-gens-1236885466/",
-            "published": "2026-05-07T15:12:21.000Z",
-            "summary": "EXCLUSIVE: Here’s a nice genre package. Allison Williams (M3gan) and Michelle Randolph (Scream 7) are set to star in sci-fi survival thriller Homewrecker from leading French genre filmmaker Xavier Gens, known for directing Netflix’s hit shark movie Under Paris and on series…",
+            "title": "Larry David & Barack Obama’s ‘Life, Larry & The Pursuit Of Unhappiness’ Unveils First-Look Photos & Teaser",
+            "url": "https://deadline.com/2026/05/larry-david-barack-obama-hbo-series-photo-teaser-1236886171/",
+            "published": "2026-05-07T17:28:53.000Z",
+            "summary": "“I have sat across the table from some of the world’s most intractable leaders and wrestled with some of the globe’s most intractable problems. Nothing has prepared me for working with Larry David.” Those words from Barack Obama at the beginning of a new teaser for Life, Larry…",
             "score": 10,
             "trending": true
           },
           {
-            "source": "NME",
+            "source": "Variety",
+            "category": "film",
+            "title": "Marisa Tomei, Kelly Macdonald and David Harewood Set for Second Season of HBO, Sky Legal Drama ‘War’",
+            "url": "https://variety.com/2026/tv/global/marisa-tomei-kelly-macdonald-david-harewood-season-2-war-1236740698/",
+            "published": "2026-05-07T16:56:43.000Z",
+            "summary": "Marisa Tomei, Kelly Macdonald and David Harewood are set to star in the second season of upcoming HBO/Sky legal drama “War.” Season 1, which features Dominic West and Sienna Miller as a high net worth divorcing couple, wrapped in February and is set to launch later this year.…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "Marisa Tomei, Kelly Macdonald, David Harewood Board Season 2 of Sky and HBO Legal Drama ‘War’",
+            "url": "https://www.hollywoodreporter.com/tv/tv-news/marisa-tomei-kelly-macdonald-david-harewood-war-season-2-1236589097/",
+            "published": "2026-05-07T16:45:00.000Z",
+            "summary": "Ahead of the season one launch, coming later this year with Dominic West and Sienna Miller, Sky has already confirmed the star-studded casting for the legal drama's second installment.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Marisa Tomei, Kelly Macdonald & David Harewood Cast In Season 2 Of HBO & Sky Legal Drama ‘War’",
+            "url": "https://deadline.com/2026/05/war-hbo-sky-drama-season-2-marisa-tomei-kelly-macdonald-1236885996/",
+            "published": "2026-05-07T16:45:00.000Z",
+            "summary": "HBO and Sky’s legal drama War has already cast its second season. George Kay’s show, which was given a two-season order from the off, has brought in Marisa Tomei (Spider-Man: Far From Home), Kelly Macdonald (Lanterns) and David Harewood (Sherwood) to lead the next case in the…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
             "category": "music",
-            "title": "Hayden Panettiere, ‘Heroes’ and ‘Scream 4’ star, comes out as bisexual",
-            "url": "https://www.nme.com/news/film/hayden-panettiere-heroes-and-scream-4-star-comes-out-as-bisexual-3944400?utm_source=rss&utm_medium=rss&utm_campaign=hayden-panettiere-heroes-and-scream-4-star-comes-out-as-bisexual",
-            "published": "2026-05-07T12:04:33.000Z",
-            "summary": "The star said feeling \"forced to be perfect all the time\" prevented her from being open The post Hayden Panettiere, ‘Heroes’ and ‘Scream 4’ star, comes out as bisexual appeared first on NME.",
+            "title": "Larry David Tries to Make Barack Obama His Emergency Contact in Teaser for New HBO Show",
+            "url": "https://consequence.net/2026/05/larry-david-barack-obama-hbo-show-teaser/",
+            "published": "2026-05-07T16:31:53.000Z",
+            "summary": "The sketch comedy series Life, Larry, and the Pursuit of Unhappiness is set to premiere this June. Larry David Tries to Make Barack Obama His Emergency Contact in Teaser for New HBO Show Liz Shannon Miller",
             "score": 10,
             "trending": true
           },
           {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Nintendo announces a new Star Fox for the Switch 2",
-            "url": "https://www.theverge.com/entertainment/925601/star-fox-nintendo-switch-2",
-            "published": "2026-05-06T22:07:46.000Z",
-            "summary": "It turns out Fox McCloud's appearance in the Super Mario Galaxy Movie was a tease of things to come: Nintendo just surprise announced the first new Star Fox game in a decade. The game is called, simply, Star Fox, and it's out very soon, launching on June 25th. Nintendo says that…",
+            "source": "Variety",
+            "category": "film",
+            "title": "Barack Obama Roasts Larry David in Teaser for HBO’s ‘Life, Larry, and the Pursuit of Unhappiness’",
+            "url": "https://variety.com/2026/tv/news/barack-obama-larry-david-hbo-life-larry-pursuit-unhappiness-1236740647/",
+            "published": "2026-05-07T16:21:56.000Z",
+            "summary": "Being President of the United States could not prepare Barack Obama for Larry David. In a new teaser for the HBO sketch series “Life, Larry, and the Pursuit of Unhappiness,” Obama states “I have sat across the table from some of the world’s most difficult leaders and wrestled…",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Company · Creative",
+        "keywords": [
+          "company",
+          "creative"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "Creative Review",
+          "Fast Company",
+          "Quartz",
+          "Variety"
+        ],
+        "categories": [
+          "art",
+          "film",
+          "trends"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Fast Company",
+            "category": "trends",
+            "title": "Why “AI-Powered” thinking will leave your company behind",
+            "url": "https://www.fastcompany.com/91538585/why-ai-powered-thinking-will-leave-your-company-behind",
+            "published": "2026-05-07T16:41:30.000Z",
+            "summary": "Every day, I see another LinkedIn post celebrating a company that’s AI-powered. Meaning, they have added AI systems to their workflow, built co-work agents, and are using the technology to assist their team. And every day, I find myself thinking that they’ve missed the point…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Variety",
+            "category": "film",
+            "title": "‘Jury Duty: Company Retreat’ Creatives on Building the Right Ensemble and Why Anthony’s Compassion Was the Perfect Fit",
+            "url": "https://variety.com/2026/tv/news/jury-duty-company-retreat-casting-anthony-norman-1236739539/",
+            "published": "2026-05-07T16:22:26.000Z",
+            "summary": "“Jury Duty” successfully pulled off its Season 1 conceit, where all but one person are hired actors. (Who can forget Ron Gladden?) But Season 2 provided new challenges for the show’s producers. This time around, the show moves away from the courtroom, trying its luck with a…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Quartz",
+            "category": "trends",
+            "title": "Shell profits surge on rising oil prices. But the company slashes its stock buyback",
+            "url": "https://qz.com/shell-earnings-iran-war-oil-prices-trading-profit-050726",
+            "published": "2026-05-07T13:50:40.000Z",
+            "summary": "The gains were driven in part by oil traders capitalizing on volatile markets. Crude prices have surged roughly 40% since the Iran war begin",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Creative Review",
+            "category": "art",
+            "title": "Most Creative Production Company: Business Club",
+            "url": "https://www.creativereview.co.uk/most-creative-production-company-business-club/",
+            "published": "2026-05-07T08:18:42.000Z",
+            "summary": "With a small, tight-knit team and a taste for the unconventional, Business Club is redefining what great commercial filmmaking can be",
+            "score": 9,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "John · Father",
+        "keywords": [
+          "john",
+          "father"
+        ],
+        "sourceCount": 4,
+        "sources": [
+          "Consequence",
+          "Dazed",
+          "Pitchfork News",
+          "Quartz"
+        ],
+        "categories": [
+          "music",
+          "culture",
+          "trends"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Quartz",
+            "category": "trends",
+            "title": "HawkEye 360 CEO John Serafini delivers exclusive remarks before NYSE listing",
+            "url": "https://qz.com/hawkeye-360-ceo-serafini-nyse-listing-remarks",
+            "published": "2026-05-07T17:10:09.000Z",
+            "summary": "HawkEye 360 CEO John Serafini delivers exclusive remarks before NYSE listing",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Consequence",
+            "category": "music",
+            "title": "Father John Misty Releases Psychedelic New Song “The Payoff”: Stream",
+            "url": "https://consequence.net/2026/05/father-john-misty-new-song-the-payoff/",
+            "published": "2026-05-07T14:45:45.000Z",
+            "summary": "His second single of 2026 comes ahead of spring and summer festival and tour dates. Father John Misty Releases Psychedelic New Song “The Payoff”: Stream Eddie Fu",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Quartz",
+            "category": "trends",
+            "title": "HawkEye 360 CEO John Serafini reveals what's next following NYSE IPO",
+            "url": "https://qz.com/hawkeye-360-ceo-serafini-next-steps-nyse-ipo",
+            "published": "2026-05-07T17:00:08.000Z",
+            "summary": "HawkEye 360 CEO John Serafini reveals what's next following NYSE IPO",
             "score": 9,
             "trending": true
           },
           {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "The Internet Reacts To Star Fox‘s New Look",
-            "url": "https://kotaku.com/the-internet-reacts-to-star-foxs-new-look-2000693733",
-            "published": "2026-05-06T23:05:54.000Z",
-            "summary": "It's life, Jim, but not as we know it",
-            "score": 8,
+            "source": "Dazed",
+            "category": "culture",
+            "title": "John Waters would love this film about a horny, haunted hoover",
+            "url": "https://www.dazeddigital.com/film-tv/article/70217/1/a-useful-ghost-ratchapoom-boonbunchachoke-director-interview-film-2026?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=john-waters-would-love-this-film-about-a-horny-haunted-hoover",
+            "published": "2026-05-07T09:43:00.000Z",
+            "summary": "20 minutes into its running time, A Useful Ghost gets its American Pie moment: a mother walks in on her son being sucked off by a hoover that’s possessed by a horny, forlorn spirit called Nat. Yet for all its slapstick and bawdiness, A Useful Ghost, the debut feature from the…",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "Pitchfork News",
+            "category": "music",
+            "title": "Listen to Father John Misty’s New Song “The Payoff”",
+            "url": "https://pitchfork.com/news/listen-to-father-john-mistys-new-song-the-payoff/",
+            "published": "2026-05-07T04:07:45.000Z",
+            "summary": "He co-produced it with frequent collaborator Drew Erickson",
+            "score": 9,
             "trending": true
           }
         ]
@@ -287,10 +416,10 @@
         ],
         "sourceCount": 4,
         "sources": [
+          "Billboard",
           "Consequence",
           "IndieWire",
-          "Pitchfork News",
-          "Variety"
+          "Pitchfork News"
         ],
         "categories": [
           "music",
@@ -300,22 +429,12 @@
         "fresh": true,
         "items": [
           {
-            "source": "Variety",
-            "category": "film",
-            "title": "BBC’s Katty Kay and Anthony Scaramucci Are Taking Their ‘The Rest Is Politics: US’ Podcast on Seven-City Tour",
-            "url": "https://variety.com/2026/digital/news/katty-kay-anthony-scaramucci-tour-dates-the-rest-is-politics-podcast-1236740487/",
-            "published": "2026-05-07T14:54:12.000Z",
-            "summary": "Anthony Scaramucci, who had an extremely short-lived tenure as White House director of communications during Trump’s first time in office, and Katty Kay, BBC U.S. special correspondent, are hitting the road for the first North American tour of their “The Rest Is Politics: US”…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "IndieWire",
-            "category": "film",
-            "title": "‘Billie Eilish – Hit Me Hard and Soft: The Tour’ Review: James Cameron Captures the Singer in 3D, and in All Her Doomy Grandeur",
-            "url": "https://www.indiewire.com/criticism/movies/billie-eilish-hit-me-hard-and-soft-the-tour-movie-review-1235192691/",
-            "published": "2026-05-07T13:00:00.000Z",
-            "summary": "The stadium-sized catharsis of Eilish's best bridges hit harder with 17 3D cameras.",
+            "source": "Billboard",
+            "category": "music",
+            "title": "Cazzu’s Latinaje Tour Lights Up NYC With Drama, Trap & Tango: 5 Best Moments From Her First-Ever U.S. Trek",
+            "url": "https://www.billboard.com/lists/cazzu-united-states-tour-2026-latinaje-new-york-review/",
+            "published": "2026-05-07T17:04:20.000Z",
+            "summary": "The Argentine singer/rapper performed at the Infosys Theater at Madison Square Garden on Wednesday night (May 6).",
             "score": 10,
             "trending": true
           },
@@ -326,6 +445,16 @@
             "url": "https://consequence.net/2026/05/olivia-rodrigo-los-angeles-intuit-dome-how-to-get-tickets/",
             "published": "2026-05-07T14:01:26.000Z",
             "summary": "Rodrigo is bringing her \"Unraveled Tour\" to Los Angeles for nine nights in January 2027. Learn how to get tickets here. Olivia Rodrigo at Intuit Dome: How to Get Tickets for “The Unraveled Tour” in Los Angeles Consequence Staff",
+            "score": 9,
+            "trending": true
+          },
+          {
+            "source": "IndieWire",
+            "category": "film",
+            "title": "‘Billie Eilish – Hit Me Hard and Soft: The Tour’ Review: James Cameron Captures the Singer in 3D, and in All Her Doomy Grandeur",
+            "url": "https://www.indiewire.com/criticism/movies/billie-eilish-hit-me-hard-and-soft-the-tour-movie-review-1235192691/",
+            "published": "2026-05-07T13:00:00.000Z",
+            "summary": "The stadium-sized catharsis of Eilish's best bridges hit harder with 17 3D cameras.",
             "score": 9,
             "trending": true
           },
@@ -342,248 +471,80 @@
         ]
       },
       {
-        "label": "House · White",
+        "label": "Film · Festival",
         "keywords": [
-          "house",
-          "white"
+          "film",
+          "festival"
         ],
-        "sourceCount": 4,
+        "sourceCount": 3,
         "sources": [
+          "AnOther Magazine",
           "Deadline",
-          "Dezeen",
-          "The Verge",
-          "Yanko Design"
+          "The Hollywood Reporter"
         ],
         "categories": [
-          "art",
-          "internet",
-          "film"
+          "film",
+          "culture"
         ],
         "trending": true,
         "fresh": true,
         "items": [
           {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Isabel Strauss wins competition for public bathroom at Gropius House",
-            "url": "https://www.dezeen.com/2026/05/07/isabel-strauss-competition-restroom-gropius-house-massachusetts/",
-            "published": "2026-05-07T14:00:30.000Z",
-            "summary": "Architectural designer Isabel Strauss has designed a public bathroom for the grounds of German-American architect Walter Gropius's self-designed home in Massachusetts, USA, chosen from hundreds of submissions. Strauss designed the winning submission for the contest initiated by…",
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "‘The Housemaid’ Author Freida McFadden’s Next Book ‘The Divorce’ Set for Film From Studiocanal",
+            "url": "https://www.hollywoodreporter.com/movies/movie-news/the-housemaid-freida-mcfadden-the-divorce-studiocanal-1236589219/",
+            "published": "2026-05-07T17:20:24.000Z",
+            "summary": "The thriller novel is due for release later this month from Poisoned Pen Press.",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
+            "category": "film",
+            "title": "Paramount Signs First-Look Deal With Warner Music For Film Content",
+            "url": "https://www.hollywoodreporter.com/music/film-tv-music-news/paramount-announces-first-look-deal-with-warner-music-group-1236589190/",
+            "published": "2026-05-07T17:07:10.000Z",
+            "summary": "WMG's deal with Paramount comes two months after revealing a first-look with Netflix for documentary content.",
             "score": 10,
             "trending": true
           },
           {
             "source": "Deadline",
             "category": "film",
-            "title": "Garrett Haake Named NBC News Chief White House Correspondent",
-            "url": "https://deadline.com/2026/05/garrett-haake-nbc-news-chief-white-house-correspondent-1236884458/",
-            "published": "2026-05-07T13:45:00.000Z",
-            "summary": "Garrett Haake has been named NBC News’ chief White House correspondent, filling a key role for coverage of the Donald Trump administration. He will succeed Peter Alexander, who recently left the network to serve as anchor for MS NOW. In a memo to staffers, Chloe Arensberg, NBC…",
+            "title": "‘Catane,’ ‘Fantasy,’ ‘9-Month Contract’ Among Top Winners At South East European Film Festival (SEEfest)",
+            "url": "https://deadline.com/2026/05/seefest-2026-awards-1236886140/",
+            "published": "2026-05-07T17:01:45.000Z",
+            "summary": "Catane, the narrative directorial debut of Romanian filmmaker Ioana Mischie, claimed the Grand Jury Prize for Best Feature Film at SEEfest, the South East European Film Festival in Los Angeles. Mischie’s comedy takes place in a remote, mountainous village in Romania where every…",
             "score": 10,
             "trending": true
           },
           {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "How David Sacks crashed and burned in the White House",
-            "url": "https://www.theverge.com/column/925487/david-sacks-trump-administration-ai-model-review",
-            "published": "2026-05-06T20:18:00.000Z",
-            "summary": "AI and Crypto Czar David O. Sacks speaks during a meeting of the White House Task Force on Artificial Intelligence Education at the White House. | Matt McClain/The Washington Post via Getty Images Hello and welcome to Regulator, a newsletter exclusively for Verge subscribers…",
-            "score": 9,
-            "trending": true
-          },
-          {
-            "source": "Yanko Design",
-            "category": "art",
-            "title": "This Is the Tiny House the Short-Term Rental Market Has Been Waiting For",
-            "url": "https://www.yankodesign.com/2026/05/06/this-is-the-tiny-house-the-short-term-rental-market-has-been-waiting-for/?utm_source=rss&utm_medium=rss&utm_campaign=this-is-the-tiny-house-the-short-term-rental-market-has-been-waiting-for",
-            "published": "2026-05-07T00:30:07.000Z",
-            "summary": "This Is the Tiny House the Short-Term Rental Market Has Been Waiting For I truly love a well-designed tiny home — one that doesn’t just compress living into a smaller footprint but genuinely rethinks how space can work...",
-            "score": 8,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Apple · 8217",
-        "keywords": [
-          "apple",
-          "8217"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Kotaku",
-          "Quartz",
-          "The Verge"
-        ],
-        "categories": [
-          "internet",
-          "gaming",
-          "trends"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Quartz",
-            "category": "trends",
-            "title": "Apple is settling a $250 million lawsuit over false advertising of its AI features",
-            "url": "https://qz.com/apple-siri-ai-false-advertising-lawsuit-settlement-050626",
-            "published": "2026-05-07T15:21:28.000Z",
-            "summary": "U.S. buyers of the iPhone 15 Pro and iPhone 16 could receive up to $95 per device if a judge approves the deal",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Apple&#8217;s $599 MacBook Neo could be at risk from rising RAM prices",
-            "url": "https://www.theverge.com/gadgets/925997/apple-macbook-neo-price-increase-ram",
-            "published": "2026-05-07T15:05:37.000Z",
-            "summary": "The MacBook Neo might lose its most appealing trait thanks to the ongoing RAM shortage. According to analyst Tim Culpan, Apple could discontinue the budget-priced $599 base configuration of the Neo, leaving only the $699 model with 512GB of storage. Earlier this week, Apple…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Kotaku",
-            "category": "gaming",
-            "title": "Apple Suffers A Major Loss As U.S. Supreme Court Sides With Epic Over iOS Fees",
-            "url": "https://kotaku.com/epic-games-apple-lawsuit-supreme-court-refuses-appeal-2000693934",
-            "published": "2026-05-07T12:12:41.000Z",
-            "summary": "The top court in the land somehow got involved in this years-long nonsense",
+            "source": "AnOther Magazine",
+            "category": "culture",
+            "title": "10 Films to See at This Year’s Cannes Film Festival",
+            "url": "https://www.anothermag.com/design-living/17164/best-films-to-watch-at-cannes-film-festival-2026?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=10-films-to-see-at-this-year-s-cannes-film-festival",
+            "published": "2026-05-07T16:41:00.000Z",
+            "summary": "This year Tom Cruise will not be taking to the skies over Cannes Film Festival. There’ll be no octogenarian men cracking their whips as hapless Nazis fall about the place screeching. But look beyond the headlines on a dismaying lack of the old Hollywood razzle-dazzle on this…",
             "score": 10,
             "trending": true
           }
         ]
       },
       {
-        "label": "Revealed · Bear",
+        "label": "Little · Yard",
         "keywords": [
-          "revealed",
-          "bear"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "Deadline",
-          "NME",
-          "Variety"
-        ],
-        "categories": [
-          "music",
-          "film"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Variety",
-            "category": "film",
-            "title": "PBS Teams With Indie Film Producer ITVS for Independent Lens Creator Lab, Inaugural Lineup Revealed (EXCLUSIVE)",
-            "url": "https://variety.com/2026/digital/news/pbs-itvs-independent-lens-creator-lab-1236740480/",
-            "published": "2026-05-07T15:00:00.000Z",
-            "summary": "Indie film co-producer ITVS and PBS’s “Independent Lens” has revealed the lineup of content creators selected for their inaugural production fund and accelerator program, The Independent Lens Creator Lab. Per PBS and ITVS, the new initiative is a six-month program offering up to…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Deadline",
-            "category": "film",
-            "title": "It Doesn’t Really End With This: Blake Lively & Justin Baldoni Settlement Details Revealed; “Resounding Victory” For Actress, Lawyers Say With More Court Action Looming",
-            "url": "https://deadline.com/2026/05/blake-lively-settlement-details-justin-baldoni-1236883676/",
-            "published": "2026-05-07T13:45:00.000Z",
-            "summary": "Doubtful at this point that anyone not living in either the Blake Lively or Justin Baldoni households will ever really know what went down between the It Ends With Us stars during and after the strained production of the Sony distributed flick. Yet, after days of supposed leaks…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "NME",
-            "category": "music",
-            "title": "‘The Bear’ final season premiere date revealed",
-            "url": "https://www.nme.com/news/tv/the-bear-final-season-premiere-date-revealed-3944419?utm_source=rss&utm_medium=rss&utm_campaign=the-bear-final-season-premiere-date-revealed",
-            "published": "2026-05-07T13:41:34.000Z",
-            "summary": "The announcement comes the day after the surprise drop of 'Gary', a special flashback episode starring Ebon Moss-Bachrach and Jon Bernthal The post ‘The Bear’ final season premiere date revealed appeared first on NME.",
-            "score": 10,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Google · Health",
-        "keywords": [
-          "google",
-          "health"
-        ],
-        "sourceCount": 3,
-        "sources": [
-          "The Verge",
-          "Wired",
-          "Yanko Design"
-        ],
-        "categories": [
-          "art",
-          "internet"
-        ],
-        "trending": true,
-        "fresh": true,
-        "items": [
-          {
-            "source": "Yanko Design",
-            "category": "art",
-            "title": "Google’s $99 Gemini Speaker Is About to Land",
-            "url": "https://www.yankodesign.com/2026/05/07/googles-99-gemini-speaker-is-about-to-land/?utm_source=rss&utm_medium=rss&utm_campaign=googles-99-gemini-speaker-is-about-to-land",
-            "published": "2026-05-07T14:20:15.000Z",
-            "summary": "Google’s $99 Gemini Speaker Is About to Land The smart speaker category has been quietly stagnating. Go ahead and look around your house. Chances are there’s a Nest Audio or an Amazon Echo...",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Google’s taking a big swing at AI health with the Fitbit Air",
-            "url": "https://www.theverge.com/gadgets/925458/google-health-fitbit-air-ai-coaching-wearables-fitness-trackers",
-            "published": "2026-05-07T14:00:00.000Z",
-            "summary": "It's a Whoop dupe. That was my first thought when I saw the new $99 Google Fitbit Air. You can hardly blame me. The band is screenless with a metallic fabric clasp. My eyes flickered between the Fitbit Air and my wrist, where I'm wearing a Whoop MG. Was I not seeing double? But…",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Wired",
-            "category": "internet",
-            "title": "Google Is Rebranding the Fitbit App to ‘Google Health’",
-            "url": "https://www.wired.com/story/google-is-rebranding-the-fitbit-app-to-google-health/",
-            "published": "2026-05-07T14:00:00.000Z",
-            "summary": "Google is sunsetting Google Fit by year’s end. While Fitbit remains very much alive, the rebranded Google Health app is your one-stop shop for all things health and fitness.",
-            "score": 10,
-            "trending": true
-          },
-          {
-            "source": "The Verge",
-            "category": "internet",
-            "title": "Google shuts down Project Mariner",
-            "url": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down",
-            "published": "2026-05-06T21:21:45.000Z",
-            "summary": "Google has pulled the plug on Project Mariner, an experimental feature designed to perform tasks for you across the web, as reported earlier by Wired's Maxwell Zeff. The Project Mariner landing page now contains a message that says: \"Thank you for using Project Mariner. It was…",
-            "score": 9,
-            "trending": true
-          }
-        ]
-      },
-      {
-        "label": "Show · Young",
-        "keywords": [
-          "show",
-          "young"
+          "little",
+          "yard"
         ],
         "sourceCount": 3,
         "sources": [
           "Billboard",
-          "Dezeen",
-          "Variety"
+          "Consequence",
+          "Pitchfork News"
         ],
         "categories": [
-          "art",
-          "music",
-          "film"
+          "music"
         ],
         "trending": true,
         "fresh": true,
@@ -591,49 +552,101 @@
           {
             "source": "Billboard",
             "category": "music",
-            "title": "Watch Chris Stapleton Perform This Willie Nelson Pro-Immigrant Hit on ‘The Late Show’",
-            "url": "https://www.billboard.com/music/country/chris-stapleton-willie-nelson-living-in-the-promiseland-1236241355/",
-            "published": "2026-05-07T15:02:56.000Z",
-            "summary": "\"Living In The Promiseland\" reached the top of Billboard's Hot Country Songs chart in 1986.",
+            "title": "Harry Styles Demonstrates the Power of Dancing & His Little Red Shorts in Playful ‘Dance No More’ Music Video",
+            "url": "https://www.billboard.com/music/music-news/harry-styles-dance-no-more-video-red-shorts-1236241509/",
+            "published": "2026-05-07T16:36:10.000Z",
+            "summary": "The man loves a tiny inseam — and so do the people.",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Variety",
-            "category": "film",
-            "title": "‘We Were Liars’ Season 2 Casts Young Versions of the Sinclairs as Show Travels Back to Summer of 1999",
-            "url": "https://variety.com/2026/tv/news/we-were-liars-season-2-cast-young-sinclairs-1236740490/",
-            "published": "2026-05-07T15:00:00.000Z",
-            "summary": "“We Were Liars” Season 2 has added six new cast members, with the second season set to take place in the summer of 1999 at Beechwood Island. Josh Dallas (“Manifest,” “Once Upon a Time”) will play young Harris Sinclair, with Costa D’Angelo (“Tell Me Lies,” upcoming “East of…",
+            "source": "Consequence",
+            "category": "music",
+            "title": "Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream",
+            "url": "https://consequence.net/2026/05/yard-act-youre-gonna-need-a-little-music-new-album-redeemer-new-song-stream/",
+            "published": "2026-05-07T15:48:12.000Z",
+            "summary": "The post-punk quartet will unveil their third album on July 17th. Yard Act Announce New Album You’re Gonna Need a Little Music, Share New Song “Redeemer”: Stream Paolo Ragusa",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Dezeen",
-            "category": "art",
-            "title": "Young designers show paper glasses and aluminium-foam lightbulbs in Milan",
-            "url": "https://www.dezeen.com/2026/05/07/designers-paper-glasses-aluminium-lightbulbs-shared-matter/",
-            "published": "2026-05-07T08:00:06.000Z",
-            "summary": "Emerging designers explored sustainability and everyday designs for the Shared Matter exhibition at Milan design week, which had a focus on international collaboration. On show inside the pastel-blue gallery of Spaziovento in Milan's central Brera district, Shared Matter opened…",
-            "score": 9,
+            "source": "Pitchfork News",
+            "category": "music",
+            "title": "Yard Act Ready New Album You’re Gonna Need a Little Music",
+            "url": "https://pitchfork.com/news/yard-act-ready-new-album-youre-gonna-need-a-little-music/",
+            "published": "2026-05-07T13:11:03.000Z",
+            "summary": "The “Redeemer” video leads the Leeds band’s Justin Meldal-Johnsen-produced album",
+            "score": 10,
             "trending": true
           }
         ]
       },
       {
-        "label": "Club · Creative",
+        "label": "Deal · Happening",
         "keywords": [
-          "club",
-          "creative"
+          "deal",
+          "happening"
         ],
         "sourceCount": 3,
         "sources": [
-          "Creative Review",
           "Deadline",
-          "NME"
+          "Fast Company",
+          "The Verge"
         ],
         "categories": [
-          "art",
+          "internet",
+          "film",
+          "trends"
+        ],
+        "trending": true,
+        "fresh": true,
+        "items": [
+          {
+            "source": "Deadline",
+            "category": "film",
+            "title": "Paramount Pictures & Warner Music Group Ink Multi-Year First-Look Deal For Theatrical Pics Based On Performing Artists",
+            "url": "https://deadline.com/2026/05/paramount-warner-music-group-movies-deal-1236886107/",
+            "published": "2026-05-07T17:00:00.000Z",
+            "summary": "Paramount Pictures and Warner Music Group have closed a multi-year, first-look deal that will see both companies partnering on theatrical films, drawing on the lives and music of WMG’s roster of artists and songwriters. Warner Music Group catalog is rich including such…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Verge",
+            "category": "internet",
+            "title": "There’s actually a good deal happening now on the Xbox Series X",
+            "url": "https://www.theverge.com/gadgets/925429/xbox-series-forza-horizon-6-controller-magsafe-airtags-deal-sale",
+            "published": "2026-05-07T15:35:17.000Z",
+            "summary": "It’s been tough to recommend the Xbox Series X recently, especially at the $649 price it has sold at since last October. But if you’re thinking about getting one, at least consider the Forza Horizon 6-themed console bundle you can get at Best Buy that’s just $10 more than the…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "Fast Company",
+            "category": "trends",
+            "title": "Trump pressures Iran to end the war: ‘bombing starts’ if no deal is made",
+            "url": "https://www.fastcompany.com/91538374/trump-pressures-iran-end-war-bombing-starts-no-deal-made",
+            "published": "2026-05-07T14:27:11.000Z",
+            "summary": "Iran said it was reviewing the latest American proposals on ending the war, as U.S. President Donald Trump threatened the country with a new wave of bombing unless a deal is reached that includes reopening the crucial Strait of Hormuz to international shipping. Hope that the…",
+            "score": 10,
+            "trending": true
+          }
+        ]
+      },
+      {
+        "label": "Live · Updates",
+        "keywords": [
+          "live",
+          "updates"
+        ],
+        "sourceCount": 3,
+        "sources": [
+          "Consequence",
+          "The Hollywood Reporter",
+          "The Verge"
+        ],
+        "categories": [
+          "internet",
           "music",
           "film"
         ],
@@ -641,33 +654,33 @@
         "fresh": true,
         "items": [
           {
-            "source": "NME",
+            "source": "Consequence",
             "category": "music",
-            "title": "FLO announce new album ‘Therapy At The Club’ with tender title track",
-            "url": "https://www.nme.com/news/music/flo-announce-new-album-therapy-at-the-club-with-tender-title-track-3944443?utm_source=rss&utm_medium=rss&utm_campaign=flo-announce-new-album-therapy-at-the-club-with-tender-title-track",
-            "published": "2026-05-07T14:52:10.000Z",
-            "summary": "“This album represents where we are right now - honest, evolving, and unafraid to feel everything” The post FLO announce new album ‘Therapy At The Club’ with tender title track appeared first on NME.",
+            "title": "Avett Brothers and Mike Patton Perform “Disappearing” on Jimmy Kimmel Live: Watch",
+            "url": "https://consequence.net/2026/05/avett-brothers-mike-patton-disappearing-jimmy-kimmel-live/",
+            "published": "2026-05-07T16:50:47.000Z",
+            "summary": "Their collaborative outfit AVTT/PTTN is in the midst of a North American tour. Avett Brothers and Mike Patton Perform “Disappearing” on Jimmy Kimmel Live: Watch Langdon Hickman",
             "score": 10,
             "trending": true
           },
           {
-            "source": "Deadline",
+            "source": "The Verge",
+            "category": "internet",
+            "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+            "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+            "published": "2026-05-07T16:21:38.000Z",
+            "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus…",
+            "score": 10,
+            "trending": true
+          },
+          {
+            "source": "The Hollywood Reporter",
             "category": "film",
-            "title": "Germany’s Flimmer Adapting Cambridge University Secret Society Bestseller ‘The Club’",
-            "url": "https://deadline.com/2026/05/cambridge-university-the-club-adaptation-germany-flimmer-1236885484/",
-            "published": "2026-05-07T14:35:09.000Z",
-            "summary": "EXCLUSIVE: Berlin-based production company Flimmer has secured the screen rights to German writer Takis Würger’s bestseller The Club, delving into the secretive and sometimes toxic world of members clubs at Cambridge University. The company is currently in the throws of…",
+            "title": "IATSE Pickets Live-Action ‘CoComelon’ Series, ‘The Melon Patch’",
+            "url": "https://www.hollywoodreporter.com/business/business-news/iatse-pickets-cocomelon-spinoff-the-melon-patch-1236588700/",
+            "published": "2026-05-07T16:06:07.000Z",
+            "summary": "The union is attempting to ink a union contract for the second season of the YouTube series, which is geared toward toddlers.",
             "score": 10,
-            "trending": true
-          },
-          {
-            "source": "Creative Review",
-            "category": "art",
-            "title": "Most Creative Production Company: Business Club",
-            "url": "https://www.creativereview.co.uk/most-creative-production-company-business-club/",
-            "published": "2026-05-07T08:18:42.000Z",
-            "summary": "With a small, tight-knit team and a taste for the unconventional, Business Club is redefining what great commercial filmmaking can be",
-            "score": 9,
             "trending": true
           }
         ]
