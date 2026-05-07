@@ -567,11 +567,29 @@ async function main() {
   let daily;
   try {
     daily = await synthesizeDaily(client, rawData);
-    console.log("  ✓ " + daily.categories.length + " categorieën, " +
-      daily.categories.reduce(function (s, c) { return s + c.insights.length; }, 0) + " insights");
+    const nCats     = daily.categories ? daily.categories.length : 0;
+    const nInsights = daily.categories
+      ? daily.categories.reduce(function (s, c) { return s + c.insights.length; }, 0) : 0;
+    console.log("  ✓ " + nCats + " categorieën, " + nInsights + " insights");
+    if (nCats === 0) {
+      // API call slaagde maar leverde niks op — waarschuw en stop
+      throw new Error("Synthesis gaf 0 categorieën terug. Controleer de API-sleutel en modelnaam.");
+    }
   } catch (e) {
-    console.error("  Daily mislukt:", e.message);
-    daily = rawData.daily || { topics: [], intro: "AI synthesis mislukt." };
+    // Schrijf de foutmelding naar latest.json zodat die zichtbaar is in de frontend
+    const errBrief = {
+      date:       todayISO(),
+      synthError: e.message,
+      aiModel:    { daily: HAIKU, weekly: SONNET, monthly: SONNET },
+      daily:      rawData.daily || { topics: [], intro: "AI synthesis mislukt: " + e.message },
+    };
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+    writeJSON(LATEST_PATH, errBrief);
+    console.error("\n✗ DAILY SYNTHESIS MISLUKT");
+    console.error("  Fout:", e.message);
+    console.error("  Status: controleer ANTHROPIC_API_KEY secret en modelnaam (" + HAIKU + ")");
+    console.error("  Foutmelding geschreven naar latest.json (veld: synthError)");
+    process.exit(1);   // laat de GitHub Actions workflow zichtbaar falen
   }
 
   // 2. Cross-categorie mega-trends
