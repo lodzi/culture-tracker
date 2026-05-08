@@ -2,9 +2,9 @@ name: Daily AI synthesis + email
 
 on:
   schedule:
-    # 07:00 UTC = 09:00 Brussel zomertijd (CEST)
-    # Fetch + synthesis + email in één run zodat de mail om ~09:05-09:10 arriveert.
-    - cron: "0 7 * * *"
+    # 06:00 UTC = 08:00 Brussel zomertijd (CEST)
+    # Fetch + synthesis + email in één run zodat de mail om ~08:05-08:10 arriveert.
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 env:
