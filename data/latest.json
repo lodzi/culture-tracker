@@ -6,29 +6,27 @@
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-05-11T09:21:18.211Z",
-    "intro": "4 categorieën · 8 trends · laatste 24u",
+    "generatedAt": "2026-05-11T09:51:08.670Z",
+    "intro": "4 categorieën · 7 trends · laatste 24u",
     "categories": [
       {
         "id": "music",
         "label": "Muziek",
         "insights": [
           {
-            "trend": "Celebrity Image Rights Enforcement Escalates",
-            "summary": "Dua Lipa's $15M lawsuit tegen Samsung over ongeautoriseerd gebruik van haar gezicht op TV-verpakkingen signaleert een nieuwe golf van celebrities die hun beeldrecht juridisch verdedigen. Dit sluit aan bij bredere debatten over AI-gebruik en commercieel eigendom van identiteit.",
-            "why_it_matters": "Dit markeert een shift waar artiesten actief hun identiteit als asset beschermen en bedrijven waarschuwen dat unauthorized commercial exploitation ernstige juridische gevolgen heeft.",
+            "trend": "Artists Assert Digital Rights & Catalog Control",
+            "summary": "Dua Lipa sues Samsung voor $15 miljoen voor ongeautoriseerde gebruik van haar afbeelding; Red Hot Chili Peppers verkopen catalogus aan Warner voor $300 miljoen. Beide cases tonen groeiend bewustzijn van artiesten rond eigenaarschap en exploitatie van hun beeldrechten en muziekale erfgoed.",
+            "why_it_matters": "Dit markeert een cultureel keerpunt waar artiesten actief tegen corporate overreach in beelden en streaming-economie strijden, wat toekomstige contractonderhandelingen en AI-training zal herdefiniëren.",
             "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
+            "daysActive": 2,
+            "isNew": false,
             "sources": [
               "Consequence",
               "Fast Company",
               "Frankwatching",
-              "Hypebeast",
               "Kotaku",
               "NME",
               "Quartz",
-              "VRT NWS",
               "Wikipedia Trending EN",
               "Wikipedia Trending NL",
               "Yanko Design"
@@ -39,78 +37,35 @@
                 "title": "Play-offs Nederlands voetbal 2026",
                 "url": "https://nl.wikipedia.org/wiki/Play-offs_Nederlands_voetbal_2026",
                 "source": "Wikipedia Trending NL",
-                "published": "2026-05-11T09:20:54.098Z"
+                "published": "2026-05-11T09:50:45.084Z"
               },
               {
                 "title": "Eurovisiesongfestival 2026",
                 "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
                 "source": "Wikipedia Trending NL",
-                "published": "2026-05-11T09:20:54.098Z"
+                "published": "2026-05-11T09:50:45.084Z"
               },
               {
                 "title": "Backlash (2026)",
                 "url": "https://en.wikipedia.org/wiki/Backlash_(2026)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-11T09:20:54.048Z"
+                "published": "2026-05-11T09:50:45.028Z"
               },
               {
                 "title": "Michael (2026 film)",
                 "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-11T09:20:54.048Z"
+                "published": "2026-05-11T09:50:45.028Z"
               }
             ]
           },
           {
-            "trend": "Music Biopics Dominate Mainstream Boxoffice",
-            "summary": "'Michael' bereikt $500M+ global boxoffice als slechts tweede music biopic ooit, wat aantoont dat muziekgestuurde narratieven nu mainstream blockbuster-status hebben bereikt. Dit volgt op eerdere trend waarbij video game adaptations legitimiteit kregen.",
-            "why_it_matters": "Music biopics zijn niet langer niche-content maar hoofdpijler van tentpole releases, wat wijst op publieke honger naar authentieke celebrity-narratieven en nostalgie-gedreven entertainment.",
+            "trend": "Music Biopics Solidify Mainstream Entertainment Status",
+            "summary": "'Michael' biopic bereikt $500 miljoen global box office en wordt tweede muziekbiopic ooit met dit succes. Dit onderstreept dat muziekbiopics niet langer niche-content zijn, maar blockbuster-status hebben bereikt.",
+            "why_it_matters": "Music biopics transformeren van specialistische entertainment naar prestige mainstream-cinema, wat aangeeft dat muziekgeschiedenis nu even lucratief is als traditioneel drama voor grote studios.",
             "trajectory": "piekend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Billboard",
-              "Deadline",
-              "Highsnobiety",
-              "Pitchfork News",
-              "Polygon",
-              "Stereogum"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Nike's Ultra Sleek Knitted Dad Sneaker Is an Undetectable Show-Off",
-                "url": "https://www.highsnobiety.com/p/nike-ld-1000-flyknit/",
-                "source": "Highsnobiety",
-                "published": "2026-05-11T09:05:32.000Z"
-              },
-              {
-                "title": "Keli Holiday Says U.S. Entry Was Revoked Mid-Tour, Forcing Cancellation of New York Show",
-                "url": "https://www.billboard.com/music/music-news/keli-holiday-denied-us-reentry-1236244038/",
-                "source": "Billboard",
-                "published": "2026-05-11T08:23:07.000Z"
-              },
-              {
-                "title": "Fabrizio Romano Making Daily World Cup Show For X",
-                "url": "https://deadline.com/2026/05/fabrizio-romano-making-daily-world-cup-soccer-show-x-1236887899/",
-                "source": "Deadline",
-                "published": "2026-05-11T08:00:00.000Z"
-              },
-              {
-                "title": "Akane-banashi shouldn’t work as an anime but it’s still Spring's best overlooked show",
-                "url": "https://www.polygon.com/akane-banashi-turns-a-400-year-old-japanese-storytelling-art-into-a-shonen-battle-of-performance/",
-                "source": "Polygon",
-                "published": "2026-05-10T19:01:20.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Rock Reunion Documentaries as Cultural Event Films",
-            "summary": "Disney en Steven Knight produceren 'Oasis Live '25' als premium rock documentary rondom de band's reunion tour. Dit duidt op een bredere strategie waarbij legendarische rock moments als cinematic events worden geframd.",
-            "why_it_matters": "Rock documentaries transcenderen traditionele concert-footage en worden uitgezonden als culturele mijlpalen die generaties verbinden, wat aansluit bij 2026's nostalgic icon revival-trend.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
+            "daysActive": 2,
+            "isNew": false,
             "sources": [
               "Billboard",
               "Deadline",
@@ -120,6 +75,12 @@
             ],
             "trending": true,
             "articles": [
+              {
+                "title": "‘Amandaland’ Writer Reveals Dream Guest Star After Winning BAFTA: “She’s America’s Amanda”",
+                "url": "https://deadline.com/2026/05/amandaland-writer-reveals-melania-trump-dream-guest-star-1236890168/",
+                "source": "Deadline",
+                "published": "2026-05-11T09:27:16.000Z"
+              },
               {
                 "title": "Despite previous comments, Star Fox's original creator thinks Switch 2 version is \"exactly\" what he \"had in mind\" in the 90s",
                 "url": "https://www.eurogamer.net/star-fox-character-design-takaya-imamura-realistic",
@@ -131,12 +92,6 @@
                 "url": "https://www.billboard.com/music/rb-hip-hop/ken-carson-rolling-loud-orlando-recap-young-thug-playboi-carti-1236244021/",
                 "source": "Billboard",
                 "published": "2026-05-11T08:16:17.000Z"
-              },
-              {
-                "title": "SkyShowtime Renews ‘Where The Sun Always Shines’ As ‘Game Of Thrones’ Star Kristofer Hivju Joins Cast",
-                "url": "https://deadline.com/2026/05/kristofer-hivju-skyshowtime-where-the-sun-always-shines-1236890123/",
-                "source": "Deadline",
-                "published": "2026-05-11T07:43:35.000Z"
               },
               {
                 "title": "Melissa Leo to Star in Sean Byrne’s ‘The Mannequin’ for Studiocanal Genre Label Sixth Dimension",
@@ -153,81 +108,25 @@
         "label": "Fashion",
         "insights": [
           {
-            "trend": "Nike's Artisanal Sneaker Renaissance Deepens",
-            "summary": "Nike releaseert experimentele, beperkde sneaker-edities (denim Air Force 1 als one-of-a-kind, 14-pair blind-box Kobe 4 packs, Mind 002 in pastel tones) die sneakers als collectible art-objects positioneren. Meervoudige bronnen (Creative Review, Hypebeast, Sneaker News) documenteren deze artisanale shift.",
-            "why_it_matters": "Sneaker culture transcendeert sportswear en wordt luxe collectible market, wat aansluit bij Adidas' ascent to luxury tier status en bredere premiumization van streetwear.",
-            "trajectory": "piekend",
-            "daysActive": 2,
+            "trend": "Luxury Sneaker Innovation & Sustainable Material Experimentation",
+            "summary": "Nike experimenterent met denim Air Force 1, knitted dad sneakers en technisch innovatieve Air Max designs; MENACE lanceert adidas moeder-schoenen. Meerdere bronnen documenteren hoe premium sneakerbrands textuur en duurzaamheid centraal plaatsen.",
+            "why_it_matters": "Sneaker-culture evolueert van hype-drops naar experimentele design-statements, wat aangeeft dat sneakers definitief als serious fashion-object (niet alleen sportswear) zijn gecanoniseerd.",
+            "trajectory": "opkomend",
+            "daysActive": 3,
             "isNew": false,
             "sources": [
-              "Consequence",
-              "Fast Company",
-              "Frankwatching",
-              "Hypebeast",
-              "Kotaku",
-              "NME",
-              "Quartz",
-              "VRT NWS",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Yanko Design"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Play-offs Nederlands voetbal 2026",
-                "url": "https://nl.wikipedia.org/wiki/Play-offs_Nederlands_voetbal_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-11T09:20:54.098Z"
-              },
-              {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-11T09:20:54.098Z"
-              },
-              {
-                "title": "Backlash (2026)",
-                "url": "https://en.wikipedia.org/wiki/Backlash_(2026)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-11T09:20:54.048Z"
-              },
-              {
-                "title": "Michael (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-11T09:20:54.048Z"
-              }
-            ]
-          },
-          {
-            "trend": "High-Fashion Sneaker Collaborations Go Exclusive",
-            "summary": "JW Anderson's surprise sneaker collab wordt geframed als langverwachte collectie die in exclusiviteitsmarketing plaatst. Dit signaleert dat luxury designers sneakers niet als diffusion-lines zien maar als signature collaboration-moments.",
-            "why_it_matters": "Sneaker collabs worden nu positioned als rare events met exclusivity-narratief, wat sneakerhead-culture in luxury fashion-cycles integreert.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Billboard",
               "Deadline",
-              "Highsnobiety",
-              "Pitchfork News",
-              "Polygon",
-              "Stereogum"
+              "Dezeen",
+              "Quartz",
+              "Sneaker News"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Nike's Ultra Sleek Knitted Dad Sneaker Is an Undetectable Show-Off",
-                "url": "https://www.highsnobiety.com/p/nike-ld-1000-flyknit/",
-                "source": "Highsnobiety",
-                "published": "2026-05-11T09:05:32.000Z"
-              },
-              {
-                "title": "Keli Holiday Says U.S. Entry Was Revoked Mid-Tour, Forcing Cancellation of New York Show",
-                "url": "https://www.billboard.com/music/music-news/keli-holiday-denied-us-reentry-1236244038/",
-                "source": "Billboard",
-                "published": "2026-05-11T08:23:07.000Z"
+                "title": "Interiors of world's largest sailing yach draw on \"golden age of luxury cruises\"",
+                "url": "https://www.dezeen.com/2026/05/11/orient-express-corinthian-sailing-yacht-interiors/",
+                "source": "Dezeen",
+                "published": "2026-05-11T08:00:54.000Z"
               },
               {
                 "title": "Fabrizio Romano Making Daily World Cup Show For X",
@@ -236,10 +135,56 @@
                 "published": "2026-05-11T08:00:00.000Z"
               },
               {
-                "title": "Akane-banashi shouldn’t work as an anime but it’s still Spring's best overlooked show",
-                "url": "https://www.polygon.com/akane-banashi-turns-a-400-year-old-japanese-storytelling-art-into-a-shonen-battle-of-performance/",
-                "source": "Polygon",
-                "published": "2026-05-10T19:01:20.000Z"
+                "title": "9 top world cruises worth booking",
+                "url": "https://qz.com/top-world-cruises-worth-booking",
+                "source": "Quartz",
+                "published": "2026-05-11T09:00:00.000Z"
+              },
+              {
+                "title": "Jordan 3 “World’s Best Dad,” Bluetile Nike SB Dunk Low, And This Week’s Best Releases",
+                "url": "https://sneakernews.com/2026/05/10/sneaker-releases-may-10-may-16-2026/",
+                "source": "Sneaker News",
+                "published": "2026-05-10T16:00:18.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Dad-Shoe Aesthetic Dominates Luxury Footwear",
+            "summary": "Nike's knitted dad sneaker, MENACE's adidas mom-shoe, en klassieke Air Force/Air Max silhouetten domineren coverage. Comfort-forward oversized silhouettes vervangen sleekheid als luxury-standaard.",
+            "why_it_matters": "De shift van luxury-as-minimal naar luxury-as-comfort-forward markeert breeder cultureel verlangen naar praktische elegantie, niet ostentatief design.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Highsnobiety",
+              "NME",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "MENACE Just Made the Ultimate adidas Mom Shoe (EXCLUSIVE)",
+                "url": "https://www.highsnobiety.com/p/menace-adidas-superstar-old-rose-mothers-day/",
+                "source": "Highsnobiety",
+                "published": "2026-05-11T09:26:44.000Z"
+              },
+              {
+                "title": "Cannes’ Fantastic Pavilion Readies for Seven Gala Screenings: ‘These Are Films Built to Travel’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/cannes-fantastic-pavilion-gala-screenings-exclusive-1236744351/",
+                "source": "Variety",
+                "published": "2026-05-11T08:57:37.000Z"
+              },
+              {
+                "title": "Moliy is ready for the summer on new exclusive playlist accompany The Cover",
+                "url": "https://www.nme.com/news/music/moliy-the-cover-playlist-3944833?utm_source=rss&utm_medium=rss&utm_campaign=moliy-the-cover-playlist",
+                "source": "NME",
+                "published": "2026-05-11T08:30:44.000Z"
+              },
+              {
+                "title": "Sola Media Boards Animated Feature ‘Felix the Brave,’ Unveils Teaser at Cannes (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/sola-media-felix-the-brave-cannes-1236743928/",
+                "source": "Variety",
+                "published": "2026-05-11T08:26:00.000Z"
               }
             ]
           }
@@ -250,54 +195,11 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Cannes Market Consolidates Genre Financing Innovation",
-            "summary": "Cannes 2026 market toont proliferatie van boutique genre-financiers (Saudade Ink, Vorteks) die psychological thrillers en crime narratives produceren met prestige casting (Stephanie Hsu, Laurence Fishburne, Kelvin Harrison Jr.). Dezelfde bronnen (Deadline, Variety, The Hollywood Reporter) rapporteren deze shift.",
-            "why_it_matters": "Genre film krijgt financieringsinfrastructuur die eerder alleen prestige dramas hadden, wat aangeeft dat thrillers en psychological narratives nu als 'worthy' cinema worden erkend.",
+            "trend": "Cannes 2026 Centers on Character-Driven Crime & Psychological Drama",
+            "summary": "Meerdere Cannes-market films in productie: 'The Teller' met Stephanie Hsu/Guy Pearce, 'Interference' met James Badge Dale, 'Rain Catcher' psychologische thriller. Al deze projecten focussen op intiem character study voorkant spectaculaire plotdrives.",
+            "why_it_matters": "Terwijl blockbusters domineren, signaleert Cannes 2026 hernieuwde industrie-interesse in psychologische diepgang en casting van prestige-acteurs voor indie-scale productions.",
             "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Billboard",
-              "Deadline",
-              "Highsnobiety",
-              "Pitchfork News",
-              "Polygon",
-              "Stereogum"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Nike's Ultra Sleek Knitted Dad Sneaker Is an Undetectable Show-Off",
-                "url": "https://www.highsnobiety.com/p/nike-ld-1000-flyknit/",
-                "source": "Highsnobiety",
-                "published": "2026-05-11T09:05:32.000Z"
-              },
-              {
-                "title": "Keli Holiday Says U.S. Entry Was Revoked Mid-Tour, Forcing Cancellation of New York Show",
-                "url": "https://www.billboard.com/music/music-news/keli-holiday-denied-us-reentry-1236244038/",
-                "source": "Billboard",
-                "published": "2026-05-11T08:23:07.000Z"
-              },
-              {
-                "title": "Fabrizio Romano Making Daily World Cup Show For X",
-                "url": "https://deadline.com/2026/05/fabrizio-romano-making-daily-world-cup-soccer-show-x-1236887899/",
-                "source": "Deadline",
-                "published": "2026-05-11T08:00:00.000Z"
-              },
-              {
-                "title": "Akane-banashi shouldn’t work as an anime but it’s still Spring's best overlooked show",
-                "url": "https://www.polygon.com/akane-banashi-turns-a-400-year-old-japanese-storytelling-art-into-a-shonen-battle-of-performance/",
-                "source": "Polygon",
-                "published": "2026-05-10T19:01:20.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Celebrity Biopics Establish New Boxoffice Legitimacy",
-            "summary": "'Michael' (music biopic) bereikt top-tier global boxoffice ($500M+), wat bewijst dat character-driven biografische narratieven nu als mainstream tent-pole releases functioneren, niet als prestige-side content.",
-            "why_it_matters": "Biopics transcenderen 'awards-bait' categoria en worden blockbuster-revenue-drivers, wat aangeeft dat publiek authentieke celebrity-narratieven als entertainment-priority ziet.",
-            "trajectory": "piekend",
-            "daysActive": 1,
+            "daysActive": 2,
             "isNew": true,
             "sources": [
               "Deadline",
@@ -312,25 +214,67 @@
                 "title": "Zwartboek (film)",
                 "url": "https://nl.wikipedia.org/wiki/Zwartboek_(film)",
                 "source": "Wikipedia Trending NL",
-                "published": "2026-05-11T09:20:54.098Z"
+                "published": "2026-05-11T09:50:45.084Z"
               },
               {
                 "title": "Mortal Kombat II (film)",
                 "url": "https://en.wikipedia.org/wiki/Mortal_Kombat_II_(film)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-11T09:20:54.048Z"
+                "published": "2026-05-11T09:50:45.028Z"
               },
               {
                 "title": "Remarkably Bright Creatures (film)",
                 "url": "https://en.wikipedia.org/wiki/Remarkably_Bright_Creatures_(film)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-11T09:20:54.048Z"
+                "published": "2026-05-11T09:50:45.028Z"
               },
               {
                 "title": "Aimee Lou Wood’s BBC Comedy ‘Film Club’ Will Not Return For Second Season",
                 "url": "https://deadline.com/2026/05/aimee-lou-wood-bbc-comedy-film-club-season-2-1236890140/",
                 "source": "Deadline",
                 "published": "2026-05-11T09:14:30.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Celebrity Biopics & Nostalgic Icon Casting Dominate Slate",
+            "summary": "Debbie Harry als Pamela Anderson's moeder in biopic; biopics van Michael Jackson bereikt blockbuster-status. Dergelijke verfilmingen van cultural icons herdefiniëren mainstream Hollywood-output.",
+            "why_it_matters": "Biopics van celebrities transformeren naar prestige-producties met A-list casts, wat aangeeft dat celebrity-narratives nu equivalent aan literaire adaptaties worden behandeld in Hollywood-hiërarchie.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Billboard",
+              "Deadline",
+              "Eurogamer",
+              "Pitchfork News",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Amandaland’ Writer Reveals Dream Guest Star After Winning BAFTA: “She’s America’s Amanda”",
+                "url": "https://deadline.com/2026/05/amandaland-writer-reveals-melania-trump-dream-guest-star-1236890168/",
+                "source": "Deadline",
+                "published": "2026-05-11T09:27:16.000Z"
+              },
+              {
+                "title": "Despite previous comments, Star Fox's original creator thinks Switch 2 version is \"exactly\" what he \"had in mind\" in the 90s",
+                "url": "https://www.eurogamer.net/star-fox-character-design-takaya-imamura-realistic",
+                "source": "Eurogamer",
+                "published": "2026-05-11T08:58:54.000Z"
+              },
+              {
+                "title": "Ken Carson Kicks Off ‘The Xperiment’ Rollout With Star-Studded Rolling Loud Orlando Set Feat. Playboi Carti, Young Thug, Destroy Lonely & Lil Tecca",
+                "url": "https://www.billboard.com/music/rb-hip-hop/ken-carson-rolling-loud-orlando-recap-young-thug-playboi-carti-1236244021/",
+                "source": "Billboard",
+                "published": "2026-05-11T08:16:17.000Z"
+              },
+              {
+                "title": "Melissa Leo to Star in Sean Byrne’s ‘The Mannequin’ for Studiocanal Genre Label Sixth Dimension",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/studiocanal-genre-label-sixth-dimension-sean-byrne-film-1236591837/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-05-11T07:16:14.000Z"
               }
             ]
           }
@@ -341,21 +285,19 @@
         "label": "Gaming",
         "insights": [
           {
-            "trend": "Retro Game Creators Validate Modern Console Vision",
-            "summary": "Star Fox's originele schepper bevestigt dat de Switch 2-versie exact aansluit bij zijn 90s-visie, wat aantoont dat Nintendo klassieke IP-eigenaren als validators gebruikt voor backward compatibility-narratieven. Dit sluit aan bij video game legitimacy-trend.",
-            "why_it_matters": "Deze endorsement door originele creators versterkt Nintendo's framing van next-gen als evolutie in plaats van breuk, wat nostalgie-gedreven gaming marketing legitimeert.",
+            "trend": "Retro Game Reboots Gain Creator Validation & Hardware Support",
+            "summary": "Star Fox's originele creator geeft toe dat Switch 2-versie exact aansluit bij zijn 90s-visie. Dit toont hoe klassieke game-franchises worden herintroduceerd met volledige creative blessing en moderne hardware.",
+            "why_it_matters": "Nostalgia-driven game revivals krijgen nu legitimiteit van originele makers, wat suggereert dat retro-gaming niet langer marginaal is maar centraal in AAA-strategy staat.",
             "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
+            "daysActive": 2,
+            "isNew": false,
             "sources": [
               "Consequence",
               "Fast Company",
               "Frankwatching",
-              "Hypebeast",
               "Kotaku",
               "NME",
               "Quartz",
-              "VRT NWS",
               "Wikipedia Trending EN",
               "Wikipedia Trending NL",
               "Yanko Design"
@@ -366,25 +308,25 @@
                 "title": "Play-offs Nederlands voetbal 2026",
                 "url": "https://nl.wikipedia.org/wiki/Play-offs_Nederlands_voetbal_2026",
                 "source": "Wikipedia Trending NL",
-                "published": "2026-05-11T09:20:54.098Z"
+                "published": "2026-05-11T09:50:45.084Z"
               },
               {
                 "title": "Eurovisiesongfestival 2026",
                 "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
                 "source": "Wikipedia Trending NL",
-                "published": "2026-05-11T09:20:54.098Z"
+                "published": "2026-05-11T09:50:45.084Z"
               },
               {
                 "title": "Backlash (2026)",
                 "url": "https://en.wikipedia.org/wiki/Backlash_(2026)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-11T09:20:54.048Z"
+                "published": "2026-05-11T09:50:45.028Z"
               },
               {
                 "title": "Michael (2026 film)",
                 "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-11T09:20:54.048Z"
+                "published": "2026-05-11T09:50:45.028Z"
               }
             ]
           }
@@ -393,17 +335,28 @@
     ]
   },
   "crossCategory": {
-    "generatedAt": "2026-05-11T09:21:20.573Z",
+    "generatedAt": "2026-05-11T09:51:13.384Z",
     "megaTrends": [
       {
-        "trend": "Biopic Format Dominates Entertainment Legitimacy",
-        "summary": "Music en film zien biopics als primaire vorm voor mainstream succes en culturele validatie. Dit strekt zich uit van muziekfilms die boxoffice domineren tot celebrity biopics die nieuwe financieringsstandaarden in het filmfestivalcircuit stellen.",
-        "why_it_matters": "De biopic is niet langer niche-genre maar het centrale mechanisme waarmee entertainment-industrie authenticiteit en commercieel succes samenbindt.",
+        "trend": "Biopic Boom Across Entertainment Media",
+        "summary": "Muziek, film en gaming convergeren rond het hervertellen van echte verhalen en iconische figuren. Music biopics worden mainstream entertainment, film-slates worden gedomineerd door celebrity biopics, en gaming ziet retro-reboots van klassieke franchises die nostalgische figuren revitaliseren.",
+        "why_it_matters": "Dit signaleert een cultuurbreed verlangen naar authenticiteit en nostalgie als tegenwicht tegen onzekerheid—echte verhalen en vertrouwde iconen winnen tegen originele content.",
         "categories": [
           "music",
-          "film"
+          "film",
+          "gaming"
         ],
         "strength": "sterk"
+      },
+      {
+        "trend": "Creator Empowerment & Ownership Control",
+        "summary": "In muziek eisen artists controle over hun digitale rechten en catalogi; in gaming krijgen retro reboots validation van creators en hardware-partners die indie-makers en nostalgische visies steunen. Beide verschijnselen spiegelen een shift naar maker-autonomie.",
+        "why_it_matters": "Creators herpakken macht van gatekeepers—dit herarangschikt wie culturele betekenis bepaalt, van labels/studios naar individuen en communities.",
+        "categories": [
+          "music",
+          "gaming"
+        ],
+        "strength": "matig"
       }
     ]
   },
