@@ -6,77 +6,40 @@
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-05-12T08:42:57.109Z",
-    "intro": "4 categorieën · 9 trends · laatste 24u",
+    "generatedAt": "2026-05-12T08:47:28.403Z",
+    "intro": "7 categorieën · 8 trends · laatste 24u",
     "categories": [
       {
-        "id": "film",
-        "label": "Film & TV",
+        "id": "lokaal",
+        "label": "Lokaal",
         "insights": [
           {
-            "trend": "Prestige period dramas as box-office formula",
-            "summary": "Cannes 2026 market activity shows studios greenlighting character-driven crime narratives and period pieces with established talent ('Motor City' with Alan Ritchson, 'Angel City' with Chris Kattan), alongside concert docs and video game adaptations. Prestige indie drama remains a primary slate investment.",
-            "why_it_matters": "Despite streaming's dominance, theatrical prestige drama with recognizable casts continues as studios' hedged bets against algorithmic content, signaling persistent faith in character-driven storytelling over IP.",
+            "trend": "Cannes Market Demonstrates Industry Resilience & Volume",
+            "summary": "Cannes 2026 market achieved record attendance despite geopolitical complexity, with strong indie slate activity and significant pre-sales across territories. The festival solidifies as essential deal-making infrastructure for independent and international cinema.",
+            "why_it_matters": "Film festivals are functioning as economic engines—record Cannes attendance signals that theatrical and prestige film markets remain resilient against streaming consolidation, with international co-productions driving volume.",
             "trajectory": "piekend",
-            "daysActive": 2,
-            "isNew": false,
-            "sources": [
-              "Billboard",
-              "Consequence",
-              "Crack Magazine",
-              "Dazed",
-              "Design Boom",
-              "Dezeen",
-              "GQ",
-              "IndieWire",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-12T08:42:41.749Z"
-              },
-              {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-12T08:42:41.682Z"
-              },
-              {
-                "title": "Michael (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-12T08:42:41.682Z"
-              },
-              {
-                "title": "Daniel Libeskind and Nzinga Biegueng Mboup revealed as Dezeen Awards 2026 judges",
-                "url": "https://www.dezeen.com/2026/05/12/daniel-libeskind-dezeen-awards-2026-judges/",
-                "source": "Dezeen",
-                "published": "2026-05-12T07:00:16.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Concert documentaries challenge theatrical convention",
-            "summary": "Billie Eilish concert film generates significant theatrical box office despite competing with traditional drama (compared to James Cameron's standards), alongside Broadway-to-screen adaptations gaining traction at Cannes. Concert and performance docs are legitimizing as theatrical events.",
-            "why_it_matters": "This signals a cultural shift where intimate, performance-based content—traditionally relegated to streaming—now commands theatrical attention and prestige, blurring documentary/entertainment boundaries.",
-            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Dazed",
+              "Bruzz",
               "Deadline",
-              "Design Boom",
-              "GQ",
-              "Yanko Design"
+              "The Hollywood Reporter",
+              "Variety"
             ],
             "trending": true,
             "articles": [
+              {
+                "title": "Lil Rel Howery, Angela Sarafyan, Manny Montana Set for Indie Horror ‘The Things We Hide’ With Minerva Launching Sales in Cannes (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/festivals/lil-rel-howery-angela-sarafyan-things-hide-minerva-cannes-1236744473/",
+                "source": "Variety",
+                "published": "2026-05-12T08:43:58.000Z"
+              },
+              {
+                "title": "Robert Lorenz To Direct ‘Hardcourt’ From ‘The Revenant’ Scribe Mark L. Smith — Cannes Market",
+                "url": "https://deadline.com/2026/05/robert-lorenz-hardcourt-mark-l-smith-cannes-market-1236898941/",
+                "source": "Deadline",
+                "published": "2026-05-12T08:09:12.000Z"
+              },
               {
                 "title": "‘Angel City’ Starring Chris Kattan, Tonya Pinkins & Dwight Hicks Heading To Cannes Market With Braham Entertainment",
                 "url": "https://deadline.com/2026/05/angel-city-chris-kattan-tonya-pinkins-cannes-market-braham-1236898351/",
@@ -84,159 +47,201 @@
                 "published": "2026-05-12T07:54:16.000Z"
               },
               {
-                "title": "midtown jerusalem designs a porous urban landscape around the city’s historic corridor",
-                "url": "https://www.designboom.com/readers/dlf-architecture-porous-urban-landscape-jerusalem-historic-corridor-midtown-jerusalem/",
-                "source": "Design Boom",
-                "published": "2026-05-11T20:15:32.000Z"
-              },
-              {
-                "title": "This Stationary Tiny Home Has More Room Than Most City Apartments",
-                "url": "https://www.yankodesign.com/2026/05/11/this-stationary-tiny-home-has-more-room-than-most-city-apartments/?utm_source=rss&utm_medium=rss&utm_campaign=this-stationary-tiny-home-has-more-room-than-most-city-apartments",
-                "source": "Yanko Design",
-                "published": "2026-05-11T23:30:09.000Z"
-              },
-              {
-                "title": "The Alan Ritchson Movie ‘Motor City’ Sounds Like Ultra-Stylish ‘Reacher’ in ’70s Detroit",
-                "url": "https://www.gq.com/story/alan-ritchson-motor-city-what-to-know",
-                "source": "GQ",
-                "published": "2026-05-11T14:45:10.000Z"
+                "title": "Barry Keoghan on Returning to Cannes, Leaving ‘Peaky Blinders’ and Moving Past Online Abuse: ‘I Want to Have a Smile and Enjoy the Moment’",
+                "url": "https://variety.com/2026/film/global/barry-keoghan-cannes-peaky-blinders-online-abuse-1236741578/",
+                "source": "Variety",
+                "published": "2026-05-12T07:10:00.000Z"
               }
             ]
           }
         ]
       },
       {
-        "id": "internet",
-        "label": "Internet",
+        "id": "music",
+        "label": "Muziek",
         "insights": [
           {
-            "trend": "Streaming giants' data ethics reckoning",
-            "summary": "Netflix faces regulatory pressure over alleged consumer surveillance and deceptive advertising practices, with Texas suing over 'bait and switch' tactics and platform addiction design. The case signals growing governmental scrutiny of how streaming platforms collect and exploit user data.",
-            "why_it_matters": "This represents a pivotal moment where surveillance capitalism meets legislative accountability, potentially forcing streaming platforms to redesign business models around privacy rather than addiction metrics.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Billboard",
-              "Consequence",
-              "Crack Magazine",
-              "Dazed",
-              "Design Boom",
-              "Dezeen",
-              "GQ",
-              "IndieWire",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-12T08:42:41.749Z"
-              },
-              {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-12T08:42:41.682Z"
-              },
-              {
-                "title": "Michael (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-12T08:42:41.682Z"
-              },
-              {
-                "title": "Daniel Libeskind and Nzinga Biegueng Mboup revealed as Dezeen Awards 2026 judges",
-                "url": "https://www.dezeen.com/2026/05/12/daniel-libeskind-dezeen-awards-2026-judges/",
-                "source": "Dezeen",
-                "published": "2026-05-12T07:00:16.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Hantavirus outbreak as speculative spectacle",
-            "summary": "The MV Hondius hantavirus outbreak is being covered simultaneously as public health crisis and online betting/speculative event, with passengers in biocontainment and trending Wikipedia entries. Media is framing epidemiological events as spectator-oriented phenomena.",
-            "why_it_matters": "This reveals how digital culture has gamified and commodified real-world health crises, treating viral outbreaks as entertainment/betting opportunities rather than purely medical concerns.",
-            "trajectory": "opkomend",
-            "daysActive": 2,
-            "isNew": false,
-            "sources": [
-              "Adweek",
-              "Consequence",
-              "GQ",
-              "Quartz",
-              "The Verge"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Texas sues Netflix for advertising &#8216;bait and switch&#8217; and spying",
-                "url": "https://www.theverge.com/streaming/928071/texas-netflix-lawsuit-privacy",
-                "source": "The Verge",
-                "published": "2026-05-11T17:04:22.000Z"
-              },
-              {
-                "title": "Joke About Melania Trump Cut from Netflix’s Kevin Hart Roast",
-                "url": "https://consequence.net/2026/05/netflix-melania-joke-cut-kevin-hart-roast/",
-                "source": "Consequence",
-                "published": "2026-05-11T18:25:41.000Z"
-              },
-              {
-                "title": "Steve Coogan Talks ‘Legends,’ Your New Netflix Binge-Watch",
-                "url": "https://www.gq.com/story/legends-netflix-steve-coogan-interview",
-                "source": "GQ",
-                "published": "2026-05-11T18:15:16.000Z"
-              },
-              {
-                "title": "Texas is suing Netflix for allegedly spying on consumers and building an addictive platform",
-                "url": "https://qz.com/texas-attorney-general-sues-netflix-data-collection-addictive-051126",
-                "source": "Quartz",
-                "published": "2026-05-11T17:50:42.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Data infrastructure's hidden environmental cost",
-            "summary": "Multiple sources report on data centers' massive resource consumption—30 million gallons of water consumed unnoticed, plus orbital data centers under development—exposing the invisible environmental footprint of AI and cloud computing. Coverage spans water waste to energy-intensive space infrastructure.",
-            "why_it_matters": "This trend exposes the contradiction between tech's 'invisible' promise and its material destructiveness, forcing reckon with the planetary cost of digital convenience.",
+            "trend": "Legacy Artists Institutionalize Through Museums",
+            "summary": "The Beatles receive their first official museum in London, with the Cavern Club (site of their final performance) becoming a museum in 2027. This follows years of legacy tour reboots and catalog consolidation, now solidifying into permanent institutional recognition.",
+            "why_it_matters": "Music heritage is being consecrated through museum infrastructure—moving legacy beyond touring and streaming catalogs into cultural institutions that legitimize 20th-century pop as high culture worthy of preservation.",
             "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Ars Technica",
-              "MIT Tech Review",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL"
+              "A.V. Club",
+              "Design Boom",
+              "Pitchfork News",
+              "Stereogum"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Hantavirus",
-                "url": "https://nl.wikipedia.org/wiki/Hantavirus",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-12T08:42:41.749Z"
+                "title": "iris van herpen’s colossal body of intricate work on view at the brooklyn museum",
+                "url": "https://www.designboom.com/design/iris-van-herpen-brooklyn-museum-sculpting-senses-exhibition-new-york/",
+                "source": "Design Boom",
+                "published": "2026-05-11T21:00:48.000Z"
               },
               {
-                "title": "MV Hondius hantavirus outbreak",
-                "url": "https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak",
+                "title": "First Official Beatles Museum to Open in London",
+                "url": "https://pitchfork.com/news/first-official-beatles-museum-to-open-in-london/",
+                "source": "Pitchfork News",
+                "published": "2026-05-11T13:46:05.000Z"
+              },
+              {
+                "title": "The Beatles Get Their First Official Museum",
+                "url": "https://stereogum.com/2498615/the-beatles-get-their-first-official-museum/news/",
+                "source": "Stereogum",
+                "published": "2026-05-11T16:22:45.000Z"
+              },
+              {
+                "title": "The site of Beatles’ final performance to become a museum in 2027",
+                "url": "https://www.avclub.com/the-site-of-beatles-final-performance-to-become-a-museum-in-2027",
+                "source": "A.V. Club",
+                "published": "2026-05-11T12:50:43.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Cannes Consolidates Crime & Prestige Narrative Focus",
+            "summary": "Cannes 2026 film market shows strong interest in character-driven crime dramas and psychological narratives, with multiple pre-sales and market activity around noir-inflected originals. This builds on yesteryear's emphasis on character-driven crime and prestige discourse.",
+            "why_it_matters": "Prestige filmmaking is increasingly aligned with crime/psychological genres as studios view these narratives as festival-approved prestige content with international appeal and strong actor-driven leads.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "AnOther Magazine",
+              "Deadline",
+              "IndieWire",
+              "The Hollywood Reporter",
+              "Variety",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Mortal Kombat II (film)",
+                "url": "https://en.wikipedia.org/wiki/Mortal_Kombat_II_(film)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-12T08:42:41.682Z"
+                "published": "2026-05-12T08:47:07.653Z"
               },
               {
-                "title": "The Download: the hantavirus outbreak and Musk v. Altman week 2",
-                "url": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
-                "source": "MIT Tech Review",
-                "published": "2026-05-11T12:10:00.000Z"
+                "title": "Remarkably Bright Creatures (film)",
+                "url": "https://en.wikipedia.org/wiki/Remarkably_Bright_Creatures_(film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-05-12T08:47:07.653Z"
               },
               {
-                "title": "Passengers from hantavirus ship arrive in US; 3 people in biocontainment",
-                "url": "https://arstechnica.com/health/2026/05/passengers-from-hantavirus-ship-arrive-in-us-3-people-in-biocontainment/",
-                "source": "Ars Technica",
-                "published": "2026-05-11T18:12:43.000Z"
+                "title": "Park Hoon-jung’s ‘Tristes Tropiques’ Lands Five-Territory Pre-Sales for Finecut Ahead of Cannes Film Market (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/markets-festivals/tristes-tropiques-park-hoon-jung-pre-sales-cannes-1236742294/",
+                "source": "Variety",
+                "published": "2026-05-12T08:40:40.000Z"
+              },
+              {
+                "title": "‘Once Upon a Time in America’ Origins Movie in the Works From ‘Paper Tiger’ Producer Leone Film Group (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/once-upon-a-time-in-america-paper-tiger-leone-film-group-1236742241/",
+                "source": "Variety",
+                "published": "2026-05-12T08:39:17.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "art",
+        "label": "Art & Design",
+        "insights": [
+          {
+            "trend": "Iconic Institutions Become Living Museums",
+            "summary": "The Beatles receive their first official museum in London, with the Cavern Club (site of their final performance) becoming a museum in 2027. Museums are shifting from retrospective institutions to active heritage sites that validate legacy cultural moments.",
+            "why_it_matters": "This reflects how cultural nostalgia has shifted from archive to pilgrimage—audiences don't just consume legacy content, they want immersive institutional spaces that legitimize their fandom and cement artists' cultural permanence.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Design Boom",
+              "Pitchfork News",
+              "Stereogum"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "iris van herpen’s colossal body of intricate work on view at the brooklyn museum",
+                "url": "https://www.designboom.com/design/iris-van-herpen-brooklyn-museum-sculpting-senses-exhibition-new-york/",
+                "source": "Design Boom",
+                "published": "2026-05-11T21:00:48.000Z"
+              },
+              {
+                "title": "First Official Beatles Museum to Open in London",
+                "url": "https://pitchfork.com/news/first-official-beatles-museum-to-open-in-london/",
+                "source": "Pitchfork News",
+                "published": "2026-05-11T13:46:05.000Z"
+              },
+              {
+                "title": "The Beatles Get Their First Official Museum",
+                "url": "https://stereogum.com/2498615/the-beatles-get-their-first-official-museum/news/",
+                "source": "Stereogum",
+                "published": "2026-05-11T16:22:45.000Z"
+              },
+              {
+                "title": "The site of Beatles’ final performance to become a museum in 2027",
+                "url": "https://www.avclub.com/the-site-of-beatles-final-performance-to-become-a-museum-in-2027",
+                "source": "A.V. Club",
+                "published": "2026-05-11T12:50:43.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "Casual Games Become Primetime Entertainment Properties",
+            "summary": "The New York Times' Wordle is being converted into an NBC game show hosted by Jimmy Fallon. Puzzle games originally designed for indie/casual audiences are now being adapted into broadcast television events.",
+            "why_it_matters": "Simple digital games are achieving prestige entertainment status—networks are monetizing nostalgia and simplicity by converting viral casual games into traditional TV, suggesting audiences crave low-stakes, accessible entertainment.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Billboard",
+              "Consequence",
+              "Fast Company",
+              "Kotaku"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Stephen Colbert Reunites With Kimmel, Fallon, Oliver and Meyers Ahead of ‘Late Show’ Finale",
+                "url": "https://www.billboard.com/culture/tv-film/1236245343-1236245343/",
+                "source": "Billboard",
+                "published": "2026-05-12T07:39:27.000Z"
+              },
+              {
+                "title": "Flight of the Conchords’ Comeback Show Was So Good, Even Their Fuck-Ups Soared",
+                "url": "https://consequence.net/2026/05/flight-of-the-conchords-review-greek/",
+                "source": "Consequence",
+                "published": "2026-05-11T21:48:19.000Z"
+              },
+              {
+                "title": "These head-spinning Wordle statistics highlight why The New York Times is turning the game into an NBC TV show",
+                "url": "https://www.fastcompany.com/91539885/wordle-statistics-show-why-new-york-times-is-turning-game-into-nbc-tv-show",
+                "source": "Fast Company",
+                "published": "2026-05-11T21:00:00.000Z"
+              },
+              {
+                "title": "Jimmy Fallon Has Successfully Manifested His Latest Pay Day: A Wordle Game Show",
+                "url": "https://kotaku.com/jimmy-fallon-wordle-game-show-lingo-savannah-guthrie-nbc-2000694897",
+                "source": "Kotaku",
+                "published": "2026-05-11T16:17:38.000Z"
               }
             ]
           }
@@ -247,69 +252,28 @@
         "label": "Trends",
         "insights": [
           {
-            "trend": "Streaming giants' data ethics reckoning",
-            "summary": "Netflix faces regulatory pressure over alleged consumer surveillance and deceptive advertising practices, with Texas suing over 'bait and switch' tactics and platform addiction design. The case signals growing governmental scrutiny of how streaming platforms collect and exploit user data.",
-            "why_it_matters": "This represents a pivotal moment where surveillance capitalism meets legislative accountability, potentially forcing streaming platforms to redesign business models around privacy rather than addiction metrics.",
+            "trend": "Netflix Faces Consumer Trust & Regulatory Scrutiny",
+            "summary": "Texas is suing Netflix for deceptive advertising ('bait and switch') and alleged user surveillance, while jokes are being censored from comedy specials. This represents mounting regulatory and cultural resistance to Netflix's algorithmic and moderation practices.",
+            "why_it_matters": "Streaming platforms' promises of personalization and algorithmic content are being reframed as predatory—regulation is catching up to surveillance capitalism disguised as convenience.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
-            "sources": [
-              "Billboard",
-              "Consequence",
-              "Crack Magazine",
-              "Dazed",
-              "Design Boom",
-              "Dezeen",
-              "GQ",
-              "IndieWire",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-12T08:42:41.749Z"
-              },
-              {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-12T08:42:41.682Z"
-              },
-              {
-                "title": "Michael (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-12T08:42:41.682Z"
-              },
-              {
-                "title": "Daniel Libeskind and Nzinga Biegueng Mboup revealed as Dezeen Awards 2026 judges",
-                "url": "https://www.dezeen.com/2026/05/12/daniel-libeskind-dezeen-awards-2026-judges/",
-                "source": "Dezeen",
-                "published": "2026-05-12T07:00:16.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Prestige period dramas as box-office formula",
-            "summary": "Cannes 2026 market activity shows studios greenlighting character-driven crime narratives and period pieces with established talent ('Motor City' with Alan Ritchson, 'Angel City' with Chris Kattan), alongside concert docs and video game adaptations. Prestige indie drama remains a primary slate investment.",
-            "why_it_matters": "Despite streaming's dominance, theatrical prestige drama with recognizable casts continues as studios' hedged bets against algorithmic content, signaling persistent faith in character-driven storytelling over IP.",
-            "trajectory": "piekend",
-            "daysActive": 2,
-            "isNew": false,
             "sources": [
               "Adweek",
               "Consequence",
               "GQ",
               "Quartz",
+              "The Hollywood Reporter",
               "The Verge"
             ],
             "trending": true,
             "articles": [
+              {
+                "title": "‘Marty, Life Is Short’ Review: Lawrence Kasdan’s Netflix Documentary About His Friend Martin Short Is Warm and Bighearted",
+                "url": "https://www.hollywoodreporter.com/movies/movie-reviews/marty-life-is-short-review-martin-short-documentary-netflix-1236592851/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-05-12T07:01:00.000Z"
+              },
               {
                 "title": "Texas sues Netflix for advertising &#8216;bait and switch&#8217; and spying",
                 "url": "https://www.theverge.com/streaming/928071/texas-netflix-lawsuit-privacy",
@@ -327,53 +291,48 @@
                 "url": "https://www.gq.com/story/legends-netflix-steve-coogan-interview",
                 "source": "GQ",
                 "published": "2026-05-11T18:15:16.000Z"
-              },
-              {
-                "title": "Texas is suing Netflix for allegedly spying on consumers and building an addictive platform",
-                "url": "https://qz.com/texas-attorney-general-sues-netflix-data-collection-addictive-051126",
-                "source": "Quartz",
-                "published": "2026-05-11T17:50:42.000Z"
               }
             ]
           },
           {
-            "trend": "Hantavirus outbreak as speculative spectacle",
-            "summary": "The MV Hondius hantavirus outbreak is being covered simultaneously as public health crisis and online betting/speculative event, with passengers in biocontainment and trending Wikipedia entries. Media is framing epidemiological events as spectator-oriented phenomena.",
-            "why_it_matters": "This reveals how digital culture has gamified and commodified real-world health crises, treating viral outbreaks as entertainment/betting opportunities rather than purely medical concerns.",
-            "trajectory": "opkomend",
-            "daysActive": 2,
-            "isNew": false,
+            "trend": "Late-Night Comedy Becomes Primetime Nostalgia Event",
+            "summary": "Stephen Colbert reunites with fellow late-night hosts ahead of his 'Late Show' finale, while Flight of the Conchords makes a successful comeback. Traditional talk-show formats are transitioning from daily programming into cultural event moments.",
+            "why_it_matters": "Late-night TV is shifting from quotidian media to appointment viewing—audiences treat these shows as legacy institutions worthy of ceremonial finales and reunion moments rather than weekly viewing.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
             "sources": [
-              "AnOther Magazine",
-              "Deadline",
-              "IndieWire",
-              "Wikipedia Trending EN"
+              "A.V. Club",
+              "Billboard",
+              "Consequence",
+              "Fast Company",
+              "Kotaku"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Mortal Kombat II (film)",
-                "url": "https://en.wikipedia.org/wiki/Mortal_Kombat_II_(film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-12T08:42:41.682Z"
+                "title": "Stephen Colbert Reunites With Kimmel, Fallon, Oliver and Meyers Ahead of ‘Late Show’ Finale",
+                "url": "https://www.billboard.com/culture/tv-film/1236245343-1236245343/",
+                "source": "Billboard",
+                "published": "2026-05-12T07:39:27.000Z"
               },
               {
-                "title": "Remarkably Bright Creatures (film)",
-                "url": "https://en.wikipedia.org/wiki/Remarkably_Bright_Creatures_(film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-12T08:42:41.682Z"
+                "title": "Flight of the Conchords’ Comeback Show Was So Good, Even Their Fuck-Ups Soared",
+                "url": "https://consequence.net/2026/05/flight-of-the-conchords-review-greek/",
+                "source": "Consequence",
+                "published": "2026-05-11T21:48:19.000Z"
               },
               {
-                "title": "Highland Film Group & Gersh Board ‘Grace Period’ — Cannes Market",
-                "url": "https://deadline.com/2026/05/highland-film-group-gersh-grace-period-cannes-market-1236898956/",
-                "source": "Deadline",
-                "published": "2026-05-12T08:21:44.000Z"
+                "title": "These head-spinning Wordle statistics highlight why The New York Times is turning the game into an NBC TV show",
+                "url": "https://www.fastcompany.com/91539885/wordle-statistics-show-why-new-york-times-is-turning-game-into-nbc-tv-show",
+                "source": "Fast Company",
+                "published": "2026-05-11T21:00:00.000Z"
               },
               {
-                "title": "Breaking Baz: From Stage To Screen, Broadway’s John Gore Discusses His Royal Film With Joan Collins & Why He Sat On Sean Connery’s Sofa With Ted Sarandos – Cannes Market",
-                "url": "https://deadline.com/2026/05/john-gore-my-duchess-joan-collins-cannes-1236898926/",
-                "source": "Deadline",
-                "published": "2026-05-12T08:13:18.000Z"
+                "title": "Jimmy Fallon Has Successfully Manifested His Latest Pay Day: A Wordle Game Show",
+                "url": "https://kotaku.com/jimmy-fallon-wordle-game-show-lingo-savannah-guthrie-nbc-2000694897",
+                "source": "Kotaku",
+                "published": "2026-05-11T16:17:38.000Z"
               }
             ]
           }
@@ -384,44 +343,43 @@
         "label": "Marketing",
         "insights": [
           {
-            "trend": "World Cup 2026 as advertising mega-event",
-            "summary": "Multiple sources (Adweek, Fox Upfront, Sneaker News) track FIFA World Cup 26 as primary advertising driver, with brands launching campaigns and platforms positioning it as flagship pitch opportunity. World Cup serves as organizing principle for summer advertising spend and merchandise drops.",
-            "why_it_matters": "Sports mega-events remain uncontested as cultural moments that unite consumer attention across demographics, validating traditional TV/sponsorship models against fragmented streaming alternatives.",
+            "trend": "World Cup 2026 Anchors Global Brand Sponsorship Strategy",
+            "summary": "Major brands (adidas, Fox) are centering FIFA World Cup 26 as primary advertising vehicle, with dedicated ad tracking campaigns and athlete partnerships. Sports mega-events are consolidating as essential marketing infrastructure.",
+            "why_it_matters": "Live sporting events remain the only guaranteed mass-audience moment in fragmented media—brands are staking major budgets on World Cup 26 because algorithmic targeting cannot replicate the cultural synchronization of global sports.",
             "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
+              "404 Media",
               "Adweek",
-              "Consequence",
-              "GQ",
-              "Quartz",
-              "The Verge"
+              "IndieWire",
+              "Sneaker News"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Texas sues Netflix for advertising &#8216;bait and switch&#8217; and spying",
-                "url": "https://www.theverge.com/streaming/928071/texas-netflix-lawsuit-privacy",
-                "source": "The Verge",
-                "published": "2026-05-11T17:04:22.000Z"
+                "title": "With The World Cup Looming, Mexico Scores An adidas Gazelle",
+                "url": "https://sneakernews.com/2026/05/11/adidas-gazelle-mexico-hq9441/",
+                "source": "Sneaker News",
+                "published": "2026-05-11T21:30:12.000Z"
               },
               {
-                "title": "Joke About Melania Trump Cut from Netflix’s Kevin Hart Roast",
-                "url": "https://consequence.net/2026/05/netflix-melania-joke-cut-kevin-hart-roast/",
-                "source": "Consequence",
-                "published": "2026-05-11T18:25:41.000Z"
+                "title": "At Fox&#8217;s Upfront, the World Cup, Tubi, and AI Adtech Headline the Pitch",
+                "url": "https://www.adweek.com/convergent-tv/fox-upfront-2026-tubi-world-cup/",
+                "source": "Adweek",
+                "published": "2026-05-11T20:03:50.000Z"
               },
               {
-                "title": "Steve Coogan Talks ‘Legends,’ Your New Netflix Binge-Watch",
-                "url": "https://www.gq.com/story/legends-netflix-steve-coogan-interview",
-                "source": "GQ",
-                "published": "2026-05-11T18:15:16.000Z"
+                "title": "‘Forge’ Review: A Game of Cat-and-Mouse in the Miami Art World Makes for a Thrilling Directorial Debut",
+                "url": "https://www.indiewire.com/criticism/movies/forge-review-1235101662/",
+                "source": "IndieWire",
+                "published": "2026-05-11T20:00:00.000Z"
               },
               {
-                "title": "Texas is suing Netflix for allegedly spying on consumers and building an addictive platform",
-                "url": "https://qz.com/texas-attorney-general-sues-netflix-data-collection-addictive-051126",
-                "source": "Quartz",
-                "published": "2026-05-11T17:50:42.000Z"
+                "title": "FIFA World Cup 26 Ad Tracker: Brands Kick Off Summer of Soccer",
+                "url": "https://www.adweek.com/brand-marketing/fifa-world-cup-26-ad-tracker-brands-kick-off-summer-of-soccer/",
+                "source": "Adweek",
+                "published": "2026-05-11T12:21:09.000Z"
               }
             ]
           }
@@ -430,27 +388,30 @@
     ]
   },
   "crossCategory": {
-    "generatedAt": "2026-05-12T08:43:01.352Z",
+    "generatedAt": "2026-05-12T08:47:32.839Z",
     "megaTrends": [
       {
-        "trend": "Prestige narratives dominating mainstream entertainment",
-        "summary": "Prestige period dramas verschijnen als succesformule in zowel film als trending conversations, wat aangeeft dat het publiek authentieke, historisch gegronde verhalen valoriseert. Dit contrasteert met eerdere trends naar spectaculaire blockbusters en suggereert een culturele shift naar diepte boven oppervlakte.",
-        "why_it_matters": "Dit weerspiegelt groeiende maatschappelijke behoefte aan betekenis en context te midden van informatieruis en content-overload.",
+        "trend": "Canonisering van Pop Culture als Instituut",
+        "summary": "Legacy artists worden in musea ondergebracht, late-night comedy transformeert tot primetime nostalgia events, en casual games evolueren tot mainstream entertainment—cultuurvormen worden formeel erkend en gearchiveerd. Dit signaleert dat populaire cultuur dezelfde institutionele status krijgt als traditionele kunst.",
+        "why_it_matters": "Dit markeert een fundamentele verschuiving in hoe maatschappijen culturele waarde definiëren: popcultuur is niet langer 'laag', maar patrimoniaal.",
+        "categories": [
+          "music",
+          "art",
+          "trends",
+          "gaming"
+        ],
+        "strength": "sterk"
+      },
+      {
+        "trend": "Prestige-narratieven Domineren Premium Entertainment",
+        "summary": "Cannes consolideert crime & prestige filmnarratieven, musea institutionaliseren legacy artists, en Netflix ondergaat regelgeving—elites kurateren wat 'waardevol' entertainment is. Dit weerspiegelt een hernieuwde focus op narratieve autoriteit en kwaliteitscontrol.",
+        "why_it_matters": "Na jaren van democratisering van content zien we een re-centralisering van prestige door traditionele institutions en regulering.",
         "categories": [
           "film",
+          "music",
           "trends"
         ],
         "strength": "matig"
-      },
-      {
-        "trend": "Institutionele transparantie onder publieke druk",
-        "summary": "Data ethics-bezorgdheid rond streaming giants verschijnt in zowel internet- als trend-categorieën, parallel aan groeiende vragen over hoe grote platforms data hanteren. Dit signaleert dat consumenten en debattanten dezelfde verantwoordingsvraag stellen.",
-        "why_it_matters": "Dit duidt op een verschuiving van pasief consumptie naar kritische houding tegenover techinfrastructuur, met juridische en reputationele gevolgen voor platforms.",
-        "categories": [
-          "internet",
-          "trends"
-        ],
-        "strength": "sterk"
       }
     ]
   },
