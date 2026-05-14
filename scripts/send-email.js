@@ -144,6 +144,11 @@ function insightCard(insight) {
            <strong style="font-style:normal;color:#6b6b6b;">Waarom relevant:</strong>
            ${esc(insight.why_it_matters)}</p>`
       : ""}
+    ${insight.strategic_signal
+      ? `<p style="margin:10px 0 0;padding:8px 12px;background:#f0f6ff;border-left:2px solid #3b7dd8;
+           font-size:13px;color:#1a3a5c;line-height:1.55;">
+           <strong>Merksignaal:</strong> ${esc(insight.strategic_signal)}</p>`
+      : ""}
     ${sourcePillsHTML(insight.sources)}
     ${articleLinksHTML(insight.articles)}
   </td></tr>

@@ -1,0 +1,42 @@
+name: Weekly brand signals email
+
+on:
+  schedule:
+    # Vrijdag 06:00 UTC = 08:00 Brussel zomertijd (CEST)
+    - cron: "0 6 * * 5"
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: read
+
+jobs:
+  weekly-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Send weekly brand signals email
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO:   ${{ secrets.EMAIL_TO }}
+          PUBLIC_URL: ${{ secrets.PUBLIC_URL }}
+        run: npm run weekly-email

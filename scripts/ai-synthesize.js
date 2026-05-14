@@ -147,7 +147,9 @@ async function synthesizeDaily(client, rawData) {
       return {
         idx:     idx,
         bronnen: t.sources.slice(0, 4),
-        titels:  t.items.slice(0, MAX_TITLES_SENT).map(function (a) { return a.title; }),
+        titels:  t.items.slice(0, MAX_TITLES_SENT).map(function (a) {
+          return a.summary ? a.title + " — " + a.summary.slice(0, 120) : a.title;
+        }),
       };
     });
   }
@@ -161,7 +163,7 @@ async function synthesizeDaily(client, rawData) {
       }).join("\n")
     : "Geen archief beschikbaar (eerste run).";
 
-  const prompt = `Je bent een scherpe culturele trendwatcher. Analyseer deze nieuwsclusters per categorie.
+  const prompt = `Je bent een scherpe culturele strateeg die analyseert voor een Belgisch cultureel bureau. Je doelgroep bestaat uit merkstrategen, creative directors en communicatieprofessionals die willen weten wat er beweegt in de cultuur — en wat dat voor hen concreet betekent.
 
 KRITISCH: een cluster = artikels die hetzelfde keyword delen, maar dat betekent NIET dat ze over hetzelfde gaan.
 Bepaal of de artikels echt over hetzelfde specifieke onderwerp gaan (coherent = true/false).
@@ -178,8 +180,9 @@ Geef voor elke insight:
 - trend: pakkende titel van 4-6 woorden (Nederlands of Engels, wat het best past)
 - summary: 2 zinnen — wat er precies gebeurt, wie/wat erbij betrokken is
 - why_it_matters: 1 zin — de bredere culturele betekenis of wat dit voorspelt
+- strategic_signal: 1 concrete zin — wat merken of strategen de komende 2-4 weken hiermee kunnen doen of leren (wees specifiek, niet generiek)
 - trajectory: "opkomend" | "piekend" | "afbouwend" (gebaseerd op bronnen + context)
-- daysActive: hoeveel dagen dit thema al actief is (1 = nieuw vandaag, 2 = ook gisteren aanwezig, 3+ = al meerdere dagen — maak een eerlijke schatting op basis van het archief)
+- daysActive: hoeveel dagen dit thema al actief is (1 = nieuw vandaag, 2 = ook gisteren aanwezig, 3+ = al meerdere dagen)
 - isNew: true als het thema gisteren NIET aanwezig was, false als het een voortzetting is
 
 Antwoord ALLEEN met JSON:
@@ -194,6 +197,7 @@ Antwoord ALLEEN met JSON:
           "trend": "...",
           "summary": "...",
           "why_it_matters": "...",
+          "strategic_signal": "...",
           "trajectory": "opkomend",
           "daysActive": 1,
           "isNew": true
@@ -233,13 +237,14 @@ ${JSON.stringify(promptData, null, 2)}`;
       const topic = catTopics[ins.idx];
       if (!topic) continue;
       insights.push({
-        trend:          ins.trend,
-        summary:        ins.summary,
-        why_it_matters: ins.why_it_matters,
-        trajectory:     ins.trajectory || null,
-        daysActive:     typeof ins.daysActive === "number" ? ins.daysActive : 1,
-        isNew:          ins.isNew !== false,   // default true (nieuw) als AI het niet invult
-        sources:        topic.sources,
+        trend:            ins.trend,
+        summary:          ins.summary,
+        why_it_matters:   ins.why_it_matters,
+        strategic_signal: ins.strategic_signal || null,
+        trajectory:       ins.trajectory || null,
+        daysActive:       typeof ins.daysActive === "number" ? ins.daysActive : 1,
+        isNew:            ins.isNew !== false,   // default true (nieuw) als AI het niet invult
+        sources:          topic.sources,
         trending:       topic.trending || false,
         articles:       topic.items.slice(0, 4).map(function (a) {
           return { title: a.title, url: a.url, source: a.source, published: a.published };
@@ -530,6 +535,130 @@ ${JSON.stringify(byCat, null, 2)}`;
   };
 }
 
+// ── Weekly brand signals ──────────────────────────────────────────────────
+// Kiest top 3 trends die het meest relevant zijn voor merkstrategen.
+// Combineert daily, cross-categorie en weekly patronen als input.
+// Gebruikt Sonnet voor strategische redenering.
+// Gecached: wordt alleen herberekend samen met weekly (>6 dagen oud).
+
+async function synthesizeWeeklyBrandSignals(client, daily, crossCategory, weekly, existingBrandSignals) {
+  if (existingBrandSignals && ageDays(existingBrandSignals.generatedAt) < 6) {
+    console.log("  Weekly brand signals zijn nog vers (" +
+      ageDays(existingBrandSignals.generatedAt).toFixed(1) + " dagen) — hergebruik.");
+    return existingBrandSignals;
+  }
+
+  // Verzamel alle beschikbare trendsignalen als input
+  const allInsights = [];
+
+  // 1. Daily insights per categorie
+  for (const cat of (daily && daily.categories) || []) {
+    for (const ins of (cat.insights || [])) {
+      allInsights.push({
+        bron:      "dagelijks",
+        categorie: cat.label || cat.id,
+        trend:     ins.trend,
+        summary:   ins.summary,
+        context:   ins.why_it_matters,
+        trajectory: ins.trajectory,
+        daysActive: ins.daysActive,
+      });
+    }
+  }
+
+  // 2. Cross-categorie mega-trends (zwaarder gewicht: breder signaal)
+  for (const mt of (crossCategory && crossCategory.megaTrends) || []) {
+    allInsights.push({
+      bron:      "cross-categorie",
+      categorie: (mt.categories || []).join(" + "),
+      trend:     mt.trend,
+      summary:   mt.summary,
+      context:   mt.why_it_matters,
+      trajectory: "cross-categorie",
+      daysActive: null,
+    });
+  }
+
+  // 3. Weekly patronen (meest doordacht — Sonnet heeft hier al over nagedacht)
+  for (const cat of (weekly && weekly.categories) || []) {
+    for (const ins of (cat.insights || [])) {
+      allInsights.push({
+        bron:      "weekpatroon",
+        categorie: cat.label || cat.id,
+        trend:     ins.trend,
+        summary:   ins.summary,
+        context:   ins.why_it_matters,
+        trajectory: ins.momentum,
+        daysActive: null,
+      });
+    }
+  }
+
+  if (allInsights.length === 0) {
+    console.log("  Geen input beschikbaar voor brand signals.");
+    return null;
+  }
+
+  const prompt = `Je bent een senior merkstrateeg en cultureel consultant voor een Belgisch bureau. Je analyseert culturele trendsignalen en vertaalt ze naar bruikbaar strategisch advies voor merken, creative directors en communicatieprofessionals.
+
+Hieronder staan alle culturele trendsignalen: dagelijkse signals, cross-categorie patronen en wekelijkse ontwikkelingen.
+
+Kies de 3 MEEST RELEVANTE TRENDS voor merkstrategen. Selectiecriteria (in volgorde van belang):
+1. Sterkste culturele momentum (cross-categorie > weekpatroon > dagelijks)
+2. Concrete bruikbaarheid voor merken die actief zijn in Belgische en internationale cultuur
+3. Eigenheid — vermijd clichés, kies trends die echt iets zeggen
+
+Geef voor elke trend:
+- trend: de naam (4-6 woorden, aantrekkelijk en specifiek)
+- category: de categorie of "cross-categorie"
+- what_is_happening: 2 zinnen — wat speelt er precies, wie is erbij betrokken?
+- why_it_matters_for_brands: 1 scherpe zin — waarom is dit strategisch relevant voor merken?
+- what_brands_can_do: array van precies 3 concrete, toepasbare acties of lessen (elk max. 25 woorden, begin met een werkwoord)
+- urgency: "nu" (deze week) | "binnenkort" (komende 1-3 maanden) | "op de radar" (lange termijn)
+
+Antwoord ALLEEN met JSON:
+{
+  "weeklyBrandSignals": [
+    {
+      "trend": "...",
+      "category": "...",
+      "what_is_happening": "...",
+      "why_it_matters_for_brands": "...",
+      "what_brands_can_do": ["...", "...", "..."],
+      "urgency": "nu"
+    }
+  ]
+}
+
+Alle beschikbare trendsignalen (${allInsights.length} signals):
+${JSON.stringify(allInsights, null, 2)}`;
+
+  console.log("  [Sonnet] Weekly brand signals (" + allInsights.length + " signals)…");
+  const msg = await client.messages.create({
+    model: SONNET, max_tokens: 2048,
+    messages: [{ role: "user", content: prompt }],
+  });
+  console.log("  Tokens: " + msg.usage.input_tokens + " in + " + msg.usage.output_tokens + " out");
+
+  try {
+    const result = parseAIJson(msg.content[0].text);
+    const signals = (result.weeklyBrandSignals || []).filter(function (s) {
+      return s.trend && s.what_is_happening && Array.isArray(s.what_brands_can_do);
+    }).slice(0, 3);
+    if (signals.length === 0) {
+      console.log("  Geen bruikbare brand signals gegenereerd.");
+      return null;
+    }
+    return {
+      generatedAt:       new Date().toISOString(),
+      weeklyBrandSignals: signals,
+    };
+  } catch (e) {
+    console.error("  Brand signals parse mislukt:", e.message);
+    return null;
+  }
+}
+
 // ── Main ──────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -626,15 +755,30 @@ async function main() {
     console.error("  Monthly mislukt:", e.message);
   }
 
+  // 5. Weekly brand signals (Sonnet, gecached samen met weekly)
+  console.log("\n[Weekly brand signals]");
+  let weeklyBrandSignals = null;
+  try {
+    weeklyBrandSignals = await synthesizeWeeklyBrandSignals(
+      client, daily, crossCategory, weekly, existing.weeklyBrandSignals || null
+    );
+    if (weeklyBrandSignals) {
+      console.log("  ✓ " + weeklyBrandSignals.weeklyBrandSignals.length + " brand signals");
+    }
+  } catch (e) {
+    console.error("  Brand signals mislukt:", e.message);
+  }
+
   // Schrijf latest.json
   const date  = todayISO();
   const brief = {
     date,
     aiModel: { daily: HAIKU, weekly: SONNET, monthly: SONNET },
     daily,
-    ...(crossCategory ? { crossCategory } : {}),
-    ...(weekly        ? { weekly }        : {}),
-    ...(monthly       ? { monthly }       : {}),
+    ...(crossCategory      ? { crossCategory }      : {}),
+    ...(weekly             ? { weekly }             : {}),
+    ...(monthly            ? { monthly }            : {}),
+    ...(weeklyBrandSignals ? { weeklyBrandSignals } : {}),
   };
 
   fs.mkdirSync(DATA_DIR,    { recursive: true });
