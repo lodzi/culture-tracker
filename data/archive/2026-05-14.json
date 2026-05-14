@@ -6,63 +6,178 @@
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-05-14T07:34:09.599Z",
-    "intro": "5 categorieën · 7 trends · laatste 24u",
+    "generatedAt": "2026-05-14T08:45:02.938Z",
+    "intro": "5 categorieën · 9 trends · laatste 24u",
     "categories": [
+      {
+        "id": "culture",
+        "label": "Cultuur",
+        "insights": [
+          {
+            "trend": "Contemporary Craft als Cultural Nostalgia-Marker",
+            "summary": "Designers maken 'ancient artefact'-geinspireerde grillz (Bitter000000), LEGO-homage Apple workstations, camping-tools geïnspireerd op potloodslijpers. Nostalgie-design mixt 'craft' met technologie—retro materiële cultuur als status.",
+            "why_it_matters": "Dit is design-antropologie: makers recyclen middeleeuwse/vintage referenties als reactie op digitale saaiheid. Dit spreekt naar Gen Z/millennial verlangen naar 'tactiel' en 'gemaaktheid' als cultureel waarde.",
+            "strategic_signal": "Consumer tech & luxury goods kunnen artisanal-nostalgia-collabs testen; 'hand-crafted' details en limited edition 'heritage' reissues schalen nu. Zorg dat product-story 'resurrection van vergeten craft' benadrukt, niet 'sustainable'.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Dazed",
+              "Design Boom",
+              "NME",
+              "Yanko Design"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "John Lennon, Aerosmith, Patti Smith producer Jack Douglas dies, age 80: “A brilliant artist and collaborator who inspired us in profound ways”",
+                "url": "https://www.nme.com/news/music/john-lennon-aerosmith-patti-smith-producer-jack-douglas-dies-age-80-a-brilliant-artist-and-collaborator-who-inspired-us-in-profound-ways-3945336?utm_source=rss&utm_medium=rss&utm_campaign=john-lennon-aerosmith-patti-smith-producer-jack-douglas-dies-age-80-a-brilliant-artist-and-collaborator-who-inspired-us-in-profound-ways",
+                "source": "NME",
+                "published": "2026-05-14T07:11:07.000Z"
+              },
+              {
+                "title": "space-inspired mini apple workstation pays homage to classic LEGO computers",
+                "url": "https://www.designboom.com/technology/space-inspired-mini-apple-workstation-classic-lego-computers-watt-iv-m2x2/",
+                "source": "Design Boom",
+                "published": "2026-05-13T20:00:12.000Z"
+              },
+              {
+                "title": "Bitter000000 are making grillz inspired by ancient artefacts",
+                "url": "https://www.dazeddigital.com/beauty/article/70235/1/bitter000000-are-making-grillz-inspired-ancient-artefacts-new-york-brooklyn?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=bitter000000-are-making-grillz-inspired-by-ancient-artefacts",
+                "source": "Dazed",
+                "published": "2026-05-13T11:32:00.000Z"
+              },
+              {
+                "title": "A Pencil Sharpener Inspired This Brilliant Camping Cutlery Tool",
+                "url": "https://www.yankodesign.com/2026/05/13/a-pencil-sharpener-inspired-this-brilliant-camping-cutlery-tool/?utm_source=rss&utm_medium=rss&utm_campaign=a-pencil-sharpener-inspired-this-brilliant-camping-cutlery-tool",
+                "source": "Yanko Design",
+                "published": "2026-05-13T16:20:08.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Queer Horror as Mainstream Cannes Cinema",
+            "summary": "'Teenage Sex and Death at Camp Miasma' (Jane Schoenbrun, Cannes) is een polyamor sapphic slasher die orgasmes met horror-subversion mengt. Beschreven als 'sexy, ecstatic revelation' door meerdere outlets; slasher-genre wordt toolkit voor queer auteurs.",
+            "why_it_matters": "Dit markeert normalisering van queer-perspective in genre-cinema op topniveau (niet direct-to-streaming). Slashers zijn niet langer 'straight male gaze'—ze worden platforms voor marginale identiteiten om geweld & verlangen te herverkennen.",
+            "strategic_signal": "LGBTQ+-centric brands en indie film-festivals kunnen 'queer horror' als programme-strategy omarmen; dit is waar prestige-geld en creative-reputatie samenkomen. Zorg dat partnerships 'authorship' benadrukken, niet 'representation checkbox'.",
+            "trajectory": "opkomend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Fast Company",
+              "IndieWire",
+              "i-D"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Finally, A Polyamorous Sapphic Slasher Movie",
+                "url": "https://i-d.co/article/teenage-sex-and-death-at-camp-miasma-review-gillian-anderson-cannes-2026/",
+                "source": "i-D",
+                "published": "2026-05-14T07:43:00.000Z"
+              },
+              {
+                "title": "John Sayles’ First Movie in Over a Decade Is a Western with Amy Madigan and Chris Cooper",
+                "url": "https://www.indiewire.com/news/breaking-news/john-sayles-new-movie-western-amy-madigan-chris-cooper-1235193729/",
+                "source": "IndieWire",
+                "published": "2026-05-13T18:30:00.000Z"
+              },
+              {
+                "title": "One major theater chain just quietly launched $1.75 movie tickets for summer break",
+                "url": "https://www.fastcompany.com/91541671/one-major-theater-chain-just-quietly-launched-1-75-movie-tickets-for-summer-break",
+                "source": "Fast Company",
+                "published": "2026-05-13T18:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
       {
         "id": "music",
         "label": "Muziek",
         "insights": [
           {
-            "trend": "Festival Line-Up Consolidation Around Celebrity & K-Pop Acts",
-            "summary": "FIFA World Cup 2026 halftime show features BTS, Madonna, and Shakira; We Love Green Paris festival announces major K-pop and celebrity DJ appearances. Global festivals are increasingly anchored by mega-celebrities and international acts rather than discovery-driven lineups.",
-            "why_it_matters": "Festivals are shifting from curator-driven discovery platforms to celebrity aggregation events, suggesting that audience expectation has moved from 'find new music here' to 'see your favorites live in one place.'",
-            "strategic_signal": "If sponsoring music festivals in 2026-2027, negotiate artist-integration rights with headliners rather than emerging acts; the cultural conversation is happening around the biggest names, not the undercard.",
-            "trajectory": "piekend",
+            "trend": "Klassieke Rock-Catalogi Krijgen Deluxe Reissue Status",
+            "summary": "Motörhead's 'Kiss of Death' krijgt een 20th Anniversary deluxe reissue met live opnames, terwijl Jack Douglas (legendarische producer van John Lennon en Aerosmith) overlijdt—wat nostalgische rondgang naar archivale rock content versnelt. Majors investeren in remaster & reissue van canonieke rock-output.",
+            "why_it_matters": "Dit markeert een institutionalisering van rock-erfgoed: niet zomaar streaming, maar curated, deluxe fysieke/digitale producten. Dit spreekt naar millennials die willen 'bezitten' en generatie X die authenticiteit zoekt.",
+            "strategic_signal": "Niche audio merken en vinyl-leveranciers kunnen deluxe reissue-partnerships scouten; dit is een stabiele categorie waar nostalgie + kwaliteit premium prijzen rechtvaardigen. Vereenvoudig branding rond 'restored' en 'archival'.",
+            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Adweek",
               "Billboard",
-              "Crack Magazine",
-              "Dazed",
-              "Design Boom",
-              "Fast Company",
-              "GQ",
+              "Consequence",
               "IndieWire",
-              "Kotaku",
-              "Pitchfork News",
-              "Polygon",
-              "Sneaker News",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
+              "NME",
+              "Quartz"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-14T07:33:43.924Z"
+                "title": "Hayley Williams Gives Fans an Ego Death at The Wiltern in Los Angeles: 5 Best Moments",
+                "url": "https://www.billboard.com/lists/hayley-williams-the-wiltern-los-angeles-5-best-moments/",
+                "source": "Billboard",
+                "published": "2026-05-14T05:54:34.000Z"
               },
               {
-                "title": "Eurovision Song Contest 2026",
-                "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
+                "title": "Kouri Richins gets life without parole in fentanyl poisoning death of husband",
+                "url": "https://qz.com/kouri-richins-life-sentence-husband-murder-fentanyl-051326",
+                "source": "Quartz",
+                "published": "2026-05-13T23:21:27.000Z"
               },
               {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
+                "title": "Rehab counsellor Erik Fleming jailed for two years for supplying ketamine to Matthew Perry before his death",
+                "url": "https://www.nme.com/news/tv/rehab-counsellor-erik-fleming-jailed-for-two-years-for-supplying-ketamine-to-matthew-perry-before-his-death-3945319?utm_source=rss&utm_medium=rss&utm_campaign=rehab-counsellor-erik-fleming-jailed-for-two-years-for-supplying-ketamine-to-matthew-perry-before-his-death",
+                "source": "NME",
+                "published": "2026-05-13T20:33:43.000Z"
               },
               {
-                "title": "Michael (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
+                "title": "‘Teenage Sex and Death at Camp Miasma’ Review: Jane Schoenbrun’s Affectionate Ode to Slashers, Orgasms, and Gillian Anderson",
+                "url": "https://www.indiewire.com/criticism/movies/teenage-sex-and-death-at-camp-miasma-review-jane-schoenbrun-1235193695/",
+                "source": "IndieWire",
+                "published": "2026-05-13T19:52:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "K-Pop & Global Pop Dominate Super-Event Entertainment",
+            "summary": "BTS, Madonna en Shakira zijn geboekt voor FIFA World Cup 2026 Halftime; K-pop Demon Hunters kondigen wereldtournee aan (geproduceerd door AEG/Netflix). Mega-events worden platforms voor global cross-genre pop coalitions.",
+            "why_it_matters": "De hoogtepunt van pop-convergentie: legacyartisten, K-pop, Latijns-pop, en platte-pop-algoritmes schakelen samen in één event. Dit betekent dat sponsorships en brand-activaties *genre-agnostisch* moeten zijn en op 'moment-ownership' gericht.",
+            "strategic_signal": "Para-sport brands en global FMCG kunnen tonen hoe zij *across* pop-silos activeren; World Cup halftime is 2026's meest gevraagde real-estate. Zorg dat je creative asset in 30-60 sec voelbaar is, niet verklarend.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Consequence",
+              "Deadline",
+              "IndieWire",
+              "Pitchfork News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "BTS, Madonna & Shakira To Perform During FIFA World Cup Final Halftime Show",
+                "url": "https://deadline.com/2026/05/bts-madonna-shakira-fifa-world-cup-final-halftime-show-1236902242/",
+                "source": "Deadline",
+                "published": "2026-05-14T05:47:06.000Z"
+              },
+              {
+                "title": "‘East of Eden’ Teaser: The ‘World Is So Full of Evil’ in Zoe Kazan’s Florence Pugh-Starring Adaptation",
+                "url": "https://www.indiewire.com/news/trailers/east-of-eden-teaser-zoe-kazan-florence-pugh-netflix-1235193805/",
+                "source": "IndieWire",
+                "published": "2026-05-13T19:23:29.000Z"
+              },
+              {
+                "title": "Hovvdy Line Up New Album Big World and Fall Tour Dates",
+                "url": "https://pitchfork.com/news/hovvdy-line-up-new-album-big-world-and-fall-tour-dates/",
+                "source": "Pitchfork News",
+                "published": "2026-05-13T14:18:25.000Z"
+              },
+              {
+                "title": "KPop Demon Hunters Announce World Tour",
+                "url": "https://consequence.net/2026/05/kpop-demon-hunters-world-tour/",
+                "source": "Consequence",
+                "published": "2026-05-13T20:16:54.000Z"
               }
             ]
           }
@@ -73,55 +188,89 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Meta Horror Homage Becomes Mainstream Cannes Play",
-            "summary": "Jane Schoenbrun's 'Teenage Sex and Death at Camp Miasma' (premiered at Cannes) exemplifies a new wave of horror films that deconstruct slasher tropes while celebrating them—meta-textual homages that respect the genre's sexuality and transgression. This sits alongside a broader acceptance of horror as a vehicle for auteur statement.",
-            "why_it_matters": "Horror is graduating from B-movie status to prestige festival territory, signaling that audiences and critics now accept genre cinema as legitimate space for artistic risk and thematic depth—not just spectacle.",
-            "strategic_signal": "If you're positioning indie or prestige brands, consider horror-adjacent or genre-subversive content partnerships; Cannes' embrace of this trend means it's culturally validated for mainstream brand association.",
+            "trend": "Survival-Thriller Genre Explodeert op A-List Niveau",
+            "summary": "Kate Beckinsale sluit aan bij haaiensurvival-film 'White'; Justin Long & Iris Apatow onderhandelen over bee-thriller 'Stung'. Cannes markt ziet proliferatie van high-concept ecological/animal-attack thrillers met topcast.",
+            "why_it_matters": "Survival-thrillers zijn de nieuwe 'elevated horror'—ze bieden eco-anxiety allegorie plus pure spectacle, zonder dat A-listers zich 'slasher' hoeven te voelen. Dit is prestige-genre-fusion die studios willen financieren.",
+            "strategic_signal": "Outdoor/adventure/eco brands kunnen sponsorship rond 'survival' narratives testen; dit is waar blockbuster-geld heen gaat. Zorg dat jouw brand de 'resourcefulness' van de protagonist belichaamt, niet de gevaar.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
               "Adweek",
-              "Billboard",
-              "Crack Magazine",
-              "Dazed",
-              "Design Boom",
-              "Fast Company",
-              "GQ",
+              "Deadline",
               "IndieWire",
-              "Kotaku",
-              "Pitchfork News",
-              "Polygon",
-              "Sneaker News",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
+              "The Hollywood Reporter",
+              "The Verge",
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-14T07:33:43.924Z"
+                "title": "With Netflix’s ‘Nemesis’, ‘Power’ Creator Courtney A. Kemp Delivers Tantalizing Television: TV Review",
+                "url": "https://variety.com/2026/tv/reviews/nemesis-review-netflix-1236747842/",
+                "source": "Variety",
+                "published": "2026-05-14T07:01:00.000Z"
               },
               {
-                "title": "Eurovision Song Contest 2026",
-                "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
+                "title": "‘Nemesis’ Review: A Cop and a Master Thief Have a Heated Rivalry in ‘Power’ Creator’s Slick Netflix Thriller",
+                "url": "https://www.hollywoodreporter.com/tv/tv-reviews/nemesis-review-netflix-1236595253/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-05-14T07:01:00.000Z"
               },
               {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
+                "title": "Artists Equity Gives Bonuses To Cast And Crew Following Success Of ‘The Rip’ On Netflix",
+                "url": "https://deadline.com/2026/05/artists-equity-bonuses-the-rip-1236902230/",
+                "source": "Deadline",
+                "published": "2026-05-14T03:51:02.000Z"
               },
               {
-                "title": "Michael (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
+                "title": "Netflix’s ad ambitions just keep growing",
+                "url": "https://www.theverge.com/streaming/929627/netflix-ads-plan-upfront-2026",
+                "source": "The Verge",
+                "published": "2026-05-13T18:45:32.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Cannes Markt Focust op Characterdrama & Prestige-Cast",
+            "summary": "Biopic over armloze cricketer Amir Hussain Lone, 'East of Eden' adaptatie met Florence Pugh & Zoe Kazan, Luther Ford in Ira Sachs film—Cannes 2026 prioriteert character-driven narratives en auteur-casting over spectacle.",
+            "why_it_matters": "Dit volgt op vorig jaar's biopics+prestige trend; Cannes signaleert dat indie/art-house financiering zich richt op 'authored' character studies, niet franchises. Dit geeft indie distributies en arthouse-netwerken momentum.",
+            "strategic_signal": "Culturele merken (musea, festivals, non-profits) kunnen arthouse-distributies benaderen met co-branding; character drama trekt publiek dat waarde hecht aan 'meaning' over scale. Zorg dat partnerships 'curation' benadrukken.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "IndieWire",
+              "NME",
+              "Quartz"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Hayley Williams Gives Fans an Ego Death at The Wiltern in Los Angeles: 5 Best Moments",
+                "url": "https://www.billboard.com/lists/hayley-williams-the-wiltern-los-angeles-5-best-moments/",
+                "source": "Billboard",
+                "published": "2026-05-14T05:54:34.000Z"
+              },
+              {
+                "title": "Kouri Richins gets life without parole in fentanyl poisoning death of husband",
+                "url": "https://qz.com/kouri-richins-life-sentence-husband-murder-fentanyl-051326",
+                "source": "Quartz",
+                "published": "2026-05-13T23:21:27.000Z"
+              },
+              {
+                "title": "Rehab counsellor Erik Fleming jailed for two years for supplying ketamine to Matthew Perry before his death",
+                "url": "https://www.nme.com/news/tv/rehab-counsellor-erik-fleming-jailed-for-two-years-for-supplying-ketamine-to-matthew-perry-before-his-death-3945319?utm_source=rss&utm_medium=rss&utm_campaign=rehab-counsellor-erik-fleming-jailed-for-two-years-for-supplying-ketamine-to-matthew-perry-before-his-death",
+                "source": "NME",
+                "published": "2026-05-13T20:33:43.000Z"
+              },
+              {
+                "title": "‘Teenage Sex and Death at Camp Miasma’ Review: Jane Schoenbrun’s Affectionate Ode to Slashers, Orgasms, and Gillian Anderson",
+                "url": "https://www.indiewire.com/criticism/movies/teenage-sex-and-death-at-camp-miasma-review-jane-schoenbrun-1235193695/",
+                "source": "IndieWire",
+                "published": "2026-05-13T19:52:00.000Z"
               }
             ]
           }
@@ -132,71 +281,16 @@
         "label": "Internet",
         "insights": [
           {
-            "trend": "YouTube Claims Scripted-Content Legitimacy vs. Netflix",
-            "summary": "YouTube is aggressively repositioning itself as a premium scripted-content platform at its 2026 Upfront, competing directly with Netflix and Disney on the strength of creator-led original shows. The platform is emphasizing its role as both creator home and advertising destination, with a slate designed to look like traditional TV.",
-            "why_it_matters": "This marks a fundamental shift in how platforms compete: YouTube is no longer positioning itself as a launchpad for creators to leave, but as a destination itself—signaling that creator networks now have equal cultural weight to studio backing.",
-            "strategic_signal": "Brands should begin treating YouTube's creator shows with the same media-buy weight as Netflix prestige content; test sponsorship integrations with YouTube originals in your Q3 upfront planning.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Adweek",
-              "Billboard",
-              "Crack Magazine",
-              "Dazed",
-              "Design Boom",
-              "Fast Company",
-              "GQ",
-              "IndieWire",
-              "Kotaku",
-              "Pitchfork News",
-              "Polygon",
-              "Sneaker News",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-14T07:33:43.924Z"
-              },
-              {
-                "title": "Eurovision Song Contest 2026",
-                "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
-              },
-              {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
-              },
-              {
-                "title": "Michael (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
-              }
-            ]
-          },
-          {
-            "trend": "Netflix's Ad-Tier Double-Down Reshapes Streaming Economics",
-            "summary": "Netflix's ad-supported tier has doubled its monthly viewership for the second consecutive year, now becoming a core revenue driver alongside premium subscriptions. The company is expanding ad ambitions and launching tentpole comedy events (like 'The Roast of Kevin Hart') as Emmy-eligible properties.",
-            "why_it_matters": "Ad-supported streaming is no longer a secondary product—it's become the growth engine, forcing competitors to rethink their monetization models and proving that lower-cost access unlocks larger audiences than premium-only strategies.",
-            "strategic_signal": "Plan media buys across Netflix's ad tier as a primary channel, not a fallback; prioritize partnerships with their comedy and event tentpoles, which are proven audience magnets.",
+            "trend": "Streamers Consolidate Crime Drama & Creator Prestige",
+            "summary": "Netflix en Prime Video bundelen crime-thrillers en prestige narratives als flagshipcontent, met shows als 'Nemesis' van 'Power' creator Courtney A. Kemp. De streaming-oorlog verschuift van volume naar creator-cachet en genre-consolidatie.",
+            "why_it_matters": "Dit signaleert dat streamers nu voor 'authored' prestige spelen—niet louter algoritme-content—waardoor showrunner-reputatie en franchise-uitbreidingen voorrang krijgen boven experimenteel programmeren.",
+            "strategic_signal": "Merken kunnen sponsorship rond 'creator-led' crime/prestige-slates verkennen; dit is de nieuwe prestige-TV, niet HBO. Zorg dat brand-integrations *character-driven* zijn, niet oppervlakkig.",
             "trajectory": "piekend",
             "daysActive": 2,
             "isNew": false,
             "sources": [
-              "A.V. Club",
               "Adweek",
               "Deadline",
-              "Eurogamer",
               "IndieWire",
               "The Hollywood Reporter",
               "The Verge",
@@ -227,65 +321,6 @@
                 "url": "https://www.theverge.com/streaming/929627/netflix-ads-plan-upfront-2026",
                 "source": "The Verge",
                 "published": "2026-05-13T18:45:32.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "gaming",
-        "label": "Gaming",
-        "insights": [
-          {
-            "trend": "Live-Action IP Reboots Signal Hollywood-Gaming Convergence",
-            "summary": "Nintendo's live-action Legend of Zelda adaptation (repeatedly rescheduled, now set for April 2027) and Ubisoft's Assassin's Creed Black Flag real-world treasure hunt cross-promotion represent a deepening fusion of gaming and film/transmedia strategies. Games are no longer source material waiting for adaptation—they're properties that demand multi-platform activation from launch.",
-            "why_it_matters": "Gaming franchises now command Hollywood-level production budgets and cross-promotional infrastructure, indicating that game IP has achieved parity with traditional film franchises in terms of cultural prestige and monetization potential.",
-            "strategic_signal": "Reserve partnership budget for gaming-to-film convergence properties launching in 2026-2027; secure brand integration slots in live-action adaptations before they enter post-production.",
-            "trajectory": "opkomend",
-            "daysActive": 2,
-            "isNew": false,
-            "sources": [
-              "Adweek",
-              "Billboard",
-              "Crack Magazine",
-              "Dazed",
-              "Design Boom",
-              "Fast Company",
-              "GQ",
-              "IndieWire",
-              "Kotaku",
-              "Pitchfork News",
-              "Polygon",
-              "Sneaker News",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-14T07:33:43.924Z"
-              },
-              {
-                "title": "Eurovision Song Contest 2026",
-                "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
-              },
-              {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
-              },
-              {
-                "title": "Michael (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
               }
             ]
           }
@@ -296,71 +331,16 @@
         "label": "Marketing",
         "insights": [
           {
-            "trend": "Survival Genre Emerges as Tentpole Action Formula",
-            "summary": "Multiple high-profile survival thrillers in development at Cannes (shark survival 'White' with Kate Beckinsale, killer-bee thriller 'Stung' with Justin Long) signal a shift toward primal-threat narratives as the new franchise-building template, replacing traditional superhero spectacle.",
-            "why_it_matters": "Survival genre popularity indicates audience fatigue with CGI spectacle and a return to elemental, visceral threats; this is a structural shift in what studios believe will anchor tentpole investments.",
-            "strategic_signal": "Begin developing brand narratives around resilience, adaptation, and primal stakes rather than technology or power fantasies; survival-genre properties will dominate summer 2027-2028 slates.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Adweek",
-              "Billboard",
-              "Crack Magazine",
-              "Dazed",
-              "Design Boom",
-              "Fast Company",
-              "GQ",
-              "IndieWire",
-              "Kotaku",
-              "Pitchfork News",
-              "Polygon",
-              "Sneaker News",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-14T07:33:43.924Z"
-              },
-              {
-                "title": "Eurovision Song Contest 2026",
-                "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
-              },
-              {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
-              },
-              {
-                "title": "Michael (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-14T07:33:43.759Z"
-              }
-            ]
-          },
-          {
-            "trend": "Tech Giants Compete for Brand Dominance Through Color & Design",
-            "summary": "Apple's shift from rose gold to dark cherry branding (following Google's ascent as top brand value in Kantar rankings) and nostalgic LEGO product collaborations show tech companies treating design language as primary brand differentiator in an AI-crowded market.",
-            "why_it_matters": "As AI commoditizes core product performance, brands are retreating to aesthetic and emotional signaling—nostalgia, hardware design, color psychology—to defend brand value and market share.",
-            "strategic_signal": "Audit your brand's color and material strategy immediately; if you're competing in the tech/AI space, differentiation via design will outweigh feature parity by Q4 2026.",
+            "trend": "Netflix Ad-Tier Groeit; Streaming als TV-Vervanging",
+            "summary": "Netflix's ad-supported tier meer dan verdubbeld (2e jaar op rij) in maandelijkse gebruikers; 'The Roast of Kevin Hart' positioneert itself als Emmy-eligible tentpole event. Streaming wordt 'primetime television'.",
+            "why_it_matters": "Dit verzet de macht: Netflix transformeert van 'all-you-can-watch' naar 'premium event + ad-supported backbone'. Adverteerders krijgen toegang tot prestige-content (Emmy-race shows, specials) zonder blockbuster-budgetten.",
+            "strategic_signal": "Mid-market CPG en lokale merken kunnen Netflix ad-tiers testen voor event-buys (comedyspecials, award shows); dit is goedkoper dan traditionele TV-buys met beter targeting. Start met 'tentpole' moments, niet steady-state.",
             "trajectory": "piekend",
-            "daysActive": 1,
-            "isNew": true,
+            "daysActive": 2,
+            "isNew": false,
             "sources": [
-              "A.V. Club",
               "Adweek",
               "Deadline",
-              "Eurogamer",
               "IndieWire",
               "The Hollywood Reporter",
               "The Verge",
@@ -393,33 +373,76 @@
                 "published": "2026-05-13T18:45:32.000Z"
               }
             ]
+          },
+          {
+            "trend": "Artists Equity Model Creates Revenue Transparency Buzz",
+            "summary": "Artists Equity distribueert performance bonuses aan cast/crew nadat 'The Rip' een key Netflix milestone bereikt. Het model promoot profit-sharing als marketing-hook—'creators profit from hits' is nu het pitch.",
+            "why_it_matters": "Dit is industrie-signaling: profitsharing + transparency = taling aan talent en audiences die fairness waarderen. Dit kan merk-affinity bouwen met creatives en Gen Z-kijkers die studio-practices scrutiniseren.",
+            "strategic_signal": "Production companies & indie distributors kunnen 'equity-share' narratives in persmaterial gebruiken; dit differentieert van majors. Zorg dat merk-partnerships dit ethos weerspiegelen (b.v. wage fairness commitments).",
+            "trajectory": "opkomend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Adweek",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Matilda the Musical’ Star Alisha Weir to Lead Coming-of-Age Comedy Feature ‘Underdogs’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/alisha-weir-underdogs-film-comedy-1236747158/",
+                "source": "Variety",
+                "published": "2026-05-14T06:59:00.000Z"
+              },
+              {
+                "title": "Globo Filmes Unveils Glauber Rocha Bio, Advances on Oscar-Nominated Fernanda Torres’ Next (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/globo-filmes-glauber-rocha-fernanda-torres-1236745560/",
+                "source": "Variety",
+                "published": "2026-05-14T06:54:49.000Z"
+              },
+              {
+                "title": "Kate Beckinsale Gets in on the Shark Survival Genre, Boards Jake West’s ‘White’ (Exclusive)",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/kate-beckinsale-shark-survival-film-white-cannes-jake-west-1236594583/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-05-14T06:30:00.000Z"
+              },
+              {
+                "title": "Justin Long and Iris Apatow Circling Killer Bee Survival Thriller ‘Stung’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/justin-long-iris-apatow-killer-bee-survival-thriller-stung-1236747232/",
+                "source": "Variety",
+                "published": "2026-05-14T05:51:31.000Z"
+              }
+            ]
           }
         ]
       }
     ]
   },
   "crossCategory": {
-    "generatedAt": "2026-05-14T07:34:13.494Z",
+    "generatedAt": "2026-05-14T08:45:07.314Z",
     "megaTrends": [
       {
-        "trend": "Mainstream Embraces Meta-Referential Entertainment",
-        "summary": "Meta-horror homage breekt door in mainstream cinema (Cannes), terwijl YouTube en Netflix beide hun legitimiteit bewijzen door scripted content en originele producties. Dit weerspiegelt een bredere appetijt voor entertainment dat zelf bewust is van zijn eigen conventies en formats.",
-        "why_it_matters": "Audiences verwachten nu intelligentie en zelfbewustzijn van entertainmentmedia; naïeve, straight storytelling verliest terrein.",
+        "trend": "Prestige & Authenticity als Culturele Valuta",
+        "summary": "Van film (characterdrama's op Cannes) tot internet (streamers claimen 'creator prestige') tot marketing (artists equity transparency) - elk medium zoekt naar echte, voelbare kwaliteit en eerlijke waarde. Dit weerspiegelt een collectieve vermoeidheid met oppervlakkige content en algoritmes.",
+        "why_it_matters": "Consumenten valoriseren nu duidelijkheid en ambacht boven schaal; het middenmarc van generieke entertainment verdwijnt.",
         "categories": [
           "film",
-          "internet"
-        ],
-        "strength": "matig"
-      },
-      {
-        "trend": "Hollywood-Gaming Convergence Via IP Expansion",
-        "summary": "Live-action IP reboots signaleren directe convergentie tussen gaming en Hollywood, terwijl survival genre als tentpole action formula opkomt in marketing/film strategieën. Gaming IP wordt actief hergebruikt voor filmische experiences.",
-        "why_it_matters": "De grens tussen game-cultuur en mainstream filmcultuur verdwijnt; gaming is niet langer 'klein broertje' maar volwaardige content-bron.",
-        "categories": [
-          "gaming",
+          "internet",
           "marketing"
         ],
         "strength": "sterk"
+      },
+      {
+        "trend": "Nostalgie als Gateway naar Mainstream Status",
+        "summary": "Klassieke rock krijgt deluxe reissues (music), contemporary craft wordt culturele marker (culture), survival-thrillers als veilige A-list format (film) - alles biedt vertrouwde, regressieve structuur. Terwijl het heden onzeker voelt, wordt het verleden hergebruikt als veilige innovatie.",
+        "why_it_matters": "Cultuur signaleert groeiende conservatisme in smaak; originele formules worden minder gewaardeerd dan verfijning van het bekende.",
+        "categories": [
+          "music",
+          "culture",
+          "film"
+        ],
+        "strength": "matig"
       }
     ]
   },
