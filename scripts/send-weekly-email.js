@@ -195,7 +195,7 @@ function buildHTML(brief) {
   if (signals.length === 0) {
     return `<!doctype html><html lang="nl"><head><meta charset="utf-8"></head>
 <body style="font-family:sans-serif;padding:40px;color:#111;">
-<h1>Culture Tracker — Weekly Brand Signals</h1>
+<h1>Zeitfeed Weekly</h1>
 <p>Nog geen weekly brand signals beschikbaar. Run eerst <code>ai-synthesize.js</code> zodat de wekelijkse synthese klaar is.</p>
 ${publicUrl ? `<p><a href="${esc(publicUrl)}">Bekijk de volledige tracker online →</a></p>` : ""}
 </body></html>`;
@@ -208,7 +208,7 @@ ${publicUrl ? `<p><a href="${esc(publicUrl)}">Bekijk de volledige tracker online
     `<html lang="nl"><head>`,
     `<meta charset="utf-8">`,
     `<meta name="viewport" content="width=device-width,initial-scale=1">`,
-    `<title>Culture Tracker — Weekly Brand Signals</title>`,
+    `<title>Zeitfeed Weekly</title>`,
     `</head>`,
     `<body style="margin:0;padding:0;background:#fafaf7;`,
     `font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;`,
@@ -225,10 +225,10 @@ ${publicUrl ? `<p><a href="${esc(publicUrl)}">Bekijk de volledige tracker online
     `  <tr>`,
     `    <td>`,
     `      <p style="margin:0 0 4px;font-size:11px;font-weight:700;text-transform:uppercase;`,
-    `         letter-spacing:0.12em;color:#9a9a94;">Culture Tracker</p>`,
+    `         letter-spacing:0.12em;color:#9a9a94;">by Culture Tracker</p>`,
     `      <h1 style="font-family:Georgia,'Times New Roman',serif;font-size:26px;`,
     `          margin:0;letter-spacing:-0.02em;color:#111;line-height:1.2;">`,
-    `        Weekly Brand Signals</h1>`,
+    `        Zeitfeed Weekly</h1>`,
     `      <p style="margin:6px 0 0;color:#6b6b6b;font-size:13px;">`,
     `        ${esc(week)}</p>`,
     `    </td>`,
@@ -255,7 +255,7 @@ ${publicUrl ? `<p><a href="${esc(publicUrl)}">Bekijk de volledige tracker online
     // Footer
     `<tr><td style="padding:24px 0 0;border-top:1px solid #e5e5e0;">`,
     `  <p style="margin:0;font-size:11px;color:#9a9a94;line-height:1.6;">`,
-    `    Culture Tracker &middot; wekelijkse synthese via Claude AI &middot;`,
+    `    Zeitfeed Weekly &middot; wekelijkse synthese via Claude AI &middot;`,
     `    gebaseerd op ${brief.daily && brief.daily.intro ? esc(brief.daily.intro) : "RSS + Wikipedia + TikTok"}`,
     publicUrl ? `    &middot; <a href="${esc(publicUrl)}" style="color:#9a9a94;">Bekijk online &rarr;</a>` : "",
     `  </p>`,
@@ -274,7 +274,7 @@ function buildText(brief) {
     ? brief.weeklyBrandSignals.weeklyBrandSignals
     : [];
 
-  lines.push("CULTURE TRACKER — WEEKLY BRAND SIGNALS");
+  lines.push("ZEITFEED WEEKLY");
   lines.push("Week van " + weekLabel());
   lines.push("=".repeat(50));
 
@@ -328,7 +328,7 @@ async function main() {
 
   const transporter = nodemailer.createTransport({ host, port, secure, auth: { user, pass } });
 
-  const subject = "Culture Tracker — Weekly Brand Signals · " + weekLabel();
+  const subject = "Zeitfeed Weekly · " + weekLabel();
 
   console.log("→ Stuur weekly mail naar " + to + " via " + host + ":" + port);
 
