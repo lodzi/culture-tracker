@@ -224,8 +224,6 @@ ${publicUrl ? `<p><a href="${esc(publicUrl)}">Bekijk de volledige tracker online
     `  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">`,
     `  <tr>`,
     `    <td>`,
-    `      <p style="margin:0 0 4px;font-size:11px;font-weight:700;text-transform:uppercase;`,
-    `         letter-spacing:0.12em;color:#9a9a94;">by Culture Tracker</p>`,
     `      <h1 style="font-family:Georgia,'Times New Roman',serif;font-size:26px;`,
     `          margin:0;letter-spacing:-0.02em;color:#111;line-height:1.2;">`,
     `        Zeitfeed Weekly</h1>`,
