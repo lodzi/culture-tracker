@@ -323,7 +323,7 @@ function buildHTML(brief) {
     `<html lang="nl"><head>`,
     `<meta charset="utf-8">`,
     `<meta name="viewport" content="width=device-width,initial-scale=1">`,
-    `<title>Culture Tracker — ${esc(dateLabel)}</title>`,
+    `<title>Zeitfeed weekly — ${esc(dateLabel)}</title>`,
     `</head>`,
     `<body style="margin:0;padding:0;background:#fafaf7;`,
     `font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;`,
@@ -358,7 +358,7 @@ function buildHTML(brief) {
     // Footer
     `<tr><td style="padding:32px 0 0;border-top:1px solid #e5e5e0;">`,
     `  <p style="margin:0;font-size:11px;color:#9a9a94;">`,
-    `    Culture Tracker &middot; automatisch gegenereerd via Claude AI`,
+    `    Zeitfeed weekly &middot; automatisch gegenereerd via Claude AI`,
     publicUrl ? ` &middot; <a href="${esc(publicUrl)}" style="color:#9a9a94;">Bekijk online &rarr;</a>` : "",
     `  </p>`,
     `</td></tr>`,
@@ -374,7 +374,7 @@ function buildText(brief) {
   const lines = [];
   const daily  = brief.daily || {};
 
-  lines.push("CULTURE TRACKER — " + (brief.date || ""));
+  lines.push("ZEITFEED WEEKLY — " + (brief.date || ""));
   lines.push("=".repeat(50));
   if (daily.intro) { lines.push(""); lines.push(daily.intro); }
 
@@ -456,7 +456,7 @@ async function main() {
         weekday: "long", day: "numeric", month: "long",
       })
     : "";
-  const subject = "Culture Tracker" + (dateLabel ? " — " + dateLabel : "");
+  const subject = "Zeitfeed weekly" + (dateLabel ? " — " + dateLabel : "");
 
   console.log("→ Stuur mail naar " + to + " via " + host + ":" + port + " (secure=" + secure + ")");
 
