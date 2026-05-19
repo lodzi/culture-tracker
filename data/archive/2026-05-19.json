@@ -6,19 +6,113 @@
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-05-19T12:37:47.298Z",
-    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "generatedAt": "2026-05-19T12:47:19.068Z",
+    "intro": "2 categorieën · 3 trends · laatste 24u",
     "categories": [
       {
-        "id": "music",
-        "label": "Muziek",
+        "id": "culture",
+        "label": "Cultuur",
         "insights": [
           {
-            "trend": "Legacy Acts Monetize Album Anniversaries Aggressively",
-            "summary": "Hasbro's Transformers 40th-anniversary 'Reformatted' soundtrack project and Aqua's dissolution after 30 years signal that classic IP franchises are extracting maximum revenue through anniversary cycles and retrospective releases. These legacy acts leverage nostalgic fandom to justify high-friction drops and special editions.",
-            "why_it_matters": "This reflects a broader shift where catalog value and anniversary cycles matter more than new creative output—audiences are increasingly conditioned to consume cyclical re-releases, which may cannibalize space for emerging artists.",
-            "strategic_signal": "Brands should audit their own 'anniversary windows' (product launches, brand milestones) in the next 12-24 months and plan limited-edition collaborations or exclusive content drops around those dates—audiences expect orchestrated nostalgia now.",
+            "trend": "K-pop crossover consolidation via luxury design partnerships",
+            "summary": "Jung Kook designs Calvin Klein collection, ATEEZ headlines UK festival circuits, Hiroshi Fujiwara leverages K-influenced design capital. Deze artikels tonen hoe K-pop stars niet alleen muziek sappen maar volledige lifestyle/design ecosystemen worden.",
+            "why_it_matters": "K-pop transcends music genre — het is nu een design/fashion authority in mainstream luxury. Dit herdefineert wat 'cultural soft power' betekent voorbij streaming dominantie.",
+            "strategic_signal": "Voor fashion/luxury merken: K-pop talent-partnerships moeten mode design credits bevatten (niet alleen endorsement), want publiek verwacht echte creative agency. Hiroshi Fujiwara case toont dat collab-legitimacy op co-creation rust.",
             "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Deadline",
+              "GQ",
+              "IndieWire",
+              "The Hollywood Reporter",
+              "Variety",
+              "i-D"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Adam Driver and James Gray on Sneaking Out of the ‘Paper Tiger’ Cannes Premiere and How Hollywood Abuses Artists: ‘The System Is Designed to Humiliate You’",
+                "url": "https://variety.com/2026/film/news/adam-driver-james-gray-sneaking-out-paper-tiger-cannes-premiere-hollywood-abuse-1236753301/",
+                "source": "Variety",
+                "published": "2026-05-19T12:16:00.000Z"
+              },
+              {
+                "title": "Mekhi Phifer Among Cast Set For Action Thriller ‘Marx’ — Cannes",
+                "url": "https://deadline.com/2026/05/mekhi-phifer-marx-odyssey-international-1236915483/",
+                "source": "Deadline",
+                "published": "2026-05-19T11:58:08.000Z"
+              },
+              {
+                "title": "‘Unarmed Soldier,’ Biopic on Armless Cricketer Amir Hussain Lone, Lines Up India-Canada Co-Production at Cannes Market (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/markets-festivals/unarmed-soldier-india-canada-co-production-amir-hussain-lone-cannes-1236753486/",
+                "source": "Variety",
+                "published": "2026-05-19T11:43:30.000Z"
+              },
+              {
+                "title": "Yukiko Sode on Cannes Un Certain Regard Title ‘All the Lovers in the Night’: ‘Two People on the Margins of the World’",
+                "url": "https://variety.com/2026/film/festivals/yukiko-sode-all-the-lovers-in-the-night-cannes-1236753470/",
+                "source": "Variety",
+                "published": "2026-05-19T11:31:16.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Hyper-collaboration threatens solo festival identity",
+            "summary": "BTS + Madonna + Shakira moeten 11 minuten World Cup halftime show delen. Dit comprimering van superstar lineups suggereert dat festivals budget-optimaliseren door mega-acts te 'stack' ipv. to build dedicated segments.",
+            "why_it_matters": "Festivalgoers krijgen snackified content in plaats van experiential depth. Dit dreigt fan loyalty te eroderen als halftime shows meer logistiek puzzel dan moment voelen.",
+            "strategic_signal": "Merken die World Cup/festival sponsorships overwegen: onderhandel om *exclusive stage time* ipv. shared slots. Hyper-collabs watteren artistic differentiation — brands hebben hier leverage nodig voor brand safety.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Dazed",
+              "IndieWire",
+              "Pitchfork News",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Luke Kirby Joins ‘Law & Order Toronto: Criminal Intent’ in Season 4, Aden Young Leaving",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/luke-kirby-law-amp-order-toronto-criminal-intent-i-1236600906/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-05-19T12:40:19.000Z"
+              },
+              {
+                "title": "‘Law & Order Toronto: Criminal Intent’ Adds Luke Kirby to Season 4, Aden Young Exits Series",
+                "url": "https://variety.com/2026/tv/news/law-order-toronto-criminal-intent-luke-kirby-aden-young-1236752928/",
+                "source": "Variety",
+                "published": "2026-05-19T12:00:00.000Z"
+              },
+              {
+                "title": "Lola Young to Return to All Things Go NY One Year After On-Stage Collapse Along With Zara Larsson, Brandi Carlile",
+                "url": "https://www.billboard.com/music/concerts/lola-young-return-all-things-go-ny-collapse-2026-lineup-1236251511/",
+                "source": "Billboard",
+                "published": "2026-05-19T11:39:47.000Z"
+              },
+              {
+                "title": "Kristina Rozhkova’s uncanny photos of young Russians",
+                "url": "https://www.dazeddigital.com/art-photography/article/70274/1/kristina-rozhkova-unbewitched-photo-book-russia-united-vagabonds?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=kristina-rozhkova-s-uncanny-photos-of-young-russians",
+                "source": "Dazed",
+                "published": "2026-05-19T11:36:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Cannes 2026 platformt artist dissent en co-production diplomacy",
+            "summary": "Cannes 2026 functioneert als cruciale marktplaats voor internationale co-productions (India-Canada cricket biopic, transatlantische arthouse) terwijl A-list directors als Adam Driver en Nicolas Winding Refn expliciet tegen Hollywood systeem tekeer gaan. Dit signaleert shift van filmfestivals als pure prestige venues naar policy/labor critique platforms.",
+            "why_it_matters": "Festivals worden instrumenteel voor artistieke activism en geopolitieke production deals — niet zomaar content launches. Dit heroriënteert hoe merken film partnerships framen.",
+            "strategic_signal": "Brands die film ambassadorships plannen (2026-2027): align met regisseurs/actors die Cannes artist-rights rhetoric onderschrijven; vermijd performatieve 'prestige' partnerships zonder materiële steun aan fair labor practices.",
+            "trajectory": "opkomend",
             "daysActive": 2,
             "isNew": false,
             "sources": [
@@ -41,200 +135,32 @@
             "trending": true,
             "articles": [
               {
+                "title": "Eurovisiesongfestival 2026",
+                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-05-19T12:46:56.352Z"
+              },
+              {
+                "title": "Wereldkampioenschap voetbal 2026",
+                "url": "https://nl.wikipedia.org/wiki/Wereldkampioenschap_voetbal_2026",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-05-19T12:46:56.352Z"
+              },
+              {
                 "title": "Eurovision Song Contest 2026",
                 "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2026",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T12:37:17.000Z"
+                "published": "2026-05-19T12:46:56.112Z"
               },
               {
                 "title": "Deaths in 2026",
                 "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T12:37:17.000Z"
-              },
-              {
-                "title": "Michael (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T12:37:17.000Z"
-              },
-              {
-                "title": "2026 FIFA World Cup",
-                "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T12:37:17.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "K-pop Stars Formalize Cross-Category Design Authority",
-            "summary": "Jung Kook's official Calvin Klein fashion line launch and ATEEZ's headline booking at BST Hyde Park demonstrate that K-pop idols are no longer featured artists but creative directors controlling design, curation, and cultural capital across fashion, music, and festival programming. This moves beyond endorsement into authorship.",
-            "why_it_matters": "K-pop's structural model of fan co-creation and idol parasocial intimacy has normalized a new artist archetype: one who controls multiple mediums simultaneously. This challenges traditional siloed creative hierarchies in Western entertainment.",
-            "strategic_signal": "When briefing creators or talent partnerships, ask explicitly whether the talent wants 'voice' in product design or curation—K-pop-influenced audiences now expect artists to have visible creative control, not just visibility.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Eurogamer",
-              "Kotaku",
-              "NME",
-              "Polygon",
-              "Quartz",
-              "Yanko Design"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "The most relaxing ‘Minecraft’-style game soundtracks",
-                "url": "https://www.nme.com/features/gaming-features/minecraft-soundtrack-relaxing-game-music-undertale-celeste-final-fantasy-3946041?utm_source=rss&utm_medium=rss&utm_campaign=minecraft-soundtrack-relaxing-game-music-undertale-celeste-final-fantasy",
-                "source": "NME",
-                "published": "2026-05-19T11:44:21.000Z"
-              },
-              {
-                "title": "Nintendo Announces Completely Bonkers New Game That Turns Your Photos Into Minigames",
-                "url": "https://kotaku.com/nintendo-pictonico-mobile-game-wario-ware-freemium-2000697363",
-                "source": "Kotaku",
-                "published": "2026-05-19T11:24:21.000Z"
-              },
-              {
-                "title": "Microsoft launches Xbox Player Voice portal to listen closely to player feedback, fans immediately ask for \"great game exclusives\"",
-                "url": "https://www.eurogamer.net/xbox-player-voice-portal",
-                "source": "Eurogamer",
-                "published": "2026-05-19T11:15:01.000Z"
-              },
-              {
-                "title": "Kit Harington defends ‘Game Of Thrones’ creators over divisive final season: “What they did was the right thing”",
-                "url": "https://www.nme.com/news/tv/kit-harington-defends-game-of-thrones-creators-over-divisive-final-season-what-they-did-was-the-right-thing-3946183?utm_source=rss&utm_medium=rss&utm_campaign=kit-harington-defends-game-of-thrones-creators-over-divisive-final-season-what-they-did-was-the-right-thing",
-                "source": "NME",
-                "published": "2026-05-19T10:13:33.000Z"
+                "published": "2026-05-19T12:46:56.112Z"
               }
             ]
           }
         ]
-      },
-      {
-        "id": "film",
-        "label": "Film & TV",
-        "insights": [
-          {
-            "trend": "Cannes 2026: Artistic Authenticity as Crisis Response",
-            "summary": "Adam Driver's candid critique of 'system humiliation,' Nicolas Winding Refn's emotional vulnerability on mortality, and multiple international co-productions (India-Canada biopic, Japanese introspective drama) show Cannes 2026 prioritizing raw emotional authenticity and geopolitical collaboration over spectacle. Directors are openly questioning institutional cruelty.",
-            "why_it_matters": "Post-awards-season fatigue and labor discourse (the Live Nation DOJ settlement also appears in this window) are forcing prestige film culture to reckon with sustainability and artist dignity. This signals a potential retreat from industrial excess toward smaller, more intentional projects.",
-            "strategic_signal": "For premium film brands or luxury goods tied to cinema: emphasize slow production values, international solidarity, and artist welfare in your storytelling—Cannes audiences (and filmmakers) are now attuned to ethical production narratives.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Billboard",
-              "Business of Fashion",
-              "Consequence",
-              "Design Boom",
-              "Dezeen",
-              "Film Comment",
-              "GQ",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
-              "Sneaker News",
-              "The Verge",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Eurovision Song Contest 2026",
-                "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T12:37:17.000Z"
-              },
-              {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T12:37:17.000Z"
-              },
-              {
-                "title": "Michael (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T12:37:17.000Z"
-              },
-              {
-                "title": "2026 FIFA World Cup",
-                "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T12:37:17.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "gaming",
-        "label": "Gaming",
-        "insights": [
-          {
-            "trend": "Nintendo's Chaotic Creator-First Playfulness Dominates",
-            "summary": "Pictonico! (photo-to-minigame), relaxing Minecraft soundtracks, and Xbox's new Player Voice portal all converge on a single direction: studios are deprioritizing polished AAA ambition in favor of chaotic, participatory, user-generated content experiences. Nintendo leads this shift toward joy over perfection.",
-            "why_it_matters": "This marks a cultural rejection of 'games as service' fatigue—audiences want playfulness, experimentation, and visible creative voice from studios, not endless live-service grind. It's aesthetically aligned with the broader anti-perfectionism trend in internet culture.",
-            "strategic_signal": "Brands collaborating with gaming studios or targeting gamer audiences should lean into 'unpolished authenticity' and invite participatory creative input—avoid hyper-finished marketing that reads as corporate. Show the messy, playful ideation.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Eurogamer",
-              "Kotaku",
-              "NME",
-              "Polygon",
-              "Quartz",
-              "Yanko Design"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "The most relaxing ‘Minecraft’-style game soundtracks",
-                "url": "https://www.nme.com/features/gaming-features/minecraft-soundtrack-relaxing-game-music-undertale-celeste-final-fantasy-3946041?utm_source=rss&utm_medium=rss&utm_campaign=minecraft-soundtrack-relaxing-game-music-undertale-celeste-final-fantasy",
-                "source": "NME",
-                "published": "2026-05-19T11:44:21.000Z"
-              },
-              {
-                "title": "Nintendo Announces Completely Bonkers New Game That Turns Your Photos Into Minigames",
-                "url": "https://kotaku.com/nintendo-pictonico-mobile-game-wario-ware-freemium-2000697363",
-                "source": "Kotaku",
-                "published": "2026-05-19T11:24:21.000Z"
-              },
-              {
-                "title": "Microsoft launches Xbox Player Voice portal to listen closely to player feedback, fans immediately ask for \"great game exclusives\"",
-                "url": "https://www.eurogamer.net/xbox-player-voice-portal",
-                "source": "Eurogamer",
-                "published": "2026-05-19T11:15:01.000Z"
-              },
-              {
-                "title": "Kit Harington defends ‘Game Of Thrones’ creators over divisive final season: “What they did was the right thing”",
-                "url": "https://www.nme.com/news/tv/kit-harington-defends-game-of-thrones-creators-over-divisive-final-season-what-they-did-was-the-right-thing-3946183?utm_source=rss&utm_medium=rss&utm_campaign=kit-harington-defends-game-of-thrones-creators-over-divisive-final-season-what-they-did-was-the-right-thing",
-                "source": "NME",
-                "published": "2026-05-19T10:13:33.000Z"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "crossCategory": {
-    "generatedAt": "2026-05-19T12:37:50.251Z",
-    "megaTrends": [
-      {
-        "trend": "Legacy Icons Weaponize Cultural Authority",
-        "summary": "Gevestigde creatieven (muziekgroepen, Nintendo's klassieke IP) gebruiken hun historische legitimiteit om nieuwe culturele ruimten in te nemen. K-pop sterren claimmen designautoriteit, legacy acts monetariseren albumgeschiedenis, en Nintendo dicteert creator-cultuur—allemaal door bestaande cult-status als startpunt.",
-        "why_it_matters": "Dit signaleert een shift van disruption naar consolidation: wie al cultureel significant was, vergroot hun grip op meerdere domains tegelijk in plaats van nieuwkomers die markten opbreken.",
-        "categories": [
-          "music",
-          "gaming"
-        ],
-        "strength": "matig"
       }
     ]
   },
