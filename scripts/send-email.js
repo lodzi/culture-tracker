@@ -336,10 +336,8 @@ function buildHTML(brief) {
 
     // Header
     `<tr><td style="padding:0 0 20px;border-bottom:2px solid #111;">`,
-    `  <h1 style="font-family:Georgia,'Times New Roman',serif;font-size:28px;`,
-    `      margin:0;letter-spacing:-0.02em;color:#111;">Culture Tracker</h1>`,
     dateLabel
-      ? `  <p style="margin:6px 0 0;color:#6b6b6b;font-size:13px;">${esc(dateLabel)} &middot; dagelijkse trendsignalen</p>`
+      ? `  <p style="margin:0;color:#6b6b6b;font-size:13px;">${esc(dateLabel)} &middot; dagelijkse trendsignalen</p>`
       : "",
     `</td></tr>`,
 
@@ -463,7 +461,7 @@ async function main() {
   console.log("→ Stuur mail naar " + to + " via " + host + ":" + port + " (secure=" + secure + ")");
 
   const info = await transporter.sendMail({
-    from, to, subject,
+    from: '"Zeitfeed weekly" <' + from + ">", to, subject,
     text: buildText(brief),
     html: buildHTML(brief),
   });
