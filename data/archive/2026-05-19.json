@@ -6,23 +6,24 @@
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-05-19T09:56:05.633Z",
-    "intro": "3 categorieën · 5 trends · laatste 24u",
+    "generatedAt": "2026-05-19T12:37:47.298Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
     "categories": [
       {
         "id": "music",
         "label": "Muziek",
         "insights": [
           {
-            "trend": "Megastar Spectacle as Album Launch Infrastructure",
-            "summary": "Drake's $15M+ CN Tower projection stunt in Toronto functions as the capstone marketing event for a three-album simultaneous release (Iceman, Habibti, Maid of the Mist). The spectacle signals a shift from traditional rollout mechanics toward immersive, location-based experiences that generate global media coverage.",
-            "why_it_matters": "Mega-budget visual stunts are becoming mandatory for top-tier album launches—they've replaced traditional singles + music video strategies, signaling that recorded music alone no longer anchors fan engagement or streaming metrics.",
-            "strategic_signal": "For music marketing teams: budget for location-specific, shareable spectacle (venue projections, city takeovers) as a *required* line item, not optional—allocate 30-40% of campaign spend to a single event that generates earned media vs. paid placements.",
+            "trend": "Legacy Acts Monetize Album Anniversaries Aggressively",
+            "summary": "Hasbro's Transformers 40th-anniversary 'Reformatted' soundtrack project and Aqua's dissolution after 30 years signal that classic IP franchises are extracting maximum revenue through anniversary cycles and retrospective releases. These legacy acts leverage nostalgic fandom to justify high-friction drops and special editions.",
+            "why_it_matters": "This reflects a broader shift where catalog value and anniversary cycles matter more than new creative output—audiences are increasingly conditioned to consume cyclical re-releases, which may cannibalize space for emerging artists.",
+            "strategic_signal": "Brands should audit their own 'anniversary windows' (product launches, brand milestones) in the next 12-24 months and plan limited-edition collaborations or exclusive content drops around those dates—audiences expect orchestrated nostalgia now.",
             "trajectory": "piekend",
             "daysActive": 2,
             "isNew": false,
             "sources": [
               "Billboard",
+              "Business of Fashion",
               "Consequence",
               "Design Boom",
               "Dezeen",
@@ -31,9 +32,8 @@
               "IndieWire",
               "NME",
               "Pitchfork News",
-              "Quartz",
               "Sneaker News",
-              "Variety",
+              "The Verge",
               "Wikipedia Trending EN",
               "Wikipedia Trending NL",
               "Wired"
@@ -41,130 +41,72 @@
             "trending": true,
             "articles": [
               {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-19T09:55:34.157Z"
-              },
-              {
-                "title": "Wereldkampioenschap voetbal 2026",
-                "url": "https://nl.wikipedia.org/wiki/Wereldkampioenschap_voetbal_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-19T09:55:34.157Z"
-              },
-              {
                 "title": "Eurovision Song Contest 2026",
                 "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2026",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T09:55:33.884Z"
+                "published": "2026-05-19T12:37:17.000Z"
               },
               {
                 "title": "Deaths in 2026",
                 "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T09:55:33.884Z"
+                "published": "2026-05-19T12:37:17.000Z"
+              },
+              {
+                "title": "Michael (2026 film)",
+                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-05-19T12:37:17.000Z"
+              },
+              {
+                "title": "2026 FIFA World Cup",
+                "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-05-19T12:37:17.000Z"
               }
             ]
           },
           {
-            "trend": "K-pop Acts Consolidate as Festival Anchor Headliners",
-            "summary": "ATEEZ confirmed as headliner for BST Hyde Park (their only U.K. date), marking K-pop acts as legitimate main-stage earners at major European festivals alongside legacy Western pop acts. This follows years of K-pop occupying secondary slots.",
-            "why_it_matters": "K-pop groups are now sufficiently bankable to anchor premium festival lineups in Western markets, signaling structural parity with Western pop stars and a permanent shift in how festival programmers rank global appeal.",
-            "strategic_signal": "Brands targeting 18-28 demographics at European festivals should pivot sponsorship strategy: K-pop headliners now draw comparable or superior engagement to legacy Western acts—position youth-skewed products accordingly.",
+            "trend": "K-pop Stars Formalize Cross-Category Design Authority",
+            "summary": "Jung Kook's official Calvin Klein fashion line launch and ATEEZ's headline booking at BST Hyde Park demonstrate that K-pop idols are no longer featured artists but creative directors controlling design, curation, and cultural capital across fashion, music, and festival programming. This moves beyond endorsement into authorship.",
+            "why_it_matters": "K-pop's structural model of fan co-creation and idol parasocial intimacy has normalized a new artist archetype: one who controls multiple mediums simultaneously. This challenges traditional siloed creative hierarchies in Western entertainment.",
+            "strategic_signal": "When briefing creators or talent partnerships, ask explicitly whether the talent wants 'voice' in product design or curation—K-pop-influenced audiences now expect artists to have visible creative control, not just visibility.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Billboard",
-              "Colossal",
-              "Design Boom",
-              "Dezeen",
-              "Fast Company"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "inside tilda swinton’s ‘ongoing’ world of ghosts, garments, and artistic fellowship",
-                "url": "https://www.designboom.com/art/tilda-swinton-ongoing-world-ghosts-garments-artistic-fellowship-onassis-ready-interview/",
-                "source": "Design Boom",
-                "published": "2026-05-19T08:30:15.000Z"
-              },
-              {
-                "title": "The world is not digital—and that’s why software won’t eat it",
-                "url": "https://www.fastcompany.com/91541842/the-world-is-not-digital-and-thats-why-software-wont-eat-it",
-                "source": "Fast Company",
-                "published": "2026-05-19T08:00:00.000Z"
-              },
-              {
-                "title": "How Can BTS, Madonna & Shakira All Squeeze Into an 11-Minute World Cup Halftime Show?",
-                "url": "https://www.billboard.com/media/podcasts/bts-madonna-shakira-world-cup-halftime-set-time-pop-shop-podcast-1236251401/",
-                "source": "Billboard",
-                "published": "2026-05-19T01:08:40.000Z"
-              },
-              {
-                "title": "Dezeen teams up with Villeroy & Boch, Bisley, Andreu World and more during Clerkenwell Design Week",
-                "url": "https://www.dezeen.com/2026/05/18/clerkenwell-design-week-2026-talks-dezeen-villeroy-boch-andreu-world/",
-                "source": "Dezeen",
-                "published": "2026-05-18T15:00:25.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "fashion",
-        "label": "Fashion",
-        "insights": [
-          {
-            "trend": "Designer-Athletes Cross-Pollinate Sports & Streetwear Credibility",
-            "summary": "Salehe Bembury (prolific sneaker designer) shifts from footwear into World Cup football kit design for PUMA, creating 'uber-colorful' technical gear. This signals high-profile creatives moving from sneaker/archive gatekeeping into performance sportswear, collapsing the boundary between luxury design and athlete equipment.",
-            "why_it_matters": "Streetwear-credible designers are now legitimizing sports categories as design canvases—moving away from heritage/nostalgia into functional innovation—which repositions athletes as cultural arbiters rather than brand ambassadors.",
-            "strategic_signal": "Sportswear and athletic brands: recruit independent design voices (not in-house teams) for kit/equipment lines; the cultural clout of a Bembury-endorsed World Cup uniform translates to streetwear credibility and secondary market resale value.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Billboard",
-              "Consequence",
-              "Design Boom",
-              "Dezeen",
-              "Film Comment",
-              "GQ",
-              "IndieWire",
+              "Eurogamer",
+              "Kotaku",
               "NME",
-              "Pitchfork News",
+              "Polygon",
               "Quartz",
-              "Sneaker News",
-              "Variety",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
+              "Yanko Design"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-19T09:55:34.157Z"
+                "title": "The most relaxing ‘Minecraft’-style game soundtracks",
+                "url": "https://www.nme.com/features/gaming-features/minecraft-soundtrack-relaxing-game-music-undertale-celeste-final-fantasy-3946041?utm_source=rss&utm_medium=rss&utm_campaign=minecraft-soundtrack-relaxing-game-music-undertale-celeste-final-fantasy",
+                "source": "NME",
+                "published": "2026-05-19T11:44:21.000Z"
               },
               {
-                "title": "Wereldkampioenschap voetbal 2026",
-                "url": "https://nl.wikipedia.org/wiki/Wereldkampioenschap_voetbal_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-19T09:55:34.157Z"
+                "title": "Nintendo Announces Completely Bonkers New Game That Turns Your Photos Into Minigames",
+                "url": "https://kotaku.com/nintendo-pictonico-mobile-game-wario-ware-freemium-2000697363",
+                "source": "Kotaku",
+                "published": "2026-05-19T11:24:21.000Z"
               },
               {
-                "title": "Eurovision Song Contest 2026",
-                "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T09:55:33.884Z"
+                "title": "Microsoft launches Xbox Player Voice portal to listen closely to player feedback, fans immediately ask for \"great game exclusives\"",
+                "url": "https://www.eurogamer.net/xbox-player-voice-portal",
+                "source": "Eurogamer",
+                "published": "2026-05-19T11:15:01.000Z"
               },
               {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T09:55:33.884Z"
+                "title": "Kit Harington defends ‘Game Of Thrones’ creators over divisive final season: “What they did was the right thing”",
+                "url": "https://www.nme.com/news/tv/kit-harington-defends-game-of-thrones-creators-over-divisive-final-season-what-they-did-was-the-right-thing-3946183?utm_source=rss&utm_medium=rss&utm_campaign=kit-harington-defends-game-of-thrones-creators-over-divisive-final-season-what-they-did-was-the-right-thing",
+                "source": "NME",
+                "published": "2026-05-19T10:13:33.000Z"
               }
             ]
           }
@@ -175,15 +117,16 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Cannes Market as Cross-Continental Production Alliance Hub",
-            "summary": "Multiple reports from Cannes Film Market 2026 document European (France, Bulgaria) and Latin American producers forming co-production partnerships on feature films—Lilith Films backing Chilean material, Cannes residencies enabling Brazilian directors to expand shorts into features with European funding. This reflects institutional support for South-North creative pipelines.",
-            "why_it_matters": "Cannes is formalizing as a matchmaking infrastructure for non-Anglo productions, reducing reliance on U.S. distributors and enabling direct European-Latin American capital flow—a structural shift in global film financing.",
-            "strategic_signal": "For production companies and streamers seeking non-English content: Cannes Market now functions as the primary deal-making venue for European-backed Latin American and Asian cinema—attend market sessions and scout co-production opportunities rather than waiting for acquisitions post-festival.",
+            "trend": "Cannes 2026: Artistic Authenticity as Crisis Response",
+            "summary": "Adam Driver's candid critique of 'system humiliation,' Nicolas Winding Refn's emotional vulnerability on mortality, and multiple international co-productions (India-Canada biopic, Japanese introspective drama) show Cannes 2026 prioritizing raw emotional authenticity and geopolitical collaboration over spectacle. Directors are openly questioning institutional cruelty.",
+            "why_it_matters": "Post-awards-season fatigue and labor discourse (the Live Nation DOJ settlement also appears in this window) are forcing prestige film culture to reckon with sustainability and artist dignity. This signals a potential retreat from industrial excess toward smaller, more intentional projects.",
+            "strategic_signal": "For premium film brands or luxury goods tied to cinema: emphasize slow production values, international solidarity, and artist welfare in your storytelling—Cannes audiences (and filmmakers) are now attuned to ethical production narratives.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
               "Billboard",
+              "Business of Fashion",
               "Consequence",
               "Design Boom",
               "Dezeen",
@@ -192,9 +135,8 @@
               "IndieWire",
               "NME",
               "Pitchfork News",
-              "Quartz",
               "Sneaker News",
-              "Variety",
+              "The Verge",
               "Wikipedia Trending EN",
               "Wikipedia Trending NL",
               "Wired"
@@ -202,72 +144,78 @@
             "trending": true,
             "articles": [
               {
-                "title": "Eurovisiesongfestival 2026",
-                "url": "https://nl.wikipedia.org/wiki/Eurovisiesongfestival_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-19T09:55:34.157Z"
-              },
-              {
-                "title": "Wereldkampioenschap voetbal 2026",
-                "url": "https://nl.wikipedia.org/wiki/Wereldkampioenschap_voetbal_2026",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-05-19T09:55:34.157Z"
-              },
-              {
                 "title": "Eurovision Song Contest 2026",
                 "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2026",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T09:55:33.884Z"
+                "published": "2026-05-19T12:37:17.000Z"
               },
               {
                 "title": "Deaths in 2026",
                 "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-05-19T09:55:33.884Z"
+                "published": "2026-05-19T12:37:17.000Z"
+              },
+              {
+                "title": "Michael (2026 film)",
+                "url": "https://en.wikipedia.org/wiki/Michael_(2026_film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-05-19T12:37:17.000Z"
+              },
+              {
+                "title": "2026 FIFA World Cup",
+                "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-05-19T12:37:17.000Z"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
           {
-            "trend": "Virtual Production & Hyperlocal Horror as Emerging Market Differentiator",
-            "summary": "Indonesian virtual production horror film 'Whispers of Fatimah' (Mandela Pictures, Oceanus Media Global) is launching imagery at Cannes, signaling Southeast Asian production companies leveraging virtual production tech and regional folklore as globally competitive genre content.",
-            "why_it_matters": "Southeast Asian studios are no longer content suppliers but creators of IP-ready genre cinema, positioning local cultural narratives (Indonesian village mythology) as premium festival content—this fractures Western horror gatekeeping.",
-            "strategic_signal": "Streaming platforms and genre distributors: scout Southeast Asian virtual production horror as a cost-efficient alternative to U.S. genre content with differentiated cultural texture—Cannes 2026 is the signal that regional horror is now festival-viable.",
+            "trend": "Nintendo's Chaotic Creator-First Playfulness Dominates",
+            "summary": "Pictonico! (photo-to-minigame), relaxing Minecraft soundtracks, and Xbox's new Player Voice portal all converge on a single direction: studios are deprioritizing polished AAA ambition in favor of chaotic, participatory, user-generated content experiences. Nintendo leads this shift toward joy over perfection.",
+            "why_it_matters": "This marks a cultural rejection of 'games as service' fatigue—audiences want playfulness, experimentation, and visible creative voice from studios, not endless live-service grind. It's aesthetically aligned with the broader anti-perfectionism trend in internet culture.",
+            "strategic_signal": "Brands collaborating with gaming studios or targeting gamer audiences should lean into 'unpolished authenticity' and invite participatory creative input—avoid hyper-finished marketing that reads as corporate. Show the messy, playful ideation.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Deadline",
-              "GQ",
-              "IndieWire",
-              "The Hollywood Reporter",
-              "Variety",
-              "i-D"
+              "Eurogamer",
+              "Kotaku",
+              "NME",
+              "Polygon",
+              "Quartz",
+              "Yanko Design"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "‘The Unknown’ Director Arthur Harari Stands By Signing Of Anti-Bolloré Letter But Says Has Full Respect For Canal Plus Teams – Cannes",
-                "url": "https://deadline.com/2026/05/arthur-harari-anti-bollore-letter-respect-canal-plus-1236915358/",
-                "source": "Deadline",
-                "published": "2026-05-19T09:22:47.000Z"
+                "title": "The most relaxing ‘Minecraft’-style game soundtracks",
+                "url": "https://www.nme.com/features/gaming-features/minecraft-soundtrack-relaxing-game-music-undertale-celeste-final-fantasy-3946041?utm_source=rss&utm_medium=rss&utm_campaign=minecraft-soundtrack-relaxing-game-music-undertale-celeste-final-fantasy",
+                "source": "NME",
+                "published": "2026-05-19T11:44:21.000Z"
               },
               {
-                "title": "Konstantina Kotzamani’s Debut Feature ‘Titanic Ocean’ Weaves Greek Myth Into Mermaid School at Cannes Un Certain Regard",
-                "url": "https://variety.com/2026/film/global/titanic-ocean-cannes-konstantina-kotzamani-mermaid-1236753342/",
-                "source": "Variety",
-                "published": "2026-05-19T08:58:32.000Z"
+                "title": "Nintendo Announces Completely Bonkers New Game That Turns Your Photos Into Minigames",
+                "url": "https://kotaku.com/nintendo-pictonico-mobile-game-wario-ware-freemium-2000697363",
+                "source": "Kotaku",
+                "published": "2026-05-19T11:24:21.000Z"
               },
               {
-                "title": "Brazilian Helmer Laís Santos Araújo Expands Berlinale-Winning Short ‘Infantaria’ Into Feature, Backed by Cannes Residency, CNC Grant",
-                "url": "https://variety.com/2026/film/global/lais-santos-araujo-infantaria-residence-cnc-aguda-cinema-1236752431/",
-                "source": "Variety",
-                "published": "2026-05-19T08:38:22.000Z"
+                "title": "Microsoft launches Xbox Player Voice portal to listen closely to player feedback, fans immediately ask for \"great game exclusives\"",
+                "url": "https://www.eurogamer.net/xbox-player-voice-portal",
+                "source": "Eurogamer",
+                "published": "2026-05-19T11:15:01.000Z"
               },
               {
-                "title": "France’s Lilith Films Boards Paulina García-Led Chilean Pic ‘A Woman Wants to Die’ at Cannes (EXCLUSIVE)",
-                "url": "https://variety.com/2026/film/global/paulina-garcia-constanza-figari-lilith-films-nina-nino-1236753147/",
-                "source": "Variety",
-                "published": "2026-05-19T08:23:36.000Z"
+                "title": "Kit Harington defends ‘Game Of Thrones’ creators over divisive final season: “What they did was the right thing”",
+                "url": "https://www.nme.com/news/tv/kit-harington-defends-game-of-thrones-creators-over-divisive-final-season-what-they-did-was-the-right-thing-3946183?utm_source=rss&utm_medium=rss&utm_campaign=kit-harington-defends-game-of-thrones-creators-over-divisive-final-season-what-they-did-was-the-right-thing",
+                "source": "NME",
+                "published": "2026-05-19T10:13:33.000Z"
               }
             ]
           }
@@ -276,16 +224,15 @@
     ]
   },
   "crossCategory": {
-    "generatedAt": "2026-05-19T09:56:08.630Z",
+    "generatedAt": "2026-05-19T12:37:50.251Z",
     "megaTrends": [
       {
-        "trend": "Celebrity Capital Structures Entertainment Infrastructure",
-        "summary": "Megastars en designer-athletes fungeren als anchors voor grotere ecosystemen: in muziek worden albums gelanceerd via spectaculaire events, in fashion legitimeren atleten streetwear-credibiliteit, en in film gebruiken producenten lokale partnerships. Celebrity wordt niet meer alleen content, maar bouwsteen van distributie en productie.",
-        "why_it_matters": "Dit wijst op een verschuiving van passieve fanbases naar celebrity-als-operationeel-middel: sterren structureren hoe content wordt gemaakt, verdeeld en gemonetiseerd.",
+        "trend": "Legacy Icons Weaponize Cultural Authority",
+        "summary": "Gevestigde creatieven (muziekgroepen, Nintendo's klassieke IP) gebruiken hun historische legitimiteit om nieuwe culturele ruimten in te nemen. K-pop sterren claimmen designautoriteit, legacy acts monetariseren albumgeschiedenis, en Nintendo dicteert creator-cultuur—allemaal door bestaande cult-status als startpunt.",
+        "why_it_matters": "Dit signaleert een shift van disruption naar consolidation: wie al cultureel significant was, vergroot hun grip op meerdere domains tegelijk in plaats van nieuwkomers die markten opbreken.",
         "categories": [
           "music",
-          "fashion",
-          "film"
+          "gaming"
         ],
         "strength": "matig"
       }
