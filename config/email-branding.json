@@ -2,7 +2,7 @@
   "_comment": "Pas hier je eigen branding aan voor de wekelijkse e-mail.",
 
   "brandName":       "Zeitfeed Weekly",
-  "tagline":         "Culturele trends voor merkstrategen",
+  "tagline":         "Culturele trends voor marketeers",
 
   "accentColor":     "#111111",
   "accentColorAlt":  "#d4600a",
@@ -21,5 +21,5 @@
   "logoWidth":       "120",
   "logoAlt":         "",
 
-  "footerText":      "Wekelijkse synthese via Claude AI"
+  "footerText":      "gebracht door <a href='https://www.thisisdefiant.com'>Defiant</a>" 
 }
