@@ -1,0 +1,25 @@
+{
+  "_comment": "Pas hier je eigen branding aan voor de wekelijkse e-mail.",
+
+  "brandName":       "Zeitfeed Weekly",
+  "tagline":         "Culturele trends voor merkstrategen",
+
+  "accentColor":     "#111111",
+  "accentColorAlt":  "#d4600a",
+
+  "backgroundColor": "#fafaf7",
+  "cardBackground":  "#ffffff",
+  "cardBorder":      "#e5e5e0",
+
+  "headingFont":     "Georgia, 'Times New Roman', serif",
+  "bodyFont":        "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+
+  "categoryPillBg":    "#ede9ff",
+  "categoryPillColor": "#4a2eb5",
+
+  "logoUrl":         "",
+  "logoWidth":       "120",
+  "logoAlt":         "",
+
+  "footerText":      "Wekelijkse synthese via Claude AI"
+}

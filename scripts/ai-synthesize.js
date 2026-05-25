@@ -603,18 +603,21 @@ async function synthesizeWeeklyBrandSignals(client, daily, crossCategory, weekly
 
 Hieronder staan alle culturele trendsignalen: dagelijkse signals, cross-categorie patronen en wekelijkse ontwikkelingen.
 
-Kies de 3 MEEST RELEVANTE TRENDS voor merkstrategen. Selectiecriteria (in volgorde van belang):
-1. Sterkste culturele momentum (cross-categorie > weekpatroon > dagelijks)
-2. Concrete bruikbaarheid voor merken die actief zijn in Belgische en internationale cultuur
+Kies precies 3 trends, ELK UIT EEN ANDERE CATEGORIE. Dit is een harde eis: de 3 geselecteerde trends moeten elk een verschillende category-waarde hebben. Zo biedt de e-mail altijd iets voor elke lezer, ongeacht hun domein.
+
+Kies de categorieën zo dat ze de breedte van het culturele landschap dekken — combineer bij voorkeur een visueel domein (art/fashion/film), een digitaal domein (internet/gaming/trends) en een geluidsdomein (music/culture/lokaal), maar laat de kwaliteit van het trendsignaal altijd primeren.
+
+Selectiecriteria per trend (in volgorde van belang):
+1. Sterkste culturele momentum in die categorie (cross-categorie > weekpatroon > dagelijks)
+2. Concrete bruikbaarheid voor merken actief in Belgische en internationale cultuur
 3. Eigenheid — vermijd clichés, kies trends die echt iets zeggen
 
 Geef voor elke trend:
 - trend: de naam (4-6 woorden, aantrekkelijk en specifiek)
-- category: de categorie of "cross-categorie"
+- category: de categorie (bv. "music", "fashion", "art", "internet", "film", "gaming", "culture", "trends", "lokaal")
 - what_is_happening: 2 zinnen — wat speelt er precies, wie is erbij betrokken?
 - why_it_matters_for_brands: 1 scherpe zin — waarom is dit strategisch relevant voor merken?
 - what_brands_can_do: array van precies 3 concrete, toepasbare acties of lessen (elk max. 25 woorden, begin met een werkwoord)
-- urgency: "nu" (deze week) | "binnenkort" (komende 1-3 maanden) | "op de radar" (lange termijn)
 
 Antwoord ALLEEN met JSON:
 {
@@ -624,8 +627,7 @@ Antwoord ALLEEN met JSON:
       "category": "...",
       "what_is_happening": "...",
       "why_it_matters_for_brands": "...",
-      "what_brands_can_do": ["...", "...", "..."],
-      "urgency": "nu"
+      "what_brands_can_do": ["...", "...", "..."]
     }
   ]
 }
@@ -642,12 +644,30 @@ ${JSON.stringify(allInsights, null, 2)}`;
 
   try {
     const result = parseAIJson(msg.content[0].text);
-    const signals = (result.weeklyBrandSignals || []).filter(function (s) {
-      return s.trend && s.what_is_happening && Array.isArray(s.what_brands_can_do);
-    }).slice(0, 3);
+
+    // Valideer: filter onvolledige signals + zorg voor unieke categorieën
+    const seenCats = new Set();
+    const signals = (result.weeklyBrandSignals || [])
+      .filter(function (s) {
+        return s.trend && s.what_is_happening && Array.isArray(s.what_brands_can_do);
+      })
+      .filter(function (s) {
+        const cat = (s.category || "").toLowerCase();
+        if (seenCats.has(cat)) {
+          console.log("  ⚠ Dubbele categorie '" + cat + "' overgeslagen.");
+          return false;
+        }
+        seenCats.add(cat);
+        return true;
+      })
+      .slice(0, 3);
+
     if (signals.length === 0) {
       console.log("  Geen bruikbare brand signals gegenereerd.");
       return null;
+    }
+    if (signals.length < 3) {
+      console.log("  ⚠ Slechts " + signals.length + " unieke categorieën — overweeg meer bronnen toe te voegen.");
     }
     return {
       generatedAt:       new Date().toISOString(),
