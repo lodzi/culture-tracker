@@ -6,287 +6,183 @@
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-06-02T10:45:20.457Z",
-    "intro": "4 categorieën · 7 trends · laatste 24u",
+    "generatedAt": "2026-06-02T20:11:26.292Z",
+    "intro": "2 categorieën · 5 trends · laatste 24u",
     "categories": [
-      {
-        "id": "music",
-        "label": "Muziek",
-        "insights": [
-          {
-            "trend": "Soundtrack Legitimacy as Artist Comeback Currency",
-            "summary": "Boards of Canada (legacy elektronische act) landde een major film-moment via 'Backrooms' end credits, waarbij filmmusic plaatsing als comeback-legitimiteit fungeert voor geestverschenen artists. Dit herhaalt het patroon uit gisteren van 'Legacy Acts Weaponize Silence as Comeback Currency'.",
-            "why_it_matters": "Soundtrack-plaatsing is nieuw canonisatie-mechanisme voor oudere acts — niet meer touren of charts, maar cinematic legitimacy via A24-adjacent horror fungeert als cultural credibility reset.",
-            "strategic_signal": "Advies aan heritage-artiesten of labels: pitch legacy-catalogus aan independent horror-film directors (A24-approved pipeline), niet aan TikTok-strategen.",
-            "trajectory": "piekend",
-            "daysActive": 3,
-            "isNew": false,
-            "sources": [
-              "Billboard",
-              "Business of Fashion",
-              "Consequence",
-              "Dazed",
-              "Dezeen",
-              "GQ",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
-              "Polygon",
-              "Quartz",
-              "Sneaker News",
-              "The Hollywood Reporter",
-              "The Verge",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "2026 FIFA World Cup",
-                "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
-              },
-              {
-                "title": "Event:Wiki Loves Pride/2026",
-                "url": "https://en.wikipedia.org/wiki/Event:Wiki_Loves_Pride/2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
-              },
-              {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
-              },
-              {
-                "title": "Blast (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Blast_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
-              }
-            ]
-          },
-          {
-            "trend": "Game-Native Music Becomes Canonical Streaming Asset",
-            "summary": "'Mario Kart World'-soundtrack is nu beschikbaar op Nintendo Music web player — game-soundtrack music verliest de exclusiviteit-aura en wordt behandeld als standalone streaming-product equivalent aan mainstream albums.",
-            "why_it_matters": "Dit erosief de grens tussen game-audio en recorded-music industries; game-soundtracks kunnen nu direct compete met traditional album releases om stream-aandacht.",
-            "strategic_signal": "Voor merken: sponsor game-OST-creatie voor directe audio-streaming districtie; dit is goedkoper dan album-marketing en bereikt gaming-audiences die traditionele muziek-promotie missen.",
-            "trajectory": "opkomend",
-            "daysActive": 2,
-            "isNew": false,
-            "sources": [
-              "Billboard",
-              "Consequence",
-              "Creative Review",
-              "Design Boom",
-              "Eurogamer",
-              "Highsnobiety",
-              "IndieWire",
-              "NME",
-              "Quartz",
-              "Stereogum",
-              "Variety",
-              "i-D"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "EA announces national line-up for FC 26's unofficial world cup mode",
-                "url": "https://www.eurogamer.net/ea-fc-26-world-cup-teams",
-                "source": "Eurogamer",
-                "published": "2026-06-02T08:55:50.000Z"
-              },
-              {
-                "title": "‘Mario Kart World’ soundtrack is finally available to stream",
-                "url": "https://www.nme.com/news/gaming-news/mario-kart-world-soundtrack-available-to-stream-nintendo-music-web-3948730?utm_source=rss&utm_medium=rss&utm_campaign=mario-kart-world-soundtrack-available-to-stream-nintendo-music-web",
-                "source": "NME",
-                "published": "2026-06-02T08:41:58.000Z"
-              },
-              {
-                "title": "BTS Add Extra Melbourne Show to Australian Leg of ARIRANG World Tour",
-                "url": "https://www.billboard.com/music/pop/bts-worls-tour-arirang-australia-2027-1236262025/",
-                "source": "Billboard",
-                "published": "2026-06-02T06:53:49.000Z"
-              },
-              {
-                "title": "Haley Bennett and Jack Whitehall Open SXSW London Film Section With World Premiere of ‘Virginia Woolf’s Night and Day’",
-                "url": "https://variety.com/2026/film/global/virginia-woolfs-night-and-day-world-premiere-sxsw-london-1236763990/",
-                "source": "Variety",
-                "published": "2026-06-01T22:24:42.000Z"
-              }
-            ]
-          }
-        ]
-      },
       {
         "id": "film",
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Internet-Horror Franchises Break A24 Records",
-            "summary": "Creepypasta-originated 'Backrooms' heeft box office records van A24 gebroken met een dominante opening in UK/Ierland, aangestuurd door vooraf viraal internet-culturele legitimiteit. De film bewijst dat internet-native horror IP nu blockbuster mainstream kan bereiken via auteur-gatekeeping studios.",
-            "why_it_matters": "Dit signaleert dat internet-cultuur niet langer niche is — het vormt nu de DNA van mainstream film-franchises, wat betekent dat merken internet-subcultures moeten monitoren als voorbodes van volgende hits.",
-            "strategic_signal": "Identificeer welke Belgische internet-communities (Reddit, 4chan-adjacente subcultures, TikTok horror trends) morgen mainstream kunnen worden en begin nu aan storytelling-partnerships met creatorverse gatekeepers.",
+            "trend": "Internet-Native Content Conquers Theatrical Release",
+            "summary": "Viral internet properties (The Amazing Digital Circus) en YouTube-originated creators secure theatrical distribution deals with 4,000+ cinema placements. Dit markeert de consolidatie van een eerder 'niche' pipeline naar mainstream box office legitimacy.",
+            "why_it_matters": "Internet content is no longer secondary—het krijgt dezelfde theatrical footprint als major studio releases, wat aangeeft dat scherm-agnostische storytelling nu cultural dominance bepaalt.",
+            "strategic_signal": "Merken die op zoek zijn naar Gen Z engagement: monitor welke internet properties de volgende 2 weken theatrical releases aankondigen; dit zijn potentiële partnership moments vóór ze volledig mainstream zijn.",
             "trajectory": "piekend",
             "daysActive": 2,
             "isNew": false,
             "sources": [
-              "Billboard",
-              "Business of Fashion",
-              "Consequence",
-              "Dazed",
-              "Dezeen",
-              "GQ",
+              "A.V. Club",
               "IndieWire",
               "NME",
-              "Pitchfork News",
-              "Polygon",
-              "Quartz",
-              "Sneaker News",
+              "Stereogum",
               "The Hollywood Reporter",
-              "The Verge",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
               "Wired"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "2026 FIFA World Cup",
-                "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
+                "title": "‘Queer Eye’ Star Karamo Brown Opens Up About Skipping Press Appearances for Final Season, Relapsing During Netflix Show",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/queer-eye-karamo-brown-breaks-silence-final-season-relapse-1236611854/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-06-02T18:56:58.000Z"
               },
               {
-                "title": "Event:Wiki Loves Pride/2026",
-                "url": "https://en.wikipedia.org/wiki/Event:Wiki_Loves_Pride/2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
+                "title": "Vince Gilligan on Why Rhea Seehorn Could Lead ‘Any Show on Television’",
+                "url": "https://www.indiewire.com/features/interviews/vince-gilligan-rhea-seehorn-lead-any-show-on-television-1235196494/",
+                "source": "IndieWire",
+                "published": "2026-06-02T16:30:00.000Z"
               },
               {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
+                "title": "Standing On The Corner – “Gimme My Gun” & “Show Me The $”",
+                "url": "https://stereogum.com/2501045/standing-on-the-corner-gimme-my-gun-show-me-the/music/",
+                "source": "Stereogum",
+                "published": "2026-06-02T16:21:06.000Z"
               },
               {
-                "title": "Blast (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Blast_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
+                "title": "A Viral YouTube Show About an Unhinged AI Is Hitting Theaters. It’s a Big Test for Hollywood",
+                "url": "https://www.wired.com/story/amazing-digital-circus-shake-up-the-box-office/",
+                "source": "Wired",
+                "published": "2026-06-02T11:00:00.000Z"
               }
             ]
           },
           {
-            "trend": "Gen-Z Audiences Demand 'Original Stories' Over Adaptations",
-            "summary": "Matt Duffer (Stranger Things) stelt vast dat jongere film- en tv-audiences luid eisen voor originele verhalen, niet meer generieke franchise-extensions. Dit contrasteert met de dominantie van game-to-film en IP-adaptaties van afgelopen jaren.",
-            "why_it_matters": "De markt signaleert verzadiging in IP-fatigue — creatives moeten risico nemen op originele concepten om Gen-Z engagement te winnen, wat een seismic shift is na dekennium van safe-bet adaptaties.",
-            "strategic_signal": "Voor merken: investeer in het sponsoren of co-creëren van *originele* content (niet adaptaties) met auteurs en creatorverse-figuren; Dit wordt de competitieve moat voor de volgende 24 maanden.",
+            "trend": "AI-Skepticism Requires Human-Made Legitimacy Claims",
+            "summary": "Directors (Adam Shankman bij RuPaul film, Martin Scorsese met Black Forest Labs) verdedigen actief hun gebruik van AI of ontkennen het volledig. Het defensieve discours rond AI-tooling suggereert dat 'volledig menselijk gemaakt' nu een marketable claim is geworden.",
+            "why_it_matters": "Viewers vertrouwen AI-generated content nog niet; creatives moeten hun human craft expliciet verdedigen, wat betekent dat transparantie over productieproces nu cultureel waardevol is.",
+            "strategic_signal": "Voor productiebedrijven en creative agencies: begin nu duidelijk te communiceren over waar AI NIET wordt gebruikt in je process—dit wordt binnen 4 weken een verwachting, niet een differentiator.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Billboard",
-              "Consequence",
-              "Creative Review",
-              "Design Boom",
+              "Dazed",
               "Eurogamer",
               "Highsnobiety",
-              "IndieWire",
-              "NME",
-              "Quartz",
-              "Stereogum",
-              "Variety",
-              "i-D"
+              "The Hollywood Reporter",
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "EA announces national line-up for FC 26's unofficial world cup mode",
-                "url": "https://www.eurogamer.net/ea-fc-26-world-cup-teams",
-                "source": "Eurogamer",
-                "published": "2026-06-02T08:55:50.000Z"
-              },
-              {
-                "title": "‘Mario Kart World’ soundtrack is finally available to stream",
-                "url": "https://www.nme.com/news/gaming-news/mario-kart-world-soundtrack-available-to-stream-nintendo-music-web-3948730?utm_source=rss&utm_medium=rss&utm_campaign=mario-kart-world-soundtrack-available-to-stream-nintendo-music-web",
-                "source": "NME",
-                "published": "2026-06-02T08:41:58.000Z"
-              },
-              {
-                "title": "BTS Add Extra Melbourne Show to Australian Leg of ARIRANG World Tour",
-                "url": "https://www.billboard.com/music/pop/bts-worls-tour-arirang-australia-2027-1236262025/",
-                "source": "Billboard",
-                "published": "2026-06-02T06:53:49.000Z"
-              },
-              {
-                "title": "Haley Bennett and Jack Whitehall Open SXSW London Film Section With World Premiere of ‘Virginia Woolf’s Night and Day’",
-                "url": "https://variety.com/2026/film/global/virginia-woolfs-night-and-day-world-premiere-sxsw-london-1236763990/",
+                "title": "Fox Sets Summer Premiere Dates for ‘Kitchen Nightmares,’ ‘Beat Shazam’ and More",
+                "url": "https://variety.com/2026/tv/news/kitchen-nightmares-beat-shazam-premiere-dates-fox-1236765126/",
                 "source": "Variety",
-                "published": "2026-06-01T22:24:42.000Z"
+                "published": "2026-06-02T19:00:00.000Z"
+              },
+              {
+                "title": "‘Summer House’ Season 10 Reunion Continues: How to Watch the First Two Parts Online",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-summer-house-reunion-season-10-free-online-streaming-1236605915/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-06-02T17:59:49.000Z"
+              },
+              {
+                "title": "Super Yooka-Laylee Kart leaks ahead of Summer Game Fest as developer Playtonic Games teases \"there may be faster ways to go\"",
+                "url": "https://www.eurogamer.net/super-yooka-laylee-kart-leaks",
+                "source": "Eurogamer",
+                "published": "2026-06-02T16:19:53.000Z"
+              },
+              {
+                "title": "Dressing for a ball: Dazed serves football couture for summer",
+                "url": "https://www.dazeddigital.com/art-photography/article/70363/1/oakley-football-pitch-runway-summer-2026-issue-world-cup?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=dressing-for-a-ball-dazed-serves-football-couture-for-summer",
+                "source": "Dazed",
+                "published": "2026-06-02T16:00:00.000Z"
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": "art",
-        "label": "Art & Design",
-        "insights": [
+          },
           {
-            "trend": "Cultural Icons Become Playable Instruments (Pink Floyd Prism)",
-            "summary": "Love Hultén transformeerde Pink Floyd's iconic prism-logo in een speelbare synthesizer-gitaar — cultuurgoederen worden physiek-interactive consumer objects, niet alleen visuele merchandise.",
-            "why_it_matters": "Dit signaleert dat nostalgie-branding voorbij is — culturele erfgoederen moeten *functioneel* en *participatory* worden voor Gen-Z engagement.",
-            "strategic_signal": "Voor heritage-brands/artists: commission instrument-makers of interactief design-partners om ikonisch imagery in playable objects te transformeren; dit genereert betrokkenheid dieper dan statische merch.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
+            "trend": "Game-to-Film Adaptation Pipeline Accelerates",
+            "summary": "Meerdere SEGA/game IPs (Streets of Rage, Masters of the Universe) krijgen cinematic adaptations met A-list creative teams. Dit bouwt voort op eerdere trends maar versnelt nu naar franchise-lockdown strategie.",
+            "why_it_matters": "Filmmakers en studios zien transmedia gaming IPs als guaranteed audience + merchandise potential; dit is niet meer experimenteel maar core studio strategy.",
+            "strategic_signal": "Als je merch of gaming partners hebt: wees nu alert op cinematic adaptations van je IP—de window om 'first-mover' merchandise tie-ins te creëren sluit zich snel na announcement.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
             "sources": [
-              "Billboard",
-              "Business of Fashion",
-              "Consequence",
-              "Dazed",
-              "Dezeen",
-              "GQ",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
-              "Polygon",
-              "Quartz",
-              "Sneaker News",
+              "Deadline",
+              "Little White Lies",
               "The Hollywood Reporter",
-              "The Verge",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
+              "Variety",
+              "Wikipedia Trending EN"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "2026 FIFA World Cup",
-                "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+                "title": "Backrooms (film)",
+                "url": "https://en.wikipedia.org/wiki/Backrooms_(film)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
+                "published": "2026-06-02T20:11:02.704Z"
               },
               {
-                "title": "Event:Wiki Loves Pride/2026",
-                "url": "https://en.wikipedia.org/wiki/Event:Wiki_Loves_Pride/2026",
+                "title": "Obsession (2025 film)",
+                "url": "https://en.wikipedia.org/wiki/Obsession_(2025_film)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
+                "published": "2026-06-02T20:11:02.704Z"
               },
               {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
+                "title": "‘Stop! That! Train!’ Director Denies Film’s Speculated AI Use: RuPaul-Led “Movie Is Fully Human Made”",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/stop-that-train-director-denies-ai-use-rupaul-movie-1236611921/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-06-02T19:44:46.000Z"
               },
               {
-                "title": "Blast (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Blast_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
+                "title": "‘War Machine’ Sequel in the Works From Netflix After Action Film Becomes One of Streamer’s Most-Watched Films",
+                "url": "https://variety.com/2026/film/news/war-machine-sequel-netflix-1236765189/",
+                "source": "Variety",
+                "published": "2026-06-02T19:39:16.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Peak-TV Finales als Cultural Closure Rituals",
+            "summary": "HBO's Euphoria seizoen 3 finale genereert massive media interest en wordt beschreven als 'iconic TV' met 'explosive endings'. Dit markeert het einde van een cultureel belangrijke serie als significante cultural moment.",
+            "why_it_matters": "Series-finales zijn niet langer alleen content—ze zijn events die nostalgiewaarde, legacy-positioning en generational closure bepalen.",
+            "strategic_signal": "Communicatieteams: prepare campaign narratives rond series-finales van cultureel relevante shows nu (2-3 weken vóór); dit is het moment van maximaal earned media en audience sentiment.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "A.V. Club",
+              "Deadline",
+              "Eurogamer",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Stop That Train’ Director Shuts Down Claims That RuPaul Movie Used AI: ‘Every Shot Was Made By Human Hands’",
+                "url": "https://variety.com/2026/film/news/stop-that-train-ai-director-shuts-down-claims-1236765131/",
+                "source": "Variety",
+                "published": "2026-06-02T19:09:00.000Z"
+              },
+              {
+                "title": "‘And Justice For All’ TV Series Adaptation Of Al Pacino Movie In Works At Netflix",
+                "url": "https://deadline.com/2026/06/and-justice-for-all-tv-series-al-pacino-movie-netflix-1236938277/",
+                "source": "Deadline",
+                "published": "2026-06-02T18:44:17.000Z"
+              },
+              {
+                "title": "‘Masters of the Universe’: What Critics Are Saying About the He-Man Movie Starring Nicholas Galitzine and Jared Leto",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/masters-of-the-universe-review-roundup-critics-1236611636/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-06-02T18:29:36.000Z"
+              },
+              {
+                "title": "Streets of Rage movie gains momentum as Sonic the Hedgehog writers and The Harder They Fall director board the adaptation",
+                "url": "https://www.eurogamer.net/streets-of-rage-movie-sonic-writers",
+                "source": "Eurogamer",
+                "published": "2026-06-02T10:58:51.000Z"
               }
             ]
           }
@@ -297,130 +193,48 @@
         "label": "Internet",
         "insights": [
           {
-            "trend": "Cultural Institutions Weaponize Political Protection",
-            "summary": "UK's BFI lobbyeerde ministers om screen-industrie uit Trump trade-deal uit te sluiten, stellende fundamental harm; dit volgt pattern waar arts-institutions (niet individu-artisten) nu political advocacy als survival-tactic gebruiken.",
-            "why_it_matters": "Dit signaleert verschuiving van artist-autonomy naar institutionele defensie — festivals, galleries, broadcasters worden nu political actors, niet neutrale gatekeepers.",
-            "strategic_signal": "Voor merkencommunicatie in politisch volatile context: partner met institutionele advocates (galleries, museums, publieke omroepen) eerder dan individual artisten, want instituties hebben juridische en lobbyistische muscle.",
+            "trend": "AI Voice Impersonation Sparks Consumer Defense Tech",
+            "summary": "Google en andere telecom/tech players implementeren proactive call-verification features die AI-scams blokkeren door 'silent confirmation' en contact-impersonation warnings. Dit is niet defensief maar offensive: tech bedrijven positioneren zich als protectors tegen AI misuse.",
+            "why_it_matters": "Consumentenvertrouwen in voice communication wordt ondermijnd; tech platforms monopoliseren de 'trust layer' en creëren dependency op hun verificatiesystemen.",
+            "strategic_signal": "Brands die voice/telefoon-based customer engagement gebruiken: audit nu of je verification flows compatible zijn met deze incoming Android features—dit wordt industry standard en klanten zullen het verwachten.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Billboard",
-              "Business of Fashion",
-              "Consequence",
-              "Dazed",
-              "Dezeen",
-              "GQ",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
-              "Polygon",
               "Quartz",
-              "Sneaker News",
-              "The Hollywood Reporter",
               "The Verge",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
+              "Wired",
+              "Yanko Design"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "2026 FIFA World Cup",
-                "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
+                "title": "Your old phone is hard to recycle. America has 25 laws to blame",
+                "url": "https://qz.com/us-state-e-waste-laws-patchwork-recycling-052726",
+                "source": "Quartz",
+                "published": "2026-06-02T19:51:13.000Z"
               },
               {
-                "title": "Event:Wiki Loves Pride/2026",
-                "url": "https://en.wikipedia.org/wiki/Event:Wiki_Loves_Pride/2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
+                "title": "Google’s Phone app will tell you if a scammer is impersonating one of your contacts",
+                "url": "https://www.theverge.com/tech/941517/google-phone-scammer-ai-impersonation",
+                "source": "The Verge",
+                "published": "2026-06-02T18:00:00.000Z"
               },
               {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
-              },
-              {
-                "title": "Blast (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Blast_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T10:44:53.131Z"
-              }
-            ]
-          },
-          {
-            "trend": "Artist Exodus From Political Events (Freedom 250 Collapse)",
-            "summary": "Milli Vanilli's Fab Morvan verlaat Trump's 'Freedom 250' concert na publieke backlash; nu slechts 1 van 9 artists nog booked. Dit illustreert dat cultural talent massaal political alignment als brand-risk begint te zien.",
-            "why_it_matters": "Artists zijn voorzichtiger geworden over political affiliation — de economische kost van (perceived) endorsement-association stijgt, wat bedeutt dat merken voorzichtiger moeten zijn met political positioning.",
-            "strategic_signal": "Merken: test artist/creator-partnerships tegen political alignment-scenarios vóór public announcement; de reputatie-contagion van association is nu materieel en snel.",
-            "trajectory": "piekend",
-            "daysActive": 2,
-            "isNew": false,
-            "sources": [
-              "A.V. Club",
-              "Ars Technica",
-              "Deadline",
-              "Variety",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Milli Vanilli’s Fab Morvan Changes Tune on Freedom 250 Concerts, Says He Too Is Quitting the ‘Circus,’ After Trump’s Tirade Against Artists",
-                "url": "https://variety.com/2026/music/news/milli-vanillis-fab-morvan-wants-out-freedom-250-concerts-1236764699/",
-                "source": "Variety",
-                "published": "2026-06-02T10:12:53.000Z"
-              },
-              {
-                "title": "The Trump Administration Is at War With Itself Over AI Regulation",
-                "url": "https://www.wired.com/story/the-white-house-is-at-war-with-itself-over-ai-regulation/",
+                "title": "Android Is Fighting Phone Scams With a New Feature to Prove Who’s Calling",
+                "url": "https://www.wired.com/story/android-is-fighting-phone-scams-with-a-new-feature-to-prove-whos-calling/",
                 "source": "Wired",
-                "published": "2026-06-02T09:30:00.000Z"
+                "published": "2026-06-02T18:00:00.000Z"
               },
               {
-                "title": "BFI Pleaded With Government To Exclude UK Screen Industries From Trump Trade Deal, Saying It Would Cause “Fundamental Harm”",
-                "url": "https://deadline.com/2026/06/bfi-uk-government-film-tv-deal-donald-trump-1236932021/",
-                "source": "Deadline",
-                "published": "2026-06-02T06:59:00.000Z"
-              },
-              {
-                "title": "Jon Stewart Slams Donald Trump’s Crumbling Freedom 250 Concert: ‘Is Anyone Still Performing?’",
-                "url": "https://variety.com/2026/tv/news/jon-stewart-donald-trump-freedom-250-concert-the-daily-show-1236764663/",
-                "source": "Variety",
-                "published": "2026-06-02T03:57:00.000Z"
+                "title": "CASETiFY releases an original Tamagotchi, phone cases, charms, and exclusive accessories to pique nostalgia",
+                "url": "https://www.yankodesign.com/2026/06/02/casetify-releases-an-original-tamagotchi-phone-cases-charms-and-exclusive-accessories-to-pique-nostalgia/?utm_source=rss&utm_medium=rss&utm_campaign=casetify-releases-an-original-tamagotchi-phone-cases-charms-and-exclusive-accessories-to-pique-nostalgia",
+                "source": "Yanko Design",
+                "published": "2026-06-02T15:20:35.000Z"
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  "crossCategory": {
-    "generatedAt": "2026-06-02T10:45:24.544Z",
-    "megaTrends": [
-      {
-        "trend": "Cultural Legitimacy Through Interactive Mediums",
-        "summary": "Established cultural assets (artists, franchises, institutions) zoeken naar nieuwe legitimiteit via interactiviteit en spelwerelden. Pink Floyd wordt een speelbaar instrument, soundtracks worden canonieke streaming-assets, en internet-horror franchises breken records door audience agency.",
-        "why_it_matters": "Dit signaleert een fundamentele verschuiving: cultuur wordt alleen nog relevant als het participatief is, niet alleen consumptief.",
-        "categories": [
-          "music",
-          "art",
-          "internet"
-        ],
-        "strength": "sterk"
-      },
-      {
-        "trend": "Creator Autonomy Over Institutional Alignment",
-        "summary": "Kunstenaars verlaten politiek geframed evenementen (Freedom 250 collapse), terwijl Gen-Z publiciteit eist om 'originele verhalen' te zien in plaats van institutionele adaptaties. Dit weerspiegelt weerstand tegen cultural gatekeeping.",
-        "why_it_matters": "Creators kiezen zichtbaarheid en authentieke stem boven traditionele institutionele legitimiteit, wat het machtsverschuiving van establishments naar individuen aangeeft.",
-        "categories": [
-          "internet",
-          "film"
-        ],
-        "strength": "matig"
       }
     ]
   },
