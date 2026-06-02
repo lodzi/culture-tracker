@@ -1,0 +1,69 @@
+name: Trend report synthesis (manual)
+
+# Verwerkt de PDF/DOCX-rapporten in "Trend rapport/" tot data/report-synthesis.json,
+# dat vervolgens automatisch in de monthly-laag van de dagelijkse synthese vloeit.
+#
+# Bewust ALLEEN handmatig (workflow_dispatch): de rapportenmap is groot, dus we
+# willen niet bij elke scheduled run een zware checkout doen. De synthese cachet
+# zelf 30 dagen. Draai dit wanneer je rapporten toevoegt/wijzigt, of forceer met
+# --force lokaal. Alternatief: draai lokaal `npm run synthesize-reports` en commit
+# data/report-synthesis.json.
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Herbereken ook als de cache nog vers is"
+        type: boolean
+        default: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: culture-report-synthesis
+  cancel-in-progress: false
+
+jobs:
+  report-synthesis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Synthesize trend reports
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ inputs.force }}" = "true" ]; then
+            npm run synthesize-reports -- --force
+          else
+            npm run synthesize-reports
+          fi
+
+      - name: Commit report synthesis
+        run: |
+          git config user.name  "culture-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git pull --rebase --autostash || true
+          git add data/report-synthesis.json
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen."
+          else
+            git commit -m "chore(data): trend report synthesis $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
+            git push
+          fi

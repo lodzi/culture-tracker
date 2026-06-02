@@ -61,6 +61,28 @@ const VELOCITY_WINDOW_HOURS = parseInt(process.env.VELOCITY_WINDOW_HOURS || "6",
 // (= highest cross-source coverage + item density + trending signal) are kept.
 const MAX_TOPICS = parseInt(process.env.MAX_TOPICS || "10", 10);
 
+// --- Semantic clustering (Voyage AI embeddings) ---
+// When VOYAGE_API_KEY is set, items are clustered by meaning (cosine similarity
+// of their embeddings) instead of by raw keyword overlap. This fixes the old
+// failure mode where unrelated articles sharing one token landed in the same
+// "topic". If the key is absent or the API errors, we fall back to the keyword
+// clustering automatically — the pipeline never hard-depends on embeddings.
+const VOYAGE_API_KEY      = process.env.VOYAGE_API_KEY || "";
+const VOYAGE_MODEL        = process.env.VOYAGE_MODEL || "voyage-3.5";
+const VOYAGE_ENDPOINT     = "https://api.voyageai.com/v1/embeddings";
+// Cosine-similarity threshold above which two items are considered the same topic.
+// Tuned conservatively: 0.55 groups genuine same-story coverage without merging
+// merely-related articles. Override via env when calibrating.
+const EMBED_SIM_THRESHOLD = parseFloat(process.env.EMBED_SIM_THRESHOLD || "0.55");
+const EMBED_BATCH         = parseInt(process.env.EMBED_BATCH || "128", 10);
+
+// --- Engagement enrichment (real popularity signals) ---
+// Reddit exposes upvotes/comments via its public JSON; Wikipedia exposes
+// pageviews. Both feed a real "engagement" component in the score, replacing
+// part of the keyword-overlap proxy. Enrichment is best-effort: any failure is
+// logged and ignored so the brief still builds.
+const ENABLE_REDDIT_ENGAGEMENT = (process.env.ENABLE_REDDIT_ENGAGEMENT || "true") !== "false";
+
 // Human-readable labels for category buckets in the brief.
 // Anything not in this map falls back to a Title-Cased version of the category key.
 const CATEGORY_LABELS = {
@@ -271,6 +293,8 @@ async function fetchWikipediaTrending(source) {
           title:         title,
           url:           "https://" + lang + ".wikipedia.org/wiki/" + a.article,
           published:     now,
+          // Real engagement signal: actual pageviews from the Wikimedia API.
+          engagement:    typeof a.views === "number" ? a.views : 0,
           summary:       views + " views op " + lang + ".wikipedia — rang #" + a.rank + ".",
         };
       });
@@ -345,6 +369,9 @@ async function fetchTikTokTrends(source) {
           title: "#" + tag,
           url: "https://www.tiktok.com/tag/" + encodeURIComponent(tag),
           published: now,
+          // Real engagement signal: video views (or post count as fallback).
+          engagement: (typeof h.video_views === "number" ? h.video_views : 0) ||
+                      (typeof h.publish_cnt === "number" ? h.publish_cnt : 0),
           summary: parts || ("Trending TikTok hashtag in " + countryCode + "."),
         };
       })
@@ -356,6 +383,69 @@ async function fetchTikTokTrends(source) {
     console.warn("  ✗ " + source.name + ": " + err.message);
     return [];
   }
+}
+
+// --- Reddit engagement enrichment ---
+// Reddit RSS gives us article links but no scores. The public JSON listing does.
+// For every subreddit we already pulled items from, we fetch its hot listing ONCE
+// and attach real upvotes/comments (`engagement`) to the matching items by post id.
+// Best-effort: if Reddit blocks the request (it often rate-limits datacenter IPs),
+// we log and move on — items simply keep engagement 0.
+function redditPostId(url) {
+  // https://www.reddit.com/r/sub/comments/<id>/slug/ → "<id>"
+  const m = String(url || "").match(/\/comments\/([a-z0-9]+)/i);
+  return m ? m[1] : null;
+}
+function subredditOf(url) {
+  const m = String(url || "").match(/reddit\.com\/(r\/[^/]+)/i);
+  return m ? m[1].toLowerCase() : null;
+}
+
+async function enrichRedditEngagement(items) {
+  if (!ENABLE_REDDIT_ENGAGEMENT) return;
+  // Group reddit items by subreddit.
+  const bySub = new Map();
+  for (const it of items) {
+    const sub = subredditOf(it.url);
+    if (!sub) continue;
+    if (!bySub.has(sub)) bySub.set(sub, []);
+    bySub.get(sub).push(it);
+  }
+  if (bySub.size === 0) return;
+
+  let enriched = 0;
+  await Promise.all(Array.from(bySub.keys()).map(async function (sub) {
+    const url = "https://www.reddit.com/" + sub + "/hot.json?limit=75&raw_json=1";
+    try {
+      const ctrl = new AbortController();
+      const t = setTimeout(function () { ctrl.abort(); }, PER_SOURCE_TIMEOUT_MS);
+      const res = await fetch(url, {
+        headers: { "User-Agent": BROWSER_UA, "Accept": "application/json" },
+        signal: ctrl.signal,
+      });
+      clearTimeout(t);
+      if (!res.ok) { console.warn("  · reddit engagement " + sub + ": HTTP " + res.status); return; }
+      const json = await res.json();
+      const children = (json && json.data && json.data.children) || [];
+      const scoreById = new Map();
+      for (const c of children) {
+        const d = c.data || {};
+        if (d.id) scoreById.set(d.id, { ups: d.ups || d.score || 0, comments: d.num_comments || 0 });
+      }
+      for (const it of bySub.get(sub)) {
+        const id = redditPostId(it.url);
+        const hit = id && scoreById.get(id);
+        if (hit) {
+          // Weight upvotes plus a smaller weight for comments (discussion depth).
+          it.engagement = (hit.ups || 0) + (hit.comments || 0) * 2;
+          enriched++;
+        }
+      }
+    } catch (err) {
+      console.warn("  · reddit engagement " + sub + ": " + err.message);
+    }
+  }));
+  if (enriched > 0) console.log("  ✓ Reddit engagement toegevoegd aan " + enriched + " items");
 }
 
 // --- Dedupe ---
@@ -415,6 +505,15 @@ function scoreItems(items) {
   const maxAgeHours = Math.max(1, LOOKBACK_HOURS);
   const velocityWindowMs = VELOCITY_WINDOW_HOURS * 60 * 60 * 1000;
 
+  // Engagement is log-scaled and normalised to the run's maximum so that
+  // Reddit upvotes (~10^3), Wikipedia views (~10^6) and TikTok views (~10^9)
+  // become comparable instead of one platform dominating.
+  let maxLogEng = 0;
+  for (const it of items) {
+    const e = typeof it.engagement === "number" ? it.engagement : 0;
+    if (e > 0) maxLogEng = Math.max(maxLogEng, Math.log10(e + 1));
+  }
+
   for (const it of items) {
     const sourceWeight = typeof it.source_weight === "number" ? it.source_weight : 6;
 
@@ -445,7 +544,13 @@ function scoreItems(items) {
       (now - new Date(it.published).getTime()) <= velocityWindowMs;
     const velocity = (isVelocityWindow && shared >= 2) ? Math.min(1.0, shared * 0.2) : 0;
 
-    const raw = sourceWeight * 0.6 + recency + trending + velocity + 1;
+    // Engagement 0..2.0 — real popularity where we have it, normalised per run.
+    let engagement = 0;
+    if (maxLogEng > 0 && typeof it.engagement === "number" && it.engagement > 0) {
+      engagement = Math.min(2.0, 2.0 * (Math.log10(it.engagement + 1) / maxLogEng));
+    }
+
+    const raw = sourceWeight * 0.6 + recency + trending + velocity + engagement + 1;
     const score = Math.max(1, Math.min(10, Math.round(raw)));
     it.score = score;
 
@@ -458,134 +563,92 @@ function scoreItems(items) {
 }
 
 // --- Cluster by topic ---
-// Groups items into trending topic clusters based on cross-source keyword overlap.
-// Only clusters whose articles come from ≥2 different sources are surfaced.
-// Items that don't fit any cross-source topic are silently discarded — they're
-// not trending, just recent.
-//
-// Algorithm:
-//   1. Tokenize every article title → build keyword→{items,sources} maps
-//   2. Hot keywords = appear in ≥2 sources AND cover ≤30% of all items (not generic)
-//   3. Score keywords: sourceCount*4 + itemCount + velocity bonus
-//   4. Greedy assign: process keywords best-first; each article assigned once
-//   5. Name each cluster by its top 2 most-frequent title tokens
-//   6. Sort clusters by source count desc
+// Two strategies share one output format (`finalizeClusters`):
+//   • clusterByEmbeddings — semantic, via Voyage. Preferred when VOYAGE_API_KEY
+//     is set. Groups articles that are actually *about the same thing*.
+//   • clusterByTopic — keyword-overlap fallback. Used when embeddings are
+//     unavailable or error out.
+// In both cases a cluster only survives if it spans ≥2 independent sources, and
+// each cluster carries a `primaryCategory` (its dominant category) so the daily
+// synthesis can group it once instead of smearing it across every category.
 const MAX_ITEMS_PER_TOPIC = parseInt(process.env.MAX_ITEMS_PER_TOPIC || "8", 10);
 
-function clusterByTopic(items) {
+// --- Vector helpers ---
+function cosine(a, b) {
+  let dot = 0, na = 0, nb = 0;
+  for (let i = 0; i < a.length; i++) { dot += a[i] * b[i]; na += a[i] * a[i]; nb += b[i] * b[i]; }
+  const denom = Math.sqrt(na) * Math.sqrt(nb);
+  return denom ? dot / denom : 0;
+}
+function meanVec(vecs) {
+  const d = vecs[0].length;
+  const m = new Array(d).fill(0);
+  for (const v of vecs) for (let i = 0; i < d; i++) m[i] += v[i];
+  for (let i = 0; i < d; i++) m[i] /= vecs.length;
+  return m;
+}
+
+// --- Voyage embeddings ---
+// Returns one embedding vector per text, or null on any failure so the caller
+// can fall back to keyword clustering. Batched to respect payload limits.
+async function embedTexts(texts) {
+  if (!VOYAGE_API_KEY) return null;
+  const out = new Array(texts.length);
+  for (let i = 0; i < texts.length; i += EMBED_BATCH) {
+    const slice = texts.slice(i, i + EMBED_BATCH);
+    const ctrl = new AbortController();
+    const t = setTimeout(function () { ctrl.abort(); }, 20000);
+    const res = await fetch(VOYAGE_ENDPOINT, {
+      method: "POST",
+      headers: { "Authorization": "Bearer " + VOYAGE_API_KEY, "Content-Type": "application/json" },
+      body: JSON.stringify({ input: slice, model: VOYAGE_MODEL, input_type: "document" }),
+      signal: ctrl.signal,
+    });
+    clearTimeout(t);
+    if (!res.ok) throw new Error("Voyage HTTP " + res.status + ": " + (await res.text()).slice(0, 200));
+    const json = await res.json();
+    for (const d of (json.data || [])) out[i + d.index] = d.embedding;
+  }
+  return out;
+}
+
+// --- Shared cluster finalizer ---
+// Input: array of { items: [...] }. Names each cluster, computes its sources,
+// categories, primaryCategory and trending/fresh flags, sorts member items,
+// drops clusters that don't span ≥2 sources, and ranks by cultural relevance.
+function finalizeClusters(clusters) {
   const now = Date.now();
   const velocityWindowMs = VELOCITY_WINDOW_HOURS * 60 * 60 * 1000;
-  const totalItems = items.length;
 
-  // 1. Tokenize titles; build keyword maps.
-  const itemTitleTokens = new Map(); // item → Set<token>  (title only, for naming)
-  const kwToItems   = new Map();     // token → [item]
-  const kwToSources = new Map();     // token → Set<sourceName>
+  const formatted = clusters.map(function (cluster) {
+    const clItems = cluster.items || [];
+    const clSrcs = new Set(clItems.map(function (i) { return i.source; }).filter(Boolean));
+    if (clSrcs.size < 2) return null; // a "trend" needs ≥2 independent sources
 
-  for (const it of items) {
-    const tokens = new Set(tokenize(it.title || ""));
-    itemTitleTokens.set(it, tokens);
-    for (const t of tokens) {
-      if (!kwToItems.has(t))   kwToItems.set(t, []);
-      if (!kwToSources.has(t)) kwToSources.set(t, new Set());
-      kwToItems.get(t).push(it);
-      kwToSources.get(t).add(it.source);
-    }
-  }
-
-  // 2. Score and filter keywords → candidates.
-  const candidates = [];
-  for (const [kw, sources] of kwToSources) {
-    if (sources.size < 2) continue;                        // must span ≥2 sources
-    const kwItems = kwToItems.get(kw);
-    if (kwItems.length / totalItems > 0.30) continue;     // too generic (>30% coverage)
-
-    const freshCount = kwItems.filter(function (i) {
-      return i.published && (now - new Date(i.published).getTime()) <= velocityWindowMs;
-    }).length;
-
-    const score = sources.size * 4 + kwItems.length + (freshCount > 0 ? 1.5 : 0);
-    candidates.push({ kw, sources, items: kwItems, score });
-  }
-
-  candidates.sort(function (a, b) { return b.score - a.score; });
-
-  // 3. Greedy clustering — each article assigned to its highest-scoring keyword.
-  const assignedItems = new Set();
-  const rawClusters   = [];
-
-  for (const cand of candidates) {
-    const unassigned = cand.items.filter(function (i) { return !assignedItems.has(i); });
-    if (unassigned.length === 0) continue;
-
-    const remainingSources = new Set(unassigned.map(function (i) { return i.source; }));
-    if (remainingSources.size < 2) continue; // lost multi-source property after assignment
-
-    for (const it of unassigned) assignedItems.add(it);
-    rawClusters.push({ seedKw: cand.kw, items: unassigned, sources: remainingSources });
-
-    if (rawClusters.length >= 25) break;
-  }
-
-  // 4. Coherence filter — remove articles that don't share ≥1 title token
-  //    with at least half of the other cluster members. This weeds out articles
-  //    that landed in a cluster only because of an incidental keyword match
-  //    (e.g. "apple" in a tech story and a food story).
-  function filterCoherent(clItems) {
-    if (clItems.length <= 2) return clItems;
-    const tokSets = clItems.map(function (it) {
-      return new Set(tokenize(it.title || ""));
-    });
-    return clItems.filter(function (it, idx) {
-      var myToks = tokSets[idx];
-      var threshold = Math.ceil((clItems.length - 1) / 2);
-      var matches = 0;
-      for (var j = 0; j < clItems.length; j++) {
-        if (j === idx) continue;
-        var other = tokSets[j];
-        var shared = false;
-        myToks.forEach(function (t) { if (other.has(t)) shared = true; });
-        if (shared) matches++;
-      }
-      return matches >= threshold;
-    });
-  }
-
-  // 5. Name each cluster and format output.
-  return rawClusters.map(function (cluster) {
-    // Re-run coherence filter on this cluster's articles
-    var coherent = filterCoherent(cluster.items);
-    // Re-check: must still span ≥2 sources after filtering
-    var coherentSources = new Set(coherent.map(function (i) { return i.source; }));
-    if (coherentSources.size < 2) return null;
-    cluster.items   = coherent;
-    cluster.sources = coherentSources;
-    const clItems = cluster.items;
-    const clSrcs  = cluster.sources;
-
-    // Count title-token frequency within this cluster.
+    // Name the cluster by its two most frequent title tokens.
     const titleTokenFreq = new Map();
     for (const it of clItems) {
-      const tt = itemTitleTokens.get(it) || new Set();
-      for (const t of tt) titleTokenFreq.set(t, (titleTokenFreq.get(t) || 0) + 1);
+      for (const tk of new Set(tokenize(it.title || ""))) {
+        titleTokenFreq.set(tk, (titleTokenFreq.get(tk) || 0) + 1);
+      }
     }
-
-    // Top 2 tokens by frequency = cluster label.
     const topTokens = Array.from(titleTokenFreq.entries())
       .sort(function (a, b) { return b[1] - a[1]; })
       .slice(0, 2)
-      .map(function (pair) {
-        const t = pair[0];
-        return t.charAt(0).toUpperCase() + t.slice(1);
-      });
-
-    const label = topTokens.length > 0
+      .map(function (p) { return p[0].charAt(0).toUpperCase() + p[0].slice(1); });
+    const label = topTokens.length
       ? topTokens.join(" · ")
-      : cluster.seedKw.charAt(0).toUpperCase() + cluster.seedKw.slice(1);
+      : ((clItems[0] && clItems[0].title) || "Topic").slice(0, 48);
 
-    const categories = Array.from(
-      new Set(clItems.map(function (i) { return i.category; }).filter(Boolean))
-    );
+    // Category frequency → keep the full list, but mark the dominant one.
+    const catFreq = new Map();
+    for (const it of clItems) {
+      if (it.category) catFreq.set(it.category, (catFreq.get(it.category) || 0) + 1);
+    }
+    const categories = Array.from(catFreq.keys());
+    const primaryCategory = Array.from(catFreq.entries())
+      .sort(function (a, b) { return b[1] - a[1]; })
+      .map(function (p) { return p[0]; })[0] || null;
 
     // Sort items: highest score first, then most recent.
     clItems.sort(function (a, b) {
@@ -596,26 +659,29 @@ function clusterByTopic(items) {
     });
 
     const trending = clSrcs.size >= 3;
-    const fresh    = clItems.some(function (i) {
+    const fresh = clItems.some(function (i) {
       return i.published && (now - new Date(i.published).getTime()) <= velocityWindowMs;
     });
 
     return {
-      label:       label,
-      keywords:    topTokens.map(function (t) { return t.toLowerCase(); }),
-      sourceCount: clSrcs.size,
-      sources:     Array.from(clSrcs).sort(),
-      categories:  categories,
-      trending:    trending,
-      fresh:       fresh,
-      items:       clItems.slice(0, MAX_ITEMS_PER_TOPIC),
+      label:           label,
+      keywords:        topTokens.map(function (t) { return t.toLowerCase(); }),
+      sourceCount:     clSrcs.size,
+      sources:         Array.from(clSrcs).sort(),
+      categories:      categories,
+      primaryCategory: primaryCategory,
+      trending:        trending,
+      fresh:           fresh,
+      items:           clItems.slice(0, MAX_ITEMS_PER_TOPIC),
     };
-  }).filter(Boolean).sort(function (a, b) {
-    // Cultural relevance score:
-    //   sourceCount × 5  — cross-source breadth is the strongest signal
-    //   + avg item score  — authority/recency/trending of constituent articles
-    //   + trending bonus  — 3+ sources = confirmed multi-outlet story
-    //   + fresh bonus     — something blowing up right now
+  }).filter(Boolean);
+
+  // Cultural relevance ranking:
+  //   sourceCount × 5  — cross-source breadth is the strongest signal
+  //   + avg item score — authority/recency/trending/engagement of articles
+  //   + trending bonus — 3+ sources = confirmed multi-outlet story
+  //   + fresh bonus    — something blowing up right now
+  return formatted.sort(function (a, b) {
     function topicScore(t) {
       const avgScore = t.items.length
         ? t.items.reduce(function (s, i) { return s + (i.score || 0); }, 0) / t.items.length
@@ -624,6 +690,116 @@ function clusterByTopic(items) {
     }
     return topicScore(b) - topicScore(a);
   });
+}
+
+// --- Semantic clustering via embeddings (preferred) ---
+// Greedy online clustering: process items strongest-first; attach each to the
+// most-similar existing cluster above EMBED_SIM_THRESHOLD, else open a new one.
+// Returns finalized clusters, or null if embeddings are unavailable.
+async function clusterByEmbeddings(items) {
+  const texts = items.map(function (it) {
+    return (it.title || "") + (it.summary ? ". " + it.summary : "");
+  });
+  let embs;
+  try {
+    embs = await embedTexts(texts);
+  } catch (err) {
+    console.warn("  Voyage embeddings mislukt (" + err.message + ") — fallback naar keyword-clustering.");
+    return null;
+  }
+  if (!embs) return null;
+
+  // Seed clusters with the strongest items first to stabilise assignment order.
+  const order = items.map(function (_, i) { return i; })
+    .sort(function (a, b) { return (items[b].score || 0) - (items[a].score || 0); });
+
+  const clusters = []; // { centroid, embs:[], items:[] }
+  for (const i of order) {
+    const e = embs[i];
+    if (!e) continue;
+    let best = -1, bestSim = 0;
+    for (let c = 0; c < clusters.length; c++) {
+      const sim = cosine(e, clusters[c].centroid);
+      if (sim > bestSim) { bestSim = sim; best = c; }
+    }
+    if (best >= 0 && bestSim >= EMBED_SIM_THRESHOLD) {
+      clusters[best].items.push(items[i]);
+      clusters[best].embs.push(e);
+      clusters[best].centroid = meanVec(clusters[best].embs);
+    } else {
+      clusters.push({ centroid: e.slice(), embs: [e], items: [items[i]] });
+    }
+  }
+
+  return finalizeClusters(clusters);
+}
+
+// --- Keyword clustering (fallback) ---
+// Groups items by cross-source title-keyword overlap. Only clusters spanning
+// ≥2 sources survive; a coherence filter drops incidental keyword collisions.
+function clusterByTopic(items) {
+  const now = Date.now();
+  const velocityWindowMs = VELOCITY_WINDOW_HOURS * 60 * 60 * 1000;
+  const totalItems = items.length;
+
+  const kwToItems   = new Map(); // token → [item]
+  const kwToSources = new Map(); // token → Set<sourceName>
+  for (const it of items) {
+    for (const t of new Set(tokenize(it.title || ""))) {
+      if (!kwToItems.has(t))   kwToItems.set(t, []);
+      if (!kwToSources.has(t)) kwToSources.set(t, new Set());
+      kwToItems.get(t).push(it);
+      kwToSources.get(t).add(it.source);
+    }
+  }
+
+  const candidates = [];
+  for (const [kw, sources] of kwToSources) {
+    if (sources.size < 2) continue;                    // must span ≥2 sources
+    const kwItems = kwToItems.get(kw);
+    if (kwItems.length / totalItems > 0.30) continue;  // too generic (>30% coverage)
+    const freshCount = kwItems.filter(function (i) {
+      return i.published && (now - new Date(i.published).getTime()) <= velocityWindowMs;
+    }).length;
+    const score = sources.size * 4 + kwItems.length + (freshCount > 0 ? 1.5 : 0);
+    candidates.push({ kw, items: kwItems, score });
+  }
+  candidates.sort(function (a, b) { return b.score - a.score; });
+
+  // Greedy assignment — each article goes to its highest-scoring keyword once.
+  const assignedItems = new Set();
+  const rawClusters   = [];
+  for (const cand of candidates) {
+    const unassigned = cand.items.filter(function (i) { return !assignedItems.has(i); });
+    if (unassigned.length === 0) continue;
+    const remainingSources = new Set(unassigned.map(function (i) { return i.source; }));
+    if (remainingSources.size < 2) continue;
+    for (const it of unassigned) assignedItems.add(it);
+    rawClusters.push({ items: unassigned });
+    if (rawClusters.length >= 25) break;
+  }
+
+  // Coherence filter — drop articles not sharing ≥1 title token with at least
+  // half the other members (weeds out incidental keyword collisions).
+  function filterCoherent(clItems) {
+    if (clItems.length <= 2) return clItems;
+    const tokSets = clItems.map(function (it) { return new Set(tokenize(it.title || "")); });
+    return clItems.filter(function (it, idx) {
+      const myToks = tokSets[idx];
+      const threshold = Math.ceil((clItems.length - 1) / 2);
+      let matches = 0;
+      for (let j = 0; j < clItems.length; j++) {
+        if (j === idx) continue;
+        let shared = false;
+        myToks.forEach(function (t) { if (tokSets[j].has(t)) shared = true; });
+        if (shared) matches++;
+      }
+      return matches >= threshold;
+    });
+  }
+
+  const coherent = rawClusters.map(function (c) { return { items: filterCoherent(c.items) }; });
+  return finalizeClusters(coherent);
 }
 
 // --- Archive index ---
@@ -717,10 +893,24 @@ async function main() {
     console.log("Deduped: " + before + " → " + allItems.length);
   }
 
+  // Enrich with real engagement signals (Reddit upvotes) before scoring.
+  await enrichRedditEngagement(allItems);
+
   // Score every item first, then cluster into cross-source topics.
   scoreItems(allItems);
 
-  const topics = clusterByTopic(allItems).slice(0, MAX_TOPICS);
+  // Prefer semantic (embeddings) clustering; fall back to keyword overlap.
+  let topics = null;
+  if (VOYAGE_API_KEY) {
+    console.log("Clustering: semantisch via Voyage embeddings (" + VOYAGE_MODEL + ")…");
+    topics = await clusterByEmbeddings(allItems);
+  }
+  if (!topics) {
+    if (VOYAGE_API_KEY) console.log("Clustering: terugval op keyword-overlap.");
+    else console.log("Clustering: keyword-overlap (zet VOYAGE_API_KEY voor semantische clustering).");
+    topics = clusterByTopic(allItems);
+  }
+  topics = topics.slice(0, MAX_TOPICS);
   const totalShown  = topics.reduce(function (sum, t) { return sum + t.items.length; }, 0);
   const hotTopics   = topics.filter(function (t) { return t.trending; }).length;
   const date = todayISO();
@@ -771,9 +961,18 @@ async function main() {
 
 // Force exit zodat hangende HTTP-sockets (chunked feeds die nooit afsluiten)
 // de Node.js event loop niet blokkeren na afloop van het script.
-main().then(function () {
-  process.exit(0);
-}).catch(function (err) {
-  console.error("Fatal:", err);
-  process.exit(1);
-});
+// Alleen draaien wanneer direct aangeroepen (node scripts/fetch-and-summarize.js),
+// zodat de pure functies importeerbaar zijn voor tests.
+if (require.main === module) {
+  main().then(function () {
+    process.exit(0);
+  }).catch(function (err) {
+    console.error("Fatal:", err);
+    process.exit(1);
+  });
+}
+
+module.exports = {
+  cosine, meanVec, finalizeClusters, clusterByEmbeddings, clusterByTopic,
+  scoreItems, dedupe, redditPostId, subredditOf, tokenize,
+};

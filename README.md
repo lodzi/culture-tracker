@@ -1,293 +1,198 @@
-# Culture Tracker
+# Zeitfeed Weekly (Culture Tracker)
 
-A lightweight daily brief of what's happening in popular culture. The frontend is a static HTML/CSS/JS site you can host anywhere. A Node.js script (run locally or via GitHub Actions) fetches RSS feeds, groups them by category, writes a fresh JSON file every hour, and emails the result to you once a day.
+A daily/weekly brief of what's moving in popular culture, written for brand strategists and creatives. A set of Node.js scripts fetch dozens of sources, cluster them into real cross-source topics, and use Claude to synthesise daily trends, cross-category mega-trends, weekly patterns, monthly macro-shifts and a weekly "brand signals" digest. The output is plain JSON rendered by a static frontend and emailed as HTML.
 
-**No API keys required.** No Claude, no OpenAI, no paid services. Just RSS in, JSON out.
+> **Heads-up — this needs API keys.** Earlier versions of this project were RSS-only with no LLM. That is no longer true. The synthesis pipeline **requires `ANTHROPIC_API_KEY`**, and semantic clustering optionally uses **`VOYAGE_API_KEY`**. See [Requirements](#requirements).
 
 ## How it works
 
 ```
-RSS feeds  →  fetch-and-summarize.js  →  data/latest.json
-                                      →  data/archive/YYYY-MM-DD.json
-                                      →  data/archive/index.json
-                                            ↓
-                                     static frontend (index.html)
+sources.json
+   │  RSS · Wikipedia pageviews · Reddit (upvotes) · TikTok hashtags
+   ▼
+fetch-and-summarize.js
+   • fetch + dedupe + score (authority · recency · cross-source · engagement)
+   • cluster into topics:
+       – semantic via Voyage embeddings   (if VOYAGE_API_KEY set)   ← preferred
+       – keyword overlap                  (fallback)
+   ▼  data/latest-raw.json   (no LLM yet)
+ai-synthesize.js   (Claude)
+   • daily        – top trends per category            (Haiku)
+   • crossCategory – mega-trends across categories      (Haiku)
+   • weekly       – emerging patterns over 7 days       (Sonnet, cached 6d)
+   • monthly      – macro-shifts over 30 days           (Sonnet, cached 25d)
+   • weeklyBrandSignals – 3 brand-ready trends          (Sonnet, cached 6d)
+   • spell-check  – Dutch proofread of all generated text (Haiku)
+   ▼  data/latest.json  +  data/archive/YYYY-MM-DD.json
+static frontend (index.html)  ·  HTML emails (send-email.js / send-weekly-email.js)
+
+synthesize-reports.js   (Claude, run occasionally)
+   • reads "Trend rapport/" (PDF/DOCX) → data/report-synthesis.json
+   • feeds macro-trends into the monthly layer + a "trend reports" UI section
 ```
 
-The frontend only ever reads JSON files from `/data/`. There is no backend at runtime — the "backend" is a cron job that updates the JSON files.
+The frontend only ever reads JSON from `/data/`. There is no runtime backend — the "backend" is a scheduled job that regenerates the JSON.
 
 ## Project structure
 
 ```
-/index.html
-/style.css
-/app.js
-/package.json
-/data
-  /latest.json              # what the frontend renders
-  /archive
-    /index.json             # ["2026-05-01", ...]
-    /2026-05-01.json        # one snapshot per day
-/config
-  /sources.json             # add/remove RSS feeds here
-/scripts
-  /fetch-and-summarize.js   # the update job (RSS → grouped JSON)
-  /send-email.js            # emails the brief
-/.github/workflows
-  /daily-update.yml         # runs the fetch every hour
-  /daily-email.yml          # emails once a day
+index.html · style.css · app.js          # static frontend
+config/
+  sources.json                           # feeds + per-source weights
+  email-branding.json                    # weekly-email styling
+scripts/
+  fetch-and-summarize.js                 # fetch → score → cluster → latest-raw.json
+  ai-synthesize.js                       # Claude synthesis + spell-check → latest.json
+  synthesize-reports.js                  # PDF/DOCX reports → report-synthesis.json
+  send-email.js                          # daily HTML digest
+  send-weekly-email.js                   # weekly brand-signals email
+  check-sources.js                       # source health check (no LLM)
+data/
+  latest.json                            # what the frontend renders
+  latest-raw.json                        # fetch output, pre-LLM
+  report-synthesis.json                  # macro-trends from the report corpus
+  archive/index.json + YYYY-MM-DD.json   # daily snapshots
+.github/workflows/
+  ai-synthesis.yml                       # daily: fetch + synthesize + daily email
+  weekly-email.yml                       # Friday: weekly brand-signals email
+  report-synthesis.yml                   # manual: (re)build report-synthesis.json
+Trend rapport/                           # curated PDF/DOCX trend reports
 ```
 
-## 1. Run it locally
+## Requirements
 
-You need Node.js 18 or newer.
+- **Node.js 18+** (the workflows use Node 24).
+- **`ANTHROPIC_API_KEY`** — required for `ai-synthesize.js` and `synthesize-reports.js`.
+- **`VOYAGE_API_KEY`** — *optional.* When set, topics are clustered semantically (by meaning) instead of by keyword overlap. Without it the pipeline falls back to keyword clustering automatically. Get one at [voyageai.com](https://www.voyageai.com/).
+
+## Run it locally
 
 ```bash
-# install deps (just rss-parser and nodemailer)
 npm install
 
-# generate today's brief (writes data/latest.json + an archive file)
+# 1. fetch + cluster  → data/latest-raw.json   (no API key needed for keyword clustering)
+export VOYAGE_API_KEY=...        # optional: enables semantic clustering
 npm run update
 
-# serve the static site at http://localhost:8080
+# 2. Claude synthesis + spell-check → data/latest.json
+export ANTHROPIC_API_KEY=...
+npm run synthesize
+
+# 3. serve the static site at http://localhost:8080
 npm run serve
 ```
 
-Open http://localhost:8080 and you should see the brief.
+`npm run daily` chains update → synthesize → email. Serve over HTTP (not `file://`) — browsers block `fetch()` for `file://`.
 
-If you don't want to run the update yet, the repo ships with an example `data/latest.json` so the frontend works out of the box.
+### npm scripts
 
-> **Note on `file://`** — Some browsers block `fetch()` for `file://` URLs. Always serve the site over HTTP (e.g. `npm run serve`, `python3 -m http.server`, or any static host) for local development.
+| Script | What it does |
+| --- | --- |
+| `npm run update` | Fetch sources, score, cluster → `data/latest-raw.json` (+ fallback `latest.json`). |
+| `npm run synthesize` | Claude synthesis + Dutch spell-check → `data/latest.json` + archive. |
+| `npm run synthesize-reports` | Process `Trend rapport/` PDFs/DOCX → `data/report-synthesis.json`. Add `-- --force` to ignore the 30-day cache. |
+| `npm run email` | Send the daily HTML digest from `latest.json`. |
+| `npm run weekly-email` | Send the weekly brand-signals email. |
+| `npm run daily` | `update` → `synthesize` → `email`. |
+| `npm run check-sources` | Validate every feed in `sources.json` (no LLM). |
+| `npm run serve` | Static server on `:8080`. |
 
-### Optional environment variables
+### Tunable environment variables
 
 | Var | Default | Purpose |
 | --- | --- | --- |
-| `LOOKBACK_HOURS` | `24` | How far back to keep RSS items as "today's new articles". |
-| `MAX_ITEMS_PER_FEED` | `10` | Cap per source to keep the brief readable. |
+| `ANTHROPIC_API_KEY` | — | **Required** for synthesis. |
+| `VOYAGE_API_KEY` | — | Optional; enables semantic (embeddings) clustering. |
+| `VOYAGE_MODEL` | `voyage-3.5` | Embedding model. |
+| `EMBED_SIM_THRESHOLD` | `0.55` | Cosine similarity above which two items are the same topic. Lower = bigger/looser clusters. |
+| `ENABLE_REDDIT_ENGAGEMENT` | `true` | Fetch Reddit upvotes/comments as a real engagement signal (`false` to disable). |
+| `LOOKBACK_HOURS` | `24` | Keep items newer than this. |
+| `MAX_ITEMS_PER_FEED` | `10` | Cap per source. |
+| `MAX_TOPICS` | `10` | Topics surfaced in the daily brief. |
+| `MIN_CATEGORIES` | `3` | Below this, the synthesis logs a quality warning. |
 
-## 2. Add new sources
+## Sources
 
-Open `config/sources.json` and add an entry:
+Add a feed in `config/sources.json`:
 
 ```json
-{
-  "name": "Dazed",
-  "type": "rss",
-  "url": "https://www.dazeddigital.com/rss",
-  "category": "fashion"
-}
+{ "name": "Dazed", "type": "rss", "url": "https://www.dazeddigital.com/rss", "category": "culture", "weight": 7 }
 ```
 
-- `name` — shown in the UI and the source filter.
-- `type` — only `"rss"` is supported. Entries with other types are skipped.
-- `url` — the RSS/Atom feed URL.
-- `category` — the bucket this source belongs to. Categories are the section headings in the brief; sources sharing a category are grouped together.
+- `type` — `rss`, `wikipedia-trending`, or `tiktok-trends`. Unknown types are skipped.
+- `weight` — 1–10 authority weight (higher = stronger base score).
+- `category` — the bucket; sources sharing a category are grouped. Each topic is assigned to its **dominant** category so it appears once, not smeared across every category.
 
-The script picks up changes on the next run — no other code changes needed.
+Reddit feeds work as `rss`; when `ENABLE_REDDIT_ENGAGEMENT` is on, the fetcher also pulls each subreddit's JSON listing once to attach real upvotes. Reddit aggressively rate-limits datacenter IPs, so this is best-effort — failures are logged and ignored.
 
-Common categories: `music`, `fashion`, `film`, `internet`, `sport`, `gaming`, `art`, `brands`, `social`, `marketing`, `culture`, `trends`, `community`. Anything else is allowed; unknown categories appear with a Title-Cased label after the known ones.
+## Automation (GitHub Actions)
 
-## 3. Hosting
+| Workflow | Trigger | Does |
+| --- | --- | --- |
+| `ai-synthesis.yml` | daily 06:00 UTC | fetch → synthesize → commit `latest.json` + archive → send daily email |
+| `weekly-email.yml` | Friday 06:00 UTC | send weekly brand-signals email |
+| `report-synthesis.yml` | manual | rebuild `data/report-synthesis.json` from the report corpus |
 
-The recommended setup is **GitHub Pages with a custom domain**, because every commit from the hourly workflow auto-redeploys the site without you doing anything. No FTP, no manual uploads, no cache headaches.
+> **DST note.** GitHub cron is UTC-only. 06:00 UTC = 08:00 Brussels in summer (CEST), 07:00 in winter (CET).
 
-### Option A — GitHub Pages (recommended)
+> **Report synthesis is manual on purpose.** The `Trend rapport/` corpus is large, so we don't want a heavy checkout on every scheduled run. Trigger `report-synthesis.yml` when you add/replace reports, or run `npm run synthesize-reports` locally and commit `data/report-synthesis.json`. The daily synthesis picks it up automatically.
 
-**Step 1: Enable Pages on the repo**
+### Required secrets
 
-1. Push the repo to GitHub.
-2. Go to repo → **Settings** → **Pages**.
-3. Under "Build and deployment":
-   - Source: **Deploy from a branch**
-   - Branch: **main** · Folder: **/ (root)**
-4. Click **Save**.
-
-GitHub will start building. After ~1 minute your site is live at `https://<your-username>.github.io/CultureTracker/`.
-
-**Step 2: Set the custom domain**
-
-The repo already includes a `CNAME` file pointing to `tracker.thisisdefiant.com`. If you want a different domain, edit that file.
-
-In GitHub: Settings → Pages → "Custom domain" → enter `tracker.thisisdefiant.com` → Save.
-
-**Step 3: DNS records**
-
-In your DNS provider for `thisisdefiant.com`, set the following on the `tracker` subdomain:
-
-```
-Type:   CNAME
-Name:   tracker
-Value:  <your-username>.github.io
-TTL:    3600
-```
-
-(If your DNS provider doesn't allow CNAME on subdomains, use these four A records instead, pointing `tracker` to GitHub's Pages IPs:
-`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.)
-
-**Step 4: Wait + verify**
-
-- DNS propagation: usually 5–30 minutes, sometimes up to a few hours.
-- Once propagated, GitHub will auto-issue a free Let's Encrypt SSL certificate. Tick "Enforce HTTPS" in Settings → Pages.
-- Visit `https://tracker.thisisdefiant.com/data/latest.json` — if it shows the freshest brief, you're done.
-
-### Option B — Other static hosts
-
-The site is plain HTML/CSS/JS with JSON files, so it works anywhere:
-
-- **Netlify / Vercel / Cloudflare Pages** — connect the repo. No build command. Publish dir: `.` (root).
-- **Shared hosting via FTP** — works but you have to manually re-upload `data/*.json` after each update, OR add an FTP deploy step to the GitHub Action.
-- **S3 / R2 / static buckets** — sync the files; serve via the bucket's website endpoint or a CDN.
-
-Files you need to upload (if doing it manually):
-
-```
-index.html
-style.css
-app.js
-CNAME           (only on GitHub Pages with custom domain)
-.nojekyll       (only on GitHub Pages)
-data/           (the whole folder, including archive/)
-```
-
-You do **not** need `node_modules/`, `scripts/`, `config/`, `package.json`, or `.github/` on the host — those only matter for running the update job.
-
-## 4. GitHub Actions for automation
-
-There are two separate workflows so you can update the data more often than you email yourself:
-
-### `daily-update.yml` — Hourly culture update
-
-- Runs at the top of every hour (`0 * * * *` UTC).
-- Fetches feeds, groups by category, commits `data/latest.json` and `data/archive/...` to the repo.
-- **Free.** No external API calls beyond the RSS feeds.
-- **Does not send email** on scheduled runs. Email is opt-in for manual triggers via the dropdown.
-
-### `daily-email.yml` — Daily email digest
-
-- Runs once a day at 06:00 UTC (= 08:00 Brussels in summer / CEST, 07:00 in winter / CET).
-- Reads whatever is currently in `data/latest.json` and emails it.
-
-This split lets you change the cadence on each side independently. Want updates every 3h instead? Change the cron in `daily-update.yml` to `0 */3 * * *`. Want a second email at the end of the day? Add a cron entry in `daily-email.yml`.
-
-> **A note on archives.** Each hourly run for the same day overwrites `data/archive/YYYY-MM-DD.json`. So an "archive entry" is the latest snapshot for that day, not the morning version.
-
-> **A note on DST.** GitHub Actions cron is UTC-only and does not track Daylight Saving Time. If you need exactly 08:00 Brussels year-round for the email, add a second cron entry to switch by season.
-
-**To enable:**
-
-1. Push the repo to GitHub.
-2. Add the SMTP secrets (see next section) for the daily email workflow.
-3. (Optional) Trigger each workflow once manually via Actions → "Run workflow" to verify.
-
-If you host on Netlify/Vercel/Pages from the same repo, every commit triggers a redeploy — that means up to 24 redeploys/day at this cadence. If your host has a redeploy quota, drop the cron to every few hours.
-
-## 5. Daily email
-
-The `scripts/send-email.js` script reads `data/latest.json` and emails it as a clean HTML digest.
-
-### Required GitHub secrets
-
-Add these under Settings → Secrets and variables → Actions:
+Settings → Secrets and variables → Actions:
 
 | Secret | Example | Purpose |
 | --- | --- | --- |
-| `SMTP_HOST` | `smtp.gmail.com` | SMTP server |
-| `SMTP_PORT` | `587` | Use 587 for STARTTLS, 465 for SSL/TLS |
-| `SMTP_USER` | `lode@thisisdefiant.com` | SMTP username (usually your full email) |
-| `SMTP_PASS` | `xxxx xxxx xxxx xxxx` | App password — see below |
-| `EMAIL_FROM` | `Culture Tracker <lode@thisisdefiant.com>` | The "From" header |
-| `EMAIL_TO` | `lode@thisisdefiant.com` | Recipient. Can be comma-separated. |
-| `PUBLIC_URL` (optional) | `https://tracker.thisisdefiant.com` | Shown as a "View online" link |
+| `ANTHROPIC_API_KEY` | `sk-ant-...` | Claude synthesis (required). |
+| `VOYAGE_API_KEY` | `pa-...` | Semantic clustering (optional). |
+| `SMTP_HOST` | `smtp.gmail.com` | SMTP server. |
+| `SMTP_PORT` | `587` | 587 STARTTLS / 465 SSL. |
+| `SMTP_USER` | `you@domain.com` | SMTP username. |
+| `SMTP_PASS` | app password | Not your normal password — see below. |
+| `EMAIL_FROM` | `Zeitfeed Weekly <you@domain.com>` | From header. |
+| `EMAIL_TO` | `you@domain.com` | Recipient(s), comma-separated. |
+| `PUBLIC_URL` | `https://tracker.thisisdefiant.com` | Optional "view online" link. |
 
-### Provider-specific setup
+**Gmail / Workspace:** enable 2-Step Verification, then create an App Password at <https://myaccount.google.com/apppasswords>. Use `smtp.gmail.com` / port `587`. The most common error, `Invalid login`, means you used your normal password instead of an app password.
 
-**Google Workspace / Gmail:**
+## Hosting (GitHub Pages)
 
-1. Enable 2-Step Verification on your Google account.
-2. Go to https://myaccount.google.com/apppasswords and create an App Password named "Culture Tracker".
-3. Use these values:
-   - `SMTP_HOST = smtp.gmail.com`
-   - `SMTP_PORT = 587`
-   - `SMTP_USER = lode@thisisdefiant.com`
-   - `SMTP_PASS = ` the 16-character app password (with or without spaces)
-   - `EMAIL_FROM = Culture Tracker <lode@thisisdefiant.com>`
-   - `EMAIL_TO = lode@thisisdefiant.com`
+1. Push to GitHub → Settings → Pages → Deploy from branch `main`, folder `/ (root)`.
+2. The repo ships a `CNAME` (`tracker.thisisdefiant.com`); edit it for your own domain and set the matching DNS `CNAME` to `<username>.github.io`.
+3. Tick **Enforce HTTPS** once the certificate is issued.
 
-**Microsoft 365 / Outlook:**
-
-- `SMTP_HOST = smtp.office365.com`
-- `SMTP_PORT = 587`
-- Authentication varies; you may need OAuth2 or to enable SMTP AUTH on the mailbox.
-
-**Resend / SendGrid / Mailgun / Postmark / any SMTP relay:**
-
-- Use whatever host/port/credentials they give you. Nodemailer speaks plain SMTP so anything works.
-
-### Test it locally
-
-```bash
-export SMTP_HOST=smtp.gmail.com
-export SMTP_PORT=587
-export SMTP_USER=lode@thisisdefiant.com
-export SMTP_PASS="your-app-password"
-export EMAIL_FROM="Culture Tracker <lode@thisisdefiant.com>"
-export EMAIL_TO=lode@thisisdefiant.com
-export PUBLIC_URL=https://tracker.thisisdefiant.com   # optional
-
-npm run daily   # runs update + email in one go
-# or just:
-npm run email   # if you only want to test the email with the existing latest.json
-```
-
-If something goes wrong, the script prints the SMTP error directly. The most common one is `Invalid login` — that means you're using your normal password instead of an app password.
-
-## Why these dependencies?
-
-The project has only two runtime dependencies:
-
-- **`rss-parser`** — RSS and Atom have a lot of edge cases (CDATA, namespaces, malformed dates, etc.). Writing a correct parser is more code than it's worth.
-- **`nodemailer`** — only needed if you use the email workflow. Plain SMTP, no provider lock-in.
-
-The frontend has **zero** dependencies — pure HTML/CSS/JS, no framework, no build step.
+Every commit from the daily workflow auto-redeploys, so the live site stays fresh. The site is plain HTML/CSS/JS + JSON, so it also works on Netlify, Vercel, Cloudflare Pages or any static host (no build step; publish dir `.`).
 
 ## Data structure
 
-`data/latest.json` (and every file in `data/archive/`) has this shape:
+`data/latest.json` (and each archive file):
 
 ```json
 {
-  "date": "2026-05-01",
-  "daily": {
-    "title": "Culture Brief",
-    "intro": "27 items from 12 sources across 8 categories, last 24 hours.",
-    "themes": [
-      {
-        "title": "Fashion",
-        "summary": "",
-        "items": [
-          {
-            "title": "Item title",
-            "summary": "Short snippet from the feed",
-            "source": "Highsnobiety",
-            "url": "https://example.com",
-            "category": "fashion",
-            "published": "2026-05-01T08:30:00Z"
-          }
-        ]
-      }
-    ]
-  },
-  "weekly_hypes": [],
-  "monthly_trends": []
+  "date": "2026-05-25",
+  "aiModel": { "daily": "claude-haiku-4-5-20251001", "weekly": "claude-sonnet-4-6", "monthly": "claude-sonnet-4-6" },
+  "daily":   { "intro": "...", "categories": [ { "id": "music", "label": "Muziek",
+                 "insights": [ { "trend": "...", "summary": "...", "why_it_matters": "...",
+                                 "strategic_signal": "...", "trajectory": "opkomend",
+                                 "daysActive": 1, "isNew": true, "sources": [...], "articles": [...] } ] } ] },
+  "crossCategory":      { "megaTrends": [ { "trend": "...", "categories": ["music","fashion"], "strength": "sterk" } ] },
+  "weekly":             { "categories": [ ... ] },
+  "monthly":            { "categories": [ ... ] },
+  "weeklyBrandSignals": { "weeklyBrandSignals": [ { "trend": "...", "category": "...", "what_brands_can_do": ["..."] } ] },
+  "reportInsights":     { "macroTrends": [ { "trend": "...", "horizon": "6 maanden", "strategic_action": "..." } ] }
 }
 ```
 
-`weekly_hypes` and `monthly_trends` are kept in the JSON for backward compatibility with the frontend and email renderer. They are always empty in this RSS-only version — those layers needed AI synthesis to be meaningful.
+`weekly`, `monthly`, `crossCategory` and `reportInsights` only appear once there's enough data for them to be meaningful.
+
+## Spell-check
+
+All Claude-generated Dutch text (daily/weekly/monthly insights, mega-trends and brand signals) passes a final Haiku proofread inside `ai-synthesize.js` before `latest.json` is written. It fixes spelling/typo/grammar only — it does not rewrite — and a length guard rejects any "correction" that looks like a rewrite. Because the website and both emails read `latest.json`, the corrected text flows everywhere, including cached brand signals.
 
 ## Troubleshooting
 
-- **"Could not load today's brief"** in the UI → make sure `data/latest.json` exists and you're serving the site over HTTP, not `file://`.
-- **Empty brief / "No items fetched"** → one or more feeds may be down or rate-limiting. Check the script's console output; it logs each source.
-- **A specific feed always errors** → try opening the feed URL in a browser. RSS feeds disappear and rename more often than you'd think. Edit `config/sources.json`.
-- **GitHub Action runs but nothing commits** → that means the diff was empty (nothing changed since the last hourly run). Check the run logs to confirm the script actually wrote files.
+- **"Could not load the brief"** → ensure `data/latest.json` exists and you serve over HTTP.
+- **Empty / thin brief** → check the fetch logs; feeds rate-limit or rename often. Run `npm run check-sources`. A "quality warning" in the synthesis log means fewer than `MIN_CATEGORIES` categories came through.
+- **Weekly/monthly missing** → they read the archive **index** (`data/archive/index.json`), so they survive gaps in the daily cron. If the index is empty they won't generate until a few days have accumulated.
+- **Semantic clustering not happening** → confirm `VOYAGE_API_KEY` is set; the fetch log prints which strategy it used. On any Voyage error it falls back to keyword clustering.
+- **`report-synthesis.json` never appears** → run `report-synthesis.yml` (manual) or `npm run synthesize-reports` locally and commit the file.

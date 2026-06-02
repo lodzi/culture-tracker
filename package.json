@@ -6,6 +6,7 @@
   "scripts": {
     "update": "node scripts/fetch-and-summarize.js",
     "synthesize": "node scripts/ai-synthesize.js",
+    "synthesize-reports": "node scripts/synthesize-reports.js",
     "email": "node scripts/send-email.js",
     "weekly-email": "node scripts/send-weekly-email.js",
     "daily": "npm run update && npm run synthesize && npm run email",
@@ -17,7 +18,9 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
+    "mammoth": "^1.8.0",
     "nodemailer": "^6.9.14",
+    "pdf-parse": "^1.1.1",
     "rss-parser": "^3.13.0"
   }
 }

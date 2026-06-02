@@ -4,3 +4,6 @@ node_modules/
 .DS_Store
 npm-debug.log*
 .claude/
+
+# Grote trendrapporten blijven lokaal (te groot voor GitHub; ~3,7 GB)
+Trend rapport/

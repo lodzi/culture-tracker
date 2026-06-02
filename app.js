@@ -118,6 +118,46 @@
     $container.appendChild(wrap);
   }
 
+  // ── Report macro-trends (uit de gecureerde trendrapporten) ───────────────
+
+  function renderReportInsights(report, $container) {
+    const trends = (report && Array.isArray(report.macroTrends)) ? report.macroTrends : [];
+    if (trends.length === 0) return;
+
+    const cards = trends.map(function (mt) {
+      const horizon = mt.horizon
+        ? el("span", { class: "badge badge-horizon" }, "↗ " + mt.horizon)
+        : (mt.strength
+            ? el("span", { class: "badge " + (mt.strength === "sterk" ? "badge-hot" : "badge-neutral") }, mt.strength)
+            : null);
+      const header = el("div", { class: "insight-header" }, [
+        el("h3", { class: "insight-trend" }, mt.trend || ""), horizon,
+      ]);
+      const summary = mt.summary ? el("p", { class: "insight-summary" }, mt.summary) : null;
+      const why = mt.why_it_matters
+        ? el("p", { class: "insight-why" }, [el("strong", null, "Waarom relevant: "), mt.why_it_matters])
+        : null;
+      const action = mt.strategic_action
+        ? el("p", { class: "insight-why" }, [el("strong", null, "Strategische actie: "), mt.strategic_action])
+        : null;
+      const cats = (mt.categories || []).map(function (c) { return el("span", { class: "pill source" }, c); });
+      const catsRow = cats.length ? el("div", { class: "insight-sources" }, cats) : null;
+      return el("div", { class: "insight" }, [header, summary, why, action, catsRow]);
+    });
+
+    const count = report.processedCount || report.reportCount;
+    const details = el("details", { class: "report-insights" }, [
+      el("summary", null, "Macro-trends uit " + (count ? count + " " : "") + "trendrapporten (" + trends.length + ")"),
+      report.intro ? el("p", { class: "insight-summary" }, report.intro) : null,
+      el("div", { class: "insights" }, cards),
+    ]);
+
+    $container.appendChild(el("section", { class: "category" }, [
+      el("div", { class: "category-header" }, [el("h2", { class: "category-title" }, "Uit de trendrapporten")]),
+      details,
+    ]));
+  }
+
   // ── AI-formaat rendering ──────────────────────────────────────────────────
 
   function renderArticle(art) {
@@ -258,7 +298,8 @@
 
   function renderAiLayer(data, $container, mode) {
     // mode: "daily" | "weekly" | "monthly"
-    $container.innerHTML = "";
+    // Note: the caller (renderCurrentTab) is responsible for clearing the layer,
+    // so sections rendered before this one (Culture Radar, report insights) survive.
     const cats     = Array.isArray(data.categories) ? data.categories : [];
     const filterVal = $catFilter ? $catFilter.value : "";
     const filtered  = filterVal ? cats.filter(function (c) { return c.id === filterVal; }) : cats;
@@ -289,7 +330,6 @@
   }
 
   function renderRawLayer(data, $container) {
-    $container.innerHTML = "";
     const topics = Array.isArray(data.topics) ? data.topics : [];
     if (topics.length === 0) {
       $container.appendChild(el("p", { class: "empty" },
@@ -338,24 +378,27 @@
     if (curTab === "daily" && $layerDaily) {
       $layerDaily.innerHTML = "";
       const daily = brief.daily || {};
-      // Render cross-category mega-trends at top (if present)
+      // Cross-category mega-trends first (if present).
       if (brief.crossCategory && Array.isArray(brief.crossCategory.megaTrends) &&
           brief.crossCategory.megaTrends.length > 0) {
         renderCrossCategory(brief.crossCategory, $layerDaily);
       }
+      // Macro-trends from the curated trend reports (collapsed by default).
+      if (brief.reportInsights) renderReportInsights(brief.reportInsights, $layerDaily);
       if (Array.isArray(daily.categories)) renderAiLayer(daily, $layerDaily, "daily");
       else renderRawLayer(daily, $layerDaily);
     }
 
     if (curTab === "weekly" && $layerWeek && brief.weekly) {
+      $layerWeek.innerHTML = "";
       renderAiLayer(brief.weekly, $layerWeek, "weekly");
     }
 
     if (curTab === "monthly" && $layerMonth && brief.monthly) {
+      $layerMonth.innerHTML = "";
       if (Array.isArray(brief.monthly.categories)) {
         renderAiLayer(brief.monthly, $layerMonth, "monthly");
       } else {
-        $layerMonth.innerHTML = "";
         $layerMonth.appendChild(el("p", { class: "empty" },
           "Maandoverzicht wordt gegenereerd zodra er genoeg weekdata is (7+ dagen archief)."));
       }
@@ -380,7 +423,7 @@
     if ($intro) {
       $intro.innerHTML = "";
       const daily = (brief && brief.daily) || {};
-      $intro.appendChild(el("h2", null, "Culture Tracker"));
+      $intro.appendChild(el("h2", null, "Zeitfeed Weekly"));
       if (daily.intro) $intro.appendChild(el("p", null, daily.intro));
     }
     if ($briefDate && brief && brief.date) {
@@ -428,7 +471,7 @@
       console.error("Kon latest.json niet laden:", err);
       if ($intro) {
         $intro.innerHTML = "";
-        $intro.appendChild(el("h2", null, "Culture Tracker"));
+        $intro.appendChild(el("h2", null, "Zeitfeed Weekly"));
         $intro.appendChild(el("p", null,
           "Kon de brief niet laden. Zorg dat data/latest.json bestaat. (" + err.message + ")"));
       }

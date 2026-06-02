@@ -24,12 +24,13 @@ const path    = require("path");
 const Anthropic = require("@anthropic-ai/sdk");
 
 // --- Paths ---
-const ROOT          = path.resolve(__dirname, "..");
-const DATA_DIR      = path.join(ROOT, "data");
-const ARCHIVE_DIR   = path.join(DATA_DIR, "archive");
-const RAW_PATH      = path.join(DATA_DIR, "latest-raw.json");
-const LATEST_PATH   = path.join(DATA_DIR, "latest.json");
-const ARCHIVE_INDEX = path.join(ARCHIVE_DIR, "index.json");
+const ROOT                 = path.resolve(__dirname, "..");
+const DATA_DIR             = path.join(ROOT, "data");
+const ARCHIVE_DIR          = path.join(DATA_DIR, "archive");
+const RAW_PATH             = path.join(DATA_DIR, "latest-raw.json");
+const LATEST_PATH          = path.join(DATA_DIR, "latest.json");
+const ARCHIVE_INDEX        = path.join(ARCHIVE_DIR, "index.json");
+const REPORT_SYNTHESIS_PATH = path.join(DATA_DIR, "report-synthesis.json");
 
 // --- Models ---
 const HAIKU  = "claude-haiku-4-5-20251001";   // snel + goedkoop → daily
@@ -94,17 +95,37 @@ function updateArchiveIndex(date) {
   }
 }
 
+// ── Archief-datums uit de index ───────────────────────────────────────────
+// Leest data/archive/index.json en geeft de beschikbare datums terug, nieuwste
+// eerst, exclusief vandaag. KRITISCH: vroeger liepen loadArchiveDays/loadRecentTrends
+// terug vanaf de systeemdatum ("vandaag"). Zodra de dagelijkse run een keer werd
+// gemist, viel "de laatste 7 dagen" buiten het archief en kwam weekly/monthly nooit
+// meer door (return null). Door de index te lezen pakken we altijd de échte laatste
+// N archiefdagen, ongeacht gaten in de kalender.
+function loadArchiveDates() {
+  let dates = [];
+  if (fs.existsSync(ARCHIVE_INDEX)) {
+    try { dates = readJSON(ARCHIVE_INDEX); } catch (e) { dates = []; }
+  }
+  const today = todayISO();
+  return (Array.isArray(dates) ? dates : [])
+    .filter(function (d) { return typeof d === "string" && d < today; })
+    .sort(function (a, b) { return b.localeCompare(a); });
+}
+
+function daysAgoFrom(iso) {
+  const d = new Date(iso + "T00:00:00Z");
+  if (isNaN(d.getTime())) return 999;
+  return Math.max(1, Math.round((Date.now() - d.getTime()) / 86400000));
+}
+
 // ── Trend-continuïteit: laad recente trend-namen uit archief ──────────────
-// Leest de laatste `daysBack` archief-bestanden en verzamelt alle trend-titels.
+// Verzamelt trend-titels uit de meest recente `daysBack` archiefdagen (via index).
 // Resultaat: [{daysAgo: 1, date: "2026-05-06", trends: ["Trend A", "Trend B"]}, ...]
 
 function loadRecentTrends(daysBack) {
   const result = [];
-  const today = new Date();
-  for (let i = 1; i <= daysBack; i++) {
-    const d = new Date(today);
-    d.setDate(d.getDate() - i);
-    const iso = d.toISOString().slice(0, 10);
+  for (const iso of loadArchiveDates().slice(0, daysBack)) {
     const p = path.join(ARCHIVE_DIR, iso + ".json");
     if (!fs.existsSync(p)) continue;
     try {
@@ -116,7 +137,7 @@ function loadRecentTrends(daysBack) {
           if (ins.trend) trends.push(ins.trend);
         }
       }
-      if (trends.length > 0) result.push({ daysAgo: i, date: iso, trends });
+      if (trends.length > 0) result.push({ daysAgo: daysAgoFrom(iso), date: iso, trends });
     } catch (e) { /* skip corrupt file */ }
   }
   return result;
@@ -132,13 +153,17 @@ async function synthesizeDaily(client, rawData) {
     return { categories: [], intro: "Geen data beschikbaar.", generatedAt: new Date().toISOString() };
   }
 
-  // Groepeer per categorie, sorteer op sourceCount
+  // Groepeer per categorie. KRITISCH: gebruik primaryCategory zodat elke cluster
+  // in PRECIES ÉÉN categorie valt. Vroeger werd een cluster in elke categorie uit
+  // `categories` geduwd, waardoor één (vaak incoherente) cluster met dezelfde
+  // bronnenlijst in meerdere categorieën verscheen — bv. een muziektrend met
+  // Dezeen/Polygon als "bron". Met coherente clusters + primaryCategory is dat weg.
   const byCategory = {};
   for (const t of topics) {
-    for (const cat of (t.categories || [])) {
-      if (!byCategory[cat]) byCategory[cat] = [];
-      byCategory[cat].push(t);
-    }
+    const cat = t.primaryCategory || (Array.isArray(t.categories) && t.categories[0]);
+    if (!cat) continue;
+    if (!byCategory[cat]) byCategory[cat] = [];
+    byCategory[cat].push(t);
   }
 
   const promptData = {};
@@ -329,12 +354,8 @@ ${JSON.stringify(compact, null, 2)}`;
 
 function loadArchiveDays(n) {
   const days = [];
-  const today = new Date();
-  for (let i = 1; i <= n; i++) {
-    const d = new Date(today);
-    d.setDate(d.getDate() - i);
-    const iso = d.toISOString().slice(0, 10);
-    const p   = path.join(ARCHIVE_DIR, iso + ".json");
+  for (const iso of loadArchiveDates().slice(0, n)) {
+    const p = path.join(ARCHIVE_DIR, iso + ".json");
     if (!fs.existsSync(p)) continue;
     try {
       const data = readJSON(p);
@@ -343,12 +364,13 @@ function loadArchiveDays(n) {
       if (cats && cats.length > 0) {
         days.push({ date: iso, categories: cats });
       } else if (topics && topics.length > 0) {
+        // Backward-compat: oudere archieven sloegen rauwe topics op.
         const byCat = {};
         for (const t of topics) {
-          for (const cat of (t.categories || [])) {
-            if (!byCat[cat]) byCat[cat] = [];
-            byCat[cat].push({ trend: t.label });
-          }
+          const cat = t.primaryCategory || (Array.isArray(t.categories) && t.categories[0]);
+          if (!cat) continue;
+          if (!byCat[cat]) byCat[cat] = [];
+          byCat[cat].push({ trend: t.label });
         }
         const fakeCats = Object.entries(byCat).map(function ([id, ins]) {
           return { id, insights: ins.slice(0, 3) };
@@ -450,7 +472,7 @@ ${JSON.stringify(byCat, null, 2)}`;
 // Leest max. 30 archieven. Gebruikt Sonnet voor macro-verschuivingen.
 // Wordt alleen herberekend als >25 dagen oud of niet aanwezig.
 
-async function synthesizeMonthly(client, existingMonthly) {
+async function synthesizeMonthly(client, existingMonthly, reportSynthesis) {
   if (existingMonthly && ageDays(existingMonthly.generatedAt) < 25) {
     console.log("  Monthly is nog vers (" + Math.round(ageDays(existingMonthly.generatedAt)) + " dagen oud) — hergebruik.");
     return existingMonthly;
@@ -474,6 +496,17 @@ async function synthesizeMonthly(client, existingMonthly) {
   }
   if (!Object.keys(byCat).length) return null;
 
+  // Voeg rapport macro-trends toe als extra context (indien beschikbaar)
+  var reportContext = "";
+  if (reportSynthesis && reportSynthesis.macroTrends && reportSynthesis.macroTrends.length > 0) {
+    var reportLines = reportSynthesis.macroTrends.map(function (t) {
+      return "- " + t.trend + " [" + (t.horizon || "?") + "] — " + (t.why_it_matters || "");
+    }).join("\n");
+    reportContext = "\n\nEXTRA CONTEXT — Macro-trends uit " + (reportSynthesis.processedCount || "?") +
+      " curated trend-rapporten (gebruik dit als achtergrondkennis, niet als verplichte output):\n" +
+      reportLines;
+  }
+
   const prompt = `Je bent een cultureel futurist. Hieronder staan trendsignalen van de afgelopen ${days.length} dagen per categorie.
 
 Identificeer de ${MAX_INSIGHTS} grootste MACRO-VERSCHUIVINGEN per categorie:
@@ -481,7 +514,7 @@ Identificeer de ${MAX_INSIGHTS} grootste MACRO-VERSCHUIVINGEN per categorie:
 - Dingen die in 6-12 maanden mainstream worden
 - Signalen die de toekomst van die categorie voorspellen
 
-Dit zijn GEEN korte hypes maar fundamentele culturele bewegingen.
+Dit zijn GEEN korte hypes maar fundamentele culturele bewegingen.${reportContext}
 
 Geef per macro-trend:
 - trend: naam van de verschuiving (4-6 woorden)
@@ -679,6 +712,97 @@ ${JSON.stringify(allInsights, null, 2)}`;
   }
 }
 
+// ── Spelcheck / proofread (Nederlands) ─────────────────────────────────────
+// Eén goedkope Haiku-call die ALLE zichtbare Nederlandstalige tekst in de brief
+// nakijkt op spel-, type- en grammaticafouten. Correcties worden in-place op de
+// brief toegepast, dus zowel de website als elke e-mail (die latest.json leest)
+// krijgen schone tekst. Conservatief: alleen fouten herstellen, niet herschrijven.
+
+function collectEditableStrings(brief) {
+  const refs = []; // elk: { get(), set(v) }
+  function field(obj, key) {
+    if (obj && typeof obj[key] === "string" && obj[key].trim()) {
+      refs.push({ get: function () { return obj[key]; }, set: function (v) { obj[key] = v; } });
+    }
+  }
+  function arrayItems(obj, key) {
+    if (obj && Array.isArray(obj[key])) {
+      obj[key].forEach(function (s, i) {
+        if (typeof s === "string" && s.trim()) {
+          refs.push({ get: function () { return obj[key][i]; }, set: function (v) { obj[key][i] = v; } });
+        }
+      });
+    }
+  }
+  for (const cat of (brief.daily && brief.daily.categories) || []) {
+    for (const ins of (cat.insights || [])) {
+      ["trend", "summary", "why_it_matters", "strategic_signal"].forEach(function (k) { field(ins, k); });
+    }
+  }
+  for (const mt of (brief.crossCategory && brief.crossCategory.megaTrends) || []) {
+    ["trend", "summary", "why_it_matters"].forEach(function (k) { field(mt, k); });
+  }
+  for (const layer of [brief.weekly, brief.monthly]) {
+    for (const cat of (layer && layer.categories) || []) {
+      for (const ins of (cat.insights || [])) {
+        ["trend", "summary", "why_it_matters"].forEach(function (k) { field(ins, k); });
+      }
+    }
+  }
+  for (const s of (brief.weeklyBrandSignals && brief.weeklyBrandSignals.weeklyBrandSignals) || []) {
+    ["trend", "what_is_happening", "why_it_matters_for_brands"].forEach(function (k) { field(s, k); });
+    arrayItems(s, "what_brands_can_do");
+  }
+  return refs;
+}
+
+async function proofreadDutch(client, brief) {
+  const refs = collectEditableStrings(brief);
+  if (refs.length === 0) return { checked: 0, changed: 0 };
+
+  const payload = refs.map(function (r, i) { return { i: i, text: r.get() }; });
+
+  const prompt = `Je bent een Nederlandstalige corrector voor een culturele trend-nieuwsbrief.
+
+Corrigeer in onderstaande tekstfragmenten UITSLUITEND: spelfouten, typefouten, ontbrekende of dubbele spaties, verkeerde leestekens en duidelijke grammaticale fouten in het Nederlands.
+
+Strikte regels:
+- Behoud de betekenis exact. NIET herschrijven, NIET samenvatten, stijl NIET veranderen.
+- Laat Engelse woorden, merknamen, eigennamen, titels en hashtags ongemoeid.
+- Behoud hoofd-/kleine letters tenzij het echt een fout is.
+- Is een fragment al correct? Geef het dan LETTERLIJK ongewijzigd terug.
+
+Antwoord ALLEEN met JSON, exact dit formaat, met ALLE fragmenten en dezelfde i-waarden:
+{"corrections":[{"i":0,"text":"..."}]}
+
+Fragmenten:
+${JSON.stringify(payload, null, 2)}`;
+
+  const msg = await client.messages.create({
+    model: HAIKU, max_tokens: 8192,
+    messages: [{ role: "user", content: prompt }],
+  });
+  console.log("  Tokens: " + msg.usage.input_tokens + " in + " + msg.usage.output_tokens + " out");
+
+  let parsed;
+  try { parsed = parseAIJson(msg.content[0].text); }
+  catch (e) { console.warn("  Spelcheck parse mislukt — originele tekst behouden."); return { checked: refs.length, changed: 0 }; }
+
+  let changed = 0;
+  for (const c of (parsed.corrections || [])) {
+    if (typeof c.i !== "number" || !refs[c.i] || typeof c.text !== "string") continue;
+    const before = refs[c.i].get();
+    if (c.text === before) continue;
+    // Veiligheidsrem tegen herschrijven: weiger correcties die de lengte fors
+    // opblazen (duidt op herformulering i.p.v. spelcorrectie).
+    if (c.text.trim() && c.text.length <= before.length * 1.6 + 25) {
+      refs[c.i].set(c.text);
+      changed++;
+    }
+  }
+  return { checked: refs.length, changed: changed };
+}
+
 // ── Main ──────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -710,6 +834,18 @@ async function main() {
 
   const client  = new Anthropic();
   const rawData = readJSON(sourcePath);
+
+  // Laad rapport-synthese als die beschikbaar is (optioneel)
+  var reportSynthesis = null;
+  if (fs.existsSync(REPORT_SYNTHESIS_PATH)) {
+    try {
+      reportSynthesis = readJSON(REPORT_SYNTHESIS_PATH);
+      console.log("\n[Rapport-synthese] Geladen: " + (reportSynthesis.processedCount || 0) +
+        " rapporten, " + (reportSynthesis.macroTrends ? reportSynthesis.macroTrends.length : 0) + " macro-trends");
+    } catch (e) {
+      console.warn("[Rapport-synthese] Kon niet laden: " + e.message);
+    }
+  }
 
   // 1. Daily
   console.log("\n[Daily synthesis]");
@@ -769,7 +905,7 @@ async function main() {
   console.log("\n[Monthly synthesis]");
   let monthly = null;
   try {
-    monthly = await synthesizeMonthly(client, existing.monthly || null);
+    monthly = await synthesizeMonthly(client, existing.monthly || null, reportSynthesis);
     if (monthly) console.log("  ✓ " + monthly.categories.length + " categorieën");
   } catch (e) {
     console.error("  Monthly mislukt:", e.message);
@@ -791,15 +927,47 @@ async function main() {
 
   // Schrijf latest.json
   const date  = todayISO();
+  // Compact rapport-overzicht voor de frontend (geen volledige themesByReport)
+  var reportInsights = null;
+  if (reportSynthesis && reportSynthesis.macroTrends && reportSynthesis.macroTrends.length > 0) {
+    reportInsights = {
+      generatedAt:    reportSynthesis.generatedAt,
+      reportCount:    reportSynthesis.reportCount,
+      processedCount: reportSynthesis.processedCount,
+      intro:          reportSynthesis.intro,
+      macroTrends:    reportSynthesis.macroTrends,
+    };
+  }
+
   const brief = {
     date,
     aiModel: { daily: HAIKU, weekly: SONNET, monthly: SONNET },
     daily,
-    ...(crossCategory      ? { crossCategory }      : {}),
-    ...(weekly             ? { weekly }             : {}),
-    ...(monthly            ? { monthly }            : {}),
+    ...(crossCategory  ? { crossCategory }  : {}),
+    ...(weekly         ? { weekly }         : {}),
+    ...(monthly        ? { monthly }        : {}),
     ...(weeklyBrandSignals ? { weeklyBrandSignals } : {}),
+    ...(reportInsights ? { reportInsights } : {}),
   };
+
+  // 6. Spelcheck/proofread op alle gegenereerde Nederlandstalige tekst.
+  console.log("\n[Spelcheck]");
+  try {
+    const pr = await proofreadDutch(client, brief);
+    console.log("  ✓ " + pr.changed + "/" + pr.checked + " fragmenten gecorrigeerd.");
+  } catch (e) {
+    console.warn("  Spelcheck overgeslagen: " + e.message);
+  }
+
+  // Kwaliteitsdrempel: waarschuw zichtbaar als de daily-laag te dun is, zodat
+  // een mislukte/arme run opvalt in de Actions-logs i.p.v. stil door te gaan.
+  const MIN_CATEGORIES = parseInt(process.env.MIN_CATEGORIES || "3", 10);
+  const nDailyCats = (daily && daily.categories) ? daily.categories.length : 0;
+  if (nDailyCats < MIN_CATEGORIES) {
+    console.warn("\n⚠ KWALITEITSWAARSCHUWING: slechts " + nDailyCats +
+      " categorie(ën) in de daily-laag (drempel " + MIN_CATEGORIES + "). " +
+      "Mogelijk te weinig bronnen vandaag of clustering te streng (EMBED_SIM_THRESHOLD).");
+  }
 
   fs.mkdirSync(DATA_DIR,    { recursive: true });
   fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
@@ -812,9 +980,16 @@ async function main() {
   console.log("✓ Schreef " + archivePath);
 }
 
-main().then(function () {
-  process.exit(0);
-}).catch(function (err) {
-  console.error("Fatal:", err);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().then(function () {
+    process.exit(0);
+  }).catch(function (err) {
+    console.error("Fatal:", err);
+    process.exit(1);
+  });
+}
+
+module.exports = {
+  loadArchiveDates, loadArchiveDays, loadRecentTrends,
+  collectEditableStrings, proofreadDutch, parseAIJson, sortCats, daysAgoFrom,
+};
