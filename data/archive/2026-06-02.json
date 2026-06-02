@@ -6,20 +6,157 @@
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-06-02T20:11:26.292Z",
-    "intro": "2 categorieën · 5 trends · laatste 24u",
+    "generatedAt": "2026-06-02T20:20:53.945Z",
+    "intro": "2 categorieën · 4 trends · laatste 24u",
     "categories": [
+      {
+        "id": "fashion",
+        "label": "Fashion",
+        "insights": [
+          {
+            "trend": "Peak-Series Finale as Fashion Narrative Closure",
+            "summary": "Euphoria seizoen 3 finale genereert massieve Wikipedia-traffic (#4 en #8 trending) en regisseur Sam Levinson breekt expliciet af op het 'Western-inspired ending.' Deze finale-centric coverage signaleert dat TV-series nu als complete cultural artifacts worden beëindigd.",
+            "why_it_matters": "Teen/prestige TV's autoriteit berust nu op finale-execution, niet op renewal-cycles — dit herdefineert hoe merk-culture TV als 'closed statements' moet zien.",
+            "strategic_signal": "Voor merken die teen-culture targeting doen: de Euphoria fanbase is nu in 'legacy reflection' mode, niet 'next season' mode — pivot messaging naar retrospective, meaning-making content ipv continuation.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "GQ",
+              "IndieWire",
+              "NME",
+              "Wikipedia Trending EN",
+              "i-D"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Euphoria (American TV series)",
+                "url": "https://en.wikipedia.org/wiki/Euphoria_(American_TV_series)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-06-02T20:20:33.870Z"
+              },
+              {
+                "title": "Euphoria season 3",
+                "url": "https://en.wikipedia.org/wiki/Euphoria_season_3",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-06-02T20:20:33.870Z"
+              },
+              {
+                "title": "There Will Never Be Another Euphoria",
+                "url": "https://i-d.co/article/euphoria-hbo-legacy-future/",
+                "source": "i-D",
+                "published": "2026-06-02T16:27:34.000Z"
+              },
+              {
+                "title": "Inside the ‘Euphoria’ Finale: Sam Levinson Breaks Down Season 3’s Explosive, Western-Inspired Ending",
+                "url": "https://www.indiewire.com/features/podcast/euphoria-finale-interview-sam-levinson-hbo-series-1235195566/",
+                "source": "IndieWire",
+                "published": "2026-06-02T13:30:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
       {
         "id": "film",
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Internet-Native Content Conquers Theatrical Release",
-            "summary": "Viral internet properties (The Amazing Digital Circus) en YouTube-originated creators secure theatrical distribution deals with 4,000+ cinema placements. Dit markeert de consolidatie van een eerder 'niche' pipeline naar mainstream box office legitimacy.",
-            "why_it_matters": "Internet content is no longer secondary—het krijgt dezelfde theatrical footprint als major studio releases, wat aangeeft dat scherm-agnostische storytelling nu cultural dominance bepaalt.",
-            "strategic_signal": "Merken die op zoek zijn naar Gen Z engagement: monitor welke internet properties de volgende 2 weken theatrical releases aankondigen; dit zijn potentiële partnership moments vóór ze volledig mainstream zijn.",
+            "trend": "Viral-to-Cinema Pipeline Crystallizes Around Internet IP",
+            "summary": "Internet-native content (The Amazing Digital Circus, Creepypasta adaptations) wordt nu direct in theaters uitgebracht met massale theatrical runs, voorbij streaming-first releases. Dit volgt op jaren van YouTube-to-A24 legitimacy-cycles.",
+            "why_it_matters": "De culturele hiërarchie waarin 'uit het internet komen' disqualificerend was, is omgekeerd — viraal bereik is nu een asset voor theatrical legitimacy, niet een stigma.",
+            "strategic_signal": "Merken kunnen internet-generated content nu rechtstreeks voor grote audiences positioneren zonder apologetic 'prestige laundering' — test cross-media franchise-builds via viral fanbase-first strategy.",
             "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Dazed",
+              "Deadline",
+              "Eurogamer",
+              "Highsnobiety",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Fox Sets Summer Premiere Dates For ‘Kitchen Nightmares’ & ‘Beat Shazam’",
+                "url": "https://deadline.com/2026/06/fox-summer-premiere-dates-kitchen-nightmares-game-shows-1236939041/",
+                "source": "Deadline",
+                "published": "2026-06-02T19:57:00.000Z"
+              },
+              {
+                "title": "Fox Sets Summer Premiere Dates for ‘Kitchen Nightmares,’ ‘Beat Shazam’ and More",
+                "url": "https://variety.com/2026/tv/news/kitchen-nightmares-beat-shazam-premiere-dates-fox-1236765126/",
+                "source": "Variety",
+                "published": "2026-06-02T19:00:00.000Z"
+              },
+              {
+                "title": "‘Summer House’ Season 10 Reunion Continues: How to Watch the First Two Parts Online",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-summer-house-reunion-season-10-free-online-streaming-1236605915/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-06-02T17:59:49.000Z"
+              },
+              {
+                "title": "Super Yooka-Laylee Kart leaks ahead of Summer Game Fest as developer Playtonic Games teases \"there may be faster ways to go\"",
+                "url": "https://www.eurogamer.net/super-yooka-laylee-kart-leaks",
+                "source": "Eurogamer",
+                "published": "2026-06-02T16:19:53.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "AI-Transparency Becomes Mandatory Creative Discourse",
+            "summary": "Regisseurs (Adam Shankman, 'Stop That Train') moeten nu actief onderbouwen dat hun films NIET met AI zijn gemaakt, omdat 'AI-suspicion' als default publieke response is ingesteld. Dit is een trendbreuk van vorige week.",
+            "why_it_matters": "Creativiteit verdient zijn legitimacy nu via 'human-made' explicitness — geen enkele handmade film kan meer op neutraliteit rekenen; alle film moet nu tegen AI-skepticisme verdedigen.",
+            "strategic_signal": "Voor production studios: maak je 'human-crafted' narratief nu explicieter in marketing (bts, craft-focus) dan je ooit gedaan hebt — dit is het nieuwe baseline trust-builder.",
+            "trajectory": "opkomend",
             "daysActive": 2,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Deadline",
+              "Eurogamer",
+              "Polygon",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Avengers: Doomsday directors just called their movie \"Phase: Zero,\" and that's a huge red flag",
+                "url": "https://www.polygon.com/avengers-doomsday-directors-phase-zero/",
+                "source": "Polygon",
+                "published": "2026-06-02T20:18:10.000Z"
+              },
+              {
+                "title": "‘Stop! That! Train!’ Director Denies Film’s Speculated AI Use: RuPaul-Led “Movie Is Fully Human Made”",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/stop-that-train-director-denies-ai-use-rupaul-movie-1236611921/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-06-02T19:44:46.000Z"
+              },
+              {
+                "title": "‘Stop That Train’ Director Shuts Down Claims That RuPaul Movie Used AI: ‘Every Shot Was Made By Human Hands’",
+                "url": "https://variety.com/2026/film/news/stop-that-train-ai-director-shuts-down-claims-1236765131/",
+                "source": "Variety",
+                "published": "2026-06-02T19:09:00.000Z"
+              },
+              {
+                "title": "‘And Justice For All’ TV Series Adaptation Of Al Pacino Movie In Works At Netflix",
+                "url": "https://deadline.com/2026/06/and-justice-for-all-tv-series-al-pacino-movie-netflix-1236938277/",
+                "source": "Deadline",
+                "published": "2026-06-02T18:44:17.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Auteur-Led IP Sequelization as Cultural Closure",
+            "summary": "Grote IP-franchises (Avengers: Doomsday met Russos, War Machine 2 bij Netflix, Jedi 3) worden nu expliciet door auteurs afgerond in 'Phase Zero' of long-form legacy statements. Dit sluit aan op 'Trilogy Completion as Legacy Commitment' van vorige week.",
+            "why_it_matters": "Franchises worden niet meer management-driven herhaald — ze worden auteur-claims waarin closure en vision explicieter moeten zijn dan product-cycle.",
+            "strategic_signal": "Voor franchise-marketing: highlight de 'final vision' en auteur-intentionaliteit eerder in campaigns — audiences verwachten nu narrative finality, niet endless expansion.",
+            "trajectory": "piekend",
+            "daysActive": 4,
             "isNew": false,
             "sources": [
               "A.V. Club",
@@ -54,183 +191,6 @@
                 "url": "https://www.wired.com/story/amazing-digital-circus-shake-up-the-box-office/",
                 "source": "Wired",
                 "published": "2026-06-02T11:00:00.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "AI-Skepticism Requires Human-Made Legitimacy Claims",
-            "summary": "Directors (Adam Shankman bij RuPaul film, Martin Scorsese met Black Forest Labs) verdedigen actief hun gebruik van AI of ontkennen het volledig. Het defensieve discours rond AI-tooling suggereert dat 'volledig menselijk gemaakt' nu een marketable claim is geworden.",
-            "why_it_matters": "Viewers vertrouwen AI-generated content nog niet; creatives moeten hun human craft expliciet verdedigen, wat betekent dat transparantie over productieproces nu cultureel waardevol is.",
-            "strategic_signal": "Voor productiebedrijven en creative agencies: begin nu duidelijk te communiceren over waar AI NIET wordt gebruikt in je process—dit wordt binnen 4 weken een verwachting, niet een differentiator.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Dazed",
-              "Eurogamer",
-              "Highsnobiety",
-              "The Hollywood Reporter",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Fox Sets Summer Premiere Dates for ‘Kitchen Nightmares,’ ‘Beat Shazam’ and More",
-                "url": "https://variety.com/2026/tv/news/kitchen-nightmares-beat-shazam-premiere-dates-fox-1236765126/",
-                "source": "Variety",
-                "published": "2026-06-02T19:00:00.000Z"
-              },
-              {
-                "title": "‘Summer House’ Season 10 Reunion Continues: How to Watch the First Two Parts Online",
-                "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-summer-house-reunion-season-10-free-online-streaming-1236605915/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-06-02T17:59:49.000Z"
-              },
-              {
-                "title": "Super Yooka-Laylee Kart leaks ahead of Summer Game Fest as developer Playtonic Games teases \"there may be faster ways to go\"",
-                "url": "https://www.eurogamer.net/super-yooka-laylee-kart-leaks",
-                "source": "Eurogamer",
-                "published": "2026-06-02T16:19:53.000Z"
-              },
-              {
-                "title": "Dressing for a ball: Dazed serves football couture for summer",
-                "url": "https://www.dazeddigital.com/art-photography/article/70363/1/oakley-football-pitch-runway-summer-2026-issue-world-cup?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=dressing-for-a-ball-dazed-serves-football-couture-for-summer",
-                "source": "Dazed",
-                "published": "2026-06-02T16:00:00.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Game-to-Film Adaptation Pipeline Accelerates",
-            "summary": "Meerdere SEGA/game IPs (Streets of Rage, Masters of the Universe) krijgen cinematic adaptations met A-list creative teams. Dit bouwt voort op eerdere trends maar versnelt nu naar franchise-lockdown strategie.",
-            "why_it_matters": "Filmmakers en studios zien transmedia gaming IPs als guaranteed audience + merchandise potential; dit is niet meer experimenteel maar core studio strategy.",
-            "strategic_signal": "Als je merch of gaming partners hebt: wees nu alert op cinematic adaptations van je IP—de window om 'first-mover' merchandise tie-ins te creëren sluit zich snel na announcement.",
-            "trajectory": "piekend",
-            "daysActive": 3,
-            "isNew": false,
-            "sources": [
-              "Deadline",
-              "Little White Lies",
-              "The Hollywood Reporter",
-              "Variety",
-              "Wikipedia Trending EN"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Backrooms (film)",
-                "url": "https://en.wikipedia.org/wiki/Backrooms_(film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T20:11:02.704Z"
-              },
-              {
-                "title": "Obsession (2025 film)",
-                "url": "https://en.wikipedia.org/wiki/Obsession_(2025_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-06-02T20:11:02.704Z"
-              },
-              {
-                "title": "‘Stop! That! Train!’ Director Denies Film’s Speculated AI Use: RuPaul-Led “Movie Is Fully Human Made”",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/stop-that-train-director-denies-ai-use-rupaul-movie-1236611921/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-06-02T19:44:46.000Z"
-              },
-              {
-                "title": "‘War Machine’ Sequel in the Works From Netflix After Action Film Becomes One of Streamer’s Most-Watched Films",
-                "url": "https://variety.com/2026/film/news/war-machine-sequel-netflix-1236765189/",
-                "source": "Variety",
-                "published": "2026-06-02T19:39:16.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Peak-TV Finales als Cultural Closure Rituals",
-            "summary": "HBO's Euphoria seizoen 3 finale genereert massive media interest en wordt beschreven als 'iconic TV' met 'explosive endings'. Dit markeert het einde van een cultureel belangrijke serie als significante cultural moment.",
-            "why_it_matters": "Series-finales zijn niet langer alleen content—ze zijn events die nostalgiewaarde, legacy-positioning en generational closure bepalen.",
-            "strategic_signal": "Communicatieteams: prepare campaign narratives rond series-finales van cultureel relevante shows nu (2-3 weken vóór); dit is het moment van maximaal earned media en audience sentiment.",
-            "trajectory": "piekend",
-            "daysActive": 2,
-            "isNew": false,
-            "sources": [
-              "A.V. Club",
-              "Deadline",
-              "Eurogamer",
-              "The Hollywood Reporter",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "‘Stop That Train’ Director Shuts Down Claims That RuPaul Movie Used AI: ‘Every Shot Was Made By Human Hands’",
-                "url": "https://variety.com/2026/film/news/stop-that-train-ai-director-shuts-down-claims-1236765131/",
-                "source": "Variety",
-                "published": "2026-06-02T19:09:00.000Z"
-              },
-              {
-                "title": "‘And Justice For All’ TV Series Adaptation Of Al Pacino Movie In Works At Netflix",
-                "url": "https://deadline.com/2026/06/and-justice-for-all-tv-series-al-pacino-movie-netflix-1236938277/",
-                "source": "Deadline",
-                "published": "2026-06-02T18:44:17.000Z"
-              },
-              {
-                "title": "‘Masters of the Universe’: What Critics Are Saying About the He-Man Movie Starring Nicholas Galitzine and Jared Leto",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/masters-of-the-universe-review-roundup-critics-1236611636/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-06-02T18:29:36.000Z"
-              },
-              {
-                "title": "Streets of Rage movie gains momentum as Sonic the Hedgehog writers and The Harder They Fall director board the adaptation",
-                "url": "https://www.eurogamer.net/streets-of-rage-movie-sonic-writers",
-                "source": "Eurogamer",
-                "published": "2026-06-02T10:58:51.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "internet",
-        "label": "Internet",
-        "insights": [
-          {
-            "trend": "AI Voice Impersonation Sparks Consumer Defense Tech",
-            "summary": "Google en andere telecom/tech players implementeren proactive call-verification features die AI-scams blokkeren door 'silent confirmation' en contact-impersonation warnings. Dit is niet defensief maar offensive: tech bedrijven positioneren zich als protectors tegen AI misuse.",
-            "why_it_matters": "Consumentenvertrouwen in voice communication wordt ondermijnd; tech platforms monopoliseren de 'trust layer' en creëren dependency op hun verificatiesystemen.",
-            "strategic_signal": "Brands die voice/telefoon-based customer engagement gebruiken: audit nu of je verification flows compatible zijn met deze incoming Android features—dit wordt industry standard en klanten zullen het verwachten.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Quartz",
-              "The Verge",
-              "Wired",
-              "Yanko Design"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Your old phone is hard to recycle. America has 25 laws to blame",
-                "url": "https://qz.com/us-state-e-waste-laws-patchwork-recycling-052726",
-                "source": "Quartz",
-                "published": "2026-06-02T19:51:13.000Z"
-              },
-              {
-                "title": "Google’s Phone app will tell you if a scammer is impersonating one of your contacts",
-                "url": "https://www.theverge.com/tech/941517/google-phone-scammer-ai-impersonation",
-                "source": "The Verge",
-                "published": "2026-06-02T18:00:00.000Z"
-              },
-              {
-                "title": "Android Is Fighting Phone Scams With a New Feature to Prove Who’s Calling",
-                "url": "https://www.wired.com/story/android-is-fighting-phone-scams-with-a-new-feature-to-prove-whos-calling/",
-                "source": "Wired",
-                "published": "2026-06-02T18:00:00.000Z"
-              },
-              {
-                "title": "CASETiFY releases an original Tamagotchi, phone cases, charms, and exclusive accessories to pique nostalgia",
-                "url": "https://www.yankodesign.com/2026/06/02/casetify-releases-an-original-tamagotchi-phone-cases-charms-and-exclusive-accessories-to-pique-nostalgia/?utm_source=rss&utm_medium=rss&utm_campaign=casetify-releases-an-original-tamagotchi-phone-cases-charms-and-exclusive-accessories-to-pique-nostalgia",
-                "source": "Yanko Design",
-                "published": "2026-06-02T15:20:35.000Z"
               }
             ]
           }
