@@ -461,7 +461,7 @@ async function main() {
   console.log("→ Stuur mail naar " + to + " via " + host + ":" + port + " (secure=" + secure + ")");
 
   const info = await transporter.sendMail({
-    from: '"Zeitfeed weekly" <' + from + ">", to, subject,
+    from: '"Zeitfeed daily" <' + from + ">", to, subject,
     text: buildText(brief),
     html: buildHTML(brief),
   });

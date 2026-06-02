@@ -372,7 +372,7 @@ async function main() {
   console.log("→ Stuur weekly mail naar " + to + " via " + host + ":" + port);
 
   const info = await transporter.sendMail({
-    from, to, subject,
+    from: '"' + (branding.brandName || "Zeitfeed Weekly") + '" <' + from + '>', to, subject,
     text: buildText(brief),
     html: buildHTML(brief),
   });
