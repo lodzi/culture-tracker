@@ -456,12 +456,12 @@ async function main() {
         weekday: "long", day: "numeric", month: "long",
       })
     : "";
-  const subject = "Zeitfeed weekly" + (dateLabel ? " — " + dateLabel : "");
+  const subject = "Zeitfeed Daily" + (dateLabel ? " — " + dateLabel : "");
 
   console.log("→ Stuur mail naar " + to + " via " + host + ":" + port + " (secure=" + secure + ")");
 
   const info = await transporter.sendMail({
-    from: '"Zeitfeed daily" <' + from + ">", to, subject,
+    from: '"Zeitfeed Daily" <' + from + ">", to, subject,
     text: buildText(brief),
     html: buildHTML(brief),
   });
