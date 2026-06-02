@@ -196,3 +196,4 @@ All Claude-generated Dutch text (daily/weekly/monthly insights, mega-trends and 
 - **Weekly/monthly missing** → they read the archive **index** (`data/archive/index.json`), so they survive gaps in the daily cron. If the index is empty they won't generate until a few days have accumulated.
 - **Semantic clustering not happening** → confirm `VOYAGE_API_KEY` is set; the fetch log prints which strategy it used. On any Voyage error it falls back to keyword clustering.
 - **`report-synthesis.json` never appears** → run `report-synthesis.yml` (manual) or `npm run synthesize-reports` locally and commit the file.
+

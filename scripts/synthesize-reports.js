@@ -373,3 +373,4 @@ main()
     console.error("\n✗ Fatal:", err.message || err);
     process.exit(1);
   });
+

@@ -7,3 +7,7 @@ npm-debug.log*
 
 # Grote trendrapporten blijven lokaal (te groot voor GitHub; ~3,7 GB)
 Trend rapport/
+
+# Hulpscripts van de assistent
+*.command
+
