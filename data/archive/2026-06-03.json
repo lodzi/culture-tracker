@@ -6,97 +6,147 @@
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-06-03T11:09:09.329Z",
-    "intro": "1 categorieën · 2 trends · laatste 24u",
+    "generatedAt": "2026-06-03T17:14:52.331Z",
+    "intro": "3 categorieën · 3 trends · laatste 24u",
     "categories": [
       {
-        "id": "gaming",
-        "label": "Gaming",
+        "id": "film",
+        "label": "Film & TV",
         "insights": [
           {
-            "trend": "Blockbuster Franchise Reveals Dominate Gaming Discourse",
-            "summary": "Sony State of Play evento genereerde meerdere major IP-reveals (God of War Laufey, Until Dawn 2, Wolverine gameplay, Stuntman Hollywood, The Lost Wild) die tegelijk trending waren en domineerden gaming mediadekking. Deze centralisatie van franchise-aankondigingen rond één platform-event bepaalt nu de narrative-cyclus van de sector.",
-            "why_it_matters": "Dit signaleert dat grote gamingmerken zich clusteren rond specifieke 'legitimacy moments' — een trend die direct aansluit op de vorige dagen 'Auteur-Legitimacy Requires Cross-Media Fluency'-beweging en aangeeft dat platformhoders (Sony) deze druk gebruiken om cultural currency te consolideren.",
-            "strategic_signal": "Merken kunnen de komende weken anticiperen op een 2-3 daagse hype-concentratie rond major reveals: plan counter-messaging of partnership-aankondigingen voor *andere* channels (TikTok, YouTube shorts) om fragmentatie van aandacht te voorkomen.",
+            "trend": "Prestige Psychological Thrillers Dominate Peak-TV Finale Season",
+            "summary": "Indie and mainstream studios are greenlighting a wave of Southern Gothic and prestige psychological thrillers (Cape Fear remake, Serpent, Widow's Bay) with A-list ensemble casts and auteur directors. This follows the consolidation trend of auteur-led IP sequelization from archival records (2026-06-01/02).",
+            "why_it_matters": "Psychological thrillers signal that post-Peak-TV audiences now demand authored genre fare with literary legitimacy—remakes of classic IP require directorial prestige and literary source material as cultural gatekeeping.",
+            "strategic_signal": "Brands seeking film/TV sponsorship should target prestige thriller productions (not superhero franchises) as legitimacy stages; audiences now equate complex genre IP with auteur credibility, not franchise scale.",
             "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "A.V. Club",
-              "Adweek",
-              "GQ",
-              "Kotaku",
-              "Polygon",
-              "The Hollywood Reporter"
+              "Deadline",
+              "IndieWire",
+              "Variety",
+              "Wired"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "‘Time Machine Maidan’: A First-Person Doc Bridges the Ukraine War and 2013 Revolution to Paint a Portrait of Resistance (Exclusive Trailer)",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/time-machine-maidan-ukraine-doc-film-trailer-sheffield-2026-1236608594/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-06-03T08:00:00.000Z"
+                "title": "‘Widow’s Bay’ Star Stephen Root on Cooking Up a ‘Witches’ Brew’ with Katie Dippold and Hiro Murai",
+                "url": "https://www.indiewire.com/features/interviews/widows-bay-stephen-root-talks-katie-dippold-hiro-murai-1235197433/",
+                "source": "IndieWire",
+                "published": "2026-06-03T16:30:00.000Z"
               },
               {
-                "title": "What time does Arknights: Endfield 1.3 release in your time zone?",
-                "url": "https://www.polygon.com/arknights-endfield-ake-1-3-release-time-maintenance-countdown/",
-                "source": "Polygon",
-                "published": "2026-06-03T04:01:25.000Z"
+                "title": "‘American Horror Story’ Star Emma Roberts Signs With UTA",
+                "url": "https://variety.com/2026/tv/news/emma-roberts-signs-uta-american-horror-story-1236765381/",
+                "source": "Variety",
+                "published": "2026-06-03T16:30:00.000Z"
               },
               {
-                "title": "PlayStation’s Showcase Chat Got Spammed The Whole Time On Twitch By People Demanding Destiny 3",
-                "url": "https://kotaku.com/playstations-showcase-chat-got-spammed-the-whole-time-on-twitch-by-people-demanding-destiny-3-2000701654",
-                "source": "Kotaku",
-                "published": "2026-06-02T22:17:33.000Z"
+                "title": "Anna Camp To Star In Psychological Thriller ‘Serpent’ Based On Warren Adler Novel",
+                "url": "https://deadline.com/2026/06/anna-camp-to-star-serpent-warren-adler-1236939830/",
+                "source": "Deadline",
+                "published": "2026-06-03T16:20:00.000Z"
               },
               {
-                "title": "This New Watch Pays Tribute to an All-Time Yankee Great",
-                "url": "https://www.gq.com/story/oris-lou-gehrig-edition-new-watch",
-                "source": "GQ",
-                "published": "2026-06-02T20:00:00.000Z"
+                "title": "Greg Bovino Was the Star at a European Remigration Conference",
+                "url": "https://www.wired.com/story/greg-bovino-was-the-star-at-a-european-remigration-conference/",
+                "source": "Wired",
+                "published": "2026-06-03T15:00:00.000Z"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
           {
-            "trend": "Game-to-Film Adaptation Pipeline Becomes Standard",
-            "summary": "Multiple sources dekken game-franchises die nu film/streaming-adaptaties krijgen (Stuntman met Fast & Furious/Back to the Future, Until Dawn 2 als influencer-horror narrative, Wolverine als PS5-exclusive met cinematic framing). Dit is geen eenmalig fenomeen meer maar standaard strategy.",
-            "why_it_matters": "Dit bevestigt de 3-daagse trend 'Game-to-Film Adaptation Becomes Franchise Lockdown' — het wordt duidelijk dat pure gaming-identiteit onvoldoende 'legitimacy' heeft zonder transmedia-strategie. Dit verandert hoe gaming IP wordt gewaardeerd.",
-            "strategic_signal": "Communicatieteams kunnen gaming-IP nu benaderen als *content-universes*, niet games: plan voor film, TV, merchandise als gelijktijdige launch-elementen in plaats van sequentieel.",
+            "trend": "Microsoft-OpenAI Decoupling Triggers Developer Hardware Wars",
+            "summary": "Microsoft announced Surface Laptop Ultra, RTX Dev Box, and Project Solara as hardware-native AI developer tools, directly competing with OpenAI's cloud-first model and signaling a strategic break in their partnership. Multiple tech outlets (Verge, Ars Technica, 404 Media) covered the breakup announcement and hardware implications simultaneously.",
+            "why_it_matters": "The dissolution of Microsoft-OpenAI exclusivity democratizes frontier AI development—hardware manufacturers (not API gatekeepers) now control developer access, fundamentally reshaping who builds generative culture.",
+            "strategic_signal": "Tech and creative brands should prepare messaging around 'open developer ecosystems' vs. 'proprietary cloud AI'; the next 2-4 weeks will define whether Microsoft's hardware play or OpenAI's independence model becomes industry standard.",
             "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "404 Media",
+              "Ars Technica",
+              "The Verge",
+              "Yanko Design"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Microsoft and OpenAI broke up — now they’re ready to fight",
+                "url": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+                "source": "The Verge",
+                "published": "2026-06-03T14:04:00.000Z"
+              },
+              {
+                "title": "A first look at Microsoft’s Surface Laptop Ultra and Surface Dev Box",
+                "url": "https://www.theverge.com/tech/941600/microsoft-surface-laptop-ultra-dev-box-hands-on",
+                "source": "The Verge",
+                "published": "2026-06-03T13:22:17.000Z"
+              },
+              {
+                "title": "Microsoft RTX Dev Box Has 1,000 Holes, All of Them Intentional",
+                "url": "https://www.yankodesign.com/2026/06/03/microsoft-rtx-dev-box-has-1000-holes-all-of-them-intentional/?utm_source=rss&utm_medium=rss&utm_campaign=microsoft-rtx-dev-box-has-1000-holes-all-of-them-intentional",
+                "source": "Yanko Design",
+                "published": "2026-06-03T08:45:35.000Z"
+              },
+              {
+                "title": "Microsoft plans Linux tools and an RTX Spark desktop for Windows developers",
+                "url": "https://arstechnica.com/gadgets/2026/06/microsoft-plans-linux-tools-and-an-rtx-spark-desktop-for-windows-developers/",
+                "source": "Ars Technica",
+                "published": "2026-06-02T22:51:10.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "Creepypasta-to-A24 Pipeline Crystallizes Into Box Office Force",
+            "summary": "A24's Backrooms adaptation (from internet horror creepypasta) has crossed $100M domestically in 6 days, driven by Wikipedia trending and YouTuber fanbase mobilization. This validates the viral-to-cinema pipeline documented across 2026-05-31 through 2026-06-02 archival records.",
+            "why_it_matters": "Internet horror mythology now generates theatrical box office at studio scale—creator-generated IP (Kane Pixels' YouTube Backrooms) bypasses traditional greenlight gatekeeping, signaling cultural collapse between internet subculture and mainstream distribution.",
+            "strategic_signal": "Brands targeting Gen-Z/Millennial audiences should identify emerging creepypasta/internet mythology with theatrical potential (2-4 week windows before A24/indie acquisitions); the Backrooms phenomenon proves internet-native horror has franchise legitimacy before studio involvement.",
+            "trajectory": "piekend",
             "daysActive": 3,
             "isNew": false,
             "sources": [
-              "Eurogamer",
-              "Kotaku",
-              "NME",
-              "Polygon",
-              "The Verge"
+              "GQ",
+              "Variety",
+              "Wikipedia Trending EN"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Super Mario Crocs are coming and Nintendo fans are obsessed",
-                "url": "https://www.nme.com/news/gaming-news/super-mario-crocs-nintendo-fans-price-pre-order-date-3948965?utm_source=rss&utm_medium=rss&utm_campaign=super-mario-crocs-nintendo-fans-price-pre-order-date",
-                "source": "NME",
-                "published": "2026-06-03T10:44:42.000Z"
+                "title": "Backrooms (film)",
+                "url": "https://en.wikipedia.org/wiki/Backrooms_(film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-06-03T17:14:34.130Z"
               },
               {
-                "title": "God of War Laufey is coming to the PS5",
-                "url": "https://www.theverge.com/entertainment/941516/god-of-war-laufey-ps5-trailer",
-                "source": "The Verge",
-                "published": "2026-06-02T22:16:08.000Z"
+                "title": "The Backrooms",
+                "url": "https://en.wikipedia.org/wiki/The_Backrooms",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-06-03T17:14:34.130Z"
               },
               {
-                "title": "Until Dawn 2 announced, coming in 2027",
-                "url": "https://www.polygon.com/until-dawn-2-announced-coming-in-2027/",
-                "source": "Polygon",
-                "published": "2026-06-02T22:34:43.000Z"
+                "title": "‘Backrooms’ Crosses $100 Million in 6 Days to Become A24’s Biggest Movie at Domestic Box Office",
+                "url": "https://variety.com/2026/film/box-office/backrooms-a24-biggest-movie-domestic-box-office-1236765788/",
+                "source": "Variety",
+                "published": "2026-06-03T16:00:25.000Z"
               },
               {
-                "title": "The leaks were real: God of War Laufey is all about Faye, and it's coming to PlayStation 5 'soon'",
-                "url": "https://www.eurogamer.net/god-of-war-new-series-entry-kratos-faye-playstation",
-                "source": "Eurogamer",
-                "published": "2026-06-02T22:31:09.000Z"
+                "title": "The ‘Backrooms’ Ending Is a Trippy Nightmare",
+                "url": "https://www.gq.com/story/backrooms-ending-explained",
+                "source": "GQ",
+                "published": "2026-06-03T12:00:00.000Z"
               }
             ]
           }
@@ -104,22 +154,38 @@
       }
     ]
   },
+  "crossCategory": {
+    "generatedAt": "2026-06-03T17:14:55.065Z",
+    "megaTrends": [
+      {
+        "trend": "Horror-Prestige Convergence Reshapes Mainstream Entertainment",
+        "summary": "Creepypasta en psychologische horror migreren van internet-subcultuur naar A24-films en peak-tv, waarbij internet-native content legitimiteit krijgt als prestige-entertainment. Dit gebeurt tegelijk met de dominantie van psychologische thrillers in mainstream finale-seizoenen.",
+        "why_it_matters": "Dit signaleert dat online-subculturen niet langer marginaal zijn maar als autoriteit gelden voor wat 'serieuze' entertainment is.",
+        "categories": [
+          "film",
+          "trends",
+          "internet"
+        ],
+        "strength": "sterk"
+      }
+    ]
+  },
   "weeklyBrandSignals": {
     "generatedAt": "2026-06-01T11:47:19.350Z",
     "weeklyBrandSignals": [
       {
-        "trend": "Stilte als Strategisch Merkkapitaal",
+        "trend": "Stilte als strategisch merkkapitaal",
         "category": "music",
-        "what_is_happening": "Legacy-acts zoals Massive Attack gebruiken jaren van afwezigheid niet als stagnatie maar als opgebouwd cultureel gewicht — de comeback-aankondiging zelf is het moment, niet de show. Tegelijk ontvouwt zich een strijd tussen M.I.A. en Kid Cudi over wie het narratief van 'terugkeer' legitiem mag claimen.",
+        "what_is_happening": "Legacy-acts zoals Massive Attack gebruiken jaren van afwezigheid niet als stagnatie maar als opgebouwd cultureel gewicht. De comeback-aankondiging zelf is het moment, niet de show. Tegelijk ontvouwt zich een strijd tussen M.I.A. en Kid Cudi over wie het narratief van 'terugkeer' legitiem mag claimen.",
         "why_it_matters_for_brands": "In een tijdperk van constante contentdruk biedt strategische stilte merken een zeldzame hefboom: schaarste creëert verlangen, en het moment van terugkeer wordt een cultureel evenement op zich.",
         "what_brands_can_do": [
           "Plan bewust 'pauzeperiodes' in je communicatiestrategie om terugkeer als event te kunnen framen.",
           "Ontwikkel een 'closure-to-comeback'-narratief dat de afwezigheid inhoudelijk rechtvaardigt en versterkt.",
-          "Bescherm het eigenaarschap over je terugkeermoment — wie het aankondigt en hoe, bepaalt de culturele legitimiteit."
+          "Bescherm het eigenaarschap over je terugkeermoment. Wie het aankondigt en hoe bepaalt de culturele legitimiteit."
         ]
       },
       {
-        "trend": "Internet Folklore Wordt Auteur-Instituut",
+        "trend": "Internet folklore wordt auteur-instituut",
         "category": "culture",
         "what_is_happening": "Internet-native verhaalwerelden zoals The Backrooms (creepypasta-oorsprong) worden systematisch getransformeerd naar cinematische auteurprojecten bij A24, inclusief transmedia-sequels en een soundtrack van Boards of Canada als curatoriale legitimering. Dit is geen uitzonderingsgeval meer, maar een volwaardige waardeketen van niche-internet naar mainstream cultuurinstitutie.",
         "why_it_matters_for_brands": "Merken die internet-subculturen nog steeds behandelen als niche of tijdelijk fenomeen missen het punt: online folklore is nu het primaire reservoir van mainstream culturele autoriteit.",
@@ -130,7 +196,7 @@
         ]
       },
       {
-        "trend": "Finales als Culturele Verantwoordingsrituelen",
+        "trend": "Finales als culturele verantwoordingsrituelen",
         "category": "film",
         "what_is_happening": "De finale van Euphoria (Sam Levinson, HBO) wordt niet behandeld als een serie-afsluiting maar als een monumentale culturele afrekening waarbij de creator zijn hele oeuvre moet verdedigen tegenover publiek en kritiek. HBO bevestigt geen revival, waardoor het eindpunt definitief en onherroepelijk cultureel gewicht krijgt.",
         "why_it_matters_for_brands": "Consumenten verwachten steeds meer dat merken — net als auteurs — verantwoording afleggen over hun volledige traject, niet alleen over hun laatste campagne.",
