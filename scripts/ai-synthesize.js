@@ -645,6 +645,11 @@ Selectiecriteria per trend (in volgorde van belang):
 2. Concrete bruikbaarheid voor merken actief in Belgische en internationale cultuur
 3. Eigenheid — vermijd clichés, kies trends die echt iets zeggen
 
+Stijlregels (strikt naleven):
+- Geen em-dashes (—). Gebruik een komma of punt als alternatief.
+- Geen marketingbuzzwords: vermijd woorden zoals "game-changer", "disruptief", "innovatief", "authentiek", "next-level", "cutting-edge", "purpose-driven", "narratief" (als modewoord), "paradigma", "ecosysteem" (figuurlijk), "DNA" (figuurlijk).
+- Volg de Nederlandse hoofdletterregels: hoofdletters alleen aan het begin van een zin en bij eigennamen (personen, merken, plaatsen, talen, feestdagen). Algemene begrippen zoals "merken", "strategen", "trends", "cultuur" schrijf je met een kleine letter.
+
 Geef voor elke trend:
 - trend: de naam (4-6 woorden, aantrekkelijk en specifiek)
 - category: de categorie (bv. "music", "fashion", "art", "internet", "film", "gaming", "culture", "trends", "lokaal")
@@ -764,12 +769,13 @@ async function proofreadDutch(client, brief) {
 
   const prompt = `Je bent een Nederlandstalige corrector voor een culturele trend-nieuwsbrief.
 
-Corrigeer in onderstaande tekstfragmenten UITSLUITEND: spelfouten, typefouten, ontbrekende of dubbele spaties, verkeerde leestekens en duidelijke grammaticale fouten in het Nederlands.
+Corrigeer in onderstaande tekstfragmenten UITSLUITEND: spelfouten, typefouten, ontbrekende of dubbele spaties, verkeerde leestekens, duidelijke grammaticale fouten en onderstaande stijlfouten.
 
 Strikte regels:
 - Behoud de betekenis exact. NIET herschrijven, NIET samenvatten, stijl NIET veranderen.
 - Laat Engelse woorden, merknamen, eigennamen, titels en hashtags ongemoeid.
-- Behoud hoofd-/kleine letters tenzij het echt een fout is.
+- Vervang em-dashes (—) door een komma of punt, afhankelijk van de context.
+- Pas de Nederlandse hoofdletterregels toe: hoofdletters alleen aan het begin van een zin en bij eigennamen (personen, merken, plaatsen, talen, feestdagen). Algemene begrippen zoals "merken", "trends", "cultuur", "strategen" schrijf je met een kleine letter, ook midden in een zin.
 - Is een fragment al correct? Geef het dan LETTERLIJK ongewijzigd terug.
 
 Antwoord ALLEEN met JSON, exact dit formaat, met ALLE fragmenten en dezelfde i-waarden:
