@@ -17,9 +17,9 @@
   "categoryPillBg":    "#ede9ff",
   "categoryPillColor": "#4a2eb5",
 
-  "logoUrl":         "",
-  "logoWidth":       "120",
-  "logoAlt":         "",
+  "logoUrl":         "https://tracker.thisisdefiant.com/assets/logo-weekly.png",
+  "logoWidth":       "260",
+  "logoAlt":         "Zeitfeed Weekly",
 
   "footerText":      "gebracht door Defiant" 
 }
