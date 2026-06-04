@@ -19,6 +19,7 @@
 
   "logoUrl":         "https://images.squarespace-cdn.com/content/v1/656f4766399d5a077e14dd00/b742cb2b-9629-489e-941d-3679aaa77aee/logo-zeitfeed.png",
   "logoWidth":       "600",
+  "justify-content": "center",
   "logoAlt":         "Zeitfeed Weekly",
 
   "footerText":      "gebracht door Defiant" 
