@@ -632,32 +632,32 @@ async function synthesizeWeeklyBrandSignals(client, daily, crossCategory, weekly
     return null;
   }
 
-  const prompt = `Je bent een senior merkstrateeg en cultureel consultant voor een Belgisch bureau. Je analyseert culturele trendsignalen en vertaalt ze naar bruikbaar strategisch advies voor merken, creative directors en communicatieprofessionals.
+  const prompt = `You are a senior brand strategist and cultural consultant at a Belgian agency. You analyse cultural trend signals and translate them into actionable strategic advice for brands, creative directors and communications professionals.
 
-Hieronder staan alle culturele trendsignalen: dagelijkse signals, cross-categorie patronen en wekelijkse ontwikkelingen.
+Below are all the cultural trend signals: daily signals, cross-category patterns and weekly developments. The source signals may be written in Dutch, but you MUST write ALL of your output in English (British spelling).
 
-Kies precies 3 trends, ELK UIT EEN ANDERE CATEGORIE. Dit is een harde eis: de 3 geselecteerde trends moeten elk een verschillende category-waarde hebben. Zo biedt de e-mail altijd iets voor elke lezer, ongeacht hun domein.
+Choose exactly 3 trends, EACH FROM A DIFFERENT CATEGORY. This is a hard requirement: the 3 selected trends must each have a different category value. That way the email always offers something for every reader, whatever their domain.
 
-Kies de categorieën zo dat ze de breedte van het culturele landschap dekken — combineer bij voorkeur een visueel domein (art/fashion/film), een digitaal domein (internet/gaming/trends) en een geluidsdomein (music/culture/lokaal), maar laat de kwaliteit van het trendsignaal altijd primeren.
+Choose the categories so they cover the breadth of the cultural landscape. Ideally combine a visual domain (art/fashion/film), a digital domain (internet/gaming/trends) and a sound domain (music/culture/local), but always let the quality of the trend signal take priority.
 
-Selectiecriteria per trend (in volgorde van belang):
-1. Sterkste culturele momentum in die categorie (cross-categorie > weekpatroon > dagelijks)
-2. Concrete bruikbaarheid voor merken actief in Belgische en internationale cultuur
-3. Eigenheid — vermijd clichés, kies trends die echt iets zeggen
+Selection criteria per trend (in order of importance):
+1. Strongest cultural momentum in that category (cross-category > weekly pattern > daily)
+2. Concrete usefulness for brands active in Belgian and international culture
+3. Distinctiveness. Avoid clichés, choose trends that genuinely say something
 
-Stijlregels (strikt naleven):
-- Geen em-dashes (—). Gebruik een komma of punt als alternatief.
-- Geen marketingbuzzwords: vermijd woorden zoals "game-changer", "disruptief", "innovatief", "authentiek", "next-level", "cutting-edge", "purpose-driven", "narratief" (als modewoord), "paradigma", "ecosysteem" (figuurlijk), "DNA" (figuurlijk).
-- Volg de Nederlandse hoofdletterregels: hoofdletters alleen aan het begin van een zin en bij eigennamen (personen, merken, plaatsen, talen, feestdagen). Algemene begrippen zoals "merken", "strategen", "trends", "cultuur" schrijf je met een kleine letter.
+Style rules (follow strictly):
+- No em-dashes (—). Use a comma or full stop instead.
+- No marketing buzzwords: avoid words such as "game-changer", "disruptive", "innovative", "authentic", "next-level", "cutting-edge", "purpose-driven", "narrative" (as a buzzword), "paradigm", "ecosystem" (figuratively), "DNA" (figuratively).
+- Use British English spelling and standard sentence capitalisation.
 
-Geef voor elke trend:
-- trend: de naam (4-6 woorden, aantrekkelijk en specifiek)
-- category: de categorie (bv. "music", "fashion", "art", "internet", "film", "gaming", "culture", "trends", "lokaal")
-- what_is_happening: 2 zinnen — wat speelt er precies, wie is erbij betrokken?
-- why_it_matters_for_brands: 1 scherpe zin — waarom is dit strategisch relevant voor merken?
-- what_brands_can_do: array van precies 3 concrete, toepasbare acties of lessen (elk max. 25 woorden, begin met een werkwoord)
+For each trend, provide:
+- trend: the name (4-6 words, compelling and specific)
+- category: the category (e.g. "music", "fashion", "art", "internet", "film", "gaming", "culture", "trends", "local")
+- what_is_happening: 2 sentences. What exactly is going on, and who is involved?
+- why_it_matters_for_brands: 1 sharp sentence. Why is this strategically relevant for brands?
+- what_brands_can_do: array of exactly 3 concrete, applicable actions or lessons (each max. 25 words, starting with a verb)
 
-Antwoord ALLEEN met JSON:
+Respond ONLY with JSON:
 {
   "weeklyBrandSignals": [
     {
@@ -754,10 +754,9 @@ function collectEditableStrings(brief) {
       }
     }
   }
-  for (const s of (brief.weeklyBrandSignals && brief.weeklyBrandSignals.weeklyBrandSignals) || []) {
-    ["trend", "what_is_happening", "why_it_matters_for_brands"].forEach(function (k) { field(s, k); });
-    arrayItems(s, "what_brands_can_do");
-  }
+  // NB: weeklyBrandSignals worden bewust NIET meegenomen. De wekelijkse
+  // nieuwsbrief is Engelstalig; de Nederlandse proofread hieronder zou die
+  // tekst verkeerd "corrigeren". De Engelse synthese-prompt bewaakt zelf de stijl.
   return refs;
 }
 

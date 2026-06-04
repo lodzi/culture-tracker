@@ -36,7 +36,7 @@ const BRANDING_PATH = path.join(ROOT, "config", "email-branding.json");
 function loadBranding() {
   const defaults = {
     brandName:        "Zeitfeed Weekly",
-    tagline:          "Culturele trends voor merkstrategen",
+    tagline:          "Cultural trends for brand strategists",
     accentColor:      "#111111",
     accentColorAlt:   "#d4600a",
     backgroundColor:  "#fafaf7",
@@ -49,7 +49,7 @@ function loadBranding() {
     logoUrl:          "",
     logoWidth:        "120",
     logoAlt:          "",
-    footerText:       "Wekelijkse synthese via Claude AI",
+    footerText:       "Weekly synthesis via Claude AI",
   };
   if (!fs.existsSync(BRANDING_PATH)) return defaults;
   try {
@@ -95,7 +95,7 @@ function weekLabel() {
   sunday.setDate(monday.getDate() + 6);
 
   const fmt = function (d) {
-    return d.toLocaleDateString("nl-BE", { day: "numeric", month: "long" });
+    return d.toLocaleDateString("en-GB", { day: "numeric", month: "long" });
   };
   return fmt(monday) + " – " + fmt(sunday) + " " + sunday.getFullYear();
 }
@@ -142,7 +142,7 @@ function brandSignalCard(signal, index, branding) {
   <tr>
     <td style="padding:0;">
 
-      <!-- Nummer + categorie-button -->
+      <!-- Number + category button -->
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
           <td style="padding:18px 20px 0;">
@@ -155,7 +155,7 @@ function brandSignalCard(signal, index, branding) {
         </tr>
       </table>
 
-      <!-- Trend titel -->
+      <!-- Trend title -->
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
           <td style="padding:10px 20px 0;">
@@ -166,7 +166,7 @@ function brandSignalCard(signal, index, branding) {
         </tr>
       </table>
 
-      <!-- Wat er speelt -->
+      <!-- What is happening -->
       ${signal.what_is_happening ? `
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
@@ -177,7 +177,7 @@ function brandSignalCard(signal, index, branding) {
         </tr>
       </table>` : ""}
 
-      <!-- Waarom het telt voor merken -->
+      <!-- Why it matters for brands -->
       ${signal.why_it_matters_for_brands ? `
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
@@ -185,20 +185,20 @@ function brandSignalCard(signal, index, branding) {
             <p style="margin:0;padding:10px 14px;background:${bgPage};
               border-left:3px solid ${altCol};font-size:13px;color:${accent};
               font-style:italic;line-height:1.55;">
-              <strong style="font-style:normal;">Waarom het telt voor merken:</strong>
+              <strong style="font-style:normal;">Why it matters for brands:</strong>
               ${esc(signal.why_it_matters_for_brands)}</p>
           </td>
         </tr>
       </table>` : ""}
 
-      <!-- Wat merken kunnen doen -->
+      <!-- What brands can do -->
       ${actions ? `
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
           <td style="padding:14px 20px 0;">
             <p style="margin:0 0 10px;font-size:11px;font-weight:700;
               text-transform:uppercase;letter-spacing:0.1em;color:#6b6b6b;">
-              Wat merken kunnen doen</p>
+              What brands can do</p>
             <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
               ${actions}
             </table>
@@ -206,7 +206,7 @@ function brandSignalCard(signal, index, branding) {
         </tr>
       </table>` : ""}
 
-      <!-- Spacer onder -->
+      <!-- Spacer below -->
       <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr><td style="padding:14px 0 0;">&nbsp;</td></tr>
       </table>
@@ -245,11 +245,11 @@ function buildHTML(brief) {
 
   // Fallback: geen brand signals beschikbaar
   if (signals.length === 0) {
-    return `<!doctype html><html lang="nl"><head><meta charset="utf-8"></head>
+    return `<!doctype html><html lang="en"><head><meta charset="utf-8"></head>
 <body style="font-family:${bFont};padding:40px;color:${accent};">
 <h1>${esc(brand)}</h1>
-<p>Nog geen weekly brand signals beschikbaar. Run eerst <code>ai-synthesize.js</code> zodat de wekelijkse synthese klaar is.</p>
-${publicUrl ? `<p><a href="${esc(publicUrl)}">Bekijk de volledige tracker online →</a></p>` : ""}
+<p>No weekly brand signals available yet. Run <code>ai-synthesize.js</code> first so the weekly synthesis is ready.</p>
+${publicUrl ? `<p><a href="${esc(publicUrl)}">View the full tracker online →</a></p>` : ""}
 </body></html>`;
   }
 
@@ -257,7 +257,7 @@ ${publicUrl ? `<p><a href="${esc(publicUrl)}">Bekijk de volledige tracker online
 
   return [
     `<!doctype html>`,
-    `<html lang="nl"><head>`,
+    `<html lang="en"><head>`,
     `<meta charset="utf-8">`,
     `<meta name="viewport" content="width=device-width,initial-scale=1">`,
     `<title>${esc(brand)}</title>`,
@@ -282,7 +282,7 @@ ${publicUrl ? `<p><a href="${esc(publicUrl)}">Bekijk de volledige tracker online
     `    style="background:${accent};border-radius:8px;">`,
     `  <tr><td style="padding:24px 28px;">`,
     `    <p style="margin:0;font-size:15px;color:#ffffff;line-height:1.65;">`,
-    `      Drie trends uit verschillende culturele domeinen, elk met concrete acties voor marketeers en merkbouwers. Zeitfeed Weekly gebracht door Defiant.`,
+    `      Three trends from different cultural domains, each with concrete actions for marketers and brand builders. Zeitfeed Weekly, brought to you by Defiant.`,
     `    </p>`,
     `  </td></tr>`,
     `  </table>`,
@@ -294,7 +294,7 @@ ${publicUrl ? `<p><a href="${esc(publicUrl)}">Bekijk de volledige tracker online
     // Footer
     `<tr><td style="padding:24px 0 0;border-top:1px solid ${cardBd};">`,
     `  <p style="margin:0;font-size:11px;color:#9a9a94;line-height:1.6;">`,
-    `    ${esc(brand)} gebracht door <a href="${esc(defiantUrl)}" style="color:#9a9a94;">Defiant</a>.`,
+    `    ${esc(brand)}, brought to you by <a href="${esc(defiantUrl)}" style="color:#9a9a94;">Defiant</a>.`,
     `  </p>`,
     `  <p style="margin:6px 0 0;font-size:11px;color:#9a9a94;line-height:1.6;">${esc(week)}</p>`,
     `</td></tr>`,
@@ -314,13 +314,13 @@ function buildText(brief) {
     : [];
 
   lines.push((branding.brandName || "ZEITFEED WEEKLY").toUpperCase());
-  lines.push("Week van " + weekLabel());
+  lines.push("Week of " + weekLabel());
   lines.push("=".repeat(50));
 
   if (signals.length === 0) {
     lines.push("");
-    lines.push("Nog geen weekly brand signals beschikbaar.");
-    lines.push("Run eerst ai-synthesize.js.");
+    lines.push("No weekly brand signals available yet.");
+    lines.push("Run ai-synthesize.js first.");
     return lines.join("\n");
   }
 
@@ -332,11 +332,11 @@ function buildText(brief) {
     if (s.what_is_happening)       lines.push(s.what_is_happening);
     if (s.why_it_matters_for_brands) {
       lines.push("");
-      lines.push("Waarom het telt: " + s.why_it_matters_for_brands);
+      lines.push("Why it matters: " + s.why_it_matters_for_brands);
     }
     if (s.what_brands_can_do && s.what_brands_can_do.length) {
       lines.push("");
-      lines.push("Wat merken kunnen doen:");
+      lines.push("What brands can do:");
       s.what_brands_can_do.forEach(function (a, j) {
         lines.push("  " + (j + 1) + ". " + a);
       });

@@ -1,8 +1,8 @@
 {
-  "_comment": "Pas hier je eigen branding aan voor de wekelijkse e-mail.",
+  "_comment": "Adjust your own branding for the weekly email here.",
 
   "brandName":       "Zeitfeed Weekly",
-  "tagline":         "Culturele trends voor marketeers",
+  "tagline":         "Cultural trends for marketers",
 
   "accentColor":     "#111111",
   "accentColorAlt":  "#d4600a",
@@ -22,6 +22,6 @@
   "justify-content": "center",
   "logoAlt":         "Zeitfeed Weekly",
 
-  "footerText":      "gebracht door Defiant",
+  "footerText":      "brought to you by Defiant",
   "footerLinkUrl":   "https://www.thisisdefiant.com"
 }
