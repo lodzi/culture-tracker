@@ -32,11 +32,9 @@ jobs:
 
       - name: Send weekly brand signals email
         env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO:   ${{ secrets.EMAIL_TO }}
-          PUBLIC_URL: ${{ secrets.PUBLIC_URL }}
+          MAILCHIMP_API_KEY:   ${{ secrets.MAILCHIMP_API_KEY }}
+          MAILCHIMP_LIST_ID:   ${{ secrets.MAILCHIMP_LIST_ID }}
+          EMAIL_FROM_NAME:     ${{ secrets.EMAIL_FROM_NAME }}
+          EMAIL_FROM_EMAIL:    ${{ secrets.EMAIL_FROM_EMAIL }}
+          PUBLIC_URL:          ${{ secrets.PUBLIC_URL }}
         run: npm run weekly-email
