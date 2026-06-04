@@ -9,11 +9,13 @@
  *
  * Branding: pas config/email-branding.json aan voor je eigen stijl.
  *
- * Zelfde SMTP-variabelen als send-email.js:
- *   SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, EMAIL_FROM, EMAIL_TO
+ * Vereiste env-variabelen:
+ *   MAILCHIMP_API_KEY   bv. abc123...–us21
+ *   MAILCHIMP_LIST_ID   audience/list ID in Mailchimp
+ *   EMAIL_FROM_NAME     bv. "Zeitfeed Weekly"
+ *   EMAIL_FROM_EMAIL    bv. zeitfeed@thisisdefiant.com
  *
  * Optioneel:
- *   SMTP_SECURE   "true" voor directe TLS (port 465). Default: auto.
  *   PUBLIC_URL    bv. https://tracker.thisisdefiant.com
  *
  * Aanbevolen cadans: vrijdagochtend 08:00 (zie weekly-email.yml).
@@ -23,7 +25,7 @@
 
 const fs         = require("fs");
 const path       = require("path");
-const nodemailer = require("nodemailer");
+const mailchimp  = require("@mailchimp/mailchimp_marketing");
 
 const ROOT          = path.resolve(__dirname, "..");
 const LATEST_PATH   = path.join(ROOT, "data", "latest.json");
@@ -74,6 +76,13 @@ function required(name) {
   const v = process.env[name];
   if (!v) throw new Error("Ontbrekende env-var: " + name);
   return v;
+}
+
+// Haal de datacenter-suffix uit de API key (bv. "abc123–us21" → "us21")
+function datacenterFromKey(apiKey) {
+  const parts = apiKey.split("-");
+  if (parts.length < 2) throw new Error("Ongeldige MAILCHIMP_API_KEY — verwacht formaat: key-dc (bv. abc123-us21)");
+  return parts[parts.length - 1];
 }
 
 function weekLabel() {
@@ -225,6 +234,7 @@ function buildHTML(brief) {
   const brand   = branding.brandName      || "Zeitfeed Weekly";
   const tagline = branding.tagline        || "";
   const footer  = branding.footerText     || "Wekelijkse synthese via Claude AI";
+  const defiantUrl = branding.footerLinkUrl || "https://www.thisisdefiant.com";
 
   // ── Logo of merknaam ──────────────────────────────────────────────────────
   const logoBlock = branding.logoUrl
@@ -261,29 +271,21 @@ ${publicUrl ? `<p><a href="${esc(publicUrl)}">Bekijk de volledige tracker online
     `<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"`,
     `  style="max-width:600px;">`,
 
-    // Header
-    `<tr><td style="padding:0 0 20px;border-bottom:3px solid ${accent};">`,
-    `  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">`,
-    `  <tr>`,
-    `    <td>`,
-    `      ${logoBlock}`,
-    tagline ? `      <p style="margin:6px 0 0;color:#6b6b6b;font-size:13px;">${esc(tagline)}</p>` : "",
-    `      <p style="margin:6px 0 0;color:#6b6b6b;font-size:13px;">${esc(week)}</p>`,
-    `    </td>`,
-    `    <td align="right" valign="bottom">`,
-    `      <span style="display:inline-block;background:${accent};color:#fff;`,
-    `        padding:4px 12px;border-radius:4px;font-size:12px;font-weight:700;`,
-    `        letter-spacing:0.05em;">3 TRENDS</span>`,
-    `    </td>`,
-    `  </tr>`,
-    `  </table>`,
+    // Header — alleen het logo
+    `<tr><td style="padding:0 0 20px;">`,
+    `  ${logoBlock}`,
     `</td></tr>`,
 
-    // Intro
-    `<tr><td style="padding:20px 0 24px;">`,
-    `  <p style="margin:0;font-size:15px;color:#555;line-height:1.65;">`,
-    `    Drie culturele trends uit verschillende domeinen — elk met concrete acties voor merkstrategen.`,
-    `  </p>`,
+    // Intro — volledige breedte, zwarte achtergrond, witte tekst
+    `<tr><td style="padding:0 0 24px;">`,
+    `  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"`,
+    `    style="background:${accent};border-radius:8px;">`,
+    `  <tr><td style="padding:24px 28px;">`,
+    `    <p style="margin:0;font-size:15px;color:#ffffff;line-height:1.65;">`,
+    `      Drie trends uit verschillende culturele domeinen, elk met concrete acties voor marketeers en merkbouwers. Zeitfeed Weekly gebracht door Defiant.`,
+    `    </p>`,
+    `  </td></tr>`,
+    `  </table>`,
     `</td></tr>`,
 
     // Signal cards
@@ -292,10 +294,9 @@ ${publicUrl ? `<p><a href="${esc(publicUrl)}">Bekijk de volledige tracker online
     // Footer
     `<tr><td style="padding:24px 0 0;border-top:1px solid ${cardBd};">`,
     `  <p style="margin:0;font-size:11px;color:#9a9a94;line-height:1.6;">`,
-    `    ${esc(brand)} &middot; ${esc(footer)} &middot;`,
-    `    gebaseerd op ${brief.daily && brief.daily.intro ? esc(brief.daily.intro) : "RSS + Wikipedia + TikTok"}`,
-    publicUrl ? `    &middot; <a href="${esc(publicUrl)}" style="color:#9a9a94;">Bekijk online &rarr;</a>` : "",
+    `    ${esc(brand)} gebracht door <a href="${esc(defiantUrl)}" style="color:#9a9a94;">Defiant</a>.`,
     `  </p>`,
+    `  <p style="margin:6px 0 0;font-size:11px;color:#9a9a94;line-height:1.6;">${esc(week)}</p>`,
     `</td></tr>`,
 
     `</table></td></tr></table>`,
@@ -354,33 +355,54 @@ async function main() {
 
   const brief = JSON.parse(fs.readFileSync(LATEST_PATH, "utf8"));
 
-  const host   = required("SMTP_HOST");
-  const port   = parseInt(process.env.SMTP_PORT || "587", 10);
-  const user   = required("SMTP_USER");
-  const pass   = required("SMTP_PASS");
-  const from   = required("EMAIL_FROM");
-  const to     = required("EMAIL_TO");
-  const secure = process.env.SMTP_SECURE
-    ? process.env.SMTP_SECURE === "true"
-    : port === 465;
+  const apiKey    = required("MAILCHIMP_API_KEY");
+  const listId    = required("MAILCHIMP_LIST_ID");
+  const fromName  = required("EMAIL_FROM_NAME");
+  const fromEmail = required("EMAIL_FROM_EMAIL");
 
-  const transporter = nodemailer.createTransport({ host, port, secure, auth: { user, pass } });
-
-  const branding = loadBranding();
-  const subject = (branding.brandName || "Zeitfeed Weekly") + " · " + weekLabel();
-
-  console.log("→ Stuur weekly mail naar " + to + " via " + host + ":" + port);
-
-  const info = await transporter.sendMail({
-    from: '"Zeitfeed Weekly" <' + from + ">", to, subject,
-    text: buildText(brief),
-    html: buildHTML(brief),
+  mailchimp.setConfig({
+    apiKey,
+    server: datacenterFromKey(apiKey),
   });
 
-  console.log("✓ Verzonden. Message ID: " + info.messageId);
+  const branding = loadBranding();
+  const subject  = (branding.brandName || "Zeitfeed Weekly") + " · " + weekLabel();
+
+  // 1. Campagne aanmaken
+  console.log("→ Mailchimp campagne aanmaken…");
+  const campaign = await mailchimp.campaigns.create({
+    type: "regular",
+    recipients: { list_id: listId },
+    settings: {
+      subject_line: subject,
+      from_name:    fromName,
+      reply_to:     fromEmail,
+    },
+  });
+  const campaignId = campaign.id;
+  console.log("  Campagne ID: " + campaignId);
+
+  // 2. HTML-inhoud instellen
+  console.log("→ Content instellen…");
+  await mailchimp.campaigns.setContent(campaignId, {
+    html:       buildHTML(brief),
+    plain_text: buildText(brief),
+  });
+
+  // 3. Versturen
+  console.log("→ Versturen naar lijst " + listId + "…");
+  await mailchimp.campaigns.send(campaignId);
+
+  console.log("✓ Weekly email verstuurd via Mailchimp. Campagne ID: " + campaignId);
 }
 
-main().catch(function (err) {
-  console.error("Fatal:", err.message || err);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch(function (err) {
+    // Mailchimp API-fouten bevatten soms extra detail in err.response.text
+    const detail = err.response && err.response.text ? " — " + err.response.text : "";
+    console.error("Fatal:", (err.message || err) + detail);
+    process.exit(1);
+  });
+}
+
+module.exports = { buildHTML, buildText };

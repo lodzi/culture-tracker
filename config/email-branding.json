@@ -22,5 +22,6 @@
   "justify-content": "center",
   "logoAlt":         "Zeitfeed Weekly",
 
-  "footerText":      "gebracht door Defiant" 
+  "footerText":      "gebracht door Defiant",
+  "footerLinkUrl":   "https://www.thisisdefiant.com"
 }
