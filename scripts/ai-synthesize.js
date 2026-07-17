@@ -930,6 +930,20 @@ async function main() {
     console.error("  Brand signals mislukt:", e.message);
   }
 
+  // Robuustheid: laat weeklyBrandSignals NOOIT verdwijnen uit latest.json.
+  // Als (her)generatie faalde of null teruggaf, behoud de laatst bekende
+  // signals. Anders toont de wekelijkse mail de lege fallback-tekst.
+  if ((!weeklyBrandSignals ||
+       !Array.isArray(weeklyBrandSignals.weeklyBrandSignals) ||
+       weeklyBrandSignals.weeklyBrandSignals.length === 0) &&
+      existing.weeklyBrandSignals &&
+      Array.isArray(existing.weeklyBrandSignals.weeklyBrandSignals) &&
+      existing.weeklyBrandSignals.weeklyBrandSignals.length > 0) {
+    weeklyBrandSignals = existing.weeklyBrandSignals;
+    console.log("  \u21a9 (her)generatie mislukt \u2014 hergebruik laatst bekende brand signals (" +
+      existing.weeklyBrandSignals.weeklyBrandSignals.length + ").");
+  }
+
   // Schrijf latest.json
   const date  = todayISO();
   // Compact rapport-overzicht voor de frontend (geen volledige themesByReport)

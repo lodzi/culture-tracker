@@ -30,6 +30,7 @@ const mailchimp  = require("@mailchimp/mailchimp_marketing");
 const ROOT          = path.resolve(__dirname, "..");
 const LATEST_PATH   = path.join(ROOT, "data", "latest.json");
 const BRANDING_PATH = path.join(ROOT, "config", "email-branding.json");
+const ARCHIVE_DIR  = path.join(ROOT, "data", "archive");
 
 // ─── Branding laden ───────────────────────────────────────────────────────────
 
@@ -357,12 +358,56 @@ function buildText(brief) {
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
-async function main() {
+// ─── Signals-bron met fallback ────────────────────────────────────────────────
+// Haalt de brand-signals uit een brief-object (latest.json of archief-snapshot).
+function extractSignals(brief) {
+  return (brief && brief.weeklyBrandSignals &&
+          Array.isArray(brief.weeklyBrandSignals.weeklyBrandSignals))
+    ? brief.weeklyBrandSignals.weeklyBrandSignals
+    : [];
+}
+
+// Kies de te versturen brief. Voorkeur: latest.json. Als die (uitzonderlijk)
+// geen signals bevat, val terug op de meest recente archief-snapshot die ze
+// wél heeft. Zo ontvangt de live lijst nooit de lege fallback-tekst.
+function loadBriefWithSignals() {
   if (!fs.existsSync(LATEST_PATH)) {
     throw new Error("Kan " + LATEST_PATH + " niet vinden. Run eerst ai-synthesize.js.");
   }
+  const latest = JSON.parse(fs.readFileSync(LATEST_PATH, "utf8"));
+  if (extractSignals(latest).length > 0) return latest;
 
-  const brief = JSON.parse(fs.readFileSync(LATEST_PATH, "utf8"));
+  console.warn("Waarschuwing: latest.json bevat geen brand signals — zoek in archief…");
+  let files = [];
+  try {
+    files = fs.readdirSync(ARCHIVE_DIR)
+      .filter(function (f) { return /^\d{4}-\d{2}-\d{2}\.json$/.test(f); })
+      .sort()
+      .reverse();
+  } catch (e) { /* geen archief */ }
+
+  for (const f of files) {
+    try {
+      const snap = JSON.parse(fs.readFileSync(path.join(ARCHIVE_DIR, f), "utf8"));
+      if (extractSignals(snap).length > 0) {
+        console.warn("  ↩ Gebruik archief-snapshot " + f + " (" +
+          extractSignals(snap).length + " signals).");
+        return snap;
+      }
+    } catch (e) { /* skip corrupt */ }
+  }
+  return null; // nergens signals gevonden
+}
+
+async function main() {
+  const brief = loadBriefWithSignals();
+
+  // Veiligheidsstop: liever niets sturen dan de lege fallback naar de lijst.
+  if (!brief || extractSignals(brief).length === 0) {
+    console.error("AFGEBROKEN: geen brand signals in latest.json of archief. " +
+      "Geen campagne aangemaakt of verstuurd. Draai eerst ai-synthesize.js.");
+    process.exit(1);
+  }
 
   const apiKey    = required("MAILCHIMP_API_KEY");
   const listId    = required("MAILCHIMP_LIST_ID");
