@@ -1,0 +1,84 @@
+name: TEST — Thursday 6 topics
+
+# Testfase: genereert donderdag 6 brand-topics, mailt ze naar het testteam
+# (Maarten + Lode) en commit een selectie-bestand in test/. Lode kiest daar 3
+# nummers in de SELECTION-regel en pusht die naar main. De vrijdag-workflow
+# (weekly-email.yml) verstuurt dan exact die 3 via Mailchimp.
+#
+# Vereiste GitHub secrets: ANTHROPIC_API_KEY, SMTP_HOST/PORT/USER/PASS,
+# EMAIL_FROM, EMAIL_TO en (aanbevolen) TEST_TOPICS_TO = "maarten@…, lode@…".
+
+on:
+  schedule:
+    # Donderdag 06:30 UTC = 08:30 Brussel (CEST). Na de dagelijkse synthese (06:00).
+    - cron: "30 6 * * 4"
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: culture-test-thursday
+  cancel-in-progress: false
+
+jobs:
+  topics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch RSS feeds
+        run: npm run update
+
+      - name: Synthesize 6 brand topics (test mode)
+        env:
+          ANTHROPIC_API_KEY:    ${{ secrets.ANTHROPIC_API_KEY }}
+          WEEKLY_SIGNAL_COUNT:  "6"
+          WEEKLY_SIGNALS_FORCE: "1"
+        run: npm run synthesize
+
+      - name: Generate topic selection files
+        run: node scripts/test-generate-topics.js
+
+      - name: Commit only the test/ selection files (production data blijft ongemoeid)
+        run: |
+          git config user.name  "culture-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add test/
+          # Gooi de 6-signalen versie van latest.json/archive weg: alleen test/ committen.
+          git checkout -- data/ 2>/dev/null || true
+          git clean -fd data/archive/ 2>/dev/null || true
+          git pull --rebase --autostash || true
+          if git diff --cached --quiet; then
+            echo "Geen nieuwe topic-bestanden om te committen."
+          else
+            git commit -m "test(topics): 6 topics $(date -u +'%Y-%m-%d') [skip ci]"
+            git push
+          fi
+
+      - name: Email the 6 topics to the test team
+        continue-on-error: true
+        env:
+          SMTP_HOST:       ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:       ${{ secrets.SMTP_PORT }}
+          SMTP_USER:       ${{ secrets.SMTP_USER }}
+          SMTP_PASS:       ${{ secrets.SMTP_PASS }}
+          EMAIL_FROM:      ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO:        ${{ secrets.EMAIL_TO }}
+          TEST_TOPICS_TO:  ${{ secrets.TEST_TOPICS_TO }}
+        run: node scripts/test-email-topics.js

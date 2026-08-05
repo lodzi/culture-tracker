@@ -9,10 +9,14 @@
     "synthesize-reports": "node scripts/synthesize-reports.js",
     "email": "node scripts/send-email.js",
     "weekly-email": "node scripts/send-weekly-email.js",
+    "test:generate": "WEEKLY_SIGNAL_COUNT=6 WEEKLY_SIGNALS_FORCE=1 npm run update && WEEKLY_SIGNAL_COUNT=6 WEEKLY_SIGNALS_FORCE=1 npm run synthesize && node scripts/test-generate-topics.js",
+    "test:topics": "node scripts/test-generate-topics.js",
+    "test:email-topics": "node scripts/test-email-topics.js",
+    "test:apply": "node scripts/test-apply-selection.js",
+    "test:send": "node scripts/test-apply-selection.js && npm run weekly-email",
     "daily": "npm run update && npm run synthesize && npm run email",
     "check-sources": "node scripts/check-sources.js",
-    "serve": "npx --yes http-server . -p 8080 -c-1",
-    "weekly-email-test": "node scripts/send-weekly-email.js --test"
+    "serve": "npx --yes http-server . -p 8080 -c-1"
   },
   "engines": {
     "node": ">=18"
@@ -26,3 +30,4 @@
     "rss-parser": "^3.13.0"
   }
 }
+

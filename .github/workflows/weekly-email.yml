@@ -2,8 +2,10 @@ name: Weekly brand signals email
 
 on:
   schedule:
-    # Vrijdag 06:00 UTC = 08:00 Brussel zomertijd (CEST)
-    - cron: "0 6 * * 5"
+    # Vrijdag 08:00 UTC = 10:00 Brussel zomertijd (CEST).
+    # Later dan de oude 06:00 zodat er donderdagavond/vrijdagochtend tijd is om
+    # de selectie te maken en te pushen. Pas dit aan naar wens.
+    - cron: "0 8 * * 5"
   workflow_dispatch:
 
 env:
@@ -30,11 +32,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Send weekly brand signals email
+      # TESTFASE: past eerst Lode's keuze uit test/topics-*.md toe op latest.json.
+      # Bij een geldige selectie (precies 3 nummers) stuurt Mailchimp die 3.
+      # Bij ontbrekende/ongeldige selectie stopt de stap met exit 2 -> GEEN mail
+      # naar de audience, en de workflow faalt zichtbaar als signaal.
+      # Om terug te keren naar de oude automatische top-3: vervang de run-regel
+      # hieronder door alleen `npm run weekly-email`.
+      - name: Apply Lode's selection + send weekly brand signals email
         env:
           MAILCHIMP_API_KEY:   ${{ secrets.MAILCHIMP_API_KEY }}
           MAILCHIMP_LIST_ID:   ${{ secrets.MAILCHIMP_LIST_ID }}
           EMAIL_FROM_NAME:     ${{ secrets.EMAIL_FROM_NAME }}
           EMAIL_FROM_EMAIL:    ${{ secrets.EMAIL_FROM_EMAIL }}
           PUBLIC_URL:          ${{ secrets.PUBLIC_URL }}
-        run: npm run weekly-email
+        run: node scripts/test-apply-selection.js && npm run weekly-email

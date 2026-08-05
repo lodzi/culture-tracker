@@ -575,7 +575,14 @@ ${JSON.stringify(byCat, null, 2)}`;
 // Gecached: wordt alleen herberekend samen met weekly (>6 dagen oud).
 
 async function synthesizeWeeklyBrandSignals(client, daily, crossCategory, weekly, existingBrandSignals) {
-  if (existingBrandSignals && ageDays(existingBrandSignals.generatedAt) < 6) {
+  // Aantal signalen is instelbaar via WEEKLY_SIGNAL_COUNT (default 3 = productie).
+  // De testfase (donderdag) zet dit op 6 zodat Lode een keuze kan maken.
+  const SIGNAL_COUNT = Math.max(1, parseInt(process.env.WEEKLY_SIGNAL_COUNT || "3", 10));
+  // WEEKLY_SIGNALS_FORCE=1 negeert de cache en genereert altijd vers.
+  const FORCE = process.env.WEEKLY_SIGNALS_FORCE === "1";
+  const MAX_PER_CAT = SIGNAL_COUNT <= 3 ? 1 : 2;
+
+  if (!FORCE && existingBrandSignals && ageDays(existingBrandSignals.generatedAt) < 6) {
     console.log("  Weekly brand signals zijn nog vers (" +
       ageDays(existingBrandSignals.generatedAt).toFixed(1) + " dagen) — hergebruik.");
     return existingBrandSignals;
@@ -636,7 +643,7 @@ async function synthesizeWeeklyBrandSignals(client, daily, crossCategory, weekly
 
 Below are all the cultural trend signals: daily signals, cross-category patterns and weekly developments. The source signals may be written in Dutch, but you MUST write ALL of your output in English (British spelling).
 
-Choose exactly 3 trends, EACH FROM A DIFFERENT CATEGORY. This is a hard requirement: the 3 selected trends must each have a different category value. That way the email always offers something for every reader, whatever their domain.
+Choose exactly ${SIGNAL_COUNT} trends. Spread them across as many different categories as possible: no category may appear more than ${MAX_PER_CAT} time(s). That way the selection always offers something for every reader, whatever their domain.
 
 Choose the categories so they cover the breadth of the cultural landscape. Ideally combine a visual domain (art/fashion/film), a digital domain (internet/gaming/trends) and a sound domain (music/culture/local), but always let the quality of the trend signal take priority.
 
@@ -683,29 +690,30 @@ ${JSON.stringify(allInsights, null, 2)}`;
   try {
     const result = parseAIJson(msg.content[0].text);
 
-    // Valideer: filter onvolledige signals + zorg voor unieke categorieën
-    const seenCats = new Set();
+    // Valideer: filter onvolledige signals + beperk aantal per categorie
+    const catCounts = {};
     const signals = (result.weeklyBrandSignals || [])
       .filter(function (s) {
         return s.trend && s.what_is_happening && Array.isArray(s.what_brands_can_do);
       })
       .filter(function (s) {
         const cat = (s.category || "").toLowerCase();
-        if (seenCats.has(cat)) {
-          console.log("  ⚠ Dubbele categorie '" + cat + "' overgeslagen.");
+        const n = catCounts[cat] || 0;
+        if (n >= MAX_PER_CAT) {
+          console.log("  ⚠ Categorie '" + cat + "' al " + n + "x — overgeslagen.");
           return false;
         }
-        seenCats.add(cat);
+        catCounts[cat] = n + 1;
         return true;
       })
-      .slice(0, 3);
+      .slice(0, SIGNAL_COUNT);
 
     if (signals.length === 0) {
       console.log("  Geen bruikbare brand signals gegenereerd.");
       return null;
     }
-    if (signals.length < 3) {
-      console.log("  ⚠ Slechts " + signals.length + " unieke categorieën — overweeg meer bronnen toe te voegen.");
+    if (signals.length < SIGNAL_COUNT) {
+      console.log("  ⚠ Slechts " + signals.length + " van " + SIGNAL_COUNT + " signalen — overweeg meer bronnen toe te voegen.");
     }
     return {
       generatedAt:       new Date().toISOString(),
@@ -928,20 +936,6 @@ async function main() {
     }
   } catch (e) {
     console.error("  Brand signals mislukt:", e.message);
-  }
-
-  // Robuustheid: laat weeklyBrandSignals NOOIT verdwijnen uit latest.json.
-  // Als (her)generatie faalde of null teruggaf, behoud de laatst bekende
-  // signals. Anders toont de wekelijkse mail de lege fallback-tekst.
-  if ((!weeklyBrandSignals ||
-       !Array.isArray(weeklyBrandSignals.weeklyBrandSignals) ||
-       weeklyBrandSignals.weeklyBrandSignals.length === 0) &&
-      existing.weeklyBrandSignals &&
-      Array.isArray(existing.weeklyBrandSignals.weeklyBrandSignals) &&
-      existing.weeklyBrandSignals.weeklyBrandSignals.length > 0) {
-    weeklyBrandSignals = existing.weeklyBrandSignals;
-    console.log("  \u21a9 (her)generatie mislukt \u2014 hergebruik laatst bekende brand signals (" +
-      existing.weeklyBrandSignals.weeklyBrandSignals.length + ").");
   }
 
   // Schrijf latest.json
