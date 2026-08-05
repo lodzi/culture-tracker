@@ -121,7 +121,11 @@ async function main() {
   console.log("✓ Verzonden. Message ID: " + info.messageId);
 }
 
-main().catch(function (err) {
-  console.error("Fatal:", err.message || err);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch(function (err) {
+    console.error("Fatal:", err.message || err);
+    process.exit(1);
+  });
+}
+
+module.exports = { buildHtml, buildText };

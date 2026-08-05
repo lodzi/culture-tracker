@@ -79,6 +79,12 @@ function main() {
   const bad = picks.filter(function (n) { return !Number.isInteger(n) || n < 1 || n > signals.length; });
   if (bad.length) fail("Ongeldige nummers (buiten 1-" + signals.length + "): " + bad.join(", "));
 
+  // CHECK_ONLY: alleen valideren (lokaal, vóór pushen), niets wegschrijven.
+  if (process.env.CHECK_ONLY === "1") {
+    console.log("✓ Selectie " + picks.join(", ") + " is geldig (bron: " + mdName + ").");
+    process.exit(0);
+  }
+
   // Kies de signalen (1-based -> 0-based), in de volgorde die Lode koos
   const chosen = picks.map(function (n) { return signals[n - 1]; });
 
