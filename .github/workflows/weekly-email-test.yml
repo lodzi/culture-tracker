@@ -1,0 +1,44 @@
+name: Weekly brand signals TEST email
+
+on:
+  schedule:
+    # Donderdag 12:00 UTC = 14:00 Brussel zomertijd (CEST)
+    # Stuurt een Mailchimp-testmail (enkel naar TEST_EMAIL_TO) als preview van
+    # de echte vrijdagmail. Raakt de audience-lijst niet.
+    - cron: "0 12 * * 4"
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: read
+
+jobs:
+  weekly-email-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Send weekly brand signals TEST email
+        env:
+          MAILCHIMP_API_KEY:   ${{ secrets.MAILCHIMP_API_KEY }}
+          MAILCHIMP_LIST_ID:   ${{ secrets.MAILCHIMP_LIST_ID }}
+          EMAIL_FROM_NAME:     ${{ secrets.EMAIL_FROM_NAME }}
+          EMAIL_FROM_EMAIL:    ${{ secrets.EMAIL_FROM_EMAIL }}
+          PUBLIC_URL:          ${{ secrets.PUBLIC_URL }}
+          # Optioneel: overschrijf de vaste test-ontvangers (komma-gescheiden).
+          TEST_EMAIL_TO:       ${{ secrets.TEST_EMAIL_TO }}
+        run: npm run weekly-email-test

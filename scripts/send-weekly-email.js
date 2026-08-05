@@ -400,14 +400,15 @@ function loadBriefWithSignals() {
 }
 
 async function main() {
-  const brief = loadBriefWithSignals();
-
-  // Veiligheidsstop: liever niets sturen dan de lege fallback naar de lijst.
-  if (!brief || extractSignals(brief).length === 0) {
-    console.error("AFGEBROKEN: geen brand signals in latest.json of archief. " +
-      "Geen campagne aangemaakt of verstuurd. Draai eerst ai-synthesize.js.");
-    process.exit(1);
+  if (!fs.existsSync(LATEST_PATH)) {
+    throw new Error("Kan " + LATEST_PATH + " niet vinden. Run eerst ai-synthesize.js.");
   }
+
+  const brief = JSON.parse(fs.readFileSync(LATEST_PATH, "utf8"));
+
+  // Testmodus: stuur enkel een Mailchimp-testmail naar vaste adressen i.p.v.
+  // een echte campagne naar de hele lijst. Activeer met `--test` of TEST_MODE=1.
+  const isTest = process.argv.includes("--test") || process.env.TEST_MODE === "1";
 
   const apiKey    = required("MAILCHIMP_API_KEY");
   const listId    = required("MAILCHIMP_LIST_ID");
@@ -420,7 +421,8 @@ async function main() {
   });
 
   const branding = loadBranding();
-  const subject  = (branding.brandName || "Zeitfeed Weekly") + " · " + weekLabel();
+  const subject  = (isTest ? "[TEST] " : "") +
+                   (branding.brandName || "Zeitfeed Weekly") + " · " + weekLabel();
 
   // 1. Campagne aanmaken
   console.log("→ Mailchimp campagne aanmaken…");
@@ -443,7 +445,32 @@ async function main() {
     plain_text: buildText(brief),
   });
 
-  // 3. Versturen
+  if (isTest) {
+    // 3a. Testmail: enkel naar vaste ontvangers (override via TEST_EMAIL_TO,
+    //     komma-gescheiden). Raakt de lijst niet.
+    const recipients = (process.env.TEST_EMAIL_TO ||
+        "lode@thisisdefiant.com,maarten@thisisdefiant.com")
+      .split(",").map(function (e) { return e.trim(); }).filter(Boolean);
+
+    console.log("→ Testmail versturen naar: " + recipients.join(", ") + "…");
+    await mailchimp.campaigns.sendTestEmail(campaignId, {
+      test_emails: recipients,
+      send_type:   "html",
+    });
+
+    // Draft-campagne opruimen zodat er geen testcampagnes opstapelen.
+    try {
+      await mailchimp.campaigns.remove(campaignId);
+      console.log("  Test-draft verwijderd.");
+    } catch (e) {
+      console.warn("  Kon test-draft niet verwijderen: " + (e.message || e));
+    }
+
+    console.log("✓ Testmail verstuurd via Mailchimp (lijst ongemoeid).");
+    return;
+  }
+
+  // 3b. Versturen naar de volledige lijst
   console.log("→ Versturen naar lijst " + listId + "…");
   await mailchimp.campaigns.send(campaignId);
 
