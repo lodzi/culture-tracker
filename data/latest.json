@@ -156,7 +156,7 @@
     ]
   },
   "weeklyBrandSignals": {
-    "generatedAt": "2026-08-13T13:22:23.908Z",
+    "generatedAt": "2026-08-13T13:41:34.341Z",
     "weeklyBrandSignals": [
       {
         "trend": "Nostalgia Licensing Spans Multiple Categories",
@@ -170,25 +170,25 @@
         ]
       },
       {
-        "trend": "Trans Storytelling Enters Mainstream Cinema",
-        "category": "film",
-        "what_is_happening": "Filmmakers including Lilly Wachowski and Jane Schoenbrun are producing trans-centred stories that occupy prominent space in both studio and independent cinema, positioned explicitly as responses to current social tensions around identity. This represents a clear shift from marginal representation to intentional, director-led storytelling in high-visibility genres.",
-        "why_it_matters_for_brands": "Brands that communicate around identity, culture or inclusivity now have a stronger and more specific reference point than ever before, meaning vague gestures toward diversity will read as hollow against this level of specificity.",
+        "trend": "Digital Ownership Means Access, Not Property",
+        "category": "gaming",
+        "what_is_happening": "Games people paid full price for are disappearing when publishers pull servers or strip out content, as with a single-player mode removed from a title players had paid sixty dollars for. The backlash across Steam, PlayStation and Switch communities exposes that digital ownership often means temporary, revocable access.",
+        "why_it_matters_for_brands": "As more products shift to cloud and subscription models, customers are realising they own less than they assumed, and brands that are honest about access versus ownership will keep their trust.",
         "what_brands_can_do": [
-          "Commission creative briefs that reference specific films and filmmakers rather than abstract identity categories, to ground campaigns in real cultural context.",
-          "Partner with trans creatives in production roles, not only in front-of-camera representation, to reflect where the cultural conversation actually is.",
-          "Review existing brand communications for identity-related language that has not kept pace with how mainstream culture now frames these conversations."
+          "State plainly whether a purchase gives ownership, a licence, or access that can be withdrawn.",
+          "Give customers a real way to keep or export what they have paid for.",
+          "Treat retiring a product or feature as a communication moment, not a silent removal."
         ]
       },
       {
-        "trend": "Creators Discover Their Output Is AI Fuel",
+        "trend": "Hidden AI Erodes Corporate Trust",
         "category": "internet",
-        "what_is_happening": "Twitch quietly embedded AI training clauses into its terms of service, with the opt-out option initially hidden from users, drawing sharp criticism from the creator community. This sits within a broader pattern of tech platforms extracting creator-produced content as a commercial asset without direct compensation or prior consent.",
-        "why_it_matters_for_brands": "Brands that rely on creator partnerships are operating in a trust environment that is actively deteriorating, and those who take a clear, fair position on data and intellectual property will stand out to creators who are increasingly protective of their output.",
+        "what_is_happening": "A run of cases has surfaced where companies made human-first or ethical claims while quietly relying on AI or bending their own standards, from AI-generated work passed off as human to hidden practices at consumer brands. Customers and staff are catching the gap between the promise and the practice.",
+        "why_it_matters_for_brands": "The reputational damage lands hardest on brands whose core promise is honesty or human craft, so any distance between what you claim and what you do is now a live liability.",
         "what_brands_can_do": [
-          "Build creator contracts that explicitly address AI training rights, stating clearly that your brand will not use partnership content for model training without agreement.",
-          "Publicly communicate your brand's position on creator data rights as part of how you recruit and retain creative collaborators.",
-          "Monitor platform policy changes on a rolling basis, so your creator partnerships are never exposed to terms your brand has not reviewed."
+          "Make only the human-made or ethical claims you could evidence on request.",
+          "Disclose where you use AI before a customer or journalist uncovers it.",
+          "Audit your marketing for promises your operations do not actually keep."
         ]
       }
     ]
