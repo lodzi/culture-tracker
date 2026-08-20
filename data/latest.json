@@ -156,39 +156,39 @@
     ]
   },
   "weeklyBrandSignals": {
-    "generatedAt": "2026-08-20T12:44:06.983Z",
+    "generatedAt": "2026-08-20T13:02:07.038Z",
     "weeklyBrandSignals": [
       {
-        "trend": "Digital Ownership Illusion Publicly Unravels",
-        "category": "gaming",
-        "what_is_happening": "Server shutdowns and licensing disputes are erasing digital purchases that consumers believed they owned outright, exposing the gap between what brands promise and what digital commerce actually delivers. Gamers are no longer treating this as an unavoidable technical reality but as a deliberate corporate choice, and they are organising their criticism accordingly.",
-        "why_it_matters_for_brands": "Any brand selling digital products, from software subscriptions to streamed media to in-game assets, now faces a credibility test: consumers are actively reassessing whether digital transactions offer genuine value or merely temporary access.",
+        "trend": "Album Listening Parties as Immersive Retail",
+        "category": "music",
+        "what_is_happening": "Artists such as Phoebe Bridgers are launching albums through physical, interactive listening parties, from roller-skating rinks to curated venues, rather than a quiet streaming drop. The launch becomes a place people go to, generating social content without a single discount code.",
+        "why_it_matters_for_brands": "In-person, experiential moments are reclaiming cultural weight from purely digital launches, giving brands a reason to build real-world experiences again.",
         "what_brands_can_do": [
-          "Audit your digital product terms and rewrite them in plain language that honestly describes what customers are purchasing.",
-          "Introduce clear ownership guarantees or offline access options to differentiate from competitors offering only access licences.",
-          "Communicate proactively about your data and licence policies before criticism forces the conversation on someone else's terms."
+          "Turn a product launch into a place people gather, not only a post to scroll past.",
+          "Design the moment so attendees photograph and share it without being asked.",
+          "Pair the physical event with a same-day digital drop so reach follows presence."
         ]
       },
       {
-        "trend": "Creator Content Fed To AI Silently",
-        "category": "internet",
-        "what_is_happening": "Creative work produced by independent creators is being used systematically as training data for AI models, often without consent or compensation, and the scale of this practice is becoming impossible to ignore. Creators are beginning to coordinate legal challenges and public pressure campaigns, shifting this from a background concern to a front-page accountability issue.",
-        "why_it_matters_for_brands": "Brands that use AI tools or maintain platform partnerships are increasingly exposed to reputational risk if they cannot demonstrate a clear and honest position on how creator and user content is handled within those systems.",
+        "trend": "Legends’ Deaths Reshape Legacy Narratives",
+        "category": "music",
+        "what_is_happening": "The death of figures like ZZ Top drummer Frank Beard is confronting audiences with the mortality of an entire generation of artists, as tribute cascades rewrite legacies in real time. Some bands choose to keep touring, turning loss into a deliberate statement that the legacy lives on through the work.",
+        "why_it_matters_for_brands": "Brands that lean on ageing icons face a closing window, which raises the value of documenting heritage now and handling legacy with care rather than opportunism.",
         "what_brands_can_do": [
-          "Establish and publish a transparent policy on whether and how your AI tools are trained on user or partner-generated content.",
-          "Build opt-in frameworks for creator collaborations that explicitly protect intellectual property and credit originators.",
-          "Vet AI vendors for their data sourcing practices before signing contracts, and make that vetting part of your public supplier standards."
+          "Capture heritage stories while the people who made them are still here.",
+          "Handle legacy moments with genuine care, never as a sales hook.",
+          "Design experiences that pass a story from one generation to the next."
         ]
       },
       {
-        "trend": "Nostalgia Franchise Fatigue Hits Peak",
+        "trend": "Nostalgia Fatigue Sets In",
         "category": "film",
-        "what_is_happening": "Horror sequels, reunion series and reboots are arriving in volume, but critical reception and audience engagement data suggest that familiarity alone is no longer enough to sustain commercial or cultural momentum. Viewers are increasingly distinguishing between revivals that add something genuinely new and those that simply repeat a formula wearing the costume of nostalgia.",
-        "why_it_matters_for_brands": "Heritage assets and legacy IP remain powerful, but brands that rely on recognition without offering a fresh angle or meaningful recontextualisation risk accelerating the very fatigue they are trying to capitalise on.",
+        "what_is_happening": "Horror franchises and reunion series are repeating winning formulas, but critical reception suggests audiences and critics now want more than automatic nostalgia. The pattern of casts playing themselves and a sixth chapter of the same saga is running into saturation.",
+        "why_it_matters_for_brands": "Nostalgia marketing without a fresh idea is losing its pull, so brands leaning on heritage alone risk reading as tired rather than beloved.",
         "what_brands_can_do": [
-          "Test any heritage activation against a simple question: does this give audiences something they cannot get from the original, or does it only remind them of it?",
-          "Commission creative talent with a distinct point of view to lead IP revivals rather than assigning them to teams optimised purely for franchise continuity.",
-          "Use anniversary moments as a starting point for reinterpretation, not just commemoration, by pairing archive material with contemporary voices or contexts."
+          "Give any nostalgia play a genuinely new angle, not just the familiar reference.",
+          "Subvert or update a heritage format rather than replay it straight.",
+          "Test whether a nostalgic idea still adds meaning, or only recognition."
         ]
       }
     ]
