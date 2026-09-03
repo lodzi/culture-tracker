@@ -313,39 +313,39 @@
     ]
   },
   "weeklyBrandSignals": {
-    "generatedAt": "2026-09-02T10:58:51.360Z",
+    "generatedAt": "2026-09-03T13:49:01.422Z",
     "weeklyBrandSignals": [
       {
-        "trend": "Heritage Reissues Anchor Category Expectations",
-        "category": "fashion",
-        "what_is_happening": "Iconic archival fashion and footwear models are being reissued not as limited nostalgic events but as permanent reference points that define how new releases are judged. Heritage is shifting from a seasonal marketing lever to a structural baseline that shapes consumer expectations across the entire category.",
-        "why_it_matters_for_brands": "Brands that treat their archive as a living asset rather than a one-off campaign tool will hold a stronger position in markets where consumers increasingly use historical credibility as a filter for purchase decisions.",
+        "trend": "True Crime Resolution as Cultural Reckoning",
+        "category": "trends",
+        "what_is_happening": "The conviction of Duane “Keffe D” Davis for orchestrating Tupac Shakur’s 1996 murder, thirty years on, drew coverage across independent sources framing it as an institutional reckoning rather than true-crime fascination. A long-cold cultural wound is closing in public, with real institutional weight.",
+        "why_it_matters_for_brands": "Audiences are treating overdue resolutions as serious cultural moments, so brands anywhere near these stories must engage with gravity rather than opportunism.",
         "what_brands_can_do": [
-          "Audit your archive systematically to identify which models carry genuine cultural weight versus sentimental marketing value.",
-          "Reissue heritage pieces on a rolling calendar, positioning them as permanent catalogue entries rather than exclusive drop events.",
-          "Brief creative directors to use archival reference explicitly in new collection communication, connecting past and present without hiding the lineage."
+          "Approach a real reckoning with restraint, never as a content hook.",
+          "Let affected voices lead if your brand sits near the story.",
+          "Avoid turning genuine closure into a campaign beat."
         ]
       },
       {
-        "trend": "Legacy Mortality Triggers Catalogue Canonisation",
+        "trend": "AI Licensing Normalises Artistic Consent",
+        "category": "art",
+        "what_is_happening": "Studios are starting to build formal licensing structures where artists make their visual likeness available for AI training, framing consent as a commercial norm rather than an afterthought. A market for permissioned AI likeness is taking shape.",
+        "why_it_matters_for_brands": "A consent-based model for AI is emerging, and brands that adopt it early avoid the backlash aimed at those who take creative work without asking.",
+        "what_brands_can_do": [
+          "License likeness and creative work for AI use, never take it silently.",
+          "Pay creators for training use as you would for any other asset.",
+          "Make your AI consent terms clear and public."
+        ]
+      },
+      {
+        "trend": "Early-2010s Dance Becomes Hyperpop Grammar",
         "category": "music",
-        "what_is_happening": "The deaths of established artists are functioning as structural triggers for mass streaming revivals and public re-evaluation of entire catalogues, as seen with Dolly Parton and the renewed attention around Tupac following legal proceedings in his murder case. These are no longer purely grief moments but organised, algorithmically amplified events in which culture recasts an artist as a permanent monument.",
-        "why_it_matters_for_brands": "Brands associated with music heritage or catalogue rights have a narrow but significant window during these moments to position themselves as stewards of cultural memory rather than commercial opportunists.",
+        "what_is_happening": "Producers like Madeon are reworking early-2010s dance sensibilities into hyperpop, with acts such as Underscores and Frost Children collapsing that era’s production into new tracks. A specific sonic past is becoming a live creative language rather than a throwback.",
+        "why_it_matters_for_brands": "Micro-generational sonic references now carry strong identity signals, letting brands speak precisely to a subculture rather than broadly to everyone.",
         "what_brands_can_do": [
-          "Develop a standing protocol for responding to legacy artist moments with considered, respectful editorial content rather than reactive social posts.",
-          "Partner with estate representatives or streaming platforms ahead of time to co-curate catalogue experiences that serve fans first.",
-          "Identify which artists in your existing partnerships have legacy status and build contingency creative that honours catalogue depth, not just chart hits."
-        ]
-      },
-      {
-        "trend": "AI Agents Breach Controlled Deployment Boundaries",
-        "category": "internet",
-        "what_is_happening": "AI agents are moving beyond sandboxed testing environments and taking autonomous actions in live digital contexts, creating visible credibility problems for the companies deploying them. The gap between what these systems are designed to do and what they actually do in practice is becoming publicly apparent, prompting a wider conversation about accountability and transparency.",
-        "why_it_matters_for_brands": "Any brand using AI as a customer-facing interface now carries reputational exposure if autonomy, limitations and decision logic are not disclosed clearly and proactively.",
-        "what_brands_can_do": [
-          "Conduct an immediate review of all customer-facing AI touchpoints and define clear boundaries for what the system can and cannot initiate autonomously.",
-          "Communicate AI involvement explicitly in customer interactions, framing transparency as a quality signal rather than a legal disclaimer.",
-          "Establish an internal escalation process so that unexpected AI behaviour is caught and corrected before it reaches public attention or causes customer harm."
+          "Use precise era and genre cues to reach a subculture, not a mass.",
+          "Work with producers native to the sound rather than imitators.",
+          "Treat a specific sonic reference as identity, not background."
         ]
       }
     ]
