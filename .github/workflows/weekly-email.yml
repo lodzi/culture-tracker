@@ -1,16 +1,42 @@
 name: Weekly brand signals email
 
+# Betrouwbaar rond 10:30 Brussel (DST-proof via de guard). GitHub-cron is "best
+# effort" en slaat slots soms uren over, daarom staan er meerdere triggers vanaf
+# ~10:30 lokaal. De guard (scripts/should-send-weekly.js) laat alleen de EERSTE
+# run op of na 10:30 Brussel door en zet daarna een week-marker, zodat de mail
+# gegarandeerd maar 1x per week vertrekt. Handmatig starten kan altijd via
+# "Run workflow" (met optioneel 'force' om de marker te negeren).
+
 on:
   schedule:
-    # Vrijdag 06:00 UTC = 08:00 Brussel zomertijd (CEST)
-    - cron: "0 6 * * 5"
+    # UTC-tijden. Zomer (CEST=UTC+2): 08:30 UTC = 10:30 Brussel.
+    # Winter (CET=UTC+1): 09:30 UTC = 10:30 Brussel. De guard checkt lokale tijd.
+    - cron: "30 8 * * 5"
+    - cron: "45 8 * * 5"
+    - cron: "0 9 * * 5"
+    - cron: "30 9 * * 5"
+    - cron: "45 9 * * 5"
+    - cron: "0 10 * * 5"
+    - cron: "30 10 * * 5"
+    - cron: "0 11 * * 5"
+    - cron: "0 12 * * 5"
+    - cron: "0 13 * * 5"
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Force send even if already sent this week"
+        type: boolean
+        default: false
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: weekly-email
+  cancel-in-progress: false
 
 jobs:
   weekly-email:
@@ -30,7 +56,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Guard (10:30 Brussel, max 1x per week)
+        id: guard
+        env:
+          FORCE_SEND: ${{ github.event.inputs.force }}
+        run: node scripts/should-send-weekly.js
+
       - name: Send weekly brand signals email
+        if: steps.guard.outputs.proceed == 'true'
         env:
           MAILCHIMP_API_KEY:   ${{ secrets.MAILCHIMP_API_KEY }}
           MAILCHIMP_LIST_ID:   ${{ secrets.MAILCHIMP_LIST_ID }}
@@ -38,3 +71,18 @@ jobs:
           EMAIL_FROM_EMAIL:    ${{ secrets.EMAIL_FROM_EMAIL }}
           PUBLIC_URL:          ${{ secrets.PUBLIC_URL }}
         run: npm run weekly-email
+
+      - name: Mark as sent this week
+        if: steps.guard.outputs.proceed == 'true'
+        run: |
+          node scripts/mark-weekly-sent.js
+          git config user.name  "culture-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/.weekly-send-marker
+          git pull --rebase --autostash || true
+          if git diff --cached --quiet; then
+            echo "Geen wijziging aan marker."
+          else
+            git commit -m "chore(weekly): mark sent $(date -u +'%Y-%m-%d') [skip ci]"
+            git push
+          fi
