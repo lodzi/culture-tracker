@@ -220,99 +220,66 @@ function brandSignalCard(signal, index, branding) {
 // ─── Volledige HTML-mail ───────────────────────────────────────────────────────
 
 function buildHTML(brief) {
-  const branding  = loadBranding();
-  const publicUrl = process.env.PUBLIC_URL || "";
-  const signals   = (brief.weeklyBrandSignals && Array.isArray(brief.weeklyBrandSignals.weeklyBrandSignals))
-    ? brief.weeklyBrandSignals.weeklyBrandSignals
-    : [];
-
-  const week    = weekLabel();
-  const accent  = branding.accentColor    || "#111";
-  const bgPage  = branding.backgroundColor || "#fafaf7";
-  const cardBd  = branding.cardBorder     || "#e5e5e0";
-  const hFont   = branding.headingFont    || "Georgia,'Times New Roman',serif";
-  const bFont   = branding.bodyFont       || "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif";
-  const brand   = branding.brandName      || "Zeitfeed Weekly";
-  const tagline = branding.tagline        || "";
-  const footer  = branding.footerText     || "Wekelijkse synthese via Claude AI";
+  const branding   = loadBranding();
+  const signals    = (brief.weeklyBrandSignals && Array.isArray(brief.weeklyBrandSignals.weeklyBrandSignals))
+    ? brief.weeklyBrandSignals.weeklyBrandSignals : [];
+  const week       = weekLabel();
+  const brand      = branding.brandName || "Zeitfeed Weekly";
+  const logoUrl    = branding.logoUrl || "";
   const defiantUrl = branding.footerLinkUrl || "https://www.thisisdefiant.com";
+  const footerTxt  = branding.footerButton || "Defiant — Ignite The Culture";
+  const SERIF = "'Source Serif 4',Georgia,'Times New Roman',serif";
+  const SANS  = "'Helvetica Neue',Helvetica,Arial,sans-serif";
+  const RED   = "#fc000d";
 
-  // ── Logo of merknaam ──────────────────────────────────────────────────────
-  const logoBlock = branding.logoUrl
-    ? `<img src="${esc(branding.logoUrl)}" width="${esc(branding.logoWidth)}" alt="${esc(branding.logoAlt || brand)}"
-         style="display:block;max-width:${esc(branding.logoWidth)}px;height:auto;">`
-    : `<h1 style="font-family:${hFont};font-size:26px;margin:0;
-         letter-spacing:-0.02em;color:${accent};line-height:1.2;">${esc(brand)}</h1>`;
+  const head = ''
+    + '<!doctype html>\n<html lang="en" xmlns="http://www.w3.org/1999/xhtml">\n<head>\n'
+    + '<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+    + '<meta http-equiv="X-UA-Compatible" content="IE=edge">\n<meta name="x-apple-disable-message-reformatting">\n'
+    + '<title>' + esc(brand) + '</title>\n'
+    + '<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">\n'
+    + '<style>\nbody{margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}\n'
+    + 'table{border-collapse:collapse;}\nimg{border:0;outline:none;text-decoration:none;}\na{text-decoration:none;}\n'
+    + '@media only screen and (max-width:480px){h2{font-size:25px !important;}.c{padding-bottom:44px !important;padding-right:22px !important;}}\n'
+    + '</style>\n</head>\n<body style="margin:0;padding:0;background:#fafaf7;" bgcolor="#fafaf7">\n'
+    + '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fafaf7" style="background:#fafaf7;">\n'
+    + '<tr><td align="center" style="padding:0 0 0 0;">\n'
+    + '<!--[if mso]><table role="presentation" width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->\n'
+    + '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;">\n'
+    + '<tr><td colspan="2" style="padding:30px 28px 0 12px;">'
+    + (logoUrl ? '<img src="'+esc(logoUrl)+'" width="400" alt="'+esc(brand)+'" style="display:block;width:400px;max-width:100%;height:auto;">'
+               : '<span style="font-family:'+SERIF+';font-size:26px;font-weight:700;color:#111111;">'+esc(brand)+'</span>')
+    + '</td></tr>\n'
+    + '<tr><td colspan="2" style="padding:26px 28px 46px 28px;">\n'
+    + '  <p style="margin:0;font-family:'+SERIF+';font-size:21px;line-height:1.5;color:#111111;">Three trends from different cultural domains, each with concrete actions for marketers and brand builders.</p>\n'
+    + '  <p style="margin:10px 0 0;font-family:'+SANS+';font-size:13px;line-height:1.5;color:#6b6b66;">Zeitfeed Weekly, a free service from Defiant.</p>\n'
+    + '</td></tr>\n';
 
-  // Fallback: geen brand signals beschikbaar
-  if (signals.length === 0) {
-    return `<!doctype html><html lang="en"><head><meta charset="utf-8"></head>
-<body style="font-family:${bFont};padding:40px;color:${accent};">
-<h1>${esc(brand)}</h1>
-<p>No weekly brand signals available yet. Run <code>ai-synthesize.js</code> first so the weekly synthesis is ready.</p>
-${publicUrl ? `<p><a href="${esc(publicUrl)}">View the full tracker online →</a></p>` : ""}
-</body></html>`;
+  function block(s){
+    const actions = (s.what_brands_can_do||[]).map(function(a){
+      return '<tr><td valign="top" width="18" style="padding:9px 0 0;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="7" height="7" bgcolor="'+RED+'" style="width:7px;height:7px;background:'+RED+';font-size:0;line-height:0;">&nbsp;</td></tr></table></td>\n'
+        + '<td style="padding:0 0 8px;font-family:'+SERIF+';font-size:16px;line-height:1.55;color:#111111;">'+esc(a)+'</td></tr>';
+    }).join('');
+    return '<tr><td style="padding:0 0 0 14px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top" class="c" style="border-left:2px solid '+RED+';padding:0 28px 54px 22px;"><!--[if !mso]><!--><div style="width:14px;height:14px;background:'+RED+';border-radius:50%;margin:4px 0 -18px -30px;font-size:0;line-height:0;">&nbsp;</div><!--<![endif]--><p style="margin:0;padding-top:2px;font-family:'+SANS+';font-size:13px;line-height:1.4;font-weight:700;color:#999999;">'+esc(s.category||'')+'</p>\n'
+      + '  <h2 style="margin:8px 0 16px;font-family:'+SERIF+';font-size:29px;line-height:1.16;font-weight:700;letter-spacing:-0.012em;color:#111111;">'+esc(s.trend||'')+'</h2>\n'
+      + '  <p style="margin:0;font-family:'+SERIF+';font-size:17px;line-height:1.66;color:#26262a;">'+esc(s.what_is_happening||'')+'</p>\n'
+      + '  <p style="margin:24px 0 0;font-family:'+SANS+';font-size:13px;line-height:1.4;font-weight:700;color:'+RED+';">Why it matters for brands</p>\n'
+      + '  <p style="margin:6px 0 0;font-family:'+SERIF+';font-size:17px;line-height:1.6;font-style:italic;color:#111111;">'+esc(s.why_it_matters_for_brands||'')+'</p>\n'
+      + '  <p style="margin:24px 0 10px;font-family:'+SANS+';font-size:13px;line-height:1.4;font-weight:700;color:#111111;">What brands can do</p>\n'
+      + '  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">'+actions+'</table></td></tr></table></td></tr>';
   }
 
-  const cards = signals.map(function (s, i) { return brandSignalCard(s, i, branding); }).join("\n");
+  const bodyBlocks = signals.map(block).join('\n');
+  const footer = '<tr><td style="padding:0 0 0 14px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top" class="c" style="padding:0 28px 60px 24px;"><!--[if !mso]><!--><div style="width:18px;height:18px;background:'+RED+';border-radius:50%;margin:4px 0 -22px -32px;font-size:0;line-height:0;">&nbsp;</div><!--<![endif]--><p style="margin:0 0 16px;padding-top:4px;font-family:'+SANS+';font-size:12px;line-height:1.6;color:#8a8a84;">This is '+esc(brand)+' from '+esc(week)+'</p>\n'
+    + '  <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td bgcolor="'+RED+'" style="background:'+RED+';padding:15px 24px;"><a href="'+esc(defiantUrl)+'" style="font-family:'+SANS+';font-size:15px;line-height:1.3;font-weight:700;color:#ffffff;text-decoration:none;">'+esc(footerTxt)+'</a></td></tr></table></td></tr></table></td></tr>';
+  const tail = '\n</table>\n<!--[if mso]></td></tr></table><![endif]-->\n</td></tr>\n</table>\n</body>\n</html>';
 
-  return [
-    `<!doctype html>`,
-    `<html lang="en"><head>`,
-    `<meta charset="utf-8">`,
-    `<meta name="viewport" content="width=device-width,initial-scale=1">`,
-    `<title>${esc(brand)}</title>`,
-    `</head>`,
-    `<body style="margin:0;padding:0;background:${bgPage};`,
-    `font-family:${bFont};`,
-    `color:${accent};-webkit-font-smoothing:antialiased;">`,
-    `<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"`,
-    `  style="background:${bgPage};">`,
-    `<tr><td align="center" style="padding:28px 12px 56px;">`,
-    `<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"`,
-    `  style="max-width:600px;">`,
-
-    // Header — alleen het logo
-    `<tr><td style="padding:0 0 20px;">`,
-    `  ${logoBlock}`,
-    `</td></tr>`,
-
-    // Intro — volledige breedte, zwarte achtergrond, witte tekst
-    `<tr><td style="padding:0 0 24px;">`,
-    `  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"`,
-    `    style="background:${accent};border-radius:8px;">`,
-    `  <tr><td style="padding:24px 28px;">`,
-    `    <p style="margin:0;font-size:15px;color:#ffffff;line-height:1.65;">`,
-    `      Three trends from different cultural domains, each with concrete actions for marketers and brand builders. Zeitfeed Weekly, a free service from Defiant.`,
-    `    </p>`,
-    `  </td></tr>`,
-    `  </table>`,
-    `</td></tr>`,
-
-    // Signal cards
-    `<tr><td>${cards}</td></tr>`,
-
-    // Footer
-    `<tr><td style="padding:24px 0 0;border-top:1px solid ${cardBd};">`,
-    `  <p style="margin:0;font-size:11px;color:#9a9a94;line-height:1.6;">This is ${esc(brand)} from ${esc(week)}</p>`,
-    `</td></tr>`,
-
-    // Red sign-off block — centered white text
-    `<tr><td style="padding:16px 0 0;">`,
-    `  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"`,
-    `    style="background:#fc000d;border-radius:8px;">`,
-    `  <tr><td align="center" style="padding:16px 20px;">`,
-    `    <p style="margin:0;font-size:13px;font-weight:700;letter-spacing:0.04em;color:#ffffff;line-height:1.5;">`,
-    `      <a href="${esc(defiantUrl)}" style="color:#ffffff;text-decoration:none;">Defiant &mdash; Ignite The Culture</a>`,
-    `    </p>`,
-    `  </td></tr>`,
-    `  </table>`,
-    `</td></tr>`,
-
-    `</table></td></tr></table>`,
-    `</body></html>`,
-  ].filter(Boolean).join("\n");
+  if (signals.length === 0) {
+    return head + '<tr><td colspan="2" style="padding:0 28px 54px 28px;font-family:'+SERIF+';font-size:17px;color:#111111;">No weekly brand signals available yet. Run ai-synthesize.js first.</td></tr>' + footer + tail;
+  }
+  return head + bodyBlocks + '\n' + footer + tail;
 }
+
 
 // ─── Plain-text fallback ──────────────────────────────────────────────────────
 
