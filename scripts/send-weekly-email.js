@@ -230,7 +230,6 @@ function buildHTML(brief) {
   const footerTxt  = branding.footerButton || "Defiant — Ignite The Culture";
   const SERIF = "'Source Serif 4',Georgia,'Times New Roman',serif";
   const SANS  = "'Helvetica Neue',Helvetica,Arial,sans-serif";
-  const RED   = "#fc000d";
 
   const head = ''
     + '<!doctype html>\n<html lang="en" xmlns="http://www.w3.org/1999/xhtml">\n<head>\n'
@@ -255,23 +254,23 @@ function buildHTML(brief) {
     + '  <p style="margin:10px 0 0;font-family:'+SANS+';font-size:13px;line-height:1.5;color:#6b6b66;">Zeitfeed Weekly, a free service from Defiant.</p>\n'
     + '</td></tr>\n';
 
-  function block(s){
+  function block(s, first){
+    const spacer = first ? '<tr><td height="4" style="height:4px;font-size:0;line-height:0;">&nbsp;</td></tr>' : '';
     const actions = (s.what_brands_can_do||[]).map(function(a){
-      return '<tr><td valign="top" width="18" style="padding:9px 0 0;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="7" height="7" bgcolor="'+RED+'" style="width:7px;height:7px;background:'+RED+';font-size:0;line-height:0;">&nbsp;</td></tr></table></td>\n'
-        + '<td style="padding:0 0 8px;font-family:'+SERIF+';font-size:16px;line-height:1.55;color:#111111;">'+esc(a)+'</td></tr>';
+      return `<tr><td valign="top" width="18" style="padding:9px 0 0;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="7" height="7" bgcolor="#fc000d" style="width:7px;height:7px;background:#fc000d;margin-top:9px;font-size:0;line-height:0;">&nbsp;</td></tr></table></td>\n<td style="padding:0 0 8px;font-family:${SERIF};font-size:16px;line-height:1.55;color:#111111;">${esc(a)}</td></tr>`;
     }).join('');
-    return '<tr><td style="padding:0 0 0 14px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top" class="c" style="border-left:2px solid '+RED+';padding:0 28px 54px 22px;"><!--[if !mso]><!--><div style="width:14px;height:14px;background:'+RED+';border-radius:50%;margin:4px 0 -18px -30px;font-size:0;line-height:0;">&nbsp;</div><!--<![endif]--><p style="margin:0;padding-top:2px;font-family:'+SANS+';font-size:13px;line-height:1.4;font-weight:700;color:#999999;">'+esc(s.category||'')+'</p>\n'
-      + '  <h2 style="margin:8px 0 16px;font-family:'+SERIF+';font-size:29px;line-height:1.16;font-weight:700;letter-spacing:-0.012em;color:#111111;">'+esc(s.trend||'')+'</h2>\n'
-      + '  <p style="margin:0;font-family:'+SERIF+';font-size:17px;line-height:1.66;color:#26262a;">'+esc(s.what_is_happening||'')+'</p>\n'
-      + '  <p style="margin:24px 0 0;font-family:'+SANS+';font-size:13px;line-height:1.4;font-weight:700;color:'+RED+';">Why it matters for brands</p>\n'
-      + '  <p style="margin:6px 0 0;font-family:'+SERIF+';font-size:17px;line-height:1.6;font-style:italic;color:#111111;">'+esc(s.why_it_matters_for_brands||'')+'</p>\n'
-      + '  <p style="margin:24px 0 10px;font-family:'+SANS+';font-size:13px;line-height:1.4;font-weight:700;color:#111111;">What brands can do</p>\n'
-      + '  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">'+actions+'</table></td></tr></table></td></tr>';
+    return `<tr><td style="padding:0 0 0 14px;"><!--[if !mso]><!--><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">${spacer}<tr><td valign="top" class="c" style="border-left:2px solid #fc000d;padding:0 28px 54px 22px;"><!--<![endif]--><!--[if !mso]><!--><div style="width:14px;height:14px;background:#fc000d;border-radius:50%;margin:4px 0 -18px -30px;font-size:0;line-height:0;">&nbsp;</div><!--<![endif]--><!--[if mso]><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td colspan="3" width="14" valign="top" style="width:14px;height:14px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="14" height="14" bgcolor="#fc000d" style="width:14px;height:14px;background:#fc000d;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td></tr></table></td><td valign="top" style="padding:0 28px 0 10px;"><![endif]--><p style="margin:0;padding-top:2px;font-family:${SANS};font-size:13px;line-height:1.4;font-weight:700;color:#999999;">${esc(s.category||'')}</p><!--[if mso]></td></tr><tr><td width="6" style="width:6px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td width="2" bgcolor="#fc000d" style="width:2px;background:#fc000d;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td width="6" style="width:6px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td valign="top" style="padding:0 28px 54px 10px;"><![endif]--><h2 style="margin:8px 0 16px;font-family:${SERIF};font-size:29px;line-height:1.16;font-weight:700;letter-spacing:-0.012em;color:#111111;">${esc(s.trend||'')}</h2>
+  <p style="margin:0;font-family:${SERIF};font-size:17px;line-height:1.66;color:#26262a;">${esc(s.what_is_happening||'')}</p>
+  <p style="margin:24px 0 0;font-family:${SANS};font-size:13px;line-height:1.4;font-weight:700;color:#fc000d;">Why it matters for brands</p>
+  <p style="margin:6px 0 0;font-family:${SERIF};font-size:17px;line-height:1.6;font-style:italic;color:#111111;">${esc(s.why_it_matters_for_brands||'')}</p>
+  <p style="margin:24px 0 10px;font-family:${SANS};font-size:13px;line-height:1.4;font-weight:700;color:#111111;">What brands can do</p>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">${actions}</table><!--[if !mso]><!--></td></tr></table><!--<![endif]--><!--[if mso]></td></tr></table><![endif]--></td></tr>`;
   }
 
-  const bodyBlocks = signals.map(block).join('\n');
-  const footer = '<tr><td style="padding:0 0 0 14px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top" class="c" style="padding:0 28px 60px 24px;"><!--[if !mso]><!--><div style="width:18px;height:18px;background:'+RED+';border-radius:50%;margin:4px 0 -22px -32px;font-size:0;line-height:0;">&nbsp;</div><!--<![endif]--><p style="margin:0 0 16px;padding-top:4px;font-family:'+SANS+';font-size:12px;line-height:1.6;color:#8a8a84;">This is '+esc(brand)+' from '+esc(week)+'</p>\n'
-    + '  <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td bgcolor="'+RED+'" style="background:'+RED+';padding:15px 24px;"><a href="'+esc(defiantUrl)+'" style="font-family:'+SANS+';font-size:15px;line-height:1.3;font-weight:700;color:#ffffff;text-decoration:none;">'+esc(footerTxt)+'</a></td></tr></table></td></tr></table></td></tr>';
+  const bodyBlocks = signals.map(function(s,i){ return block(s, i===0); }).join('\n');
+
+  const footer = `<tr><td style="padding:0 0 0 14px;"><!--[if !mso]><!--><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top" class="c" style="padding:0 28px 60px 24px;"><!--<![endif]--><!--[if !mso]><!--><div style="width:18px;height:18px;background:#fc000d;border-radius:50%;margin:4px 0 -22px -32px;font-size:0;line-height:0;">&nbsp;</div><!--<![endif]--><!--[if mso]><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td colspan="3" width="18" valign="top" style="width:18px;height:18px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="18" height="18" bgcolor="#fc000d" style="width:18px;height:18px;background:#fc000d;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td></tr></table></td><td valign="top" style="padding:0 28px 0 6px;"><![endif]--><p style="margin:0 0 16px;padding-top:4px;font-family:${SANS};font-size:12px;line-height:1.6;color:#8a8a84;">This is ${esc(brand)} from ${esc(week)}</p><!--[if mso]></td></tr><tr><td width="8" style="width:8px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td width="2" style="width:2px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td width="8" style="width:8px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td valign="top" style="padding:0 28px 60px 6px;"><![endif]--><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td bgcolor="#fc000d" style="background:#fc000d;padding:15px 24px;"><a href="${esc(defiantUrl)}" style="font-family:${SANS};font-size:15px;line-height:1.3;font-weight:700;color:#ffffff;text-decoration:none;">${esc(footerTxt)}</a></td></tr></table><!--[if !mso]><!--></td></tr></table><!--<![endif]--><!--[if mso]></td></tr></table><![endif]--></td></tr>`;
+
   const tail = '\n</table>\n<!--[if mso]></td></tr></table><![endif]-->\n</td></tr>\n</table>\n</body>\n</html>';
 
   if (signals.length === 0) {
