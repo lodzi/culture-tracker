@@ -1,149 +1,173 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-10T12:11:18.920Z",
-    "intro": "2 categorieën · 3 trends · laatste 24u",
+    "generatedAt": "2026-10-11T12:25:25.681Z",
+    "intro": "2 categorieën · 4 trends · laatste 24u",
     "categories": [
       {
-        "id": "art",
-        "label": "Art & Design",
+        "id": "music",
+        "label": "Muziek",
         "insights": [
           {
-            "trend": "Regionale muziekfestivals als career-launch ecosystemen",
-            "summary": "Festivals zoals Other Voices (Ierland) en Straight-Up! fungeren als ontdekkingsplatforms met track record van het lanceren van carrières (Fontaines D.C., CMAT). Ze trekken sponsorships en creëren community-focus in plaats van alleen entertainment.",
-            "why_it_matters": "Toont dat indie/regional discovery nog steeds meer credibiliteit geeft dan streaming algorithms. Cultuurstrategen moeten lokale festival-partnerships zien als alternatieve legitimatie-kanalen.",
-            "strategic_signal": "Merken zoeken naar 'grassroots credibility': sponsor kleinere, regionale festivals in plaats van mega-events; dit genereert authenticity die mainstream festivals niet kunnen garanderen.",
-            "trajectory": "piekend",
+            "trend": "Safety-First Mosh Pits als Gendergeweld-Respons",
+            "summary": "Live-muziekruimtes experimenteren actief met veiligheidsprotocollen (vrouwen-only mosh pits) als directe reactie op seksueel geweld op festivals en concerten. Artiesten zoals Frank Carter van Sex Pistols modereren deze ruimtes en ejecteren mannen die regels schenden, wat leidt tot publieke debatten over inclusiviteit.",
+            "why_it_matters": "Dit signaleert een fundamentele herziening van hoe live-cultuur veiligheid en eigenaarschap van lichamelijke ruimte behandelt, een shift van passieve toeschouwer naar actieve venue-governance.",
+            "strategic_signal": "Merken kunnen sponsorships van festivals herpositioneren als 'safety-first' experiences met expliciete consent frameworks; dit wordt een differentiator voor millennial/Gen-Z-evenementen.",
+            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Adweek",
-              "Dezeen",
-              "IndieWire",
-              "i-D"
+              "Consequence",
+              "Deadline",
+              "NME",
+              "Wired"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Fall Festival Movies Sold So Far: Venice Orizzonti Prize Winner ‘A Day in the Life of Jo: Chapter Phaedra’ Lands at 1-2 Special",
-                "url": "https://www.indiewire.com/news/festivals/fall-festival-movies-sold-so-far-babies-ink-elsinore-1235213179/",
-                "source": "IndieWire",
-                "published": "2026-10-09T16:39:30.000Z"
+                "title": "Inside the Muslim Manosphere Policing Women Online",
+                "url": "https://www.wired.com/story/inside-the-muslim-manosphere-policing-women-online/",
+                "source": "Wired",
+                "published": "2026-10-11T10:30:00.000Z"
               },
               {
-                "title": "Jupiter Festival Lined up Splashy Sponsors but Had a Soft Landing In Its First Year",
-                "url": "https://www.adweek.com/media/jupiter-festival-lined-up-splashy-sponsors-but-had-a-soft-landing-in-its-first-year/",
-                "source": "Adweek",
-                "published": "2026-10-09T18:29:25.000Z"
+                "title": "Ann Hui, Busan Camellia Award Recipient, Talks Learning From Women Bosses & Hong Kong New Generation",
+                "url": "https://deadline.com/2026/10/ann-hui-busan-camellia-award-hong-kong-new-generation-1237150754/",
+                "source": "Deadline",
+                "published": "2026-10-11T07:40:38.000Z"
               },
               {
-                "title": "Community workshop and studio spaces among projects on display at Festival of the Future",
-                "url": "https://www.dezeen.com/2026/10/09/community-workshop-studio-spaces-festival-of-the-future-schoolshows/",
-                "source": "Dezeen",
-                "published": "2026-10-09T15:00:43.000Z"
+                "title": "Frank Carter ejects man from Sex Pistols gig after women-only mosh pit row: “It’s not your lived experience, so just shut the fuck up!”",
+                "url": "https://www.nme.com/news/music/frank-carter-ejects-man-sex-pistols-women-only-mosh-pit-row-3972877?utm_source=rss&utm_medium=rss&utm_campaign=frank-carter-ejects-man-sex-pistols-women-only-mosh-pit-row",
+                "source": "NME",
+                "published": "2026-10-11T07:32:33.000Z"
               },
               {
-                "title": "Ireland’s Revolutionary Music Festival, Straight-Up!",
-                "url": "https://i-d.co/article/other-voices-derry-2026-festival-photographs/",
-                "source": "i-D",
-                "published": "2026-10-09T13:59:36.000Z"
+                "title": "Sex Pistols Berate Dude for Infiltrating Women-Only Mosh Pit [Updated]",
+                "url": "https://consequence.net/2026/10/sex-pistols-berate-dude-for-infiltrating-women-only-mosh-pit/",
+                "source": "Consequence",
+                "published": "2026-10-10T20:15:19.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Muzikale Reputatie-Schade als Real-Time Brand-Crisis",
+            "summary": "Artiestencarrières worden nu in dagen (niet weken) beschadigd door seksuele wangedrag-beschuldigingen; Geordie Greep (ex-Black Midi) annuleerde zijn tour binnen 24-48 uur na beschuldigingen op sociale media. De snelheid van reactie, tour-cancellaties als immediateresponse, toont dat muziekindustrie accountability niet kan vertragen.",
+            "why_it_matters": "Dit markeert het einde van 'wait-and-see' crisis-management in muziek; reputatie is nu hypervolatiel en direct gekoppeld aan artistieke output.",
+            "strategic_signal": "Merken die muzikanten sponsoren moeten real-time reputatie-monitoring implementeren; associaties kunnen zich nu in uren ontkoppelen, niet in crisismanagement-rondes.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "NME",
+              "Pitchfork News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Geordie Greep cancels five US shows following sexual misconduct allegation",
+                "url": "https://www.nme.com/news/music/geordie-greep-cancels-five-us-shows-sexual-misconduct-allegation-3972882?utm_source=rss&utm_medium=rss&utm_campaign=geordie-greep-cancels-five-us-shows-sexual-misconduct-allegation",
+                "source": "NME",
+                "published": "2026-10-11T08:27:57.000Z"
+              },
+              {
+                "title": "Geordie Greep Responds to Sexual Misconduct Allegation, Cancels Tour Dates",
+                "url": "https://www.billboard.com/music/music-news/geordie-greep-misconduct-allegation-cancels-tour-dates-1236358602/",
+                "source": "Billboard",
+                "published": "2026-10-10T20:04:35.000Z"
+              },
+              {
+                "title": "Geordie Greep Shows Cancelled Following Sexual Misconduct Allegations",
+                "url": "https://pitchfork.com/story/geordie-greep-shows-cancelled-following-sexual-misconduct-allegations/",
+                "source": "Pitchfork News",
+                "published": "2026-10-10T16:10:30.000Z"
               }
             ]
           }
         ]
       },
       {
-        "id": "internet",
-        "label": "Internet",
+        "id": "film",
+        "label": "Film & TV",
         "insights": [
           {
-            "trend": "Psychedelica als onderwerp in mainstream wetenschap",
-            "summary": "Psilocybine-onderzoek breekt door in mainstream media via wetenschappelijke studies over hersenverandering. Dit signaleert normalisering van psychedelica voorbij counterculture-narratief.",
-            "why_it_matters": "Toont hoe transgressive culturele onderwerpen mainstreamrespectabiliteit winnen via wetenschappelijke framing, relevant voor merkpositionering rond 'authentieke ontdekking' en mentale wellness.",
-            "strategic_signal": "Merken kunnen voorzichtig experimenteren met wellness-messaging rond altered consciousness zonder 'drugs' label, focus op neuroplasticiteit en meditatie als cultural bridge.",
+            "trend": "SNL als Live Meme-Machine voor Political Accountability",
+            "summary": "Saturday Night Live fungeert nu als real-time politieke responseerruimte waar actuele figuren (Pete Hegseth, politieke agenda's) direct worden geparody'd in sketch-format, compleet met live F-bomb-fails die viraal gaan. Shane Gillis' terugkeer markeert SNL als platform voor edge-humor over establishment-kritiek.",
+            "why_it_matters": "Dit toont dat traditionele broadcast-comedy nu direct de snelheid en irreverentie van internet-culture moet matchen om relevant te blijven; live TV is opnieuw politiek urgent.",
+            "strategic_signal": "Merken kunnen SNL-moments als cultural-commentary-windows gebruiken voor real-time social response; de show is niet langer apolitiek entertainment maar een political-meme-factory.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Adweek",
-              "GQ",
-              "The Hollywood Reporter",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL",
-              "Wired"
+              "Consequence",
+              "Deadline",
+              "The Hollywood Reporter"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-10-10T12:11:03.696Z"
+                "title": "Shane Gillis Drops F-Bomb In ‘SNL’ “Green Eggs & Ham” Sketch, Apologizes",
+                "url": "https://deadline.com/2026/10/shane-gillis-drops-f-bomb-snl-green-eggs-ham-sketch-1237154194/",
+                "source": "Deadline",
+                "published": "2026-10-11T04:09:59.000Z"
               },
               {
-                "title": "East of Eden (2026 miniseries)",
-                "url": "https://en.wikipedia.org/wiki/East_of_Eden_(2026_miniseries)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-10-10T12:11:03.696Z"
+                "title": "‘SNL’: Shane Gillis Shares “Gas Station Egg” Nickname From Joe Rogan, Pete Hegseth Celebrates USS Lincoln San Diego Homecoming",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/snl-pete-hegseth-lincoln-homecoming-san-diego-shane-gillis-1236727048/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-11T04:00:45.000Z"
               },
               {
-                "title": "East of Eden (miniserie uit 2026)",
-                "url": "https://nl.wikipedia.org/wiki/East_of_Eden_(miniserie_uit_2026)",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-10-10T12:11:03.661Z"
-              },
-              {
-                "title": "Best Lego Gifts for Brick Builders (2026): Smart Bricks, Video Games, and More",
-                "url": "https://www.wired.com/gallery/gifts-for-lego-lovers/",
-                "source": "Wired",
-                "published": "2026-10-10T11:30:00.000Z"
+                "title": "Shane Gillis Drops F-Bomb on SNL",
+                "url": "https://consequence.net/2026/10/shane-gillis-drops-f-bomb-on-snl/",
+                "source": "Consequence",
+                "published": "2026-10-11T04:28:55.000Z"
               }
             ]
           },
           {
-            "trend": "Audiovisuele elektronische muziek als geïntegreerde kunstmedium",
-            "summary": "Artiesten als Anyma integreren visuele installatie, technologie en elektronische muziek in één immersief ecosysteem in plaats van audio als zelfstandig medium. Dit gebeurt op internationale podia (Singapore debut).",
-            "why_it_matters": "Markeert verschuiving van festival/streaming als primaire distributie naar *totale sensorische ervaring* als USP, relevant voor brand activations die muziek als achtergrond gebruiken.",
-            "strategic_signal": "Voor merken: audiovisuele partnerships bieden hogere engagement dan audio-only; test 'immersive brand experiences via temporary installations' (trend van 2026-10-09), maar voeg elektronisch-artistieke coherentie toe.",
-            "trajectory": "piekend",
+            "trend": "AI-Native Studios Disrupting IP Pipelines op Busan",
+            "summary": "Aziatische film-producers erkennen nu dat kleine AI-native studios originele intellectuele eigendom kunnen genereren terwijl traditionele studios hun bestaande IP-voordeel behouden; Busan International Film Festival (2026) markeert dit als industriële shift. Netflix onthult dat AI in ~300 titels is gebruikt, maar benadrukt dat 'human touch' kritisch blijft.",
+            "why_it_matters": "Dit signaleert dat AI-productie geen ondersteunende tool meer is maar een eigenstandig creatief ecosysteem dat IP-creatie democratiseert, een bedreiging voor traditionele studio-gatekeeping.",
+            "strategic_signal": "Distributeurs moeten nu investeren in AI-native studio partnerships; de snelheid van originele IP-creatie zal traditionele greenlight-cycles dwingen te versnellen.",
+            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Ars Technica",
-              "Hypebeast",
-              "VRT NWS",
-              "Wired"
+              "The Hollywood Reporter",
+              "Variety"
             ],
-            "trending": true,
+            "trending": false,
             "articles": [
               {
-                "title": "How This Tiny Startup Built the World’s Safest Bike Helmet",
-                "url": "https://www.wired.com/story/how-this-tiny-startup-pikio-built-the-worlds-safest-bike-helmet/",
-                "source": "Wired",
-                "published": "2026-10-10T09:00:00.000Z"
+                "title": "AI-Native Studios Can Create Original IP While Traditional Studios Keep Their Edge, VFX Veteran Hong Jae Cheol Says at Busan",
+                "url": "https://variety.com/2026/film/markets-festivals/ai-native-studios-create-original-ip-vfx-veteran-busan-1236908092/",
+                "source": "Variety",
+                "published": "2026-10-11T10:33:16.000Z"
               },
               {
-                "title": "One with the world? A new look at brains transformed by psychedelics.",
-                "url": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
-                "source": "Ars Technica",
-                "published": "2026-10-10T11:15:35.000Z"
+                "title": "‘Squid Game’ Producer Reads Founding Declaration as Asian Independent Producers Form Cross-Border Alliance at Busan",
+                "url": "https://variety.com/2026/film/markets-festivals/squid-game-producer-asian-producers-alliance-busan-1236908051/",
+                "source": "Variety",
+                "published": "2026-10-11T08:57:44.000Z"
               },
               {
-                "title": "Radio 2-presentator David Van Ooteghem jureert op de Tiramisu World Cup: \"Ik heb geweldige creaties gezien\"",
-                "url": "https://vrtnws.be/p.bDy1Kxv5M",
-                "source": "VRT NWS",
-                "published": "2026-10-10T09:51:24.000Z"
+                "title": "Taiwan’s Sole Busan Competition Title ‘To Be Ordinary’ Marks Lee Yun Chan’s Return to Features After Two Decades",
+                "url": "https://variety.com/2026/film/festivals/busan-competition-to-be-ordinary-lee-yun-chan-comeback-1236908013/",
+                "source": "Variety",
+                "published": "2026-10-11T07:49:52.000Z"
               },
               {
-                "title": "Inside the World of Anyma: From ‘Genesys’ to ‘ÆDEN’ and His Singapore Debut",
-                "url": "https://hypebeast.com/2026/10/anyma-marquee-singapore-debut-interview",
-                "source": "Hypebeast",
-                "published": "2026-10-10T05:55:12.000Z"
+                "title": "Netflix Has Used AI on About 300 Titles, but “Human Touch Is Critical,” Exec Says in Busan",
+                "url": "https://www.hollywoodreporter.com/business/business-news/netflix-ai-300-titles-busan-film-fest-1236727138/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-11T05:12:50.000Z"
               }
             ]
           }
