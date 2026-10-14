@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-14",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-14T11:30:13.684Z",
+    "intro": "1 categorieën · 1 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Klassieke rockcanons worden film-narratieve ankers",
+            "summary": "Led Zeppelin's 'Stairway to Heaven' wordt gebruikt door Greta Gerwig als emotionele kern van de 'Narnia: The Magician's Nephew' trailer, waarbij de regisseur persoonlijk toestemming haalde bij Robert Plant en Jimmy Page. Dit signaleert een trend waarbij iconische rock-klassiekers niet alleen soundtrack zijn, maar narratieve en generationele bruggen in blockbuster cinema.",
+            "why_it_matters": "Dit toont hoe mainstream filmmakers rockcultuur inzetten als direct verbindend element met oudere doelgroepen, terwijl ze tegelijkertijd de legitimiteit van klassieke muziek in nieuwe storytelling-contexten verankeren.",
+            "strategic_signal": "Merken kunnen klassieke muziekrechten niet meer zien als nostalgische gimmicks, maar als strategische gatekeepers voor cross-generational brand narratives. Probeer partnerships met bestaande kunstenaars/rechtshoudersvrij te onderhandelen voor authentieke co-creation.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Consequence",
+              "Deadline",
+              "NME",
+              "Pitchfork News",
+              "Polygon",
+              "Stereogum"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Ben Frow To Leave Skydance’s UK Network 5 After 14 Years",
+                "url": "https://deadline.com/2026/10/ben-frow-leave-5-skydance-14-years-1237156504/",
+                "source": "Deadline",
+                "published": "2026-10-14T11:14:14.000Z"
+              },
+              {
+                "title": "‘Grand Theft Auto 6’ follow-up won’t take 8 years to make",
+                "url": "https://www.nme.com/news/gaming-news/grand-theft-auto-6-sequel-red-dead-redemption-la-noire-release-3973120?utm_source=rss&utm_medium=rss&utm_campaign=grand-theft-auto-6-sequel-red-dead-redemption-la-noire-release",
+                "source": "NME",
+                "published": "2026-10-14T11:12:46.000Z"
+              },
+              {
+                "title": "10 Years Ago, PlayStation Almost Changed Gaming Forever",
+                "url": "https://www.polygon.com/playstation-vr-10-year-retrospective/",
+                "source": "Polygon",
+                "published": "2026-10-14T11:01:15.000Z"
+              },
+              {
+                "title": "20 Years Ago, Lord of the Rings Paved the Way for New Zealand's Weirdest Zombie Movie",
+                "url": "https://www.polygon.com/the-lord-of-the-rings-black-sheep/",
+                "source": "Polygon",
+                "published": "2026-10-14T10:00:15.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-14T11:31:49.469Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Classic Rock as Cinematic Emotional Anchor",
+        "category": "music",
+        "what_is_happening": "Greta Gerwig personally secured rights from Robert Plant and Jimmy Page to use Led Zeppelin's 'Stairway to Heaven' as the emotional centrepiece of the Narnia: The Magician's Nephew trailer. This signals a broader move in blockbuster filmmaking where iconic rock classics are deployed not merely as soundtrack, but as deliberate bridges between generations and cultural memory.",
+        "why_it_matters_for_brands": "When a director of Gerwig's standing negotiates personally for a single song, it confirms that cultural legitimacy now carries more weight than licensing convenience, and brands should take note of how earned musical heritage commands audience trust in a way that original scoring rarely does.",
+        "what_brands_can_do": [
+          "Licence era-defining songs with genuine cultural weight rather than settling for cheaper, derivative alternatives.",
+          "Build campaigns around the story of why a specific track was chosen, making the selection itself part of the message.",
+          "Partner with legacy artists directly to co-create context, turning permission into a visible act of mutual respect."
+        ]
+      }
+    ]
+  }
+}
