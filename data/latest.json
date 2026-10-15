@@ -1,59 +1,133 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-14T11:30:13.684Z",
-    "intro": "1 categorieën · 1 trends · laatste 24u",
+    "generatedAt": "2026-10-15T11:07:49.973Z",
+    "intro": "2 categorieën · 3 trends · laatste 24u",
     "categories": [
       {
-        "id": "music",
-        "label": "Muziek",
+        "id": "art",
+        "label": "Art & Design",
         "insights": [
           {
-            "trend": "Klassieke rockcanons worden film-narratieve ankers",
-            "summary": "Led Zeppelin's 'Stairway to Heaven' wordt gebruikt door Greta Gerwig als emotionele kern van de 'Narnia: The Magician's Nephew' trailer, waarbij de regisseur persoonlijk toestemming haalde bij Robert Plant en Jimmy Page. Dit signaleert een trend waarbij iconische rock-klassiekers niet alleen soundtrack zijn, maar narratieve en generationele bruggen in blockbuster cinema.",
-            "why_it_matters": "Dit toont hoe mainstream filmmakers rockcultuur inzetten als direct verbindend element met oudere doelgroepen, terwijl ze tegelijkertijd de legitimiteit van klassieke muziek in nieuwe storytelling-contexten verankeren.",
-            "strategic_signal": "Merken kunnen klassieke muziekrechten niet meer zien als nostalgische gimmicks, maar als strategische gatekeepers voor cross-generational brand narratives. Probeer partnerships met bestaande kunstenaars/rechtshoudersvrij te onderhandelen voor authentieke co-creation.",
+            "trend": "Radical 1960s prefab-futurism as contemporary design nostalgia",
+            "summary": "Design Boom, Dezeen en Yanko Design documenteren groeiende marktinteresse in UFO-huizen en extreme architectuurobjecten uit de jaren 1960 (Suuronen's Futuro), met actuele verkopen en Design-Week-tentoonstellingen in Mexico City.",
+            "why_it_matters": "Dit is meer dan retro-fetishisme: het signaleert dat merken en consumenten naar utopische visionariteit van prefab-wonen als escape zoeken, tegen de achtergrond van huizenprijzen en klimaatcrisis.",
+            "strategic_signal": "Woon- en designmerken: onderzoek hoe 'retrofuturisme' als brand-narratief (niet alleen esthetiek) kan werken; positioneer duurzaamheid en innovatie via jaren-60-utopie-trope in plaats van tech-taal.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Consequence",
-              "Deadline",
-              "NME",
-              "Pitchfork News",
-              "Polygon",
-              "Stereogum"
+              "Design Boom",
+              "Dezeen",
+              "Variety",
+              "Yanko Design"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Ben Frow To Leave Skydance’s UK Network 5 After 14 Years",
-                "url": "https://deadline.com/2026/10/ben-frow-leave-5-skydance-14-years-1237156504/",
-                "source": "Deadline",
-                "published": "2026-10-14T11:14:14.000Z"
+                "title": "UFO-shaped futuro house brings radical 1960s vision of prefab living to the market",
+                "url": "https://www.designboom.com/architecture/ufo-shaped-futuro-house-radical-1960s-vision-prefab-living-market-matti-suuronen-sothebys-donaldson-california/",
+                "source": "Design Boom",
+                "published": "2026-10-15T07:45:03.000Z"
               },
               {
-                "title": "‘Grand Theft Auto 6’ follow-up won’t take 8 years to make",
-                "url": "https://www.nme.com/news/gaming-news/grand-theft-auto-6-sequel-red-dead-redemption-la-noire-release-3973120?utm_source=rss&utm_medium=rss&utm_campaign=grand-theft-auto-6-sequel-red-dead-redemption-la-noire-release",
-                "source": "NME",
-                "published": "2026-10-14T11:12:46.000Z"
+                "title": "Gersh Launches Victoria House, Expanding Into Scripted Films, True Crime and International Co-Productions (EXCLUSIVE)",
+                "url": "https://variety.com/2026/tv/global/gersh-victoria-house-launch-you-first-originals-1236909813/",
+                "source": "Variety",
+                "published": "2026-10-15T06:56:00.000Z"
               },
               {
-                "title": "10 Years Ago, PlayStation Almost Changed Gaming Forever",
-                "url": "https://www.polygon.com/playstation-vr-10-year-retrospective/",
-                "source": "Polygon",
-                "published": "2026-10-14T11:01:15.000Z"
+                "title": "Recycled-plastic plinths hold furniture at \"secret\" Barragán house in Mexico City",
+                "url": "https://www.dezeen.com/2026/10/14/design-week-mexico-2026-creative-immersions-casa-ortega/",
+                "source": "Dezeen",
+                "published": "2026-10-14T21:20:19.000Z"
               },
               {
-                "title": "20 Years Ago, Lord of the Rings Paved the Way for New Zealand's Weirdest Zombie Movie",
-                "url": "https://www.polygon.com/the-lord-of-the-rings-black-sheep/",
-                "source": "Polygon",
-                "published": "2026-10-14T10:00:15.000Z"
+                "title": "This Tiny Prague House Opens Like a Giant Wardrobe",
+                "url": "https://www.yankodesign.com/2026/10/14/this-tiny-prague-house-opens-like-a-giant-wardrobe/?utm_source=rss&utm_medium=rss&utm_campaign=this-tiny-prague-house-opens-like-a-giant-wardrobe",
+                "source": "Yanko Design",
+                "published": "2026-10-14T23:30:05.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
+          {
+            "trend": "AI-content crisis in children's media reshaping guardrails",
+            "summary": "Drie bronnen documenteren hoe lage-kwaliteit AI-gegenereerde content kinderenmedia domineert en regulators (8 Amerikaanse staten) OpenAI aansporen. Een nieuw platform (Maka) probeert dit op te lossen met child-development expertise.",
+            "why_it_matters": "Dit signaleert dat AI-gegenereerde content niet zomaar een technisch probleem is, maar een culturele crisis die ouders en beleidsmakers als reëel schadelijk ervaren. Dit zal merken dwingen tot transparantie en 'human-verified' content.",
+            "strategic_signal": "Brands die kinderencontent produceren of adverteren: zorg nu voor expliciete 'human-created' of 'expert-verified' labels voordat consumentenwantrouwen zich vastbijt; dit wordt de nieuwe trust-currency.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Fast Company",
+              "The Verge",
+              "Wired"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Kids’ Content Is Deeply Broken. A New Platform Wants to Fix It",
+                "url": "https://www.wired.com/story/maka-streaming-platform-for-kids-fighting-against-ai-slop/",
+                "source": "Wired",
+                "published": "2026-10-15T11:00:00.000Z"
+              },
+              {
+                "title": "Kids’ meals are having a ‘Freaky Friday’ moment",
+                "url": "https://www.fastcompany.com/91621893/kids-meal-freaky-friday-moment-happy-meals-mcdonalds-burger-king-wendys-toy-prize-burger-kpop-demon-hunter-we-know-it",
+                "source": "Fast Company",
+                "published": "2026-10-15T09:00:00.000Z"
+              },
+              {
+                "title": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+                "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+                "source": "The Verge",
+                "published": "2026-10-14T21:11:28.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "YouTube transparantie-labeling voor AI-gegenereerde muziek als norm-setter",
+            "summary": "Billboard, The Verge en Variety dekken YouTube's invoering van 'Made with AI'-labels op tracks die volledig gegenereerd of aangepast zijn. Dit gebeurt parallel met rechtszaken tegen OpenAI.",
+            "why_it_matters": "Platform-level transparantie wordt de nieuwe marktstandaard; dit voorkomt dat AI-gegenereerde content stillzwijgend mainstream wordt en legt het eigendom/origineel-kwestie bloot.",
+            "strategic_signal": "Muziek- en content-merken: verwacht dat 'AI-transparantie' binnen vier weken industrie-standaard wordt; positioneer transparantie nu als kwaliteitskenmerk, niet als stigma.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "YouTube’s Virtues, Industry Consolidation, Christie Brinkley and ‘Baywatch’: Trends and Themes From a Busy Mipcom",
+                "url": "https://variety.com/2026/tv/global/youtube-consolidation-christie-brinkley-baywatch-mipcom-1236912667/",
+                "source": "Variety",
+                "published": "2026-10-15T08:04:00.000Z"
+              },
+              {
+                "title": "Rauw Alejandro and Camilo’s ‘Tattoo (Remix)’ Enters YouTube’s Billion Views Club",
+                "url": "https://www.billboard.com/music/latin/rauw-alejandro-camilo-tattoo-remix-youtube-billion-views-1236361081/",
+                "source": "Billboard",
+                "published": "2026-10-15T03:53:43.000Z"
+              },
+              {
+                "title": "YouTube sticks new labels on AI-generated songs",
+                "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+                "source": "The Verge",
+                "published": "2026-10-14T18:22:56.000Z"
               }
             ]
           }

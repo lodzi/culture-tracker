@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-15",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-15T11:07:49.973Z",
+    "intro": "2 categorieën · 3 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "art",
+        "label": "Art & Design",
+        "insights": [
+          {
+            "trend": "Radical 1960s prefab-futurism as contemporary design nostalgia",
+            "summary": "Design Boom, Dezeen en Yanko Design documenteren groeiende marktinteresse in UFO-huizen en extreme architectuurobjecten uit de jaren 1960 (Suuronen's Futuro), met actuele verkopen en Design-Week-tentoonstellingen in Mexico City.",
+            "why_it_matters": "Dit is meer dan retro-fetishisme: het signaleert dat merken en consumenten naar utopische visionariteit van prefab-wonen als escape zoeken, tegen de achtergrond van huizenprijzen en klimaatcrisis.",
+            "strategic_signal": "Woon- en designmerken: onderzoek hoe 'retrofuturisme' als brand-narratief (niet alleen esthetiek) kan werken; positioneer duurzaamheid en innovatie via jaren-60-utopie-trope in plaats van tech-taal.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Design Boom",
+              "Dezeen",
+              "Variety",
+              "Yanko Design"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "UFO-shaped futuro house brings radical 1960s vision of prefab living to the market",
+                "url": "https://www.designboom.com/architecture/ufo-shaped-futuro-house-radical-1960s-vision-prefab-living-market-matti-suuronen-sothebys-donaldson-california/",
+                "source": "Design Boom",
+                "published": "2026-10-15T07:45:03.000Z"
+              },
+              {
+                "title": "Gersh Launches Victoria House, Expanding Into Scripted Films, True Crime and International Co-Productions (EXCLUSIVE)",
+                "url": "https://variety.com/2026/tv/global/gersh-victoria-house-launch-you-first-originals-1236909813/",
+                "source": "Variety",
+                "published": "2026-10-15T06:56:00.000Z"
+              },
+              {
+                "title": "Recycled-plastic plinths hold furniture at \"secret\" Barragán house in Mexico City",
+                "url": "https://www.dezeen.com/2026/10/14/design-week-mexico-2026-creative-immersions-casa-ortega/",
+                "source": "Dezeen",
+                "published": "2026-10-14T21:20:19.000Z"
+              },
+              {
+                "title": "This Tiny Prague House Opens Like a Giant Wardrobe",
+                "url": "https://www.yankodesign.com/2026/10/14/this-tiny-prague-house-opens-like-a-giant-wardrobe/?utm_source=rss&utm_medium=rss&utm_campaign=this-tiny-prague-house-opens-like-a-giant-wardrobe",
+                "source": "Yanko Design",
+                "published": "2026-10-14T23:30:05.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
+          {
+            "trend": "AI-content crisis in children's media reshaping guardrails",
+            "summary": "Drie bronnen documenteren hoe lage-kwaliteit AI-gegenereerde content kinderenmedia domineert en regulators (8 Amerikaanse staten) OpenAI aansporen. Een nieuw platform (Maka) probeert dit op te lossen met child-development expertise.",
+            "why_it_matters": "Dit signaleert dat AI-gegenereerde content niet zomaar een technisch probleem is, maar een culturele crisis die ouders en beleidsmakers als reëel schadelijk ervaren. Dit zal merken dwingen tot transparantie en 'human-verified' content.",
+            "strategic_signal": "Brands die kinderencontent produceren of adverteren: zorg nu voor expliciete 'human-created' of 'expert-verified' labels voordat consumentenwantrouwen zich vastbijt; dit wordt de nieuwe trust-currency.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Fast Company",
+              "The Verge",
+              "Wired"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Kids’ Content Is Deeply Broken. A New Platform Wants to Fix It",
+                "url": "https://www.wired.com/story/maka-streaming-platform-for-kids-fighting-against-ai-slop/",
+                "source": "Wired",
+                "published": "2026-10-15T11:00:00.000Z"
+              },
+              {
+                "title": "Kids’ meals are having a ‘Freaky Friday’ moment",
+                "url": "https://www.fastcompany.com/91621893/kids-meal-freaky-friday-moment-happy-meals-mcdonalds-burger-king-wendys-toy-prize-burger-kpop-demon-hunter-we-know-it",
+                "source": "Fast Company",
+                "published": "2026-10-15T09:00:00.000Z"
+              },
+              {
+                "title": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+                "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+                "source": "The Verge",
+                "published": "2026-10-14T21:11:28.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "YouTube transparantie-labeling voor AI-gegenereerde muziek als norm-setter",
+            "summary": "Billboard, The Verge en Variety dekken YouTube's invoering van 'Made with AI'-labels op tracks die volledig gegenereerd of aangepast zijn. Dit gebeurt parallel met rechtszaken tegen OpenAI.",
+            "why_it_matters": "Platform-level transparantie wordt de nieuwe marktstandaard; dit voorkomt dat AI-gegenereerde content stillzwijgend mainstream wordt en legt het eigendom/origineel-kwestie bloot.",
+            "strategic_signal": "Muziek- en content-merken: verwacht dat 'AI-transparantie' binnen vier weken industrie-standaard wordt; positioneer transparantie nu als kwaliteitskenmerk, niet als stigma.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "YouTube’s Virtues, Industry Consolidation, Christie Brinkley and ‘Baywatch’: Trends and Themes From a Busy Mipcom",
+                "url": "https://variety.com/2026/tv/global/youtube-consolidation-christie-brinkley-baywatch-mipcom-1236912667/",
+                "source": "Variety",
+                "published": "2026-10-15T08:04:00.000Z"
+              },
+              {
+                "title": "Rauw Alejandro and Camilo’s ‘Tattoo (Remix)’ Enters YouTube’s Billion Views Club",
+                "url": "https://www.billboard.com/music/latin/rauw-alejandro-camilo-tattoo-remix-youtube-billion-views-1236361081/",
+                "source": "Billboard",
+                "published": "2026-10-15T03:53:43.000Z"
+              },
+              {
+                "title": "YouTube sticks new labels on AI-generated songs",
+                "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+                "source": "The Verge",
+                "published": "2026-10-14T18:22:56.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-14T11:31:49.469Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Classic Rock as Cinematic Emotional Anchor",
+        "category": "music",
+        "what_is_happening": "Greta Gerwig personally secured rights from Robert Plant and Jimmy Page to use Led Zeppelin's 'Stairway to Heaven' as the emotional centrepiece of the Narnia: The Magician's Nephew trailer. This signals a broader move in blockbuster filmmaking where iconic rock classics are deployed not merely as soundtrack, but as deliberate bridges between generations and cultural memory.",
+        "why_it_matters_for_brands": "When a director of Gerwig's standing negotiates personally for a single song, it confirms that cultural legitimacy now carries more weight than licensing convenience, and brands should take note of how earned musical heritage commands audience trust in a way that original scoring rarely does.",
+        "what_brands_can_do": [
+          "Licence era-defining songs with genuine cultural weight rather than settling for cheaper, derivative alternatives.",
+          "Build campaigns around the story of why a specific track was chosen, making the selection itself part of the message.",
+          "Partner with legacy artists directly to co-create context, turning permission into a visible act of mutual respect."
+        ]
+      }
+    ]
+  }
+}
