@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-16",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-16T11:02:51.530Z",
+    "intro": "2 categorieën · 3 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "AI Authorship Crisis: Composers Defend Craft at Industry Panels",
+            "summary": "At Ghent's World Soundtrack Awards Film Music Days, composers (including Avatar: Fire and Ash's Simon Franglen) are openly protesting AI's encroachment on film scoring, framing it as an existential threat to musical authorship. This marks organized professional resistance, not just isolated commentary.",
+            "why_it_matters": "Composers are positioning themselves as craftspeople defending scarcity and embodied skill—expect this to evolve into institutional gatekeeping and certification schemes around 'human-composed' film scores.",
+            "strategic_signal": "Film and advertising brands should begin labeling human-composed scores explicitly in credits/marketing; 'AI-free composition' is becoming a credibility marker for premium content within 2-4 weeks.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Hypebeast",
+              "NME",
+              "Stereogum",
+              "Variety",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Imran Khan (film actor)",
+                "url": "https://en.wikipedia.org/wiki/Imran_Khan_(film_actor)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-16T11:02:32.588Z"
+              },
+              {
+                "title": "Neil Young: “‘Digger’ is the best film I have ever seen”",
+                "url": "https://www.nme.com/news/film/neil-young-digger-best-film-praise-tom-cruise-reviews-critics-3973332?utm_source=rss&utm_medium=rss&utm_campaign=neil-young-digger-best-film-praise-tom-cruise-reviews-critics",
+                "source": "NME",
+                "published": "2026-10-16T09:35:29.000Z"
+              },
+              {
+                "title": "Zendaya to Star in Alex Garland's Upcoming Sci-Fi Film at A24",
+                "url": "https://hypebeast.com/2026/10/a24-zendaya-star-alex-garland-upcoming-sci-fi-film-news",
+                "source": "Hypebeast",
+                "published": "2026-10-16T09:20:06.000Z"
+              },
+              {
+                "title": "‘Avatar: Fire and Ash’ Composer and More Speak Out About AI at Ghent’s WSA Film Music Days: ‘We Must Continue to Defend Our Art’",
+                "url": "https://variety.com/2026/artisans/festivals/avatar-ai-ghent-wsa-film-music-days-1236910224/",
+                "source": "Variety",
+                "published": "2026-10-16T06:28:01.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Directorial Pivot: Soderbergh Fills Reeves' Batman Void",
+            "summary": "Steven Soderbergh is stepping in to direct/complete The Batman: Part II while Matt Reeves pauses for personal reasons. This represents a rare mid-production directorial handoff in prestige blockbuster filmmaking.",
+            "why_it_matters": "Signals Hollywood's willingness to sacrifice creative continuity for production schedules—and reveals how A-list directors are becoming interchangeable problem-solvers rather than irreplaceable auteurs.",
+            "strategic_signal": "Brands tied to superhero IP should prepare messaging around 'creative stewardship' rather than singular vision; the director-as-guarantor model is fragmenting.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Deadline",
+              "NME",
+              "Stereogum",
+              "The Hollywood Reporter",
+              "Variety",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "James Talarico",
+                "url": "https://en.wikipedia.org/wiki/James_Talarico",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-16T11:02:32.588Z"
+              },
+              {
+                "title": "UK YouTube Breakout ‘A Memory Owed’, With James Bolam & Rumi Sutton, Moves Into Feature Development",
+                "url": "https://deadline.com/2026/10/youtube-short-memory-owed-air-force-feature-development-1237165601/",
+                "source": "Deadline",
+                "published": "2026-10-16T10:50:02.000Z"
+              },
+              {
+                "title": "Roger Waters hits back at “complete prick” James Hetfield after Metallica frontman’s statement on music and politics",
+                "url": "https://www.nme.com/news/music/roger-waters-hits-back-at-complete-prick-james-hetfield-after-metallica-frontmans-statement-on-music-and-politics-3973341?utm_source=rss&utm_medium=rss&utm_campaign=roger-waters-hits-back-at-complete-prick-james-hetfield-after-metallica-frontmans-statement-on-music-and-politics",
+                "source": "NME",
+                "published": "2026-10-16T10:33:55.000Z"
+              },
+              {
+                "title": "‘The Mandalorian and Grogu’ VFX Veteran Hal Hickel on Rotta’s Redesign, Phil Tippett and Jon Favreau’s ‘Less James Bond, More Jackass’ Approach",
+                "url": "https://variety.com/2026/film/global/the-mandalorian-and-grogu-vfx-hal-hickel-phil-tippett-1236913822/",
+                "source": "Variety",
+                "published": "2026-10-16T09:08:16.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Street Fighter Arcade Revival Moves Mainstream",
+            "summary": "Paramount/Legendary's Street Fighter feature film launched with $4M in U.S. previews and is competing for box office supremacy, signaling renewed commercial interest in video game adaptations as theatrical events. The franchise is crossing from niche gaming culture into mass-market entertainment.",
+            "why_it_matters": "Video game IP is no longer experimental territory for studios—it's now reliable tentpole material, reshaping what 'legacy' franchises mean in 2026.",
+            "strategic_signal": "Brands should audit their gaming-adjacent partnerships for theatrical/streaming potential; nostalgia-driven game-to-film pipelines are now greenlit as first-priority IP, not secondary plays.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Consequence",
+              "IndieWire",
+              "NME",
+              "Polygon",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Steven Spielberg and Stanley Kubrick's Near-Perfect Sci-Fi Fairytale Is Officially Back on Streaming",
+                "url": "https://www.polygon.com/steven-spielberg-sci-fi-pinocchio-streaming-peacock-october-2026/",
+                "source": "Polygon",
+                "published": "2026-10-16T09:30:18.000Z"
+              },
+              {
+                "title": "Steven Soderbergh is stepping in to finish ‘The Batman 2’",
+                "url": "https://www.nme.com/news/film/batman-sequel-steven-soderbergh-matt-reeves-director-3973308?utm_source=rss&utm_medium=rss&utm_campaign=batman-sequel-steven-soderbergh-matt-reeves-director",
+                "source": "NME",
+                "published": "2026-10-16T09:08:48.000Z"
+              },
+              {
+                "title": "Serielizados Program: Steven Moffat, Ferran Adrià and Rodrigo Sorogoyen Bring Star Creator Power to Barcelona",
+                "url": "https://variety.com/2026/tv/global/serielizados-program-steven-moffat-ferran-adria-1236913188/",
+                "source": "Variety",
+                "published": "2026-10-16T06:32:19.000Z"
+              },
+              {
+                "title": "Steven Soderbergh to pitch in and help finish The Batman: Part II",
+                "url": "https://www.avclub.com/batman-part-ii-steven-soderbergh-to-help-finish-matt-reeves",
+                "source": "A.V. Club",
+                "published": "2026-10-15T23:52:12.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-15T11:07:39.859Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Immersive Brand Experiences via Temporary Installations",
+        "category": "art",
+        "what_is_happening": "Luxury brands and art institutions are turning physical spaces, from galleries to cars, into temporary sensory exhibitions, with Aesop, KOZO and others leading. The pop-up is becoming a full sensory world rather than a shop.",
+        "why_it_matters_for_brands": "Audiences are rewarding brands that build a place to feel something, a deeper form of presence than a product display.",
+        "what_brands_can_do": [
+          "Design a temporary space to be felt, not just seen.",
+          "Engage more senses than sight, and make it worth travelling for.",
+          "Treat the installation as the campaign, not a backdrop to one."
+        ]
+      },
+      {
+        "trend": "Regional Festivals as Career-Launch Ecosystems",
+        "category": "trends",
+        "what_is_happening": "Regional festivals like Other Voices in Ireland are functioning as discovery platforms with a track record of launching careers, including Fontaines D.C. The small, curated festival is becoming a talent pipeline, not just an event.",
+        "why_it_matters_for_brands": "Smaller, curated platforms are where tomorrow’s big names surface, offering brands early and credible access before the mainstream catches on.",
+        "what_brands_can_do": [
+          "Back smaller, curated platforms to reach talent early.",
+          "Partner for discovery, not just the headline moment.",
+          "Treat early association as credibility you cannot buy later."
+        ]
+      },
+      {
+        "trend": "Safety-First Event Design as a Values Signal",
+        "category": "music",
+        "what_is_happening": "Live-music spaces are actively building in safety measures, including women-only mosh pits, as a direct response to harassment at festivals and concerts. On the Sex Pistols’ current tour, frontman Frank Carter reserves a women-only pit at each show and publicly removed a man who tried to enter one in Denver, framing it as a space for anyone who does not usually feel safe.",
+        "why_it_matters_for_brands": "Audiences increasingly judge events, and the brands around them, on whether people are kept safe, making safety a visible part of the experience.",
+        "what_brands_can_do": [
+          "Design safety into an event from the start, and make it visible.",
+          "Make protections easy to find and use, not an afterthought.",
+          "Let partners see safety as part of the brand, not a liability."
+        ]
+      }
+    ]
+  }
+}

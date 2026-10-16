@@ -1,133 +1,152 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-15T11:07:49.973Z",
+    "generatedAt": "2026-10-16T11:02:51.530Z",
     "intro": "2 categorieën · 3 trends · laatste 24u",
     "categories": [
       {
-        "id": "art",
-        "label": "Art & Design",
+        "id": "music",
+        "label": "Muziek",
         "insights": [
           {
-            "trend": "Radical 1960s prefab-futurism as contemporary design nostalgia",
-            "summary": "Design Boom, Dezeen en Yanko Design documenteren groeiende marktinteresse in UFO-huizen en extreme architectuurobjecten uit de jaren 1960 (Suuronen's Futuro), met actuele verkopen en Design-Week-tentoonstellingen in Mexico City.",
-            "why_it_matters": "Dit is meer dan retro-fetishisme: het signaleert dat merken en consumenten naar utopische visionariteit van prefab-wonen als escape zoeken, tegen de achtergrond van huizenprijzen en klimaatcrisis.",
-            "strategic_signal": "Woon- en designmerken: onderzoek hoe 'retrofuturisme' als brand-narratief (niet alleen esthetiek) kan werken; positioneer duurzaamheid en innovatie via jaren-60-utopie-trope in plaats van tech-taal.",
+            "trend": "AI Authorship Crisis: Composers Defend Craft at Industry Panels",
+            "summary": "At Ghent's World Soundtrack Awards Film Music Days, composers (including Avatar: Fire and Ash's Simon Franglen) are openly protesting AI's encroachment on film scoring, framing it as an existential threat to musical authorship. This marks organized professional resistance, not just isolated commentary.",
+            "why_it_matters": "Composers are positioning themselves as craftspeople defending scarcity and embodied skill—expect this to evolve into institutional gatekeeping and certification schemes around 'human-composed' film scores.",
+            "strategic_signal": "Film and advertising brands should begin labeling human-composed scores explicitly in credits/marketing; 'AI-free composition' is becoming a credibility marker for premium content within 2-4 weeks.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Design Boom",
-              "Dezeen",
+              "Hypebeast",
+              "NME",
+              "Stereogum",
               "Variety",
-              "Yanko Design"
+              "Wikipedia Trending EN"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "UFO-shaped futuro house brings radical 1960s vision of prefab living to the market",
-                "url": "https://www.designboom.com/architecture/ufo-shaped-futuro-house-radical-1960s-vision-prefab-living-market-matti-suuronen-sothebys-donaldson-california/",
-                "source": "Design Boom",
-                "published": "2026-10-15T07:45:03.000Z"
+                "title": "Imran Khan (film actor)",
+                "url": "https://en.wikipedia.org/wiki/Imran_Khan_(film_actor)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-16T11:02:32.588Z"
               },
               {
-                "title": "Gersh Launches Victoria House, Expanding Into Scripted Films, True Crime and International Co-Productions (EXCLUSIVE)",
-                "url": "https://variety.com/2026/tv/global/gersh-victoria-house-launch-you-first-originals-1236909813/",
+                "title": "Neil Young: “‘Digger’ is the best film I have ever seen”",
+                "url": "https://www.nme.com/news/film/neil-young-digger-best-film-praise-tom-cruise-reviews-critics-3973332?utm_source=rss&utm_medium=rss&utm_campaign=neil-young-digger-best-film-praise-tom-cruise-reviews-critics",
+                "source": "NME",
+                "published": "2026-10-16T09:35:29.000Z"
+              },
+              {
+                "title": "Zendaya to Star in Alex Garland's Upcoming Sci-Fi Film at A24",
+                "url": "https://hypebeast.com/2026/10/a24-zendaya-star-alex-garland-upcoming-sci-fi-film-news",
+                "source": "Hypebeast",
+                "published": "2026-10-16T09:20:06.000Z"
+              },
+              {
+                "title": "‘Avatar: Fire and Ash’ Composer and More Speak Out About AI at Ghent’s WSA Film Music Days: ‘We Must Continue to Defend Our Art’",
+                "url": "https://variety.com/2026/artisans/festivals/avatar-ai-ghent-wsa-film-music-days-1236910224/",
                 "source": "Variety",
-                "published": "2026-10-15T06:56:00.000Z"
-              },
-              {
-                "title": "Recycled-plastic plinths hold furniture at \"secret\" Barragán house in Mexico City",
-                "url": "https://www.dezeen.com/2026/10/14/design-week-mexico-2026-creative-immersions-casa-ortega/",
-                "source": "Dezeen",
-                "published": "2026-10-14T21:20:19.000Z"
-              },
-              {
-                "title": "This Tiny Prague House Opens Like a Giant Wardrobe",
-                "url": "https://www.yankodesign.com/2026/10/14/this-tiny-prague-house-opens-like-a-giant-wardrobe/?utm_source=rss&utm_medium=rss&utm_campaign=this-tiny-prague-house-opens-like-a-giant-wardrobe",
-                "source": "Yanko Design",
-                "published": "2026-10-14T23:30:05.000Z"
+                "published": "2026-10-16T06:28:01.000Z"
               }
             ]
           }
         ]
       },
       {
-        "id": "internet",
-        "label": "Internet",
+        "id": "film",
+        "label": "Film & TV",
         "insights": [
           {
-            "trend": "AI-content crisis in children's media reshaping guardrails",
-            "summary": "Drie bronnen documenteren hoe lage-kwaliteit AI-gegenereerde content kinderenmedia domineert en regulators (8 Amerikaanse staten) OpenAI aansporen. Een nieuw platform (Maka) probeert dit op te lossen met child-development expertise.",
-            "why_it_matters": "Dit signaleert dat AI-gegenereerde content niet zomaar een technisch probleem is, maar een culturele crisis die ouders en beleidsmakers als reëel schadelijk ervaren. Dit zal merken dwingen tot transparantie en 'human-verified' content.",
-            "strategic_signal": "Brands die kinderencontent produceren of adverteren: zorg nu voor expliciete 'human-created' of 'expert-verified' labels voordat consumentenwantrouwen zich vastbijt; dit wordt de nieuwe trust-currency.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Fast Company",
-              "The Verge",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Kids’ Content Is Deeply Broken. A New Platform Wants to Fix It",
-                "url": "https://www.wired.com/story/maka-streaming-platform-for-kids-fighting-against-ai-slop/",
-                "source": "Wired",
-                "published": "2026-10-15T11:00:00.000Z"
-              },
-              {
-                "title": "Kids’ meals are having a ‘Freaky Friday’ moment",
-                "url": "https://www.fastcompany.com/91621893/kids-meal-freaky-friday-moment-happy-meals-mcdonalds-burger-king-wendys-toy-prize-burger-kpop-demon-hunter-we-know-it",
-                "source": "Fast Company",
-                "published": "2026-10-15T09:00:00.000Z"
-              },
-              {
-                "title": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
-                "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
-                "source": "The Verge",
-                "published": "2026-10-14T21:11:28.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "YouTube transparantie-labeling voor AI-gegenereerde muziek als norm-setter",
-            "summary": "Billboard, The Verge en Variety dekken YouTube's invoering van 'Made with AI'-labels op tracks die volledig gegenereerd of aangepast zijn. Dit gebeurt parallel met rechtszaken tegen OpenAI.",
-            "why_it_matters": "Platform-level transparantie wordt de nieuwe marktstandaard; dit voorkomt dat AI-gegenereerde content stillzwijgend mainstream wordt en legt het eigendom/origineel-kwestie bloot.",
-            "strategic_signal": "Muziek- en content-merken: verwacht dat 'AI-transparantie' binnen vier weken industrie-standaard wordt; positioneer transparantie nu als kwaliteitskenmerk, niet als stigma.",
+            "trend": "Directorial Pivot: Soderbergh Fills Reeves' Batman Void",
+            "summary": "Steven Soderbergh is stepping in to direct/complete The Batman: Part II while Matt Reeves pauses for personal reasons. This represents a rare mid-production directorial handoff in prestige blockbuster filmmaking.",
+            "why_it_matters": "Signals Hollywood's willingness to sacrifice creative continuity for production schedules—and reveals how A-list directors are becoming interchangeable problem-solvers rather than irreplaceable auteurs.",
+            "strategic_signal": "Brands tied to superhero IP should prepare messaging around 'creative stewardship' rather than singular vision; the director-as-guarantor model is fragmenting.",
             "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Billboard",
-              "The Verge",
+              "Deadline",
+              "NME",
+              "Stereogum",
+              "The Hollywood Reporter",
+              "Variety",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "James Talarico",
+                "url": "https://en.wikipedia.org/wiki/James_Talarico",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-16T11:02:32.588Z"
+              },
+              {
+                "title": "UK YouTube Breakout ‘A Memory Owed’, With James Bolam & Rumi Sutton, Moves Into Feature Development",
+                "url": "https://deadline.com/2026/10/youtube-short-memory-owed-air-force-feature-development-1237165601/",
+                "source": "Deadline",
+                "published": "2026-10-16T10:50:02.000Z"
+              },
+              {
+                "title": "Roger Waters hits back at “complete prick” James Hetfield after Metallica frontman’s statement on music and politics",
+                "url": "https://www.nme.com/news/music/roger-waters-hits-back-at-complete-prick-james-hetfield-after-metallica-frontmans-statement-on-music-and-politics-3973341?utm_source=rss&utm_medium=rss&utm_campaign=roger-waters-hits-back-at-complete-prick-james-hetfield-after-metallica-frontmans-statement-on-music-and-politics",
+                "source": "NME",
+                "published": "2026-10-16T10:33:55.000Z"
+              },
+              {
+                "title": "‘The Mandalorian and Grogu’ VFX Veteran Hal Hickel on Rotta’s Redesign, Phil Tippett and Jon Favreau’s ‘Less James Bond, More Jackass’ Approach",
+                "url": "https://variety.com/2026/film/global/the-mandalorian-and-grogu-vfx-hal-hickel-phil-tippett-1236913822/",
+                "source": "Variety",
+                "published": "2026-10-16T09:08:16.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Street Fighter Arcade Revival Moves Mainstream",
+            "summary": "Paramount/Legendary's Street Fighter feature film launched with $4M in U.S. previews and is competing for box office supremacy, signaling renewed commercial interest in video game adaptations as theatrical events. The franchise is crossing from niche gaming culture into mass-market entertainment.",
+            "why_it_matters": "Video game IP is no longer experimental territory for studios—it's now reliable tentpole material, reshaping what 'legacy' franchises mean in 2026.",
+            "strategic_signal": "Brands should audit their gaming-adjacent partnerships for theatrical/streaming potential; nostalgia-driven game-to-film pipelines are now greenlit as first-priority IP, not secondary plays.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Consequence",
+              "IndieWire",
+              "NME",
+              "Polygon",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "YouTube’s Virtues, Industry Consolidation, Christie Brinkley and ‘Baywatch’: Trends and Themes From a Busy Mipcom",
-                "url": "https://variety.com/2026/tv/global/youtube-consolidation-christie-brinkley-baywatch-mipcom-1236912667/",
+                "title": "Steven Spielberg and Stanley Kubrick's Near-Perfect Sci-Fi Fairytale Is Officially Back on Streaming",
+                "url": "https://www.polygon.com/steven-spielberg-sci-fi-pinocchio-streaming-peacock-october-2026/",
+                "source": "Polygon",
+                "published": "2026-10-16T09:30:18.000Z"
+              },
+              {
+                "title": "Steven Soderbergh is stepping in to finish ‘The Batman 2’",
+                "url": "https://www.nme.com/news/film/batman-sequel-steven-soderbergh-matt-reeves-director-3973308?utm_source=rss&utm_medium=rss&utm_campaign=batman-sequel-steven-soderbergh-matt-reeves-director",
+                "source": "NME",
+                "published": "2026-10-16T09:08:48.000Z"
+              },
+              {
+                "title": "Serielizados Program: Steven Moffat, Ferran Adrià and Rodrigo Sorogoyen Bring Star Creator Power to Barcelona",
+                "url": "https://variety.com/2026/tv/global/serielizados-program-steven-moffat-ferran-adria-1236913188/",
                 "source": "Variety",
-                "published": "2026-10-15T08:04:00.000Z"
+                "published": "2026-10-16T06:32:19.000Z"
               },
               {
-                "title": "Rauw Alejandro and Camilo’s ‘Tattoo (Remix)’ Enters YouTube’s Billion Views Club",
-                "url": "https://www.billboard.com/music/latin/rauw-alejandro-camilo-tattoo-remix-youtube-billion-views-1236361081/",
-                "source": "Billboard",
-                "published": "2026-10-15T03:53:43.000Z"
-              },
-              {
-                "title": "YouTube sticks new labels on AI-generated songs",
-                "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
-                "source": "The Verge",
-                "published": "2026-10-14T18:22:56.000Z"
+                "title": "Steven Soderbergh to pitch in and help finish The Batman: Part II",
+                "url": "https://www.avclub.com/batman-part-ii-steven-soderbergh-to-help-finish-matt-reeves",
+                "source": "A.V. Club",
+                "published": "2026-10-15T23:52:12.000Z"
               }
             ]
           }
