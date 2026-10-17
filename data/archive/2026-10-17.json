@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-17",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-17T10:23:38.039Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Tribute Canonicity: Deceased Artists Shape Live Narratives",
+            "summary": "Harry Styles premiered an unreleased Liam Payne tribute on the anniversary of his death, while My Chemical Romance released archival material ahead of 'The Black Parade' 20th anniversary reissue. Both acts are using memorial moments and archival access to deepen emotional connection with audiences and reframe legacy albums as ongoing narratives rather than finished products.",
+            "why_it_matters": "Artists are treating deceased bandmates and milestone anniversaries as cultural anchors that reshape how we consume and reinterpret canonical works, death becomes a narrative device that extends career lifecycles indefinitely.",
+            "strategic_signal": "Brands can partner with artists planning anniversary campaigns 6+ months out by positioning products around 'hidden chapter' moments (unreleased tracks, archival content) that generate organic memorial media during vulnerable cultural moments.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "Kotaku",
+              "NME",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Harry Styles pays tribute to Liam Payne on anniversary of One Direction star’s death with moving new song ‘What Is Enough’",
+                "url": "https://www.nme.com/news/music/harry-styles-pays-tribute-to-liam-payne-on-anniversary-of-one-direction-stars-death-with-moving-new-song-what-is-enough-3973408?utm_source=rss&utm_medium=rss&utm_campaign=harry-styles-pays-tribute-to-liam-payne-on-anniversary-of-one-direction-stars-death-with-moving-new-song-what-is-enough",
+                "source": "NME",
+                "published": "2026-10-17T08:00:57.000Z"
+              },
+              {
+                "title": "Harry Styles Pays Tribute to Liam Payne With Unreleased Song on Anniversary of His Death",
+                "url": "https://www.billboard.com/music/music-news/harry-styles-dedicates-song-to-liam-payne-1236362307/",
+                "source": "Billboard",
+                "published": "2026-10-17T05:07:06.000Z"
+              },
+              {
+                "title": "Miley Cyrus Setlist: Every Song Played at ‘Bass Persuades – Live at the Hollywood Bowl’",
+                "url": "https://variety.com/2026/music/news/miley-cyrus-setlist-hollywood-bowl-los-angeles-1236914492/",
+                "source": "Variety",
+                "published": "2026-10-17T03:37:30.000Z"
+              },
+              {
+                "title": "My Chemical Romance share fiery unreleased song ‘Someone Out There Loves You’ ahead of ‘The Black Parade’ 20th anniversary reissue",
+                "url": "https://www.nme.com/news/music/my-chemical-romance-share-unreleased-song-someone-out-there-loves-you-black-parade-reissue-3973392?utm_source=rss&utm_medium=rss&utm_campaign=my-chemical-romance-share-unreleased-song-someone-out-there-loves-you-black-parade-reissue",
+                "source": "NME",
+                "published": "2026-10-16T15:53:46.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
+          {
+            "trend": "AI Autonomy Spectacle Over Practical Engineering",
+            "summary": "Tesla's new Roadster employs SpaceX thrusters for midair flips and 0.81-second acceleration, generating massive cultural coverage despite being rooted in 50-year-old stunt technology repackaged as futurism. The car's 'flying' capability is technically a publicity stunt, not a transportation innovation.",
+            "why_it_matters": "Tech companies are now competing on *narrative scale* and visual spectacle rather than functional innovation, the 'idea' of a flying car matters more culturally than whether it actually works, revealing how luxury tech marketing has become pure mythology.",
+            "strategic_signal": "Luxury and tech brands can justify premium positioning through architectural mythology (retro tech reframed as breakthrough) rather than performance gains; the story of innovation sells better than innovation itself to affluent, media-literate audiences.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Ars Technica",
+              "The Verge",
+              "Wired",
+              "Yanko Design"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars",
+                "url": "https://www.theverge.com/transportation/1013280/tesla-chp-fsd-crash",
+                "source": "The Verge",
+                "published": "2026-10-16T20:49:04.000Z"
+              },
+              {
+                "title": "Tesla’s New Roadster Can Fly. Its CEO’s Reputation Cannot.",
+                "url": "https://www.yankodesign.com/2026/10/16/teslas-new-roadster-can-fly-its-ceos-reputation-cannot/?utm_source=rss&utm_medium=rss&utm_campaign=teslas-new-roadster-can-fly-its-ceos-reputation-cannot",
+                "source": "Yanko Design",
+                "published": "2026-10-17T00:30:25.000Z"
+              },
+              {
+                "title": "Here’s Exactly How Tesla Made Its New 230-Mph Car ‘Fly’",
+                "url": "https://www.wired.com/story/how-tesla-made-its-new-230-mph-car-fly/",
+                "source": "Wired",
+                "published": "2026-10-16T16:30:12.000Z"
+              },
+              {
+                "title": "Tesla’s new roadster employs SpaceX thrusters to perform midair flips, reach 60 MPH in 0.81 seconds",
+                "url": "https://www.yankodesign.com/2026/10/16/teslas-new-roadster-employs-spacex-thrusters-to-perform-midair-flips-reach-60-mph-in-0-81-seconds/?utm_source=rss&utm_medium=rss&utm_campaign=teslas-new-roadster-employs-spacex-thrusters-to-perform-midair-flips-reach-60-mph-in-0-81-seconds",
+                "source": "Yanko Design",
+                "published": "2026-10-16T19:20:58.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Apple's Smart Home Defensive Moat Against Google",
+            "summary": "Apple is launching HomeView and its Home Collection as a coordinated smart home ecosystem push, positioning directly against Google's dominance in smart displays and home integration. The move signals Apple's recognition that smart home is no longer optional for tech giants seeking household ubiquity.",
+            "why_it_matters": "Tech platforms are consolidating around *household ecosystem control* rather than device innovation, smart home is becoming the new battleground for customer lock-in, where seamless integration replaces product differentiation.",
+            "strategic_signal": "Brands targeting affluent households (2026-2027) should plan ecosystem partnerships with one platform (Apple or Google) rather than multi-platform, as consumers are now choosing *households* not devices, fragmented tech stacks are becoming friction points.",
+            "trajectory": "opkomend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Consequence",
+              "Fast Company",
+              "The Verge"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Apple’s HomeView has a Google problem",
+                "url": "https://www.fastcompany.com/91625533/apples-homeview-has-a-google-problem",
+                "source": "Fast Company",
+                "published": "2026-10-17T04:36:00.000Z"
+              },
+              {
+                "title": "Apple&#8217;s updated App Store rules go after &#8216;nudify&#8217; AI apps",
+                "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
+                "source": "The Verge",
+                "published": "2026-10-16T22:51:22.000Z"
+              },
+              {
+                "title": "Apple Watch Ultra 3 Drops to Record-Low $649",
+                "url": "https://consequence.net/2026/10/apple-watch-ultra-3-amazon-deal-sale/",
+                "source": "Consequence",
+                "published": "2026-10-17T04:00:08.000Z"
+              },
+              {
+                "title": "Why Apple is finally making its own smart home devices",
+                "url": "https://www.theverge.com/tech/1013025/apple-home-collection-products-lg-schneider-smart-home",
+                "source": "The Verge",
+                "published": "2026-10-16T18:30:27.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "Street Fighter Arcade Nostalgia Goes Mainstream",
+            "summary": "Street Fighter's live-action film reboot leverages celebrity and meme-casting to drive cultural momentum, with the movie generating significant box-office interest through unconventional audience appeal beyond core gamers. This signals a broader shift where legacy gaming IP relies on cultural relevance and casting surprises rather than faithful adaptation.",
+            "why_it_matters": "Gaming franchises are now competing for cultural attention by embracing celebrity culture and social media virality, signaling that IP heritage alone no longer guarantees mainstream success, cultural momentum through casting becomes the product.",
+            "strategic_signal": "Merken kunnen gaming IP-collaboraties niet langer plannen op nostalgie alleen: inzetten op casting-surprises en memetic potential in de eerste 48 uur van aankondigingen haalt meer earned media dan traditionele marketing.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Ars Technica",
+              "Eurogamer",
+              "IndieWire",
+              "Kotaku",
+              "Polygon",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Art of Rally follow-up Over the Hill's biggest success is finding a way to be a driving game that asks you to take it slow",
+                "url": "https://www.eurogamer.net/over-the-hill-now-playing",
+                "source": "Eurogamer",
+                "published": "2026-10-17T09:00:00.000Z"
+              },
+              {
+                "title": "‘Street Fighter’ Cast Guide: All the WWE Stars, UFC Champs and Celebs Playing Video Game Fighters in the Live-Action Movie",
+                "url": "https://variety.com/lists/street-fighter-cast-video-game-vs-live-action/",
+                "source": "Variety",
+                "published": "2026-10-16T22:30:00.000Z"
+              },
+              {
+                "title": "8 Call of Duty Games Still Missing from Game Pass",
+                "url": "https://www.polygon.com/best-call-of-duty-games-missing-from-game-pass/",
+                "source": "Polygon",
+                "published": "2026-10-16T22:00:17.000Z"
+              },
+              {
+                "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
+                "url": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
+                "source": "Ars Technica",
+                "published": "2026-10-16T19:41:18.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-10-17T10:23:40.613Z",
+    "megaTrends": [
+      {
+        "trend": "Nostalgia als cultureel authenticiteitsmarker",
+        "summary": "Zowel in muziek als gaming manifesteert zich een sterke terugkeer naar arcade- en live-performance-rituelen als reactie op digitale abstraktie. Dit weerspiegelt een maatschappelijk verlangen naar tastbare, fysieke ervaringen en 'echte' momenten.",
+        "why_it_matters": "Dit signaleert een ommekeer in de dominantie van volledig virtuele/digitale cultuur naar hybride ervaringen waar het fysieke opnieuw cultureel kapitalisme krijgt.",
+        "categories": [
+          "music",
+          "gaming"
+        ],
+        "strength": "matig"
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-15T11:07:39.859Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Immersive Brand Experiences via Temporary Installations",
+        "category": "art",
+        "what_is_happening": "Luxury brands and art institutions are turning physical spaces, from galleries to cars, into temporary sensory exhibitions, with Aesop, KOZO and others leading. The pop-up is becoming a full sensory world rather than a shop.",
+        "why_it_matters_for_brands": "Audiences are rewarding brands that build a place to feel something, a deeper form of presence than a product display.",
+        "what_brands_can_do": [
+          "Design a temporary space to be felt, not just seen.",
+          "Engage more senses than sight, and make it worth travelling for.",
+          "Treat the installation as the campaign, not a backdrop to one."
+        ]
+      },
+      {
+        "trend": "Regional Festivals as Career-Launch Ecosystems",
+        "category": "trends",
+        "what_is_happening": "Regional festivals like Other Voices in Ireland are functioning as discovery platforms with a track record of launching careers, including Fontaines D.C. The small, curated festival is becoming a talent pipeline, not just an event.",
+        "why_it_matters_for_brands": "Smaller, curated platforms are where tomorrow’s big names surface, offering brands early and credible access before the mainstream catches on.",
+        "what_brands_can_do": [
+          "Back smaller, curated platforms to reach talent early.",
+          "Partner for discovery, not just the headline moment.",
+          "Treat early association as credibility you cannot buy later."
+        ]
+      },
+      {
+        "trend": "Safety-First Event Design as a Values Signal",
+        "category": "music",
+        "what_is_happening": "Live-music spaces are actively building in safety measures, including women-only mosh pits, as a direct response to harassment at festivals and concerts. On the Sex Pistols’ current tour, frontman Frank Carter reserves a women-only pit at each show and publicly removed a man who tried to enter one in Denver, framing it as a space for anyone who does not usually feel safe.",
+        "why_it_matters_for_brands": "Audiences increasingly judge events, and the brands around them, on whether people are kept safe, making safety a visible part of the experience.",
+        "what_brands_can_do": [
+          "Design safety into an event from the start, and make it visible.",
+          "Make protections easy to find and use, not an afterthought.",
+          "Let partners see safety as part of the brand, not a liability."
+        ]
+      }
+    ]
+  }
+}
