@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-18",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-18T10:40:58.938Z",
+    "intro": "2 categorieën · 2 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Deceased Artists Shape Posthumous Narratives",
+            "summary": "Harry Styles debuts a previously unreleased song written for Liam Payne at Madison Square Garden on the second anniversary of his death, while simultaneously filming a documentary with John Wilson about touring like Styles. This marks a cultural moment where live performance and cinematic documentation become vehicles for tribute and canonization of deceased artists.",
+            "why_it_matters": "The conflation of live tribute with documentary filmmaking signals how contemporary culture processes grief through simultaneous performance and media documentation. Deceased artists are no longer just memorialized, they're actively co-authored into ongoing narratives.",
+            "strategic_signal": "Brands exploring artist partnerships or memorial campaigns should recognize that audiences now expect multi-platform tribute ecosystems (live + film + unreleased content) rather than single-channel memorials; this creates authenticity expectations.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Deadline",
+              "IndieWire",
+              "Kotaku",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘What Belongs to Others’ Wins Top Warsaw Film Festival Award",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/warsaw-film-festival-2026-awards-winners-what-belongs-to-others-1236734712/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-18T09:10:02.000Z"
+              },
+              {
+                "title": "Quentin Tarantino Confirms He’s ‘Written a Script’ for His Tenth Film, But Won’t Pursue It Yet Because He Wants to ‘Live a Little’",
+                "url": "https://variety.com/2026/film/news/quentin-tarantino-confirms-script-for-tenth-film-1236915169/",
+                "source": "Variety",
+                "published": "2026-10-17T23:59:24.000Z"
+              },
+              {
+                "title": "Clive Barker Teases ‘Hellraiser: Revival’ Video Game Has Reignited “Many Ideas” For Film Franchise: “Planning To Keep My Fingers In That Pie”",
+                "url": "https://deadline.com/2026/10/clive-barker-hellraiser-revival-reignited-ideas-film-franchise-1237166512/",
+                "source": "Deadline",
+                "published": "2026-10-17T23:25:29.000Z"
+              },
+              {
+                "title": "James McAvoy Says ‘Split’ Is The Only Film That ‘Really Consistently Pays Me’",
+                "url": "https://variety.com/2026/film/news/james-mcavoy-split-only-film-that-consistently-pays-me-1236915162/",
+                "source": "Variety",
+                "published": "2026-10-17T23:21:55.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "art",
+        "label": "Art & Design",
+        "insights": [
+          {
+            "trend": "Salvage Modernism: Upcycled Materials in Heritage Spaces",
+            "summary": "Architect Diana Kellogg renovates her historic Tribeca residence by deliberately sourcing and integrating salvaged materials throughout the home, exemplifying a design movement that treats reclaimed/repurposed elements as primary aesthetic drivers rather than afterthoughts. This approach combines preservation ethos with contemporary sustainability values.",
+            "why_it_matters": "This reflects a cultural shift where authenticity in design now requires visible material memory. Heritage renovation is no longer about erasure and modernization, but about layering old and new intentionally, signaling both environmental consciousness and historical respect simultaneously.",
+            "strategic_signal": "Luxury brands and property developers should frame renovation/construction narratives around material provenance and salvage stories; this appeals to affluent audiences seeking to reconcile sustainability claims with heritage preservation rather than viewing them as opposing forces.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Dezeen",
+              "Fast Company",
+              "Yanko Design"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "This quick test will tell you if your home Wi-Fi is to blame for laggy internet",
+                "url": "https://www.fastcompany.com/91606189/slow-wi-fi-open-speed-test",
+                "source": "Fast Company",
+                "published": "2026-10-18T09:00:00.000Z"
+              },
+              {
+                "title": "Diana Kellogg updates her Tribeca home using salvaged materials",
+                "url": "https://www.dezeen.com/2026/10/17/diana-kellogg-historic-tribeca-residence-renovation/",
+                "source": "Dezeen",
+                "published": "2026-10-17T17:00:11.000Z"
+              },
+              {
+                "title": "The 26-Foot eVista XL Tiny Home Skips the Loft for a Private Bedroom",
+                "url": "https://www.yankodesign.com/2026/10/17/the-26-foot-evista-xl-tiny-home-skips-the-loft-for-a-private-bedroom/?utm_source=rss&utm_medium=rss&utm_campaign=the-26-foot-evista-xl-tiny-home-skips-the-loft-for-a-private-bedroom",
+                "source": "Yanko Design",
+                "published": "2026-10-17T17:20:54.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-15T11:07:39.859Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Immersive Brand Experiences via Temporary Installations",
+        "category": "art",
+        "what_is_happening": "Luxury brands and art institutions are turning physical spaces, from galleries to cars, into temporary sensory exhibitions, with Aesop, KOZO and others leading. The pop-up is becoming a full sensory world rather than a shop.",
+        "why_it_matters_for_brands": "Audiences are rewarding brands that build a place to feel something, a deeper form of presence than a product display.",
+        "what_brands_can_do": [
+          "Design a temporary space to be felt, not just seen.",
+          "Engage more senses than sight, and make it worth travelling for.",
+          "Treat the installation as the campaign, not a backdrop to one."
+        ]
+      },
+      {
+        "trend": "Regional Festivals as Career-Launch Ecosystems",
+        "category": "trends",
+        "what_is_happening": "Regional festivals like Other Voices in Ireland are functioning as discovery platforms with a track record of launching careers, including Fontaines D.C. The small, curated festival is becoming a talent pipeline, not just an event.",
+        "why_it_matters_for_brands": "Smaller, curated platforms are where tomorrow’s big names surface, offering brands early and credible access before the mainstream catches on.",
+        "what_brands_can_do": [
+          "Back smaller, curated platforms to reach talent early.",
+          "Partner for discovery, not just the headline moment.",
+          "Treat early association as credibility you cannot buy later."
+        ]
+      },
+      {
+        "trend": "Safety-First Event Design as a Values Signal",
+        "category": "music",
+        "what_is_happening": "Live-music spaces are actively building in safety measures, including women-only mosh pits, as a direct response to harassment at festivals and concerts. On the Sex Pistols’ current tour, frontman Frank Carter reserves a women-only pit at each show and publicly removed a man who tried to enter one in Denver, framing it as a space for anyone who does not usually feel safe.",
+        "why_it_matters_for_brands": "Audiences increasingly judge events, and the brands around them, on whether people are kept safe, making safety a visible part of the experience.",
+        "what_brands_can_do": [
+          "Design safety into an event from the start, and make it visible.",
+          "Make protections easy to find and use, not an afterthought.",
+          "Let partners see safety as part of the brand, not a liability."
+        ]
+      }
+    ]
+  }
+}
