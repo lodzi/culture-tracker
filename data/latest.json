@@ -1,103 +1,210 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-18T10:40:58.938Z",
-    "intro": "2 categorieën · 2 trends · laatste 24u",
+    "generatedAt": "2026-10-19T12:39:34.728Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
     "categories": [
       {
-        "id": "film",
-        "label": "Film & TV",
+        "id": "music",
+        "label": "Muziek",
         "insights": [
           {
-            "trend": "Deceased Artists Shape Posthumous Narratives",
-            "summary": "Harry Styles debuts a previously unreleased song written for Liam Payne at Madison Square Garden on the second anniversary of his death, while simultaneously filming a documentary with John Wilson about touring like Styles. This marks a cultural moment where live performance and cinematic documentation become vehicles for tribute and canonization of deceased artists.",
-            "why_it_matters": "The conflation of live tribute with documentary filmmaking signals how contemporary culture processes grief through simultaneous performance and media documentation. Deceased artists are no longer just memorialized, they're actively co-authored into ongoing narratives.",
-            "strategic_signal": "Brands exploring artist partnerships or memorial campaigns should recognize that audiences now expect multi-platform tribute ecosystems (live + film + unreleased content) rather than single-channel memorials; this creates authenticity expectations.",
-            "trajectory": "piekend",
-            "daysActive": 2,
-            "isNew": false,
+            "trend": "Orchestra Collaborations Legitimize Genre Crossovers",
+            "summary": "Red Hot Chili Peppers speelt klassieke Hillel Slovak-nummers live + ONEFOUR (Western Sydney drill) teamt met Penrith Chamber Orchestra voor 'Made Men' premiere. Miley Cyrus comeback-defensie toont artistieke legitimiteit-zoektocht.",
+            "why_it_matters": "Genre-grens vervagen: mainstream artists gebruiken klassieke/orchestrale framing om depth en 'serieuze kunstenaarsstatus' aan populaire muziek toe te voegen.",
+            "strategic_signal": "Voor merken die millennial/Gen Z audiences willen bereiken: sponsor of associeer met cross-genre collaborations (street music + orchestra, pop + klassiek) als marker van 'eclectic taste' en culturele autoriteit.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
             "sources": [
-              "Deadline",
-              "IndieWire",
-              "Kotaku",
+              "Billboard",
+              "Dezeen",
+              "NME",
               "The Hollywood Reporter",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "‘What Belongs to Others’ Wins Top Warsaw Film Festival Award",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/warsaw-film-festival-2026-awards-winners-what-belongs-to-others-1236734712/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-10-18T09:10:02.000Z"
-              },
-              {
-                "title": "Quentin Tarantino Confirms He’s ‘Written a Script’ for His Tenth Film, But Won’t Pursue It Yet Because He Wants to ‘Live a Little’",
-                "url": "https://variety.com/2026/film/news/quentin-tarantino-confirms-script-for-tenth-film-1236915169/",
+                "title": "Miley Cyrus Fires Back at Criticism of Hollywood Bowl Concert and Considered Not Doing Second Show: ‘It’s Hard for Me to Stand Up Here’",
+                "url": "https://variety.com/2026/music/news/miley-cyrus-fires-back-criticism-hollywood-bowl-concert-1236916307/",
                 "source": "Variety",
-                "published": "2026-10-17T23:59:24.000Z"
+                "published": "2026-10-19T12:09:11.000Z"
               },
               {
-                "title": "Clive Barker Teases ‘Hellraiser: Revival’ Video Game Has Reignited “Many Ideas” For Film Franchise: “Planning To Keep My Fingers In That Pie”",
-                "url": "https://deadline.com/2026/10/clive-barker-hellraiser-revival-reignited-ideas-film-franchise-1237166512/",
-                "source": "Deadline",
-                "published": "2026-10-17T23:25:29.000Z"
+                "title": "Miley Cyrus Hits Back at Criticism of First Hollywood Bowl Show: ‘The Only Thing That I Have Is This Moment With All of You’",
+                "url": "https://www.billboard.com/music/pop/miley-cyrus-responds-criticism-first-hollywood-bowl-show-1236362598/",
+                "source": "Billboard",
+                "published": "2026-10-19T11:50:37.000Z"
               },
               {
-                "title": "James McAvoy Says ‘Split’ Is The Only Film That ‘Really Consistently Pays Me’",
-                "url": "https://variety.com/2026/film/news/james-mcavoy-split-only-film-that-consistently-pays-me-1236915162/",
-                "source": "Variety",
-                "published": "2026-10-17T23:21:55.000Z"
+                "title": "The Cribs announce special homecoming show celebrating 20 years of ‘Men’s Needs, Women’s Needs, Whatever’ with !Forward, Russia!",
+                "url": "https://www.nme.com/news/music/the-cribs-announce-special-homecoming-show-celebrating-20-years-of-mens-needs-womens-needs-whatever-with-forward-russia-3973492?utm_source=rss&utm_medium=rss&utm_campaign=the-cribs-announce-special-homecoming-show-celebrating-20-years-of-mens-needs-womens-needs-whatever-with-forward-russia",
+                "source": "NME",
+                "published": "2026-10-19T09:38:38.000Z"
+              },
+              {
+                "title": "Watch Red Hot Chili Peppers play classic Hillel Slovak-era songs for first time in decades at Hollywood charity show",
+                "url": "https://www.nme.com/news/music/watch-red-hot-chili-peppers-play-hillel-slovak-songs-first-time-in-decades-3973483?utm_source=rss&utm_medium=rss&utm_campaign=watch-red-hot-chili-peppers-play-hillel-slovak-songs-first-time-in-decades",
+                "source": "NME",
+                "published": "2026-10-19T08:57:26.000Z"
               }
             ]
           }
         ]
       },
       {
-        "id": "art",
-        "label": "Art & Design",
+        "id": "fashion",
+        "label": "Fashion",
         "insights": [
           {
-            "trend": "Salvage Modernism: Upcycled Materials in Heritage Spaces",
-            "summary": "Architect Diana Kellogg renovates her historic Tribeca residence by deliberately sourcing and integrating salvaged materials throughout the home, exemplifying a design movement that treats reclaimed/repurposed elements as primary aesthetic drivers rather than afterthoughts. This approach combines preservation ethos with contemporary sustainability values.",
-            "why_it_matters": "This reflects a cultural shift where authenticity in design now requires visible material memory. Heritage renovation is no longer about erasure and modernization, but about layering old and new intentionally, signaling both environmental consciousness and historical respect simultaneously.",
-            "strategic_signal": "Luxury brands and property developers should frame renovation/construction narratives around material provenance and salvage stories; this appeals to affluent audiences seeking to reconcile sustainability claims with heritage preservation rather than viewing them as opposing forces.",
-            "trajectory": "opkomend",
+            "trend": "Utilitarian Luxury Sneakers Define Premium Sportswear",
+            "summary": "Nike Air Force 1 Luxe, ACG-Hoops Eggplant return, Air Max Moto 2K Cordura, en Kobe 3 Mamba Eterno domineren drops. Patroon: functionele, tactische esthetiek in premium materials.",
+            "why_it_matters": "Sneaker culture evolueert van pure hype naar 'responsible' luxury, craft, heritage colorways, en militaire/outdoor functionalism signaleren volwassenheid en duurzaamheid.",
+            "strategic_signal": "Sneaker-collaboraties positioneren met 'heritage revisit' (Día de los Muertos Kobe, ACG archival restocks) eerder dan trend-chasing; authenticiteit door archief-mining wint van newness.",
+            "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Dezeen",
-              "Fast Company",
+              "Highsnobiety",
+              "Hypebeast",
+              "Sneaker News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Nike’s Fanciest Forces Refuse to Clock Out",
+                "url": "https://www.highsnobiety.com/p/nike-air-force-1-luxe-sneakers/",
+                "source": "Highsnobiety",
+                "published": "2026-10-19T10:01:58.000Z"
+              },
+              {
+                "title": "Nike's Insane ACG-Hoops Crossover Returns to the Streets",
+                "url": "https://www.highsnobiety.com/p/nike-acg-air-max-foamdome/",
+                "source": "Highsnobiety",
+                "published": "2026-10-19T09:59:31.000Z"
+              },
+              {
+                "title": "Nike Honors Día de los Muertos With the Kobe 3 Low Protro \"Mamba Eterno\"",
+                "url": "https://hypebeast.com/2026/10/nike-kobe-3-low-protro-mamba-eterno-io6260-800-release-info",
+                "source": "Hypebeast",
+                "published": "2026-10-19T07:23:16.000Z"
+              },
+              {
+                "title": "Nike’s Ruggedized Air Max Is a Military-Minded Gem",
+                "url": "https://www.highsnobiety.com/p/nike-air-max-moto-2k-cordura-medium-ash/",
+                "source": "Highsnobiety",
+                "published": "2026-10-19T10:00:12.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Arcade Nostalgia Moves Into Mainstream Film",
+            "summary": "Street Fighter krijgt major filmadaptatie (181.850 Wikipedia views, rang #7) met cross-media momentum. Dit sluit aan bij terugkeerpatroon van retro-gaming in entertainment.",
+            "why_it_matters": "Arcade culture is niet langer niche gaming, het wordt Hollywood IP met mass-market appeal en intergenerationele aantrekkingskracht.",
+            "strategic_signal": "Merken kunnen arcade-esthetiek (pixelated designs, '80s-'90s iconografie) gebruiken in campagnes gericht op millennials + Gen Z als authentieke nostalgia, niet kitsch.",
+            "trajectory": "opkomend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Deadline",
+              "Hypebeast",
+              "The Hollywood Reporter",
+              "Variety",
+              "Wikipedia Trending EN",
               "Yanko Design"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "This quick test will tell you if your home Wi-Fi is to blame for laggy internet",
-                "url": "https://www.fastcompany.com/91606189/slow-wi-fi-open-speed-test",
-                "source": "Fast Company",
-                "published": "2026-10-18T09:00:00.000Z"
+                "title": "Love of Your Life (film)",
+                "url": "https://en.wikipedia.org/wiki/Love_of_Your_Life_(film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-19T12:39:13.645Z"
               },
               {
-                "title": "Diana Kellogg updates her Tribeca home using salvaged materials",
-                "url": "https://www.dezeen.com/2026/10/17/diana-kellogg-historic-tribeca-residence-renovation/",
-                "source": "Dezeen",
-                "published": "2026-10-17T17:00:11.000Z"
+                "title": "‘Paper Tiger’ & Furies’ Set For Doha Film Festival Gala Screenings",
+                "url": "https://deadline.com/2026/10/paper-tiger-furies-doha-film-festival-gala-screenings-1237167206/",
+                "source": "Deadline",
+                "published": "2026-10-19T11:37:00.000Z"
               },
               {
-                "title": "The 26-Foot eVista XL Tiny Home Skips the Loft for a Private Bedroom",
-                "url": "https://www.yankodesign.com/2026/10/17/the-26-foot-evista-xl-tiny-home-skips-the-loft-for-a-private-bedroom/?utm_source=rss&utm_medium=rss&utm_campaign=the-26-foot-evista-xl-tiny-home-skips-the-loft-for-a-private-bedroom",
-                "source": "Yanko Design",
-                "published": "2026-10-17T17:20:54.000Z"
+                "title": "James Gray’s ‘Paper Tiger’ Among Doha Film Festival’s Gala and Special Screenings Lineups",
+                "url": "https://variety.com/2026/film/news/james-gray-paper-tiger-doha-film-festival-1236915649/",
+                "source": "Variety",
+                "published": "2026-10-19T11:00:00.000Z"
+              },
+              {
+                "title": "‘The Secret Agent’ Director Kleber Mendonça Filho to Be Patron of Marrakech Film Festival’s Atlas Workshops",
+                "url": "https://variety.com/2026/film/global/kleber-mendonca-filho-marrakech-atlas-workshops-1236915626/",
+                "source": "Variety",
+                "published": "2026-10-19T09:23:10.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "A24 Establishes Cultural Legitimacy Authority",
+            "summary": "'You Can See Everything' (Nathan Fielder/Lance Oppenheim Elizabeth Holmes doc) opent met $15M, cementing A24 als gatekeeper van cultureel prestige entertainment. Wikipedia ranking #6 (239.333 views) bevestigt mainstream penetratie.",
+            "why_it_matters": "A24 is niet meer indie distributor, het is een merkgarantie voor culturele relevantie en journalistieke legitimiteit die massa-publiek aantrekt.",
+            "strategic_signal": "Partner met A24-geassocieerde creators of aesthetics om imago-upgrade te bereiken; het label zelf is geworden het product.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Hypebeast",
+              "The Hollywood Reporter",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "You Can See Everything",
+                "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-19T12:39:13.645Z"
+              },
+              {
+                "title": "Everything Dropping at Palace This Week",
+                "url": "https://hypebeast.com/2026/10/palace-skateboards-winter-2026-drop-4-release-info",
+                "source": "Hypebeast",
+                "published": "2026-10-19T11:30:20.000Z"
+              },
+              {
+                "title": "The Six Things You Don’t See In ‘You Can See Everything’",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/you-can-see-everything-what-happens-holmes-billy-showtimes-1236735112/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-19T03:09:37.000Z"
               }
             ]
           }
         ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-10-19T12:39:37.393Z",
+    "megaTrends": [
+      {
+        "trend": "Niche Legitimacy Through Institutional Endorsement",
+        "summary": "Voorheen marginale of subculture-elementen krijgen culturele waardigheid via gevestigde instituties en premium merken. Orkesten valideren genre-crossovers in muziek, A24 legitimeert alternatieve filmesthetiek, en luxe merken adopteren sportswear-utiliteit.",
+        "why_it_matters": "Dit toont hoe subculturen en 'lage' vormen van cultuur nu mainstream acceptatie zoeken via institutionele co-signing in plaats van grassroots authenticiteit.",
+        "categories": [
+          "music",
+          "fashion",
+          "film"
+        ],
+        "strength": "sterk"
       }
     ]
   },

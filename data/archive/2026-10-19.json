@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-19",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-19T12:39:34.728Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Orchestra Collaborations Legitimize Genre Crossovers",
+            "summary": "Red Hot Chili Peppers speelt klassieke Hillel Slovak-nummers live + ONEFOUR (Western Sydney drill) teamt met Penrith Chamber Orchestra voor 'Made Men' premiere. Miley Cyrus comeback-defensie toont artistieke legitimiteit-zoektocht.",
+            "why_it_matters": "Genre-grens vervagen: mainstream artists gebruiken klassieke/orchestrale framing om depth en 'serieuze kunstenaarsstatus' aan populaire muziek toe te voegen.",
+            "strategic_signal": "Voor merken die millennial/Gen Z audiences willen bereiken: sponsor of associeer met cross-genre collaborations (street music + orchestra, pop + klassiek) als marker van 'eclectic taste' en culturele autoriteit.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Dezeen",
+              "NME",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Miley Cyrus Fires Back at Criticism of Hollywood Bowl Concert and Considered Not Doing Second Show: ‘It’s Hard for Me to Stand Up Here’",
+                "url": "https://variety.com/2026/music/news/miley-cyrus-fires-back-criticism-hollywood-bowl-concert-1236916307/",
+                "source": "Variety",
+                "published": "2026-10-19T12:09:11.000Z"
+              },
+              {
+                "title": "Miley Cyrus Hits Back at Criticism of First Hollywood Bowl Show: ‘The Only Thing That I Have Is This Moment With All of You’",
+                "url": "https://www.billboard.com/music/pop/miley-cyrus-responds-criticism-first-hollywood-bowl-show-1236362598/",
+                "source": "Billboard",
+                "published": "2026-10-19T11:50:37.000Z"
+              },
+              {
+                "title": "The Cribs announce special homecoming show celebrating 20 years of ‘Men’s Needs, Women’s Needs, Whatever’ with !Forward, Russia!",
+                "url": "https://www.nme.com/news/music/the-cribs-announce-special-homecoming-show-celebrating-20-years-of-mens-needs-womens-needs-whatever-with-forward-russia-3973492?utm_source=rss&utm_medium=rss&utm_campaign=the-cribs-announce-special-homecoming-show-celebrating-20-years-of-mens-needs-womens-needs-whatever-with-forward-russia",
+                "source": "NME",
+                "published": "2026-10-19T09:38:38.000Z"
+              },
+              {
+                "title": "Watch Red Hot Chili Peppers play classic Hillel Slovak-era songs for first time in decades at Hollywood charity show",
+                "url": "https://www.nme.com/news/music/watch-red-hot-chili-peppers-play-hillel-slovak-songs-first-time-in-decades-3973483?utm_source=rss&utm_medium=rss&utm_campaign=watch-red-hot-chili-peppers-play-hillel-slovak-songs-first-time-in-decades",
+                "source": "NME",
+                "published": "2026-10-19T08:57:26.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fashion",
+        "label": "Fashion",
+        "insights": [
+          {
+            "trend": "Utilitarian Luxury Sneakers Define Premium Sportswear",
+            "summary": "Nike Air Force 1 Luxe, ACG-Hoops Eggplant return, Air Max Moto 2K Cordura, en Kobe 3 Mamba Eterno domineren drops. Patroon: functionele, tactische esthetiek in premium materials.",
+            "why_it_matters": "Sneaker culture evolueert van pure hype naar 'responsible' luxury, craft, heritage colorways, en militaire/outdoor functionalism signaleren volwassenheid en duurzaamheid.",
+            "strategic_signal": "Sneaker-collaboraties positioneren met 'heritage revisit' (Día de los Muertos Kobe, ACG archival restocks) eerder dan trend-chasing; authenticiteit door archief-mining wint van newness.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Highsnobiety",
+              "Hypebeast",
+              "Sneaker News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Nike’s Fanciest Forces Refuse to Clock Out",
+                "url": "https://www.highsnobiety.com/p/nike-air-force-1-luxe-sneakers/",
+                "source": "Highsnobiety",
+                "published": "2026-10-19T10:01:58.000Z"
+              },
+              {
+                "title": "Nike's Insane ACG-Hoops Crossover Returns to the Streets",
+                "url": "https://www.highsnobiety.com/p/nike-acg-air-max-foamdome/",
+                "source": "Highsnobiety",
+                "published": "2026-10-19T09:59:31.000Z"
+              },
+              {
+                "title": "Nike Honors Día de los Muertos With the Kobe 3 Low Protro \"Mamba Eterno\"",
+                "url": "https://hypebeast.com/2026/10/nike-kobe-3-low-protro-mamba-eterno-io6260-800-release-info",
+                "source": "Hypebeast",
+                "published": "2026-10-19T07:23:16.000Z"
+              },
+              {
+                "title": "Nike’s Ruggedized Air Max Is a Military-Minded Gem",
+                "url": "https://www.highsnobiety.com/p/nike-air-max-moto-2k-cordura-medium-ash/",
+                "source": "Highsnobiety",
+                "published": "2026-10-19T10:00:12.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Arcade Nostalgia Moves Into Mainstream Film",
+            "summary": "Street Fighter krijgt major filmadaptatie (181.850 Wikipedia views, rang #7) met cross-media momentum. Dit sluit aan bij terugkeerpatroon van retro-gaming in entertainment.",
+            "why_it_matters": "Arcade culture is niet langer niche gaming, het wordt Hollywood IP met mass-market appeal en intergenerationele aantrekkingskracht.",
+            "strategic_signal": "Merken kunnen arcade-esthetiek (pixelated designs, '80s-'90s iconografie) gebruiken in campagnes gericht op millennials + Gen Z als authentieke nostalgia, niet kitsch.",
+            "trajectory": "opkomend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Deadline",
+              "Hypebeast",
+              "The Hollywood Reporter",
+              "Variety",
+              "Wikipedia Trending EN",
+              "Yanko Design"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Love of Your Life (film)",
+                "url": "https://en.wikipedia.org/wiki/Love_of_Your_Life_(film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-19T12:39:13.645Z"
+              },
+              {
+                "title": "‘Paper Tiger’ & Furies’ Set For Doha Film Festival Gala Screenings",
+                "url": "https://deadline.com/2026/10/paper-tiger-furies-doha-film-festival-gala-screenings-1237167206/",
+                "source": "Deadline",
+                "published": "2026-10-19T11:37:00.000Z"
+              },
+              {
+                "title": "James Gray’s ‘Paper Tiger’ Among Doha Film Festival’s Gala and Special Screenings Lineups",
+                "url": "https://variety.com/2026/film/news/james-gray-paper-tiger-doha-film-festival-1236915649/",
+                "source": "Variety",
+                "published": "2026-10-19T11:00:00.000Z"
+              },
+              {
+                "title": "‘The Secret Agent’ Director Kleber Mendonça Filho to Be Patron of Marrakech Film Festival’s Atlas Workshops",
+                "url": "https://variety.com/2026/film/global/kleber-mendonca-filho-marrakech-atlas-workshops-1236915626/",
+                "source": "Variety",
+                "published": "2026-10-19T09:23:10.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "A24 Establishes Cultural Legitimacy Authority",
+            "summary": "'You Can See Everything' (Nathan Fielder/Lance Oppenheim Elizabeth Holmes doc) opent met $15M, cementing A24 als gatekeeper van cultureel prestige entertainment. Wikipedia ranking #6 (239.333 views) bevestigt mainstream penetratie.",
+            "why_it_matters": "A24 is niet meer indie distributor, het is een merkgarantie voor culturele relevantie en journalistieke legitimiteit die massa-publiek aantrekt.",
+            "strategic_signal": "Partner met A24-geassocieerde creators of aesthetics om imago-upgrade te bereiken; het label zelf is geworden het product.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Hypebeast",
+              "The Hollywood Reporter",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "You Can See Everything",
+                "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-19T12:39:13.645Z"
+              },
+              {
+                "title": "Everything Dropping at Palace This Week",
+                "url": "https://hypebeast.com/2026/10/palace-skateboards-winter-2026-drop-4-release-info",
+                "source": "Hypebeast",
+                "published": "2026-10-19T11:30:20.000Z"
+              },
+              {
+                "title": "The Six Things You Don’t See In ‘You Can See Everything’",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/you-can-see-everything-what-happens-holmes-billy-showtimes-1236735112/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-19T03:09:37.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-10-19T12:39:37.393Z",
+    "megaTrends": [
+      {
+        "trend": "Niche Legitimacy Through Institutional Endorsement",
+        "summary": "Voorheen marginale of subculture-elementen krijgen culturele waardigheid via gevestigde instituties en premium merken. Orkesten valideren genre-crossovers in muziek, A24 legitimeert alternatieve filmesthetiek, en luxe merken adopteren sportswear-utiliteit.",
+        "why_it_matters": "Dit toont hoe subculturen en 'lage' vormen van cultuur nu mainstream acceptatie zoeken via institutionele co-signing in plaats van grassroots authenticiteit.",
+        "categories": [
+          "music",
+          "fashion",
+          "film"
+        ],
+        "strength": "sterk"
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-15T11:07:39.859Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Immersive Brand Experiences via Temporary Installations",
+        "category": "art",
+        "what_is_happening": "Luxury brands and art institutions are turning physical spaces, from galleries to cars, into temporary sensory exhibitions, with Aesop, KOZO and others leading. The pop-up is becoming a full sensory world rather than a shop.",
+        "why_it_matters_for_brands": "Audiences are rewarding brands that build a place to feel something, a deeper form of presence than a product display.",
+        "what_brands_can_do": [
+          "Design a temporary space to be felt, not just seen.",
+          "Engage more senses than sight, and make it worth travelling for.",
+          "Treat the installation as the campaign, not a backdrop to one."
+        ]
+      },
+      {
+        "trend": "Regional Festivals as Career-Launch Ecosystems",
+        "category": "trends",
+        "what_is_happening": "Regional festivals like Other Voices in Ireland are functioning as discovery platforms with a track record of launching careers, including Fontaines D.C. The small, curated festival is becoming a talent pipeline, not just an event.",
+        "why_it_matters_for_brands": "Smaller, curated platforms are where tomorrow’s big names surface, offering brands early and credible access before the mainstream catches on.",
+        "what_brands_can_do": [
+          "Back smaller, curated platforms to reach talent early.",
+          "Partner for discovery, not just the headline moment.",
+          "Treat early association as credibility you cannot buy later."
+        ]
+      },
+      {
+        "trend": "Safety-First Event Design as a Values Signal",
+        "category": "music",
+        "what_is_happening": "Live-music spaces are actively building in safety measures, including women-only mosh pits, as a direct response to harassment at festivals and concerts. On the Sex Pistols’ current tour, frontman Frank Carter reserves a women-only pit at each show and publicly removed a man who tried to enter one in Denver, framing it as a space for anyone who does not usually feel safe.",
+        "why_it_matters_for_brands": "Audiences increasingly judge events, and the brands around them, on whether people are kept safe, making safety a visible part of the experience.",
+        "what_brands_can_do": [
+          "Design safety into an event from the start, and make it visible.",
+          "Make protections easy to find and use, not an afterthought.",
+          "Let partners see safety as part of the brand, not a liability."
+        ]
+      }
+    ]
+  }
+}
