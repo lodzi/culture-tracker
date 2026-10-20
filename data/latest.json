@@ -1,210 +1,154 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-19T12:39:34.728Z",
-    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "generatedAt": "2026-10-20T11:11:33.717Z",
+    "intro": "2 categorieën · 3 trends · laatste 24u",
     "categories": [
-      {
-        "id": "music",
-        "label": "Muziek",
-        "insights": [
-          {
-            "trend": "Orchestra Collaborations Legitimize Genre Crossovers",
-            "summary": "Red Hot Chili Peppers speelt klassieke Hillel Slovak-nummers live + ONEFOUR (Western Sydney drill) teamt met Penrith Chamber Orchestra voor 'Made Men' premiere. Miley Cyrus comeback-defensie toont artistieke legitimiteit-zoektocht.",
-            "why_it_matters": "Genre-grens vervagen: mainstream artists gebruiken klassieke/orchestrale framing om depth en 'serieuze kunstenaarsstatus' aan populaire muziek toe te voegen.",
-            "strategic_signal": "Voor merken die millennial/Gen Z audiences willen bereiken: sponsor of associeer met cross-genre collaborations (street music + orchestra, pop + klassiek) als marker van 'eclectic taste' en culturele autoriteit.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Billboard",
-              "Dezeen",
-              "NME",
-              "The Hollywood Reporter",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Miley Cyrus Fires Back at Criticism of Hollywood Bowl Concert and Considered Not Doing Second Show: ‘It’s Hard for Me to Stand Up Here’",
-                "url": "https://variety.com/2026/music/news/miley-cyrus-fires-back-criticism-hollywood-bowl-concert-1236916307/",
-                "source": "Variety",
-                "published": "2026-10-19T12:09:11.000Z"
-              },
-              {
-                "title": "Miley Cyrus Hits Back at Criticism of First Hollywood Bowl Show: ‘The Only Thing That I Have Is This Moment With All of You’",
-                "url": "https://www.billboard.com/music/pop/miley-cyrus-responds-criticism-first-hollywood-bowl-show-1236362598/",
-                "source": "Billboard",
-                "published": "2026-10-19T11:50:37.000Z"
-              },
-              {
-                "title": "The Cribs announce special homecoming show celebrating 20 years of ‘Men’s Needs, Women’s Needs, Whatever’ with !Forward, Russia!",
-                "url": "https://www.nme.com/news/music/the-cribs-announce-special-homecoming-show-celebrating-20-years-of-mens-needs-womens-needs-whatever-with-forward-russia-3973492?utm_source=rss&utm_medium=rss&utm_campaign=the-cribs-announce-special-homecoming-show-celebrating-20-years-of-mens-needs-womens-needs-whatever-with-forward-russia",
-                "source": "NME",
-                "published": "2026-10-19T09:38:38.000Z"
-              },
-              {
-                "title": "Watch Red Hot Chili Peppers play classic Hillel Slovak-era songs for first time in decades at Hollywood charity show",
-                "url": "https://www.nme.com/news/music/watch-red-hot-chili-peppers-play-hillel-slovak-songs-first-time-in-decades-3973483?utm_source=rss&utm_medium=rss&utm_campaign=watch-red-hot-chili-peppers-play-hillel-slovak-songs-first-time-in-decades",
-                "source": "NME",
-                "published": "2026-10-19T08:57:26.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "fashion",
-        "label": "Fashion",
-        "insights": [
-          {
-            "trend": "Utilitarian Luxury Sneakers Define Premium Sportswear",
-            "summary": "Nike Air Force 1 Luxe, ACG-Hoops Eggplant return, Air Max Moto 2K Cordura, en Kobe 3 Mamba Eterno domineren drops. Patroon: functionele, tactische esthetiek in premium materials.",
-            "why_it_matters": "Sneaker culture evolueert van pure hype naar 'responsible' luxury, craft, heritage colorways, en militaire/outdoor functionalism signaleren volwassenheid en duurzaamheid.",
-            "strategic_signal": "Sneaker-collaboraties positioneren met 'heritage revisit' (Día de los Muertos Kobe, ACG archival restocks) eerder dan trend-chasing; authenticiteit door archief-mining wint van newness.",
-            "trajectory": "piekend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Highsnobiety",
-              "Hypebeast",
-              "Sneaker News"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Nike’s Fanciest Forces Refuse to Clock Out",
-                "url": "https://www.highsnobiety.com/p/nike-air-force-1-luxe-sneakers/",
-                "source": "Highsnobiety",
-                "published": "2026-10-19T10:01:58.000Z"
-              },
-              {
-                "title": "Nike's Insane ACG-Hoops Crossover Returns to the Streets",
-                "url": "https://www.highsnobiety.com/p/nike-acg-air-max-foamdome/",
-                "source": "Highsnobiety",
-                "published": "2026-10-19T09:59:31.000Z"
-              },
-              {
-                "title": "Nike Honors Día de los Muertos With the Kobe 3 Low Protro \"Mamba Eterno\"",
-                "url": "https://hypebeast.com/2026/10/nike-kobe-3-low-protro-mamba-eterno-io6260-800-release-info",
-                "source": "Hypebeast",
-                "published": "2026-10-19T07:23:16.000Z"
-              },
-              {
-                "title": "Nike’s Ruggedized Air Max Is a Military-Minded Gem",
-                "url": "https://www.highsnobiety.com/p/nike-air-max-moto-2k-cordura-medium-ash/",
-                "source": "Highsnobiety",
-                "published": "2026-10-19T10:00:12.000Z"
-              }
-            ]
-          }
-        ]
-      },
       {
         "id": "film",
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Arcade Nostalgia Moves Into Mainstream Film",
-            "summary": "Street Fighter krijgt major filmadaptatie (181.850 Wikipedia views, rang #7) met cross-media momentum. Dit sluit aan bij terugkeerpatroon van retro-gaming in entertainment.",
-            "why_it_matters": "Arcade culture is niet langer niche gaming, het wordt Hollywood IP met mass-market appeal en intergenerationele aantrekkingskracht.",
-            "strategic_signal": "Merken kunnen arcade-esthetiek (pixelated designs, '80s-'90s iconografie) gebruiken in campagnes gericht op millennials + Gen Z als authentieke nostalgia, niet kitsch.",
+            "trend": "Regional Film Hubs Challenge Western Centralization",
+            "summary": "Jakarta, Mallorca en Nigeria positioneren zich actief als alternatieve filmproductiecentra met financiering, festivals en acceleratorprogramma's. Deze steden concurreren expliciet met gevestigde hubs door lokaal talent en internationale fondsen aan te trekken.",
+            "why_it_matters": "Dit signaleert een verschuiving van Hollywood-centrisme naar gedecentraliseerde creatieve ecosystemen, wat culturele macht en narratieven over continenten verspreidt.",
+            "strategic_signal": "Merken kunnen lokale filmmakers en producties in opkomende hubs sponsoren als authentieke alternative-content-strategie, vooral voor publiek dat zich tegen corporatistische narratieven verzet.",
             "trajectory": "opkomend",
-            "daysActive": 3,
-            "isNew": false,
-            "sources": [
-              "Deadline",
-              "Hypebeast",
-              "The Hollywood Reporter",
-              "Variety",
-              "Wikipedia Trending EN",
-              "Yanko Design"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Love of Your Life (film)",
-                "url": "https://en.wikipedia.org/wiki/Love_of_Your_Life_(film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-10-19T12:39:13.645Z"
-              },
-              {
-                "title": "‘Paper Tiger’ & Furies’ Set For Doha Film Festival Gala Screenings",
-                "url": "https://deadline.com/2026/10/paper-tiger-furies-doha-film-festival-gala-screenings-1237167206/",
-                "source": "Deadline",
-                "published": "2026-10-19T11:37:00.000Z"
-              },
-              {
-                "title": "James Gray’s ‘Paper Tiger’ Among Doha Film Festival’s Gala and Special Screenings Lineups",
-                "url": "https://variety.com/2026/film/news/james-gray-paper-tiger-doha-film-festival-1236915649/",
-                "source": "Variety",
-                "published": "2026-10-19T11:00:00.000Z"
-              },
-              {
-                "title": "‘The Secret Agent’ Director Kleber Mendonça Filho to Be Patron of Marrakech Film Festival’s Atlas Workshops",
-                "url": "https://variety.com/2026/film/global/kleber-mendonca-filho-marrakech-atlas-workshops-1236915626/",
-                "source": "Variety",
-                "published": "2026-10-19T09:23:10.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "A24 Establishes Cultural Legitimacy Authority",
-            "summary": "'You Can See Everything' (Nathan Fielder/Lance Oppenheim Elizabeth Holmes doc) opent met $15M, cementing A24 als gatekeeper van cultureel prestige entertainment. Wikipedia ranking #6 (239.333 views) bevestigt mainstream penetratie.",
-            "why_it_matters": "A24 is niet meer indie distributor, het is een merkgarantie voor culturele relevantie en journalistieke legitimiteit die massa-publiek aantrekt.",
-            "strategic_signal": "Partner met A24-geassocieerde creators of aesthetics om imago-upgrade te bereiken; het label zelf is geworden het product.",
-            "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Hypebeast",
-              "The Hollywood Reporter",
-              "Wikipedia Trending EN"
+              "A.V. Club",
+              "Ars Technica",
+              "Billboard",
+              "Consequence",
+              "IndieWire",
+              "Stereogum"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "You Can See Everything",
-                "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-10-19T12:39:13.645Z"
+                "title": "MUNA’s Tour Bus Catches Fire After Stanford Show: ‘We’re All Safe’",
+                "url": "https://www.billboard.com/lists/muna-tour-bus-catches-fire/",
+                "source": "Billboard",
+                "published": "2026-10-20T06:21:38.000Z"
               },
               {
-                "title": "Everything Dropping at Palace This Week",
-                "url": "https://hypebeast.com/2026/10/palace-skateboards-winter-2026-drop-4-release-info",
-                "source": "Hypebeast",
-                "published": "2026-10-19T11:30:20.000Z"
+                "title": "Jon Stewart Extends Weekly ‘Daily Show’ Hosting Gig Through 2028",
+                "url": "https://www.indiewire.com/news/breaking-news/jon-stewart-keep-hosting-the-daily-show-through-2028-1235222796/",
+                "source": "IndieWire",
+                "published": "2026-10-19T18:30:00.000Z"
               },
               {
-                "title": "The Six Things You Don’t See In ‘You Can See Everything’",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/you-can-see-everything-what-happens-holmes-billy-showtimes-1236735112/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-10-19T03:09:37.000Z"
+                "title": "AI game clones are making indie developers afraid to show their work",
+                "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+                "source": "Ars Technica",
+                "published": "2026-10-19T16:59:22.000Z"
+              },
+              {
+                "title": "Weekly Daily Show host Jon Stewart to stay on yearly through 2028",
+                "url": "https://www.avclub.com/jon-stewart-resigns-daily-show-contract-2028",
+                "source": "A.V. Club",
+                "published": "2026-10-19T20:03:24.000Z"
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  "crossCategory": {
-    "generatedAt": "2026-10-19T12:39:37.393Z",
-    "megaTrends": [
+      },
       {
-        "trend": "Niche Legitimacy Through Institutional Endorsement",
-        "summary": "Voorheen marginale of subculture-elementen krijgen culturele waardigheid via gevestigde instituties en premium merken. Orkesten valideren genre-crossovers in muziek, A24 legitimeert alternatieve filmesthetiek, en luxe merken adopteren sportswear-utiliteit.",
-        "why_it_matters": "Dit toont hoe subculturen en 'lage' vormen van cultuur nu mainstream acceptatie zoeken via institutionele co-signing in plaats van grassroots authenticiteit.",
-        "categories": [
-          "music",
-          "fashion",
-          "film"
-        ],
-        "strength": "sterk"
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "AI Voice Theft Becomes Unionized Labor Issue",
+            "summary": "Japanese acting unions en internationale stemacteurs formuleren strikt beleid tegen AI-gegenereerde stemgebruik, vooral voor postume stemmen. Dit volgt massale incidenten waarin AI-stemmen zonder toestemming werden gekloneerd.",
+            "why_it_matters": "Dit markeert de eerste georganiseerde culturele weerstand tegen AI-auteursrechtsverlies en transformeert AI-ethiek van tech-abstractie naar concreet arbeidersbe­scherming.",
+            "strategic_signal": "Gamingbedrijven en animatiestudio's die stemacteurs inhuren moeten nu expliciet voice-ownership-clauses toevoegen aan contracten; AI-vrije casting wordt een marketing-asset voor ethische merken.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "404 Media",
+              "A.V. Club",
+              "Consequence",
+              "Eurogamer",
+              "Kotaku"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Japanese acting union fights back against AI-generated voice use, proposing strict new guidelines, especially regarding the use of a deceased actor's voice",
+                "url": "https://www.eurogamer.net/japanese-voice-acting-union-generative-ai",
+                "source": "Eurogamer",
+                "published": "2026-10-19T15:12:17.000Z"
+              },
+              {
+                "title": "Voice Of Goku Responds To AI Stealing Her Voice: ‘I Can’t Forgive Them…It Makes Me Really Angry, It’s No Different Than Theft’",
+                "url": "https://kotaku.com/voice-of-goku-responds-to-ai-stealing-her-voice-i-cant-forgive-them-it-makes-me-really-angry-its-no-different-than-theft-2000747356",
+                "source": "Kotaku",
+                "published": "2026-10-19T21:30:50.000Z"
+              },
+              {
+                "title": "Selena Gomez says vaping changed her voice",
+                "url": "https://www.avclub.com/selena-gomez-says-vaping-changed-her-voice",
+                "source": "A.V. Club",
+                "published": "2026-10-19T21:20:19.000Z"
+              },
+              {
+                "title": "Selena Gomez Says Vaping Nicotine Changed Her Voice",
+                "url": "https://consequence.net/2026/10/selena-gomez-says-vaping-nicotine-changed-her-voice/",
+                "source": "Consequence",
+                "published": "2026-10-19T19:24:09.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Games Weaponize Political Stance as Release Strategy",
+            "summary": "Origame Digital bant hun spel Penguin Colony actief van verkoop in Israël als BDS-solidariteit. Dit volgt jaren waarin games stilzwijgend politiek neutraal probeerden te blijven. Dit is een manifeste politieke keuze die deel uitmaakt van de release-identiteit.",
+            "why_it_matters": "Dit toont dat indie games geopolitieke stellingname als kernonderdeel van culturele betekenis gebruiken, niet als PR-voetnoot. Makers kiezen bewust publiek en markt.",
+            "strategic_signal": "Merken moeten voorbereiding hebben op games die hen politiek uitdagen; dit is geen fringe. Het wordt distributie-strategie voor makers die authentieke standpunten hebben.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Adweek",
+              "Eurogamer",
+              "Kotaku",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "\"This act is intended to demonstrate solidarity with Palestine\" - Umurangi Generation studio blocks new game Penguin Colony from being sold in Israel",
+                "url": "https://www.eurogamer.net/umurangi-generation-studio-blocks-penguin-colony-sale-in-isreal-pro-palestine",
+                "source": "Eurogamer",
+                "published": "2026-10-20T08:49:14.000Z"
+              },
+              {
+                "title": "Best Buy and IGN Pair Up Ahead Of Major Game Releases",
+                "url": "https://www.adweek.com/commerce/best-buy-and-ign-pair-up-ahead-of-major-game-releases/",
+                "source": "Adweek",
+                "published": "2026-10-20T07:00:00.000Z"
+              },
+              {
+                "title": "‘Star Wars’-Themed Super Bowl Altcast Joins Disney’s Big Game Lineup",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/star-wars-super-bowl-altcast-disney-plus-1236735682/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-20T02:00:00.000Z"
+              },
+              {
+                "title": "Penguin Colony Developers Talk The BDS Talk And Walk The Walk By Banning The Game For Sale In Israel",
+                "url": "https://kotaku.com/penguin-colony-developers-talk-the-bds-talk-and-walk-the-walk-by-banning-the-game-for-sale-in-israel-2000747581",
+                "source": "Kotaku",
+                "published": "2026-10-19T18:30:12.000Z"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
