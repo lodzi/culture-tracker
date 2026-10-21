@@ -1,150 +1,58 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-20T11:11:33.717Z",
-    "intro": "2 categorieën · 3 trends · laatste 24u",
+    "generatedAt": "2026-10-21T11:27:27.166Z",
+    "intro": "1 categorieën · 1 trends · laatste 24u",
     "categories": [
       {
         "id": "film",
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Regional Film Hubs Challenge Western Centralization",
-            "summary": "Jakarta, Mallorca en Nigeria positioneren zich actief als alternatieve filmproductiecentra met financiering, festivals en acceleratorprogramma's. Deze steden concurreren expliciet met gevestigde hubs door lokaal talent en internationale fondsen aan te trekken.",
-            "why_it_matters": "Dit signaleert een verschuiving van Hollywood-centrisme naar gedecentraliseerde creatieve ecosystemen, wat culturele macht en narratieven over continenten verspreidt.",
-            "strategic_signal": "Merken kunnen lokale filmmakers en producties in opkomende hubs sponsoren als authentieke alternative-content-strategie, vooral voor publiek dat zich tegen corporatistische narratieven verzet.",
-            "trajectory": "opkomend",
+            "trend": "Streaming Giants Battle Monetization Over Engagement",
+            "summary": "Netflix is actively pivoting strategy away from pure viewership metrics toward revenue optimization, lowering ad revenue targets and prioritizing paid subscriber growth despite reports of declining watch time. This represents a fundamental shift in how streaming platforms measure success and justify valuations to Wall Street.",
+            "why_it_matters": "This signals that content quality and cultural relevance are now secondary to financial engineering, a dangerous signal that streaming platforms may sacrifice artistic risk-taking for short-term shareholder returns, reshaping what gets greenlit.",
+            "strategic_signal": "Brands should accelerate partnerships with independent and mid-tier creators now, before streaming consolidation forces all premium content into algorithmic, ad-supported tiers that favor mass appeal over cultural distinctiveness.",
+            "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
               "A.V. Club",
-              "Ars Technica",
-              "Billboard",
-              "Consequence",
-              "IndieWire",
-              "Stereogum"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "MUNA’s Tour Bus Catches Fire After Stanford Show: ‘We’re All Safe’",
-                "url": "https://www.billboard.com/lists/muna-tour-bus-catches-fire/",
-                "source": "Billboard",
-                "published": "2026-10-20T06:21:38.000Z"
-              },
-              {
-                "title": "Jon Stewart Extends Weekly ‘Daily Show’ Hosting Gig Through 2028",
-                "url": "https://www.indiewire.com/news/breaking-news/jon-stewart-keep-hosting-the-daily-show-through-2028-1235222796/",
-                "source": "IndieWire",
-                "published": "2026-10-19T18:30:00.000Z"
-              },
-              {
-                "title": "AI game clones are making indie developers afraid to show their work",
-                "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
-                "source": "Ars Technica",
-                "published": "2026-10-19T16:59:22.000Z"
-              },
-              {
-                "title": "Weekly Daily Show host Jon Stewart to stay on yearly through 2028",
-                "url": "https://www.avclub.com/jon-stewart-resigns-daily-show-contract-2028",
-                "source": "A.V. Club",
-                "published": "2026-10-19T20:03:24.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "gaming",
-        "label": "Gaming",
-        "insights": [
-          {
-            "trend": "AI Voice Theft Becomes Unionized Labor Issue",
-            "summary": "Japanese acting unions en internationale stemacteurs formuleren strikt beleid tegen AI-gegenereerde stemgebruik, vooral voor postume stemmen. Dit volgt massale incidenten waarin AI-stemmen zonder toestemming werden gekloneerd.",
-            "why_it_matters": "Dit markeert de eerste georganiseerde culturele weerstand tegen AI-auteursrechtsverlies en transformeert AI-ethiek van tech-abstractie naar concreet arbeidersbe­scherming.",
-            "strategic_signal": "Gamingbedrijven en animatiestudio's die stemacteurs inhuren moeten nu expliciet voice-ownership-clauses toevoegen aan contracten; AI-vrije casting wordt een marketing-asset voor ethische merken.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "404 Media",
-              "A.V. Club",
-              "Consequence",
-              "Eurogamer",
-              "Kotaku"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Japanese acting union fights back against AI-generated voice use, proposing strict new guidelines, especially regarding the use of a deceased actor's voice",
-                "url": "https://www.eurogamer.net/japanese-voice-acting-union-generative-ai",
-                "source": "Eurogamer",
-                "published": "2026-10-19T15:12:17.000Z"
-              },
-              {
-                "title": "Voice Of Goku Responds To AI Stealing Her Voice: ‘I Can’t Forgive Them…It Makes Me Really Angry, It’s No Different Than Theft’",
-                "url": "https://kotaku.com/voice-of-goku-responds-to-ai-stealing-her-voice-i-cant-forgive-them-it-makes-me-really-angry-its-no-different-than-theft-2000747356",
-                "source": "Kotaku",
-                "published": "2026-10-19T21:30:50.000Z"
-              },
-              {
-                "title": "Selena Gomez says vaping changed her voice",
-                "url": "https://www.avclub.com/selena-gomez-says-vaping-changed-her-voice",
-                "source": "A.V. Club",
-                "published": "2026-10-19T21:20:19.000Z"
-              },
-              {
-                "title": "Selena Gomez Says Vaping Nicotine Changed Her Voice",
-                "url": "https://consequence.net/2026/10/selena-gomez-says-vaping-nicotine-changed-her-voice/",
-                "source": "Consequence",
-                "published": "2026-10-19T19:24:09.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Games Weaponize Political Stance as Release Strategy",
-            "summary": "Origame Digital bant hun spel Penguin Colony actief van verkoop in Israël als BDS-solidariteit. Dit volgt jaren waarin games stilzwijgend politiek neutraal probeerden te blijven. Dit is een manifeste politieke keuze die deel uitmaakt van de release-identiteit.",
-            "why_it_matters": "Dit toont dat indie games geopolitieke stellingname als kernonderdeel van culturele betekenis gebruiken, niet als PR-voetnoot. Makers kiezen bewust publiek en markt.",
-            "strategic_signal": "Merken moeten voorbereiding hebben op games die hen politiek uitdagen; dit is geen fringe. Het wordt distributie-strategie voor makers die authentieke standpunten hebben.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
               "Adweek",
-              "Eurogamer",
+              "Deadline",
               "Kotaku",
               "The Hollywood Reporter"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "\"This act is intended to demonstrate solidarity with Palestine\" - Umurangi Generation studio blocks new game Penguin Colony from being sold in Israel",
-                "url": "https://www.eurogamer.net/umurangi-generation-studio-blocks-penguin-colony-sale-in-isreal-pro-palestine",
-                "source": "Eurogamer",
-                "published": "2026-10-20T08:49:14.000Z"
+                "title": "‘The Odyssey’ Star John Leguizamo To Be Honored At São Paulo International Film Festival",
+                "url": "https://deadline.com/2026/10/john-leguizamo-thonored-sao-paulo-film-festival-1237169485/",
+                "source": "Deadline",
+                "published": "2026-10-21T10:00:00.000Z"
               },
               {
-                "title": "Best Buy and IGN Pair Up Ahead Of Major Game Releases",
-                "url": "https://www.adweek.com/commerce/best-buy-and-ign-pair-up-ahead-of-major-game-releases/",
-                "source": "Adweek",
-                "published": "2026-10-20T07:00:00.000Z"
+                "title": "Kari Skogland To Direct Vigilante Crime Thriller ‘Vigilant’ From ‘Severance’ Star Ólafur Darri Ólafsson",
+                "url": "https://deadline.com/2026/10/kari-skogland-direct-vigilant-series-olafur-darri-olafsson-1237169507/",
+                "source": "Deadline",
+                "published": "2026-10-21T09:03:12.000Z"
               },
               {
-                "title": "‘Star Wars’-Themed Super Bowl Altcast Joins Disney’s Big Game Lineup",
-                "url": "https://www.hollywoodreporter.com/tv/tv-news/star-wars-super-bowl-altcast-disney-plus-1236735682/",
+                "title": "‘Doctor Who’ Star Noel Clarke Pleads Not Guilty to Sexual Assault, Voyeurism, Exposure",
+                "url": "https://www.hollywoodreporter.com/news/general-news/doctor-who-noel-clarke-pleads-not-guilty-sexual-assault-tv-1236737152/",
                 "source": "The Hollywood Reporter",
-                "published": "2026-10-20T02:00:00.000Z"
+                "published": "2026-10-21T09:53:26.000Z"
               },
               {
-                "title": "Penguin Colony Developers Talk The BDS Talk And Walk The Walk By Banning The Game For Sale In Israel",
-                "url": "https://kotaku.com/penguin-colony-developers-talk-the-bds-talk-and-walk-the-walk-by-banning-the-game-for-sale-in-israel-2000747581",
-                "source": "Kotaku",
-                "published": "2026-10-19T18:30:12.000Z"
+                "title": "Christopher McQuarrie finds new movie star to throw out of planes: Denzel Washington",
+                "url": "https://www.avclub.com/denzel-washington-star-christopher-mcquarrie-new-thriller",
+                "source": "A.V. Club",
+                "published": "2026-10-20T23:07:29.000Z"
               }
             ]
           }
@@ -153,39 +61,17 @@
     ]
   },
   "weeklyBrandSignals": {
-    "generatedAt": "2026-10-15T11:07:39.859Z",
+    "generatedAt": "2026-10-21T11:29:05.982Z",
     "weeklyBrandSignals": [
       {
-        "trend": "Immersive Brand Experiences via Temporary Installations",
-        "category": "art",
-        "what_is_happening": "Luxury brands and art institutions are turning physical spaces, from galleries to cars, into temporary sensory exhibitions, with Aesop, KOZO and others leading. The pop-up is becoming a full sensory world rather than a shop.",
-        "why_it_matters_for_brands": "Audiences are rewarding brands that build a place to feel something, a deeper form of presence than a product display.",
+        "trend": "Streaming Platforms Prioritise Revenue Over Reach",
+        "category": "film",
+        "what_is_happening": "Netflix is shifting its core success metrics away from viewership numbers toward revenue optimisation, including lowering ad revenue targets and focusing on paid subscriber growth over raw watch time. This marks a structural change in how streaming giants justify their value, with direct consequences for what content gets commissioned and what creative risks are taken.",
+        "why_it_matters_for_brands": "As platforms tighten commissioning criteria around financial return rather than cultural impact, brands investing in content partnerships or original productions must re-evaluate where genuine audience attention, and creative freedom, still lives.",
         "what_brands_can_do": [
-          "Design a temporary space to be felt, not just seen.",
-          "Engage more senses than sight, and make it worth travelling for.",
-          "Treat the installation as the campaign, not a backdrop to one."
-        ]
-      },
-      {
-        "trend": "Regional Festivals as Career-Launch Ecosystems",
-        "category": "trends",
-        "what_is_happening": "Regional festivals like Other Voices in Ireland are functioning as discovery platforms with a track record of launching careers, including Fontaines D.C. The small, curated festival is becoming a talent pipeline, not just an event.",
-        "why_it_matters_for_brands": "Smaller, curated platforms are where tomorrow’s big names surface, offering brands early and credible access before the mainstream catches on.",
-        "what_brands_can_do": [
-          "Back smaller, curated platforms to reach talent early.",
-          "Partner for discovery, not just the headline moment.",
-          "Treat early association as credibility you cannot buy later."
-        ]
-      },
-      {
-        "trend": "Safety-First Event Design as a Values Signal",
-        "category": "music",
-        "what_is_happening": "Live-music spaces are actively building in safety measures, including women-only mosh pits, as a direct response to harassment at festivals and concerts. On the Sex Pistols’ current tour, frontman Frank Carter reserves a women-only pit at each show and publicly removed a man who tried to enter one in Denver, framing it as a space for anyone who does not usually feel safe.",
-        "why_it_matters_for_brands": "Audiences increasingly judge events, and the brands around them, on whether people are kept safe, making safety a visible part of the experience.",
-        "what_brands_can_do": [
-          "Design safety into an event from the start, and make it visible.",
-          "Make protections easy to find and use, not an afterthought.",
-          "Let partners see safety as part of the brand, not a liability."
+          "Audit existing streaming partnerships to assess whether platform incentives still align with your audience reach goals.",
+          "Redirect content investment toward mid-tier or independent platforms where editorial risk-taking and cultural relevance remain priorities.",
+          "Build direct content channels, such as owned video series or editorial formats, to reduce dependency on shifting platform logic."
         ]
       }
     ]

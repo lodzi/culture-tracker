@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-21",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-21T11:27:27.166Z",
+    "intro": "1 categorieën · 1 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Streaming Giants Battle Monetization Over Engagement",
+            "summary": "Netflix is actively pivoting strategy away from pure viewership metrics toward revenue optimization, lowering ad revenue targets and prioritizing paid subscriber growth despite reports of declining watch time. This represents a fundamental shift in how streaming platforms measure success and justify valuations to Wall Street.",
+            "why_it_matters": "This signals that content quality and cultural relevance are now secondary to financial engineering, a dangerous signal that streaming platforms may sacrifice artistic risk-taking for short-term shareholder returns, reshaping what gets greenlit.",
+            "strategic_signal": "Brands should accelerate partnerships with independent and mid-tier creators now, before streaming consolidation forces all premium content into algorithmic, ad-supported tiers that favor mass appeal over cultural distinctiveness.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Adweek",
+              "Deadline",
+              "Kotaku",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘The Odyssey’ Star John Leguizamo To Be Honored At São Paulo International Film Festival",
+                "url": "https://deadline.com/2026/10/john-leguizamo-thonored-sao-paulo-film-festival-1237169485/",
+                "source": "Deadline",
+                "published": "2026-10-21T10:00:00.000Z"
+              },
+              {
+                "title": "Kari Skogland To Direct Vigilante Crime Thriller ‘Vigilant’ From ‘Severance’ Star Ólafur Darri Ólafsson",
+                "url": "https://deadline.com/2026/10/kari-skogland-direct-vigilant-series-olafur-darri-olafsson-1237169507/",
+                "source": "Deadline",
+                "published": "2026-10-21T09:03:12.000Z"
+              },
+              {
+                "title": "‘Doctor Who’ Star Noel Clarke Pleads Not Guilty to Sexual Assault, Voyeurism, Exposure",
+                "url": "https://www.hollywoodreporter.com/news/general-news/doctor-who-noel-clarke-pleads-not-guilty-sexual-assault-tv-1236737152/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-21T09:53:26.000Z"
+              },
+              {
+                "title": "Christopher McQuarrie finds new movie star to throw out of planes: Denzel Washington",
+                "url": "https://www.avclub.com/denzel-washington-star-christopher-mcquarrie-new-thriller",
+                "source": "A.V. Club",
+                "published": "2026-10-20T23:07:29.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-21T11:29:05.982Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Streaming Platforms Prioritise Revenue Over Reach",
+        "category": "film",
+        "what_is_happening": "Netflix is shifting its core success metrics away from viewership numbers toward revenue optimisation, including lowering ad revenue targets and focusing on paid subscriber growth over raw watch time. This marks a structural change in how streaming giants justify their value, with direct consequences for what content gets commissioned and what creative risks are taken.",
+        "why_it_matters_for_brands": "As platforms tighten commissioning criteria around financial return rather than cultural impact, brands investing in content partnerships or original productions must re-evaluate where genuine audience attention, and creative freedom, still lives.",
+        "what_brands_can_do": [
+          "Audit existing streaming partnerships to assess whether platform incentives still align with your audience reach goals.",
+          "Redirect content investment toward mid-tier or independent platforms where editorial risk-taking and cultural relevance remain priorities.",
+          "Build direct content channels, such as owned video series or editorial formats, to reduce dependency on shifting platform logic."
+        ]
+      }
+    ]
+  }
+}
