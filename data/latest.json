@@ -61,17 +61,39 @@
     ]
   },
   "weeklyBrandSignals": {
-    "generatedAt": "2026-10-21T11:29:05.982Z",
+    "generatedAt": "2026-10-22T10:37:46.583Z",
     "weeklyBrandSignals": [
       {
-        "trend": "Streaming Platforms Prioritise Revenue Over Reach",
-        "category": "film",
-        "what_is_happening": "Netflix is shifting its core success metrics away from viewership numbers toward revenue optimisation, including lowering ad revenue targets and focusing on paid subscriber growth over raw watch time. This marks a structural change in how streaming giants justify their value, with direct consequences for what content gets commissioned and what creative risks are taken.",
-        "why_it_matters_for_brands": "As platforms tighten commissioning criteria around financial return rather than cultural impact, brands investing in content partnerships or original productions must re-evaluate where genuine audience attention, and creative freedom, still lives.",
+        "trend": "AI Autonomy as Spectacle Over Engineering",
+        "category": "internet",
+        "what_is_happening": "Tesla’s new Roadster uses SpaceX thrusters for midair flips and sub-second acceleration, generating enormous coverage even as the spectacle outruns the practical use. The stunt has become the product story.",
+        "why_it_matters_for_brands": "Spectacle is increasingly doing the marketing work that substance used to, which can win attention but risks a credibility gap.",
         "what_brands_can_do": [
-          "Audit existing streaming partnerships to assess whether platform incentives still align with your audience reach goals.",
-          "Redirect content investment toward mid-tier or independent platforms where editorial risk-taking and cultural relevance remain priorities.",
-          "Build direct content channels, such as owned video series or editorial formats, to reduce dependency on shifting platform logic."
+          "Use spectacle to earn attention, then deliver real substance behind it.",
+          "Be honest about what is a demo and what actually ships.",
+          "Do not let a stunt write a promise the product cannot keep."
+        ]
+      },
+      {
+        "trend": "Salvage Modernism: Upcycled Materials in Heritage Spaces",
+        "category": "art",
+        "what_is_happening": "Architect Diana Kellogg renovated a historic Tribeca home by deliberately sourcing and integrating salvaged materials throughout. Reuse is being treated as a design language rather than a compromise.",
+        "why_it_matters_for_brands": "Visible reuse is becoming a mark of taste and values, letting sustainability read as premium rather than merely worthy.",
+        "what_brands_can_do": [
+          "Make reuse a visible design choice, not a hidden cost-saver.",
+          "Let the story of a material add value rather than apology.",
+          "Design so sustainability reads as craft, not sacrifice."
+        ]
+      },
+      {
+        "trend": "Orchestra Collaborations Legitimise Genre Crossovers",
+        "category": "music",
+        "what_is_happening": "Red Hot Chili Peppers are performing classic material with orchestral framing while Western Sydney drill group ONEFOUR teamed with the Penrith Chamber Orchestra for new work. Orchestras are being used to legitimise and elevate popular genres.",
+        "why_it_matters_for_brands": "Pairing with classical institutions lends instant credibility, a move brands can borrow to signal depth and seriousness.",
+        "what_brands_can_do": [
+          "Use a prestige partner to elevate, only where the fit is real.",
+          "Let an unexpected pairing add weight, not just novelty.",
+          "Earn the credibility rather than rent the orchestra."
         ]
       }
     ]
