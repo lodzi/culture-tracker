@@ -1,62 +1,231 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-21T11:27:27.166Z",
-    "intro": "1 categorieën · 1 trends · laatste 24u",
+    "generatedAt": "2026-10-22T11:27:34.890Z",
+    "intro": "4 categorieën · 4 trends · laatste 24u",
     "categories": [
+      {
+        "id": "culture",
+        "label": "Cultuur",
+        "insights": [
+          {
+            "trend": "Politieke satire keert terug als cultural reckoning tool",
+            "summary": "Sacha Baron Cohen reviveert de 'Ali G'-karakter en betoogt dat prejudices 'niet alleen lingeren maar zijn gemetastaseerd', satire als antwoord op polarisatie. Dit sluit aan bij eerder thema (20 okt) dat spellen politieke stelling als release-strategie gebruiken.",
+            "why_it_matters": "Humor wordt politiek serieus: makers gebruiken satire niet voor escapisme maar als expliciete cultural diagnosis-tool.",
+            "strategic_signal": "Brands die subculturele of politieke resonantie willen, moeten komische edge toevoegen die risico neemt—'safe satire' is nu ongeloofwaardig geworden voor culturele autoriteit.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "AnOther Magazine",
+              "Dazed",
+              "NME",
+              "The Verge",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Clayface (film)",
+                "url": "https://en.wikipedia.org/wiki/Clayface_(film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-22T11:27:14.176Z"
+              },
+              {
+                "title": "Possible Love: Is this Korean anti-capitalist drama the film of the year?",
+                "url": "https://www.dazeddigital.com/film-tv/article/71216/1/possible-love-korean-anti-capitalist-drama-oscar-lee-chang-dong-interview?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=possible-love-is-this-korean-anti-capitalist-drama-the-film-of-the-year",
+                "source": "Dazed",
+                "published": "2026-10-22T09:43:00.000Z"
+              },
+              {
+                "title": "Sacha Baron Cohen defends reviving “problematic” Ali G character for new film",
+                "url": "https://www.nme.com/news/film/sacha-baron-cohen-defends-reviving-problematic-ali-g-who-iz-i-3973806?utm_source=rss&utm_medium=rss&utm_campaign=sacha-baron-cohen-defends-reviving-problematic-ali-g-who-iz-i",
+                "source": "NME",
+                "published": "2026-10-22T08:41:01.000Z"
+              },
+              {
+                "title": "New York’s first microdrama film festival searches for its audience",
+                "url": "https://www.theverge.com/entertainment/1014494/alza-vertical-film-festival-bill-block-salvador-paskowitz-microdramas-verticals",
+                "source": "The Verge",
+                "published": "2026-10-21T20:49:07.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Heritage albums become live event spectacles",
+            "summary": "Amy Winehouse's 'Back to Black' 20-year anniversary werd gevierd met een all-star tribute concert in Londen, met performances van Mark Ronson, Jorja Smith en FLO naast Winehouse's originele band. Dit patroon van katalogusalbums die niet als reissue maar als cultureel moment worden heruitgevonden.",
+            "why_it_matters": "Nostalgie transformeert van consumptie naar participatie—brands kunnen heritage niet zomaar 'releasen' maar moeten het als een collectief ritueel inszeneren.",
+            "strategic_signal": "Voor merksamenwerkingen: onderzoek welke 20-jaar-mijlpalen in de komende 18 maanden vallen en positioneer merk-partnerships als curator van het moment, niet als sponsor van de reissue.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "404 Media",
+              "Billboard",
+              "Consequence",
+              "Eurogamer",
+              "Fast Company",
+              "NME",
+              "Pitchfork News",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Watch Mark Ronson, Salaam Remi, Corinne Bailey Rae, Jessie Reyez and more celebrate 20 years of ‘Back To Black’ with Amy Winehouse’s band at London’s Roundhouse",
+                "url": "https://www.nme.com/news/music/watch-mark-ronson-salaam-remi-corinne-bailey-rae-jessie-reyez-and-more-celebrate-20-years-of-back-to-black-with-amy-winehouses-band-at-londons-roundhouse-3973831?utm_source=rss&utm_medium=rss&utm_campaign=watch-mark-ronson-salaam-remi-corinne-bailey-rae-jessie-reyez-and-more-celebrate-20-years-of-back-to-black-with-amy-winehouses-band-at-londons-roundhouse",
+                "source": "NME",
+                "published": "2026-10-22T11:22:06.000Z"
+              },
+              {
+                "title": "Stephen Lang, Uli Edel Reunite on ‘Mercy Rider’ 30 Years After ‘Last Exit to Brooklyn’ (Exclusive)",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/avatar-star-stephen-lang-director-uli-edel-reunite-1236738019/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-22T10:54:22.000Z"
+              },
+              {
+                "title": "Amy Winehouse Honored With Stunning All-Star Tribute Concert Celebrating 20 Years of ‘Back to Black’: Best Moments",
+                "url": "https://www.billboard.com/lists/amy-winehouse-back-to-black-tribute-concert-best-moments/",
+                "source": "Billboard",
+                "published": "2026-10-22T10:16:33.000Z"
+              },
+              {
+                "title": "‘The History Boys’ Returns to London West End After 20 Years, With Nicholas Hytner Back Directing Alan Bennett’s Play",
+                "url": "https://variety.com/2026/theater/news/the-history-boys-london-west-end-20-years-1236919388/",
+                "source": "Variety",
+                "published": "2026-10-22T08:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
       {
         "id": "film",
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Streaming Giants Battle Monetization Over Engagement",
-            "summary": "Netflix is actively pivoting strategy away from pure viewership metrics toward revenue optimization, lowering ad revenue targets and prioritizing paid subscriber growth despite reports of declining watch time. This represents a fundamental shift in how streaming platforms measure success and justify valuations to Wall Street.",
-            "why_it_matters": "This signals that content quality and cultural relevance are now secondary to financial engineering, a dangerous signal that streaming platforms may sacrifice artistic risk-taking for short-term shareholder returns, reshaping what gets greenlit.",
-            "strategic_signal": "Brands should accelerate partnerships with independent and mid-tier creators now, before streaming consolidation forces all premium content into algorithmic, ad-supported tiers that favor mass appeal over cultural distinctiveness.",
-            "trajectory": "piekend",
+            "trend": "Auteur cinema leverages streaming als distribution victory",
+            "summary": "Lee Chang-dong's 'Possible Love' wint Silver Lion op Venetië en komt direct naar Netflix—geen traditionele theatrale rollout. Dit volgt het patroon waarbij prestige-festivals nu streaming-releases legitimeren.",
+            "why_it_matters": "De hiërarchie tussen 'echte' cinema en streaming verkruimelt: Netflix-releases kunnen nu dezelfde culturele autoriteit claimen als theatrale releases.",
+            "strategic_signal": "Voor premium content-merken: partnerschap met festival-circuiteur films (niet alleen blockbusters) creëert legitimiteit en cultuur-cachet sneller dan traditionele PR-campagnes.",
+            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "A.V. Club",
-              "Adweek",
-              "Deadline",
-              "Kotaku",
-              "The Hollywood Reporter"
+              "Consequence",
+              "Eurogamer",
+              "Sneaker News",
+              "The Hollywood Reporter",
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "‘The Odyssey’ Star John Leguizamo To Be Honored At São Paulo International Film Festival",
-                "url": "https://deadline.com/2026/10/john-leguizamo-thonored-sao-paulo-film-festival-1237169485/",
-                "source": "Deadline",
-                "published": "2026-10-21T10:00:00.000Z"
+                "title": "‘Star Trek’ 60th Anniversary Celebration Hits Rome MIA Market With Iconic Franchise at ‘Crossroads’ After Paramount-Warner Bros. Merger",
+                "url": "https://variety.com/2026/tv/global/star-trek-60th-anniversary-crossroads-paramount-warner-bros-1236919493/",
+                "source": "Variety",
+                "published": "2026-10-22T10:49:41.000Z"
               },
               {
-                "title": "Kari Skogland To Direct Vigilante Crime Thriller ‘Vigilant’ From ‘Severance’ Star Ólafur Darri Ólafsson",
-                "url": "https://deadline.com/2026/10/kari-skogland-direct-vigilant-series-olafur-darri-olafsson-1237169507/",
-                "source": "Deadline",
-                "published": "2026-10-21T09:03:12.000Z"
+                "title": "Amanda Jiang to Star in ‘Dracula: The Crimson Code’ Alongside Joey Phillips, Richard Brake and Shayne Ward (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/dracula-the-crimson-code-cast-1236919518/",
+                "source": "Variety",
+                "published": "2026-10-22T10:02:51.000Z"
               },
               {
-                "title": "‘Doctor Who’ Star Noel Clarke Pleads Not Guilty to Sexual Assault, Voyeurism, Exposure",
-                "url": "https://www.hollywoodreporter.com/news/general-news/doctor-who-noel-clarke-pleads-not-guilty-sexual-assault-tv-1236737152/",
+                "title": "‘White Lotus’ Breakout Adam DiMarco Attached to Star in Glassriver’s First Feature ‘Dark Ocean’ (Exclusive)",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/white-lotus-star-adam-dimarco-dark-ocean-film-iceland-canada-1236737418/",
                 "source": "The Hollywood Reporter",
-                "published": "2026-10-21T09:53:26.000Z"
+                "published": "2026-10-22T09:00:00.000Z"
               },
               {
-                "title": "Christopher McQuarrie finds new movie star to throw out of planes: Denzel Washington",
-                "url": "https://www.avclub.com/denzel-washington-star-christopher-mcquarrie-new-thriller",
-                "source": "A.V. Club",
-                "published": "2026-10-20T23:07:29.000Z"
+                "title": "Star Wars: Battlefront 3 reportedly being co-developed by Battlefield studio DICE and Apex Legends studio Respawn",
+                "url": "https://www.eurogamer.net/star-wars-battlefront-3-developer-respawn-dice-report",
+                "source": "Eurogamer",
+                "published": "2026-10-22T08:40:15.000Z"
               }
             ]
           }
         ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "Utility aesthetic infiltrates premium sportswear",
+            "summary": "HUF's Winter 2026 collectie mixt skatewear met fishing-inspired rugged outdoor details, terwijl eerder (19 okt) utilitarian luxury sneakers al als trend werd geïdentificeerd. Werkkleding-elementen worden nu mainstream premium.",
+            "why_it_matters": "Functionaliteit is het nieuwe status symbol—waterdicht, veelzijdig, 'honest design' slaat trend van decadente logomania.",
+            "strategic_signal": "Retail- en lifestyle-merken moeten product-storytelling verschuiven van 'hoe mooi' naar 'waarvoor gebouwd': highlight craftsmanship en materiaalkeuze die zichtbaar duurzaamheid bewijst.",
+            "trajectory": "opkomend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Billboard",
+              "Colossal",
+              "Hypebeast",
+              "Quartz",
+              "Wikipedia Trending EN",
+              "Wired",
+              "Yanko Design"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Deaths in 2026",
+                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-22T11:27:14.176Z"
+              },
+              {
+                "title": "Street Fighter (2026 film)",
+                "url": "https://en.wikipedia.org/wiki/Street_Fighter_(2026_film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-22T11:27:14.176Z"
+              },
+              {
+                "title": "Best Microsoft Surface Laptop (2026): Which Models to Buy and Avoid",
+                "url": "https://www.wired.com/story/microsoft-surface-buying-guide/",
+                "source": "Wired",
+                "published": "2026-10-22T11:00:00.000Z"
+              },
+              {
+                "title": "Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant",
+                "url": "https://www.wired.com/story/greenlight-hub-voice-assistant-feature/",
+                "source": "Wired",
+                "published": "2026-10-22T10:01:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-10-22T11:27:37.567Z",
+    "megaTrends": [
+      {
+        "trend": "Authenticiteit als counter-currency tegen mainstream",
+        "summary": "Auteurs gebruiken streaming om hun unieke visie direct uit te sturen zonder compromissen, terwijl heritage-albums live als ritueel worden gepositioneerd en utility aesthetics premiumheid herdefiniëren via functionaliteit in plaats van logomania. Dit is een collectieve terugkeer naar 'echte' waarde over oppervlakkige trends.",
+        "why_it_matters": "Dit signaleert een diepere cultuurverschuiving waar publiek inhoud, muziek en mode waardeert voor originele intentie en substantie in plaats van mainstream validatie.",
+        "categories": [
+          "film",
+          "music",
+          "trends"
+        ],
+        "strength": "matig"
       }
     ]
   },
