@@ -1,31 +1,79 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-22T11:27:34.890Z",
-    "intro": "4 categorieën · 4 trends · laatste 24u",
+    "generatedAt": "2026-10-23T11:17:36.602Z",
+    "intro": "2 categorieën · 3 trends · laatste 24u",
     "categories": [
       {
-        "id": "culture",
-        "label": "Cultuur",
+        "id": "film",
+        "label": "Film & TV",
         "insights": [
           {
-            "trend": "Politieke satire keert terug als cultural reckoning tool",
-            "summary": "Sacha Baron Cohen reviveert de 'Ali G'-karakter en betoogt dat prejudices 'niet alleen lingeren maar zijn gemetastaseerd', satire als antwoord op polarisatie. Dit sluit aan bij eerder thema (20 okt) dat spellen politieke stelling als release-strategie gebruiken.",
-            "why_it_matters": "Humor wordt politiek serieus: makers gebruiken satire niet voor escapisme maar als expliciete cultural diagnosis-tool.",
-            "strategic_signal": "Brands die subculturele of politieke resonantie willen, moeten komische edge toevoegen die risico neemt—'safe satire' is nu ongeloofwaardig geworden voor culturele autoriteit.",
+            "trend": "High-profile auteurs embrace blockbuster casting",
+            "summary": "Martin Scorsese is casting pop culture figures (Charli XCX) in prestige narrative films with A-list leads (Leonardo DiCaprio, Jennifer Lawrence), signaling a deliberate collapse of boundaries between art-house and mainstream commercial filmmaking. This mirrors the heritage album-as-spectacle trend, established auteurs are weaponizing celebrity to reach beyond traditional arthouse audiences.",
+            "why_it_matters": "Auteur cinema is no longer gatekeeping itself; it's actively recruiting pop culture oxygen to compete for attention in a fragmented media landscape, suggesting prestige filmmaking must now perform cultural relevance, not just artistic integrity.",
+            "strategic_signal": "Brands betting on 'cultural legitimacy' should look to auteur-adjacent projects (not just franchise films) as partnership vehicles. Scorsese-level prestige now requires pop-culture crossover casting, so influencer or music talent cameos in narrative work signal serious distribution ambition.",
+            "trajectory": "opkomend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Consequence",
+              "Deadline",
+              "Hypebeast",
+              "IndieWire",
+              "Kotaku",
+              "Polygon",
+              "The Hollywood Reporter",
+              "Variety",
+              "i-D"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Starfighter Officially Broke a Star Wars Franchise Record Already",
+                "url": "https://www.polygon.com/star-wars-starfighter-ryan-gosling-most-expensive-movie/",
+                "source": "Polygon",
+                "published": "2026-10-23T10:52:29.000Z"
+              },
+              {
+                "title": "Chris Pratt Confirms Star-Lord Will Return to the MCU",
+                "url": "https://hypebeast.com/2026/10/marvel-chris-pratt-confirms-star-lord-will-return-to-mcu",
+                "source": "Hypebeast",
+                "published": "2026-10-23T09:09:17.000Z"
+              },
+              {
+                "title": "Netflix, ‘Elite’ Star Ester Expósito and Locarno Winner Mar Coll Adapt ‘La Regenta,’ a ‘Fresh Female Perspective’ on a Big Spanish Classic (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/netflix-ester-exposito-mar-coll-elastica-maria-zamora-1236919972/",
+                "source": "Variety",
+                "published": "2026-10-23T08:02:57.000Z"
+              },
+              {
+                "title": "‘The Mosquito Bowl’ Review: Peter Berg’s Powerful True WWII Story Takes Four Star Players From The Glory Of The Football Field To The Hell Of The Battlefield – AFI Fest",
+                "url": "https://deadline.com/2026/10/the-mosquito-bowl-review-peter-berg-true-wwii-story-afi-fest-1237170862/",
+                "source": "Deadline",
+                "published": "2026-10-23T07:30:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Prestige adaptations reclaim canonical literature via female reimagining",
+            "summary": "Netflix is developing 'La Regenta' with Ester Expósito (Elite) and director Mar Coll (Locarno winner), explicitly framing it as a \"fresh female perspective\" on a 19th-century Spanish classic novel. This follows the pattern of major streaming platforms treating canonical literature as vehicles for contemporary feminist reinterpretation rather than faithful period drama.",
+            "why_it_matters": "Literary canons are being repurposed as ideological update projects. Prestige content now earns cultural currency not by honoring source material but by visibly reframing it through modern identity politics, signaling that 'adaptation' means ideological remix, not preservation.",
+            "strategic_signal": "If your brand is targeting culturally conscious audiences, associating with 'canonical reimagining' projects (especially with female directors/perspectives) signals alignment with progressive literary criticism without requiring explicit messaging—let the adaptation framework do the cultural work.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "AnOther Magazine",
-              "Dazed",
+              "Film Comment",
+              "IndieWire",
               "NME",
-              "The Verge",
+              "Pitchfork News",
+              "The Hollywood Reporter",
               "Wikipedia Trending EN"
             ],
             "trending": true,
@@ -34,198 +82,79 @@
                 "title": "Clayface (film)",
                 "url": "https://en.wikipedia.org/wiki/Clayface_(film)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-10-22T11:27:14.176Z"
+                "published": "2026-10-23T11:17:15.400Z"
               },
               {
-                "title": "Possible Love: Is this Korean anti-capitalist drama the film of the year?",
-                "url": "https://www.dazeddigital.com/film-tv/article/71216/1/possible-love-korean-anti-capitalist-drama-oscar-lee-chang-dong-interview?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=possible-love-is-this-korean-anti-capitalist-drama-the-film-of-the-year",
-                "source": "Dazed",
-                "published": "2026-10-22T09:43:00.000Z"
-              },
-              {
-                "title": "Sacha Baron Cohen defends reviving “problematic” Ali G character for new film",
-                "url": "https://www.nme.com/news/film/sacha-baron-cohen-defends-reviving-problematic-ali-g-who-iz-i-3973806?utm_source=rss&utm_medium=rss&utm_campaign=sacha-baron-cohen-defends-reviving-problematic-ali-g-who-iz-i",
+                "title": "Charli XCX cast in Martin Scorsese’s next film with Leonardo DiCaprio and Jennifer Lawrence",
+                "url": "https://www.nme.com/news/film/charli-xcx-martin-scorsese-film-leonardo-dicaprio-jennifer-lawrence-3973976?utm_source=rss&utm_medium=rss&utm_campaign=charli-xcx-martin-scorsese-film-leonardo-dicaprio-jennifer-lawrence",
                 "source": "NME",
-                "published": "2026-10-22T08:41:01.000Z"
+                "published": "2026-10-23T09:56:44.000Z"
               },
               {
-                "title": "New York’s first microdrama film festival searches for its audience",
-                "url": "https://www.theverge.com/entertainment/1014494/alza-vertical-film-festival-bill-block-salvador-paskowitz-microdramas-verticals",
-                "source": "The Verge",
-                "published": "2026-10-21T20:49:07.000Z"
+                "title": "‘Biermann’ Director Explains Why His Doc About a German Political Singer Is a Film for the Trump Era",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/wolf-biermann-doc-film-german-singer-trump-era-viennale-qa-1236736129/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-23T08:00:00.000Z"
+              },
+              {
+                "title": "Charli XCX Will Appear in a Martin Scorsese Film",
+                "url": "https://pitchfork.com/story/charli-xcx-will-appear-in-a-martin-scorsese-film/",
+                "source": "Pitchfork News",
+                "published": "2026-10-22T21:47:19.000Z"
               }
             ]
           }
         ]
       },
       {
-        "id": "music",
-        "label": "Muziek",
+        "id": "gaming",
+        "label": "Gaming",
         "insights": [
           {
-            "trend": "Heritage albums become live event spectacles",
-            "summary": "Amy Winehouse's 'Back to Black' 20-year anniversary werd gevierd met een all-star tribute concert in Londen, met performances van Mark Ronson, Jorja Smith en FLO naast Winehouse's originele band. Dit patroon van katalogusalbums die niet als reissue maar als cultureel moment worden heruitgevonden.",
-            "why_it_matters": "Nostalgie transformeert van consumptie naar participatie—brands kunnen heritage niet zomaar 'releasen' maar moeten het als een collectief ritueel inszeneren.",
-            "strategic_signal": "Voor merksamenwerkingen: onderzoek welke 20-jaar-mijlpalen in de komende 18 maanden vallen en positioneer merk-partnerships als curator van het moment, niet als sponsor van de reissue.",
+            "trend": "Leaked dev content becomes cultural artifact unto itself",
+            "summary": "Internal trailers for cancelled Mass Effect: Universe project have leaked and circulated widely across gaming media (Kotaku, Eurogamer, Ars Technica), with outlets framing the unreleased material as a cultural loss worth documenting and mourning. The leaked trailer itself has become the story, not the game, but what we'll never play.",
+            "why_it_matters": "Gaming culture is now mourning unrealized creative potential as cultural tragedy; leaked dev footage holds more cultural weight than released work because it represents roads not taken, making failure and cancellation paradoxically more culturally resonant than commercial success.",
+            "strategic_signal": "For gaming/entertainment brands: the 'cancelled project' is now a heritage asset with narrative power. Consider how transparency around abandoned creative directions (with careful framing) can build cultural credibility and fan loyalty that actual releases sometimes can't achieve.",
             "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "404 Media",
-              "Billboard",
               "Consequence",
-              "Eurogamer",
+              "Dazed",
+              "Deadline",
               "Fast Company",
-              "NME",
-              "Pitchfork News",
-              "The Hollywood Reporter",
+              "Polygon",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Watch Mark Ronson, Salaam Remi, Corinne Bailey Rae, Jessie Reyez and more celebrate 20 years of ‘Back To Black’ with Amy Winehouse’s band at London’s Roundhouse",
-                "url": "https://www.nme.com/news/music/watch-mark-ronson-salaam-remi-corinne-bailey-rae-jessie-reyez-and-more-celebrate-20-years-of-back-to-black-with-amy-winehouses-band-at-londons-roundhouse-3973831?utm_source=rss&utm_medium=rss&utm_campaign=watch-mark-ronson-salaam-remi-corinne-bailey-rae-jessie-reyez-and-more-celebrate-20-years-of-back-to-black-with-amy-winehouses-band-at-londons-roundhouse",
-                "source": "NME",
-                "published": "2026-10-22T11:22:06.000Z"
+                "title": "25 Years Later, GTA 3 Is Still the Most Fascinating Open-World Experiment",
+                "url": "https://www.polygon.com/gta-3-retrospective/",
+                "source": "Polygon",
+                "published": "2026-10-23T11:00:19.000Z"
               },
               {
-                "title": "Stephen Lang, Uli Edel Reunite on ‘Mercy Rider’ 30 Years After ‘Last Exit to Brooklyn’ (Exclusive)",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/avatar-star-stephen-lang-director-uli-edel-reunite-1236738019/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-10-22T10:54:22.000Z"
+                "title": "Echolocation: Where has Ecco2k been these last 5 years?",
+                "url": "https://www.dazeddigital.com/music/article/71225/1/echolocation-where-has-ecco2k-been-these-last-5-years-aldehydes-and-ketones?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=echolocation-where-has-ecco2k-been-these-last-5-years",
+                "source": "Dazed",
+                "published": "2026-10-23T10:46:00.000Z"
               },
               {
-                "title": "Amy Winehouse Honored With Stunning All-Star Tribute Concert Celebrating 20 Years of ‘Back to Black’: Best Moments",
-                "url": "https://www.billboard.com/lists/amy-winehouse-back-to-black-tribute-concert-best-moments/",
-                "source": "Billboard",
-                "published": "2026-10-22T10:16:33.000Z"
+                "title": "187 Years Ago, a Gothic Horror Story Beat Edgar Allan Poe to the Locked-Room Mystery",
+                "url": "https://www.polygon.com/locked-room-gothic-horror-sheridan-le-fanu/",
+                "source": "Polygon",
+                "published": "2026-10-23T10:00:18.000Z"
               },
               {
-                "title": "‘The History Boys’ Returns to London West End After 20 Years, With Nicholas Hytner Back Directing Alan Bennett’s Play",
-                "url": "https://variety.com/2026/theater/news/the-history-boys-london-west-end-20-years-1236919388/",
-                "source": "Variety",
-                "published": "2026-10-22T08:00:00.000Z"
+                "title": "The simple joy of a social network most people forgot about years ago",
+                "url": "https://www.fastcompany.com/91628350/foursquare-swarm-infillion",
+                "source": "Fast Company",
+                "published": "2026-10-23T10:00:00.000Z"
               }
             ]
           }
         ]
-      },
-      {
-        "id": "film",
-        "label": "Film & TV",
-        "insights": [
-          {
-            "trend": "Auteur cinema leverages streaming als distribution victory",
-            "summary": "Lee Chang-dong's 'Possible Love' wint Silver Lion op Venetië en komt direct naar Netflix—geen traditionele theatrale rollout. Dit volgt het patroon waarbij prestige-festivals nu streaming-releases legitimeren.",
-            "why_it_matters": "De hiërarchie tussen 'echte' cinema en streaming verkruimelt: Netflix-releases kunnen nu dezelfde culturele autoriteit claimen als theatrale releases.",
-            "strategic_signal": "Voor premium content-merken: partnerschap met festival-circuiteur films (niet alleen blockbusters) creëert legitimiteit en cultuur-cachet sneller dan traditionele PR-campagnes.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Consequence",
-              "Eurogamer",
-              "Sneaker News",
-              "The Hollywood Reporter",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "‘Star Trek’ 60th Anniversary Celebration Hits Rome MIA Market With Iconic Franchise at ‘Crossroads’ After Paramount-Warner Bros. Merger",
-                "url": "https://variety.com/2026/tv/global/star-trek-60th-anniversary-crossroads-paramount-warner-bros-1236919493/",
-                "source": "Variety",
-                "published": "2026-10-22T10:49:41.000Z"
-              },
-              {
-                "title": "Amanda Jiang to Star in ‘Dracula: The Crimson Code’ Alongside Joey Phillips, Richard Brake and Shayne Ward (EXCLUSIVE)",
-                "url": "https://variety.com/2026/film/global/dracula-the-crimson-code-cast-1236919518/",
-                "source": "Variety",
-                "published": "2026-10-22T10:02:51.000Z"
-              },
-              {
-                "title": "‘White Lotus’ Breakout Adam DiMarco Attached to Star in Glassriver’s First Feature ‘Dark Ocean’ (Exclusive)",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/white-lotus-star-adam-dimarco-dark-ocean-film-iceland-canada-1236737418/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-10-22T09:00:00.000Z"
-              },
-              {
-                "title": "Star Wars: Battlefront 3 reportedly being co-developed by Battlefield studio DICE and Apex Legends studio Respawn",
-                "url": "https://www.eurogamer.net/star-wars-battlefront-3-developer-respawn-dice-report",
-                "source": "Eurogamer",
-                "published": "2026-10-22T08:40:15.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "trends",
-        "label": "Trends",
-        "insights": [
-          {
-            "trend": "Utility aesthetic infiltrates premium sportswear",
-            "summary": "HUF's Winter 2026 collectie mixt skatewear met fishing-inspired rugged outdoor details, terwijl eerder (19 okt) utilitarian luxury sneakers al als trend werd geïdentificeerd. Werkkleding-elementen worden nu mainstream premium.",
-            "why_it_matters": "Functionaliteit is het nieuwe status symbol—waterdicht, veelzijdig, 'honest design' slaat trend van decadente logomania.",
-            "strategic_signal": "Retail- en lifestyle-merken moeten product-storytelling verschuiven van 'hoe mooi' naar 'waarvoor gebouwd': highlight craftsmanship en materiaalkeuze die zichtbaar duurzaamheid bewijst.",
-            "trajectory": "opkomend",
-            "daysActive": 3,
-            "isNew": false,
-            "sources": [
-              "Billboard",
-              "Colossal",
-              "Hypebeast",
-              "Quartz",
-              "Wikipedia Trending EN",
-              "Wired",
-              "Yanko Design"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Deaths in 2026",
-                "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-10-22T11:27:14.176Z"
-              },
-              {
-                "title": "Street Fighter (2026 film)",
-                "url": "https://en.wikipedia.org/wiki/Street_Fighter_(2026_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-10-22T11:27:14.176Z"
-              },
-              {
-                "title": "Best Microsoft Surface Laptop (2026): Which Models to Buy and Avoid",
-                "url": "https://www.wired.com/story/microsoft-surface-buying-guide/",
-                "source": "Wired",
-                "published": "2026-10-22T11:00:00.000Z"
-              },
-              {
-                "title": "Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant",
-                "url": "https://www.wired.com/story/greenlight-hub-voice-assistant-feature/",
-                "source": "Wired",
-                "published": "2026-10-22T10:01:00.000Z"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "crossCategory": {
-    "generatedAt": "2026-10-22T11:27:37.567Z",
-    "megaTrends": [
-      {
-        "trend": "Authenticiteit als counter-currency tegen mainstream",
-        "summary": "Auteurs gebruiken streaming om hun unieke visie direct uit te sturen zonder compromissen, terwijl heritage-albums live als ritueel worden gepositioneerd en utility aesthetics premiumheid herdefiniëren via functionaliteit in plaats van logomania. Dit is een collectieve terugkeer naar 'echte' waarde over oppervlakkige trends.",
-        "why_it_matters": "Dit signaleert een diepere cultuurverschuiving waar publiek inhoud, muziek en mode waardeert voor originele intentie en substantie in plaats van mainstream validatie.",
-        "categories": [
-          "film",
-          "music",
-          "trends"
-        ],
-        "strength": "matig"
       }
     ]
   },

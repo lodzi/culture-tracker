@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-23",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-23T11:17:36.602Z",
+    "intro": "2 categorieën · 3 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "High-profile auteurs embrace blockbuster casting",
+            "summary": "Martin Scorsese is casting pop culture figures (Charli XCX) in prestige narrative films with A-list leads (Leonardo DiCaprio, Jennifer Lawrence), signaling a deliberate collapse of boundaries between art-house and mainstream commercial filmmaking. This mirrors the heritage album-as-spectacle trend, established auteurs are weaponizing celebrity to reach beyond traditional arthouse audiences.",
+            "why_it_matters": "Auteur cinema is no longer gatekeeping itself; it's actively recruiting pop culture oxygen to compete for attention in a fragmented media landscape, suggesting prestige filmmaking must now perform cultural relevance, not just artistic integrity.",
+            "strategic_signal": "Brands betting on 'cultural legitimacy' should look to auteur-adjacent projects (not just franchise films) as partnership vehicles. Scorsese-level prestige now requires pop-culture crossover casting, so influencer or music talent cameos in narrative work signal serious distribution ambition.",
+            "trajectory": "opkomend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Consequence",
+              "Deadline",
+              "Hypebeast",
+              "IndieWire",
+              "Kotaku",
+              "Polygon",
+              "The Hollywood Reporter",
+              "Variety",
+              "i-D"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Starfighter Officially Broke a Star Wars Franchise Record Already",
+                "url": "https://www.polygon.com/star-wars-starfighter-ryan-gosling-most-expensive-movie/",
+                "source": "Polygon",
+                "published": "2026-10-23T10:52:29.000Z"
+              },
+              {
+                "title": "Chris Pratt Confirms Star-Lord Will Return to the MCU",
+                "url": "https://hypebeast.com/2026/10/marvel-chris-pratt-confirms-star-lord-will-return-to-mcu",
+                "source": "Hypebeast",
+                "published": "2026-10-23T09:09:17.000Z"
+              },
+              {
+                "title": "Netflix, ‘Elite’ Star Ester Expósito and Locarno Winner Mar Coll Adapt ‘La Regenta,’ a ‘Fresh Female Perspective’ on a Big Spanish Classic (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/netflix-ester-exposito-mar-coll-elastica-maria-zamora-1236919972/",
+                "source": "Variety",
+                "published": "2026-10-23T08:02:57.000Z"
+              },
+              {
+                "title": "‘The Mosquito Bowl’ Review: Peter Berg’s Powerful True WWII Story Takes Four Star Players From The Glory Of The Football Field To The Hell Of The Battlefield – AFI Fest",
+                "url": "https://deadline.com/2026/10/the-mosquito-bowl-review-peter-berg-true-wwii-story-afi-fest-1237170862/",
+                "source": "Deadline",
+                "published": "2026-10-23T07:30:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Prestige adaptations reclaim canonical literature via female reimagining",
+            "summary": "Netflix is developing 'La Regenta' with Ester Expósito (Elite) and director Mar Coll (Locarno winner), explicitly framing it as a \"fresh female perspective\" on a 19th-century Spanish classic novel. This follows the pattern of major streaming platforms treating canonical literature as vehicles for contemporary feminist reinterpretation rather than faithful period drama.",
+            "why_it_matters": "Literary canons are being repurposed as ideological update projects. Prestige content now earns cultural currency not by honoring source material but by visibly reframing it through modern identity politics, signaling that 'adaptation' means ideological remix, not preservation.",
+            "strategic_signal": "If your brand is targeting culturally conscious audiences, associating with 'canonical reimagining' projects (especially with female directors/perspectives) signals alignment with progressive literary criticism without requiring explicit messaging—let the adaptation framework do the cultural work.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Film Comment",
+              "IndieWire",
+              "NME",
+              "Pitchfork News",
+              "The Hollywood Reporter",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Clayface (film)",
+                "url": "https://en.wikipedia.org/wiki/Clayface_(film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-23T11:17:15.400Z"
+              },
+              {
+                "title": "Charli XCX cast in Martin Scorsese’s next film with Leonardo DiCaprio and Jennifer Lawrence",
+                "url": "https://www.nme.com/news/film/charli-xcx-martin-scorsese-film-leonardo-dicaprio-jennifer-lawrence-3973976?utm_source=rss&utm_medium=rss&utm_campaign=charli-xcx-martin-scorsese-film-leonardo-dicaprio-jennifer-lawrence",
+                "source": "NME",
+                "published": "2026-10-23T09:56:44.000Z"
+              },
+              {
+                "title": "‘Biermann’ Director Explains Why His Doc About a German Political Singer Is a Film for the Trump Era",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/wolf-biermann-doc-film-german-singer-trump-era-viennale-qa-1236736129/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-23T08:00:00.000Z"
+              },
+              {
+                "title": "Charli XCX Will Appear in a Martin Scorsese Film",
+                "url": "https://pitchfork.com/story/charli-xcx-will-appear-in-a-martin-scorsese-film/",
+                "source": "Pitchfork News",
+                "published": "2026-10-22T21:47:19.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "Leaked dev content becomes cultural artifact unto itself",
+            "summary": "Internal trailers for cancelled Mass Effect: Universe project have leaked and circulated widely across gaming media (Kotaku, Eurogamer, Ars Technica), with outlets framing the unreleased material as a cultural loss worth documenting and mourning. The leaked trailer itself has become the story, not the game, but what we'll never play.",
+            "why_it_matters": "Gaming culture is now mourning unrealized creative potential as cultural tragedy; leaked dev footage holds more cultural weight than released work because it represents roads not taken, making failure and cancellation paradoxically more culturally resonant than commercial success.",
+            "strategic_signal": "For gaming/entertainment brands: the 'cancelled project' is now a heritage asset with narrative power. Consider how transparency around abandoned creative directions (with careful framing) can build cultural credibility and fan loyalty that actual releases sometimes can't achieve.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Consequence",
+              "Dazed",
+              "Deadline",
+              "Fast Company",
+              "Polygon",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "25 Years Later, GTA 3 Is Still the Most Fascinating Open-World Experiment",
+                "url": "https://www.polygon.com/gta-3-retrospective/",
+                "source": "Polygon",
+                "published": "2026-10-23T11:00:19.000Z"
+              },
+              {
+                "title": "Echolocation: Where has Ecco2k been these last 5 years?",
+                "url": "https://www.dazeddigital.com/music/article/71225/1/echolocation-where-has-ecco2k-been-these-last-5-years-aldehydes-and-ketones?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=echolocation-where-has-ecco2k-been-these-last-5-years",
+                "source": "Dazed",
+                "published": "2026-10-23T10:46:00.000Z"
+              },
+              {
+                "title": "187 Years Ago, a Gothic Horror Story Beat Edgar Allan Poe to the Locked-Room Mystery",
+                "url": "https://www.polygon.com/locked-room-gothic-horror-sheridan-le-fanu/",
+                "source": "Polygon",
+                "published": "2026-10-23T10:00:18.000Z"
+              },
+              {
+                "title": "The simple joy of a social network most people forgot about years ago",
+                "url": "https://www.fastcompany.com/91628350/foursquare-swarm-infillion",
+                "source": "Fast Company",
+                "published": "2026-10-23T10:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-22T10:37:46.583Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "AI Autonomy as Spectacle Over Engineering",
+        "category": "internet",
+        "what_is_happening": "Tesla’s new Roadster uses SpaceX thrusters for midair flips and sub-second acceleration, generating enormous coverage even as the spectacle outruns the practical use. The stunt has become the product story.",
+        "why_it_matters_for_brands": "Spectacle is increasingly doing the marketing work that substance used to, which can win attention but risks a credibility gap.",
+        "what_brands_can_do": [
+          "Use spectacle to earn attention, then deliver real substance behind it.",
+          "Be honest about what is a demo and what actually ships.",
+          "Do not let a stunt write a promise the product cannot keep."
+        ]
+      },
+      {
+        "trend": "Salvage Modernism: Upcycled Materials in Heritage Spaces",
+        "category": "art",
+        "what_is_happening": "Architect Diana Kellogg renovated a historic Tribeca home by deliberately sourcing and integrating salvaged materials throughout. Reuse is being treated as a design language rather than a compromise.",
+        "why_it_matters_for_brands": "Visible reuse is becoming a mark of taste and values, letting sustainability read as premium rather than merely worthy.",
+        "what_brands_can_do": [
+          "Make reuse a visible design choice, not a hidden cost-saver.",
+          "Let the story of a material add value rather than apology.",
+          "Design so sustainability reads as craft, not sacrifice."
+        ]
+      },
+      {
+        "trend": "Orchestra Collaborations Legitimise Genre Crossovers",
+        "category": "music",
+        "what_is_happening": "Red Hot Chili Peppers are performing classic material with orchestral framing while Western Sydney drill group ONEFOUR teamed with the Penrith Chamber Orchestra for new work. Orchestras are being used to legitimise and elevate popular genres.",
+        "why_it_matters_for_brands": "Pairing with classical institutions lends instant credibility, a move brands can borrow to signal depth and seriousness.",
+        "what_brands_can_do": [
+          "Use a prestige partner to elevate, only where the fit is real.",
+          "Let an unexpected pairing add weight, not just novelty.",
+          "Earn the credibility rather than rent the orchestra."
+        ]
+      }
+    ]
+  }
+}
