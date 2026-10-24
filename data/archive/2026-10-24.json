@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-24",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-24T10:37:01.424Z",
+    "intro": "1 categorieën · 1 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Prestige IP krijgt blockbuster cast & scale",
+            "summary": "Streamers en studios werken grote budgetten in voor hertellingen van klassieke franchises en canon-literatuur met A-list casts (Miami Vice, Hexed). Dit gebeurt parallel aan het terugbrengen van verloren cultuur-ikonen (Darkwing Duck na 35 jaar, MST3K-herleving).",
+            "why_it_matters": "Dit signaleert dat prestige en populisme niet langer gescheiden zijn, merken kunnen nu intellectuele autoriteit en massa-aantrekkingskracht tegelijk claimen zonder het als compromis te ervaren.",
+            "strategic_signal": "Voor premium merken: onderzoek samenwerkingen met culturele 'heritage properties' die nieuw leven ingeblazen krijgen; het publiek anticipeert op nostalgie-hertellingen en ziet deze als 'legitimatie' van het origineel.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Ars Technica",
+              "Deadline",
+              "IndieWire",
+              "Wired",
+              "Yanko Design"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Inside The BBC Cuts: Painful Service Closures Begin, But Worse Could Be To Come",
+                "url": "https://deadline.com/2026/10/inside-bbc-cuts-painful-closures-begin-worse-to-come-1237169573/",
+                "source": "Deadline",
+                "published": "2026-10-24T09:02:09.000Z"
+              },
+              {
+                "title": "Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’",
+                "url": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
+                "source": "Wired",
+                "published": "2026-10-24T09:00:00.000Z"
+              },
+              {
+                "title": "Billy Corgan Backs Marilyn Manson Over Sex Abuse Claims, Citing Inside Knowledge Of Case: “I Personally Didn’t Feel He Was Guilty”",
+                "url": "https://deadline.com/2026/10/marilyn-manson-sex-abuse-claims-billy-corgan-1237172174/",
+                "source": "Deadline",
+                "published": "2026-10-24T02:11:14.000Z"
+              },
+              {
+                "title": "Inside the Pentagon, the pressure is on to find a home for a new spaceport",
+                "url": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
+                "source": "Ars Technica",
+                "published": "2026-10-23T19:33:58.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-22T10:37:46.583Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "AI Autonomy as Spectacle Over Engineering",
+        "category": "internet",
+        "what_is_happening": "Tesla’s new Roadster uses SpaceX thrusters for midair flips and sub-second acceleration, generating enormous coverage even as the spectacle outruns the practical use. The stunt has become the product story.",
+        "why_it_matters_for_brands": "Spectacle is increasingly doing the marketing work that substance used to, which can win attention but risks a credibility gap.",
+        "what_brands_can_do": [
+          "Use spectacle to earn attention, then deliver real substance behind it.",
+          "Be honest about what is a demo and what actually ships.",
+          "Do not let a stunt write a promise the product cannot keep."
+        ]
+      },
+      {
+        "trend": "Salvage Modernism: Upcycled Materials in Heritage Spaces",
+        "category": "art",
+        "what_is_happening": "Architect Diana Kellogg renovated a historic Tribeca home by deliberately sourcing and integrating salvaged materials throughout. Reuse is being treated as a design language rather than a compromise.",
+        "why_it_matters_for_brands": "Visible reuse is becoming a mark of taste and values, letting sustainability read as premium rather than merely worthy.",
+        "what_brands_can_do": [
+          "Make reuse a visible design choice, not a hidden cost-saver.",
+          "Let the story of a material add value rather than apology.",
+          "Design so sustainability reads as craft, not sacrifice."
+        ]
+      },
+      {
+        "trend": "Orchestra Collaborations Legitimise Genre Crossovers",
+        "category": "music",
+        "what_is_happening": "Red Hot Chili Peppers are performing classic material with orchestral framing while Western Sydney drill group ONEFOUR teamed with the Penrith Chamber Orchestra for new work. Orchestras are being used to legitimise and elevate popular genres.",
+        "why_it_matters_for_brands": "Pairing with classical institutions lends instant credibility, a move brands can borrow to signal depth and seriousness.",
+        "what_brands_can_do": [
+          "Use a prestige partner to elevate, only where the fit is real.",
+          "Let an unexpected pairing add weight, not just novelty.",
+          "Earn the credibility rather than rent the orchestra."
+        ]
+      }
+    ]
+  }
+}
