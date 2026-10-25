@@ -1,62 +1,166 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-24T10:37:01.424Z",
-    "intro": "1 categorieën · 1 trends · laatste 24u",
+    "generatedAt": "2026-10-25T11:01:13.631Z",
+    "intro": "3 categorieën · 3 trends · laatste 24u",
     "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Artist-IP wordt AI-training battleground",
+            "summary": "Anthropic wordt aangevallen omdat het Elvis Presley-catalogus gebruikte voor AI-training zonder toestemming, 274 nummers. Dit signaleert dat muziek-eigendom nu onder juridische druk staat in AI-era.",
+            "why_it_matters": "Muziek is niet langer alleen consumptie-medium maar training-asset; artiest-erfenissen worden defensief omdat waarde voorbij royalties gaat naar algorithm-fuel.",
+            "strategic_signal": "Merken met artist-partnerships moeten nu IP-gebruiksclausules auditen op AI/training-rechten; dit wordt de onderhandelings-munt voor 2026-contracten.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Fast Company",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Anthropic was beaten to the punch by a salad dressing company",
+                "url": "https://www.fastcompany.com/91627772/anthropic-beaten-to-the-punch-salad-dressing-company",
+                "source": "Fast Company",
+                "published": "2026-10-25T08:30:00.000Z"
+              },
+              {
+                "title": "Anthropic Sued for Using Elvis Presley Music to Train AI Models",
+                "url": "https://www.hollywoodreporter.com/music/music-industry-news/anthropic-elvis-presley-lawsuit-ai-1236739617/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-25T02:22:41.000Z"
+              },
+              {
+                "title": "Anthropic Sued For Stealing Elvis Presley Music to Train AI: ‘Deeply Protective of These Iconic Songs’",
+                "url": "https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/",
+                "source": "Billboard",
+                "published": "2026-10-24T14:34:54.000Z"
+              }
+            ]
+          }
+        ]
+      },
       {
         "id": "film",
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Prestige IP krijgt blockbuster cast & scale",
-            "summary": "Streamers en studios werken grote budgetten in voor hertellingen van klassieke franchises en canon-literatuur met A-list casts (Miami Vice, Hexed). Dit gebeurt parallel aan het terugbrengen van verloren cultuur-ikonen (Darkwing Duck na 35 jaar, MST3K-herleving).",
-            "why_it_matters": "Dit signaleert dat prestige en populisme niet langer gescheiden zijn, merken kunnen nu intellectuele autoriteit en massa-aantrekkingskracht tegelijk claimen zonder het als compromis te ervaren.",
-            "strategic_signal": "Voor premium merken: onderzoek samenwerkingen met culturele 'heritage properties' die nieuw leven ingeblazen krijgen; het publiek anticipeert op nostalgie-hertellingen en ziet deze als 'legitimatie' van het origineel.",
+            "trend": "Documentary als canonische literaire interventie",
+            "summary": "Filmmaker Nathan Fielding onderhandelde over volledige creatieve controle op 'You Can See Everything', een Elizabeth Holmes-documentaire die nu een cultureel moment is. Dit volgt op eerdere trend van auteurs die streaming gebruiken als distributie-victory.",
+            "why_it_matters": "Dit signaleert dat non-fiction evenzeer onder makers-autoriteit valt als scripted content. Documentaire wordt niet langer journalist-medium maar auteur-statement.",
+            "strategic_signal": "Merken kunnen documentaire-formaten benutten als brand-authenticity-play, maar alleen als er werkelijke creatieve integriteit is. 'You Can See Everything' scoort niet door productie maar door directorial vision.",
             "trajectory": "piekend",
-            "daysActive": 2,
-            "isNew": false,
+            "daysActive": 1,
+            "isNew": true,
             "sources": [
-              "Ars Technica",
               "Deadline",
-              "IndieWire",
-              "Wired",
-              "Yanko Design"
+              "Stereogum",
+              "The Hollywood Reporter",
+              "Wired"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Inside The BBC Cuts: Painful Service Closures Begin, But Worse Could Be To Come",
-                "url": "https://deadline.com/2026/10/inside-bbc-cuts-painful-closures-begin-worse-to-come-1237169573/",
-                "source": "Deadline",
-                "published": "2026-10-24T09:02:09.000Z"
-              },
-              {
-                "title": "Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’",
-                "url": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
+                "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+                "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
                 "source": "Wired",
-                "published": "2026-10-24T09:00:00.000Z"
+                "published": "2026-10-25T10:00:00.000Z"
               },
               {
-                "title": "Billy Corgan Backs Marilyn Manson Over Sex Abuse Claims, Citing Inside Knowledge Of Case: “I Personally Didn’t Feel He Was Guilty”",
-                "url": "https://deadline.com/2026/10/marilyn-manson-sex-abuse-claims-billy-corgan-1237172174/",
+                "title": "Chris Harrison Says Warner Bros’ Legal Action Against ‘The Vow’ Feels “Personal”: “You Be The Judge”",
+                "url": "https://deadline.com/2026/10/chris-hansen-warner-bros-legal-action-the-vow-feels-personal-1237172408/",
                 "source": "Deadline",
-                "published": "2026-10-24T02:11:14.000Z"
+                "published": "2026-10-24T23:12:19.000Z"
               },
               {
-                "title": "Inside the Pentagon, the pressure is on to find a home for a new spaceport",
-                "url": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
-                "source": "Ars Technica",
-                "published": "2026-10-23T19:33:58.000Z"
+                "title": "Billy Corgan Defends Marilyn Manson Friendship Despite Sexual Assault Claims Against Manson: “I Didn’t Feel That He Was Guilty”",
+                "url": "https://www.hollywoodreporter.com/music/music-news/billy-corgan-defends-marilyn-manson-friendship-didnt-feel-guilty-1236739561/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-24T18:44:21.000Z"
+              },
+              {
+                "title": "Dallas Cowboys Cheerleaders Take Legal Action Against My Chemical Romance Over Staged Shootout",
+                "url": "https://stereogum.com/2515526/dallas-cowboys-cheerleaders-take-legal-action-against-my-chemical-romance-over-staged-shootout/news/",
+                "source": "Stereogum",
+                "published": "2026-10-24T15:54:18.000Z"
               }
             ]
           }
         ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "Anime-adaptation als gamer canonicity-validator",
+            "summary": "Cyberpunk: Edgerunners Season 2 wordt erkend als intellectueel vervolg op gaming-lore, niet als merchandising-afleiding. Netflix viert tegelijk K-pop x gaming-fusies ('KPop Demon Hunters') in Aziatische markten.",
+            "why_it_matters": "Games ontlopen nu het 'aanvulling'-stigma van adaptaties; anime/series kunnen game-canon uitbreiden en diepte toevoegen in plaats van af te zwakken.",
+            "strategic_signal": "Brands met game-IP kunnen cross-media vervolgen rechtvaardigen als lore-expansie, niet als extended marketing. Focus op thematische diepte (Night City-existentie) over plot-reproduction.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Eurogamer",
+              "Fast Company",
+              "Kotaku",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Cyberpunk: Edgerunners Season 2 is more than a retread of Netflix's beloved first season - it's a story that truly understands what it means to exist in Night City",
+                "url": "https://www.eurogamer.net/cyberpunk-edgerunners-season-2-major-theme",
+                "source": "Eurogamer",
+                "published": "2026-10-25T10:00:00.000Z"
+              },
+              {
+                "title": "‘KPop Demon Hunters,’ ‘Squid Game’ Stars Fete Netflix’s Korea Decade as Ted Sarandos Teases ‘Tantara,’ ‘All of Us Are Dead’ Season 2",
+                "url": "https://variety.com/2026/tv/news/kpop-demon-hunters-squid-game-stars-netflix-korea-decade-1236930528/",
+                "source": "Variety",
+                "published": "2026-10-25T03:21:03.000Z"
+              },
+              {
+                "title": "Xbox Reportedly Bungled $500 Million Netflix Exclusivity Deal To Develop Movies, Shows Based On Games",
+                "url": "https://kotaku.com/xbox-reportedly-bungled-500-million-netflix-exclusivity-deal-to-develop-movies-shows-based-on-games-2000749336",
+                "source": "Kotaku",
+                "published": "2026-10-24T22:07:07.000Z"
+              },
+              {
+                "title": "From zeitgeist to zeitghost: How Netflix kept a hold on viewers—but lost its spot in pop culture",
+                "url": "https://www.fastcompany.com/91628523/netflix-lost-place-in-pop-culture-high-viewership",
+                "source": "Fast Company",
+                "published": "2026-10-24T11:01:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-10-25T11:01:15.945Z",
+    "megaTrends": [
+      {
+        "trend": "Intellectuele autoriteit verspreidt zich buiten originele medium",
+        "summary": "Documenten, anime-adaptaties en AI-training worden niet meer gezien als secundaire formaten, maar als primaire culturele autoriteiten die het originele werk definiëren. Ze bepalen wat canonisch is en wie eigenaar is van creatieve betekenis.",
+        "why_it_matters": "Dit signaleert een fundamentele verschuiving in wie culturele legitimiteit bepaalt: niet langer uitsluitend de originele maker, maar de interpretatieve ecosystemen eromheen.",
+        "categories": [
+          "music",
+          "film",
+          "gaming"
+        ],
+        "strength": "matig"
       }
     ]
   },
