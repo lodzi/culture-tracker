@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-26",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-26T12:34:06.624Z",
+    "intro": "3 categorieën · 3 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Documentary as mass entertainment phenomenon",
+            "summary": "Nathan Fielder en Lance Oppenheim's 'You Can See Everything' (Elizabeth Holmes doc) bereikt $19,5M tweede weekend, tracked naar meest succesvolle non-music documentary; 159K Wikipedia views bij release. Coverage door IndieWire, NME, box office trackers.",
+            "why_it_matters": "Documentary form crosses into blockbuster-adjacent commercial territory, signaling audiences treat investigative/prestige docs with same urgency as narrative features; this legitimizes docuseries as primary cultural artifact.",
+            "strategic_signal": "Merken kunnen 'documentary-style' content positioneren als prestige-play (niet 'behind-the-scenes fluff'); real investigations/revelations-structure outperforms polished corporate storytelling in 2026 audience appetite.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "IndieWire",
+              "NME",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "You Can See Everything",
+                "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-26T12:33:41.577Z"
+              },
+              {
+                "title": "‘You Can See Everything’ hype intensifies after big second weekend at US box office",
+                "url": "https://www.nme.com/news/film/you-can-see-everything-hype-nathan-fielder-elizabeth-holmes-3974220?utm_source=rss&utm_medium=rss&utm_campaign=you-can-see-everything-hype-nathan-fielder-elizabeth-holmes",
+                "source": "NME",
+                "published": "2026-10-26T09:52:27.000Z"
+              },
+              {
+                "title": "Box Office: A24’s ‘You Can See Everything’ Scores Huge $19.5 Million Second Weekend",
+                "url": "https://www.indiewire.com/news/box-office/box-office-you-can-see-everything-huge-second-weekend-a24-1235223679/",
+                "source": "IndieWire",
+                "published": "2026-10-25T13:48:18.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Celebrity accountability via judicial exposure",
+            "summary": "Chris Brown's achtmaandse (voorwaardelijke) gevangenisstraf voor een 2023 Londense nachtclubincident krijgt gecoördineerde media-coverage van Billboard, Deadline en Variety. Straf volgt maanden later maar breekt massaal door media.",
+            "why_it_matters": "Demonstrates that high-profile entertainers face delayed but sustained legal consequences, shifting narrative from scandal-amnesia toward persistent accountability in the public record.",
+            "strategic_signal": "Merk-associaties met artiesten met lopende juridische problemen worden riskanter; content-partnerships moeten tijdlijn van juridische uitspraken monitoren, niet alleen aanklachten.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": false,
+            "sources": [
+              "Billboard",
+              "Deadline",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Chris Brown Receives Suspended Jail Sentence in London Nightclub Attack Case",
+                "url": "https://www.billboard.com/pro/chris-brown-suspended-jail-sentence-london-nightclub-attack/",
+                "source": "Billboard",
+                "published": "2026-10-26T12:30:01.000Z"
+              },
+              {
+                "title": "Chris Brown Given Suspended Prison Sentence For London Nightclub Confrontation",
+                "url": "https://deadline.com/2026/10/chris-brown-suspended-prison-sentence-london-nightclub-1237173011/",
+                "source": "Deadline",
+                "published": "2026-10-26T12:26:25.000Z"
+              },
+              {
+                "title": "Chris Brown Sentenced to Eight Months in Prison, Suspended for 12 Months, for ‘Vicious and Unprovoked’ Attack at U.K. Nightclub",
+                "url": "https://variety.com/2026/music/global/chris-brown-sentenced-attack-london-nightclub-1236931029/",
+                "source": "Variety",
+                "published": "2026-10-26T12:16:52.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "art",
+        "label": "Art & Design",
+        "insights": [
+          {
+            "trend": "Post-human design: architecture beyond anthropocentric space",
+            "summary": "Meerdere bronnen (Design Boom, Fast Company, NME, Variety) behandelen non-mensgerichte architectuur en ecologisch denken: UC Berkeley's AI-building voor human interaction, Golem's dier-georiënteerd herdenken van ruimte, en Siciliaans project over 'post-anthropocene' village thinking.",
+            "why_it_matters": "Architecten en designers positioneren zich expliciet tegen mensgerichte modernisme; dit signaleert cultuur-brede verschuiving van 'humans at center' naar 'multi-species cohabitation' als designfilosofie.",
+            "strategic_signal": "Brand-ruimtes (flagship stores, HQ's) kunnen 'non-human perspective' inbouwen als differentiatorfactor, niet als gimmick maar als expliciete ecologische standpunt die met audience-waarden resoneren.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Design Boom",
+              "Fast Company",
+              "NME",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "golem’s ariel andré on reimagining architecture beyond the human",
+                "url": "https://www.designboom.com/architecture/ariel-andre-golem-guest-essay-architecture-beyond-human/",
+                "source": "Design Boom",
+                "published": "2026-10-26T11:50:57.000Z"
+              },
+              {
+                "title": "UC Berkeley’s new AI-research building is designed for human interaction",
+                "url": "https://www.fastcompany.com/91627484/uc-berkeley-ai-research-gateway-building-weiss-manfredi",
+                "source": "Fast Company",
+                "published": "2026-10-26T10:30:00.000Z"
+              },
+              {
+                "title": "Uche Yara’s body music is defiantly human: “I have no choice but to wear my heart on my sleeve”",
+                "url": "https://www.nme.com/the-cover/uche-yara-26-10-2026-3974196?utm_source=rss&utm_medium=rss&utm_campaign=the-cover-uche-yara-interview-bodyscanner",
+                "source": "NME",
+                "published": "2026-10-26T09:00:54.000Z"
+              },
+              {
+                "title": "‘VelociPastor 2’ Leaves FilmQuest Audience Roaring, Celebrating Human-Made Films in an AI Era",
+                "url": "https://variety.com/2026/film/festivals/velocipastor-2-filmquest-audience-laughter-1236930949/",
+                "source": "Variety",
+                "published": "2026-10-26T08:53:16.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-22T10:37:46.583Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "AI Autonomy as Spectacle Over Engineering",
+        "category": "internet",
+        "what_is_happening": "Tesla’s new Roadster uses SpaceX thrusters for midair flips and sub-second acceleration, generating enormous coverage even as the spectacle outruns the practical use. The stunt has become the product story.",
+        "why_it_matters_for_brands": "Spectacle is increasingly doing the marketing work that substance used to, which can win attention but risks a credibility gap.",
+        "what_brands_can_do": [
+          "Use spectacle to earn attention, then deliver real substance behind it.",
+          "Be honest about what is a demo and what actually ships.",
+          "Do not let a stunt write a promise the product cannot keep."
+        ]
+      },
+      {
+        "trend": "Salvage Modernism: Upcycled Materials in Heritage Spaces",
+        "category": "art",
+        "what_is_happening": "Architect Diana Kellogg renovated a historic Tribeca home by deliberately sourcing and integrating salvaged materials throughout. Reuse is being treated as a design language rather than a compromise.",
+        "why_it_matters_for_brands": "Visible reuse is becoming a mark of taste and values, letting sustainability read as premium rather than merely worthy.",
+        "what_brands_can_do": [
+          "Make reuse a visible design choice, not a hidden cost-saver.",
+          "Let the story of a material add value rather than apology.",
+          "Design so sustainability reads as craft, not sacrifice."
+        ]
+      },
+      {
+        "trend": "Orchestra Collaborations Legitimise Genre Crossovers",
+        "category": "music",
+        "what_is_happening": "Red Hot Chili Peppers are performing classic material with orchestral framing while Western Sydney drill group ONEFOUR teamed with the Penrith Chamber Orchestra for new work. Orchestras are being used to legitimise and elevate popular genres.",
+        "why_it_matters_for_brands": "Pairing with classical institutions lends instant credibility, a move brands can borrow to signal depth and seriousness.",
+        "what_brands_can_do": [
+          "Use a prestige partner to elevate, only where the fit is real.",
+          "Let an unexpected pairing add weight, not just novelty.",
+          "Earn the credibility rather than rent the orchestra."
+        ]
+      }
+    ]
+  }
+}
