@@ -1,84 +1,32 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-27T11:51:24.499Z",
-    "intro": "3 categorieën · 3 trends · laatste 24u",
+    "generatedAt": "2026-10-28T12:26:09.952Z",
+    "intro": "1 categorieën · 2 trends · laatste 24u",
     "categories": [
-      {
-        "id": "music",
-        "label": "Muziek",
-        "insights": [
-          {
-            "trend": "Hip-hop kingmaker als festival curator",
-            "summary": "Jay-Z gaat voor het eerste keer zelf optreden als headliner van de Super Bowl LXI halftime show in februari 2027, na jaren achter de schermen als curator via Roc Nation. Dit markeert een symbolische verschuiving waar een hip-hop icoon zich volledig eigenaar maakt van het meest prominente podium in American pop culture.",
-            "why_it_matters": "Dit signaleert dat hip-hop niet langer 'eigen platform nodig heeft' buiten mainstream, het IS het mainstream, en controle over die podiums is nu een machtspel tussen artists, platforms en tech (Apple Music).",
-            "strategic_signal": "Merken die performatieve macht willen tonen kunnen leren dat het eigenaarschap van curation zelf méér impact heeft dan deelname, kijk hoe Jay-Z van 'achter-de-schermenman' naar 'talent' ging, en wat dat betekent voor brand positioning.",
-            "trajectory": "piekend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "A.V. Club",
-              "Adweek",
-              "Billboard",
-              "Consequence",
-              "Deadline",
-              "NME",
-              "Pitchfork News",
-              "Stereogum",
-              "The Hollywood Reporter"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Watch Macklemore, Hozier and Kneecap come together for free, sold-out ‘Free Palestine’ show in Dublin",
-                "url": "https://www.nme.com/news/music/watch-macklemore-hozier-kneecap-free-palestine-show-in-dublin-3974333?utm_source=rss&utm_medium=rss&utm_campaign=watch-macklemore-hozier-kneecap-free-palestine-show-in-dublin",
-                "source": "NME",
-                "published": "2026-10-27T10:22:27.000Z"
-              },
-              {
-                "title": "Jay-Z Will Finally Headline Super Bowl 61 Halftime Show After Years Behind the Scenes",
-                "url": "https://www.adweek.com/brand-marketing/jay-z-will-finally-headline-super-bowl-61-halftime-show-after-years-behind-the-scenes/",
-                "source": "Adweek",
-                "published": "2026-10-27T06:03:13.000Z"
-              },
-              {
-                "title": "Jay-Z to Headline 2027 Super Bowl Halftime Show: ‘GOAT’s Out of the Bag’",
-                "url": "https://www.billboard.com/music/rb-hip-hop/jay-z-super-bowl-halftime-2027-headliner-1236368561/",
-                "source": "Billboard",
-                "published": "2026-10-27T02:07:07.000Z"
-              },
-              {
-                "title": "Jay Z & Apple Make It Official! Hova’s Headlining The Super Bowl Halftime Show",
-                "url": "https://deadline.com/2026/10/jay-z-super-bowl-halftime-official-nfl-apple-1237205883/",
-                "source": "Deadline",
-                "published": "2026-10-27T01:59:00.000Z"
-              }
-            ]
-          }
-        ]
-      },
       {
         "id": "film",
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Immersive concert-doc als prestige format",
-            "summary": "David Bowie's 'Stage', een immersive concert experience van filmmaker Brett Morgen, wereldpremiéert op het Berlin Film Festival, cinema-als-installatiekunst waarin archief, performance en technologie versmelten. Dit volgt op de eerder genoteerde trend van 'documentary as mass entertainment' die momentum wint.",
-            "why_it_matters": "Documentseries/experience-hybriden worden niet langer niche-formats: ze concurreren nu voor prestige festival-posities en bereiken mainstream audiences via streaming, wat betekent dat storytelling steeds minder text-gebonden wordt.",
-            "strategic_signal": "Culturele merken kunnen het volgende testen: een limited immersive experience koppelen aan premiere-moment + traditioneel filmfestival, met het archief als content-bron, dit creëert 'ungameable' media dat influencers niet kunnen consumeren-en-doorschuiven.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
+            "trend": "Documentary as prestige streaming battleground",
+            "summary": "Nathan Fielding's 'You Can See Everything' is emerging as a cultural phenomenon competing with legacy documentaries like Michael Moore's 'Fahrenheit 9/11' for both viewership and cultural capital. Streamers positioneren nu documentaire als contentprestatie, niet als niche-format.",
+            "why_it_matters": "Dit signaleert dat documentaire van entertainment-subcategorie naar mainstream prestige-content evolueert, wat betekent dat merk-partnerschappen en advertenties hierin zich legitimeren als 'serious' platform.",
+            "strategic_signal": "Merken kunnen documentaire-partnerships nu framen als 'cultural investment' in plaats van 'educational content'. Onderzoek welke streamers documentaire frontpage-prioriteit geven en positioneer daar.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
             "sources": [
-              "Fast Company",
+              "Deadline",
               "IndieWire",
+              "NME",
+              "Pitchfork News",
               "The Hollywood Reporter",
-              "VRT NWS",
               "Variety",
               "Wikipedia Trending EN"
             ],
@@ -88,93 +36,72 @@
                 "title": "Clayface (film)",
                 "url": "https://en.wikipedia.org/wiki/Clayface_(film)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-10-27T11:51:04.790Z"
+                "published": "2026-10-28T12:25:51.195Z"
               },
               {
-                "title": "Wildwood (film)",
-                "url": "https://en.wikipedia.org/wiki/Wildwood_(film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-10-27T11:51:04.790Z"
-              },
-              {
-                "title": "Oproep om 'Wintercircus voor film op te richten' na groeiende twijfels over toekomst Cinema Rex in Gent",
-                "url": "https://vrtnws.be/p.8ep3164jY",
-                "source": "VRT NWS",
-                "published": "2026-10-27T11:22:50.000Z"
-              },
-              {
-                "title": "David Bowie Immersive Concert Experience ‘Stage’ From Brett Morgen to World Premiere at Berlin Film Festival",
-                "url": "https://variety.com/2026/film/global/david-bowie-immersive-concert-experience-stage-berlin-1236931930/",
+                "title": "Latvian Oscar Submission ‘Ulya’ Sells Wide Ahead of Opening Tallinn: ‘This Film Is a Blockbuster’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/festivals/latvia-oscar-submission-ulya-viesturs-kairiss-tallinn-sales-1236930575/",
                 "source": "Variety",
-                "published": "2026-10-27T11:00:00.000Z"
+                "published": "2026-10-28T12:07:49.000Z"
+              },
+              {
+                "title": "Robert Del Naja releases ‘Life Support’ film soundtrack with Kneecap, Paul Weller, David Holmes, Yasmine Hamdan and more to benefit Health Workers 4 Palestine",
+                "url": "https://www.nme.com/news/film/robert-del-naja-massive-attack-life-support-film-soundtrack-kneecap-paul-weller-3974434?utm_source=rss&utm_medium=rss&utm_campaign=robert-del-naja-massive-attack-life-support-film-soundtrack-kneecap-paul-weller",
+                "source": "NME",
+                "published": "2026-10-28T11:42:55.000Z"
+              },
+              {
+                "title": "“Don’t Get Me Wrong, I’m Not Without Ego!”: How Nick Mohammed Earned His Rep as the Nicest Man in British Film and TV",
+                "url": "https://www.hollywoodreporter.com/tv/tv-features/nick-mohammed-interview-war-celebrity-traitors-ted-lasso-tv-1236740663/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-28T11:30:00.000Z"
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": "internet",
-        "label": "Internet",
-        "insights": [
+          },
           {
-            "trend": "AI-infrastructure als IPO-moment",
-            "summary": "Anthropic stapt naar de beurs met volledige transparantie over computeverbruik en AI-schaal, een 335-pagina S-1 filing die laat zien hoe generatieve AI 'methane dependency' (energie/kosten) is, en hoe afhankelijk de sector is van chip-deals financieringsromantiek. Dit gebeurt parallel met enorme investeringen in bouwverplichting door Broadcom.",
-            "why_it_matters": "De AI-boom verhuist van hype naar financiële realiteit. IPO's dwingen transparantie af, waardoor de kostprijs van 'gratis' AI-tools zichtbaar wordt en de markt zich moet herpositioneren rond duurzaamheid, niet technologische maagdelijkheid.",
-            "strategic_signal": "Communicatiestrategieën rond AI-producten kunnen nu niet meer werken zonder het energieverhaal aan te snijden. Verwacht dat concurrenten en critici het Anthropic-voorbeeld gebruiken om te vragen naar *jouw* carbon footprint van AI, dus build dat narrative proactief in.",
+            "trend": "International arthouse als global production asset",
+            "summary": "Latvian, Estonian en Japanese-Brazilian films krijgen internationale distributie en festival-prominentie (Tallinn, Tokyo Market). Studios investeren in lokale content als gateway naar globaal publiek.",
+            "why_it_matters": "Dit weerspiegelt shift van 'international film' als specialistische niche naar 'regional content as scalable IP'. Culturele authenticiteit wordt strategische asset.",
+            "strategic_signal": "Test partnerships met regional film festivals (niet alleen Berlin/Cannes) om culturele credibility te bouwen; lokale stories krijgen globale reach via streamers die lokale investeerders zijn.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Ars Technica",
-              "Crack Magazine",
-              "Hypebeast",
+              "Billboard",
+              "Deadline",
+              "GQ",
               "The Verge",
-              "Yanko Design"
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Apple’s iPad mini Finally Gets OLED and Water Resistance",
-                "url": "https://hypebeast.com/2026/10/apple-ipad-mini-oled-announcement-release-info",
-                "source": "Hypebeast",
-                "published": "2026-10-27T09:35:11.000Z"
-              },
-              {
-                "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
-                "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
-                "source": "Ars Technica",
-                "published": "2026-10-26T20:04:16.000Z"
-              },
-              {
-                "title": "Apple reveals updated iPad mini with a bigger OLED screen for $700",
-                "url": "https://arstechnica.com/apple/2026/10/apple-reveals-updated-ipad-mini-with-a-bigger-oled-screen-for-700/",
-                "source": "Ars Technica",
-                "published": "2026-10-26T19:04:40.000Z"
-              },
-              {
-                "title": "iPhone Duo now supports Apple Pencil with iOS 27.2",
-                "url": "https://www.theverge.com/tech/1018827/ios-27-2-iphone-duo-apple-pencil",
+                "title": "Our first look at Amazon’s big new Echo Show 16",
+                "url": "https://www.theverge.com/tech/1020286/amazon-echo-show-16-hands-on-price-screen-styles",
                 "source": "The Verge",
-                "published": "2026-10-26T18:51:06.000Z"
+                "published": "2026-10-28T12:00:00.000Z"
+              },
+              {
+                "title": "‘Alan Jackson: The Last Show’ Special Set At NBC",
+                "url": "https://deadline.com/2026/10/alan-jackson-the-last-show-special-nbc-1237206783/",
+                "source": "Deadline",
+                "published": "2026-10-28T12:00:00.000Z"
+              },
+              {
+                "title": "Sam Fender Postpones Ticket Sale For Homecoming Show Following ‘Sophisticated Bot Attack’",
+                "url": "https://www.billboard.com/music/concerts/sam-fender-ticket-presale-newcastle-bot-attack-1236369500/",
+                "source": "Billboard",
+                "published": "2026-10-28T11:50:38.000Z"
+              },
+              {
+                "title": "Camila Mendes, Leslie Bibb Shooting ‘Upgraded 2’ in Venice, Where Biennale Art Show Is Part of Rom-Com’s Storyline",
+                "url": "https://variety.com/2026/film/global/camila-mendes-leslie-bibb-upgraded-2-venice-1236931945/",
+                "source": "Variety",
+                "published": "2026-10-28T09:40:45.000Z"
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  "crossCategory": {
-    "generatedAt": "2026-10-27T11:51:27.131Z",
-    "megaTrends": [
-      {
-        "trend": "Muziekbeleving transcendeert traditionele formaten",
-        "summary": "Muziek evolueert van luisterformat naar immersieve, gecureerde ervaringen die zowel fysiek (festivals) als audiovisueel (concert-docs) vorm aannemen. Hip-hop kuratoren definiëren festivals, terwijl filmmakers concert-documentaires als prestige-kunstform omarmen.",
-        "why_it_matters": "Dit signaleert dat muziek niet langer primair auditief wordt geconsumeerd, maar als totaalervaring waarin context, curation en presentatie even belangrijk zijn als het geluid zelf.",
-        "categories": [
-          "music",
-          "film"
-        ],
-        "strength": "matig"
       }
     ]
   },
@@ -202,7 +129,7 @@
           {
             "trend": "Artist-IP als AI-slagveld",
             "summary": "Artiesten en labels claimen actief eigenaarschap over vocale en creatieve IP als bescherming tegen ongeautoriseerde AI-training. Dit signaal bouwt momentum op als de muziekindustrie zoekt naar juridische en contractuele grenzen in een nog ongereguleerd AI-landschap.",
-            "why_it_matters": "Merken die muziek licenseren of artiesten collaboreren moeten rekening houden met nieuwe IP-clausules en reputatierisico's rondom AI-gebruik.",
+            "why_it_matters": "Merken die muziek licenseren of met artiesten collaboreren moeten rekening houden met nieuwe IP-clausules en reputatierisico's rondom AI-gebruik.",
             "momentum": "versnellend"
           },
           {
@@ -249,7 +176,7 @@
         "insights": [
           {
             "trend": "Post-humaan design voorbij antropocentrische ruimte",
-            "summary": "Architectuur en designpraktijken beginnen de menselijke gebruiker los te laten als enige maatstaf en integreren niet-menselijke entiteiten, ecologie, AI, dier, als gelijkwaardige stakeholders. Dit verschuift van filosofisch experiment naar toegepaste ontwerpstrategie.",
+            "summary": "Architectuur en designpraktijken beginnen de menselijke gebruiker los te laten als enige maatstaf en integreren niet-menselijke entiteiten, ecologie, AI, dier als gelijkwaardige stakeholders. Dit verschuift van filosofisch experiment naar toegepaste ontwerpstrategie.",
             "why_it_matters": "Voor merken in vastgoed, retail en hospitality signaleert dit een komende paradigmashift in hoe 'waardevolle ruimte' gecommuniceerd en ontworpen wordt.",
             "momentum": "versnellend"
           }
@@ -268,7 +195,7 @@
           {
             "trend": "Games als politiek gepositioneerd cultuurproduct",
             "summary": "Game-studios gebruiken bewust een politieke of maatschappelijke stellingname als onderdeel van hun release- en marketingstrategie. Dit transformeert games van entertainment naar actief cultureel statement.",
-            "why_it_matters": "De gamingruimte wordt een nieuw front voor cultuuroorlogen, merken die hier adverteren of collaboreren moeten positiebepaling meenemen in hun risicoafweging.",
+            "why_it_matters": "De gamingruimte wordt een nieuw front voor cultuuroorlogen. Merken die hier adverteren of collaboreren moeten positiebepaling meenemen in hun risicoafweging.",
             "momentum": "versnellend"
           },
           {
@@ -294,39 +221,39 @@
     ]
   },
   "weeklyBrandSignals": {
-    "generatedAt": "2026-10-22T10:37:46.583Z",
+    "generatedAt": "2026-10-28T12:27:17.049Z",
     "weeklyBrandSignals": [
       {
-        "trend": "AI Autonomy as Spectacle Over Engineering",
-        "category": "internet",
-        "what_is_happening": "Tesla’s new Roadster uses SpaceX thrusters for midair flips and sub-second acceleration, generating enormous coverage even as the spectacle outruns the practical use. The stunt has become the product story.",
-        "why_it_matters_for_brands": "Spectacle is increasingly doing the marketing work that substance used to, which can win attention but risks a credibility gap.",
+        "trend": "Utility Aesthetics Claim Premium Status",
+        "category": "trends",
+        "what_is_happening": "Functional, no-nonsense design language is moving into the premium tier of sportswear, turning 'built for use' into a marker of status rather than a compromise. Consumers in the post-hype cycle are increasingly suspicious of purely aspirational aesthetics, rewarding brands that can demonstrate actual performance credibility.",
+        "why_it_matters_for_brands": "Brands that reposition around demonstrated function rather than visual aspiration will earn trust with a consumer base that has grown weary of hollow prestige signalling.",
         "what_brands_can_do": [
-          "Use spectacle to earn attention, then deliver real substance behind it.",
-          "Be honest about what is a demo and what actually ships.",
-          "Do not let a stunt write a promise the product cannot keep."
+          "Audit your visual language and remove decorative elements that signal status without communicating a concrete functional benefit.",
+          "Commission product storytelling that centres material choices, construction details and real-use conditions rather than lifestyle imagery.",
+          "Partner with credible practitioners, athletes, craftspeople or technicians, to validate performance claims through documented, unglamourised use."
         ]
       },
       {
-        "trend": "Salvage Modernism: Upcycled Materials in Heritage Spaces",
-        "category": "art",
-        "what_is_happening": "Architect Diana Kellogg renovated a historic Tribeca home by deliberately sourcing and integrating salvaged materials throughout. Reuse is being treated as a design language rather than a compromise.",
-        "why_it_matters_for_brands": "Visible reuse is becoming a mark of taste and values, letting sustainability read as premium rather than merely worthy.",
-        "what_brands_can_do": [
-          "Make reuse a visible design choice, not a hidden cost-saver.",
-          "Let the story of a material add value rather than apology.",
-          "Design so sustainability reads as craft, not sacrifice."
-        ]
-      },
-      {
-        "trend": "Orchestra Collaborations Legitimise Genre Crossovers",
+        "trend": "Artist IP Becomes AI Battleground",
         "category": "music",
-        "what_is_happening": "Red Hot Chili Peppers are performing classic material with orchestral framing while Western Sydney drill group ONEFOUR teamed with the Penrith Chamber Orchestra for new work. Orchestras are being used to legitimise and elevate popular genres.",
-        "why_it_matters_for_brands": "Pairing with classical institutions lends instant credibility, a move brands can borrow to signal depth and seriousness.",
+        "what_is_happening": "Musicians and their labels are actively asserting ownership over vocal and creative intellectual property as protection against unauthorised AI training, with new contractual clauses emerging across the industry. This is accelerating as the legal and regulatory framework around AI-generated sound remains largely unresolved.",
+        "why_it_matters_for_brands": "Any brand that licenses music, collaborates with artists or uses AI-generated voice and sound in campaigns now carries measurable legal and reputational exposure if its contracts do not explicitly address AI usage rights.",
         "what_brands_can_do": [
-          "Use a prestige partner to elevate, only where the fit is real.",
-          "Let an unexpected pairing add weight, not just novelty.",
-          "Earn the credibility rather than rent the orchestra."
+          "Review all active music and talent contracts to identify gaps around AI training, synthesis and reproduction rights before renewals.",
+          "Build an internal policy on AI-generated audio that distinguishes clearly between licensed, commissioned and synthetic sound assets.",
+          "Engage artists as early co-signatories on any AI-adjacent creative project, turning rights transparency into a visible signal of respect."
+        ]
+      },
+      {
+        "trend": "Games as Deliberate Political Statements",
+        "category": "gaming",
+        "what_is_happening": "Game studios are increasingly embedding an explicit political or social position into their release and marketing strategy, treating the game itself as a cultural statement rather than a neutral entertainment product. This is accelerating, with titles drawing both devoted audiences and organised backlash depending on their stance.",
+        "why_it_matters_for_brands": "The gaming space is becoming a front line for cultural debate, meaning that advertising, sponsorship or collaboration decisions here carry a positioning consequence that extends well beyond the gaming audience itself.",
+        "what_brands_can_do": [
+          "Map the political and cultural positioning of any gaming title or studio before committing to a sponsorship or co-branded activation.",
+          "Develop a clear internal framework for evaluating cultural risk in gaming partnerships, separating reputational exposure from commercial opportunity.",
+          "Consider selective alignment with studios whose values align visibly with your brand's stated positions, making the collaboration a coherent signal rather than an accidental one."
         ]
       }
     ]

@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-28",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-28T12:26:09.952Z",
+    "intro": "1 categorieën · 2 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Documentary as prestige streaming battleground",
+            "summary": "Nathan Fielding's 'You Can See Everything' is emerging as a cultural phenomenon competing with legacy documentaries like Michael Moore's 'Fahrenheit 9/11' for both viewership and cultural capital. Streamers positioneren nu documentaire als contentprestatie, niet als niche-format.",
+            "why_it_matters": "Dit signaleert dat documentaire van entertainment-subcategorie naar mainstream prestige-content evolueert, wat betekent dat merk-partnerschappen en advertenties hierin zich legitimeren als 'serious' platform.",
+            "strategic_signal": "Merken kunnen documentaire-partnerships nu framen als 'cultural investment' in plaats van 'educational content'. Onderzoek welke streamers documentaire frontpage-prioriteit geven en positioneer daar.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Deadline",
+              "IndieWire",
+              "NME",
+              "Pitchfork News",
+              "The Hollywood Reporter",
+              "Variety",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Clayface (film)",
+                "url": "https://en.wikipedia.org/wiki/Clayface_(film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-28T12:25:51.195Z"
+              },
+              {
+                "title": "Latvian Oscar Submission ‘Ulya’ Sells Wide Ahead of Opening Tallinn: ‘This Film Is a Blockbuster’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/festivals/latvia-oscar-submission-ulya-viesturs-kairiss-tallinn-sales-1236930575/",
+                "source": "Variety",
+                "published": "2026-10-28T12:07:49.000Z"
+              },
+              {
+                "title": "Robert Del Naja releases ‘Life Support’ film soundtrack with Kneecap, Paul Weller, David Holmes, Yasmine Hamdan and more to benefit Health Workers 4 Palestine",
+                "url": "https://www.nme.com/news/film/robert-del-naja-massive-attack-life-support-film-soundtrack-kneecap-paul-weller-3974434?utm_source=rss&utm_medium=rss&utm_campaign=robert-del-naja-massive-attack-life-support-film-soundtrack-kneecap-paul-weller",
+                "source": "NME",
+                "published": "2026-10-28T11:42:55.000Z"
+              },
+              {
+                "title": "“Don’t Get Me Wrong, I’m Not Without Ego!”: How Nick Mohammed Earned His Rep as the Nicest Man in British Film and TV",
+                "url": "https://www.hollywoodreporter.com/tv/tv-features/nick-mohammed-interview-war-celebrity-traitors-ted-lasso-tv-1236740663/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-28T11:30:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "International arthouse als global production asset",
+            "summary": "Latvian, Estonian en Japanese-Brazilian films krijgen internationale distributie en festival-prominentie (Tallinn, Tokyo Market). Studios investeren in lokale content als gateway naar globaal publiek.",
+            "why_it_matters": "Dit weerspiegelt shift van 'international film' als specialistische niche naar 'regional content as scalable IP'. Culturele authenticiteit wordt strategische asset.",
+            "strategic_signal": "Test partnerships met regional film festivals (niet alleen Berlin/Cannes) om culturele credibility te bouwen; lokale stories krijgen globale reach via streamers die lokale investeerders zijn.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Deadline",
+              "GQ",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Our first look at Amazon’s big new Echo Show 16",
+                "url": "https://www.theverge.com/tech/1020286/amazon-echo-show-16-hands-on-price-screen-styles",
+                "source": "The Verge",
+                "published": "2026-10-28T12:00:00.000Z"
+              },
+              {
+                "title": "‘Alan Jackson: The Last Show’ Special Set At NBC",
+                "url": "https://deadline.com/2026/10/alan-jackson-the-last-show-special-nbc-1237206783/",
+                "source": "Deadline",
+                "published": "2026-10-28T12:00:00.000Z"
+              },
+              {
+                "title": "Sam Fender Postpones Ticket Sale For Homecoming Show Following ‘Sophisticated Bot Attack’",
+                "url": "https://www.billboard.com/music/concerts/sam-fender-ticket-presale-newcastle-bot-attack-1236369500/",
+                "source": "Billboard",
+                "published": "2026-10-28T11:50:38.000Z"
+              },
+              {
+                "title": "Camila Mendes, Leslie Bibb Shooting ‘Upgraded 2’ in Venice, Where Biennale Art Show Is Part of Rom-Com’s Storyline",
+                "url": "https://variety.com/2026/film/global/camila-mendes-leslie-bibb-upgraded-2-venice-1236931945/",
+                "source": "Variety",
+                "published": "2026-10-28T09:40:45.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weekly": {
+    "generatedAt": "2026-10-27T11:52:11.024Z",
+    "daysAnalyzed": 7,
+    "intro": "6 categorieën · 12 patronen · laatste 7 dagen",
+    "categories": [
+      {
+        "id": "culture",
+        "label": "Cultuur",
+        "insights": [
+          {
+            "trend": "Politieke satire als culturele afrekening",
+            "summary": "Satire herneemt zijn rol als serieus instrument voor maatschappelijke kritiek, voorbij entertainment alleen, met toenemende culturele resonantie in een gepolariseerd medialandschap. Dit signaal markeert een verschuiving van cynisme naar actieve duiding via humor.",
+            "why_it_matters": "Merken die authenticiteit en maatschappelijke relevantie nastreven moeten de opkomst van satire als mainstream-reckoning-tool meenemen in hun communicatietoon.",
+            "momentum": "versnellend"
+          }
+        ]
+      },
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Artist-IP als AI-slagveld",
+            "summary": "Artiesten en labels claimen actief eigenaarschap over vocale en creatieve IP als bescherming tegen ongeautoriseerde AI-training. Dit signaal bouwt momentum op als de muziekindustrie zoekt naar juridische en contractuele grenzen in een nog ongereguleerd AI-landschap.",
+            "why_it_matters": "Merken die muziek licenseren of met artiesten collaboreren moeten rekening houden met nieuwe IP-clausules en reputatierisico's rondom AI-gebruik.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Heritage albums als live spektakel",
+            "summary": "Klassieke albums worden herontdekt als immersive live-events, waarbij nostalgie als productionele strategie dient. Dit patroon signaleert een verschuiving van passieve luisterervaring naar actieve belevenis-economie.",
+            "why_it_matters": "De 'anniversary tour'-logica democratiseert zich richting experiences, een opening voor merken in sponsoring, branded entertainment en co-created events.",
+            "momentum": "stabiel"
+          },
+          {
+            "trend": "Documentaire als muziek-mainstream medium",
+            "summary": "Muzikale documentaires overstijgen niche-fandom en worden massamediafenomenen die artiestnarratieven herschrijven. Ze fungeren als culturele rehabilitatie- én kanoniseringstool tegelijk.",
+            "why_it_matters": "Documentaires worden strategisch ingezet als langetermijn-reputatiebouwers, wat relevant is voor merken die associaties met artistiek erfgoed zoeken.",
+            "momentum": "stabiel"
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Auteurfilm omarmt blockbuster schaal",
+            "summary": "High-profile auteurs combineren artistieke integriteit met A-list casting en grote budgetten, waarmee de grens tussen prestige en commercieel vervaagt. Streaming fungeert als katalysator door distributiebeperkingen weg te nemen.",
+            "why_it_matters": "Dit creëert een nieuw premium segment dat zowel cultureel gewicht als massabereik biedt, ideaal voor merken die diepgang en schaal tegelijk zoeken.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Canonieke literatuur via vrouwelijk perspectief",
+            "summary": "Prestige-adaptaties herclaimen klassieke literaire werken door bewust vrouwelijke narratieven en stemmen centraal te zetten. Dit is geen niche-correctie maar een structurele herschrijving van culturele referentiekaders.",
+            "why_it_matters": "Merken kunnen via associatie met deze titels een progressief maar cultureel geworteld merkprofiel opbouwen dat authentiek voelt aan een breed publiek.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Regionale filmhubs challengen westerse dominantie",
+            "summary": "Niet-westerse filmproductiecentra, van Lagos tot Seoul tot Mumbai, claimen steeds meer internationaal prestige en distributiemacht. Dit signaal bouwt structureel op waar eerdere golven (K-drama, Nollywood) slechts incidenteel waren.",
+            "why_it_matters": "Globale merken moeten hun contentstrategieën decentreren: regionale culturele referenties worden mainstream, niet exotisch.",
+            "momentum": "versnellend"
+          }
+        ]
+      },
+      {
+        "id": "art",
+        "label": "Art & Design",
+        "insights": [
+          {
+            "trend": "Post-humaan design voorbij antropocentrische ruimte",
+            "summary": "Architectuur en designpraktijken beginnen de menselijke gebruiker los te laten als enige maatstaf en integreren niet-menselijke entiteiten, ecologie, AI, dier als gelijkwaardige stakeholders. Dit verschuift van filosofisch experiment naar toegepaste ontwerpstrategie.",
+            "why_it_matters": "Voor merken in vastgoed, retail en hospitality signaleert dit een komende paradigmashift in hoe 'waardevolle ruimte' gecommuniceerd en ontworpen wordt.",
+            "momentum": "versnellend"
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "AI voice theft als vakbondsstrijd",
+            "summary": "De ongeautoriseerde replicatie van stemacteurs via AI wordt een georganiseerd arbeidsconflict, met vakbonden die precedenten scheppen voor de bredere creatieve industrie. Dit gaat verder dan gaming en raakt elke sector die stem- en licentiework inzet.",
+            "why_it_matters": "Merken die AI-gegenereerde voice-overs of avatars inzetten staan bloot aan reputatie- en juridisch risico als sector-standaarden worden aangescherpt.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Games als politiek gepositioneerd cultuurproduct",
+            "summary": "Game-studios gebruiken bewust een politieke of maatschappelijke stellingname als onderdeel van hun release- en marketingstrategie. Dit transformeert games van entertainment naar actief cultureel statement.",
+            "why_it_matters": "De gamingruimte wordt een nieuw front voor cultuuroorlogen. Merken die hier adverteren of collaboreren moeten positiebepaling meenemen in hun risicoafweging.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Anime-adaptaties als gaming-canonvalidator",
+            "summary": "Anime-vertalingen van game-IP fungeren als culturele legitimatie voor franchises die een bredere of jongere doelgroep willen bereiken. Het is geen spin-off maar een kanoniserings-mechanisme dat fan-loyaliteit versterkt.",
+            "why_it_matters": "Voor merken biedt dit een instappunt in gaming-cultuur via een toegankelijker, visueel narratief medium met een bewezen crossover-effect.",
+            "momentum": "stabiel"
+          }
+        ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "Utility-esthetiek infiltreert premium sportswear",
+            "summary": "Functioneel, no-nonsense design-taal dringt door in het premium segment van sportswear, waarbij 'gemaakt voor gebruik' een statussymbool wordt in plaats van een concessie. Dit weerspiegelt een bredere culturele verschuiving van aspirationele aesthetics naar bewust pragmatisme.",
+            "why_it_matters": "Voor sportswear- en lifestylemerken is dit het signaal om positionering te verschuiven van status-via-look naar status-via-performance, een geloofwaardiger propositie voor de post-hype consument.",
+            "momentum": "versnellend"
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-28T12:27:17.049Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Utility Aesthetics Claim Premium Status",
+        "category": "trends",
+        "what_is_happening": "Functional, no-nonsense design language is moving into the premium tier of sportswear, turning 'built for use' into a marker of status rather than a compromise. Consumers in the post-hype cycle are increasingly suspicious of purely aspirational aesthetics, rewarding brands that can demonstrate actual performance credibility.",
+        "why_it_matters_for_brands": "Brands that reposition around demonstrated function rather than visual aspiration will earn trust with a consumer base that has grown weary of hollow prestige signalling.",
+        "what_brands_can_do": [
+          "Audit your visual language and remove decorative elements that signal status without communicating a concrete functional benefit.",
+          "Commission product storytelling that centres material choices, construction details and real-use conditions rather than lifestyle imagery.",
+          "Partner with credible practitioners, athletes, craftspeople or technicians, to validate performance claims through documented, unglamourised use."
+        ]
+      },
+      {
+        "trend": "Artist IP Becomes AI Battleground",
+        "category": "music",
+        "what_is_happening": "Musicians and their labels are actively asserting ownership over vocal and creative intellectual property as protection against unauthorised AI training, with new contractual clauses emerging across the industry. This is accelerating as the legal and regulatory framework around AI-generated sound remains largely unresolved.",
+        "why_it_matters_for_brands": "Any brand that licenses music, collaborates with artists or uses AI-generated voice and sound in campaigns now carries measurable legal and reputational exposure if its contracts do not explicitly address AI usage rights.",
+        "what_brands_can_do": [
+          "Review all active music and talent contracts to identify gaps around AI training, synthesis and reproduction rights before renewals.",
+          "Build an internal policy on AI-generated audio that distinguishes clearly between licensed, commissioned and synthetic sound assets.",
+          "Engage artists as early co-signatories on any AI-adjacent creative project, turning rights transparency into a visible signal of respect."
+        ]
+      },
+      {
+        "trend": "Games as Deliberate Political Statements",
+        "category": "gaming",
+        "what_is_happening": "Game studios are increasingly embedding an explicit political or social position into their release and marketing strategy, treating the game itself as a cultural statement rather than a neutral entertainment product. This is accelerating, with titles drawing both devoted audiences and organised backlash depending on their stance.",
+        "why_it_matters_for_brands": "The gaming space is becoming a front line for cultural debate, meaning that advertising, sponsorship or collaboration decisions here carry a positioning consequence that extends well beyond the gaming audience itself.",
+        "what_brands_can_do": [
+          "Map the political and cultural positioning of any gaming title or studio before committing to a sponsorship or co-branded activation.",
+          "Develop a clear internal framework for evaluating cultural risk in gaming partnerships, separating reputational exposure from commercial opportunity.",
+          "Consider selective alignment with studios whose values align visibly with your brand's stated positions, making the collaboration a coherent signal rather than an accidental one."
+        ]
+      }
+    ]
+  }
+}
