@@ -223,39 +223,39 @@
     ]
   },
   "weeklyBrandSignals": {
-    "generatedAt": "2026-10-28T12:27:17.049Z",
+    "generatedAt": "2026-10-29T12:55:10.675Z",
     "weeklyBrandSignals": [
       {
-        "trend": "Utility Aesthetics Claim Premium Status",
-        "category": "trends",
-        "what_is_happening": "Functional, no-nonsense design language is moving into the premium tier of sportswear, turning 'built for use' into a marker of status rather than a compromise. Consumers in the post-hype cycle are increasingly suspicious of purely aspirational aesthetics, rewarding brands that can demonstrate actual performance credibility.",
-        "why_it_matters_for_brands": "Brands that reposition around demonstrated function rather than visual aspiration will earn trust with a consumer base that has grown weary of hollow prestige signalling.",
-        "what_brands_can_do": [
-          "Audit your visual language and remove decorative elements that signal status without communicating a concrete functional benefit.",
-          "Commission product storytelling that centres material choices, construction details and real-use conditions rather than lifestyle imagery.",
-          "Partner with credible practitioners, athletes, craftspeople or technicians, to validate performance claims through documented, unglamourised use."
-        ]
-      },
-      {
-        "trend": "Artist IP Becomes AI Battleground",
+        "trend": "Hip-Hop’s Curator Steps to the Front",
         "category": "music",
-        "what_is_happening": "Musicians and their labels are actively asserting ownership over vocal and creative intellectual property as protection against unauthorised AI training, with new contractual clauses emerging across the industry. This is accelerating as the legal and regulatory framework around AI-generated sound remains largely unresolved.",
-        "why_it_matters_for_brands": "Any brand that licenses music, collaborates with artists or uses AI-generated voice and sound in campaigns now carries measurable legal and reputational exposure if its contracts do not explicitly address AI usage rights.",
+        "what_is_happening": "Jay-Z will headline the Super Bowl LXI halftime show in February 2027, performing himself for the first time after years of curating the slot from behind the scenes. The tastemaker is stepping out as the act.",
+        "why_it_matters_for_brands": "The people who curate culture are increasingly becoming the stars of it, a cue that the curator role itself now carries star power.",
         "what_brands_can_do": [
-          "Review all active music and talent contracts to identify gaps around AI training, synthesis and reproduction rights before renewals.",
-          "Build an internal policy on AI-generated audio that distinguishes clearly between licensed, commissioned and synthetic sound assets.",
-          "Engage artists as early co-signatories on any AI-adjacent creative project, turning rights transparency into a visible signal of respect."
+          "Give your brand’s curatorial point of view a public face.",
+          "Let the taste you shape become part of the brand story.",
+          "Treat curation as a stage, not just a back room."
         ]
       },
       {
-        "trend": "Games as Deliberate Political Statements",
-        "category": "gaming",
-        "what_is_happening": "Game studios are increasingly embedding an explicit political or social position into their release and marketing strategy, treating the game itself as a cultural statement rather than a neutral entertainment product. This is accelerating, with titles drawing both devoted audiences and organised backlash depending on their stance.",
-        "why_it_matters_for_brands": "The gaming space is becoming a front line for cultural debate, meaning that advertising, sponsorship or collaboration decisions here carry a positioning consequence that extends well beyond the gaming audience itself.",
+        "trend": "Design Looks Beyond the Human User",
+        "category": "art",
+        "what_is_happening": "Architects and designers are starting to drop the human user as the only measure, designing for ecology and non-human life, with coverage around UC Berkeley’s AI-assisted ecological building. Design is decentring the human.",
+        "why_it_matters_for_brands": "Audiences and clients are rewarding design that serves more than human convenience, a shift in what counts as responsible and advanced.",
         "what_brands_can_do": [
-          "Map the political and cultural positioning of any gaming title or studio before committing to a sponsorship or co-branded activation.",
-          "Develop a clear internal framework for evaluating cultural risk in gaming partnerships, separating reputational exposure from commercial opportunity.",
-          "Consider selective alignment with studios whose values align visibly with your brand's stated positions, making the collaboration a coherent signal rather than an accidental one."
+          "Design for more than the human user where it genuinely fits.",
+          "Let ecological thinking shape form, not just messaging.",
+          "Treat non-human needs as a real brief, not decoration."
+        ]
+      },
+      {
+        "trend": "Immersive Concert-Docs as Prestige Format",
+        "category": "music",
+        "what_is_happening": "David Bowie’s ‘Stage’, an immersive concert experience by filmmaker Brett Morgen, world-premiered at the Berlin Film Festival as cinema-as-installation. The concert film is becoming a prestige, immersive event.",
+        "why_it_matters_for_brands": "The line between film, concert and installation is dissolving into one premium experience, a template for brands building cultural moments.",
+        "what_brands_can_do": [
+          "Blend film, performance and space into one experience.",
+          "Design cultural moments to be entered, not just watched.",
+          "Treat an archive or catalogue as material for a live, immersive event."
         ]
       }
     ]
