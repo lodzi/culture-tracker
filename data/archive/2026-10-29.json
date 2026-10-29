@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-29",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-10-29T12:36:33.566Z",
+    "intro": "2 categorieën · 2 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
+          {
+            "trend": "Food-tech consolidation als advertentie-imperium",
+            "summary": "DoorDash koopt Instacart voor $17 miljard, waardoor een omnichannel delivery- en adtech-giant ontstaat. Beide platforms bundelen hun gebruikersdatabases en advertentiemogelijkheden.",
+            "why_it_matters": "Dit signaleert dat voedingsbezorging evolution is naar een advertentie- en loyaliteitsspel. Retail media networks worden de echte groeimotoren, niet delivery zelf.",
+            "strategic_signal": "Merkstrategen moeten nu begrijpen dat DoorDash/Instacart retail media een hoofdkanaal wordt voor FMCG, bereid campagnes voor waarmee je op shelfing-niveau biedt, niet alleen ads.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Adweek",
+              "Quartz",
+              "The Hollywood Reporter",
+              "The Verge"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "DoorDash agreed to buy Instacart for about $17 billion in cash and stock",
+                "url": "https://qz.com/doordash-instacart-acquisition-17-billion-cash-stock-102926",
+                "source": "Quartz",
+                "published": "2026-10-29T12:20:29.000Z"
+              },
+              {
+                "title": "DoorDash is acquiring Instacart for around $17 billion",
+                "url": "https://www.theverge.com/business/1021981/doordash-instacart-acquisition-announcement",
+                "source": "The Verge",
+                "published": "2026-10-29T11:56:35.000Z"
+              },
+              {
+                "title": "Gerry Cardinale’s RedBird Capital, Guy Oseary’s Sound Ventures Ink $1 Billion Investment Partnership",
+                "url": "https://www.hollywoodreporter.com/business/business-news/redbird-capital-sound-ventures-investment-partnership-1236742492/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-10-29T11:38:23.000Z"
+              },
+              {
+                "title": "DoorDash Agrees to Buy Instacart For About $17 Billion",
+                "url": "https://www.adweek.com/commerce/doordash-agrees-to-buy-instacart-for-about-17-billion/",
+                "source": "Adweek",
+                "published": "2026-10-29T08:19:59.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "AI Mode drukt traditionele search-ads onder druk",
+            "summary": "Google's AI Mode en AI Overviews groeien, maar verzwakken klassieke zoekadvertenties: search-revenue groei daalde van 17% naar 12% in Q3. Google experimenteert met 'agentic ads' als volgende frontier.",
+            "why_it_matters": "Dit markeert het begin van het einde van 30 jaar zoekmachine-advertentiedominantie. Merken moeten zich voorbereiden op een post-keyword, AI-agent-driven advertentie-ecosysteem.",
+            "strategic_signal": "Communicatiebureaus moeten nu AI-agent prompting en 'agentic commerce' testen als alternatief voor SEO-afhankelijkheid, want Google zelf stapt over naar AI Overviews waar traditionele ads verdwijnen.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Adweek",
+              "Ars Technica",
+              "Quartz",
+              "The Verge"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Google is taking AI Mode search ads global as search revenue growth slows",
+                "url": "https://qz.com/google-ai-mode-ads-international-search-growth-slows-102926",
+                "source": "Quartz",
+                "published": "2026-10-29T12:28:16.000Z"
+              },
+              {
+                "title": "Google and Microsoft missed AI spending estimates, rattling stocks",
+                "url": "https://qz.com/google-microsoft-ai-spending-estimates-miss-neocloud-stocks-102926",
+                "source": "Quartz",
+                "published": "2026-10-29T12:20:26.000Z"
+              },
+              {
+                "title": "Google stock sinks on earnings miss as a search slowdown raises AI fears",
+                "url": "https://qz.com/google-stock-earnings-miss-search-slowdown-ai-fears-102926",
+                "source": "Quartz",
+                "published": "2026-10-29T12:10:24.000Z"
+              },
+              {
+                "title": "Google says its investments in AI are driving more searches",
+                "url": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026",
+                "source": "The Verge",
+                "published": "2026-10-28T20:22:26.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weekly": {
+    "generatedAt": "2026-10-27T11:52:11.024Z",
+    "daysAnalyzed": 7,
+    "intro": "6 categorieën · 12 patronen · laatste 7 dagen",
+    "categories": [
+      {
+        "id": "culture",
+        "label": "Cultuur",
+        "insights": [
+          {
+            "trend": "Politieke satire als culturele afrekening",
+            "summary": "Satire herneemt zijn rol als serieus instrument voor maatschappelijke kritiek, voorbij entertainment alleen, met toenemende culturele resonantie in een gepolariseerd medialandschap. Dit signaal markeert een verschuiving van cynisme naar actieve duiding via humor.",
+            "why_it_matters": "Merken die authenticiteit en maatschappelijke relevantie nastreven moeten de opkomst van satire als mainstream-reckoning-tool meenemen in hun communicatietoon.",
+            "momentum": "versnellend"
+          }
+        ]
+      },
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Artist-IP als AI-slagveld",
+            "summary": "Artiesten en labels claimen actief eigenaarschap over vocale en creatieve IP als bescherming tegen ongeautoriseerde AI-training. Dit signaal bouwt momentum op als de muziekindustrie zoekt naar juridische en contractuele grenzen in een nog ongereguleerd AI-landschap.",
+            "why_it_matters": "Merken die muziek licenseren of met artiesten collaboreren moeten rekening houden met nieuwe IP-clausules en reputatierisico's rondom AI-gebruik.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Heritage albums als live spektakel",
+            "summary": "Klassieke albums worden herontdekt als immersive live-events, waarbij nostalgie als productionele strategie dient. Dit patroon signaleert een verschuiving van passieve luisterervaring naar actieve belevenis-economie.",
+            "why_it_matters": "De 'anniversary tour'-logica democratiseert zich richting experiences, een opening voor merken in sponsoring, branded entertainment en co-created events.",
+            "momentum": "stabiel"
+          },
+          {
+            "trend": "Documentaire als muziek-mainstream medium",
+            "summary": "Muzikale documentaires overstijgen niche-fandom en worden massamediafenomenen die artiestnarratieven herschrijven. Ze fungeren als culturele rehabilitatie- en kanoniseringstool tegelijk.",
+            "why_it_matters": "Documentaires worden strategisch ingezet als langetermijn-reputatiebouwers, wat relevant is voor merken die associaties met artistiek erfgoed zoeken.",
+            "momentum": "stabiel"
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Auteurfilm omarmt blockbuster schaal",
+            "summary": "High-profile auteurs combineren artistieke integriteit met A-list casting en grote budgetten, waarmee de grens tussen prestige en commercieel vervaagt. Streaming fungeert als katalysator door distributiebeperkingen weg te nemen.",
+            "why_it_matters": "Dit creëert een nieuw premium segment dat zowel cultureel gewicht als massabereik biedt, ideaal voor merken die diepgang en schaal tegelijk zoeken.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Canonieke literatuur via vrouwelijk perspectief",
+            "summary": "Prestige-adaptaties herclaimen klassieke literaire werken door bewust vrouwelijke narratieven en stemmen centraal te zetten. Dit is geen niche-correctie maar een structurele herschrijving van culturele referentiekaders.",
+            "why_it_matters": "Merken kunnen via associatie met deze titels een progressief maar cultureel geworteld merkprofiel opbouwen dat authentiek voelt aan een breed publiek.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Regionale filmhubs challengen westerse dominantie",
+            "summary": "Niet-westerse filmproductiecentra, van Lagos tot Seoul tot Mumbai, claimen steeds meer internationaal prestige en distributiemacht. Dit signaal bouwt structureel op waar eerdere golven (K-drama, Nollywood) slechts incidenteel waren.",
+            "why_it_matters": "Globale merken moeten hun contentstrategieën decentreren: regionale culturele referenties worden mainstream, niet exotisch.",
+            "momentum": "versnellend"
+          }
+        ]
+      },
+      {
+        "id": "art",
+        "label": "Art & Design",
+        "insights": [
+          {
+            "trend": "Post-humaan design voorbij antropocentrische ruimte",
+            "summary": "Architectuur en designpraktijken beginnen de menselijke gebruiker los te laten als enige maatstaf en integreren niet-menselijke entiteiten, ecologie, AI, dier als gelijkwaardige stakeholders. Dit verschuift van filosofisch experiment naar toegepaste ontwerpstrategie.",
+            "why_it_matters": "Voor merken in vastgoed, retail en hospitality signaleert dit een komende paradigmashift in hoe 'waardevolle ruimte' gecommuniceerd en ontworpen wordt.",
+            "momentum": "versnellend"
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "AI voice theft als vakbondsstrijd",
+            "summary": "De ongeautoriseerde replicatie van stemacteurs via AI wordt een georganiseerd arbeidsconflict, met vakbonden die precedenten scheppen voor de bredere creatieve industrie. Dit gaat verder dan gaming en raakt elke sector die stem- en licentiework inzet.",
+            "why_it_matters": "Merken die AI-gegenereerde voice-overs of avatars inzetten staan bloot aan reputatie- en juridisch risico als sector-standaarden worden aangescherpt.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Games als politiek gepositioneerd cultuurproduct",
+            "summary": "Game-studios gebruiken bewust een politieke of maatschappelijke stellingname als onderdeel van hun release- en marketingstrategie. Dit transformeert games van entertainment naar actief cultureel statement.",
+            "why_it_matters": "De gamingruimte wordt een nieuw front voor cultuuroorlogen. Merken die hier adverteren of collaboreren moeten positiebepaling meenemen in hun risicoafweging.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Anime-adaptaties als gaming-canonvalidator",
+            "summary": "Anime-vertalingen van game-IP fungeren als culturele legitimatie voor franchises die een bredere of jongere doelgroep willen bereiken. Het is geen spin-off maar een kanoniseringsmechanisme dat fan-loyaliteit versterkt.",
+            "why_it_matters": "Voor merken biedt dit een instappunt in gaming-cultuur via een toegankelijker, visueel narratief medium met een bewezen crossover-effect.",
+            "momentum": "stabiel"
+          }
+        ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "Utility-esthetiek infiltreert premium sportswear",
+            "summary": "Functioneel, no-nonsense design-taal dringt door in het premium segment van sportswear, waarbij 'gemaakt voor gebruik' een statussymbool wordt in plaats van een concessie. Dit weerspiegelt een bredere culturele verschuiving van aspirationele esthetica naar bewust pragmatisme.",
+            "why_it_matters": "Voor sportswear- en lifestylemerken is dit het signaal om positionering te verschuiven van status-via-look naar status-via-performance, een geloofwaardiger propositie voor de post-hype consument.",
+            "momentum": "versnellend"
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-28T12:27:17.049Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Utility Aesthetics Claim Premium Status",
+        "category": "trends",
+        "what_is_happening": "Functional, no-nonsense design language is moving into the premium tier of sportswear, turning 'built for use' into a marker of status rather than a compromise. Consumers in the post-hype cycle are increasingly suspicious of purely aspirational aesthetics, rewarding brands that can demonstrate actual performance credibility.",
+        "why_it_matters_for_brands": "Brands that reposition around demonstrated function rather than visual aspiration will earn trust with a consumer base that has grown weary of hollow prestige signalling.",
+        "what_brands_can_do": [
+          "Audit your visual language and remove decorative elements that signal status without communicating a concrete functional benefit.",
+          "Commission product storytelling that centres material choices, construction details and real-use conditions rather than lifestyle imagery.",
+          "Partner with credible practitioners, athletes, craftspeople or technicians, to validate performance claims through documented, unglamourised use."
+        ]
+      },
+      {
+        "trend": "Artist IP Becomes AI Battleground",
+        "category": "music",
+        "what_is_happening": "Musicians and their labels are actively asserting ownership over vocal and creative intellectual property as protection against unauthorised AI training, with new contractual clauses emerging across the industry. This is accelerating as the legal and regulatory framework around AI-generated sound remains largely unresolved.",
+        "why_it_matters_for_brands": "Any brand that licenses music, collaborates with artists or uses AI-generated voice and sound in campaigns now carries measurable legal and reputational exposure if its contracts do not explicitly address AI usage rights.",
+        "what_brands_can_do": [
+          "Review all active music and talent contracts to identify gaps around AI training, synthesis and reproduction rights before renewals.",
+          "Build an internal policy on AI-generated audio that distinguishes clearly between licensed, commissioned and synthetic sound assets.",
+          "Engage artists as early co-signatories on any AI-adjacent creative project, turning rights transparency into a visible signal of respect."
+        ]
+      },
+      {
+        "trend": "Games as Deliberate Political Statements",
+        "category": "gaming",
+        "what_is_happening": "Game studios are increasingly embedding an explicit political or social position into their release and marketing strategy, treating the game itself as a cultural statement rather than a neutral entertainment product. This is accelerating, with titles drawing both devoted audiences and organised backlash depending on their stance.",
+        "why_it_matters_for_brands": "The gaming space is becoming a front line for cultural debate, meaning that advertising, sponsorship or collaboration decisions here carry a positioning consequence that extends well beyond the gaming audience itself.",
+        "what_brands_can_do": [
+          "Map the political and cultural positioning of any gaming title or studio before committing to a sponsorship or co-branded activation.",
+          "Develop a clear internal framework for evaluating cultural risk in gaming partnerships, separating reputational exposure from commercial opportunity.",
+          "Consider selective alignment with studios whose values align visibly with your brand's stated positions, making the collaboration a coherent signal rather than an accidental one."
+        ]
+      }
+    ]
+  }
+}

@@ -1,103 +1,105 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-28T12:26:09.952Z",
-    "intro": "1 categorieën · 2 trends · laatste 24u",
+    "generatedAt": "2026-10-29T12:36:33.566Z",
+    "intro": "2 categorieën · 2 trends · laatste 24u",
     "categories": [
       {
-        "id": "film",
-        "label": "Film & TV",
+        "id": "internet",
+        "label": "Internet",
         "insights": [
           {
-            "trend": "Documentary as prestige streaming battleground",
-            "summary": "Nathan Fielding's 'You Can See Everything' is emerging as a cultural phenomenon competing with legacy documentaries like Michael Moore's 'Fahrenheit 9/11' for both viewership and cultural capital. Streamers positioneren nu documentaire als contentprestatie, niet als niche-format.",
-            "why_it_matters": "Dit signaleert dat documentaire van entertainment-subcategorie naar mainstream prestige-content evolueert, wat betekent dat merk-partnerschappen en advertenties hierin zich legitimeren als 'serious' platform.",
-            "strategic_signal": "Merken kunnen documentaire-partnerships nu framen als 'cultural investment' in plaats van 'educational content'. Onderzoek welke streamers documentaire frontpage-prioriteit geven en positioneer daar.",
+            "trend": "Food-tech consolidation als advertentie-imperium",
+            "summary": "DoorDash koopt Instacart voor $17 miljard, waardoor een omnichannel delivery- en adtech-giant ontstaat. Beide platforms bundelen hun gebruikersdatabases en advertentiemogelijkheden.",
+            "why_it_matters": "Dit signaleert dat voedingsbezorging evolution is naar een advertentie- en loyaliteitsspel. Retail media networks worden de echte groeimotoren, niet delivery zelf.",
+            "strategic_signal": "Merkstrategen moeten nu begrijpen dat DoorDash/Instacart retail media een hoofdkanaal wordt voor FMCG, bereid campagnes voor waarmee je op shelfing-niveau biedt, niet alleen ads.",
             "trajectory": "piekend",
             "daysActive": 2,
             "isNew": false,
             "sources": [
-              "Deadline",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
+              "Adweek",
+              "Quartz",
               "The Hollywood Reporter",
-              "Variety",
-              "Wikipedia Trending EN"
+              "The Verge"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Clayface (film)",
-                "url": "https://en.wikipedia.org/wiki/Clayface_(film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-10-28T12:25:51.195Z"
+                "title": "DoorDash agreed to buy Instacart for about $17 billion in cash and stock",
+                "url": "https://qz.com/doordash-instacart-acquisition-17-billion-cash-stock-102926",
+                "source": "Quartz",
+                "published": "2026-10-29T12:20:29.000Z"
               },
               {
-                "title": "Latvian Oscar Submission ‘Ulya’ Sells Wide Ahead of Opening Tallinn: ‘This Film Is a Blockbuster’ (EXCLUSIVE)",
-                "url": "https://variety.com/2026/film/festivals/latvia-oscar-submission-ulya-viesturs-kairiss-tallinn-sales-1236930575/",
-                "source": "Variety",
-                "published": "2026-10-28T12:07:49.000Z"
+                "title": "DoorDash is acquiring Instacart for around $17 billion",
+                "url": "https://www.theverge.com/business/1021981/doordash-instacart-acquisition-announcement",
+                "source": "The Verge",
+                "published": "2026-10-29T11:56:35.000Z"
               },
               {
-                "title": "Robert Del Naja releases ‘Life Support’ film soundtrack with Kneecap, Paul Weller, David Holmes, Yasmine Hamdan and more to benefit Health Workers 4 Palestine",
-                "url": "https://www.nme.com/news/film/robert-del-naja-massive-attack-life-support-film-soundtrack-kneecap-paul-weller-3974434?utm_source=rss&utm_medium=rss&utm_campaign=robert-del-naja-massive-attack-life-support-film-soundtrack-kneecap-paul-weller",
-                "source": "NME",
-                "published": "2026-10-28T11:42:55.000Z"
-              },
-              {
-                "title": "“Don’t Get Me Wrong, I’m Not Without Ego!”: How Nick Mohammed Earned His Rep as the Nicest Man in British Film and TV",
-                "url": "https://www.hollywoodreporter.com/tv/tv-features/nick-mohammed-interview-war-celebrity-traitors-ted-lasso-tv-1236740663/",
+                "title": "Gerry Cardinale’s RedBird Capital, Guy Oseary’s Sound Ventures Ink $1 Billion Investment Partnership",
+                "url": "https://www.hollywoodreporter.com/business/business-news/redbird-capital-sound-ventures-investment-partnership-1236742492/",
                 "source": "The Hollywood Reporter",
-                "published": "2026-10-28T11:30:00.000Z"
+                "published": "2026-10-29T11:38:23.000Z"
+              },
+              {
+                "title": "DoorDash Agrees to Buy Instacart For About $17 Billion",
+                "url": "https://www.adweek.com/commerce/doordash-agrees-to-buy-instacart-for-about-17-billion/",
+                "source": "Adweek",
+                "published": "2026-10-29T08:19:59.000Z"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
           {
-            "trend": "International arthouse als global production asset",
-            "summary": "Latvian, Estonian en Japanese-Brazilian films krijgen internationale distributie en festival-prominentie (Tallinn, Tokyo Market). Studios investeren in lokale content als gateway naar globaal publiek.",
-            "why_it_matters": "Dit weerspiegelt shift van 'international film' als specialistische niche naar 'regional content as scalable IP'. Culturele authenticiteit wordt strategische asset.",
-            "strategic_signal": "Test partnerships met regional film festivals (niet alleen Berlin/Cannes) om culturele credibility te bouwen; lokale stories krijgen globale reach via streamers die lokale investeerders zijn.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
+            "trend": "AI Mode drukt traditionele search-ads onder druk",
+            "summary": "Google's AI Mode en AI Overviews groeien, maar verzwakken klassieke zoekadvertenties: search-revenue groei daalde van 17% naar 12% in Q3. Google experimenteert met 'agentic ads' als volgende frontier.",
+            "why_it_matters": "Dit markeert het begin van het einde van 30 jaar zoekmachine-advertentiedominantie. Merken moeten zich voorbereiden op een post-keyword, AI-agent-driven advertentie-ecosysteem.",
+            "strategic_signal": "Communicatiebureaus moeten nu AI-agent prompting en 'agentic commerce' testen als alternatief voor SEO-afhankelijkheid, want Google zelf stapt over naar AI Overviews waar traditionele ads verdwijnen.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
             "sources": [
-              "Billboard",
-              "Deadline",
-              "GQ",
-              "The Verge",
-              "Variety"
+              "Adweek",
+              "Ars Technica",
+              "Quartz",
+              "The Verge"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Our first look at Amazon’s big new Echo Show 16",
-                "url": "https://www.theverge.com/tech/1020286/amazon-echo-show-16-hands-on-price-screen-styles",
+                "title": "Google is taking AI Mode search ads global as search revenue growth slows",
+                "url": "https://qz.com/google-ai-mode-ads-international-search-growth-slows-102926",
+                "source": "Quartz",
+                "published": "2026-10-29T12:28:16.000Z"
+              },
+              {
+                "title": "Google and Microsoft missed AI spending estimates, rattling stocks",
+                "url": "https://qz.com/google-microsoft-ai-spending-estimates-miss-neocloud-stocks-102926",
+                "source": "Quartz",
+                "published": "2026-10-29T12:20:26.000Z"
+              },
+              {
+                "title": "Google stock sinks on earnings miss as a search slowdown raises AI fears",
+                "url": "https://qz.com/google-stock-earnings-miss-search-slowdown-ai-fears-102926",
+                "source": "Quartz",
+                "published": "2026-10-29T12:10:24.000Z"
+              },
+              {
+                "title": "Google says its investments in AI are driving more searches",
+                "url": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026",
                 "source": "The Verge",
-                "published": "2026-10-28T12:00:00.000Z"
-              },
-              {
-                "title": "‘Alan Jackson: The Last Show’ Special Set At NBC",
-                "url": "https://deadline.com/2026/10/alan-jackson-the-last-show-special-nbc-1237206783/",
-                "source": "Deadline",
-                "published": "2026-10-28T12:00:00.000Z"
-              },
-              {
-                "title": "Sam Fender Postpones Ticket Sale For Homecoming Show Following ‘Sophisticated Bot Attack’",
-                "url": "https://www.billboard.com/music/concerts/sam-fender-ticket-presale-newcastle-bot-attack-1236369500/",
-                "source": "Billboard",
-                "published": "2026-10-28T11:50:38.000Z"
-              },
-              {
-                "title": "Camila Mendes, Leslie Bibb Shooting ‘Upgraded 2’ in Venice, Where Biennale Art Show Is Part of Rom-Com’s Storyline",
-                "url": "https://variety.com/2026/film/global/camila-mendes-leslie-bibb-upgraded-2-venice-1236931945/",
-                "source": "Variety",
-                "published": "2026-10-28T09:40:45.000Z"
+                "published": "2026-10-28T20:22:26.000Z"
               }
             ]
           }
@@ -140,7 +142,7 @@
           },
           {
             "trend": "Documentaire als muziek-mainstream medium",
-            "summary": "Muzikale documentaires overstijgen niche-fandom en worden massamediafenomenen die artiestnarratieven herschrijven. Ze fungeren als culturele rehabilitatie- én kanoniseringstool tegelijk.",
+            "summary": "Muzikale documentaires overstijgen niche-fandom en worden massamediafenomenen die artiestnarratieven herschrijven. Ze fungeren als culturele rehabilitatie- en kanoniseringstool tegelijk.",
             "why_it_matters": "Documentaires worden strategisch ingezet als langetermijn-reputatiebouwers, wat relevant is voor merken die associaties met artistiek erfgoed zoeken.",
             "momentum": "stabiel"
           }
@@ -200,7 +202,7 @@
           },
           {
             "trend": "Anime-adaptaties als gaming-canonvalidator",
-            "summary": "Anime-vertalingen van game-IP fungeren als culturele legitimatie voor franchises die een bredere of jongere doelgroep willen bereiken. Het is geen spin-off maar een kanoniserings-mechanisme dat fan-loyaliteit versterkt.",
+            "summary": "Anime-vertalingen van game-IP fungeren als culturele legitimatie voor franchises die een bredere of jongere doelgroep willen bereiken. Het is geen spin-off maar een kanoniseringsmechanisme dat fan-loyaliteit versterkt.",
             "why_it_matters": "Voor merken biedt dit een instappunt in gaming-cultuur via een toegankelijker, visueel narratief medium met een bewezen crossover-effect.",
             "momentum": "stabiel"
           }
@@ -212,7 +214,7 @@
         "insights": [
           {
             "trend": "Utility-esthetiek infiltreert premium sportswear",
-            "summary": "Functioneel, no-nonsense design-taal dringt door in het premium segment van sportswear, waarbij 'gemaakt voor gebruik' een statussymbool wordt in plaats van een concessie. Dit weerspiegelt een bredere culturele verschuiving van aspirationele aesthetics naar bewust pragmatisme.",
+            "summary": "Functioneel, no-nonsense design-taal dringt door in het premium segment van sportswear, waarbij 'gemaakt voor gebruik' een statussymbool wordt in plaats van een concessie. Dit weerspiegelt een bredere culturele verschuiving van aspirationele esthetica naar bewust pragmatisme.",
             "why_it_matters": "Voor sportswear- en lifestylemerken is dit het signaal om positionering te verschuiven van status-via-look naar status-via-performance, een geloofwaardiger propositie voor de post-hype consument.",
             "momentum": "versnellend"
           }
