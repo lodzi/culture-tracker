@@ -1,105 +1,50 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-29T12:36:33.566Z",
-    "intro": "2 categorieën · 2 trends · laatste 24u",
+    "generatedAt": "2026-10-30T12:27:38.457Z",
+    "intro": "1 categorieën · 1 trends · laatste 24u",
     "categories": [
       {
         "id": "internet",
         "label": "Internet",
         "insights": [
           {
-            "trend": "Food-tech consolidation als advertentie-imperium",
-            "summary": "DoorDash koopt Instacart voor $17 miljard, waardoor een omnichannel delivery- en adtech-giant ontstaat. Beide platforms bundelen hun gebruikersdatabases en advertentiemogelijkheden.",
-            "why_it_matters": "Dit signaleert dat voedingsbezorging evolution is naar een advertentie- en loyaliteitsspel. Retail media networks worden de echte groeimotoren, niet delivery zelf.",
-            "strategic_signal": "Merkstrategen moeten nu begrijpen dat DoorDash/Instacart retail media een hoofdkanaal wordt voor FMCG, bereid campagnes voor waarmee je op shelfing-niveau biedt, niet alleen ads.",
-            "trajectory": "piekend",
-            "daysActive": 2,
-            "isNew": false,
+            "trend": "Short-form prestige film goes mainstream",
+            "summary": "Major filmmakers (Tony Kaye, Hideo Kojima collaborators, horror auteurs) zijn actief aan het produceren van korte films voor YouTube en sociale platforms als artistieke uitingskanaal. Dit markeert een shift van platform-agnostic content naar intentionele prestige-positioning op 'low-status' distribution.",
+            "why_it_matters": "Dit signaleert dat auteurs content-lengte niet meer gekoppeld zien aan artistieke legitimiteit; culturele waarde verschuift van format naar auteurschap en experimentele vrijheid.",
+            "strategic_signal": "Merken kunnen nu 3-5 minuten met A-list creatives rechtvaardigen als 'filmisch' content (niet 'advertentie'), vooral als het niet-commercial framing heeft. Test dit op YouTube Shorts met indie-positioned brands.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
             "sources": [
-              "Adweek",
-              "Quartz",
-              "The Hollywood Reporter",
-              "The Verge"
+              "Polygon",
+              "The Verge",
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "DoorDash agreed to buy Instacart for about $17 billion in cash and stock",
-                "url": "https://qz.com/doordash-instacart-acquisition-17-billion-cash-stock-102926",
-                "source": "Quartz",
-                "published": "2026-10-29T12:20:29.000Z"
+                "title": "My Chemical Romance and Lauren Tsai Team Up for Short Movie Featuring Hideo Kojima",
+                "url": "https://www.polygon.com/my-chemical-romance-mcr-lauren-tsai-short-film-kojima-cameo/",
+                "source": "Polygon",
+                "published": "2026-10-30T11:20:38.000Z"
               },
               {
-                "title": "DoorDash is acquiring Instacart for around $17 billion",
-                "url": "https://www.theverge.com/business/1021981/doordash-instacart-acquisition-announcement",
+                "title": "‘American History X’ Director Tony Kaye Takes On Leicester’s Giant Monsters in Short ‘Will You Still Love Me Tomorrow?’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/news/american-history-x-director-tony-kaye-leicester-monsters-short-1236934725/",
+                "source": "Variety",
+                "published": "2026-10-30T10:00:00.000Z"
+              },
+              {
+                "title": "The director of Obsession put a new horror short on YouTube",
+                "url": "https://www.theverge.com/streaming/1022934/curry-barker-obsession-horror-short-youtube-mama-bear",
                 "source": "The Verge",
-                "published": "2026-10-29T11:56:35.000Z"
-              },
-              {
-                "title": "Gerry Cardinale’s RedBird Capital, Guy Oseary’s Sound Ventures Ink $1 Billion Investment Partnership",
-                "url": "https://www.hollywoodreporter.com/business/business-news/redbird-capital-sound-ventures-investment-partnership-1236742492/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-10-29T11:38:23.000Z"
-              },
-              {
-                "title": "DoorDash Agrees to Buy Instacart For About $17 Billion",
-                "url": "https://www.adweek.com/commerce/doordash-agrees-to-buy-instacart-for-about-17-billion/",
-                "source": "Adweek",
-                "published": "2026-10-29T08:19:59.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "trends",
-        "label": "Trends",
-        "insights": [
-          {
-            "trend": "AI Mode drukt traditionele search-ads onder druk",
-            "summary": "Google's AI Mode en AI Overviews groeien, maar verzwakken klassieke zoekadvertenties: search-revenue groei daalde van 17% naar 12% in Q3. Google experimenteert met 'agentic ads' als volgende frontier.",
-            "why_it_matters": "Dit markeert het begin van het einde van 30 jaar zoekmachine-advertentiedominantie. Merken moeten zich voorbereiden op een post-keyword, AI-agent-driven advertentie-ecosysteem.",
-            "strategic_signal": "Communicatiebureaus moeten nu AI-agent prompting en 'agentic commerce' testen als alternatief voor SEO-afhankelijkheid, want Google zelf stapt over naar AI Overviews waar traditionele ads verdwijnen.",
-            "trajectory": "piekend",
-            "daysActive": 3,
-            "isNew": false,
-            "sources": [
-              "Adweek",
-              "Ars Technica",
-              "Quartz",
-              "The Verge"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Google is taking AI Mode search ads global as search revenue growth slows",
-                "url": "https://qz.com/google-ai-mode-ads-international-search-growth-slows-102926",
-                "source": "Quartz",
-                "published": "2026-10-29T12:28:16.000Z"
-              },
-              {
-                "title": "Google and Microsoft missed AI spending estimates, rattling stocks",
-                "url": "https://qz.com/google-microsoft-ai-spending-estimates-miss-neocloud-stocks-102926",
-                "source": "Quartz",
-                "published": "2026-10-29T12:20:26.000Z"
-              },
-              {
-                "title": "Google stock sinks on earnings miss as a search slowdown raises AI fears",
-                "url": "https://qz.com/google-stock-earnings-miss-search-slowdown-ai-fears-102926",
-                "source": "Quartz",
-                "published": "2026-10-29T12:10:24.000Z"
-              },
-              {
-                "title": "Google says its investments in AI are driving more searches",
-                "url": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026",
-                "source": "The Verge",
-                "published": "2026-10-28T20:22:26.000Z"
+                "published": "2026-10-29T23:57:18.000Z"
               }
             ]
           }
