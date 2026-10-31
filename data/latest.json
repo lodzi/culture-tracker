@@ -1,50 +1,158 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-30T12:27:38.457Z",
-    "intro": "1 categorieën · 1 trends · laatste 24u",
+    "generatedAt": "2026-10-31T11:56:39.216Z",
+    "intro": "3 categorieën · 3 trends · laatste 24u",
     "categories": [
       {
-        "id": "internet",
-        "label": "Internet",
+        "id": "culture",
+        "label": "Cultuur",
         "insights": [
           {
-            "trend": "Short-form prestige film goes mainstream",
-            "summary": "Major filmmakers (Tony Kaye, Hideo Kojima collaborators, horror auteurs) zijn actief aan het produceren van korte films voor YouTube en sociale platforms als artistieke uitingskanaal. Dit markeert een shift van platform-agnostic content naar intentionele prestige-positioning op 'low-status' distribution.",
-            "why_it_matters": "Dit signaleert dat auteurs content-lengte niet meer gekoppeld zien aan artistieke legitimiteit; culturele waarde verschuift van format naar auteurschap en experimentele vrijheid.",
-            "strategic_signal": "Merken kunnen nu 3-5 minuten met A-list creatives rechtvaardigen als 'filmisch' content (niet 'advertentie'), vooral als het niet-commercial framing heeft. Test dit op YouTube Shorts met indie-positioned brands.",
+            "trend": "Celebrities weaponize Halloween as cultural commentary",
+            "summary": "Pop stars gebruiken hun Halloween-kostuum als directe sociaal-politieke statement: Lily Allen kleedde zich als Ticketmaster's unsold seat map om haar ticketverkoop-fiasco te verwerken. Dit evolueert van pure entertainment naar micro-celebrity confessionals.",
+            "why_it_matters": "Halloween verschuift van escapisme naar een moment waar celebrities hun eigen narratief rechtszetten, authenticity als costume.",
+            "strategic_signal": "Merken kunnen Halloween-activaties niet meer 'fun & neutral' houden; verwacht dat influencers het gebruiken om brand-missteps of culturele grieven uit te verwerken, anticipeer op dit momentum-moment.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Polygon",
-              "The Verge",
-              "Variety"
+              "Dazed",
+              "Fast Company",
+              "NME",
+              "Pitchfork News",
+              "Quartz",
+              "Wikipedia Trending NL",
+              "i-D"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "My Chemical Romance and Lauren Tsai Team Up for Short Movie Featuring Hideo Kojima",
-                "url": "https://www.polygon.com/my-chemical-romance-mcr-lauren-tsai-short-film-kojima-cameo/",
-                "source": "Polygon",
-                "published": "2026-10-30T11:20:38.000Z"
+                "title": "Halloween",
+                "url": "https://nl.wikipedia.org/wiki/Halloween",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-10-31T11:56:21.362Z"
               },
               {
-                "title": "‘American History X’ Director Tony Kaye Takes On Leicester’s Giant Monsters in Short ‘Will You Still Love Me Tomorrow?’ (EXCLUSIVE)",
-                "url": "https://variety.com/2026/film/news/american-history-x-director-tony-kaye-leicester-monsters-short-1236934725/",
-                "source": "Variety",
-                "published": "2026-10-30T10:00:00.000Z"
+                "title": "NYC will flip the streets from Halloween to the marathon in just a few hours. Here’s how",
+                "url": "https://www.fastcompany.com/91632474/nyc-flips-streets-halloween-to-the-marathon",
+                "source": "Fast Company",
+                "published": "2026-10-31T11:00:00.000Z"
               },
               {
-                "title": "The director of Obsession put a new horror short on YouTube",
-                "url": "https://www.theverge.com/streaming/1022934/curry-barker-obsession-horror-short-youtube-mama-bear",
-                "source": "The Verge",
-                "published": "2026-10-29T23:57:18.000Z"
+                "title": "“Blue dot fever”: Lily Allen dresses up as Ticketmaster unsold seat map for Halloween",
+                "url": "https://www.nme.com/news/music/blue-dot-fever-lily-allen-ticketmaster-unsold-seat-map-halloween-3974727?utm_source=rss&utm_medium=rss&utm_campaign=blue-dot-fever-lily-allen-ticketmaster-unsold-seat-map-halloween",
+                "source": "NME",
+                "published": "2026-10-31T10:41:59.000Z"
+              },
+              {
+                "title": "6 top Halloween songs for your party playlist",
+                "url": "https://qz.com/-best-halloween-songs-party-playlist-readers-digest",
+                "source": "Quartz",
+                "published": "2026-10-31T09:11:03.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "Blizzard pivots World of Warcraft toward platform ubiquity",
+            "summary": "Blizzard hint naar console-ports en cross-platform play voor World of Warcraft: Forever, wat aangeeft dat het MMO-juggernaut pc-exclusiviteit verlaat. Dit signaleert dat zelfs legacy-franchises hun distribution-model radicaal moet moderniseren om relevant te blijven.",
+            "why_it_matters": "Dit voorspelt een tipping point waar hardcore gaming-IP's hun purisme opgeeft voor mass market accessibility, de end van 'platform loyalty' als erfstuk.",
+            "strategic_signal": "Gaming-adverteerders moeten hun mediaplannen nu multi-device assumeren; een WoW-speler is straks op phone, console en PC tegelijk, fragmenteer creatives niet per platform.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Colossal",
+              "Eurogamer",
+              "Hypebeast",
+              "Kotaku",
+              "NME"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Nike Commemorates the Milwaukee Brewers' World Series Title With an Air Force 1 '07",
+                "url": "https://hypebeast.com/2026/10/nike-air-force-1-07-milwaukee-brewers-first-look-release-info",
+                "source": "Hypebeast",
+                "published": "2026-10-31T10:00:49.000Z"
+              },
+              {
+                "title": "Blizzard hints at console ports for World of Warcraft: Forever - \"Play it wherever you want and, at some point, on whatever you want\"",
+                "url": "https://www.eurogamer.net/blizzard-console-port-hints-world-of-warcraft-forever",
+                "source": "Eurogamer",
+                "published": "2026-10-30T19:06:18.000Z"
+              },
+              {
+                "title": "Timothy Boomer Captures the Uncanny World of Insect Galls",
+                "url": "https://www.thisiscolossal.com/2026/10/timothy-boomer-photographs-plant-galls/",
+                "source": "Colossal",
+                "published": "2026-10-30T18:46:00.000Z"
+              },
+              {
+                "title": "DIIV share hook-laden single ‘Dare Me’ and announce massive 2027 world tour",
+                "url": "https://www.nme.com/news/music/diiv-single-dare-me-massive-2027-world-tour-tickets-3974695?utm_source=rss&utm_medium=rss&utm_campaign=diiv-single-dare-me-massive-2027-world-tour-tickets",
+                "source": "NME",
+                "published": "2026-10-30T16:39:29.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "Patrick Stewart's death becomes collective cultural rite",
+            "summary": "Patrick Stewart's overlijden genereert massale Wikipedia-traffic (1.8M views, #2 trending) en mediacoverage waarin medewerkers persoonlijke herinneringen delen aan zijn cultuur-impact. Dit is meer dan necrology, het is een gedeelde rouwpraktijk waarin 'Jean-Luc Picard' even reëel is als de actor zelf.",
+            "why_it_matters": "Dit toont hoe fandom-identiteit de grens tussen personage en persoon volledig heeft opgeheven; de dood van een iconische actor triggert collectieve identiteitscrisis bij miljoen fans.",
+            "strategic_signal": "Bij overlijdens van culturele iconische figuren: bereik niet naar 'tribute ads', faciliteer in plaats daarvan community-spaces waar fans hun eigen verhaal van die persoon kunnen delen; dat is waar de echte engagement ligt.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Adweek",
+              "Ars Technica",
+              "Consequence",
+              "Wikipedia Trending EN",
+              "Wikipedia Trending NL"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Patrick Stewart (acteur)",
+                "url": "https://nl.wikipedia.org/wiki/Patrick_Stewart_(acteur)",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-10-31T11:56:21.362Z"
+              },
+              {
+                "title": "Patrick Stewart",
+                "url": "https://en.wikipedia.org/wiki/Patrick_Stewart",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-31T11:56:21.332Z"
+              },
+              {
+                "title": "Patrick Stewart on stage and screen",
+                "url": "https://en.wikipedia.org/wiki/Patrick_Stewart_on_stage_and_screen",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-10-31T11:56:21.332Z"
+              },
+              {
+                "title": "Oh captain, our captain: Ars staff remembers Patrick Stewart",
+                "url": "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/",
+                "source": "Ars Technica",
+                "published": "2026-10-30T22:21:05.000Z"
               }
             ]
           }
