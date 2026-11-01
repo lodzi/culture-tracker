@@ -1,34 +1,126 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-10-31T11:56:39.216Z",
-    "intro": "3 categorieën · 3 trends · laatste 24u",
+    "generatedAt": "2026-11-01T12:56:31.277Z",
+    "intro": "2 categorieën · 4 trends · laatste 24u",
     "categories": [
       {
-        "id": "culture",
-        "label": "Cultuur",
+        "id": "music",
+        "label": "Muziek",
         "insights": [
           {
-            "trend": "Celebrities weaponize Halloween as cultural commentary",
-            "summary": "Pop stars gebruiken hun Halloween-kostuum als directe sociaal-politieke statement: Lily Allen kleedde zich als Ticketmaster's unsold seat map om haar ticketverkoop-fiasco te verwerken. Dit evolueert van pure entertainment naar micro-celebrity confessionals.",
-            "why_it_matters": "Halloween verschuift van escapisme naar een moment waar celebrities hun eigen narratief rechtszetten, authenticity als costume.",
-            "strategic_signal": "Merken kunnen Halloween-activaties niet meer 'fun & neutral' houden; verwacht dat influencers het gebruiken om brand-missteps of culturele grieven uit te verwerken, anticipeer op dit momentum-moment.",
+            "trend": "Legacy rock acts facing mortality & succession crisis",
+            "summary": "Deep Purple's Ian Gillan hospitalization (81 jaar oud) brengt de systematische kwetsbaarheid van 1970s rock icons die nog touren aan het licht. Dit is geen incident maar een patroon: veteranen houden door, fans accepteren fysieke fragility als onderdeel van 'authenticity'.",
+            "why_it_matters": "De rockcanon veroudert zichtbaar; cultureel betekent dit dat 'legacy touring' een sterfbed-fenomeen wordt, wat vragen opwerpt over wie erfenis controleert en wanneer nostalgie ethisch problematisch wordt.",
+            "strategic_signal": "Merk-partnerships met legacy acts zijn nu risicovol; focus in plaats daarvan op 'generational handoff' content (bv. junior acts tributing veterans) die successor-narratives creëert zonder de morbiditeit van 'last tour' marketing.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Dazed",
-              "Fast Company",
+              "Design Boom",
+              "Eurogamer",
+              "Kotaku",
+              "NME"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Pikmin 4 Nintendo Switch 2 Edition launches 12th November and a demo is out tomorrow",
+                "url": "https://www.eurogamer.net/pikmin-4-switch-2-edition-release-date-demo",
+                "source": "Eurogamer",
+                "published": "2026-11-01T10:04:13.000Z"
+              },
+              {
+                "title": "designboom radar: exhibitions to see around the world this november",
+                "url": "https://www.designboom.com/art/exhibition-radar-november-2026/",
+                "source": "Design Boom",
+                "published": "2026-11-01T08:45:50.000Z"
+              },
+              {
+                "title": "Today’s Wordle answer and hints for #1961 on November 01",
+                "url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+                "source": "NME",
+                "published": "2026-11-01T00:01:34.000Z"
+              },
+              {
+                "title": "‘Connections’ answers and hints for today, November 01",
+                "url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
+                "source": "NME",
+                "published": "2026-11-01T00:00:27.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Hardcore authenticity rejects mainstream legitimacy",
+            "summary": "Turnstile (Baltimore hardcore) weigerde Metallica-tour ondanks James Hetfield's persoonlijke uitnodiging, signallerend dat underground credibility nu meer waard is dan crossover-exposure. Dit inverteert klassieke mainstream-escalatielogica.",
+            "why_it_matters": "Subculturele bewegingen kiezen bewust obscuriteit boven uitverkoping; dit weerspiegelt diaspora van merkwaarde: groei is niet langer teken van succes, autonomie is.",
+            "strategic_signal": "Merken die 'authentic underground' willen leverancieren: stop co-opting hard-to-reach subcultures via 'elevated platforms', in plaats daarvan invest in small-scale, community-rooted initiatives die *refusal* valoriseren, niet assimilation.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Consequence",
               "NME",
-              "Pitchfork News",
-              "Quartz",
-              "Wikipedia Trending NL",
-              "i-D"
+              "Sneaker News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Deep Purple postpone shows after Ian Gillan hospitalised following “medical emergency”",
+                "url": "https://www.nme.com/news/music/deep-purple-postpone-shows-ian-gillan-hospitalised-medical-emergency-3974745?utm_source=rss&utm_medium=rss&utm_campaign=deep-purple-postpone-shows-ian-gillan-hospitalised-medical-emergency",
+                "source": "NME",
+                "published": "2026-11-01T09:38:13.000Z"
+              },
+              {
+                "title": "The New Balance 9060R Dives In The “Deep End” With Metallic Finishes",
+                "url": "https://sneakernews.com/2026/10/31/new-balance-9060r-deep-end-black-metallic-u9060873/",
+                "source": "Sneaker News",
+                "published": "2026-10-31T20:00:28.000Z"
+              },
+              {
+                "title": "Deep Purple’s Ian Gillan Hospitalized Following Medical Emergency, Two Shows Postponed",
+                "url": "https://www.billboard.com/music/rock/deep-purple-ian-gillan-hospitalized-medical-emergency-1236371632/",
+                "source": "Billboard",
+                "published": "2026-10-31T16:38:09.000Z"
+              },
+              {
+                "title": "Deep Purple Postpone Shows as Singer Ian Gillan Hospitalized Due to “Medical Emergency”",
+                "url": "https://consequence.net/2026/10/deep-purple-ian-gillan-medical-emergency/",
+                "source": "Consequence",
+                "published": "2026-10-31T17:12:36.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Halloween als celebrity cultural commentary",
+            "summary": "Celebrities gebruiken Halloween 2026 niet meer alleen voor entertainment, maar als platform voor politieke en sociale statements – van Heidi Klum's shock-value costume tot SNL's Trump-interrupted sketches en Nicki Minaj's geladen verschijning. Dit gaat verder dan traditionele verkleedpartijen.",
+            "why_it_matters": "Halloween evolueert van onschuldige feestdag naar culturele arena waar machtsstructuren, politieke posities en controverses openlijk worden uitgewerkt; merken die dit negeren missen een kritiek moment voor authentieke engagement.",
+            "strategic_signal": "Merken kunnen nog 2 weken Halloween-content herpositioneren van kostuum-entertainment naar 'cultural commentary partnerships' – bijvoorbeeld met creators die genuinely politieke standpunten durven nemen, niet performatief.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Billboard",
+              "Consequence",
+              "Deadline",
+              "Eurogamer",
+              "The Hollywood Reporter",
+              "VRT NWS",
+              "Variety",
+              "Wikipedia Trending NL"
             ],
             "trending": true,
             "articles": [
@@ -36,95 +128,39 @@
                 "title": "Halloween",
                 "url": "https://nl.wikipedia.org/wiki/Halloween",
                 "source": "Wikipedia Trending NL",
-                "published": "2026-10-31T11:56:21.362Z"
+                "published": "2026-11-01T12:56:11.213Z"
               },
               {
-                "title": "NYC will flip the streets from Halloween to the marathon in just a few hours. Here’s how",
-                "url": "https://www.fastcompany.com/91632474/nyc-flips-streets-halloween-to-the-marathon",
-                "source": "Fast Company",
-                "published": "2026-10-31T11:00:00.000Z"
+                "title": "'Queen of Halloween' Heidi Klum onherkenbaar als afgehakte linkerhand: \"Het moest zo realistisch mogelijk zijn\"",
+                "url": "https://vrtnws.be/p.kQOB1XRj7",
+                "source": "VRT NWS",
+                "published": "2026-11-01T10:53:23.000Z"
               },
               {
-                "title": "“Blue dot fever”: Lily Allen dresses up as Ticketmaster unsold seat map for Halloween",
-                "url": "https://www.nme.com/news/music/blue-dot-fever-lily-allen-ticketmaster-unsold-seat-map-halloween-3974727?utm_source=rss&utm_medium=rss&utm_campaign=blue-dot-fever-lily-allen-ticketmaster-unsold-seat-map-halloween",
-                "source": "NME",
-                "published": "2026-10-31T10:41:59.000Z"
+                "title": "Gracie Abrams Goes From Juliet to Romeo During ‘SNL’ Halloween Performances",
+                "url": "https://www.billboard.com/music/pop/gracie-abrams-snl-halloween-romeo-juliet-costumes-1236371683/",
+                "source": "Billboard",
+                "published": "2026-11-01T08:41:29.000Z"
               },
               {
-                "title": "6 top Halloween songs for your party playlist",
-                "url": "https://qz.com/-best-halloween-songs-party-playlist-readers-digest",
-                "source": "Quartz",
-                "published": "2026-10-31T09:11:03.000Z"
+                "title": "Inde Navarrette Wins Halloween With Penis-Destroying Robot ‘SNL’ Sketch ‘The Inventor’s Wife’",
+                "url": "https://variety.com/2026/tv/news/inde-navarrette-snl-halloween-the-inventors-wife-penis-robot-1236936629/",
+                "source": "Variety",
+                "published": "2026-11-01T08:33:26.000Z"
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": "gaming",
-        "label": "Gaming",
-        "insights": [
+          },
           {
-            "trend": "Blizzard pivots World of Warcraft toward platform ubiquity",
-            "summary": "Blizzard hint naar console-ports en cross-platform play voor World of Warcraft: Forever, wat aangeeft dat het MMO-juggernaut pc-exclusiviteit verlaat. Dit signaleert dat zelfs legacy-franchises hun distribution-model radicaal moet moderniseren om relevant te blijven.",
-            "why_it_matters": "Dit voorspelt een tipping point waar hardcore gaming-IP's hun purisme opgeeft voor mass market accessibility, de end van 'platform loyalty' als erfstuk.",
-            "strategic_signal": "Gaming-adverteerders moeten hun mediaplannen nu multi-device assumeren; een WoW-speler is straks op phone, console en PC tegelijk, fragmenteer creatives niet per platform.",
-            "trajectory": "opkomend",
+            "trend": "Patrick Stewart's death als collectieve culturele rite",
+            "summary": "Patrick Stewart's dood (450K views op Wikipedia, trending #4 globaal) triggerde massale reflexie via media tributes, SNL-segments en cross-platform mourning rituals. Het gaat niet om de man alleen, maar hoe cultuur collectief iconische figuren processeert.",
+            "why_it_matters": "Dood van culturele titans wordt real-time collective experience; merken moeten begrijpen dat dit soort momenten niet voorbij gaan zonder merkstances – stilzwijgen voelt nu onvoelbaar.",
+            "strategic_signal": "Indien je brand 'legacy' of 'timelessness' claims, prepareer nu je tribute-framework voor komende maanden (meer iconische sterfgevallen verwacht); focus op authentieke herinnering, niet opportunistische commerce.",
+            "trajectory": "afbouwend",
             "daysActive": 1,
-            "isNew": true,
+            "isNew": false,
             "sources": [
-              "Colossal",
-              "Eurogamer",
-              "Hypebeast",
-              "Kotaku",
-              "NME"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Nike Commemorates the Milwaukee Brewers' World Series Title With an Air Force 1 '07",
-                "url": "https://hypebeast.com/2026/10/nike-air-force-1-07-milwaukee-brewers-first-look-release-info",
-                "source": "Hypebeast",
-                "published": "2026-10-31T10:00:49.000Z"
-              },
-              {
-                "title": "Blizzard hints at console ports for World of Warcraft: Forever - \"Play it wherever you want and, at some point, on whatever you want\"",
-                "url": "https://www.eurogamer.net/blizzard-console-port-hints-world-of-warcraft-forever",
-                "source": "Eurogamer",
-                "published": "2026-10-30T19:06:18.000Z"
-              },
-              {
-                "title": "Timothy Boomer Captures the Uncanny World of Insect Galls",
-                "url": "https://www.thisiscolossal.com/2026/10/timothy-boomer-photographs-plant-galls/",
-                "source": "Colossal",
-                "published": "2026-10-30T18:46:00.000Z"
-              },
-              {
-                "title": "DIIV share hook-laden single ‘Dare Me’ and announce massive 2027 world tour",
-                "url": "https://www.nme.com/news/music/diiv-single-dare-me-massive-2027-world-tour-tickets-3974695?utm_source=rss&utm_medium=rss&utm_campaign=diiv-single-dare-me-massive-2027-world-tour-tickets",
-                "source": "NME",
-                "published": "2026-10-30T16:39:29.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "trends",
-        "label": "Trends",
-        "insights": [
-          {
-            "trend": "Patrick Stewart's death becomes collective cultural rite",
-            "summary": "Patrick Stewart's overlijden genereert massale Wikipedia-traffic (1.8M views, #2 trending) en mediacoverage waarin medewerkers persoonlijke herinneringen delen aan zijn cultuur-impact. Dit is meer dan necrology, het is een gedeelde rouwpraktijk waarin 'Jean-Luc Picard' even reëel is als de actor zelf.",
-            "why_it_matters": "Dit toont hoe fandom-identiteit de grens tussen personage en persoon volledig heeft opgeheven; de dood van een iconische actor triggert collectieve identiteitscrisis bij miljoen fans.",
-            "strategic_signal": "Bij overlijdens van culturele iconische figuren: bereik niet naar 'tribute ads', faciliteer in plaats daarvan community-spaces waar fans hun eigen verhaal van die persoon kunnen delen; dat is waar de echte engagement ligt.",
-            "trajectory": "piekend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Adweek",
-              "Ars Technica",
-              "Consequence",
+              "Deadline",
+              "The Hollywood Reporter",
               "Wikipedia Trending EN",
               "Wikipedia Trending NL"
             ],
@@ -134,25 +170,25 @@
                 "title": "Patrick Stewart (acteur)",
                 "url": "https://nl.wikipedia.org/wiki/Patrick_Stewart_(acteur)",
                 "source": "Wikipedia Trending NL",
-                "published": "2026-10-31T11:56:21.362Z"
+                "published": "2026-11-01T12:56:11.213Z"
               },
               {
                 "title": "Patrick Stewart",
                 "url": "https://en.wikipedia.org/wiki/Patrick_Stewart",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-10-31T11:56:21.332Z"
+                "published": "2026-11-01T12:56:11.172Z"
               },
               {
-                "title": "Patrick Stewart on stage and screen",
-                "url": "https://en.wikipedia.org/wiki/Patrick_Stewart_on_stage_and_screen",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-10-31T11:56:21.332Z"
+                "title": "‘SNL’ Pays Tribute To Patrick Stewart With Clip From His 1994 Episode",
+                "url": "https://deadline.com/2026/10/snl-pays-tribute-patrick-stewart-1237210812/",
+                "source": "Deadline",
+                "published": "2026-11-01T05:11:21.000Z"
               },
               {
-                "title": "Oh captain, our captain: Ars staff remembers Patrick Stewart",
-                "url": "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/",
-                "source": "Ars Technica",
-                "published": "2026-10-30T22:21:05.000Z"
+                "title": "‘Green Room’ Director Recalls How Patrick Stewart “Saved” Movie From Being Scrapped",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/how-patrick-stewart-saved-green-room-scrapped-jeremy-saulnier-1236744241/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-01T00:13:53.000Z"
               }
             ]
           }

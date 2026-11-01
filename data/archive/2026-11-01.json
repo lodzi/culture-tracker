@@ -1,0 +1,352 @@
+{
+  "date": "2026-11-01",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-01T12:56:31.277Z",
+    "intro": "2 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Legacy rock acts facing mortality & succession crisis",
+            "summary": "Deep Purple's Ian Gillan hospitalization (81 jaar oud) brengt de systematische kwetsbaarheid van 1970s rock icons die nog touren aan het licht. Dit is geen incident maar een patroon: veteranen houden door, fans accepteren fysieke fragility als onderdeel van 'authenticity'.",
+            "why_it_matters": "De rockcanon veroudert zichtbaar; cultureel betekent dit dat 'legacy touring' een sterfbed-fenomeen wordt, wat vragen opwerpt over wie erfenis controleert en wanneer nostalgie ethisch problematisch wordt.",
+            "strategic_signal": "Merk-partnerships met legacy acts zijn nu risicovol; focus in plaats daarvan op 'generational handoff' content (bv. junior acts tributing veterans) die successor-narratives creëert zonder de morbiditeit van 'last tour' marketing.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Design Boom",
+              "Eurogamer",
+              "Kotaku",
+              "NME"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Pikmin 4 Nintendo Switch 2 Edition launches 12th November and a demo is out tomorrow",
+                "url": "https://www.eurogamer.net/pikmin-4-switch-2-edition-release-date-demo",
+                "source": "Eurogamer",
+                "published": "2026-11-01T10:04:13.000Z"
+              },
+              {
+                "title": "designboom radar: exhibitions to see around the world this november",
+                "url": "https://www.designboom.com/art/exhibition-radar-november-2026/",
+                "source": "Design Boom",
+                "published": "2026-11-01T08:45:50.000Z"
+              },
+              {
+                "title": "Today’s Wordle answer and hints for #1961 on November 01",
+                "url": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240?utm_source=rss&utm_medium=rss&utm_campaign=heres-the-wordle-answer-for-today",
+                "source": "NME",
+                "published": "2026-11-01T00:01:34.000Z"
+              },
+              {
+                "title": "‘Connections’ answers and hints for today, November 01",
+                "url": "https://www.nme.com/guides/gaming-guides/connections-answers-hints-groups-today-3557066?utm_source=rss&utm_medium=rss&utm_campaign=connections-answers-hints-groups-today",
+                "source": "NME",
+                "published": "2026-11-01T00:00:27.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Hardcore authenticity rejects mainstream legitimacy",
+            "summary": "Turnstile (Baltimore hardcore) weigerde Metallica-tour ondanks James Hetfield's persoonlijke uitnodiging, signallerend dat underground credibility nu meer waard is dan crossover-exposure. Dit inverteert klassieke mainstream-escalatielogica.",
+            "why_it_matters": "Subculturele bewegingen kiezen bewust obscuriteit boven uitverkoping; dit weerspiegelt diaspora van merkwaarde: groei is niet langer teken van succes, autonomie is.",
+            "strategic_signal": "Merken die 'authentic underground' willen leverancieren: stop co-opting hard-to-reach subcultures via 'elevated platforms', in plaats daarvan invest in small-scale, community-rooted initiatives die *refusal* valoriseren, niet assimilation.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "NME",
+              "Sneaker News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Deep Purple postpone shows after Ian Gillan hospitalised following “medical emergency”",
+                "url": "https://www.nme.com/news/music/deep-purple-postpone-shows-ian-gillan-hospitalised-medical-emergency-3974745?utm_source=rss&utm_medium=rss&utm_campaign=deep-purple-postpone-shows-ian-gillan-hospitalised-medical-emergency",
+                "source": "NME",
+                "published": "2026-11-01T09:38:13.000Z"
+              },
+              {
+                "title": "The New Balance 9060R Dives In The “Deep End” With Metallic Finishes",
+                "url": "https://sneakernews.com/2026/10/31/new-balance-9060r-deep-end-black-metallic-u9060873/",
+                "source": "Sneaker News",
+                "published": "2026-10-31T20:00:28.000Z"
+              },
+              {
+                "title": "Deep Purple’s Ian Gillan Hospitalized Following Medical Emergency, Two Shows Postponed",
+                "url": "https://www.billboard.com/music/rock/deep-purple-ian-gillan-hospitalized-medical-emergency-1236371632/",
+                "source": "Billboard",
+                "published": "2026-10-31T16:38:09.000Z"
+              },
+              {
+                "title": "Deep Purple Postpone Shows as Singer Ian Gillan Hospitalized Due to “Medical Emergency”",
+                "url": "https://consequence.net/2026/10/deep-purple-ian-gillan-medical-emergency/",
+                "source": "Consequence",
+                "published": "2026-10-31T17:12:36.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Halloween als celebrity cultural commentary",
+            "summary": "Celebrities gebruiken Halloween 2026 niet meer alleen voor entertainment, maar als platform voor politieke en sociale statements – van Heidi Klum's shock-value costume tot SNL's Trump-interrupted sketches en Nicki Minaj's geladen verschijning. Dit gaat verder dan traditionele verkleedpartijen.",
+            "why_it_matters": "Halloween evolueert van onschuldige feestdag naar culturele arena waar machtsstructuren, politieke posities en controverses openlijk worden uitgewerkt; merken die dit negeren missen een kritiek moment voor authentieke engagement.",
+            "strategic_signal": "Merken kunnen nog 2 weken Halloween-content herpositioneren van kostuum-entertainment naar 'cultural commentary partnerships' – bijvoorbeeld met creators die genuinely politieke standpunten durven nemen, niet performatief.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Billboard",
+              "Consequence",
+              "Deadline",
+              "Eurogamer",
+              "The Hollywood Reporter",
+              "VRT NWS",
+              "Variety",
+              "Wikipedia Trending NL"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Halloween",
+                "url": "https://nl.wikipedia.org/wiki/Halloween",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-01T12:56:11.213Z"
+              },
+              {
+                "title": "'Queen of Halloween' Heidi Klum onherkenbaar als afgehakte linkerhand: \"Het moest zo realistisch mogelijk zijn\"",
+                "url": "https://vrtnws.be/p.kQOB1XRj7",
+                "source": "VRT NWS",
+                "published": "2026-11-01T10:53:23.000Z"
+              },
+              {
+                "title": "Gracie Abrams Goes From Juliet to Romeo During ‘SNL’ Halloween Performances",
+                "url": "https://www.billboard.com/music/pop/gracie-abrams-snl-halloween-romeo-juliet-costumes-1236371683/",
+                "source": "Billboard",
+                "published": "2026-11-01T08:41:29.000Z"
+              },
+              {
+                "title": "Inde Navarrette Wins Halloween With Penis-Destroying Robot ‘SNL’ Sketch ‘The Inventor’s Wife’",
+                "url": "https://variety.com/2026/tv/news/inde-navarrette-snl-halloween-the-inventors-wife-penis-robot-1236936629/",
+                "source": "Variety",
+                "published": "2026-11-01T08:33:26.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Patrick Stewart's death als collectieve culturele rite",
+            "summary": "Patrick Stewart's dood (450K views op Wikipedia, trending #4 globaal) triggerde massale reflexie via media tributes, SNL-segments en cross-platform mourning rituals. Het gaat niet om de man alleen, maar hoe cultuur collectief iconische figuren processeert.",
+            "why_it_matters": "Dood van culturele titans wordt real-time collective experience; merken moeten begrijpen dat dit soort momenten niet voorbij gaan zonder merkstances – stilzwijgen voelt nu onvoelbaar.",
+            "strategic_signal": "Indien je brand 'legacy' of 'timelessness' claims, prepareer nu je tribute-framework voor komende maanden (meer iconische sterfgevallen verwacht); focus op authentieke herinnering, niet opportunistische commerce.",
+            "trajectory": "afbouwend",
+            "daysActive": 1,
+            "isNew": false,
+            "sources": [
+              "Deadline",
+              "The Hollywood Reporter",
+              "Wikipedia Trending EN",
+              "Wikipedia Trending NL"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Patrick Stewart (acteur)",
+                "url": "https://nl.wikipedia.org/wiki/Patrick_Stewart_(acteur)",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-01T12:56:11.213Z"
+              },
+              {
+                "title": "Patrick Stewart",
+                "url": "https://en.wikipedia.org/wiki/Patrick_Stewart",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-01T12:56:11.172Z"
+              },
+              {
+                "title": "‘SNL’ Pays Tribute To Patrick Stewart With Clip From His 1994 Episode",
+                "url": "https://deadline.com/2026/10/snl-pays-tribute-patrick-stewart-1237210812/",
+                "source": "Deadline",
+                "published": "2026-11-01T05:11:21.000Z"
+              },
+              {
+                "title": "‘Green Room’ Director Recalls How Patrick Stewart “Saved” Movie From Being Scrapped",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/how-patrick-stewart-saved-green-room-scrapped-jeremy-saulnier-1236744241/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-01T00:13:53.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weekly": {
+    "generatedAt": "2026-10-27T11:52:11.024Z",
+    "daysAnalyzed": 7,
+    "intro": "6 categorieën · 12 patronen · laatste 7 dagen",
+    "categories": [
+      {
+        "id": "culture",
+        "label": "Cultuur",
+        "insights": [
+          {
+            "trend": "Politieke satire als culturele afrekening",
+            "summary": "Satire herneemt zijn rol als serieus instrument voor maatschappelijke kritiek, voorbij entertainment alleen, met toenemende culturele resonantie in een gepolariseerd medialandschap. Dit signaal markeert een verschuiving van cynisme naar actieve duiding via humor.",
+            "why_it_matters": "Merken die authenticiteit en maatschappelijke relevantie nastreven moeten de opkomst van satire als mainstream-reckoning-tool meenemen in hun communicatietoon.",
+            "momentum": "versnellend"
+          }
+        ]
+      },
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Artist-IP als AI-slagveld",
+            "summary": "Artiesten en labels claimen actief eigenaarschap over vocale en creatieve IP als bescherming tegen ongeautoriseerde AI-training. Dit signaal bouwt momentum op als de muziekindustrie zoekt naar juridische en contractuele grenzen in een nog ongereguleerd AI-landschap.",
+            "why_it_matters": "Merken die muziek licenseren of met artiesten collaboreren moeten rekening houden met nieuwe IP-clausules en reputatierisico's rondom AI-gebruik.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Heritage albums als live spektakel",
+            "summary": "Klassieke albums worden herontdekt als immersive live-events, waarbij nostalgie als productionele strategie dient. Dit patroon signaleert een verschuiving van passieve luisterervaring naar actieve belevenis-economie.",
+            "why_it_matters": "De 'anniversary tour'-logica democratiseert zich richting experiences, een opening voor merken in sponsoring, branded entertainment en co-created events.",
+            "momentum": "stabiel"
+          },
+          {
+            "trend": "Documentaire als muziek-mainstream medium",
+            "summary": "Muzikale documentaires overstijgen niche-fandom en worden massamediafenomenen die artiestnarratieven herschrijven. Ze fungeren als culturele rehabilitatie- en kanoniseringstool tegelijk.",
+            "why_it_matters": "Documentaires worden strategisch ingezet als langetermijn-reputatiebouwers, wat relevant is voor merken die associaties met artistiek erfgoed zoeken.",
+            "momentum": "stabiel"
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Auteurfilm omarmt blockbuster schaal",
+            "summary": "High-profile auteurs combineren artistieke integriteit met A-list casting en grote budgetten, waarmee de grens tussen prestige en commercieel vervaagt. Streaming fungeert als katalysator door distributiebeperkingen weg te nemen.",
+            "why_it_matters": "Dit creëert een nieuw premium segment dat zowel cultureel gewicht als massabereik biedt, ideaal voor merken die diepgang en schaal tegelijk zoeken.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Canonieke literatuur via vrouwelijk perspectief",
+            "summary": "Prestige-adaptaties herclaimen klassieke literaire werken door bewust vrouwelijke narratieven en stemmen centraal te zetten. Dit is geen niche-correctie maar een structurele herschrijving van culturele referentiekaders.",
+            "why_it_matters": "Merken kunnen via associatie met deze titels een progressief maar cultureel geworteld merkprofiel opbouwen dat authentiek voelt aan een breed publiek.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Regionale filmhubs challengen westerse dominantie",
+            "summary": "Niet-westerse filmproductiecentra, van Lagos tot Seoul tot Mumbai, claimen steeds meer internationaal prestige en distributiemacht. Dit signaal bouwt structureel op waar eerdere golven (K-drama, Nollywood) slechts incidenteel waren.",
+            "why_it_matters": "Globale merken moeten hun contentstrategieën decentreren: regionale culturele referenties worden mainstream, niet exotisch.",
+            "momentum": "versnellend"
+          }
+        ]
+      },
+      {
+        "id": "art",
+        "label": "Art & Design",
+        "insights": [
+          {
+            "trend": "Post-humaan design voorbij antropocentrische ruimte",
+            "summary": "Architectuur en designpraktijken beginnen de menselijke gebruiker los te laten als enige maatstaf en integreren niet-menselijke entiteiten, ecologie, AI, dier als gelijkwaardige stakeholders. Dit verschuift van filosofisch experiment naar toegepaste ontwerpstrategie.",
+            "why_it_matters": "Voor merken in vastgoed, retail en hospitality signaleert dit een komende paradigmashift in hoe 'waardevolle ruimte' gecommuniceerd en ontworpen wordt.",
+            "momentum": "versnellend"
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "AI voice theft als vakbondsstrijd",
+            "summary": "De ongeautoriseerde replicatie van stemacteurs via AI wordt een georganiseerd arbeidsconflict, met vakbonden die precedenten scheppen voor de bredere creatieve industrie. Dit gaat verder dan gaming en raakt elke sector die stem- en licentiework inzet.",
+            "why_it_matters": "Merken die AI-gegenereerde voice-overs of avatars inzetten staan bloot aan reputatie- en juridisch risico als sector-standaarden worden aangescherpt.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Games als politiek gepositioneerd cultuurproduct",
+            "summary": "Game-studios gebruiken bewust een politieke of maatschappelijke stellingname als onderdeel van hun release- en marketingstrategie. Dit transformeert games van entertainment naar actief cultureel statement.",
+            "why_it_matters": "De gamingruimte wordt een nieuw front voor cultuuroorlogen. Merken die hier adverteren of collaboreren moeten positiebepaling meenemen in hun risicoafweging.",
+            "momentum": "versnellend"
+          },
+          {
+            "trend": "Anime-adaptaties als gaming-canonvalidator",
+            "summary": "Anime-vertalingen van game-IP fungeren als culturele legitimatie voor franchises die een bredere of jongere doelgroep willen bereiken. Het is geen spin-off maar een kanoniseringsmechanisme dat fan-loyaliteit versterkt.",
+            "why_it_matters": "Voor merken biedt dit een instappunt in gaming-cultuur via een toegankelijker, visueel narratief medium met een bewezen crossover-effect.",
+            "momentum": "stabiel"
+          }
+        ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "Utility-esthetiek infiltreert premium sportswear",
+            "summary": "Functioneel, no-nonsense design-taal dringt door in het premium segment van sportswear, waarbij 'gemaakt voor gebruik' een statussymbool wordt in plaats van een concessie. Dit weerspiegelt een bredere culturele verschuiving van aspirationele esthetica naar bewust pragmatisme.",
+            "why_it_matters": "Voor sportswear- en lifestylemerken is dit het signaal om positionering te verschuiven van status-via-look naar status-via-performance, een geloofwaardiger propositie voor de post-hype consument.",
+            "momentum": "versnellend"
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-29T12:55:10.675Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Hip-Hop’s Curator Steps to the Front",
+        "category": "music",
+        "what_is_happening": "Jay-Z will headline the Super Bowl LXI halftime show in February 2027, performing himself for the first time after years of curating the slot from behind the scenes. The tastemaker is stepping out as the act.",
+        "why_it_matters_for_brands": "The people who curate culture are increasingly becoming the stars of it, a cue that the curator role itself now carries star power.",
+        "what_brands_can_do": [
+          "Give your brand’s curatorial point of view a public face.",
+          "Let the taste you shape become part of the brand story.",
+          "Treat curation as a stage, not just a back room."
+        ]
+      },
+      {
+        "trend": "Design Looks Beyond the Human User",
+        "category": "art",
+        "what_is_happening": "Architects and designers are starting to drop the human user as the only measure, designing for ecology and non-human life, with coverage around UC Berkeley’s AI-assisted ecological building. Design is decentring the human.",
+        "why_it_matters_for_brands": "Audiences and clients are rewarding design that serves more than human convenience, a shift in what counts as responsible and advanced.",
+        "what_brands_can_do": [
+          "Design for more than the human user where it genuinely fits.",
+          "Let ecological thinking shape form, not just messaging.",
+          "Treat non-human needs as a real brief, not decoration."
+        ]
+      },
+      {
+        "trend": "Immersive Concert-Docs as Prestige Format",
+        "category": "music",
+        "what_is_happening": "David Bowie’s ‘Stage’, an immersive concert experience by filmmaker Brett Morgen, world-premiered at the Berlin Film Festival as cinema-as-installation. The concert film is becoming a prestige, immersive event.",
+        "why_it_matters_for_brands": "The line between film, concert and installation is dissolving into one premium experience, a template for brands building cultural moments.",
+        "what_brands_can_do": [
+          "Blend film, performance and space into one experience.",
+          "Design cultural moments to be entered, not just watched.",
+          "Treat an archive or catalogue as material for a live, immersive event."
+        ]
+      }
+    ]
+  }
+}
