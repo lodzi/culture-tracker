@@ -1,0 +1,240 @@
+{
+  "date": "2026-11-02",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-02T15:13:49.705Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Techno-grondlegger Juan Atkins overleden",
+            "summary": "Vier onafhankelijke bronnen (NME, Pitchfork, Stereogum, VRT NWS) berichten over de dood van Juan Atkins (64), co-grondlegger van technomuziek en lid van Belleville Three. His passing triggert internationale tributes die zijn invloed op Detroit techno en mondiale festivalcultuur (Tomorrowland) onderstrepen.",
+            "why_it_matters": "Dit markeert een generationele overgangsmoment in elektronische muziek: de architect-generatie verdwijnt, wat vragen oproept over erfenis, canonisering en hoe cultuurgoederen worden doorgegeven in digitale era's.",
+            "strategic_signal": "Merken gericht op underground/authenticity kunnen deze week strategisch content rond 'techno's roots' positioneren, niet als nostalgie, maar als bewijs dat avant-garde legitimiteit 40+ jaar standhield.",
+            "trajectory": "afbouwend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Bruzz",
+              "Consequence",
+              "Deadline",
+              "Dezeen",
+              "NME",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Future Games Show Sets Its First Live, In-Person Event During Gamescom 2027 (EXCLUSIVE)",
+                "url": "https://variety.com/2026/gaming/news/future-games-show-in-person-gamescom-2027-1236937497/",
+                "source": "Variety",
+                "published": "2026-11-02T15:00:00.000Z"
+              },
+              {
+                "title": "Lionsgate’s ‘The Housemaid’ Stage Adaptation Sets Fall 2027 London Premiere",
+                "url": "https://deadline.com/2026/11/housemaid-stage-adaptation-london-lionsgate-1237209854/",
+                "source": "Deadline",
+                "published": "2026-11-02T14:00:00.000Z"
+              },
+              {
+                "title": "Mighty Hoopla celebrates 10th anniversary with huge 2027 line-up including Robyn, Pussycat Dolls, Kelis, Bebe Rexha, FLO, Nicola Roberts and more",
+                "url": "https://www.nme.com/news/music/mighty-hoopla-announces-10th-anniversary-2027-line-up-robyn-pussycat-dolls-kelis-bebe-rexha-flo-3974826?utm_source=rss&utm_medium=rss&utm_campaign=mighty-hoopla-announces-10th-anniversary-2027-line-up-robyn-pussycat-dolls-kelis-bebe-rexha-flo",
+                "source": "NME",
+                "published": "2026-11-02T13:33:31.000Z"
+              },
+              {
+                "title": "BST Hyde Park 2027: RAYE announced as next headliner",
+                "url": "https://www.nme.com/news/music/bst-hyde-park-2027-raye-announced-as-next-headliner-3974801?utm_source=rss&utm_medium=rss&utm_campaign=bst-hyde-park-2027-raye-announced-as-next-headliner",
+                "source": "NME",
+                "published": "2026-11-02T12:00:33.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Netflix koopt comedy-influencers als content-ankers",
+            "summary": "Druski sluit multi-year deal met Netflix inclusief serie 'Collect & Praise' (met Mike Epps), terwijl Zarna Garg een stand-up special aankondigt. Dit volgt op eerdere Netflix-deals met YouTubers en stand-uppers, wat een structurele shift aangeeft van celebrity-casting naar influencer-to-platform-pipelines.",
+            "why_it_matters": "Netflix erkent dat young audiences comedy via TikTok/YouTube consume en wil die creators verticaal integreren voordat concurrenten ze oppikken. Dit signaleert einde van 'traditional comedian path'.",
+            "strategic_signal": "Comedy brands en agents: positioneer comedians nu als 'multi-platform IP' (series + special + merch), niet als standalone specials; Netflix betaalt premie voor creators met eigen fanbase.",
+            "trajectory": "opkomend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Highsnobiety",
+              "Hypebeast",
+              "The Hollywood Reporter",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Dominic West, John Cleese, Portia de Rossi Join Jeff Daniels in Trudie Styler’s Comedy ‘The Reception’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/dominic-west-john-cleese-trudie-stylers-the-reception-1236937454/",
+                "source": "Variety",
+                "published": "2026-11-02T15:07:04.000Z"
+              },
+              {
+                "title": "YouTuber Druski is going to make exclusive content for Netflix",
+                "url": "https://www.theverge.com/streaming/1023777/youtube-druski-netflix-deal",
+                "source": "The Verge",
+                "published": "2026-11-02T15:00:00.000Z"
+              },
+              {
+                "title": "Jordan Jensen Announces North American Tour (EXCLUSIVE)",
+                "url": "https://variety.com/2026/tv/news/jordan-jensen-tour-tickets-1236934274/",
+                "source": "Variety",
+                "published": "2026-11-02T15:00:00.000Z"
+              },
+              {
+                "title": "Sandra Hüller Makes Surprise Move to Supporting for ‘Fatherland,’ Setting Up Possible Double Oscar Nom With ‘Rose’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/awards/sandra-huller-fatherland-supporting-actress-oscars-1236937000/",
+                "source": "Variety",
+                "published": "2026-11-02T15:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Sandra Hüller maneuvers Oscar categories strategically",
+            "summary": "Sandra Hüller stapt naar Supporting Actress voor 'Fatherland' terwijl 'Rose' in Lead blijft. Variety + THR rapporteren dit als calculated double-nomination strategy. Dit weerspiegelt bredere Hollywood-trend van actors die categories gamen voor maximale kansen.",
+            "why_it_matters": "Dit toont hoe prestige-acteren nu operationeel wordt: categorieën zijn niet meer artistieke stellingnames maar tactische marketingzetten die awards-season volatiliteit vergroten.",
+            "strategic_signal": "Luxury/prestige brands: Awards-season narratives zijn niet meer over 'best performance' maar over 'strategic positioning'. Tie campaigns niet aan category wins maar aan 'player agency stories'.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Deadline",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Druski Sets Netflix Series ‘Collect & Praise’ Based on Megachurch Sketch, Signs Multi-Year Deal With Streamer",
+                "url": "https://variety.com/2026/tv/news/druski-netflix-show-collect-and-praise-1236937068/",
+                "source": "Variety",
+                "published": "2026-11-02T15:00:00.000Z"
+              },
+              {
+                "title": "Druski Strikes Deal With Netflix Ahead Of ‘Collect & Praise’ Launch",
+                "url": "https://deadline.com/2026/11/druski-deal-netflix-collect-and-praise-1237209987/",
+                "source": "Deadline",
+                "published": "2026-11-02T15:00:00.000Z"
+              },
+              {
+                "title": "Netflix Layoffs Hit U.K., With VP, Production Anna Mallett Among 2-3 Percent of Staff Affected",
+                "url": "https://www.hollywoodreporter.com/business/business-news/netflix-layoffs-uk-london-hit-anna-mallett-vp-production-1236745775/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-02T12:06:07.000Z"
+              },
+              {
+                "title": "Let Netflix's The One About Matthew Perry wreck you",
+                "url": "https://www.avclub.com/the-one-about-matthew-perry-netflix-documentary-friends",
+                "source": "A.V. Club",
+                "published": "2026-11-01T17:00:27.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "Klassieke games uit-sellen blockbuster sequels",
+            "summary": "Eurogamer + Hypebeast rapporteren dat Bloodborne (FromSoftware 2015) in 2026 250k+ copies verkoopt, terwijl Breath of the Wild origineel (2017) 34.51M verkoopt versus sequel's 12.78M. Dit contrasteert met Phantom Blade Zero's massive launch (4M in 72u) en wijst op splitsing: retro cult > mainstream sequel fatigue.",
+            "why_it_matters": "Gamers valoriseren 'standalone vision' en 'dated-ness as authenticity' over iteratieve sequels. Dit destabiliseert franchise-logic die 15 jaar gaming-strategy aanstuurde.",
+            "strategic_signal": "Gaming marketing teams: stop met 'sequel as default'; create 'Bloodborne archetype' messaging rond singular, uncompromised creative statements. Vintage positioning bewijst groter appeal dan 'refined accessibility'.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Eurogamer",
+              "Hypebeast",
+              "Quartz"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Breath of the Wild sold 34.51 million copies, 12.78 million more than its sequel",
+                "url": "https://qz.com/best-selling-zelda-games-ranked-sales",
+                "source": "Quartz",
+                "published": "2026-11-02T14:55:00.000Z"
+              },
+              {
+                "title": "Over a decade later, Bloodborne remains so popular it reportedly sold a quarter of a million copies this year alone",
+                "url": "https://www.eurogamer.net/bloodborne-251-000-sales-in-2016-ps4",
+                "source": "Eurogamer",
+                "published": "2026-11-02T13:35:31.000Z"
+              },
+              {
+                "title": "Zach Cregger's 'Resident Evil' Reboot Hits $400 Million USD at the Global Box Office",
+                "url": "https://hypebeast.com/2026/11/zach-cregger-resident-evil-reboot-hits-400-million-usd-global-box-office-news",
+                "source": "Hypebeast",
+                "published": "2026-11-02T09:59:05.000Z"
+              },
+              {
+                "title": "Phantom Blade Zero is Steam's biggest launch of the year so far, selling over 4 million copies in three days",
+                "url": "https://www.eurogamer.net/phantom-blade-zero-4-million-copies-steam-biggest-launch",
+                "source": "Eurogamer",
+                "published": "2026-11-02T09:24:45.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-10-29T12:55:10.675Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Hip-Hop’s Curator Steps to the Front",
+        "category": "music",
+        "what_is_happening": "Jay-Z will headline the Super Bowl LXI halftime show in February 2027, performing himself for the first time after years of curating the slot from behind the scenes. The tastemaker is stepping out as the act.",
+        "why_it_matters_for_brands": "The people who curate culture are increasingly becoming the stars of it, a cue that the curator role itself now carries star power.",
+        "what_brands_can_do": [
+          "Give your brand’s curatorial point of view a public face.",
+          "Let the taste you shape become part of the brand story.",
+          "Treat curation as a stage, not just a back room."
+        ]
+      },
+      {
+        "trend": "Design Looks Beyond the Human User",
+        "category": "art",
+        "what_is_happening": "Architects and designers are starting to drop the human user as the only measure, designing for ecology and non-human life, with coverage around UC Berkeley’s AI-assisted ecological building. Design is decentring the human.",
+        "why_it_matters_for_brands": "Audiences and clients are rewarding design that serves more than human convenience, a shift in what counts as responsible and advanced.",
+        "what_brands_can_do": [
+          "Design for more than the human user where it genuinely fits.",
+          "Let ecological thinking shape form, not just messaging.",
+          "Treat non-human needs as a real brief, not decoration."
+        ]
+      },
+      {
+        "trend": "Immersive Concert-Docs as Prestige Format",
+        "category": "music",
+        "what_is_happening": "David Bowie’s ‘Stage’, an immersive concert experience by filmmaker Brett Morgen, world-premiered at the Berlin Film Festival as cinema-as-installation. The concert film is becoming a prestige, immersive event.",
+        "why_it_matters_for_brands": "The line between film, concert and installation is dissolving into one premium experience, a template for brands building cultural moments.",
+        "what_brands_can_do": [
+          "Blend film, performance and space into one experience.",
+          "Design cultural moments to be entered, not just watched.",
+          "Treat an archive or catalogue as material for a live, immersive event."
+        ]
+      }
+    ]
+  }
+}
