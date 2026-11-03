@@ -2,10 +2,12 @@ name: Weekly brand signals TEST email
 
 on:
   schedule:
-    # Donderdag 12:00 UTC = 14:00 Brussel zomertijd (CEST)
+    # Donderdag 15:00 UTC = 16:00 Brussel wintertijd / 17:00 zomertijd.
+    # Bewust na de handmatige topic-selectie (die landt donderdag rond de middag),
+    # zodat de testmail toont wat vrijdag effectief vertrekt.
     # Stuurt een Mailchimp-testmail (enkel naar TEST_EMAIL_TO) als preview van
     # de echte vrijdagmail. Raakt de audience-lijst niet.
-    - cron: "0 12 * * 4"
+    - cron: "0 15 * * 4"
   workflow_dispatch:
 
 env:

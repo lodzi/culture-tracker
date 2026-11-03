@@ -9,7 +9,7 @@
     "synthesize-reports": "node scripts/synthesize-reports.js",
     "email": "node scripts/send-email.js",
     "weekly-email": "node scripts/send-weekly-email.js",
-    "daily": "npm run update && npm run synthesize && npm run email",
+    "daily": "npm run update && npm run synthesize",
     "check-sources": "node scripts/check-sources.js",
     "serve": "npx --yes http-server . -p 8080 -c-1",
     "weekly-email-test": "node scripts/send-weekly-email.js --test"

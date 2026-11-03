@@ -1,9 +1,9 @@
-name: Daily AI synthesis + email
+name: Daily AI synthesis
 
 on:
   schedule:
     # 06:00 UTC = 08:00 Brussel zomertijd (CEST)
-    # Fetch + synthesis + email in één run zodat de mail om ~08:05-08:10 arriveert.
+    # Fetch + synthesis. Dagelijkse SMTP-mail verwijderd op 2026-11-03 (werd niet gelezen).
     - cron: "0 6 * * *"
   workflow_dispatch:
 
@@ -55,16 +55,3 @@ jobs:
             git commit -m "chore(data): AI synthesis $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
             git push
           fi
-
-      - name: Send daily email digest
-        # Gaat door ook als SMTP-secrets ontbreken — workflow faalt dan niet.
-        continue-on-error: true
-        env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO:   ${{ secrets.EMAIL_TO }}
-          PUBLIC_URL: ${{ secrets.PUBLIC_URL }}
-        run: npm run email
