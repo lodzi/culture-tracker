@@ -1,59 +1,59 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-02T15:13:49.705Z",
-    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "generatedAt": "2026-11-03T13:53:45.591Z",
+    "intro": "3 categorieën · 3 trends · laatste 24u",
     "categories": [
       {
-        "id": "music",
-        "label": "Muziek",
+        "id": "fashion",
+        "label": "Fashion",
         "insights": [
           {
-            "trend": "Techno-grondlegger Juan Atkins overleden",
-            "summary": "Vier onafhankelijke bronnen (NME, Pitchfork, Stereogum, VRT NWS) berichten over de dood van Juan Atkins (64), co-grondlegger van technomuziek en lid van Belleville Three. His passing triggert internationale tributes die zijn invloed op Detroit techno en mondiale festivalcultuur (Tomorrowland) onderstrepen.",
-            "why_it_matters": "Dit markeert een generationele overgangsmoment in elektronische muziek: de architect-generatie verdwijnt, wat vragen oproept over erfenis, canonisering en hoe cultuurgoederen worden doorgegeven in digitale era's.",
-            "strategic_signal": "Merken gericht op underground/authenticity kunnen deze week strategisch content rond 'techno's roots' positioneren, niet als nostalgie, maar als bewijs dat avant-garde legitimiteit 40+ jaar standhield.",
-            "trajectory": "afbouwend",
-            "daysActive": 2,
-            "isNew": false,
+            "trend": "Archief-modecollab's als design-heritage-play",
+            "summary": "NEIGHBORHOOD x Converse en Nike collaborations halen obscure colorway-geschiedenis op ('Red October') en understate collectie-logic naar huidig moment. Design-archivering wordt merk-strategie.",
+            "why_it_matters": "Nostalgia-driven design via 'deep cuts' signaleert dat luxury en sneaker-culture nu om curatie van geschiedenis spelen, niet nieuwheid, dit weerspiegelt collectieve vermoeidheid voor constant newness.",
+            "strategic_signal": "Fashion brands kunnen Q4 2026-Q1 2027 'archive-reimagining' campagnes lanceren gericht op 20-40 jaar oude modegeest, met focus op untold-stories van design-keuzes (vintage research als content-hoek).",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
             "sources": [
-              "Bruzz",
-              "Consequence",
               "Deadline",
-              "Dezeen",
-              "NME",
+              "Hypebeast",
+              "Kotaku",
+              "Polygon",
+              "Sneaker News",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Future Games Show Sets Its First Live, In-Person Event During Gamescom 2027 (EXCLUSIVE)",
-                "url": "https://variety.com/2026/gaming/news/future-games-show-in-person-gamescom-2027-1236937497/",
+                "title": "'VisionQuest' Star Officially Breaks Silence on Her Character's Avengers Movie Future",
+                "url": "https://www.polygon.com/visionquest-lauren-morais-interview/",
+                "source": "Polygon",
+                "published": "2026-11-03T12:00:18.000Z"
+              },
+              {
+                "title": "‘The Celebrity Traitors’ Star James Acaster Rejects Report He Complained About Competitors: ‘Completely Fabricated’",
+                "url": "https://variety.com/2026/tv/global/celebrity-traitors-james-acaster-slams-report-complained-on-set-1236938273/",
                 "source": "Variety",
-                "published": "2026-11-02T15:00:00.000Z"
+                "published": "2026-11-03T11:21:40.000Z"
               },
               {
-                "title": "Lionsgate’s ‘The Housemaid’ Stage Adaptation Sets Fall 2027 London Premiere",
-                "url": "https://deadline.com/2026/11/housemaid-stage-adaptation-london-lionsgate-1237209854/",
+                "title": "‘The Celebrity Traitors’ Star James Acaster Trashes Report That He Made Complaint About Co-Stars",
+                "url": "https://deadline.com/2026/11/the-celebrity-traitors-james-acaster-trashes-complaint-1237212001/",
                 "source": "Deadline",
-                "published": "2026-11-02T14:00:00.000Z"
+                "published": "2026-11-03T09:13:16.000Z"
               },
               {
-                "title": "Mighty Hoopla celebrates 10th anniversary with huge 2027 line-up including Robyn, Pussycat Dolls, Kelis, Bebe Rexha, FLO, Nicola Roberts and more",
-                "url": "https://www.nme.com/news/music/mighty-hoopla-announces-10th-anniversary-2027-line-up-robyn-pussycat-dolls-kelis-bebe-rexha-flo-3974826?utm_source=rss&utm_medium=rss&utm_campaign=mighty-hoopla-announces-10th-anniversary-2027-line-up-robyn-pussycat-dolls-kelis-bebe-rexha-flo",
-                "source": "NME",
-                "published": "2026-11-02T13:33:31.000Z"
-              },
-              {
-                "title": "BST Hyde Park 2027: RAYE announced as next headliner",
-                "url": "https://www.nme.com/news/music/bst-hyde-park-2027-raye-announced-as-next-headliner-3974801?utm_source=rss&utm_medium=rss&utm_campaign=bst-hyde-park-2027-raye-announced-as-next-headliner",
-                "source": "NME",
-                "published": "2026-11-02T12:00:33.000Z"
+                "title": "NEIGHBORHOOD and Converse Reunite for an Understated ALL STAR LGCY Hi Collab",
+                "url": "https://hypebeast.com/2026/11/neighborhood-converse-all-star-lgcy-hi-collaboration-release-info",
+                "source": "Hypebeast",
+                "published": "2026-11-03T09:05:58.000Z"
               }
             ]
           }
@@ -64,87 +64,46 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Netflix koopt comedy-influencers als content-ankers",
-            "summary": "Druski sluit multi-year deal met Netflix inclusief serie 'Collect & Praise' (met Mike Epps), terwijl Zarna Garg een stand-up special aankondigt. Dit volgt op eerdere Netflix-deals met YouTubers en stand-uppers, wat een structurele shift aangeeft van celebrity-casting naar influencer-to-platform-pipelines.",
-            "why_it_matters": "Netflix erkent dat young audiences comedy via TikTok/YouTube consume en wil die creators verticaal integreren voordat concurrenten ze oppikken. Dit signaleert einde van 'traditional comedian path'.",
-            "strategic_signal": "Comedy brands en agents: positioneer comedians nu als 'multi-platform IP' (series + special + merch), niet als standalone specials; Netflix betaalt premie voor creators met eigen fanbase.",
-            "trajectory": "opkomend",
-            "daysActive": 2,
-            "isNew": false,
-            "sources": [
-              "Highsnobiety",
-              "Hypebeast",
-              "The Hollywood Reporter",
-              "The Verge",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Dominic West, John Cleese, Portia de Rossi Join Jeff Daniels in Trudie Styler’s Comedy ‘The Reception’ (EXCLUSIVE)",
-                "url": "https://variety.com/2026/film/global/dominic-west-john-cleese-trudie-stylers-the-reception-1236937454/",
-                "source": "Variety",
-                "published": "2026-11-02T15:07:04.000Z"
-              },
-              {
-                "title": "YouTuber Druski is going to make exclusive content for Netflix",
-                "url": "https://www.theverge.com/streaming/1023777/youtube-druski-netflix-deal",
-                "source": "The Verge",
-                "published": "2026-11-02T15:00:00.000Z"
-              },
-              {
-                "title": "Jordan Jensen Announces North American Tour (EXCLUSIVE)",
-                "url": "https://variety.com/2026/tv/news/jordan-jensen-tour-tickets-1236934274/",
-                "source": "Variety",
-                "published": "2026-11-02T15:00:00.000Z"
-              },
-              {
-                "title": "Sandra Hüller Makes Surprise Move to Supporting for ‘Fatherland,’ Setting Up Possible Double Oscar Nom With ‘Rose’ (EXCLUSIVE)",
-                "url": "https://variety.com/2026/film/awards/sandra-huller-fatherland-supporting-actress-oscars-1236937000/",
-                "source": "Variety",
-                "published": "2026-11-02T15:00:00.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Sandra Hüller maneuvers Oscar categories strategically",
-            "summary": "Sandra Hüller stapt naar Supporting Actress voor 'Fatherland' terwijl 'Rose' in Lead blijft. Variety + THR rapporteren dit als calculated double-nomination strategy. Dit weerspiegelt bredere Hollywood-trend van actors die categories gamen voor maximale kansen.",
-            "why_it_matters": "Dit toont hoe prestige-acteren nu operationeel wordt: categorieën zijn niet meer artistieke stellingnames maar tactische marketingzetten die awards-season volatiliteit vergroten.",
-            "strategic_signal": "Luxury/prestige brands: Awards-season narratives zijn niet meer over 'best performance' maar over 'strategic positioning'. Tie campaigns niet aan category wins maar aan 'player agency stories'.",
-            "trajectory": "opkomend",
+            "trend": "Biopic-led award season, auteur narratives dominate",
+            "summary": "'Elsinore' (Andrew Scott) domineert British Independent Film Awards met 12 nominaties, terwijl films als 'Alice in Borderland' en 'The Moon' zware focus leggen op performantie van acteurs en ethische filmkritiek. Biografische drama's en character-studies heersen in prestigieuze circuit.",
+            "why_it_matters": "Awards visibility springt over naar character-driven narratives over franchise-IP. Dit voorspelt dat prestige-marketing in 2027 rond actor-legacy en emotional authenticity draait, niet spectacle.",
+            "strategic_signal": "Filmfestival- en prestige-content partners kunnen 2026-2027 awards-kampagnes bouwen rond 'actor transformation' en 'ethical storytelling' als prime positioning (zie Oscar-strategie Sandra Hüller trend van 2 nov).",
+            "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
               "A.V. Club",
               "Deadline",
+              "Google News BE Festivals",
+              "Google News BE Film",
               "The Hollywood Reporter",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Druski Sets Netflix Series ‘Collect & Praise’ Based on Megachurch Sketch, Signs Multi-Year Deal With Streamer",
-                "url": "https://variety.com/2026/tv/news/druski-netflix-show-collect-and-praise-1236937068/",
+                "title": "‘Thirteen in Gaza’ Acquired by Koudéta Films for France Ahead of Doha Film Festival",
+                "url": "https://variety.com/2026/film/global/thirteen-in-gaza-koudeta-films-france-doha-1236938307/",
                 "source": "Variety",
-                "published": "2026-11-02T15:00:00.000Z"
+                "published": "2026-11-03T13:37:17.000Z"
               },
               {
-                "title": "Druski Strikes Deal With Netflix Ahead Of ‘Collect & Praise’ Launch",
-                "url": "https://deadline.com/2026/11/druski-deal-netflix-collect-and-praise-1237209987/",
-                "source": "Deadline",
-                "published": "2026-11-02T15:00:00.000Z"
+                "title": "‘Alice in Borderland’ Star Isomura Hayato on the Role He Was Warned Off, Judging Tokyo’s Ethical Film Award and Why Japanese Cinema Needs Government Backing",
+                "url": "https://variety.com/2026/film/festivals/alice-in-borderland-star-isomura-hayato-role-warned-off-1236938269/",
+                "source": "Variety",
+                "published": "2026-11-03T10:47:29.000Z"
               },
               {
-                "title": "Netflix Layoffs Hit U.K., With VP, Production Anna Mallett Among 2-3 Percent of Staff Affected",
-                "url": "https://www.hollywoodreporter.com/business/business-news/netflix-layoffs-uk-london-hit-anna-mallett-vp-production-1236745775/",
+                "title": "‘Elsinore,’ ‘I See Buildings Fall Like Lightning’ and ‘Animol’ Lead British Independent Film Awards Nominations",
+                "url": "https://variety.com/2026/awards/global/bifa-nominations-2026-elsinore-i-see-buildings-animol-1236937954/",
+                "source": "Variety",
+                "published": "2026-11-03T10:00:00.000Z"
+              },
+              {
+                "title": "British Independent Film Awards: ‘Elsinore’ Leads Nominations With 12",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/bifa-nominations-2026-list-elsinore-andrew-scott-1236746638/",
                 "source": "The Hollywood Reporter",
-                "published": "2026-11-02T12:06:07.000Z"
-              },
-              {
-                "title": "Let Netflix's The One About Matthew Perry wreck you",
-                "url": "https://www.avclub.com/the-one-about-matthew-perry-netflix-documentary-friends",
-                "source": "A.V. Club",
-                "published": "2026-11-01T17:00:27.000Z"
+                "published": "2026-11-03T10:00:00.000Z"
               }
             ]
           }
@@ -155,43 +114,48 @@
         "label": "Gaming",
         "insights": [
           {
-            "trend": "Klassieke games uit-sellen blockbuster sequels",
-            "summary": "Eurogamer + Hypebeast rapporteren dat Bloodborne (FromSoftware 2015) in 2026 250k+ copies verkoopt, terwijl Breath of the Wild origineel (2017) 34.51M verkoopt versus sequel's 12.78M. Dit contrasteert met Phantom Blade Zero's massive launch (4M in 72u) en wijst op splitsing: retro cult > mainstream sequel fatigue.",
-            "why_it_matters": "Gamers valoriseren 'standalone vision' en 'dated-ness as authenticity' over iteratieve sequels. Dit destabiliseert franchise-logic die 15 jaar gaming-strategy aanstuurde.",
-            "strategic_signal": "Gaming marketing teams: stop met 'sequel as default'; create 'Bloodborne archetype' messaging rond singular, uncompromised creative statements. Vintage positioning bewijst groter appeal dan 'refined accessibility'.",
-            "trajectory": "piekend",
+            "trend": "AI-gegenereerde rommel verzwelgt indie-platforms",
+            "summary": "Itch.io en andere indie-gamestores worden overspoeld door AI-slop games, wat leidt tot uitbreiding van disclosure-filters en massale deleties ('terabytes') om kwaliteit te behouden. Platforms proberen kunstmatig gegenereerde content van echte indie-ontwikkelaars te scheiden.",
+            "why_it_matters": "Dit signaleert een kritiek moment waarin indie-communities zich tegen mainstreaming en AI-automatisering verweren. Authenticiteitsgap wordt een competitief voordeel voor echte makers.",
+            "strategic_signal": "Brands die indie-gaming sponsoren of co-creëren moeten nu expliciet 'human-made' en anti-AI positioning inzetten als verkoopargument richting 25-35-jarigen die indie-platforms gebruiken.",
+            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
+              "Aftermath",
+              "Ars Technica",
               "Eurogamer",
-              "Hypebeast",
-              "Quartz"
+              "GamesIndustry.biz",
+              "Kotaku",
+              "MIT Tech Review",
+              "Rock Paper Shotgun",
+              "The Verge"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Breath of the Wild sold 34.51 million copies, 12.78 million more than its sequel",
-                "url": "https://qz.com/best-selling-zelda-games-ranked-sales",
-                "source": "Quartz",
-                "published": "2026-11-02T14:55:00.000Z"
+                "title": "Itch.io Deletes ‘Terabytes’ Of AI Slop In Attempt To Counter Surge In Game Uploads",
+                "url": "https://kotaku.com/itch-io-gen-ai-slop-terrabytes-deleted-claude-chagpt-steam-epic-2000752485",
+                "source": "Kotaku",
+                "published": "2026-11-03T13:00:11.000Z"
               },
               {
-                "title": "Over a decade later, Bloodborne remains so popular it reportedly sold a quarter of a million copies this year alone",
-                "url": "https://www.eurogamer.net/bloodborne-251-000-sales-in-2016-ps4",
+                "title": "Indie game website itch.io expands its AI disclosure filter as 'AI slop' continues to overwhelm Steam and other storefronts",
+                "url": "https://www.eurogamer.net/itchio-generative-ai-filters-slop",
                 "source": "Eurogamer",
-                "published": "2026-11-02T13:35:31.000Z"
+                "published": "2026-11-03T12:03:56.000Z"
               },
               {
-                "title": "Zach Cregger's 'Resident Evil' Reboot Hits $400 Million USD at the Global Box Office",
-                "url": "https://hypebeast.com/2026/11/zach-cregger-resident-evil-reboot-hits-400-million-usd-global-box-office-news",
-                "source": "Hypebeast",
-                "published": "2026-11-02T09:59:05.000Z"
+                "title": "How “reverse game theory” could keep AI agents in check",
+                "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+                "source": "MIT Tech Review",
+                "published": "2026-11-03T10:43:41.000Z"
               },
               {
-                "title": "Phantom Blade Zero is Steam's biggest launch of the year so far, selling over 4 million copies in three days",
-                "url": "https://www.eurogamer.net/phantom-blade-zero-4-million-copies-steam-biggest-launch",
+                "title": "Remedy revenue soars by 226% following release of Control Resonant, the developer's fastest-selling game ever",
+                "url": "https://www.eurogamer.net/control-resonant-remedy-revenue-leaps",
                 "source": "Eurogamer",
-                "published": "2026-11-02T09:24:45.000Z"
+                "published": "2026-11-03T09:56:48.000Z"
               }
             ]
           }
