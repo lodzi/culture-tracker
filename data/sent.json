@@ -1,0 +1,124 @@
+{
+  "_readme": "Log van Zeitfeed Weekly-topics die verstuurd of klaargezet zijn. Gebruikt door de weekly-selectie om thema's van de laatste 8 weken lager te scoren. status 'queued' = op main klaargezet (telt voor de straf even zwaar als 'sent'). Thema-tags voor de eerste 13 weken zijn door Claude uit de titels afgeleid, niet door Lode bevestigd; corrigeer gerust. Bijwerken na elke keuze met: npm run lock-week.",
+  "themesAssignedBy": "claude-from-titles",
+  "source": "docs/zeitfeed/geheugen-zeitfeed.md",
+  "sent": [
+    {
+      "sendDate": "2026-10-30",
+      "status": "queued",
+      "topics": [
+        { "trend": "Hip-Hop's Curator Steps to the Front", "category": "music", "themes": ["hiphop", "curation"] },
+        { "trend": "Design Looks Beyond the Human User", "category": "art", "themes": ["design"] },
+        { "trend": "Immersive Concert-Docs as Prestige Format", "category": "music", "themes": ["immersive", "prestige", "concert-film"] }
+      ]
+    },
+    {
+      "sendDate": "2026-10-23",
+      "status": "queued",
+      "topics": [
+        { "trend": "AI Autonomy as Spectacle Over Engineering", "category": "internet", "themes": ["ai"] },
+        { "trend": "Salvage Modernism: Upcycled Materials in Heritage Spaces", "category": "art", "themes": ["craft-sustainability", "heritage"] },
+        { "trend": "Orchestra Collaborations Legitimise Genre Crossovers", "category": "music", "themes": ["crossover", "legitimacy"] }
+      ]
+    },
+    {
+      "sendDate": "2026-10-16",
+      "status": "queued",
+      "topics": [
+        { "trend": "Immersive Brand Experiences via Temporary Installations", "category": "art", "themes": ["immersive"] },
+        { "trend": "Regional Festivals as Career-Launch Ecosystems", "category": "trends", "themes": ["festivals"] },
+        { "trend": "Safety-First Event Design as a Values Signal", "category": "music", "themes": ["events", "values"] }
+      ]
+    },
+    {
+      "sendDate": "2026-10-09",
+      "status": "queued",
+      "topics": [
+        { "trend": "Pop-Culture Figures Claim Fine-Art Legitimacy", "category": "art", "themes": ["legitimacy", "prestige"] },
+        { "trend": "Premium Streaming Wins Broadcast Rights from TV", "category": "internet", "themes": ["streaming"] },
+        { "trend": "Hardcore/Punk Revival Hits Mainstream Legitimacy (+ Stone Island)", "category": "music", "themes": ["subculture", "legitimacy", "fashion-crossover"] }
+      ]
+    },
+    {
+      "sendDate": "2026-10-02",
+      "status": "queued",
+      "topics": [
+        { "trend": "Belgian Artists Claim Global Indie Status (+ Julie Kegels)", "category": "music", "themes": ["local-belgian", "indie"] },
+        { "trend": "Brand Integration as the Base Touring Model", "category": "music", "themes": ["touring", "brand-partnerships"] },
+        { "trend": "Pre-Loved Luxury Gets Institutional Trust", "category": "fashion", "themes": ["resale", "luxury"] }
+      ]
+    },
+    {
+      "sendDate": "2026-09-25",
+      "status": "queued",
+      "topics": [
+        { "trend": "Retail-as-Aesthetic: Tech Design Colonises Fashion", "category": "fashion", "themes": ["design", "retail"] },
+        { "trend": "Underground Fashion Shows as Subcultural Legitimacy", "category": "culture", "themes": ["subculture", "legitimacy"] },
+        { "trend": "Serial Killers as Girlboss Revisionism", "category": "trends", "themes": ["true-crime"] }
+      ]
+    },
+    {
+      "sendDate": "2026-09-18",
+      "status": "queued",
+      "topics": [
+        { "trend": "iPhone Becomes a Legitimate Gaming Platform", "category": "gaming", "themes": ["gaming", "platforms"] },
+        { "trend": "Artistic Accountability Goes Public (Macklemore/Ed Sheeran)", "category": "music", "themes": ["accountability"] },
+        { "trend": "Smart Home as Quiet Craft Aesthetic", "category": "art", "themes": ["design", "craft-sustainability"] }
+      ]
+    },
+    {
+      "sendDate": "2026-09-11",
+      "status": "queued",
+      "topics": [
+        { "trend": "Hip-Hop as Institutional Reconciliation", "category": "music", "themes": ["hiphop", "legitimacy"] },
+        { "trend": "Participatory Documentary as Narrative Provocation", "category": "film", "themes": ["documentary"] },
+        { "trend": "Design as Anti-Disposability Philosophy", "category": "art", "themes": ["craft-sustainability", "design"] }
+      ]
+    },
+    {
+      "sendDate": "2026-09-04",
+      "status": "queued",
+      "topics": [
+        { "trend": "True Crime Resolution as Cultural Reckoning", "category": "trends", "themes": ["true-crime"] },
+        { "trend": "AI Licensing Normalises Artistic Consent", "category": "art", "themes": ["ai", "consent-licensing"] },
+        { "trend": "Early-2010s Dance Becomes Hyperpop Grammar", "category": "music", "themes": ["nostalgia", "hyperpop"] }
+      ]
+    },
+    {
+      "sendDate": "2026-08-28",
+      "status": "queued",
+      "topics": [
+        { "trend": "AI Slop Backlash Becomes a Brand Risk", "category": "internet", "themes": ["ai", "brand-risk"] },
+        { "trend": "Anime IP Redefines the Sneaker Category", "category": "fashion", "themes": ["anime", "sneakers", "collab"] },
+        { "trend": "Creators Turn Director as Reputation Strategy", "category": "music", "themes": ["creators", "prestige"] }
+      ]
+    },
+    {
+      "sendDate": "2026-08-21",
+      "status": "queued",
+      "topics": [
+        { "trend": "Album Listening Parties as Immersive Retail", "category": "music", "themes": ["immersive", "retail"] },
+        { "trend": "Legends' Deaths Reshape Legacy Narratives", "category": "music", "themes": ["legacy-death"] },
+        { "trend": "Nostalgia Fatigue Sets In", "category": "film", "themes": ["nostalgia"] }
+      ]
+    },
+    {
+      "sendDate": "2026-08-14",
+      "status": "queued",
+      "topics": [
+        { "trend": "Nostalgia Licensing Spans Multiple Categories", "category": "fashion", "themes": ["nostalgia", "licensing"] },
+        { "trend": "Digital Ownership Means Access, Not Property", "category": "gaming", "themes": ["digital-ownership"] },
+        { "trend": "Hidden AI Erodes Corporate Trust", "category": "internet", "themes": ["ai", "trust"] }
+      ]
+    },
+    {
+      "sendDate": "2026-08-07",
+      "status": "queued",
+      "topics": [
+        { "trend": "Platform War Against AI Content", "category": "internet", "themes": ["ai", "platforms"] },
+        { "trend": "Vulnerability Becomes Pop Authority", "category": "music", "themes": ["vulnerability"] },
+        { "trend": "Climate Messaging Turns Urgent", "category": "trends", "themes": ["climate"] }
+      ]
+    }
+  ]
+}

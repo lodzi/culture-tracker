@@ -26,6 +26,7 @@
 const fs         = require("fs");
 const path       = require("path");
 const mailchimp  = require("@mailchimp/mailchimp_marketing");
+const { sendDateFor, loadPipelineConfig } = require("./pipeline-config");
 
 const ROOT          = path.resolve(__dirname, "..");
 const LATEST_PATH   = path.join(ROOT, "data", "latest.json");
@@ -374,6 +375,25 @@ async function main() {
   // Testmodus: stuur enkel een Mailchimp-testmail naar vaste adressen i.p.v.
   // een echte campagne naar de hele lijst. Activeer met `--test` of TEST_MODE=1.
   const isTest = process.argv.includes("--test") || process.env.TEST_MODE === "1";
+
+  // Stale-guard (algoritme v2): een set signals met een sendDate hoort bij één
+  // specifieke vrijdag. Staat er nog de set van vorige week klaar, dan versturen
+  // we niets naar de lijst. Een testmail gaat wel door, met waarschuwing.
+  // Staat weeklyV2 uit (config/pipeline.json) en heeft de set geen sendDate, dan
+  // wordt er niet gecontroleerd (de oude werkwijze). Staat weeklyV2 aan, dan moet
+  // de set een sendDate hebben: voer `npm run lock-week` uit na het klaarzetten.
+  const sig = brief.weeklyBrandSignals;
+  if (sig && (sig.sendDate || loadPipelineConfig().weeklyV2)) {
+    const expected = sendDateFor(new Date());
+    if (sig.sendDate !== expected) {
+      const msg = sig.sendDate
+        ? "Weekly signals horen bij verzenddatum " + sig.sendDate + " maar deze week is " +
+          expected + ": de set van vorige week staat nog klaar."
+        : "Weekly signals hebben geen sendDate (voer `npm run lock-week` uit na het klaarzetten).";
+      if (!isTest) throw new Error("Verzending afgebroken: " + msg);
+      console.warn("⚠ " + msg + " (testmail gaat toch door)");
+    }
+  }
 
   const apiKey    = required("MAILCHIMP_API_KEY");
   const listId    = required("MAILCHIMP_LIST_ID");

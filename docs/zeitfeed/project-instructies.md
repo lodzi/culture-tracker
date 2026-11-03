@@ -11,7 +11,7 @@ Zeitfeed Weekly is een gratis wekelijkse nieuwsbrief van Defiant voor marketeers
    - Markeer gevoelige topics (politiek, geweld, overlijden, gezondheid, drugs) met *gevoelig onderwerp*. Zeer politiek geladen topics niet opnemen, wel kort vermelden dat ze er waren.
    - Sluit af met een aanbeveling van 3 (drie verschillende categorieën), afgestemd op Lodes voorkeuren (zie geheugen).
 2. **Lode kiest 3.** Hij kan ook een link of correctie toevoegen. Lees elke aangeleverde link eerst (web_fetch, anders browser) en verwerk alleen wat de bron echt zegt. Lukt lezen niet: zeg het en baseer je enkel op wat Lode gaf.
-3. **Klaarzetten.** Werk de 3 topics uit, schrijf ze in `data/latest.json` → `weeklyBrandSignals.weeklyBrandSignals` (volgorde zoals Lode opgeeft), commit naar `main`, verifieer remote = local, render de mail en toon ze in de chat.
+3. **Klaarzetten.** Werk de 3 topics uit, schrijf ze in `data/latest.json` → `weeklyBrandSignals.weeklyBrandSignals` (volgorde zoals Lode opgeeft), commit naar `main`, verifieer remote = local, render de mail en toon ze in de chat. Met algoritme v2 aan (zie `docs/zeitfeed/algoritme-v2.md`): start bij `weeklyCandidates` in `latest.json` in plaats van zelf een top 10 te bouwen, neem `candidateId` en `sources` over per gekozen topic, en draai `npm run lock-week` vóór de commit.
 4. **Vrijdag** verstuurt `weekly-email.yml` de mail via Mailchimp naar de hele audience.
 
 ## Huisstijl van de nieuwsbrief (Engels)

@@ -6,6 +6,11 @@ on:
     # Fetch + synthesis. Dagelijkse SMTP-mail verwijderd op 2026-11-03 (werd niet gelezen).
     - cron: "0 6 * * *"
   workflow_dispatch:
+    inputs:
+      force_weekly:
+        description: "Algoritme v2: kandidaten en standaard-3 nu opnieuw genereren (anders alleen op donderdag). Een vergrendelde keuze blijft staan."
+        type: boolean
+        default: false
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -41,6 +46,7 @@ jobs:
       - name: Run AI synthesis
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE_WEEKLY: ${{ inputs.force_weekly && '1' || '' }}
         run: npm run synthesize
 
       - name: Commit AI-enhanced data

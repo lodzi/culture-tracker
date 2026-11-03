@@ -12,7 +12,8 @@
     "daily": "npm run update && npm run synthesize",
     "check-sources": "node scripts/check-sources.js",
     "serve": "npx --yes http-server . -p 8080 -c-1",
-    "weekly-email-test": "node scripts/send-weekly-email.js --test"
+    "weekly-email-test": "node scripts/send-weekly-email.js --test",
+    "lock-week": "node scripts/lock-week.js"
   },
   "engines": {
     "node": ">=18"

@@ -8,6 +8,10 @@
  *   - weekly:   opkomende patronen over 7 dagen      (Sonnet — beter redeneren)
  *   - monthly:  macro-verschuivingen over 30 dagen   (Sonnet — alleen als stale)
  *
+ * Algoritme v2 (config/pipeline.json -> weeklyV2 / dailyPoolV2, standaard uit):
+ *   top 10 kandidaten uit de 7-daagse pool met sent.json-straf en quota; zie
+ *   scripts/weekly-candidates.js en docs/zeitfeed/algoritme-v2.md.
+ *
  * Caching: weekly wordt alleen herberekend als >6 dagen oud.
  *          monthly wordt alleen herberekend als >25 dagen oud.
  *
@@ -22,6 +26,8 @@
 const fs      = require("fs");
 const path    = require("path");
 const Anthropic = require("@anthropic-ai/sdk");
+const { loadPipelineConfig } = require("./pipeline-config");
+const weeklyCandidatesLib    = require("./weekly-candidates");
 
 // --- Paths ---
 const ROOT                 = path.resolve(__dirname, "..");
@@ -166,9 +172,18 @@ async function synthesizeDaily(client, rawData) {
     byCategory[cat].push(t);
   }
 
+  // Algoritme v2 (config/pipeline.json -> dailyPoolV2): grotere pool per categorie,
+  // lokale signalen met 1 bron toegelaten, en een confidence-veld per insight.
+  const pcfg        = loadPipelineConfig();
+  const poolV2      = pcfg.dailyPoolV2 === true;
+  const maxInsights = poolV2 ? pcfg.daily.maxInsightsPerCategory : MAX_INSIGHTS;
+  const maxClusters = poolV2 ? pcfg.daily.maxClustersSentPerCategory : MAX_CLUSTERS_SENT;
+  const maxTokens   = poolV2 ? pcfg.daily.maxTokens : 4096;
+  const singleOk    = poolV2 ? (pcfg.daily.singleSourceCategories || []) : [];
+
   const promptData = {};
   for (const [cat, catTopics] of Object.entries(byCategory)) {
-    promptData[cat] = catTopics.slice(0, MAX_CLUSTERS_SENT).map(function (t, idx) {
+    promptData[cat] = catTopics.slice(0, maxClusters).map(function (t, idx) {
       return {
         idx:     idx,
         bronnen: t.sources.slice(0, 4),
@@ -193,8 +208,12 @@ async function synthesizeDaily(client, rawData) {
 KRITISCH: een cluster = artikels die hetzelfde keyword delen, maar dat betekent NIET dat ze over hetzelfde gaan.
 Bepaal of de artikels echt over hetzelfde specifieke onderwerp gaan (coherent = true/false).
 
-Schrijf per categorie maximaal ${MAX_INSIGHTS} ECHTE culturele trends. Een echte trend:
-- Wordt gedekt door 2+ onafhankelijke bronnen over precies hetzelfde onderwerp
+Schrijf per categorie maximaal ${maxInsights} ECHTE culturele trends. Een echte trend:
+${poolV2
+  ? `- Wordt bij voorkeur gedekt door 2+ onafhankelijke bronnen over precies hetzelfde onderwerp (confidence "hoog"). Een cluster met één bron mag alleen voor de categorieën ${JSON.stringify(singleOk)} en krijgt dan confidence "laag"
+- Schrijf liever minder insights dan een zwakke: vul de ${maxInsights} niet op als er geen echte trends zijn
+- Gebruik ALLEEN feiten uit de aangeleverde titels en samenvattingen. Voeg nooit nationaliteit, herkomst, locatie, cijfers of namen toe die daar niet in staan`
+  : `- Wordt gedekt door 2+ onafhankelijke bronnen over precies hetzelfde onderwerp`}
 - Heeft culturele relevantie, niet alleen nieuwswaarde
 - Is specifiek (niet "muziek is populair" maar "de comeback van neo-soul in mainstream pop")
 
@@ -225,7 +244,8 @@ Antwoord ALLEEN met JSON:
           "strategic_signal": "...",
           "trajectory": "opkomend",
           "daysActive": 1,
-          "isNew": true
+          "isNew": true${poolV2 ? `,
+          "confidence": "hoog"` : ""}
         }
       ]
     }
@@ -235,9 +255,9 @@ Antwoord ALLEEN met JSON:
 Clusters per categorie:
 ${JSON.stringify(promptData, null, 2)}`;
 
-  console.log("  [Haiku] Daily synthesis…");
+  console.log("  [Haiku] Daily synthesis…" + (poolV2 ? " (pool v2)" : ""));
   const msg = await client.messages.create({
-    model: HAIKU, max_tokens: 4096,
+    model: poolV2 ? pcfg.models.daily : HAIKU, max_tokens: maxTokens,
     messages: [{ role: "user", content: prompt }],
   });
   console.log("  Tokens: " + msg.usage.input_tokens + " in + " + msg.usage.output_tokens + " out");
@@ -269,6 +289,7 @@ ${JSON.stringify(promptData, null, 2)}`;
         trajectory:       ins.trajectory || null,
         daysActive:       typeof ins.daysActive === "number" ? ins.daysActive : 1,
         isNew:            ins.isNew !== false,   // default true (nieuw) als AI het niet invult
+        ...(poolV2 ? { confidence: (topic.sourceCount || (topic.sources || []).length) >= 2 ? "hoog" : "laag" } : {}),
         sources:          topic.sources,
         trending:       topic.trending || false,
         articles:       topic.items.slice(0, 4).map(function (a) {
@@ -919,15 +940,40 @@ async function main() {
   // 5. Weekly brand signals (Sonnet, gecached samen met weekly)
   console.log("\n[Weekly brand signals]");
   let weeklyBrandSignals = null;
-  try {
-    weeklyBrandSignals = await synthesizeWeeklyBrandSignals(
-      client, daily, crossCategory, weekly, existing.weeklyBrandSignals || null
-    );
-    if (weeklyBrandSignals) {
-      console.log("  ✓ " + weeklyBrandSignals.weeklyBrandSignals.length + " brand signals");
+  let weeklyCandidates   = null;
+  let weeklyV2Result     = null;
+  const pipelineCfg = loadPipelineConfig();
+  if (pipelineCfg.weeklyV2) {
+    // Algoritme v2: top 10 uit de 7-daagse pool, sent.json-straf, quota, bronlinks.
+    // Regenereert alleen op donderdag of met FORCE_WEEKLY=1; vergrendelde keuze blijft staan.
+    try {
+      weeklyV2Result = await weeklyCandidatesLib.runWeeklyV2({
+        client, cfg: pipelineCfg, now: new Date(), daily,
+        archiveDays: loadArchiveDays(pipelineCfg.weekly.poolDays),
+        todayDate: todayISO(), existing,
+        force: /^(1|true)$/i.test(process.env.FORCE_WEEKLY || ""),
+        parseAIJson,
+      });
+      weeklyBrandSignals = weeklyV2Result.weeklyBrandSignals;
+      weeklyCandidates   = weeklyV2Result.weeklyCandidates;
+    } catch (e) {
+      console.error("  Weekly v2 mislukt:", e.message);
+      weeklyBrandSignals = existing.weeklyBrandSignals || null;
+      weeklyCandidates   = existing.weeklyCandidates   || null;
     }
-  } catch (e) {
-    console.error("  Brand signals mislukt:", e.message);
+  } else {
+    try {
+      weeklyBrandSignals = await synthesizeWeeklyBrandSignals(
+        client, daily, crossCategory, weekly, existing.weeklyBrandSignals || null
+      );
+      if (weeklyBrandSignals) {
+        console.log("  ✓ " + weeklyBrandSignals.weeklyBrandSignals.length + " brand signals");
+      }
+    } catch (e) {
+      console.error("  Brand signals mislukt:", e.message);
+    }
+    // Zonder v2 blijft een eerder opgeslagen kandidatenlijst gewoon staan.
+    weeklyCandidates = existing.weeklyCandidates || null;
   }
 
   // Robuustheid: laat weeklyBrandSignals NOOIT verdwijnen uit latest.json.
@@ -960,12 +1006,19 @@ async function main() {
 
   const brief = {
     date,
-    aiModel: { daily: HAIKU, weekly: SONNET, monthly: SONNET },
+    aiModel: {
+      daily: pipelineCfg.dailyPoolV2 ? pipelineCfg.models.daily : HAIKU,
+      weekly: SONNET,
+      monthly: SONNET,
+      ...(weeklyV2Result && weeklyV2Result.models.length
+        ? { weeklySelection: weeklyV2Result.models[0] } : {}),
+    },
     daily,
     ...(crossCategory  ? { crossCategory }  : {}),
     ...(weekly         ? { weekly }         : {}),
     ...(monthly        ? { monthly }        : {}),
     ...(weeklyBrandSignals ? { weeklyBrandSignals } : {}),
+    ...(weeklyCandidates   ? { weeklyCandidates }   : {}),
     ...(reportInsights ? { reportInsights } : {}),
   };
 
@@ -992,7 +1045,14 @@ async function main() {
   fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
   writeJSON(LATEST_PATH, brief);
   const archivePath = path.join(ARCHIVE_DIR, date + ".json");
-  writeJSON(archivePath, brief);
+  // De kandidatenlijst staat in het archief alleen op de dag dat ze (her)gegenereerd is,
+  // zodat niet elk dagarchief dezelfde ~10 kB meedraagt.
+  let archiveBrief = brief;
+  if (!(weeklyV2Result && weeklyV2Result.regenerated.candidates)) {
+    archiveBrief = Object.assign({}, brief);
+    delete archiveBrief.weeklyCandidates;
+  }
+  writeJSON(archivePath, archiveBrief);
   updateArchiveIndex(date);
 
   console.log("\n✓ Schreef " + LATEST_PATH);

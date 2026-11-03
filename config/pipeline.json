@@ -1,0 +1,38 @@
+{
+  "_readme": "Schakelaars en instellingen voor de algoritme-v2 (top 10 uit 7-daagse pool, sent.json-geheugen, quota). weeklyV2 en dailyPoolV2 staan standaard UIT: dan draait de pipeline exact zoals voorheen. Zie docs/zeitfeed/algoritme-v2.md.",
+
+  "weeklyV2": false,
+  "dailyPoolV2": false,
+
+  "models": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-opus-5-5",
+    "weeklyFallback": "claude-sonnet-4-6"
+  },
+
+  "daily": {
+    "fetchMaxTopics": 40,
+    "fetchClustersPerCategory": 5,
+    "singleSourceCategories": ["lokaal"],
+    "singleSourcePerCategory": 4,
+    "maxClustersSentPerCategory": 8,
+    "maxInsightsPerCategory": 5,
+    "maxTokens": 8192
+  },
+
+  "weekly": {
+    "regenerateWeekday": 4,
+    "poolDays": 7,
+    "top": 10,
+    "maxPerCategory": 2,
+    "categoryMax": { "film": 2 },
+    "minLokaal": 1,
+    "minPoolSignals": 12,
+    "minPoolCategories": 4,
+    "sentLookbackWeeks": 8,
+    "heavyThemes": ["ai", "nostalgia", "legacy-death", "prestige"],
+    "heavyMultiplier": 1.5,
+    "penaltyCap": 4,
+    "repeatPenalty": 3
+  }
+}

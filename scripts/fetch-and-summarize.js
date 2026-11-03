@@ -33,6 +33,7 @@ const fs = require("fs");
 const https = require("https");
 const path = require("path");
 const Parser = require("rss-parser");
+const { loadPipelineConfig } = require("./pipeline-config");
 
 // --- Paths ---
 const ROOT = path.resolve(__dirname, "..");
@@ -692,6 +693,60 @@ function finalizeClusters(clusters) {
   });
 }
 
+// --- Algoritme v2: selectie per categorie ---
+// Vroeger: één globale top MAX_TOPICS (10) clusters over alle categorieën heen, met
+// ≥2 bronnen vereist. Daardoor domineerde film en haalde 'lokaal' nooit de top.
+// Nu: max. fetchClustersPerCategory clusters per categorie (in relevantievolgorde),
+// totaal max. fetchMaxTopics, plus losse items met 1 bron voor singleSourceCategories.
+function selectTopicsV2(topics, allItems, d) {
+  const perCat = new Map();
+  const out = [];
+  for (const t of topics) {
+    if (out.length >= d.fetchMaxTopics) break;
+    const c = t.primaryCategory || "overig";
+    const n = perCat.get(c) || 0;
+    if (n >= d.fetchClustersPerCategory) continue;
+    perCat.set(c, n + 1);
+    out.push(t);
+  }
+
+  const used = new Set();
+  topics.forEach(function (t) {
+    t.items.forEach(function (i) { used.add(i.url || i.title); });
+  });
+  const now = Date.now();
+  const velocityWindowMs = VELOCITY_WINDOW_HOURS * 60 * 60 * 1000;
+
+  (d.singleSourceCategories || []).forEach(function (cat) {
+    const have = out.filter(function (t) { return t.primaryCategory === cat; }).length;
+    const want = Math.max(0, d.singleSourcePerCategory - have);
+    if (want === 0) return;
+    const singles = allItems
+      .filter(function (i) { return i.category === cat && !used.has(i.url || i.title); })
+      .sort(function (a, b) {
+        if ((b.score || 0) !== (a.score || 0)) return (b.score || 0) - (a.score || 0);
+        return (b.published ? new Date(b.published).getTime() : 0) -
+               (a.published ? new Date(a.published).getTime() : 0);
+      })
+      .slice(0, want);
+    singles.forEach(function (i) {
+      out.push({
+        label:           (i.title || "Topic").slice(0, 48),
+        keywords:        [],
+        sourceCount:     1,
+        sources:         [i.source].filter(Boolean),
+        categories:      [cat],
+        primaryCategory: cat,
+        trending:        false,
+        fresh:           !!(i.published && (now - new Date(i.published).getTime()) <= velocityWindowMs),
+        singleSource:    true,
+        items:           [i],
+      });
+    });
+  });
+  return out;
+}
+
 // --- Semantic clustering via embeddings (preferred) ---
 // Greedy online clustering: process items strongest-first; attach each to the
 // most-similar existing cluster above EMBED_SIM_THRESHOLD, else open a new one.
@@ -910,7 +965,17 @@ async function main() {
     else console.log("Clustering: keyword-overlap (zet VOYAGE_API_KEY voor semantische clustering).");
     topics = clusterByTopic(allItems);
   }
-  topics = topics.slice(0, MAX_TOPICS);
+  const pipelineCfg = loadPipelineConfig();
+  if (pipelineCfg.dailyPoolV2) {
+    // Algoritme v2: verdeel de ruimte per categorie i.p.v. één globale top 10,
+    // en laat lokale items met 1 bron als (lagere-zekerheid) cluster door.
+    const before = topics.length;
+    topics = selectTopicsV2(topics, allItems, pipelineCfg.daily);
+    console.log("Pool v2: " + before + " clusters → " + topics.length + " (per categorie begrensd, " +
+      topics.filter(function (t) { return t.singleSource; }).length + " single-source).");
+  } else {
+    topics = topics.slice(0, MAX_TOPICS);
+  }
   const totalShown  = topics.reduce(function (sum, t) { return sum + t.items.length; }, 0);
   const hotTopics   = topics.filter(function (t) { return t.trending; }).length;
   const date = todayISO();
@@ -974,6 +1039,6 @@ if (require.main === module) {
 
 module.exports = {
   cosine, meanVec, finalizeClusters, clusterByEmbeddings, clusterByTopic,
-  scoreItems, dedupe, redditPostId, subredditOf, tokenize,
+  scoreItems, dedupe, redditPostId, subredditOf, tokenize, selectTopicsV2,
 };
 
