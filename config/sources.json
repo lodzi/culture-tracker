@@ -393,9 +393,9 @@
     "weight": 8
   },
   {
-    "name": "De Tijd",
+    "name": "De Tijd Cultuur",
     "type": "rss",
-    "url": "https://www.tijd.be/rss/top_stories.xml",
+    "url": "https://www.tijd.be/rss/cultuur.xml",
     "category": "lokaal",
     "weight": 8
   },
@@ -533,5 +533,82 @@
     "url": "https://www.reddit.com/r/belgium/.rss",
     "category": "lokaal",
     "weight": 6
+  },
+  {
+    "name": "Humo",
+    "type": "rss",
+    "url": "https://www.humo.be/rss.xml",
+    "category": "lokaal",
+    "weight": 9
+  },
+  {
+    "name": "Cutting Edge",
+    "type": "rss",
+    "url": "https://www.cuttingedge.be/feed",
+    "category": "lokaal",
+    "weight": 8
+  },
+  {
+    "name": "Volkskrant Cultuur",
+    "type": "rss",
+    "url": "https://www.volkskrant.nl/cultuur-media/rss.xml",
+    "category": "culture",
+    "weight": 7
+  },
+  {
+    "name": "Aftermath",
+    "type": "rss",
+    "url": "https://aftermath.site/rss",
+    "category": "gaming",
+    "weight": 8
+  },
+  {
+    "name": "Rock Paper Shotgun",
+    "type": "rss",
+    "url": "https://www.rockpapershotgun.com/feed",
+    "category": "gaming",
+    "weight": 8
+  },
+  {
+    "name": "GamesIndustry.biz",
+    "type": "rss",
+    "url": "https://www.gamesindustry.biz/feed",
+    "category": "gaming",
+    "weight": 7
+  },
+  {
+    "name": "Digiday",
+    "type": "rss",
+    "url": "https://digiday.com/feed/",
+    "category": "marketing",
+    "weight": 7
+  },
+  {
+    "name": "Marketing Dive",
+    "type": "rss",
+    "url": "https://www.marketingdive.com/feeds/news/",
+    "category": "marketing",
+    "weight": 7
+  },
+  {
+    "name": "Fashionista",
+    "type": "rss",
+    "url": "https://fashionista.com/.rss/full/",
+    "category": "fashion",
+    "weight": 7
+  },
+  {
+    "name": "WWD",
+    "type": "rss",
+    "url": "https://wwd.com/feed/",
+    "category": "fashion",
+    "weight": 8
+  },
+  {
+    "name": "Know Your Meme",
+    "type": "rss",
+    "url": "https://knowyourmeme.com/newsfeed.rss",
+    "category": "internet",
+    "weight": 7
   }
 ]
