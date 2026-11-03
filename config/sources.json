@@ -610,5 +610,82 @@
     "url": "https://knowyourmeme.com/newsfeed.rss",
     "category": "internet",
     "weight": 7
+  },
+  {
+    "name": "Google News BE Entertainment (NL)",
+    "type": "rss",
+    "url": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=nl&gl=BE&ceid=BE:nl",
+    "category": "lokaal",
+    "weight": 8
+  },
+  {
+    "name": "Google News BE Entertainment (FR)",
+    "type": "rss",
+    "url": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=fr&gl=BE&ceid=BE:fr",
+    "category": "lokaal",
+    "weight": 7
+  },
+  {
+    "name": "Google News BE Muziek",
+    "type": "rss",
+    "url": "https://news.google.com/rss/search?q=muziek%20Vlaanderen%20OR%20Belgi%C3%AB%20concert%20album%20when%3A7d&hl=nl&gl=BE&ceid=BE:nl",
+    "category": "lokaal",
+    "weight": 7
+  },
+  {
+    "name": "Google News BE Film",
+    "type": "rss",
+    "url": "https://news.google.com/rss/search?q=film%20bioscoop%20Vlaanderen%20OR%20Belgische%20film%20OR%20Kinepolis%20when%3A7d&hl=nl&gl=BE&ceid=BE:nl",
+    "category": "lokaal",
+    "weight": 7
+  },
+  {
+    "name": "Google News BE Mode",
+    "type": "rss",
+    "url": "https://news.google.com/rss/search?q=mode%20Belgische%20ontwerper%20OR%20modeweek%20OR%20Antwerpse%20mode%20when%3A7d&hl=nl&gl=BE&ceid=BE:nl",
+    "category": "lokaal",
+    "weight": 7
+  },
+  {
+    "name": "Google News BE Festivals",
+    "type": "rss",
+    "url": "https://news.google.com/rss/search?q=festival%20Vlaanderen%20OR%20Belgisch%20festival%20OR%20Werchter%20OR%20Tomorrowland%20when%3A7d&hl=nl&gl=BE&ceid=BE:nl",
+    "category": "lokaal",
+    "weight": 7
+  },
+  {
+    "name": "Google News BE TV",
+    "type": "rss",
+    "url": "https://news.google.com/rss/search?q=VRT%20OR%20VTM%20OR%20Play4%20programma%20reeks%20seizoen%20when%3A7d&hl=nl&gl=BE&ceid=BE:nl",
+    "category": "lokaal",
+    "weight": 7
+  },
+  {
+    "name": "Google News BE Kunst",
+    "type": "rss",
+    "url": "https://news.google.com/rss/search?q=tentoonstelling%20museum%20KMSKA%20OR%20M%20HKA%20OR%20Mu.ZEE%20OR%20Bozar%20when%3A7d&hl=nl&gl=BE&ceid=BE:nl",
+    "category": "lokaal",
+    "weight": 7
+  },
+  {
+    "name": "Google News BE Gaming",
+    "type": "rss",
+    "url": "https://news.google.com/rss/search?q=gamers%20esports%20Belgi%C3%AB%20when%3A14d&hl=nl&gl=BE&ceid=BE:nl",
+    "category": "lokaal",
+    "weight": 7
+  },
+  {
+    "name": "HLN Antwerpen",
+    "type": "rss",
+    "url": "https://www.hln.be/antwerpen/rss.xml",
+    "category": "lokaal",
+    "weight": 6
+  },
+  {
+    "name": "The Bulletin",
+    "type": "rss",
+    "url": "https://www.thebulletin.be/rss.xml",
+    "category": "lokaal",
+    "weight": 6
   }
 ]
