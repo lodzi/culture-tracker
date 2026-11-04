@@ -218,10 +218,40 @@ function brandSignalCard(signal, index, branding) {
 </table>`;
 }
 
+// ─── Herobeeld (optioneel, per verzenddatum) ──────────────────────────────────
+// config/weekly-hero.json: { "sendDate": "YYYY-MM-DD", "url": "https://…", "alt": "…" }
+// Het beeld wordt alleen gebruikt als sendDate gelijk is aan de vrijdag van de
+// huidige week. Zo gaat er nooit een beeld van vorige week mee. Geen bestand,
+// een ongeldig bestand of een andere datum: de mail verschijnt zonder beeld.
+const HERO_PATH = path.join(ROOT, "config", "weekly-hero.json");
+
+function loadHeroImage() {
+  if (!fs.existsSync(HERO_PATH)) return null;
+  let hero;
+  try {
+    hero = JSON.parse(fs.readFileSync(HERO_PATH, "utf8"));
+  } catch (e) {
+    console.warn("Waarschuwing: config/weekly-hero.json onleesbaar, mail gaat zonder herobeeld.");
+    return null;
+  }
+  if (!hero || typeof hero.url !== "string" || !/^https:\/\//i.test(hero.url)) {
+    console.warn("Waarschuwing: weekly-hero.json heeft geen geldige https-url, mail gaat zonder herobeeld.");
+    return null;
+  }
+  const expected = sendDateFor(new Date());
+  if (hero.sendDate !== expected) {
+    console.warn("Waarschuwing: herobeeld hoort bij " + (hero.sendDate || "geen datum") +
+      " maar deze week is " + expected + ", mail gaat zonder herobeeld.");
+    return null;
+  }
+  return { url: hero.url, alt: hero.alt || "" };
+}
+
 // ─── Volledige HTML-mail ───────────────────────────────────────────────────────
 
 function buildHTML(brief) {
   const branding   = loadBranding();
+  const hero       = loadHeroImage();
   const signals    = (brief.weeklyBrandSignals && Array.isArray(brief.weeklyBrandSignals.weeklyBrandSignals))
     ? brief.weeklyBrandSignals.weeklyBrandSignals : [];
   const week       = weekLabel();
@@ -229,8 +259,19 @@ function buildHTML(brief) {
   const logoUrl    = branding.logoUrl || "";
   const defiantUrl = branding.footerLinkUrl || "https://www.thisisdefiant.com";
   const footerTxt  = branding.footerButton || "Defiant — Ignite The Culture";
+  const archiveUrl = branding.archiveUrl === undefined ? "https://www.thisisdefiant.com/zeitfeed-weekly" : branding.archiveUrl;
   const SERIF = "'Source Serif 4',Georgia,'Times New Roman',serif";
   const SANS  = "'Helvetica Neue',Helvetica,Arial,sans-serif";
+
+  // Archieflink onderaan (leeg archiveUrl in email-branding.json = geen link)
+  const archiveHtml = archiveUrl
+    ? '<p style="margin:0 0 30px;font-family:' + SERIF + ';font-size:17px;line-height:1.5;color:#111111;"><a href="' + esc(archiveUrl) + '" style="color:#111111;text-decoration:underline;text-decoration-color:#fc000d;text-underline-offset:4px;text-decoration-thickness:2px;">Browse past editions &rarr;</a></p>'
+    : '';
+
+  // Herobeeld onder de intro (600 px breed, aanleveren als 1200 x 600 px)
+  const heroRow = hero
+    ? '<tr><td colspan="2" style="padding:0 0 46px 0;"><img class="fluid" src="' + esc(hero.url) + '" width="600" alt="' + esc(hero.alt) + '" style="display:block;width:100%;max-width:600px;height:auto;"></td></tr>\n'
+    : '';
 
   const head = ''
     + '<!doctype html>\n<html lang="en" xmlns="http://www.w3.org/1999/xhtml">\n<head>\n'
@@ -240,7 +281,7 @@ function buildHTML(brief) {
     + '<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">\n'
     + '<style>\nbody{margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}\n'
     + 'table{border-collapse:collapse;}\nimg{border:0;outline:none;text-decoration:none;}\na{text-decoration:none;}\n'
-    + '@media only screen and (max-width:480px){h2{font-size:25px !important;}.c{padding-bottom:44px !important;padding-right:22px !important;}.cl{padding-right:22px !important;}}\n'
+    + '@media only screen and (max-width:480px){h2{font-size:25px !important;}.c{padding-bottom:44px !important;padding-right:22px !important;}.cl{padding-right:22px !important;}.fluid{width:100% !important;height:auto !important;}}\n'
     + '</style>\n</head>\n<body style="margin:0;padding:0;background:#fafaf7;" bgcolor="#fafaf7">\n'
     + '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fafaf7" style="background:#fafaf7;">\n'
     + '<tr><td align="center" style="padding:0 0 0 0;">\n'
@@ -250,10 +291,11 @@ function buildHTML(brief) {
     + (logoUrl ? '<img src="'+esc(logoUrl)+'" width="400" alt="'+esc(brand)+'" style="display:block;width:400px;max-width:100%;height:auto;">'
                : '<span style="font-family:'+SERIF+';font-size:26px;font-weight:700;color:#111111;">'+esc(brand)+'</span>')
     + '</td></tr>\n'
-    + '<tr><td colspan="2" style="padding:26px 28px 46px 28px;">\n'
+    + '<tr><td colspan="2" style="padding:26px 28px ' + (hero ? 30 : 46) + 'px 28px;">\n'
     + '  <p style="margin:0;font-family:'+SERIF+';font-size:21px;line-height:1.5;color:#111111;">Three trends from different cultural domains, each with concrete actions for marketers and brand builders.</p>\n'
     + '  <p style="margin:10px 0 0;font-family:'+SANS+';font-size:13px;line-height:1.5;color:#6b6b66;">Zeitfeed Weekly, a free service from Defiant.</p>\n'
-    + '</td></tr>\n';
+    + '</td></tr>\n'
+    + heroRow;
 
   function block(s){
     const actions = (s.what_brands_can_do||[]).map(function(a){
@@ -269,7 +311,7 @@ function buildHTML(brief) {
 
   const bodyBlocks = signals.map(block).join('\n');
 
-  const footer = `<tr><td style="padding:0 0 0 14px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td colspan="3" width="18" valign="top" style="width:18px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="18" height="18" bgcolor="#fc000d" style="width:18px;height:18px;background:#fc000d;border-radius:50%;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td></tr></table></td><td valign="top" class="cl" style="padding:0 28px 0 6px;"><p style="margin:0 0 16px;font-family:${SANS};font-size:12px;line-height:18px;color:#8a8a84;">This is ${esc(brand)} from ${esc(week)}</p></td></tr><tr><td width="8" style="width:8px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td width="2" style="width:2px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td width="8" style="width:8px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td valign="top" class="c" style="padding:0 28px 60px 6px;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td bgcolor="#fc000d" style="background:#fc000d;padding:15px 24px;"><a href="${esc(defiantUrl)}" style="font-family:${SANS};font-size:15px;line-height:1.3;font-weight:700;color:#ffffff;text-decoration:none;">${esc(footerTxt)}</a></td></tr></table></td></tr></table></td></tr>`;
+  const footer = `<tr><td style="padding:0 0 0 14px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td colspan="3" width="18" valign="top" style="width:18px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;"><table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="18" height="18" bgcolor="#fc000d" style="width:18px;height:18px;background:#fc000d;border-radius:50%;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td></tr></table></td><td valign="top" class="cl" style="padding:0 28px 0 6px;"><p style="margin:0 0 16px;font-family:${SANS};font-size:12px;line-height:18px;color:#8a8a84;">This is ${esc(brand)} from ${esc(week)}</p></td></tr><tr><td width="8" style="width:8px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td width="2" style="width:2px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td width="8" style="width:8px;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td><td valign="top" class="c" style="padding:0 28px 60px 6px;">${archiveHtml}<table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td bgcolor="#fc000d" style="background:#fc000d;padding:15px 24px;"><a href="${esc(defiantUrl)}" style="font-family:${SANS};font-size:15px;line-height:1.3;font-weight:700;color:#ffffff;text-decoration:none;">${esc(footerTxt)}</a></td></tr></table></td></tr></table></td></tr>`;
 
   const tail = '\n</table>\n<!--[if mso]></td></tr></table><![endif]-->\n</td></tr>\n</table>\n</body>\n</html>';
 
@@ -318,6 +360,12 @@ function buildText(brief) {
       });
     }
   });
+
+  const archiveUrl = branding.archiveUrl === undefined ? "https://www.thisisdefiant.com/zeitfeed-weekly" : branding.archiveUrl;
+  if (archiveUrl) {
+    lines.push("");
+    lines.push("Browse past editions: " + archiveUrl);
+  }
 
   return lines.join("\n");
 }

@@ -23,5 +23,7 @@
   "logoAlt":         "Zeitfeed Weekly",
 
   "footerText":      "brought to you by Defiant",
-  "footerLinkUrl":   "https://www.thisisdefiant.com"
+  "footerLinkUrl":   "https://www.thisisdefiant.com",
+
+  "archiveUrl":      "https://www.thisisdefiant.com/zeitfeed-weekly"
 }
