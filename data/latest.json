@@ -1,59 +1,61 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-05",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-03T13:53:45.591Z",
-    "intro": "3 categorieën · 3 trends · laatste 24u",
+    "generatedAt": "2026-11-05T14:23:42.501Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
     "categories": [
       {
-        "id": "fashion",
-        "label": "Fashion",
+        "id": "music",
+        "label": "Muziek",
         "insights": [
           {
-            "trend": "Archief-modecollab's als design-heritage-play",
-            "summary": "NEIGHBORHOOD x Converse en Nike collaborations halen obscure colorway-geschiedenis op ('Red October') en understate collectie-logic naar huidig moment. Design-archivering wordt merk-strategie.",
-            "why_it_matters": "Nostalgia-driven design via 'deep cuts' signaleert dat luxury en sneaker-culture nu om curatie van geschiedenis spelen, niet nieuwheid, dit weerspiegelt collectieve vermoeidheid voor constant newness.",
-            "strategic_signal": "Fashion brands kunnen Q4 2026-Q1 2027 'archive-reimagining' campagnes lanceren gericht op 20-40 jaar oude modegeest, met focus op untold-stories van design-keuzes (vintage research als content-hoek).",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
+            "trend": "Legacy acts mobiliseren institutional touring power",
+            "summary": "Iconische bands (Bon Jovi, U2, Akira Yamaoka) kondigen massale 2027-tournees aan, vaak in partnership met grote merk-ecosystemen (Guinness, venues als Notre Dame Stadium). Dit signaleert een strategische verschuiving: legacy touring niet als nostalgie, maar als institutionele macht en corporate co-branding.",
+            "why_it_matters": "De muzikale '90s-revival is nu volwassen geworden: niet langer 'comeback' maar permanente infrastructuur. Dit weerspiegelt culturele acceptatie dat iconische artiesten economische én emotionele ankers zijn.",
+            "strategic_signal": "Merken kunnen legacy-act partnerships niet meer als eenmalige activatie zien; positioneer jezelf als 'toernee-partner' (merchandise, experiences, content hubs) in plaats van sponsor.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
             "sources": [
-              "Deadline",
+              "Consequence",
+              "Design Boom",
+              "Eurogamer",
+              "Google News BE Festivals",
+              "Google News BE Muziek",
               "Hypebeast",
-              "Kotaku",
-              "Polygon",
-              "Sneaker News",
-              "Variety"
+              "NME",
+              "Sneaker News"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "'VisionQuest' Star Officially Breaks Silence on Her Character's Avengers Movie Future",
-                "url": "https://www.polygon.com/visionquest-lauren-morais-interview/",
-                "source": "Polygon",
-                "published": "2026-11-03T12:00:18.000Z"
+                "title": "Bon Jovi Confirm New 2027 Stadium Shows, Including at Notre Dame Stadium",
+                "url": "https://consequence.net/2026/11/bon-jovi-new-tour-dates-notre-dame/",
+                "source": "Consequence",
+                "published": "2026-11-05T13:45:30.000Z"
               },
               {
-                "title": "‘The Celebrity Traitors’ Star James Acaster Rejects Report He Complained About Competitors: ‘Completely Fabricated’",
-                "url": "https://variety.com/2026/tv/global/celebrity-traitors-james-acaster-slams-report-complained-on-set-1236938273/",
-                "source": "Variety",
-                "published": "2026-11-03T11:21:40.000Z"
+                "title": "‘Silent Hill’ composer Akira Yamaoka announces 2027 tour",
+                "url": "https://www.nme.com/news/gaming-news/silent-hill-composer-akira-yamaoka-2027-tour-dates-tickets-3975110?utm_source=rss&utm_medium=rss&utm_campaign=silent-hill-composer-akira-yamaoka-2027-tour-dates-tickets",
+                "source": "NME",
+                "published": "2026-11-05T13:01:55.000Z"
               },
               {
-                "title": "‘The Celebrity Traitors’ Star James Acaster Trashes Report That He Made Complaint About Co-Stars",
-                "url": "https://deadline.com/2026/11/the-celebrity-traitors-james-acaster-trashes-complaint-1237212001/",
-                "source": "Deadline",
-                "published": "2026-11-03T09:13:16.000Z"
+                "title": "U2 and Guinness team up for special pearl white marble vinyl of ‘Carnaval De Luz’ as band add third London show to 2027 tour",
+                "url": "https://www.nme.com/news/music/u2-and-guinness-team-up-for-special-pearl-white-marble-vinyl-of-carnaval-de-luz-as-band-add-third-london-show-to-2027-tour-3975069?utm_source=rss&utm_medium=rss&utm_campaign=u2-and-guinness-team-up-for-special-pearl-white-marble-vinyl-of-carnaval-de-luz-as-band-add-third-london-show-to-2027-tour",
+                "source": "NME",
+                "published": "2026-11-05T11:39:39.000Z"
               },
               {
-                "title": "NEIGHBORHOOD and Converse Reunite for an Understated ALL STAR LGCY Hi Collab",
-                "url": "https://hypebeast.com/2026/11/neighborhood-converse-all-star-lgcy-hi-collaboration-release-info",
-                "source": "Hypebeast",
-                "published": "2026-11-03T09:05:58.000Z"
+                "title": "landmark james turrell exhibition to inaugurate superblue kyoto in early 2027",
+                "url": "https://www.designboom.com/art/landmark-james-turrell-exhibition-superblue-kyoto-early-2027-teamlab/",
+                "source": "Design Boom",
+                "published": "2026-11-05T09:48:59.000Z"
               }
             ]
           }
@@ -64,46 +66,45 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Biopic-led award season, auteur narratives dominate",
-            "summary": "'Elsinore' (Andrew Scott) domineert British Independent Film Awards met 12 nominaties, terwijl films als 'Alice in Borderland' en 'The Moon' zware focus leggen op performantie van acteurs en ethische filmkritiek. Biografische drama's en character-studies heersen in prestigieuze circuit.",
-            "why_it_matters": "Awards visibility springt over naar character-driven narratives over franchise-IP. Dit voorspelt dat prestige-marketing in 2027 rond actor-legacy en emotional authenticity draait, niet spectacle.",
-            "strategic_signal": "Filmfestival- en prestige-content partners kunnen 2026-2027 awards-kampagnes bouwen rond 'actor transformation' en 'ethical storytelling' als prime positioning (zie Oscar-strategie Sandra Hüller trend van 2 nov).",
-            "trajectory": "piekend",
+            "trend": "Trading card games worden blockbuster-adaptatie-sanctuaries",
+            "summary": "Magic: The Gathering live-action film cast nu A-list talent (Maya Hawke), volgt op eerdere succes van game-to-film expansie. Dit toont hoe IPs uit het gamer-universum nu mainstream-prestige aantrekken als bron voor 'event cinema'.",
+            "why_it_matters": "Gamer-cultuur is niet langer 'niche content', het is de brandstof voor high-budget film-tentpoles. Dit betekent dat merkstrategen moeten begrijpen dat gaming-loyaliteit rechtstreeks naar film-/entertainment-investering leidt.",
+            "strategic_signal": "Als je merk in gamer-ecosystemen aanwezig bent, realiseer je dat die communities nu als pre-sold audiences voor filmadaptaties fungeren. Target them early als 'cultural co-creators', niet alleen consumers.",
+            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
               "A.V. Club",
+              "Adweek",
               "Deadline",
-              "Google News BE Festivals",
-              "Google News BE Film",
-              "The Hollywood Reporter",
-              "Variety"
+              "Hypebeast",
+              "IndieWire"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "‘Thirteen in Gaza’ Acquired by Koudéta Films for France Ahead of Doha Film Festival",
-                "url": "https://variety.com/2026/film/global/thirteen-in-gaza-koudeta-films-france-doha-1236938307/",
-                "source": "Variety",
-                "published": "2026-11-03T13:37:17.000Z"
+                "title": "Kiefer Sutherland & Al Pacino Action-Thriller ‘Father Joe’ Gets North American Deal",
+                "url": "https://deadline.com/2026/11/kiefer-sutherland-al-pacino-movie-father-joe-us-deal-1237214237/",
+                "source": "Deadline",
+                "published": "2026-11-05T13:17:47.000Z"
               },
               {
-                "title": "‘Alice in Borderland’ Star Isomura Hayato on the Role He Was Warned Off, Judging Tokyo’s Ethical Film Award and Why Japanese Cinema Needs Government Backing",
-                "url": "https://variety.com/2026/film/festivals/alice-in-borderland-star-isomura-hayato-role-warned-off-1236938269/",
-                "source": "Variety",
-                "published": "2026-11-03T10:47:29.000Z"
+                "title": "Maya Hawke Draws the Lead Role in Live-Action ‘Magic: The Gathering’ Movie",
+                "url": "https://hypebeast.com/2026/11/maya-hawke-draws-the-lead-role-in-live-action-magic-the-gathering-movie",
+                "source": "Hypebeast",
+                "published": "2026-11-05T09:41:23.000Z"
               },
               {
-                "title": "‘Elsinore,’ ‘I See Buildings Fall Like Lightning’ and ‘Animol’ Lead British Independent Film Awards Nominations",
-                "url": "https://variety.com/2026/awards/global/bifa-nominations-2026-elsinore-i-see-buildings-animol-1236937954/",
-                "source": "Variety",
-                "published": "2026-11-03T10:00:00.000Z"
+                "title": "Daft Punk, Doctor Doom, and E.T. Unite in Lego&#8217;s Action-Packed Holiday Ad",
+                "url": "https://www.adweek.com/creativity/daft-punk-doctor-doom-and-et-unite-in-legos-action-packed-holiday-ad/",
+                "source": "Adweek",
+                "published": "2026-11-05T07:13:09.000Z"
               },
               {
-                "title": "British Independent Film Awards: ‘Elsinore’ Leads Nominations With 12",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/bifa-nominations-2026-list-elsinore-andrew-scott-1236746638/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-03T10:00:00.000Z"
+                "title": "‘Wildwood’ Director Travis Knight on How Live-Action Filmmaking Shaped His Stop-Motion Animated Adventure",
+                "url": "https://www.indiewire.com/features/animation/wildwood-laika-travis-knight-director-interview-1235225035/",
+                "source": "IndieWire",
+                "published": "2026-11-04T18:30:00.000Z"
               }
             ]
           }
@@ -114,52 +115,109 @@
         "label": "Gaming",
         "insights": [
           {
-            "trend": "AI-gegenereerde rommel verzwelgt indie-platforms",
-            "summary": "Itch.io en andere indie-gamestores worden overspoeld door AI-slop games, wat leidt tot uitbreiding van disclosure-filters en massale deleties ('terabytes') om kwaliteit te behouden. Platforms proberen kunstmatig gegenereerde content van echte indie-ontwikkelaars te scheiden.",
-            "why_it_matters": "Dit signaleert een kritiek moment waarin indie-communities zich tegen mainstreaming en AI-automatisering verweren. Authenticiteitsgap wordt een competitief voordeel voor echte makers.",
-            "strategic_signal": "Brands die indie-gaming sponsoren of co-creëren moeten nu expliciet 'human-made' en anti-AI positioning inzetten als verkoopargument richting 25-35-jarigen die indie-platforms gebruiken.",
+            "trend": "Klassieke heruitgaves overtrumpen originele hardware-cycles",
+            "summary": "Nintendo Switch 2 hardware-verkopen dalen 37%, maar software (vooral Tomodachi Life) explodeert; tegelijk genereert de Ocarina of Time-remake massieve voorverkoop en retailing-chaos. Klassieke IP-remakes overnemen de rollen die nieuwe hardware-generaties traditioneel speelden.",
+            "why_it_matters": "Dit teken dat de 'nieuwe-console-hype' is versleten; nostalgische, geoptimaliseerde remakes hebben meer cultureel gewicht dan next-gen hardware, wat een fundamentele verschuiving in game-waardecreatie aangeeft.",
+            "strategic_signal": "Gamers profileren zich via *hoe ze klassieken herbeleyen* (visuele upgrades, accessibility mods, remake-aesthetics) niet via hardware-specs. Maak dit centraal in je community-strategie en fan-engagement.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Aftermath",
+              "Eurogamer",
+              "GamesIndustry.biz",
+              "Google News BE Gaming",
+              "Kotaku",
+              "Volkskrant Cultuur"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Nintendo’s Switch 2 Sales Fell 37 Percent This Year, But Game Sales Are Growing Fast",
+                "url": "https://kotaku.com/nintendo-switch-2-sales-profit-report-tomodachi-life-zelda-ocarina-2000754139",
+                "source": "Kotaku",
+                "published": "2026-11-05T13:24:14.000Z"
+              },
+              {
+                "title": "Nintendo game sales surge thanks to Tomodachi Life: Living the Dream, but Switch 2 hardware suffers big decline",
+                "url": "https://www.eurogamer.net/nintendo-switch-2-hardware-decline-software-boom",
+                "source": "Eurogamer",
+                "published": "2026-11-05T11:56:40.000Z"
+              },
+              {
+                "title": "Van Pac-Man tot Fortnite: Diksmuide pakt dit weekend uit met nieuw game-event Pak de stad - HLN",
+                "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOclE3MUFwS2VPUGJSTExpb3R3a2ZUeHo2dnQ4NVZJQloyYnRtNlUxdTdPWExDOFRvVmlyd09mVVkySjZFbFItYzdWMnpweGh1V1hTX3F2allwTGhFSExDQ1JoNWdpdVJjSFdWWU1kMzJqNkVUcVNLOXRIZ1ZId3JoVXNxWFFVWGFXdzVmM1ZscG1EZnpxV21MWnlzNDRyTWJsVUREY1MxdzZkYndNQzNfQlF4SGVONlNGMFBvM1Z1ZE9HTTUzdmc?oc=5",
+                "source": "Google News BE Gaming",
+                "published": "2026-11-05T09:24:37.000Z"
+              },
+              {
+                "title": "Valve explains why it's running behind on Steam game approvals, asks developers to perform basic release checks to prevent re-reviews",
+                "url": "https://www.eurogamer.net/steam-games-approvals-delayed-valve-response",
+                "source": "Eurogamer",
+                "published": "2026-11-05T09:22:40.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Casting-accidents als authenticity-moments waarde creëren",
+            "summary": "Nintendo's onopzettelijke herbezetting van de originele Navi-stem-actrice (28 jaar later, via blind auditions) wordt viraal als 'perfect accident'. Méér gewaardeerd dan strategische casting zou zijn geweest. Dit reflecteert hoe gamers nu emotionele eerlijkheid boven celebrity-marketing waarderen.",
+            "why_it_matters": "Authenticity in remake-narratieven wordt steeds belangrijker; 'onbedoelde' continuïteit resonates sterker dan planned legacy-marketing.",
+            "strategic_signal": "Wanneer je heritage-content heruitgeeft, laat zien hoe kleine, ongeplande connecties ('continuïteiten') betrokken zijn. Dit voelt genuiner dan grootschalige marketing en genereert méér culturele kredibiliteit.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
               "Aftermath",
-              "Ars Technica",
               "Eurogamer",
-              "GamesIndustry.biz",
+              "Fast Company",
               "Kotaku",
-              "MIT Tech Review",
-              "Rock Paper Shotgun",
-              "The Verge"
+              "Wired"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Itch.io Deletes ‘Terabytes’ Of AI Slop In Attempt To Counter Surge In Game Uploads",
-                "url": "https://kotaku.com/itch-io-gen-ai-slop-terrabytes-deleted-claude-chagpt-steam-epic-2000752485",
+                "title": "Nintendo Fans Are Crashing Out After Amazon Suddenly Delays Tons Of Zelda: Ocarina Of Time Remake Pre-Orders",
+                "url": "https://kotaku.com/nintendo-fans-are-crashing-out-after-amazon-suddenly-delays-tons-of-zelda-ocarina-of-time-remake-pre-orders-2000754143",
                 "source": "Kotaku",
-                "published": "2026-11-03T13:00:11.000Z"
+                "published": "2026-11-05T13:38:32.000Z"
               },
               {
-                "title": "Indie game website itch.io expands its AI disclosure filter as 'AI slop' continues to overwhelm Steam and other storefronts",
-                "url": "https://www.eurogamer.net/itchio-generative-ai-filters-slop",
+                "title": "The ‘Ocarina of Time’ Remake Is Finally Here, but Why Does Link Look so Yassified?",
+                "url": "https://www.wired.com/story/the-legend-of-zelda-ocarina-of-time-remake-yassified-link/",
+                "source": "Wired",
+                "published": "2026-11-05T11:30:00.000Z"
+              },
+              {
+                "title": "Bluesky was right all along and will accept your apology any time",
+                "url": "https://www.fastcompany.com/91635647/bluesky-was-right-all-along-and-will-accept-your-apology-any-time",
+                "source": "Fast Company",
+                "published": "2026-11-05T11:04:00.000Z"
+              },
+              {
+                "title": "The Legend of Zelda: Ocarina of Time's Navi actor reprises her role after 28 years, but it was a total accident due to Nintendo's blind auditions",
+                "url": "https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time",
                 "source": "Eurogamer",
-                "published": "2026-11-03T12:03:56.000Z"
-              },
-              {
-                "title": "How “reverse game theory” could keep AI agents in check",
-                "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-                "source": "MIT Tech Review",
-                "published": "2026-11-03T10:43:41.000Z"
-              },
-              {
-                "title": "Remedy revenue soars by 226% following release of Control Resonant, the developer's fastest-selling game ever",
-                "url": "https://www.eurogamer.net/control-resonant-remedy-revenue-leaps",
-                "source": "Eurogamer",
-                "published": "2026-11-03T09:56:48.000Z"
+                "published": "2026-11-04T19:15:40.000Z"
               }
             ]
           }
         ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-11-05T14:23:45.175Z",
+    "megaTrends": [
+      {
+        "trend": "Nostalgie als economisch én cultureel anker",
+        "summary": "Klassieke content en IP's (legacy acts in muziek, trading card game adaptaties in film, heruitgaves in gaming) domineren tegelijk de markt en publieke aandacht. Dit signaleert een systemische verschuiving waar het verleden betrouwbaarder voelt dan innovatie.",
+        "why_it_matters": "Dit weerspiegelt een culturele behoefte aan stabiliteit en controleerbare narratieven in onzekere tijden. Nostalgie is niet langer decoratief maar een primaire economische motor.",
+        "categories": [
+          "music",
+          "film",
+          "gaming"
+        ],
+        "strength": "sterk"
       }
     ]
   },

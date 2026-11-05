@@ -1,0 +1,266 @@
+{
+  "date": "2026-11-05",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-05T14:23:42.501Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Legacy acts mobiliseren institutional touring power",
+            "summary": "Iconische bands (Bon Jovi, U2, Akira Yamaoka) kondigen massale 2027-tournees aan, vaak in partnership met grote merk-ecosystemen (Guinness, venues als Notre Dame Stadium). Dit signaleert een strategische verschuiving: legacy touring niet als nostalgie, maar als institutionele macht en corporate co-branding.",
+            "why_it_matters": "De muzikale '90s-revival is nu volwassen geworden: niet langer 'comeback' maar permanente infrastructuur. Dit weerspiegelt culturele acceptatie dat iconische artiesten economische én emotionele ankers zijn.",
+            "strategic_signal": "Merken kunnen legacy-act partnerships niet meer als eenmalige activatie zien; positioneer jezelf als 'toernee-partner' (merchandise, experiences, content hubs) in plaats van sponsor.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Consequence",
+              "Design Boom",
+              "Eurogamer",
+              "Google News BE Festivals",
+              "Google News BE Muziek",
+              "Hypebeast",
+              "NME",
+              "Sneaker News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Bon Jovi Confirm New 2027 Stadium Shows, Including at Notre Dame Stadium",
+                "url": "https://consequence.net/2026/11/bon-jovi-new-tour-dates-notre-dame/",
+                "source": "Consequence",
+                "published": "2026-11-05T13:45:30.000Z"
+              },
+              {
+                "title": "‘Silent Hill’ composer Akira Yamaoka announces 2027 tour",
+                "url": "https://www.nme.com/news/gaming-news/silent-hill-composer-akira-yamaoka-2027-tour-dates-tickets-3975110?utm_source=rss&utm_medium=rss&utm_campaign=silent-hill-composer-akira-yamaoka-2027-tour-dates-tickets",
+                "source": "NME",
+                "published": "2026-11-05T13:01:55.000Z"
+              },
+              {
+                "title": "U2 and Guinness team up for special pearl white marble vinyl of ‘Carnaval De Luz’ as band add third London show to 2027 tour",
+                "url": "https://www.nme.com/news/music/u2-and-guinness-team-up-for-special-pearl-white-marble-vinyl-of-carnaval-de-luz-as-band-add-third-london-show-to-2027-tour-3975069?utm_source=rss&utm_medium=rss&utm_campaign=u2-and-guinness-team-up-for-special-pearl-white-marble-vinyl-of-carnaval-de-luz-as-band-add-third-london-show-to-2027-tour",
+                "source": "NME",
+                "published": "2026-11-05T11:39:39.000Z"
+              },
+              {
+                "title": "landmark james turrell exhibition to inaugurate superblue kyoto in early 2027",
+                "url": "https://www.designboom.com/art/landmark-james-turrell-exhibition-superblue-kyoto-early-2027-teamlab/",
+                "source": "Design Boom",
+                "published": "2026-11-05T09:48:59.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Trading card games worden blockbuster-adaptatie-sanctuaries",
+            "summary": "Magic: The Gathering live-action film cast nu A-list talent (Maya Hawke), volgt op eerdere succes van game-to-film expansie. Dit toont hoe IPs uit het gamer-universum nu mainstream-prestige aantrekken als bron voor 'event cinema'.",
+            "why_it_matters": "Gamer-cultuur is niet langer 'niche content', het is de brandstof voor high-budget film-tentpoles. Dit betekent dat merkstrategen moeten begrijpen dat gaming-loyaliteit rechtstreeks naar film-/entertainment-investering leidt.",
+            "strategic_signal": "Als je merk in gamer-ecosystemen aanwezig bent, realiseer je dat die communities nu als pre-sold audiences voor filmadaptaties fungeren. Target them early als 'cultural co-creators', niet alleen consumers.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Adweek",
+              "Deadline",
+              "Hypebeast",
+              "IndieWire"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Kiefer Sutherland & Al Pacino Action-Thriller ‘Father Joe’ Gets North American Deal",
+                "url": "https://deadline.com/2026/11/kiefer-sutherland-al-pacino-movie-father-joe-us-deal-1237214237/",
+                "source": "Deadline",
+                "published": "2026-11-05T13:17:47.000Z"
+              },
+              {
+                "title": "Maya Hawke Draws the Lead Role in Live-Action ‘Magic: The Gathering’ Movie",
+                "url": "https://hypebeast.com/2026/11/maya-hawke-draws-the-lead-role-in-live-action-magic-the-gathering-movie",
+                "source": "Hypebeast",
+                "published": "2026-11-05T09:41:23.000Z"
+              },
+              {
+                "title": "Daft Punk, Doctor Doom, and E.T. Unite in Lego&#8217;s Action-Packed Holiday Ad",
+                "url": "https://www.adweek.com/creativity/daft-punk-doctor-doom-and-et-unite-in-legos-action-packed-holiday-ad/",
+                "source": "Adweek",
+                "published": "2026-11-05T07:13:09.000Z"
+              },
+              {
+                "title": "‘Wildwood’ Director Travis Knight on How Live-Action Filmmaking Shaped His Stop-Motion Animated Adventure",
+                "url": "https://www.indiewire.com/features/animation/wildwood-laika-travis-knight-director-interview-1235225035/",
+                "source": "IndieWire",
+                "published": "2026-11-04T18:30:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "Klassieke heruitgaves overtrumpen originele hardware-cycles",
+            "summary": "Nintendo Switch 2 hardware-verkopen dalen 37%, maar software (vooral Tomodachi Life) explodeert; tegelijk genereert de Ocarina of Time-remake massieve voorverkoop en retailing-chaos. Klassieke IP-remakes overnemen de rollen die nieuwe hardware-generaties traditioneel speelden.",
+            "why_it_matters": "Dit teken dat de 'nieuwe-console-hype' is versleten; nostalgische, geoptimaliseerde remakes hebben meer cultureel gewicht dan next-gen hardware, wat een fundamentele verschuiving in game-waardecreatie aangeeft.",
+            "strategic_signal": "Gamers profileren zich via *hoe ze klassieken herbeleyen* (visuele upgrades, accessibility mods, remake-aesthetics) niet via hardware-specs. Maak dit centraal in je community-strategie en fan-engagement.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Aftermath",
+              "Eurogamer",
+              "GamesIndustry.biz",
+              "Google News BE Gaming",
+              "Kotaku",
+              "Volkskrant Cultuur"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Nintendo’s Switch 2 Sales Fell 37 Percent This Year, But Game Sales Are Growing Fast",
+                "url": "https://kotaku.com/nintendo-switch-2-sales-profit-report-tomodachi-life-zelda-ocarina-2000754139",
+                "source": "Kotaku",
+                "published": "2026-11-05T13:24:14.000Z"
+              },
+              {
+                "title": "Nintendo game sales surge thanks to Tomodachi Life: Living the Dream, but Switch 2 hardware suffers big decline",
+                "url": "https://www.eurogamer.net/nintendo-switch-2-hardware-decline-software-boom",
+                "source": "Eurogamer",
+                "published": "2026-11-05T11:56:40.000Z"
+              },
+              {
+                "title": "Van Pac-Man tot Fortnite: Diksmuide pakt dit weekend uit met nieuw game-event Pak de stad - HLN",
+                "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOclE3MUFwS2VPUGJSTExpb3R3a2ZUeHo2dnQ4NVZJQloyYnRtNlUxdTdPWExDOFRvVmlyd09mVVkySjZFbFItYzdWMnpweGh1V1hTX3F2allwTGhFSExDQ1JoNWdpdVJjSFdWWU1kMzJqNkVUcVNLOXRIZ1ZId3JoVXNxWFFVWGFXdzVmM1ZscG1EZnpxV21MWnlzNDRyTWJsVUREY1MxdzZkYndNQzNfQlF4SGVONlNGMFBvM1Z1ZE9HTTUzdmc?oc=5",
+                "source": "Google News BE Gaming",
+                "published": "2026-11-05T09:24:37.000Z"
+              },
+              {
+                "title": "Valve explains why it's running behind on Steam game approvals, asks developers to perform basic release checks to prevent re-reviews",
+                "url": "https://www.eurogamer.net/steam-games-approvals-delayed-valve-response",
+                "source": "Eurogamer",
+                "published": "2026-11-05T09:22:40.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Casting-accidents als authenticity-moments waarde creëren",
+            "summary": "Nintendo's onopzettelijke herbezetting van de originele Navi-stem-actrice (28 jaar later, via blind auditions) wordt viraal als 'perfect accident'. Méér gewaardeerd dan strategische casting zou zijn geweest. Dit reflecteert hoe gamers nu emotionele eerlijkheid boven celebrity-marketing waarderen.",
+            "why_it_matters": "Authenticity in remake-narratieven wordt steeds belangrijker; 'onbedoelde' continuïteit resonates sterker dan planned legacy-marketing.",
+            "strategic_signal": "Wanneer je heritage-content heruitgeeft, laat zien hoe kleine, ongeplande connecties ('continuïteiten') betrokken zijn. Dit voelt genuiner dan grootschalige marketing en genereert méér culturele kredibiliteit.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Aftermath",
+              "Eurogamer",
+              "Fast Company",
+              "Kotaku",
+              "Wired"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Nintendo Fans Are Crashing Out After Amazon Suddenly Delays Tons Of Zelda: Ocarina Of Time Remake Pre-Orders",
+                "url": "https://kotaku.com/nintendo-fans-are-crashing-out-after-amazon-suddenly-delays-tons-of-zelda-ocarina-of-time-remake-pre-orders-2000754143",
+                "source": "Kotaku",
+                "published": "2026-11-05T13:38:32.000Z"
+              },
+              {
+                "title": "The ‘Ocarina of Time’ Remake Is Finally Here, but Why Does Link Look so Yassified?",
+                "url": "https://www.wired.com/story/the-legend-of-zelda-ocarina-of-time-remake-yassified-link/",
+                "source": "Wired",
+                "published": "2026-11-05T11:30:00.000Z"
+              },
+              {
+                "title": "Bluesky was right all along and will accept your apology any time",
+                "url": "https://www.fastcompany.com/91635647/bluesky-was-right-all-along-and-will-accept-your-apology-any-time",
+                "source": "Fast Company",
+                "published": "2026-11-05T11:04:00.000Z"
+              },
+              {
+                "title": "The Legend of Zelda: Ocarina of Time's Navi actor reprises her role after 28 years, but it was a total accident due to Nintendo's blind auditions",
+                "url": "https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time",
+                "source": "Eurogamer",
+                "published": "2026-11-04T19:15:40.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-11-05T14:23:45.175Z",
+    "megaTrends": [
+      {
+        "trend": "Nostalgie als economisch én cultureel anker",
+        "summary": "Klassieke content en IP's (legacy acts in muziek, trading card game adaptaties in film, heruitgaves in gaming) domineren tegelijk de markt en publieke aandacht. Dit signaleert een systemische verschuiving waar het verleden betrouwbaarder voelt dan innovatie.",
+        "why_it_matters": "Dit weerspiegelt een culturele behoefte aan stabiliteit en controleerbare narratieven in onzekere tijden. Nostalgie is niet langer decoratief maar een primaire economische motor.",
+        "categories": [
+          "music",
+          "film",
+          "gaming"
+        ],
+        "strength": "sterk"
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-05T12:21:04.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Prestige directors go short on YouTube",
+        "category": "film",
+        "what_is_happening": "Tony Kaye, director of American History X, has made a short about Leicester's giant monsters, while My Chemical Romance and Lauren Tsai teamed up on a short film featuring Hideo Kojima. Curry Barker, director of Obsession, simply put his new horror short on YouTube.",
+        "why_it_matters_for_brands": "Short video on open platforms now carries creative prestige, so a brand-funded short gets judged as a film, not as an ad.",
+        "what_brands_can_do": [
+          "Commission a short with an open brief instead of a scripted spot, and let the director's voice lead.",
+          "Publish where audiences already watch, such as YouTube, rather than hiding the film on a campaign page.",
+          "Judge success on rewatches and conversation, not only on completed views and click-through."
+        ]
+      },
+      {
+        "trend": "Halloween costumes as public self-roast",
+        "category": "culture",
+        "what_is_happening": "Lily Allen dressed as Ticketmaster's unsold seat map for Halloween, turning her own empty seats into the joke. Heidi Klum went as a severed hand and Gracie Abrams switched from Juliet to Romeo during her SNL performances.",
+        "why_it_matters_for_brands": "A brand that can laugh at its own misstep earns more attention and goodwill than one that hides it.",
+        "what_brands_can_do": [
+          "Answer your own public mistakes with humour when the brand can carry it and the issue is resolved.",
+          "Build seasonal moments around a self-aware idea, not just themed packaging or decoration.",
+          "Keep the joke on yourself, never on your customers or the people affected."
+        ]
+      },
+      {
+        "trend": "Techno honours its Detroit founder",
+        "category": "music",
+        "what_is_happening": "Juan Atkins, co-founder of techno and a member of the Belleville Three, has died aged 64. Tributes across the scene trace his influence from Detroit to today's festival culture, including Tomorrowland.",
+        "why_it_matters_for_brands": "Brands that borrow from a music culture are expected to know and credit the people who built it.",
+        "what_brands_can_do": [
+          "Credit the roots of the music and scenes your brand borrows from, by name and in context.",
+          "Support archives, education or local scenes over the long term rather than sponsoring a single tribute moment.",
+          "Stay quiet on a loss if your brand has no real connection to the artist or scene."
+        ]
+      }
+    ],
+    "sendDate": "2026-11-06",
+    "locked": true,
+    "selection": "manual",
+    "lockedAt": "2026-11-05T12:21:04.813Z"
+  }
+}
