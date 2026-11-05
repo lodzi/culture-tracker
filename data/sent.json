@@ -4,6 +4,15 @@
   "source": "docs/zeitfeed/geheugen-zeitfeed.md",
   "sent": [
     {
+      "sendDate": "2026-11-06",
+      "status": "queued",
+      "topics": [
+        { "trend": "Prestige directors go short on YouTube", "category": "film", "themes": ["short-form", "prestige", "creators"] },
+        { "trend": "Halloween costumes as public self-roast", "category": "culture", "themes": ["humour", "self-awareness", "seasonal"] },
+        { "trend": "Techno honours its Detroit founder", "category": "music", "themes": ["legacy-death", "techno"] }
+      ]
+    },
+    {
       "sendDate": "2026-10-30",
       "status": "queued",
       "topics": [

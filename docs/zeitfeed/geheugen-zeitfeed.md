@@ -1,12 +1,13 @@
 # Geheugen — Zeitfeed Weekly
 
-_Laatst bijgewerkt: 3 november 2026. Na elke verzending de nieuwe 3 topics bovenaan toevoegen._
+_Laatst bijgewerkt: 5 november 2026. Na elke verzending de nieuwe 3 topics bovenaan toevoegen._
 
 ## Verstuurde topics (nieuwste eerst)
 Gebruik deze lijst om herhaling te vermijden: topics en thema's van de laatste 8 weken niet opnieuw voorstellen zonder echt nieuwe hoek.
 
 | Verzending | Topics [categorie] |
 |---|---|
+| 6 nov | Prestige Directors Go Short on YouTube [film] · Halloween Costumes as Public Self-Roast [culture] · Techno Honours Its Detroit Founder (Juan Atkins, gevoelig) [music] |
 | 30 okt | Hip-Hop's Curator Steps to the Front [music] · Design Looks Beyond the Human User [art] · Immersive Concert-Docs as Prestige Format [music] |
 | 23 okt | AI Autonomy as Spectacle Over Engineering [internet] · Salvage Modernism: Upcycled Materials in Heritage Spaces [art] · Orchestra Collaborations Legitimise Genre Crossovers [music] |
 | 16 okt | Immersive Brand Experiences via Temporary Installations [art] · Regional Festivals as Career-Launch Ecosystems [trends] · Safety-First Event Design as a Values Signal [music] |

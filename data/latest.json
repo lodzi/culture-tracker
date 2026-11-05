@@ -164,41 +164,45 @@
     ]
   },
   "weeklyBrandSignals": {
-    "generatedAt": "2026-10-29T12:55:10.675Z",
+    "generatedAt": "2026-11-05T12:21:04.000Z",
     "weeklyBrandSignals": [
       {
-        "trend": "Hip-Hop’s Curator Steps to the Front",
-        "category": "music",
-        "what_is_happening": "Jay-Z will headline the Super Bowl LXI halftime show in February 2027, performing himself for the first time after years of curating the slot from behind the scenes. The tastemaker is stepping out as the act.",
-        "why_it_matters_for_brands": "The people who curate culture are increasingly becoming the stars of it, a cue that the curator role itself now carries star power.",
+        "trend": "Prestige directors go short on YouTube",
+        "category": "film",
+        "what_is_happening": "Tony Kaye, director of American History X, has made a short about Leicester's giant monsters, while My Chemical Romance and Lauren Tsai teamed up on a short film featuring Hideo Kojima. Curry Barker, director of Obsession, simply put his new horror short on YouTube.",
+        "why_it_matters_for_brands": "Short video on open platforms now carries creative prestige, so a brand-funded short gets judged as a film, not as an ad.",
         "what_brands_can_do": [
-          "Give your brand’s curatorial point of view a public face.",
-          "Let the taste you shape become part of the brand story.",
-          "Treat curation as a stage, not just a back room."
+          "Commission a short with an open brief instead of a scripted spot, and let the director's voice lead.",
+          "Publish where audiences already watch, such as YouTube, rather than hiding the film on a campaign page.",
+          "Judge success on rewatches and conversation, not only on completed views and click-through."
         ]
       },
       {
-        "trend": "Design Looks Beyond the Human User",
-        "category": "art",
-        "what_is_happening": "Architects and designers are starting to drop the human user as the only measure, designing for ecology and non-human life, with coverage around UC Berkeley’s AI-assisted ecological building. Design is decentring the human.",
-        "why_it_matters_for_brands": "Audiences and clients are rewarding design that serves more than human convenience, a shift in what counts as responsible and advanced.",
+        "trend": "Halloween costumes as public self-roast",
+        "category": "culture",
+        "what_is_happening": "Lily Allen dressed as Ticketmaster's unsold seat map for Halloween, turning her own empty seats into the joke. Heidi Klum went as a severed hand and Gracie Abrams switched from Juliet to Romeo during her SNL performances.",
+        "why_it_matters_for_brands": "A brand that can laugh at its own misstep earns more attention and goodwill than one that hides it.",
         "what_brands_can_do": [
-          "Design for more than the human user where it genuinely fits.",
-          "Let ecological thinking shape form, not just messaging.",
-          "Treat non-human needs as a real brief, not decoration."
+          "Answer your own public mistakes with humour when the brand can carry it and the issue is resolved.",
+          "Build seasonal moments around a self-aware idea, not just themed packaging or decoration.",
+          "Keep the joke on yourself, never on your customers or the people affected."
         ]
       },
       {
-        "trend": "Immersive Concert-Docs as Prestige Format",
+        "trend": "Techno honours its Detroit founder",
         "category": "music",
-        "what_is_happening": "David Bowie’s ‘Stage’, an immersive concert experience by filmmaker Brett Morgen, world-premiered at the Berlin Film Festival as cinema-as-installation. The concert film is becoming a prestige, immersive event.",
-        "why_it_matters_for_brands": "The line between film, concert and installation is dissolving into one premium experience, a template for brands building cultural moments.",
+        "what_is_happening": "Juan Atkins, co-founder of techno and a member of the Belleville Three, has died aged 64. Tributes across the scene trace his influence from Detroit to today's festival culture, including Tomorrowland.",
+        "why_it_matters_for_brands": "Brands that borrow from a music culture are expected to know and credit the people who built it.",
         "what_brands_can_do": [
-          "Blend film, performance and space into one experience.",
-          "Design cultural moments to be entered, not just watched.",
-          "Treat an archive or catalogue as material for a live, immersive event."
+          "Credit the roots of the music and scenes your brand borrows from, by name and in context.",
+          "Support archives, education or local scenes over the long term rather than sponsoring a single tribute moment.",
+          "Stay quiet on a loss if your brand has no real connection to the artist or scene."
         ]
       }
-    ]
+    ],
+    "sendDate": "2026-11-06",
+    "locked": true,
+    "selection": "manual",
+    "lockedAt": "2026-11-05T12:21:04.813Z"
   }
 }
