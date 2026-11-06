@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-05T14:23:42.501Z",
+    "generatedAt": "2026-11-06T13:59:04.213Z",
     "intro": "3 categorieën · 4 trends · laatste 24u",
     "categories": [
       {
@@ -14,48 +14,89 @@
         "label": "Muziek",
         "insights": [
           {
-            "trend": "Legacy acts mobiliseren institutional touring power",
-            "summary": "Iconische bands (Bon Jovi, U2, Akira Yamaoka) kondigen massale 2027-tournees aan, vaak in partnership met grote merk-ecosystemen (Guinness, venues als Notre Dame Stadium). Dit signaleert een strategische verschuiving: legacy touring niet als nostalgie, maar als institutionele macht en corporate co-branding.",
-            "why_it_matters": "De muzikale '90s-revival is nu volwassen geworden: niet langer 'comeback' maar permanente infrastructuur. Dit weerspiegelt culturele acceptatie dat iconische artiesten economische én emotionele ankers zijn.",
-            "strategic_signal": "Merken kunnen legacy-act partnerships niet meer als eenmalige activatie zien; positioneer jezelf als 'toernee-partner' (merchandise, experiences, content hubs) in plaats van sponsor.",
+            "trend": "Legacy acts: institutional touring maakt comeback",
+            "summary": "Veteranenacts (Pete Doherty, Jamiroquai) kondigen 2027-tours aan met major venues en arena-bookings; Pete Doherty integreert zelfs The Smiths' Mike Joyce. Dit sluit aan bij eerder signaal van 2026-11-05 over institutional touring power.",
+            "why_it_matters": "Toont dat klassieke artisten niet vervangen worden door nieuwe acts, maar juist capitaliseren op nostalgie en vertrouwde fanbases, festival- en tourboeking wordt opnieuw klassiek-centraal.",
+            "strategic_signal": "Voor live-partners en merken: bouw nu sponsor-packages rond legacy-reunions (speciale edities, heritage-collaborations). De 2027-tour-calendar is al gelocked; activaties moeten nu negotiatie-ready zijn.",
             "trajectory": "piekend",
-            "daysActive": 3,
+            "daysActive": 2,
             "isNew": false,
             "sources": [
+              "Ars Technica",
+              "Bruzz",
               "Consequence",
-              "Design Boom",
-              "Eurogamer",
-              "Google News BE Festivals",
-              "Google News BE Muziek",
-              "Hypebeast",
               "NME",
-              "Sneaker News"
+              "Pitchfork News",
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Bon Jovi Confirm New 2027 Stadium Shows, Including at Notre Dame Stadium",
-                "url": "https://consequence.net/2026/11/bon-jovi-new-tour-dates-notre-dame/",
+                "title": "Pete Doherty announces 2027 UK tour",
+                "url": "https://www.nme.com/news/music/pete-doherty-announces-2027-uk-tour-buy-tickets-3975233?utm_source=rss&utm_medium=rss&utm_campaign=pete-doherty-announces-2027-uk-tour-buy-tickets",
+                "source": "NME",
+                "published": "2026-11-06T12:23:01.000Z"
+              },
+              {
+                "title": "South International Series Festival to Launch 2027 Investors Week, Linking Producers With Private Capital",
+                "url": "https://variety.com/2026/global/global/south-festival-investors-week-2027-mira-anta-1236941175/",
+                "source": "Variety",
+                "published": "2026-11-06T11:56:05.000Z"
+              },
+              {
+                "title": "Jamiroquai announce 2027 European arena tour including three nights at The O2",
+                "url": "https://www.nme.com/news/music/jamiroquai-announce-2027-uk-european-arena-tour-london-o2-buy-tickets-3975198?utm_source=rss&utm_medium=rss&utm_campaign=jamiroquai-announce-2027-uk-european-arena-tour-london-o2-buy-tickets",
+                "source": "NME",
+                "published": "2026-11-06T10:24:39.000Z"
+              },
+              {
+                "title": "Zwembad Sint-Gillis heropent ten vroegste in de zomer van 2027",
+                "url": "https://www.bruzz.be/actua/sport/zwembad-sint-gillis-heropent-ten-vroegste-de-zomer-van-2027-2026-11-06",
+                "source": "Bruzz",
+                "published": "2026-11-06T13:11:50.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Festive content: holiday singles als streaming-play",
+            "summary": "Olivia Rodrigo, GloRilla en Sexyy Red brengen beiden seasonal singles uit met high-production video's (Rodrigo met Cynthia Nixon). Multiple bronnen (NME, Consequence, The Hollywood Reporter) dekken dezelfde holiday-content-strategie.",
+            "why_it_matters": "Mainstream artists gebruiken Q4 niet voor album-drops, maar voor viraal getimede festive-moments, een shift van album-centric naar event-centric release-strategy.",
+            "strategic_signal": "Merken moeten Q4 holiday-partnerships al vastleggen; festive singles creëren 2-3 week content-windows rond shootdagen. Inzet op collab-opportuniteiten nu, niet in november.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Consequence",
+              "NME",
+              "Pitchfork News",
+              "The Hollywood Reporter",
+              "i-D"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Olivia Rodrigo shares festive single ‘Take Me Home (4 Christmas)’ with video starring ‘Sex And The City’s Cynthia Nixon and Ben Marshall from ‘SNL’",
+                "url": "https://www.nme.com/news/music/olivia-rodrigo-releases-new-festive-single-take-me-home-4-christmas-video-starring-cynthia-nixon-watch-3975188?utm_source=rss&utm_medium=rss&utm_campaign=olivia-rodrigo-releases-new-festive-single-take-me-home-4-christmas-video-starring-cynthia-nixon-watch",
+                "source": "NME",
+                "published": "2026-11-06T09:50:11.000Z"
+              },
+              {
+                "title": "Streaming More, Spending Less: T-Mobile’s 5G Home Internet Deal Starts at $30 a Month",
+                "url": "https://www.hollywoodreporter.com/lifestyle/shopping/t-mobile-home-internet-streaming-deal-2026-holiday-savings-1236748459/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-06T01:40:49.000Z"
+              },
+              {
+                "title": "Listen to Olivia Rodrigo’s New Song “Take Me Home (4 Christmas)”",
+                "url": "https://pitchfork.com/story/listen-to-olivia-rodrigos-new-song-take-me-home-4-christmas/",
+                "source": "Pitchfork News",
+                "published": "2026-11-06T01:15:37.000Z"
+              },
+              {
+                "title": "Olivia Rodrigo Unveils New Holiday Song “Take me home (4 christmas)”",
+                "url": "https://consequence.net/2026/11/olivia-rodrigo-take-me-home-4-christmas-holiday-song-stream/",
                 "source": "Consequence",
-                "published": "2026-11-05T13:45:30.000Z"
-              },
-              {
-                "title": "‘Silent Hill’ composer Akira Yamaoka announces 2027 tour",
-                "url": "https://www.nme.com/news/gaming-news/silent-hill-composer-akira-yamaoka-2027-tour-dates-tickets-3975110?utm_source=rss&utm_medium=rss&utm_campaign=silent-hill-composer-akira-yamaoka-2027-tour-dates-tickets",
-                "source": "NME",
-                "published": "2026-11-05T13:01:55.000Z"
-              },
-              {
-                "title": "U2 and Guinness team up for special pearl white marble vinyl of ‘Carnaval De Luz’ as band add third London show to 2027 tour",
-                "url": "https://www.nme.com/news/music/u2-and-guinness-team-up-for-special-pearl-white-marble-vinyl-of-carnaval-de-luz-as-band-add-third-london-show-to-2027-tour-3975069?utm_source=rss&utm_medium=rss&utm_campaign=u2-and-guinness-team-up-for-special-pearl-white-marble-vinyl-of-carnaval-de-luz-as-band-add-third-london-show-to-2027-tour",
-                "source": "NME",
-                "published": "2026-11-05T11:39:39.000Z"
-              },
-              {
-                "title": "landmark james turrell exhibition to inaugurate superblue kyoto in early 2027",
-                "url": "https://www.designboom.com/art/landmark-james-turrell-exhibition-superblue-kyoto-early-2027-teamlab/",
-                "source": "Design Boom",
-                "published": "2026-11-05T09:48:59.000Z"
+                "published": "2026-11-06T01:28:00.000Z"
               }
             ]
           }
@@ -66,158 +107,96 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Trading card games worden blockbuster-adaptatie-sanctuaries",
-            "summary": "Magic: The Gathering live-action film cast nu A-list talent (Maya Hawke), volgt op eerdere succes van game-to-film expansie. Dit toont hoe IPs uit het gamer-universum nu mainstream-prestige aantrekken als bron voor 'event cinema'.",
-            "why_it_matters": "Gamer-cultuur is niet langer 'niche content', het is de brandstof voor high-budget film-tentpoles. Dit betekent dat merkstrategen moeten begrijpen dat gaming-loyaliteit rechtstreeks naar film-/entertainment-investering leidt.",
-            "strategic_signal": "Als je merk in gamer-ecosystemen aanwezig bent, realiseer je dat die communities nu als pre-sold audiences voor filmadaptaties fungeren. Target them early als 'cultural co-creators', niet alleen consumers.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
+            "trend": "Russell Brand: scandaal domineert celebrity narrative",
+            "summary": "Russell Brand's veroordeling voor verkrachting en seksueel misbruik blijft domineren in media-coverage, met bijzondere aandacht voor Bear Grylls' eerdere baptismbeslissing en de rechtsgang. Multiple onafhankelijke bronnen (Deadline, NME, Variety) dekken hetzelfde gerechtelijk vonnis en de nachwerkingen.",
+            "why_it_matters": "Dit illustreert hoe celebrity-scandalen langdurig reputatierisico creëren en hoe associaties (Grylls' support) zelf controversieel blijven, relevant voor brand-partnerships en influencer-vetting.",
+            "strategic_signal": "Merken moeten celebrity-endorsements retroactief auditen; Bear Grylls-associaties signaleren reputatiegevaar. Check niet alleen huídige partners, maar ook eerdere publieke steunbetuigingen.",
+            "trajectory": "afbouwend",
+            "daysActive": 3,
+            "isNew": false,
             "sources": [
-              "A.V. Club",
-              "Adweek",
               "Deadline",
-              "Hypebeast",
-              "IndieWire"
+              "NME",
+              "Variety",
+              "Wikipedia Trending NL"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Kiefer Sutherland & Al Pacino Action-Thriller ‘Father Joe’ Gets North American Deal",
-                "url": "https://deadline.com/2026/11/kiefer-sutherland-al-pacino-movie-father-joe-us-deal-1237214237/",
+                "title": "Russell Brand",
+                "url": "https://nl.wikipedia.org/wiki/Russell_Brand",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-06T13:58:42.074Z"
+              },
+              {
+                "title": "International Insider: Russell Brand Guilty; AFM Fires Up; Trudie Styler Interview",
+                "url": "https://deadline.com/2026/11/international-insider-russell-brand-guilty-1237214417/",
                 "source": "Deadline",
-                "published": "2026-11-05T13:17:47.000Z"
+                "published": "2026-11-06T13:00:00.000Z"
               },
               {
-                "title": "Maya Hawke Draws the Lead Role in Live-Action ‘Magic: The Gathering’ Movie",
-                "url": "https://hypebeast.com/2026/11/maya-hawke-draws-the-lead-role-in-live-action-magic-the-gathering-movie",
-                "source": "Hypebeast",
-                "published": "2026-11-05T09:41:23.000Z"
+                "title": "Bear Grylls Speaks Out on Russell Brand Verdict After Helping Baptize Him: ‘Justice Has Now Been Served’ and the Victims Are ‘Heroes’",
+                "url": "https://variety.com/2026/tv/global/bear-grylls-russell-brand-verdict-baptism-justice-served-1236941211/",
+                "source": "Variety",
+                "published": "2026-11-06T11:48:57.000Z"
               },
               {
-                "title": "Daft Punk, Doctor Doom, and E.T. Unite in Lego&#8217;s Action-Packed Holiday Ad",
-                "url": "https://www.adweek.com/creativity/daft-punk-doctor-doom-and-et-unite-in-legos-action-packed-holiday-ad/",
-                "source": "Adweek",
-                "published": "2026-11-05T07:13:09.000Z"
-              },
-              {
-                "title": "‘Wildwood’ Director Travis Knight on How Live-Action Filmmaking Shaped His Stop-Motion Animated Adventure",
-                "url": "https://www.indiewire.com/features/animation/wildwood-laika-travis-knight-director-interview-1235225035/",
-                "source": "IndieWire",
-                "published": "2026-11-04T18:30:00.000Z"
+                "title": "Bear Grylls Speaks Out After Getting Heat For Baptizing Russell Brand: “It Is Right That Justice Has Been Served”",
+                "url": "https://deadline.com/2026/11/bear-grylls-speaks-out-baptizing-russell-brand-1237215354/",
+                "source": "Deadline",
+                "published": "2026-11-06T11:43:26.000Z"
               }
             ]
           }
         ]
       },
       {
-        "id": "gaming",
-        "label": "Gaming",
+        "id": "art",
+        "label": "Art & Design",
         "insights": [
           {
-            "trend": "Klassieke heruitgaves overtrumpen originele hardware-cycles",
-            "summary": "Nintendo Switch 2 hardware-verkopen dalen 37%, maar software (vooral Tomodachi Life) explodeert; tegelijk genereert de Ocarina of Time-remake massieve voorverkoop en retailing-chaos. Klassieke IP-remakes overnemen de rollen die nieuwe hardware-generaties traditioneel speelden.",
-            "why_it_matters": "Dit teken dat de 'nieuwe-console-hype' is versleten; nostalgische, geoptimaliseerde remakes hebben meer cultureel gewicht dan next-gen hardware, wat een fundamentele verschuiving in game-waardecreatie aangeeft.",
-            "strategic_signal": "Gamers profileren zich via *hoe ze klassieken herbeleyen* (visuele upgrades, accessibility mods, remake-aesthetics) niet via hardware-specs. Maak dit centraal in je community-strategie en fan-engagement.",
-            "trajectory": "piekend",
-            "daysActive": 2,
-            "isNew": false,
-            "sources": [
-              "Aftermath",
-              "Eurogamer",
-              "GamesIndustry.biz",
-              "Google News BE Gaming",
-              "Kotaku",
-              "Volkskrant Cultuur"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Nintendo’s Switch 2 Sales Fell 37 Percent This Year, But Game Sales Are Growing Fast",
-                "url": "https://kotaku.com/nintendo-switch-2-sales-profit-report-tomodachi-life-zelda-ocarina-2000754139",
-                "source": "Kotaku",
-                "published": "2026-11-05T13:24:14.000Z"
-              },
-              {
-                "title": "Nintendo game sales surge thanks to Tomodachi Life: Living the Dream, but Switch 2 hardware suffers big decline",
-                "url": "https://www.eurogamer.net/nintendo-switch-2-hardware-decline-software-boom",
-                "source": "Eurogamer",
-                "published": "2026-11-05T11:56:40.000Z"
-              },
-              {
-                "title": "Van Pac-Man tot Fortnite: Diksmuide pakt dit weekend uit met nieuw game-event Pak de stad - HLN",
-                "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOclE3MUFwS2VPUGJSTExpb3R3a2ZUeHo2dnQ4NVZJQloyYnRtNlUxdTdPWExDOFRvVmlyd09mVVkySjZFbFItYzdWMnpweGh1V1hTX3F2allwTGhFSExDQ1JoNWdpdVJjSFdWWU1kMzJqNkVUcVNLOXRIZ1ZId3JoVXNxWFFVWGFXdzVmM1ZscG1EZnpxV21MWnlzNDRyTWJsVUREY1MxdzZkYndNQzNfQlF4SGVONlNGMFBvM1Z1ZE9HTTUzdmc?oc=5",
-                "source": "Google News BE Gaming",
-                "published": "2026-11-05T09:24:37.000Z"
-              },
-              {
-                "title": "Valve explains why it's running behind on Steam game approvals, asks developers to perform basic release checks to prevent re-reviews",
-                "url": "https://www.eurogamer.net/steam-games-approvals-delayed-valve-response",
-                "source": "Eurogamer",
-                "published": "2026-11-05T09:22:40.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Casting-accidents als authenticity-moments waarde creëren",
-            "summary": "Nintendo's onopzettelijke herbezetting van de originele Navi-stem-actrice (28 jaar later, via blind auditions) wordt viraal als 'perfect accident'. Méér gewaardeerd dan strategische casting zou zijn geweest. Dit reflecteert hoe gamers nu emotionele eerlijkheid boven celebrity-marketing waarderen.",
-            "why_it_matters": "Authenticity in remake-narratieven wordt steeds belangrijker; 'onbedoelde' continuïteit resonates sterker dan planned legacy-marketing.",
-            "strategic_signal": "Wanneer je heritage-content heruitgeeft, laat zien hoe kleine, ongeplande connecties ('continuïteiten') betrokken zijn. Dit voelt genuiner dan grootschalige marketing en genereert méér culturele kredibiliteit.",
+            "trend": "Design-heritage collaboration: luxury meets nature",
+            "summary": "Perrier-Jouët en Iris van Herpen lanceren limited-edition collectie rond 'biologische processen', een design-collab die Art Nouveau herinterprets via hedendaagse biomimicry. Dit continueert het 2026-11-03 archief-pattern van modecollabs als design-heritage-play.",
+            "why_it_matters": "Luxury-brands investeren in 'nature-forward' design als cultureel statement tegen tech-saturation, biologische esthetica worden status-marker.",
+            "strategic_signal": "Premium-merken: co-create met designers rond natural systems (fungal networks, crystalline growth). Storytelling moet 'biologisch' zijn, niet futuristisch; packaging en limited-runs zijn het voertuig.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Aftermath",
-              "Eurogamer",
+              "Billboard",
+              "Dezeen",
               "Fast Company",
-              "Kotaku",
-              "Wired"
+              "Rock Paper Shotgun"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Nintendo Fans Are Crashing Out After Amazon Suddenly Delays Tons Of Zelda: Ocarina Of Time Remake Pre-Orders",
-                "url": "https://kotaku.com/nintendo-fans-are-crashing-out-after-amazon-suddenly-delays-tons-of-zelda-ocarina-of-time-remake-pre-orders-2000754143",
-                "source": "Kotaku",
-                "published": "2026-11-05T13:38:32.000Z"
-              },
-              {
-                "title": "The ‘Ocarina of Time’ Remake Is Finally Here, but Why Does Link Look so Yassified?",
-                "url": "https://www.wired.com/story/the-legend-of-zelda-ocarina-of-time-remake-yassified-link/",
-                "source": "Wired",
-                "published": "2026-11-05T11:30:00.000Z"
-              },
-              {
-                "title": "Bluesky was right all along and will accept your apology any time",
-                "url": "https://www.fastcompany.com/91635647/bluesky-was-right-all-along-and-will-accept-your-apology-any-time",
+                "title": "‘Life, liberty, and the pursuit of happiness should be reflected in our computing systems’",
+                "url": "https://www.fastcompany.com/91633185/life-liberty-and-the-pursuit-of-happiness-should-be-reflected-in-our-computing-systems-computing-democracy-technology",
                 "source": "Fast Company",
-                "published": "2026-11-05T11:04:00.000Z"
+                "published": "2026-11-06T11:01:00.000Z"
               },
               {
-                "title": "The Legend of Zelda: Ocarina of Time's Navi actor reprises her role after 28 years, but it was a total accident due to Nintendo's blind auditions",
-                "url": "https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time",
-                "source": "Eurogamer",
-                "published": "2026-11-04T19:15:40.000Z"
+                "title": "Library by Collective Architecture breathes new life into Scottish high street",
+                "url": "https://www.dezeen.com/2026/11/06/collective-architecture-paisley-central-library-rias-doolan-award/",
+                "source": "Dezeen",
+                "published": "2026-11-06T09:00:00.000Z"
+              },
+              {
+                "title": "Lil Baby Brings ‘Fresh’ to Life: Stream It Now",
+                "url": "https://www.billboard.com/music/rb-hip-hop/lil-baby-fresh-stream-it-now-1236375792/",
+                "source": "Billboard",
+                "published": "2026-11-06T07:33:36.000Z"
+              },
+              {
+                "title": "Perrier-Jouët and Iris van Herpen partnership celebrates “biological processes that shape life”",
+                "url": "https://www.dezeen.com/2026/11/05/perrier-jouet-iris-van-herpen-partnership-biological-processes/",
+                "source": "Dezeen",
+                "published": "2026-11-05T21:00:00.000Z"
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  "crossCategory": {
-    "generatedAt": "2026-11-05T14:23:45.175Z",
-    "megaTrends": [
-      {
-        "trend": "Nostalgie als economisch én cultureel anker",
-        "summary": "Klassieke content en IP's (legacy acts in muziek, trading card game adaptaties in film, heruitgaves in gaming) domineren tegelijk de markt en publieke aandacht. Dit signaleert een systemische verschuiving waar het verleden betrouwbaarder voelt dan innovatie.",
-        "why_it_matters": "Dit weerspiegelt een culturele behoefte aan stabiliteit en controleerbare narratieven in onzekere tijden. Nostalgie is niet langer decoratief maar een primaire economische motor.",
-        "categories": [
-          "music",
-          "film",
-          "gaming"
-        ],
-        "strength": "sterk"
       }
     ]
   },

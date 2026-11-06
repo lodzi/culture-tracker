@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-06",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-06T13:59:04.213Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Legacy acts: institutional touring maakt comeback",
+            "summary": "Veteranenacts (Pete Doherty, Jamiroquai) kondigen 2027-tours aan met major venues en arena-bookings; Pete Doherty integreert zelfs The Smiths' Mike Joyce. Dit sluit aan bij eerder signaal van 2026-11-05 over institutional touring power.",
+            "why_it_matters": "Toont dat klassieke artisten niet vervangen worden door nieuwe acts, maar juist capitaliseren op nostalgie en vertrouwde fanbases, festival- en tourboeking wordt opnieuw klassiek-centraal.",
+            "strategic_signal": "Voor live-partners en merken: bouw nu sponsor-packages rond legacy-reunions (speciale edities, heritage-collaborations). De 2027-tour-calendar is al gelocked; activaties moeten nu negotiatie-ready zijn.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Ars Technica",
+              "Bruzz",
+              "Consequence",
+              "NME",
+              "Pitchfork News",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Pete Doherty announces 2027 UK tour",
+                "url": "https://www.nme.com/news/music/pete-doherty-announces-2027-uk-tour-buy-tickets-3975233?utm_source=rss&utm_medium=rss&utm_campaign=pete-doherty-announces-2027-uk-tour-buy-tickets",
+                "source": "NME",
+                "published": "2026-11-06T12:23:01.000Z"
+              },
+              {
+                "title": "South International Series Festival to Launch 2027 Investors Week, Linking Producers With Private Capital",
+                "url": "https://variety.com/2026/global/global/south-festival-investors-week-2027-mira-anta-1236941175/",
+                "source": "Variety",
+                "published": "2026-11-06T11:56:05.000Z"
+              },
+              {
+                "title": "Jamiroquai announce 2027 European arena tour including three nights at The O2",
+                "url": "https://www.nme.com/news/music/jamiroquai-announce-2027-uk-european-arena-tour-london-o2-buy-tickets-3975198?utm_source=rss&utm_medium=rss&utm_campaign=jamiroquai-announce-2027-uk-european-arena-tour-london-o2-buy-tickets",
+                "source": "NME",
+                "published": "2026-11-06T10:24:39.000Z"
+              },
+              {
+                "title": "Zwembad Sint-Gillis heropent ten vroegste in de zomer van 2027",
+                "url": "https://www.bruzz.be/actua/sport/zwembad-sint-gillis-heropent-ten-vroegste-de-zomer-van-2027-2026-11-06",
+                "source": "Bruzz",
+                "published": "2026-11-06T13:11:50.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Festive content: holiday singles als streaming-play",
+            "summary": "Olivia Rodrigo, GloRilla en Sexyy Red brengen beiden seasonal singles uit met high-production video's (Rodrigo met Cynthia Nixon). Multiple bronnen (NME, Consequence, The Hollywood Reporter) dekken dezelfde holiday-content-strategie.",
+            "why_it_matters": "Mainstream artists gebruiken Q4 niet voor album-drops, maar voor viraal getimede festive-moments, een shift van album-centric naar event-centric release-strategy.",
+            "strategic_signal": "Merken moeten Q4 holiday-partnerships al vastleggen; festive singles creëren 2-3 week content-windows rond shootdagen. Inzet op collab-opportuniteiten nu, niet in november.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Consequence",
+              "NME",
+              "Pitchfork News",
+              "The Hollywood Reporter",
+              "i-D"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Olivia Rodrigo shares festive single ‘Take Me Home (4 Christmas)’ with video starring ‘Sex And The City’s Cynthia Nixon and Ben Marshall from ‘SNL’",
+                "url": "https://www.nme.com/news/music/olivia-rodrigo-releases-new-festive-single-take-me-home-4-christmas-video-starring-cynthia-nixon-watch-3975188?utm_source=rss&utm_medium=rss&utm_campaign=olivia-rodrigo-releases-new-festive-single-take-me-home-4-christmas-video-starring-cynthia-nixon-watch",
+                "source": "NME",
+                "published": "2026-11-06T09:50:11.000Z"
+              },
+              {
+                "title": "Streaming More, Spending Less: T-Mobile’s 5G Home Internet Deal Starts at $30 a Month",
+                "url": "https://www.hollywoodreporter.com/lifestyle/shopping/t-mobile-home-internet-streaming-deal-2026-holiday-savings-1236748459/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-06T01:40:49.000Z"
+              },
+              {
+                "title": "Listen to Olivia Rodrigo’s New Song “Take Me Home (4 Christmas)”",
+                "url": "https://pitchfork.com/story/listen-to-olivia-rodrigos-new-song-take-me-home-4-christmas/",
+                "source": "Pitchfork News",
+                "published": "2026-11-06T01:15:37.000Z"
+              },
+              {
+                "title": "Olivia Rodrigo Unveils New Holiday Song “Take me home (4 christmas)”",
+                "url": "https://consequence.net/2026/11/olivia-rodrigo-take-me-home-4-christmas-holiday-song-stream/",
+                "source": "Consequence",
+                "published": "2026-11-06T01:28:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Russell Brand: scandaal domineert celebrity narrative",
+            "summary": "Russell Brand's veroordeling voor verkrachting en seksueel misbruik blijft domineren in media-coverage, met bijzondere aandacht voor Bear Grylls' eerdere baptismbeslissing en de rechtsgang. Multiple onafhankelijke bronnen (Deadline, NME, Variety) dekken hetzelfde gerechtelijk vonnis en de nachwerkingen.",
+            "why_it_matters": "Dit illustreert hoe celebrity-scandalen langdurig reputatierisico creëren en hoe associaties (Grylls' support) zelf controversieel blijven, relevant voor brand-partnerships en influencer-vetting.",
+            "strategic_signal": "Merken moeten celebrity-endorsements retroactief auditen; Bear Grylls-associaties signaleren reputatiegevaar. Check niet alleen huídige partners, maar ook eerdere publieke steunbetuigingen.",
+            "trajectory": "afbouwend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Deadline",
+              "NME",
+              "Variety",
+              "Wikipedia Trending NL"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Russell Brand",
+                "url": "https://nl.wikipedia.org/wiki/Russell_Brand",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-06T13:58:42.074Z"
+              },
+              {
+                "title": "International Insider: Russell Brand Guilty; AFM Fires Up; Trudie Styler Interview",
+                "url": "https://deadline.com/2026/11/international-insider-russell-brand-guilty-1237214417/",
+                "source": "Deadline",
+                "published": "2026-11-06T13:00:00.000Z"
+              },
+              {
+                "title": "Bear Grylls Speaks Out on Russell Brand Verdict After Helping Baptize Him: ‘Justice Has Now Been Served’ and the Victims Are ‘Heroes’",
+                "url": "https://variety.com/2026/tv/global/bear-grylls-russell-brand-verdict-baptism-justice-served-1236941211/",
+                "source": "Variety",
+                "published": "2026-11-06T11:48:57.000Z"
+              },
+              {
+                "title": "Bear Grylls Speaks Out After Getting Heat For Baptizing Russell Brand: “It Is Right That Justice Has Been Served”",
+                "url": "https://deadline.com/2026/11/bear-grylls-speaks-out-baptizing-russell-brand-1237215354/",
+                "source": "Deadline",
+                "published": "2026-11-06T11:43:26.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "art",
+        "label": "Art & Design",
+        "insights": [
+          {
+            "trend": "Design-heritage collaboration: luxury meets nature",
+            "summary": "Perrier-Jouët en Iris van Herpen lanceren limited-edition collectie rond 'biologische processen', een design-collab die Art Nouveau herinterprets via hedendaagse biomimicry. Dit continueert het 2026-11-03 archief-pattern van modecollabs als design-heritage-play.",
+            "why_it_matters": "Luxury-brands investeren in 'nature-forward' design als cultureel statement tegen tech-saturation, biologische esthetica worden status-marker.",
+            "strategic_signal": "Premium-merken: co-create met designers rond natural systems (fungal networks, crystalline growth). Storytelling moet 'biologisch' zijn, niet futuristisch; packaging en limited-runs zijn het voertuig.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Dezeen",
+              "Fast Company",
+              "Rock Paper Shotgun"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Life, liberty, and the pursuit of happiness should be reflected in our computing systems’",
+                "url": "https://www.fastcompany.com/91633185/life-liberty-and-the-pursuit-of-happiness-should-be-reflected-in-our-computing-systems-computing-democracy-technology",
+                "source": "Fast Company",
+                "published": "2026-11-06T11:01:00.000Z"
+              },
+              {
+                "title": "Library by Collective Architecture breathes new life into Scottish high street",
+                "url": "https://www.dezeen.com/2026/11/06/collective-architecture-paisley-central-library-rias-doolan-award/",
+                "source": "Dezeen",
+                "published": "2026-11-06T09:00:00.000Z"
+              },
+              {
+                "title": "Lil Baby Brings ‘Fresh’ to Life: Stream It Now",
+                "url": "https://www.billboard.com/music/rb-hip-hop/lil-baby-fresh-stream-it-now-1236375792/",
+                "source": "Billboard",
+                "published": "2026-11-06T07:33:36.000Z"
+              },
+              {
+                "title": "Perrier-Jouët and Iris van Herpen partnership celebrates “biological processes that shape life”",
+                "url": "https://www.dezeen.com/2026/11/05/perrier-jouet-iris-van-herpen-partnership-biological-processes/",
+                "source": "Dezeen",
+                "published": "2026-11-05T21:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-05T12:21:04.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Prestige directors go short on YouTube",
+        "category": "film",
+        "what_is_happening": "Tony Kaye, director of American History X, has made a short about Leicester's giant monsters, while My Chemical Romance and Lauren Tsai teamed up on a short film featuring Hideo Kojima. Curry Barker, director of Obsession, simply put his new horror short on YouTube.",
+        "why_it_matters_for_brands": "Short video on open platforms now carries creative prestige, so a brand-funded short gets judged as a film, not as an ad.",
+        "what_brands_can_do": [
+          "Commission a short with an open brief instead of a scripted spot, and let the director's voice lead.",
+          "Publish where audiences already watch, such as YouTube, rather than hiding the film on a campaign page.",
+          "Judge success on rewatches and conversation, not only on completed views and click-through."
+        ]
+      },
+      {
+        "trend": "Halloween costumes as public self-roast",
+        "category": "culture",
+        "what_is_happening": "Lily Allen dressed as Ticketmaster's unsold seat map for Halloween, turning her own empty seats into the joke. Heidi Klum went as a severed hand and Gracie Abrams switched from Juliet to Romeo during her SNL performances.",
+        "why_it_matters_for_brands": "A brand that can laugh at its own misstep earns more attention and goodwill than one that hides it.",
+        "what_brands_can_do": [
+          "Answer your own public mistakes with humour when the brand can carry it and the issue is resolved.",
+          "Build seasonal moments around a self-aware idea, not just themed packaging or decoration.",
+          "Keep the joke on yourself, never on your customers or the people affected."
+        ]
+      },
+      {
+        "trend": "Techno honours its Detroit founder",
+        "category": "music",
+        "what_is_happening": "Juan Atkins, co-founder of techno and a member of the Belleville Three, has died aged 64. Tributes across the scene trace his influence from Detroit to today's festival culture, including Tomorrowland.",
+        "why_it_matters_for_brands": "Brands that borrow from a music culture are expected to know and credit the people who built it.",
+        "what_brands_can_do": [
+          "Credit the roots of the music and scenes your brand borrows from, by name and in context.",
+          "Support archives, education or local scenes over the long term rather than sponsoring a single tribute moment.",
+          "Stay quiet on a loss if your brand has no real connection to the artist or scene."
+        ]
+      }
+    ],
+    "sendDate": "2026-11-06",
+    "locked": true,
+    "selection": "manual",
+    "lockedAt": "2026-11-05T12:21:04.813Z"
+  }
+}
