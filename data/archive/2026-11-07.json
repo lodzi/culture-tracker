@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-07",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-07T12:43:17.857Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Legacy artists weaponize direct-audience intimacy formats",
+            "summary": "Nick Cave announces a 2027 'Conversations' tour combining live Q&A with piano performances, while Macklemore pivots to artist-controlled touring after arena rejections, forcing a reckoning with venue gatekeeping over political content. Both moves bypass traditional touring infrastructure for direct fan engagement.",
+            "why_it_matters": "Established artists are abandoning traditional concert touring as a default, signaling that intimate, politically-aligned, or conversation-based formats now carry higher cultural capital than arena spectacle.",
+            "strategic_signal": "Event sponsors should prepare for 'values-aligned touring' as a category; artists will increasingly demand audience selection over venue size, creating opportunities for brands to activate around political/social positioning.",
+            "trajectory": "opkomend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Billboard",
+              "Deadline",
+              "NME",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Manics honour Richey Edwards as Suede look to the future at London co-headline show",
+                "url": "https://www.nme.com/news/music/manic-street-preachers-suede-o2-london-co-headline-show-setlist-photos-footage-3975347?utm_source=rss&utm_medium=rss&utm_campaign=manic-street-preachers-suede-o2-london-co-headline-show-setlist-photos-footage",
+                "source": "NME",
+                "published": "2026-11-07T10:55:13.000Z"
+              },
+              {
+                "title": "Céline Dion Plays Air Bass at Metallica’s Sphere Show",
+                "url": "https://www.billboard.com/music/music-news/celine-dion-metallica-sphere-air-bass-video-1236376892/",
+                "source": "Billboard",
+                "published": "2026-11-07T06:01:25.000Z"
+              },
+              {
+                "title": "‘Ellen DeGeneres Show’ Producer Matthew Wright’s Cause of Death Revealed",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/ellen-degeneres-show-producer-matthew-wright-cause-of-death-1236749895/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-07T02:04:19.000Z"
+              },
+              {
+                "title": "‘Ellen DeGeneres Show’ EP Matthew Wright’s Cause Of Death Revealed",
+                "url": "https://deadline.com/2026/11/ellen-degeneres-show-ep-matthew-wright-cause-death-1237216153/",
+                "source": "Deadline",
+                "published": "2026-11-07T01:51:32.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Denis Villeneuve's Bond casting becomes cultural Rorschach test",
+            "summary": "Denis Villeneuve's upcoming Bond film is generating unprecedented casting speculation, with A-list actors like Robert Pattinson and Nicholas Hoult screen-tested for 007. The director's involvement signals a shift toward auteur-driven franchise filmmaking rather than traditional casting procedures.",
+            "why_it_matters": "This represents a seismic shift in how legacy franchises legitimize themselves, through directorial prestige rather than star power alone, suggesting cultural appetite for auteur-led reboots of tired IP.",
+            "strategic_signal": "Luxury brands should prepare 'auteur collaboration' narratives for heritage product relaunches; audiences now expect artistic vision statements from franchises, not just casting announcements.",
+            "trajectory": "opkomend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Adweek",
+              "Colossal",
+              "Consequence",
+              "Deadline",
+              "Design Boom",
+              "Hypebeast",
+              "The Hollywood Reporter",
+              "Variety",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "James Talarico",
+                "url": "https://en.wikipedia.org/wiki/James_Talarico",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-07T12:43:00.735Z"
+              },
+              {
+                "title": "Robert Pattinson & Nicholas Hoult Round Out James Bond Screen Tests",
+                "url": "https://deadline.com/2026/11/robert-pattinson-nicholas-hoult-james-bond-1237216183/",
+                "source": "Deadline",
+                "published": "2026-11-07T03:33:58.000Z"
+              },
+              {
+                "title": "James Bond Shocker: Robert Pattinson and Nicholas Hoult Late Contenders for 007 After Auditioning for Denis Villeneuve",
+                "url": "https://variety.com/2026/film/news/james-bond-casting-robert-pattinson-nicholas-hoult-1236941881/",
+                "source": "Variety",
+                "published": "2026-11-07T03:07:18.000Z"
+              },
+              {
+                "title": "James Bond Surprise: Robert Pattinson Screen Tested to Play 007",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/robert-pattinson-tested-to-play-james-bond-1236749903/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-07T02:09:01.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "AI-authenticity backlash reshapes animation discourse",
+            "summary": "Sylvain Chomet publicly defended his Dior film against AI accusations, emphasizing hand-drawn craftsmanship after viral concerns about generative content polluting creative platforms. This defensive posture reveals how AI skepticism now requires proof of human labor in premium creative work.",
+            "why_it_matters": "Authenticity markers are shifting from 'made by a famous artist' to 'provably not AI-generated', creating new gatekeeping logic where traditional craft becomes competitive advantage.",
+            "strategic_signal": "High-end creative campaigns should frontload process documentation (behind-the-scenes, artist statements) to preempt AI authenticity doubts before they spread; the burden of proof is now on creators.",
+            "trajectory": "opkomend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Ars Technica",
+              "Deadline",
+              "Humo",
+              "The Verge",
+              "VRT NWS",
+              "Variety",
+              "WWD"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Het zegt iets moois over mij dat ze simpelweg niet zonder mij kunnen winnen’: hoe de overmoed van Trump de Republikeinen in de vernieling reed",
+                "url": "https://www.humo.be/nieuws/het-zegt-iets-moois-over-mij-dat-ze-simpelweg-niet-zonder-mij-kunnen-winnen-hoe-de-overmoed-van-trump-de-republikeinen-in-de-vernieling-reed~bf46dfd4/",
+                "source": "Humo",
+                "published": "2026-11-07T08:33:34.000Z"
+              },
+              {
+                "title": "‘Real Time’: Bill Maher Thinks Trump Has Been “Amazingly Humble” Amid Blue Wave, Jokes He “Might Get To Go” To White House Dinner Again",
+                "url": "https://deadline.com/2026/11/real-time-bill-maher-trump-amazingly-humble-blue-wave-1237216187/",
+                "source": "Deadline",
+                "published": "2026-11-07T04:08:50.000Z"
+              },
+              {
+                "title": "Bill Maher Rubs Salt in Trump’s Midterms Wound: ‘Donnie, Are You OK?’",
+                "url": "https://variety.com/2026/tv/news/bill-maher-trump-midterms-loss-real-time-hbo-lindsey-graham-1236941912/",
+                "source": "Variety",
+                "published": "2026-11-07T03:20:01.000Z"
+              },
+              {
+                "title": "Trump Reveals Plans For Post-Midterm Firings In ‘60 Minutes’ Interview, Hours Before Announcing That Susie Wiles Was Out",
+                "url": "https://deadline.com/2026/11/trump-60-minutes-midterms-1237216042/",
+                "source": "Deadline",
+                "published": "2026-11-07T00:35:58.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
+          {
+            "trend": "Legacy streaming platforms acquire cultural infrastructure",
+            "summary": "Netflix abandons traditional studio real estate while Fox completes a $22B acquisition of Roku, and the New York Times buys Letterboxd for $330M. Streamers are pivoting from owning production lots to owning audience data pipes and cultural discoverability platforms.",
+            "why_it_matters": "The consolidation wave signals that control of *where audiences discover content* now matters more than control of *where content is made*, a fundamental power shift in media.",
+            "strategic_signal": "Brands should audition for distribution partnerships on acquired platforms (Tubi, Letterboxd under NYT) rather than betting on studio relationships; the gatekeepers are now recommendation algorithms, not executives.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Adweek",
+              "Aftermath",
+              "Dazed",
+              "Hypebeast",
+              "The Verge",
+              "Wired"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Starlink Mobile: All the news on SpaceX&#8217;s major mobile carrier ambitions",
+                "url": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
+                "source": "The Verge",
+                "published": "2026-11-06T22:45:43.000Z"
+              },
+              {
+                "title": "The Cybertruck’s Death Is Actually Great News for EVs",
+                "url": "https://www.wired.com/story/cybertrucks-death-great-news-for-evs/",
+                "source": "Wired",
+                "published": "2026-11-06T22:31:15.000Z"
+              },
+              {
+                "title": "Balenciaga Hires Martine Rose & Yeezy Makes Runway Return in This Week's Top Fashion News",
+                "url": "https://hypebeast.com/2026/11/martine-rose-balenciaga-yeezy-ralph-lauren-joaquin-phoenix-gentle-monster-palace-burberry",
+                "source": "Hypebeast",
+                "published": "2026-11-06T21:30:13.000Z"
+              },
+              {
+                "title": "#AskNewser: CNN, NBC News and NewsNation Executives Reflect on Their Election Night Coverage",
+                "url": "https://www.adweek.com/tvnewser/asknewser-cnn-nbc-news-and-newsnation-executives-reflect-on-their-election-night-coverage/",
+                "source": "Adweek",
+                "published": "2026-11-06T16:46:08.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-11-07T12:43:20.485Z",
+    "megaTrends": [
+      {
+        "trend": "Legacy institutions reclaim direct cultural power",
+        "summary": "Gevestigde spelers (legacy artists, streaming platforms, established filmmakers) omzeilen traditionele gatekeepers door rechtstreekse audience-engagement of infrastructuurcontrole. Dit gebeurt tegelijk in muziek (directe intimiteit met fans), film (auteurs als Villeneuve bepalen culturele narratieven) en internet (platforms worden zelf de infrastructuur).",
+        "why_it_matters": "Dit signaleert een verschuiving waar schaal en heritage meer waarde hebben dan disruptie, legacy wordt een competitief voordeel in plaats van een ballast.",
+        "categories": [
+          "music",
+          "film",
+          "internet"
+        ],
+        "strength": "sterk"
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-05T12:21:04.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Prestige directors go short on YouTube",
+        "category": "film",
+        "what_is_happening": "Tony Kaye, director of American History X, has made a short about Leicester's giant monsters, while My Chemical Romance and Lauren Tsai teamed up on a short film featuring Hideo Kojima. Curry Barker, director of Obsession, simply put his new horror short on YouTube.",
+        "why_it_matters_for_brands": "Short video on open platforms now carries creative prestige, so a brand-funded short gets judged as a film, not as an ad.",
+        "what_brands_can_do": [
+          "Commission a short with an open brief instead of a scripted spot, and let the director's voice lead.",
+          "Publish where audiences already watch, such as YouTube, rather than hiding the film on a campaign page.",
+          "Judge success on rewatches and conversation, not only on completed views and click-through."
+        ]
+      },
+      {
+        "trend": "Halloween costumes as public self-roast",
+        "category": "culture",
+        "what_is_happening": "Lily Allen dressed as Ticketmaster's unsold seat map for Halloween, turning her own empty seats into the joke. Heidi Klum went as a severed hand and Gracie Abrams switched from Juliet to Romeo during her SNL performances.",
+        "why_it_matters_for_brands": "A brand that can laugh at its own misstep earns more attention and goodwill than one that hides it.",
+        "what_brands_can_do": [
+          "Answer your own public mistakes with humour when the brand can carry it and the issue is resolved.",
+          "Build seasonal moments around a self-aware idea, not just themed packaging or decoration.",
+          "Keep the joke on yourself, never on your customers or the people affected."
+        ]
+      },
+      {
+        "trend": "Techno honours its Detroit founder",
+        "category": "music",
+        "what_is_happening": "Juan Atkins, co-founder of techno and a member of the Belleville Three, has died aged 64. Tributes across the scene trace his influence from Detroit to today's festival culture, including Tomorrowland.",
+        "why_it_matters_for_brands": "Brands that borrow from a music culture are expected to know and credit the people who built it.",
+        "what_brands_can_do": [
+          "Credit the roots of the music and scenes your brand borrows from, by name and in context.",
+          "Support archives, education or local scenes over the long term rather than sponsoring a single tribute moment.",
+          "Stay quiet on a loss if your brand has no real connection to the artist or scene."
+        ]
+      }
+    ],
+    "sendDate": "2026-11-06",
+    "locked": true,
+    "selection": "manual",
+    "lockedAt": "2026-11-05T12:21:04.813Z"
+  }
+}
