@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-09",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-09T15:42:33.879Z",
+    "intro": "2 categorieën · 2 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "lokaal",
+        "label": "Lokaal",
+        "insights": [
+          {
+            "trend": "Belgische culinaire eredivisie: chef-erkenning als lifestyle-content",
+            "summary": "Gault&Millau 2027 positioneert culinaire prijzen (Gert De Mangeleer Chef van het Jaar, Boury top-score, Pierre Wynants Lifetime Achievement) als mediacultuur-moment met cross-media impact. Deze erkenning domineert Belgian lifestyle-narratief en genereert merkaandacht.",
+            "why_it_matters": "Culinair erfgoed verschuift van pure gastronomie naar cultural storytelling en intergenerationeel statusmarkering. Chefs worden cultural gatekeepers (zie trend 2026-11-08).",
+            "strategic_signal": "Brands kunnen zich positioneren als 'culinaire co-auteurs' via partnerships met gelauwerde chefs (Boury, De Mangeleer) of emerging talent (Anthony Stoop, jonge generatie) voor authentieke lifestyle-narratieven.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Google News BE Entertainment (NL)",
+              "Google News BE Festivals",
+              "Google News BE Film",
+              "HLN Antwerpen",
+              "Humo",
+              "VRT NWS"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Een leerkracht die ons kind op zijn gedrag aanspreekt, probeert het misschien juist iets bij te brengen. We moeten ook naar hun verhaal luisteren’",
+                "url": "https://www.humo.be/meningen/lezersbrief-een-leerkracht-die-ons-kind-op-zijn-gedrag-aanspreekt-probeert-het-misschien-juist-iets-bij-te-brengen-we-moeten-ook-naar-hun-verhaal-luisteren~bde50e36/",
+                "source": "Humo",
+                "published": "2026-11-09T15:35:00.000Z"
+              },
+              {
+                "title": "We trouwen steeds later: Belg geeft gemiddeld op zijn 31e pas het jawoord",
+                "url": "https://vrtnws.be/p.M9mjmO7Jp",
+                "source": "VRT NWS",
+                "published": "2026-11-09T15:19:09.000Z"
+              },
+              {
+                "title": "Boury opnieuw op 1, Gert De Mangeleer beste chef: dit zijn de beste restaurants volgens Gault&Millau",
+                "url": "https://vrtnws.be/p.Yb5YXjb5y",
+                "source": "VRT NWS",
+                "published": "2026-11-09T14:56:09.000Z"
+              },
+              {
+                "title": "Duif, havik of weer een uil? Dit zijn de 2 kandidaten om ECB-voorzitter Christine Lagarde op te volgen",
+                "url": "https://vrtnws.be/p.PqO7X3WoO",
+                "source": "VRT NWS",
+                "published": "2026-11-09T14:23:38.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Nostalgia touring: MTV Unplugged als anniversary-engine",
+            "summary": "Dashboard Confessional kondigt '25th anniversary MTV Unplugged tour' aan; Stray Kids lanceren massale 'RUN IT' stadiumtour; Grammy-nominaties en streaming-wijzigingen signaleren herpositionering van legacy-acts en touring-strategieën.",
+            "why_it_matters": "Bands gebruiken institutioneel-geauthenticeerde momenten (MTV Unplugged heruitvoeringen) als touring-legitimatie. Nostalgia transformeert van passieve reminiscentie naar actieve revenue-engine.",
+            "strategic_signal": "Merken kunnen 'anniversary collaborations' (10/15/20+ jaar) kiezen als touring-hook met built-in authenticity-claim; zie ook Dashboard Confessional-model voor 2-4 weken tourplanning.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "Deadline",
+              "Google News BE Festivals",
+              "Hypebeast",
+              "Kotaku"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "2027 Grammy Nominations Final Predictions: Album of the Year",
+                "url": "https://www.billboard.com/lists/2027-grammy-nominations-album-of-the-year-predictions/",
+                "source": "Billboard",
+                "published": "2026-11-09T15:00:00.000Z"
+              },
+              {
+                "title": "Comedian Dyon “Mojo” Brooks Expands Outta Pocket Tour With 25 Dates, Multiple Arena Shows For 2027",
+                "url": "https://deadline.com/2026/11/mojo-brookzz-tour-dates-2027-outta-pocket-tour-1237216681/",
+                "source": "Deadline",
+                "published": "2026-11-09T15:00:00.000Z"
+              },
+              {
+                "title": "Dashboard Confessional Announce 2027 Unplugged Tour",
+                "url": "https://consequence.net/2026/11/dashboard-confessional-2027-unplugged-tour/",
+                "source": "Consequence",
+                "published": "2026-11-09T14:00:35.000Z"
+              },
+              {
+                "title": "Billboard to Update Chart Methodology in 2027 Following Annual Industry Revenue Review",
+                "url": "https://www.billboard.com/pro/billboard-update-chart-methodology-2027-revenue-review/",
+                "source": "Billboard",
+                "published": "2026-11-09T14:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-05T12:21:04.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Prestige directors go short on YouTube",
+        "category": "film",
+        "what_is_happening": "Tony Kaye, director of American History X, has made a short about Leicester's giant monsters, while My Chemical Romance and Lauren Tsai teamed up on a short film featuring Hideo Kojima. Curry Barker, director of Obsession, simply put his new horror short on YouTube.",
+        "why_it_matters_for_brands": "Short video on open platforms now carries creative prestige, so a brand-funded short gets judged as a film, not as an ad.",
+        "what_brands_can_do": [
+          "Commission a short with an open brief instead of a scripted spot, and let the director's voice lead.",
+          "Publish where audiences already watch, such as YouTube, rather than hiding the film on a campaign page.",
+          "Judge success on rewatches and conversation, not only on completed views and click-through."
+        ]
+      },
+      {
+        "trend": "Halloween costumes as public self-roast",
+        "category": "culture",
+        "what_is_happening": "Lily Allen dressed as Ticketmaster's unsold seat map for Halloween, turning her own empty seats into the joke. Heidi Klum went as a severed hand and Gracie Abrams switched from Juliet to Romeo during her SNL performances.",
+        "why_it_matters_for_brands": "A brand that can laugh at its own misstep earns more attention and goodwill than one that hides it.",
+        "what_brands_can_do": [
+          "Answer your own public mistakes with humour when the brand can carry it and the issue is resolved.",
+          "Build seasonal moments around a self-aware idea, not just themed packaging or decoration.",
+          "Keep the joke on yourself, never on your customers or the people affected."
+        ]
+      },
+      {
+        "trend": "Techno honours its Detroit founder",
+        "category": "music",
+        "what_is_happening": "Juan Atkins, co-founder of techno and a member of the Belleville Three, has died aged 64. Tributes across the scene trace his influence from Detroit to today's festival culture, including Tomorrowland.",
+        "why_it_matters_for_brands": "Brands that borrow from a music culture are expected to know and credit the people who built it.",
+        "what_brands_can_do": [
+          "Credit the roots of the music and scenes your brand borrows from, by name and in context.",
+          "Support archives, education or local scenes over the long term rather than sponsoring a single tribute moment.",
+          "Stay quiet on a loss if your brand has no real connection to the artist or scene."
+        ]
+      }
+    ],
+    "sendDate": "2026-11-06",
+    "locked": true,
+    "selection": "manual",
+    "lockedAt": "2026-11-05T12:21:04.813Z"
+  }
+}

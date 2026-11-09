@@ -1,31 +1,30 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-08T13:00:25.078Z",
-    "intro": "4 categorieën · 4 trends · laatste 24u",
+    "generatedAt": "2026-11-09T15:42:33.879Z",
+    "intro": "2 categorieën · 2 trends · laatste 24u",
     "categories": [
       {
         "id": "lokaal",
         "label": "Lokaal",
         "insights": [
           {
-            "trend": "Belgische artiesten claimen internationale venues",
-            "summary": "Pommelien Thijs geeft voor het eerst concert in Amsterdam Ziggo Dome, een historisch moment dat door meerdere Vlaamse media (HBVL, Nieuwsblad) als doorbraak wordt geframed. Dit signaleert de groeiende capaciteit van Vlaamse performers om 'schaalsprong' naar topvenuen te maken.",
-            "why_it_matters": "Weerspiegelt een bredere verschuiving waar Vlaamse cultuurmakers niet langer lokaal blijven ingebed maar als internationale acts worden gepositeerd. Dit verandert de status van Belgische talent in het bredere Europese entertainmentecosysteem.",
-            "strategic_signal": "Merken kunnen lokale talent anders framen in campagnes: niet als 'opkomend', maar als 'internationale doorbraak'. Dit creëert aspiratie en legitimeert Belgische producten op grotere markten.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
+            "trend": "Belgische culinaire eredivisie: chef-erkenning als lifestyle-content",
+            "summary": "Gault&Millau 2027 positioneert culinaire prijzen (Gert De Mangeleer Chef van het Jaar, Boury top-score, Pierre Wynants Lifetime Achievement) als mediacultuur-moment met cross-media impact. Deze erkenning domineert Belgian lifestyle-narratief en genereert merkaandacht.",
+            "why_it_matters": "Culinair erfgoed verschuift van pure gastronomie naar cultural storytelling en intergenerationeel statusmarkering. Chefs worden cultural gatekeepers (zie trend 2026-11-08).",
+            "strategic_signal": "Brands kunnen zich positioneren als 'culinaire co-auteurs' via partnerships met gelauwerde chefs (Boury, De Mangeleer) of emerging talent (Anthony Stoop, jonge generatie) voor authentieke lifestyle-narratieven.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
             "sources": [
-              "Bruzz",
               "Google News BE Entertainment (NL)",
-              "Google News BE Gaming",
-              "Google News BE Muziek",
+              "Google News BE Festivals",
+              "Google News BE Film",
               "HLN Antwerpen",
               "Humo",
               "VRT NWS"
@@ -33,28 +32,28 @@
             "trending": true,
             "articles": [
               {
-                "title": "Lezersbrief: ‘Voor elk van de acht deelnemers zal ‘Kamp Fly’ een bijdrage hebben geleverd aan de zoektocht naar wie ze zijn’",
-                "url": "https://www.humo.be/meningen/lezersbrief-voor-elk-van-de-acht-deelnemers-zal-kamp-fly-een-bijdrage-hebben-geleverd-aan-de-zoektocht-naar-wie-ze-zijn~b3f4e154/",
+                "title": "‘Een leerkracht die ons kind op zijn gedrag aanspreekt, probeert het misschien juist iets bij te brengen. We moeten ook naar hun verhaal luisteren’",
+                "url": "https://www.humo.be/meningen/lezersbrief-een-leerkracht-die-ons-kind-op-zijn-gedrag-aanspreekt-probeert-het-misschien-juist-iets-bij-te-brengen-we-moeten-ook-naar-hun-verhaal-luisteren~bde50e36/",
                 "source": "Humo",
-                "published": "2026-11-08T09:59:23.000Z"
+                "published": "2026-11-09T15:35:00.000Z"
               },
               {
-                "title": "Deze 67 woningen zijn nu te koop in Antwerpen",
-                "url": "https://www.hln.be/antwerpen/deze-67-woningen-zijn-nu-te-koop-in-antwerpen~a1c9de7a/",
-                "source": "HLN Antwerpen",
-                "published": "2026-11-08T08:10:45.000Z"
+                "title": "We trouwen steeds later: Belg geeft gemiddeld op zijn 31e pas het jawoord",
+                "url": "https://vrtnws.be/p.M9mjmO7Jp",
+                "source": "VRT NWS",
+                "published": "2026-11-09T15:19:09.000Z"
               },
               {
-                "title": "Dit zijn de 8 duurste woningen in de provincie Antwerpen die deze week te koop werden gezet",
-                "url": "https://www.hln.be/antwerpen/dit-zijn-de-8-duurste-woningen-in-de-provincie-antwerpen-die-deze-week-te-koop-werden-gezet~a1af895a/",
-                "source": "HLN Antwerpen",
-                "published": "2026-11-08T07:45:46.000Z"
+                "title": "Boury opnieuw op 1, Gert De Mangeleer beste chef: dit zijn de beste restaurants volgens Gault&Millau",
+                "url": "https://vrtnws.be/p.Yb5YXjb5y",
+                "source": "VRT NWS",
+                "published": "2026-11-09T14:56:09.000Z"
               },
               {
-                "title": "Pommelien Thijs zet Amsterdamse Ziggo Dome op zijn kop en geeft primeur: “Nooit verwacht dat ik hier zou spelen” - HBVL",
-                "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSWdxeUYyTng3bmx1cWRZazZNdTRBZ1ViX295RmM2amp3MnJGc2lObXJHN1hzQmxmd2EzN0pudFpWTjg4QnRMTDFsT1ZPckxlWjE1X0t4TWlVRy1TVWF2OUFlMXFVYVpMZ05xazAwQVh6ODhQeWl4WW5nM2RDbFBHLVVac3pYejBmeVNTdVZvUGdsdEd5b3FUeE9xWmx4RXpuRE5GX21LTXVUcWZpN2g4NmR2cFE3SkV0LWg2dkF4MEpBWWJXN29DZmF2QkZDM0JrTF9zQ004cTVtVk1mWDFBTEd0OHFQUElLbHB2YVNBZmd3NXc?oc=5",
-                "source": "Google News BE Muziek",
-                "published": "2026-11-08T05:35:52.000Z"
+                "title": "Duif, havik of weer een uil? Dit zijn de 2 kandidaten om ECB-voorzitter Christine Lagarde op te volgen",
+                "url": "https://vrtnws.be/p.PqO7X3WoO",
+                "source": "VRT NWS",
+                "published": "2026-11-09T14:23:38.000Z"
               }
             ]
           }
@@ -65,172 +64,50 @@
         "label": "Muziek",
         "insights": [
           {
-            "trend": "Legacy-gatekeepers als cultural memory-keepers",
-            "summary": "De dood van Television-gitarist Richard Lloyd (gedekt door Consequence, NME, Pitchfork, Stereogum) triggert collectieve tributaire betekenismaking van post-punk's fundamenten. Het narratief is niet 'muzikant sterft' maar 'wie beheerst de erfenis van innovatie'.",
-            "why_it_matters": "Toont hoe legacy-sterfgevallen nu functie hebben als culturele reset-moments. De industrie herdefineert wat 'innovatie' betekent via wie we verliezen, niet wie we vieren.",
-            "strategic_signal": "Merk-partnerships met post-punk-erfenis kunnen nu via 'legacy stewardship' framing werken (niet retromania maar continuïteit-bewaking). Zie hoe labels Richard Lloyd's archief curatief inzetten.",
-            "trajectory": "afbouwend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Consequence",
-              "NME",
-              "Pitchfork News",
-              "Stereogum"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Tributes paid after death of Television guitarist Richard Lloyd: “A seeker and finder and a true inspiration”",
-                "url": "https://www.nme.com/news/music/tributes-paid-after-death-of-television-guitarist-richard-lloyd-a-seeker-and-finder-and-a-true-inspiration-3975375?utm_source=rss&utm_medium=rss&utm_campaign=tributes-paid-after-death-of-television-guitarist-richard-lloyd-a-seeker-and-finder-and-a-true-inspiration",
-                "source": "NME",
-                "published": "2026-11-08T08:36:27.000Z"
-              },
-              {
-                "title": "Television’s Richard Lloyd Dead At 75",
-                "url": "https://stereogum.com/2516946/televisions-richard-lloyd-dead-at-75/news/",
-                "source": "Stereogum",
-                "published": "2026-11-07T17:43:36.000Z"
-              },
-              {
-                "title": "Richard Lloyd, Television Guitarist, Dies at 75",
-                "url": "https://pitchfork.com/story/richard-lloyd-television-guitarist-dies-at-75/",
-                "source": "Pitchfork News",
-                "published": "2026-11-07T17:11:52.000Z"
-              },
-              {
-                "title": "Richard Lloyd, Television Guitarist, Dead at 75",
-                "url": "https://consequence.net/2026/11/richard-lloyd-television-dead/",
-                "source": "Consequence",
-                "published": "2026-11-07T16:39:09.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "film",
-        "label": "Film & TV",
-        "insights": [
-          {
-            "trend": "SNL als democratische casting-auditionruimte",
-            "summary": "Druski's SNL-hosting (meermaals gedekt door A.V. Club, Deadline, Consequence) wordt niet om sketch-kwaliteit maar om cultural risk-taking (whiteface-provocatie, Elizabeth Holmes-satire) gewaardeerd. Dit positioneert SNL als plek waar persoonlijkheden hun culturele authenticiteit testen.",
-            "why_it_matters": "SNL muteert van comedy-show naar cultural litmus test waar 'casting als performance' dominant wordt. Wat je riskeert op SNL bepaalt nu je culturele kredibiliteit.",
-            "strategic_signal": "Merken kunnen SNL-hosts als case studies gebruiken voor 'how to navigate cultural permission'. De vraag is niet meer 'was het grappig' maar 'durfde het'.",
-            "trajectory": "piekend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "A.V. Club",
-              "Billboard",
-              "Consequence",
-              "Deadline",
-              "The Hollywood Reporter",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Druski creates some Saturday Night Live-like content in his first hosting gig",
-                "url": "https://www.avclub.com/saturday-night-live-recap-season-52-episode-5",
-                "source": "A.V. Club",
-                "published": "2026-11-08T07:29:14.000Z"
-              },
-              {
-                "title": "Druski Embodies Elizabeth Holmes in ‘You Can See Everything’ Spoof on ‘SNL’",
-                "url": "https://www.hollywoodreporter.com/tv/tv-news/druski-elizabeth-holmes-snl-you-can-see-everything-skit-1236750276/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-08T05:51:44.000Z"
-              },
-              {
-                "title": "‘SNL’: Druski Dons Whiteface as Elizabeth Holmes in ‘You Can See Everything’ Parody",
-                "url": "https://variety.com/2026/tv/news/snl-druski-whiteface-elizabeth-holmes-nathan-fielder-you-can-see-everything-parody-1236942289/",
-                "source": "Variety",
-                "published": "2026-11-08T05:29:04.000Z"
-              },
-              {
-                "title": "Druski Serves Elizabeth Holmes Whiteface In ‘Dru Can See Everything’ Sketch During ‘SNL’ Debut",
-                "url": "https://deadline.com/2026/11/druski-elizabeth-holmes-whiteface-dru-can-see-everything-snl-1237216571/",
-                "source": "Deadline",
-                "published": "2026-11-08T05:09:43.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "gaming",
-        "label": "Gaming",
-        "insights": [
-          {
-            "trend": "Fandom-stewardship vervangt institutioneel beleid",
-            "summary": "Nadat EA BioWare sloot, zetten fans en modders (ME3Tweaks) Mass Effect 3's multiplayer nieuw leven in via Legendary Edition remaster, meervoudig gedekt (Kotaku, Rock Paper Shotgun). N7 Day 2026 wordt het moment waar fandom-advocacy institutionele besluitvorming effectief ondermijnt.",
-            "why_it_matters": "Significeert een irreversibele verschuiving: gaming-cultuur wordt nu door fans gedefinieerd, niet door publishers. Nostalgielogica wordt community-infrastructuur.",
-            "strategic_signal": "Brands kunnen 'player-agency' nu als waarde-proposition framen (niet 'we beheren dit' maar 'we faciliteren dat jullie het beheren'). Zie hoe EA's falen Mass Effect-merkcapitaal naar modders werkt.",
+            "trend": "Nostalgia touring: MTV Unplugged als anniversary-engine",
+            "summary": "Dashboard Confessional kondigt '25th anniversary MTV Unplugged tour' aan; Stray Kids lanceren massale 'RUN IT' stadiumtour; Grammy-nominaties en streaming-wijzigingen signaleren herpositionering van legacy-acts en touring-strategieën.",
+            "why_it_matters": "Bands gebruiken institutioneel-geauthenticeerde momenten (MTV Unplugged heruitvoeringen) als touring-legitimatie. Nostalgia transformeert van passieve reminiscentie naar actieve revenue-engine.",
+            "strategic_signal": "Merken kunnen 'anniversary collaborations' (10/15/20+ jaar) kiezen als touring-hook met built-in authenticity-claim; zie ook Dashboard Confessional-model voor 2-4 weken tourplanning.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Bruzz",
+              "Billboard",
+              "Consequence",
               "Deadline",
-              "Kotaku",
-              "Rock Paper Shotgun"
+              "Google News BE Festivals",
+              "Hypebeast",
+              "Kotaku"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Camerimage Opens With Minute Of Silence For Kraków Mass Shooting; Darren Aronofsky Honored & Luca Guadagnino Introduces ‘Artificial’",
-                "url": "https://deadline.com/2026/11/camerimage-darren-aronofsky-luca-guadagnino-artificial-1237216360/",
+                "title": "2027 Grammy Nominations Final Predictions: Album of the Year",
+                "url": "https://www.billboard.com/lists/2027-grammy-nominations-album-of-the-year-predictions/",
+                "source": "Billboard",
+                "published": "2026-11-09T15:00:00.000Z"
+              },
+              {
+                "title": "Comedian Dyon “Mojo” Brooks Expands Outta Pocket Tour With 25 Dates, Multiple Arena Shows For 2027",
+                "url": "https://deadline.com/2026/11/mojo-brookzz-tour-dates-2027-outta-pocket-tour-1237216681/",
                 "source": "Deadline",
-                "published": "2026-11-08T00:37:12.000Z"
+                "published": "2026-11-09T15:00:00.000Z"
               },
               {
-                "title": "\"This trailer is my way of saying goodbye\": Have a listen to the Mass Effect 5 score that could have been, courtesy of one of the original games' composers",
-                "url": "https://www.rockpapershotgun.com/this-trailer-is-my-way-of-saying-goodbye-have-a-listen-to-the-mass-effect-5-score-that-could-have-been-courtesy-of-one-of-the-original-games-composers",
-                "source": "Rock Paper Shotgun",
-                "published": "2026-11-07T19:49:20.000Z"
+                "title": "Dashboard Confessional Announce 2027 Unplugged Tour",
+                "url": "https://consequence.net/2026/11/dashboard-confessional-2027-unplugged-tour/",
+                "source": "Consequence",
+                "published": "2026-11-09T14:00:35.000Z"
               },
               {
-                "title": "For This Year’s N7 Day, Fans, Alumni And Policy Makers Fought For Mass Effect’s Future",
-                "url": "https://kotaku.com/this-years-n7-day-spent-fighting-for-mass-effects-future-2000754828",
-                "source": "Kotaku",
-                "published": "2026-11-07T22:12:46.000Z"
-              },
-              {
-                "title": "How Modders Spent Three Years Remastering Mass Effect 3’s Fantastic Multiplayer For Legendary Edition: ‘Let’s Do Something Stupid’",
-                "url": "https://kotaku.com/mass-effect-3-multiplayer-legendary-edition-mod-me3tweaks-2000754691",
-                "source": "Kotaku",
-                "published": "2026-11-07T17:00:29.000Z"
+                "title": "Billboard to Update Chart Methodology in 2027 Following Annual Industry Revenue Review",
+                "url": "https://www.billboard.com/pro/billboard-update-chart-methodology-2027-revenue-review/",
+                "source": "Billboard",
+                "published": "2026-11-09T14:00:00.000Z"
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  "crossCategory": {
-    "generatedAt": "2026-11-08T13:00:29.991Z",
-    "megaTrends": [
-      {
-        "trend": "Grassroots autoriteit vervangt institutionele gatekeeping",
-        "summary": "Waar traditionele instellingen (muziekrecordlabels, castingdirecteurs, gamepublishers) vroeger controle hadden, nemen nu communities, fandoms en lokale artiesten zelf de macht over. Dit zien we in gaming waar fandom-stewardship institutioneel beleid vervangt, in film waar SNL zich democratiseert als casting-auditionruimte, en in muziek waar legacy-gatekeepers meer als 'cultural memory-keepers' fungeren dan als besluitvormers.",
-        "why_it_matters": "Dit signaleert een fundamentele machtsshift: culturele autoriteit stroomt van centraliseerde instellingen naar gedecentraliseerde communities en individuen.",
-        "categories": [
-          "music",
-          "film",
-          "gaming"
-        ],
-        "strength": "sterk"
-      },
-      {
-        "trend": "Lokale talenten claimen globale platforms",
-        "summary": "Belgische artiesten breken door naar internationale venues terwijl SNL functioneert als democratische launching pad voor onbekende talenten. Beide signaleren dat geografische barrières slinken en dat lokale makers direct toegang krijgen tot globale podiums.",
-        "why_it_matters": "De weg van onbekend naar beroemd is korter en meer toegankelijk geworden. Talent hoeft niet meer via traditionele hierarchieën omhoog te klauteren.",
-        "categories": [
-          "lokaal",
-          "film"
-        ],
-        "strength": "matig"
       }
     ]
   },
