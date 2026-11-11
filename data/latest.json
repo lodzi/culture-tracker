@@ -1,59 +1,110 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-10T14:36:52.996Z",
-    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "generatedAt": "2026-11-11T13:51:36.942Z",
+    "intro": "5 categorieën · 5 trends · laatste 24u",
     "categories": [
       {
         "id": "music",
         "label": "Muziek",
         "insights": [
           {
-            "trend": "Pop-Punk Nostalgia as Stadium-Scale Cultural Reclamation",
-            "summary": "Fall Out Boy, The Offspring, Good Charlotte en A Day To Remember announceren gezamenlijke 'Twilight of the Punks'-tour (2027) met 21 North American stadium-shows; Muse voegt ook zomertourdates toe. Dit is de grootste gecoördineerde pop-punk-reunificatie sinds 2000er jaren.",
-            "why_it_matters": "Na jaren van indie/alternative fragmentation reclaimen legacy pop-punk-bands collectief stadion-terrein, dit signaleert dat nostalgische genera nu groot genoeg zijn voor co-branded touring, niet alleen festival-slots.",
-            "strategic_signal": "Brands gericht op millennial en Gen-X doelgroepen: deze tours worden merchandise-en-TikTok-goldmines. Partner nu met festival-ticketing-platforms voor limited-edition campagnes; de timing is voordat Ticketmaster deze momentum kopieert.",
-            "trajectory": "opkomend",
-            "daysActive": 2,
-            "isNew": false,
+            "trend": "Festival Lineups als geopolitieke vensters",
+            "summary": "Coachella 2027 en State Fayre positioneren zich expliciet rond geografische en genremix: Latijns-Amerikaanse artiesten (reggaeton, cumbia villera, trap latino) krijgen mainstageniveaus, terwijl State Fayre zich volledig 'all-female' profileert. Dit is geen toeval maar bewuste curatie rond identiteit en vertegenwoordiging.",
+            "why_it_matters": "Festivals worden niet langer alleen om muziek, maar als statements over wie 'thuishoort' op mainstream podia, een indicator van hoe merk- en cultuurinstitutie collectively rekalibreren rond inclusie.",
+            "strategic_signal": "Brands kunnen nu festival-partnerships gebruiken niet als affinity play maar als directe positionering statement: een luxury merk bij Coachella 2027 signaleert 'wij erkennen Latijns-Amerikaanse cultural centrality'; een campaign rond State Fayre signaleert 'wij ondersteunen vrouwelijk leiderschap in roots-muziek'.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
             "sources": [
               "Billboard",
               "Consequence",
               "Crack Magazine",
+              "Google News BE Festivals",
+              "IndieWire",
               "NME",
               "Pitchfork News",
-              "VRT NWS"
+              "Sneaker News",
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "RALLY announces first names for 2027 with Kelela headlining",
-                "url": "https://crackmagazine.net/2026/11/rally-2027-lineup-kelela/?utm_source=rss&utm_medium=rss&utm_campaign=rally-2027-lineup-kelela",
-                "source": "Crack Magazine",
-                "published": "2026-11-10T14:35:39.000Z"
+                "title": "Daddy Yankee, Milo J, and Bad Gyal Lead Coachella 2027’s Latin Contingent",
+                "url": "https://consequence.net/2026/11/daddy-yankee-milo-j-bad-gyal-coachella-2027/",
+                "source": "Consequence",
+                "published": "2026-11-11T13:02:29.000Z"
               },
               {
-                "title": "Muse add huge Cardiff show with Chvrches to summer 2027 UK tour plans",
-                "url": "https://www.nme.com/news/music/muse-add-huge-cardiff-show-with-chvrches-to-summer-2027-uk-tour-plans-3975543",
+                "title": "Coachella 2027 Lineup: Tame Impala, SZA, and Dua Lipa",
+                "url": "https://pitchfork.com/story/coachella-2027-lineup-tame-impala-sza-and-dua-lipa/",
+                "source": "Pitchfork News",
+                "published": "2026-11-11T10:43:27.000Z"
+              },
+              {
+                "title": "Coachella 2027 line-up revealed with Dua Lipa, Madonna, Tame Impala, SZA and more",
+                "url": "https://www.nme.com/news/music/coachella-2027-line-up-revealed-with-dua-lipa-madonna-tame-impala-sza-and-more-3975649",
                 "source": "NME",
-                "published": "2026-11-10T10:52:25.000Z"
+                "published": "2026-11-11T10:00:33.000Z"
               },
               {
-                "title": "Fall Out Boy return with intense single ‘Aces’ and announce 2027 UK, European and North American ‘Twilight Of The Punks’ tour",
-                "url": "https://www.nme.com/news/music/fall-out-boy-return-with-intense-single-aces-and-announce-2027-uk-european-and-north-american-twilight-of-the-punks-tour-3975527",
-                "source": "NME",
-                "published": "2026-11-10T10:08:03.000Z"
+                "title": "Coachella Reveals 2027 Lineup: SZA, Tame Impala, Dua Lipa, and Madonna",
+                "url": "https://consequence.net/2026/11/coachella-2027-lineup-sza-tame-impala-dua-lipa/",
+                "source": "Consequence",
+                "published": "2026-11-11T09:00:50.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fashion",
+        "label": "Fashion",
+        "insights": [
+          {
+            "trend": "Heritage Collaborations als nostalgia licensing engine",
+            "summary": "Space Jam 30th Anniversary Air Jordans (Lola Bunny, Santa Claus versies) en Jordan 4 Retro zijn geen nieuwe designs maar gecontextualiseerde rereleases rond jubilea. Dit volgt het 2026-11-09-patroon: 'nostalgia touring' verplaatst zich nu van concert naar sneaker-collectability.",
+            "why_it_matters": "Footwear-releases worden structureel gekoppeld aan media-anniversaries. Dit creëert cross-category nostalgia-narratives waar een sneaker een totem wordt van collective memory.",
+            "strategic_signal": "Brands kunnen de komende weken niet meer 'new collaboration' claimen; in plaats daarvan: 'heritage recontextualization'. Partner met 30th/25th/20th anniversaries van culturele IP en frame releases rond 'remembrance moments', niet 'novelty'.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Highsnobiety",
+              "Hypebeast",
+              "Sneaker News",
+              "Volkskrant Cultuur"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Don’t Call Ever Lola Bunny's Clean Air Jordan “Doll”",
+                "url": "https://www.highsnobiety.com/p/jordan-3-space-jam-lola-bunny/",
+                "source": "Highsnobiety",
+                "published": "2026-11-11T09:38:58.000Z"
               },
               {
-                "title": "Fall Out Boy Announce 2027 World Tour With The Offspring, Good Charlotte & More",
-                "url": "https://www.billboard.com/music/music-news/fall-out-boy-twilight-of-the-punks-tour-2027-aces-1236378525/",
-                "source": "Billboard",
-                "published": "2026-11-10T08:37:06.000Z"
+                "title": "Santa Claus’ Air Jordan Sneakers Are Almost Too Nice",
+                "url": "https://www.highsnobiety.com/p/jordan-3-santa/",
+                "source": "Highsnobiety",
+                "published": "2026-11-11T09:35:12.000Z"
+              },
+              {
+                "title": "Jordan 4 Retro TD “Bred” Takes MJ’s ‘89 Classic From Hardwood to Turf",
+                "url": "https://hypebeast.com/2026/11/jordan-4-retro-td-bred-hq0207-001-release-info",
+                "source": "Hypebeast",
+                "published": "2026-11-11T09:09:26.000Z"
+              },
+              {
+                "title": "Jordan Firstman over ‘Club Kid’: ‘Elke emotie die je kunt voelen in zo’n club, heb ik gevoeld’",
+                "url": "https://www.volkskrant.nl/films/jordan-firstman-over-club-kid-elke-emotie-die-je-kunt-voelen-in-zo-n-club-heb-ik-gevoeld~b00d29d6/",
+                "source": "Volkskrant Cultuur",
+                "published": "2026-11-11T12:17:20.000Z"
               }
             ]
           }
@@ -64,138 +115,144 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Celebrity Predation & Institutional Gatekeeping Collapse",
-            "summary": "David Walliams-schandaal onthult systematische grooming van minderjarige fans; media doorbreekt injunctie-barrières die eerder bescherming boden aan high-profile namen. Dit volgt op jaren van instellingen die dergelijk gedrag intern smoorden.",
-            "why_it_matters": "Vertrouwen in traditionele media-instituties als 'beschermers van slachtoffers' verschuift naar onderzoeksjournalistiek die wettelijke barrières negeert, een cultureel keerpunt in wie de macht over reputatie controleert.",
-            "strategic_signal": "Merk-associaties met entertainment-figuren verdragen nu veel hoger risico; ontwikkel exit-strategieën voor partnerships met legacy-celebrities zonder pro-actieve abuse-accountability-records.",
-            "trajectory": "piekend",
-            "daysActive": 2,
-            "isNew": false,
-            "sources": [
-              "Deadline",
-              "Google Trends (BE)",
-              "NME",
-              "The Hollywood Reporter",
-              "The Verge",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "David Walliams Dropped By Independent Talent Group After Sexual Misconduct Allegations",
-                "url": "https://deadline.com/2026/11/david-walliams-dropped-independent-talent-misconduct-claims-1237218373/",
-                "source": "Deadline",
-                "published": "2026-11-10T13:41:12.000Z"
-              },
-              {
-                "title": "david walliams",
-                "url": "https://trends.google.com/trending/rss?geo=BE",
-                "source": "Google Trends (BE)",
-                "published": "2026-11-10T13:10:00.000Z"
-              },
-              {
-                "title": "David Walliams accused of preying on young fans for sex",
-                "url": "https://www.nme.com/news/tv/david-walliams-accused-young-girls-sex-exploitation-predatory-behaviour-3975566",
-                "source": "NME",
-                "published": "2026-11-10T13:09:36.000Z"
-              },
-              {
-                "title": "David Walliams, Former ‘Britain’s Got Talent’ Judge, Accused of ‘Grooming Fans’ as Young as 15 After Failing to Get Injunction",
-                "url": "https://variety.com/2026/tv/global/david-walliams-grooming-fans-allegations-harassment-1236934058/",
-                "source": "Variety",
-                "published": "2026-11-10T12:40:12.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Institutional Rebrand as Cultural Infrastructure Reset",
-            "summary": "Wasserman → The Team rebrand signaleert niet alleen naamswisseling, maar reorganisatie van hoe entertainers zich laten vertegenwoordigen; nieuw bestuur symboliseert breuk met legacy power-structures.",
-            "why_it_matters": "Als de grootste talent-agentuur zichzelf heruitvindt, volgen artiesten en merken: dit is het moment waarop legacy-modellen van agency-macht onderhandeld worden.",
-            "strategic_signal": "Monitor wie op The Team's nieuwe bestuur zit, deze personen zullen bepalen welke artiest-narratieven en campaign-partnerships de komende 2-4 weken mainstream worden.",
+            "trend": "Queer Narratives als mainstream drama-motor",
+            "summary": "'Club Kid' en 'American Heiress' markeren een verschuiving: queer-thema's (parenthood, identity negotiation) worden niet meer als niche-content maar als centrale dramaturgie in broadcast en streaming producties ingebed. Dit volgt rechtstreeks op het 2026-patroon van fandom-stewardship en institutionele rebrand.",
+            "why_it_matters": "Traditionele gatekeepers (MGM+, Netflix, streamers) adopteren narratieve frameworks die voorheen door queer communities werden 'beheerd'. Dit is institutionalisering van culturele stewardship.",
+            "strategic_signal": "Merken die in Q1 2027 campagnes rond 'family/belonging' lanceren, kunnen nu expliciet queer narratives gebruiken in casting en messaging zonder tokenisme-risico. Het is al mainstream distributie.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Billboard",
+              "De Tijd Cultuur",
               "Deadline",
-              "The Hollywood Reporter",
-              "Variety"
+              "Fashionista",
+              "Google News BE Film",
+              "IndieWire",
+              "Marketing Dive"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "After Wasserman’s Exit, The Team Forms New Board of Directors",
-                "url": "https://www.hollywoodreporter.com/business/business-news/wasserman-exit-the-team-forms-new-board-of-directors-1236751029/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-10T14:10:34.000Z"
+                "title": "Recensie 'Club Kid' | Charmante film dribbelt rond heikele thema van ideale familie",
+                "url": "https://www.tijd.be/r/t/1/id/10699383",
+                "source": "De Tijd Cultuur",
+                "published": "2026-11-11T11:46:31.000Z"
               },
               {
-                "title": "THE•TEAM Forms New Board Following Sale Finalization",
-                "url": "https://www.billboard.com/pro/the-team-forms-board-of-directors-after-sale/",
-                "source": "Billboard",
-                "published": "2026-11-10T14:00:00.000Z"
-              },
-              {
-                "title": "The Team Unveils New Board as Firm Regroups After Rebrand From Wasserman",
-                "url": "https://variety.com/2026/biz/news/the-team-board-members-watts-wasserman-providence-equity-1236943788/",
-                "source": "Variety",
-                "published": "2026-11-10T14:00:00.000Z"
-              },
-              {
-                "title": "The Team, Formerly Wasserman, Unveils New Board",
-                "url": "https://deadline.com/2026/11/the-team-formerly-wasserman-unveils-new-board-1237218114/",
+                "title": "Lightdox Acquires Sales Rights To IDFA World Premiere ‘The Big Boom!’, Gabriel Tejedor Film With Explosive Contradictions",
+                "url": "https://deadline.com/2026/11/the-big-boom-lightdox-sales-acquisition-trailer-premiere-1237220099/",
                 "source": "Deadline",
-                "published": "2026-11-10T14:00:00.000Z"
+                "published": "2026-11-11T10:02:36.000Z"
+              },
+              {
+                "title": "Want a Full Scholarship to One of Our Film Festival Intensives? IndieWire’s Future of Filmmaking Video Contest Is Now Live",
+                "url": "https://www.indiewire.com/news/events/indiewire-future-of-filmmaking-video-contest-2026-1235225520/",
+                "source": "IndieWire",
+                "published": "2026-11-10T23:46:00.000Z"
+              },
+              {
+                "title": "Must Read: Skims Receives Backlash Over Holiday Advent Calendar, Dior’s 'Hand-Drawn' Holiday Film Draws AI Accusations",
+                "url": "https://fashionista.com/2026/11/skims-holiday-advent-calendar-backlash",
+                "source": "Fashionista",
+                "published": "2026-11-10T17:00:00.000Z"
               }
             ]
           }
         ]
       },
       {
-        "id": "internet",
-        "label": "Internet",
+        "id": "art",
+        "label": "Art & Design",
         "insights": [
           {
-            "trend": "AI-Powered Domestic Surveillance Becomes Normalized Hardware",
-            "summary": "Amazon's Ring Drone Cam en Rover Cam brengen vliegende AI-veiligheidscamera's in huizen en bedrijven; na 6 jaar vertraging lanceert Ring Robotics nu een compleet hardware-ecosysteem rond pro-actieve monitoring.",
-            "why_it_matters": "Dit markeert het moment waarop surveillance transitie maakt van 'reactief opnemen' (traditionele Ring) naar 'pro-actief zoeken', een fundamentele verschuiving in wie de controle over privé-space bezit.",
-            "strategic_signal": "Brands die 'security' als lifestyle verkopen (verzekeringsmaatschappijen, smart-home merken, luxury developers) moeten nu onderscheid maken tussen 'bezorgdheid' en 'paranoia', de storytelling-grens wordt smal.",
+            "trend": "Architectural Megaprojects als cultural memory anchors",
+            "summary": "Jean Nouvel's Shenzhen Opera House (2028) en Sumayya Vally's Elie Khouri Art Foundation gebruiken 'memory' en 'house' als centrale designmetaforen. Dit is geen toeval: architectuur wordt expliciet ingekaderd als cultureel geheugen-werk, niet alleen functie.",
+            "why_it_matters": "Dit signaleert een globale shift waar bouwwerken zelf als narrative vessels voor collectieve identiteit worden ontworpen, architectuur als cultural infrastructure reset (zie 2026-11-10-trend).",
+            "strategic_signal": "Brands kunnen nu partnerships met architecten/musea framen niet als 'space design' maar als 'memory stewardship'. Dit geeft campagnes diepte en langetermijnrelevantie.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
+              "Design Boom",
               "Dezeen",
-              "Humo",
-              "Quartz",
-              "The Verge",
-              "Wired",
+              "IndieWire",
+              "Variety",
               "Yanko Design"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Ring is unveiling an AI-powered home security drone after six years of delays",
-                "url": "https://qz.com/ring-drone-cam-security-drone-amazon-unveiling-111026",
-                "source": "Quartz",
-                "published": "2026-11-10T14:00:41.000Z"
+                "title": "jean nouvel’s shenzhen opera house takes shape on the waterfront, with completion set for 2028",
+                "url": "https://www.designboom.com/architecture/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028/",
+                "source": "Design Boom",
+                "published": "2026-11-11T11:00:16.000Z"
               },
               {
-                "title": "Amazon turned its Alexa robot into a Ring security patrol bot",
-                "url": "https://www.theverge.com/tech/1030282/amazon-ring-robotics-rover-cam-4k-security-business",
+                "title": "Taiwan Creative Content Fest Takeaways: ‘Avatar’ VFX House Brings Its AI Ambitions to Taipei as Character IP Booms",
+                "url": "https://variety.com/2026/film/markets-festivals/taiwan-creative-content-fest-takeaways-ai-deals-character-ip-boom-1236945001/",
+                "source": "Variety",
+                "published": "2026-11-11T09:32:48.000Z"
+              },
+              {
+                "title": "Sumayya Vally to design Dubai art foundation around the \"memory of a house\"",
+                "url": "https://www.dezeen.com/2026/11/11/sumayya-vally-dubai-elie-khouri-art-foundation/",
+                "source": "Dezeen",
+                "published": "2026-11-11T09:00:00.000Z"
+              },
+              {
+                "title": "Stephen Miller’s Wife Katie Miller Reportedly Ended Podcast Deal with Paramount After He Took White House Chief of Staff Role",
+                "url": "https://www.indiewire.com/news/general-news/stephen-miller-katie-miller-ended-podcast-deal-paramount-1235226519/",
+                "source": "IndieWire",
+                "published": "2026-11-10T20:20:53.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "Live-Service Culling als strategic retreat",
+            "summary": "Sony cancelleert Fairgames en gaat terug naar console-focus; dit volgt een patroon waar mega-publishers zich terugtrekken uit live-service-experimenten. Dit is niet alleen een zakelijk pivot maar een cultureel statement: ambities rond 'infinite engagement' worden verlaten.",
+            "why_it_matters": "Dit markeert het einde van een 5-jaar hype-cycle rond 'live service as future', een institutional reset die echoveert in hoe merken engagement meten en waarderen.",
+            "strategic_signal": "Merken die gaming als 'lifetime engagement channel' zien, moeten nu het narratief verschuiven van 'persistent worlds' naar 'episodic drops' en collectible moments. Sony's terugtocht geeft hieraan permission.",
+            "trajectory": "afbouwend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Consequence",
+              "Google News BE Gaming",
+              "Kotaku",
+              "Rock Paper Shotgun",
+              "The Verge"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Sony have cancelled Fairgame$, once again reminding us that chasing live service big bucks basically never works",
+                "url": "https://www.rockpapershotgun.com/sony-have-cancelled-fairgame-once-again-reminding-us-that-chasing-live-service-big-bucks-basically-never-works",
+                "source": "Rock Paper Shotgun",
+                "published": "2026-11-10T21:28:00.000Z"
+              },
+              {
+                "title": "Sony cancels live-service shooter Fairgames",
+                "url": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled",
                 "source": "The Verge",
-                "published": "2026-11-10T13:30:00.000Z"
+                "published": "2026-11-10T21:06:12.000Z"
               },
               {
-                "title": "Hands-on with Ring’s new AI drone camera for your home",
-                "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
-                "source": "The Verge",
-                "published": "2026-11-10T13:30:00.000Z"
+                "title": "Sony Kills PlayStation PC App Most People Never Heard Of And Only 0.4 Percent Of Players Used",
+                "url": "https://kotaku.com/sony-kills-playstation-pc-app-most-people-never-heard-of-and-only-0-4-percent-of-players-used-2000755607",
+                "source": "Kotaku",
+                "published": "2026-11-11T00:00:17.000Z"
               },
               {
-                "title": "Ring’s Indoor Drone Camera Is Back—and Now Powered by AI",
-                "url": "https://www.wired.com/story/ring-robotics-drone-cam-rover-cam/",
-                "source": "Wired",
-                "published": "2026-11-10T13:30:00.000Z"
+                "title": "Sony komt met nieuwe PlayStation, maar miljoenen gamers vallen uit de boot - Nieuws365",
+                "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYk1rOXIxTFI2SkpIWEhTZHhuRXgzeDJmbzBfN3VUbmdsR3ptU00xR1NHU0JEY2w2QVlVOGVGT2VMZmpYcDBkTHllcGhfNkZyemF2Y1B2bThKX05TOE9YUHd3dXA3cjN5bnlRdnhTZFVFcVpfMmJnVEtWM1RCdkpoT29CUy0xdG5xS0VKTGNJRWV3ZTZNS09JYlBKMVpZbkJDQnROS2NRNzdhWnM?oc=5",
+                "source": "Google News BE Gaming",
+                "published": "2026-11-10T19:00:00.000Z"
               }
             ]
           }
@@ -203,61 +260,42 @@
       }
     ]
   },
-  "crossCategory": {
-    "generatedAt": "2026-11-10T14:36:55.635Z",
-    "megaTrends": [
-      {
-        "trend": "Institutional Authority Collapse Across Sectors",
-        "summary": "Film ziet gatekeeping-structuren van machtscentra (studios, management) instorten door predatie-onthullingen, terwijl internet-normalisatie van AI-surveillance aantoont hoe autoriteiten (tech, staat) controle claimen zonder publiek mandaat. Beide tonen erosie van vertrouwen in instituties die cultuur mediëren.",
-        "why_it_matters": "Dit signaleert dat consumenten niet langer automatisch instituties accepteren als legitieme curatoren van cultuur, informatie en privacy.",
-        "categories": [
-          "film",
-          "internet"
-        ],
-        "strength": "sterk"
-      }
-    ]
-  },
   "weeklyBrandSignals": {
-    "generatedAt": "2026-11-05T12:21:04.000Z",
+    "generatedAt": "2026-11-11T13:53:33.552Z",
     "weeklyBrandSignals": [
       {
-        "trend": "Prestige directors go short on YouTube",
-        "category": "film",
-        "what_is_happening": "Tony Kaye, director of American History X, has made a short about Leicester's giant monsters, while My Chemical Romance and Lauren Tsai teamed up on a short film featuring Hideo Kojima. Curry Barker, director of Obsession, simply put his new horror short on YouTube.",
-        "why_it_matters_for_brands": "Short video on open platforms now carries creative prestige, so a brand-funded short gets judged as a film, not as an ad.",
-        "what_brands_can_do": [
-          "Commission a short with an open brief instead of a scripted spot, and let the director's voice lead.",
-          "Publish where audiences already watch, such as YouTube, rather than hiding the film on a campaign page.",
-          "Judge success on rewatches and conversation, not only on completed views and click-through."
-        ]
-      },
-      {
-        "trend": "Halloween costumes as public self-roast",
-        "category": "culture",
-        "what_is_happening": "Lily Allen dressed as Ticketmaster's unsold seat map for Halloween, turning her own empty seats into the joke. Heidi Klum went as a severed hand and Gracie Abrams switched from Juliet to Romeo during her SNL performances.",
-        "why_it_matters_for_brands": "A brand that can laugh at its own misstep earns more attention and goodwill than one that hides it.",
-        "what_brands_can_do": [
-          "Answer your own public mistakes with humour when the brand can carry it and the issue is resolved.",
-          "Build seasonal moments around a self-aware idea, not just themed packaging or decoration.",
-          "Keep the joke on yourself, never on your customers or the people affected."
-        ]
-      },
-      {
-        "trend": "Techno honours its Detroit founder",
+        "trend": "Festival Lineups Reframe Cultural Belonging",
         "category": "music",
-        "what_is_happening": "Juan Atkins, co-founder of techno and a member of the Belleville Three, has died aged 64. Tributes across the scene trace his influence from Detroit to today's festival culture, including Tomorrowland.",
-        "why_it_matters_for_brands": "Brands that borrow from a music culture are expected to know and credit the people who built it.",
+        "what_is_happening": "Coachella 2027 and State Fayre are making deliberate curatorial choices that foreground geographic diversity and gender representation, elevating Latin American artists to mainstage prominence and building an entirely all-female billing. These are not accidental programming decisions but public statements about who deserves visibility at the highest level of mainstream culture.",
+        "why_it_matters_for_brands": "Festival partnerships and sponsorships are now read as endorsements of a curatorial worldview, meaning brands that align with specific lineups are implicitly taking a position on representation and cultural access.",
         "what_brands_can_do": [
-          "Credit the roots of the music and scenes your brand borrows from, by name and in context.",
-          "Support archives, education or local scenes over the long term rather than sponsoring a single tribute moment.",
-          "Stay quiet on a loss if your brand has no real connection to the artist or scene."
+          "Audit which artists and communities your sponsorships actually amplify, then adjust partnership criteria to reflect deliberate representation choices.",
+          "Commission original content around underrepresented genres, giving artists creative control rather than producing brand-first formats.",
+          "Build long-term artist relationships beyond single activations, signalling sustained investment in communities rather than trend-chasing."
+        ]
+      },
+      {
+        "trend": "Architecture Designed as Collective Memory",
+        "category": "art",
+        "what_is_happening": "Jean Nouvel's Shenzhen Opera House and Sumayya Vally's Elie Khouri Art Foundation are both using concepts of memory and belonging as the central design logic, not just as aesthetic choices but as explicit briefs. These megaprojects signal a broader shift in which buildings are commissioned to perform cultural identity work as much as functional ones.",
+        "why_it_matters_for_brands": "As institutions and cities invest in physical spaces that anchor collective identity, brands that create or inhabit meaningful physical environments gain a credibility that digital presence alone cannot replicate.",
+        "what_brands_can_do": [
+          "Invest in physical spaces that reference local history or community memory, moving beyond generic flagship aesthetics.",
+          "Partner with architects or spatial designers whose work engages with cultural heritage, lending depth to brand environments.",
+          "Design retail or event spaces around a specific memory or place-based concept, giving visitors something to remember rather than merely experience."
+        ]
+      },
+      {
+        "trend": "Publishers Retreat from Infinite Engagement",
+        "category": "gaming",
+        "what_is_happening": "Sony has cancelled its live-service title Fairgames and is refocusing on its core console model, following a broader pattern of major publishers stepping back from the live-service format that dominated strategic thinking for the past five years. This represents not just a financial correction but a cultural signal that perpetual engagement loops are losing both player trust and institutional confidence.",
+        "why_it_matters_for_brands": "The collapse of the infinite-engagement model in gaming challenges the assumption, shared across many brand categories, that sustained attention is best captured through always-on, update-driven content strategies.",
+        "what_brands_can_do": [
+          "Shift content planning from volume and frequency towards fewer, higher-quality moments that audiences genuinely anticipate.",
+          "Measure engagement quality, return visits with intent, over raw time-on-platform or interaction counts.",
+          "Test finite content formats, defined series, seasonal drops, or one-off events, rather than defaulting to perpetual content streams."
         ]
       }
-    ],
-    "sendDate": "2026-11-06",
-    "locked": true,
-    "selection": "manual",
-    "lockedAt": "2026-11-05T12:21:04.813Z"
+    ]
   }
 }
