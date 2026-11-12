@@ -1,258 +1,110 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-11T13:51:36.942Z",
-    "intro": "5 categorieën · 5 trends · laatste 24u",
+    "generatedAt": "2026-11-12T14:53:33.297Z",
+    "intro": "2 categorieën · 2 trends · laatste 24u",
     "categories": [
       {
-        "id": "music",
-        "label": "Muziek",
+        "id": "lokaal",
+        "label": "Lokaal",
         "insights": [
           {
-            "trend": "Festival Lineups als geopolitieke vensters",
-            "summary": "Coachella 2027 en State Fayre positioneren zich expliciet rond geografische en genremix: Latijns-Amerikaanse artiesten (reggaeton, cumbia villera, trap latino) krijgen mainstageniveaus, terwijl State Fayre zich volledig 'all-female' profileert. Dit is geen toeval maar bewuste curatie rond identiteit en vertegenwoordiging.",
-            "why_it_matters": "Festivals worden niet langer alleen om muziek, maar als statements over wie 'thuishoort' op mainstream podia, een indicator van hoe merk- en cultuurinstitutie collectively rekalibreren rond inclusie.",
-            "strategic_signal": "Brands kunnen nu festival-partnerships gebruiken niet als affinity play maar als directe positionering statement: een luxury merk bij Coachella 2027 signaleert 'wij erkennen Latijns-Amerikaanse cultural centrality'; een campaign rond State Fayre signaleert 'wij ondersteunen vrouwelijk leiderschap in roots-muziek'.",
-            "trajectory": "piekend",
+            "trend": "Festival as Curatorial Laboratory for Niche Genres",
+            "summary": "Filmfestivals (Rotterdam, Cairo) en creatieve stadsfestivals positioneren zich als experimenteerplatformen voor opkomende culturele fenomenen, van analog horror tot hybride performances. Deze festivals functioneren niet meer primair als showcases, maar als onderzoeksomgevingen waar publiek en kunstenaars samen nieuwe vormen exploreren.",
+            "why_it_matters": "Dit signaleert dat audiences bereid zijn om rauw, onaf werk te consumeren en dat festivals als culturele R&D-motoren fungeren, niet langer gatekeepers maar trendsetters die subculturele fenomenen naar mainstream legitimiteit tillen.",
+            "strategic_signal": "Merken die 'cultural relevance' zoeken kunnen festivals als testbeds gebruiken om niche-doelgroepen (analog horror fans, digital culture enthusiasts) te activeren voordat ze massaal gaan—investeer in festival-partnerships waar je publiek co-creator is, niet consument.",
+            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Billboard",
               "Consequence",
-              "Crack Magazine",
+              "Coolhunting",
+              "De Tijd Cultuur",
+              "Google News BE Entertainment (FR)",
               "Google News BE Festivals",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
-              "Sneaker News",
+              "HLN Antwerpen",
+              "The Hollywood Reporter",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Daddy Yankee, Milo J, and Bad Gyal Lead Coachella 2027’s Latin Contingent",
-                "url": "https://consequence.net/2026/11/daddy-yankee-milo-j-bad-gyal-coachella-2027/",
-                "source": "Consequence",
-                "published": "2026-11-11T13:02:29.000Z"
-              },
-              {
-                "title": "Coachella 2027 Lineup: Tame Impala, SZA, and Dua Lipa",
-                "url": "https://pitchfork.com/story/coachella-2027-lineup-tame-impala-sza-and-dua-lipa/",
-                "source": "Pitchfork News",
-                "published": "2026-11-11T10:43:27.000Z"
-              },
-              {
-                "title": "Coachella 2027 line-up revealed with Dua Lipa, Madonna, Tame Impala, SZA and more",
-                "url": "https://www.nme.com/news/music/coachella-2027-line-up-revealed-with-dua-lipa-madonna-tame-impala-sza-and-more-3975649",
-                "source": "NME",
-                "published": "2026-11-11T10:00:33.000Z"
-              },
-              {
-                "title": "Coachella Reveals 2027 Lineup: SZA, Tame Impala, Dua Lipa, and Madonna",
-                "url": "https://consequence.net/2026/11/coachella-2027-lineup-sza-tame-impala-dua-lipa/",
-                "source": "Consequence",
-                "published": "2026-11-11T09:00:50.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "fashion",
-        "label": "Fashion",
-        "insights": [
-          {
-            "trend": "Heritage Collaborations als nostalgia licensing engine",
-            "summary": "Space Jam 30th Anniversary Air Jordans (Lola Bunny, Santa Claus versies) en Jordan 4 Retro zijn geen nieuwe designs maar gecontextualiseerde rereleases rond jubilea. Dit volgt het 2026-11-09-patroon: 'nostalgia touring' verplaatst zich nu van concert naar sneaker-collectability.",
-            "why_it_matters": "Footwear-releases worden structureel gekoppeld aan media-anniversaries. Dit creëert cross-category nostalgia-narratives waar een sneaker een totem wordt van collective memory.",
-            "strategic_signal": "Brands kunnen de komende weken niet meer 'new collaboration' claimen; in plaats daarvan: 'heritage recontextualization'. Partner met 30th/25th/20th anniversaries van culturele IP en frame releases rond 'remembrance moments', niet 'novelty'.",
-            "trajectory": "piekend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Highsnobiety",
-              "Hypebeast",
-              "Sneaker News",
-              "Volkskrant Cultuur"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Don’t Call Ever Lola Bunny's Clean Air Jordan “Doll”",
-                "url": "https://www.highsnobiety.com/p/jordan-3-space-jam-lola-bunny/",
-                "source": "Highsnobiety",
-                "published": "2026-11-11T09:38:58.000Z"
-              },
-              {
-                "title": "Santa Claus’ Air Jordan Sneakers Are Almost Too Nice",
-                "url": "https://www.highsnobiety.com/p/jordan-3-santa/",
-                "source": "Highsnobiety",
-                "published": "2026-11-11T09:35:12.000Z"
-              },
-              {
-                "title": "Jordan 4 Retro TD “Bred” Takes MJ’s ‘89 Classic From Hardwood to Turf",
-                "url": "https://hypebeast.com/2026/11/jordan-4-retro-td-bred-hq0207-001-release-info",
-                "source": "Hypebeast",
-                "published": "2026-11-11T09:09:26.000Z"
-              },
-              {
-                "title": "Jordan Firstman over ‘Club Kid’: ‘Elke emotie die je kunt voelen in zo’n club, heb ik gevoeld’",
-                "url": "https://www.volkskrant.nl/films/jordan-firstman-over-club-kid-elke-emotie-die-je-kunt-voelen-in-zo-n-club-heb-ik-gevoeld~b00d29d6/",
-                "source": "Volkskrant Cultuur",
-                "published": "2026-11-11T12:17:20.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "film",
-        "label": "Film & TV",
-        "insights": [
-          {
-            "trend": "Queer Narratives als mainstream drama-motor",
-            "summary": "'Club Kid' en 'American Heiress' markeren een verschuiving: queer-thema's (parenthood, identity negotiation) worden niet meer als niche-content maar als centrale dramaturgie in broadcast en streaming producties ingebed. Dit volgt rechtstreeks op het 2026-patroon van fandom-stewardship en institutionele rebrand.",
-            "why_it_matters": "Traditionele gatekeepers (MGM+, Netflix, streamers) adopteren narratieve frameworks die voorheen door queer communities werden 'beheerd'. Dit is institutionalisering van culturele stewardship.",
-            "strategic_signal": "Merken die in Q1 2027 campagnes rond 'family/belonging' lanceren, kunnen nu expliciet queer narratives gebruiken in casting en messaging zonder tokenisme-risico. Het is al mainstream distributie.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "De Tijd Cultuur",
-              "Deadline",
-              "Fashionista",
-              "Google News BE Film",
-              "IndieWire",
-              "Marketing Dive"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Recensie 'Club Kid' | Charmante film dribbelt rond heikele thema van ideale familie",
-                "url": "https://www.tijd.be/r/t/1/id/10699383",
-                "source": "De Tijd Cultuur",
-                "published": "2026-11-11T11:46:31.000Z"
-              },
-              {
-                "title": "Lightdox Acquires Sales Rights To IDFA World Premiere ‘The Big Boom!’, Gabriel Tejedor Film With Explosive Contradictions",
-                "url": "https://deadline.com/2026/11/the-big-boom-lightdox-sales-acquisition-trailer-premiere-1237220099/",
-                "source": "Deadline",
-                "published": "2026-11-11T10:02:36.000Z"
-              },
-              {
-                "title": "Want a Full Scholarship to One of Our Film Festival Intensives? IndieWire’s Future of Filmmaking Video Contest Is Now Live",
-                "url": "https://www.indiewire.com/news/events/indiewire-future-of-filmmaking-video-contest-2026-1235225520/",
-                "source": "IndieWire",
-                "published": "2026-11-10T23:46:00.000Z"
-              },
-              {
-                "title": "Must Read: Skims Receives Backlash Over Holiday Advent Calendar, Dior’s 'Hand-Drawn' Holiday Film Draws AI Accusations",
-                "url": "https://fashionista.com/2026/11/skims-holiday-advent-calendar-backlash",
-                "source": "Fashionista",
-                "published": "2026-11-10T17:00:00.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "art",
-        "label": "Art & Design",
-        "insights": [
-          {
-            "trend": "Architectural Megaprojects als cultural memory anchors",
-            "summary": "Jean Nouvel's Shenzhen Opera House (2028) en Sumayya Vally's Elie Khouri Art Foundation gebruiken 'memory' en 'house' als centrale designmetaforen. Dit is geen toeval: architectuur wordt expliciet ingekaderd als cultureel geheugen-werk, niet alleen functie.",
-            "why_it_matters": "Dit signaleert een globale shift waar bouwwerken zelf als narrative vessels voor collectieve identiteit worden ontworpen, architectuur als cultural infrastructure reset (zie 2026-11-10-trend).",
-            "strategic_signal": "Brands kunnen nu partnerships met architecten/musea framen niet als 'space design' maar als 'memory stewardship'. Dit geeft campagnes diepte en langetermijnrelevantie.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Design Boom",
-              "Dezeen",
-              "IndieWire",
-              "Variety",
-              "Yanko Design"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "jean nouvel’s shenzhen opera house takes shape on the waterfront, with completion set for 2028",
-                "url": "https://www.designboom.com/architecture/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028/",
-                "source": "Design Boom",
-                "published": "2026-11-11T11:00:16.000Z"
-              },
-              {
-                "title": "Taiwan Creative Content Fest Takeaways: ‘Avatar’ VFX House Brings Its AI Ambitions to Taipei as Character IP Booms",
-                "url": "https://variety.com/2026/film/markets-festivals/taiwan-creative-content-fest-takeaways-ai-deals-character-ip-boom-1236945001/",
+                "title": "Cairo Film Festival Artistic Director Mohamed Tarek on Trusting Audiences: They ‘Are Often More Adventurous Than We Imagine’",
+                "url": "https://variety.com/2026/film/global/cairo-film-festival-artistic-director-mohamed-tarek-1236946096/",
                 "source": "Variety",
-                "published": "2026-11-11T09:32:48.000Z"
+                "published": "2026-11-12T14:23:57.000Z"
               },
               {
-                "title": "Sumayya Vally to design Dubai art foundation around the \"memory of a house\"",
-                "url": "https://www.dezeen.com/2026/11/11/sumayya-vally-dubai-elie-khouri-art-foundation/",
-                "source": "Dezeen",
-                "published": "2026-11-11T09:00:00.000Z"
+                "title": "Rotterdam Film Festival, in Nod to ‘Backrooms’ and ‘Obsession,’ Sets Analog Horror 2.0 Focus",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/rotterdam-2027-iffr-backrooms-nod-analog-horror-focus-1236753830/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-12T14:00:00.000Z"
               },
               {
-                "title": "Stephen Miller’s Wife Katie Miller Reportedly Ended Podcast Deal with Paramount After He Took White House Chief of Staff Role",
-                "url": "https://www.indiewire.com/news/general-news/stephen-miller-katie-miller-ended-podcast-deal-paramount-1235226519/",
-                "source": "IndieWire",
-                "published": "2026-11-10T20:20:53.000Z"
+                "title": "Full Circle blikt terug op topeditie met 15.000 feestvarkens, festival kijkt uit naar nieuwe editie in Gent",
+                "url": "https://www.hln.be/antwerpen/full-circle-blikt-terug-op-topeditie-met-15-000-feestvarkens-festival-kijkt-uit-naar-nieuwe-editie-in-gent~ae17fda5/",
+                "source": "HLN Antwerpen",
+                "published": "2026-11-12T13:18:56.000Z"
+              },
+              {
+                "title": "Signal Festival Founder Martin Pošta on Light, Crowds and Changing Society Homeopathically",
+                "url": "https://coolhunting.com/culture/signal-festival-founder-martin-posta-on-light-crowds-and-changing-society-homeopathically/",
+                "source": "Coolhunting",
+                "published": "2026-11-12T12:02:00.000Z"
               }
             ]
           }
         ]
       },
       {
-        "id": "gaming",
-        "label": "Gaming",
+        "id": "internet",
+        "label": "Internet",
         "insights": [
           {
-            "trend": "Live-Service Culling als strategic retreat",
-            "summary": "Sony cancelleert Fairgames en gaat terug naar console-focus; dit volgt een patroon waar mega-publishers zich terugtrekken uit live-service-experimenten. Dit is niet alleen een zakelijk pivot maar een cultureel statement: ambities rond 'infinite engagement' worden verlaten.",
-            "why_it_matters": "Dit markeert het einde van een 5-jaar hype-cycle rond 'live service as future', een institutional reset die echoveert in hoe merken engagement meten en waarderen.",
-            "strategic_signal": "Merken die gaming als 'lifetime engagement channel' zien, moeten nu het narratief verschuiven van 'persistent worlds' naar 'episodic drops' en collectible moments. Sony's terugtocht geeft hieraan permission.",
-            "trajectory": "afbouwend",
+            "trend": "Smart Home Display als Ambient Lifestyle Interface",
+            "summary": "Apple's HomeView en concurrerende smart displays positioneren zich niet als utiliteitsapparaten maar als lifestyle-anchors—ze integreren authenticatie, huishoudcontrole en omgevingsdesign in één object. Reviews benadrukken 'favoriet apparaat'-status en gezinsgebruik in plaats van puur functionaliteit.",
+            "why_it_matters": "Dit markeert een verschuiving van IoT-als-tool naar IoT-als-décor: smart home is nu een statement over je woonkeuze en technologische smaak, niet alleen efficiëntie. Dit opent merken nieuwe ruimtes voor lifestyle-positionering.",
+            "strategic_signal": "Merken kunnen smart displays framen als 'centerpiece' van daily rituals (koffie, avondrust) in plaats van tech specs—denk eerder 'ambient companion' dan 'voice assistant' in je creatives en partnerships.",
+            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Consequence",
-              "Google News BE Gaming",
-              "Kotaku",
-              "Rock Paper Shotgun",
-              "The Verge"
+              "A.V. Club",
+              "Adweek",
+              "Ars Technica",
+              "The Verge",
+              "Wired"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Sony have cancelled Fairgame$, once again reminding us that chasing live service big bucks basically never works",
-                "url": "https://www.rockpapershotgun.com/sony-have-cancelled-fairgame-once-again-reminding-us-that-chasing-live-service-big-bucks-basically-never-works",
-                "source": "Rock Paper Shotgun",
-                "published": "2026-11-10T21:28:00.000Z"
-              },
-              {
-                "title": "Sony cancels live-service shooter Fairgames",
-                "url": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled",
+                "title": "I reviewed the Apple HomeView, ask me anything",
+                "url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
                 "source": "The Verge",
-                "published": "2026-11-10T21:06:12.000Z"
+                "published": "2026-11-12T14:10:00.000Z"
               },
               {
-                "title": "Sony Kills PlayStation PC App Most People Never Heard Of And Only 0.4 Percent Of Players Used",
-                "url": "https://kotaku.com/sony-kills-playstation-pc-app-most-people-never-heard-of-and-only-0-4-percent-of-players-used-2000755607",
-                "source": "Kotaku",
-                "published": "2026-11-11T00:00:17.000Z"
+                "title": "The pricey new Apple TV 4K is still the best streamer around",
+                "url": "https://www.theverge.com/tech/1031633/apple-tv-4k-4th-gen-review",
+                "source": "The Verge",
+                "published": "2026-11-12T14:00:00.000Z"
               },
               {
-                "title": "Sony komt met nieuwe PlayStation, maar miljoenen gamers vallen uit de boot - Nieuws365",
-                "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYk1rOXIxTFI2SkpIWEhTZHhuRXgzeDJmbzBfN3VUbmdsR3ptU00xR1NHU0JEY2w2QVlVOGVGT2VMZmpYcDBkTHllcGhfNkZyemF2Y1B2bThKX05TOE9YUHd3dXA3cjN5bnlRdnhTZFVFcVpfMmJnVEtWM1RCdkpoT29CUy0xdG5xS0VKTGNJRWV3ZTZNS09JYlBKMVpZbkJDQnROS2NRNzdhWnM?oc=5",
-                "source": "Google News BE Gaming",
-                "published": "2026-11-10T19:00:00.000Z"
+                "title": "Apple’s HomeView is my new favorite smart display — but not my daughter’s",
+                "url": "https://www.theverge.com/tech/1031726/apple-homeview-review-smart-display-homekit",
+                "source": "The Verge",
+                "published": "2026-11-12T14:00:00.000Z"
+              },
+              {
+                "title": "Apple’s HomeView Tries Face Authentication Without FaceID",
+                "url": "https://www.wired.com/story/apples-homeview-tries-face-authentication-without-faceid/",
+                "source": "Wired",
+                "published": "2026-11-12T14:00:00.000Z"
               }
             ]
           }

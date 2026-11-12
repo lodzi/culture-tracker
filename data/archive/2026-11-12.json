@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-12",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-12T14:53:33.297Z",
+    "intro": "2 categorieën · 2 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "lokaal",
+        "label": "Lokaal",
+        "insights": [
+          {
+            "trend": "Festival as Curatorial Laboratory for Niche Genres",
+            "summary": "Filmfestivals (Rotterdam, Cairo) en creatieve stadsfestivals positioneren zich als experimenteerplatformen voor opkomende culturele fenomenen, van analog horror tot hybride performances. Deze festivals functioneren niet meer primair als showcases, maar als onderzoeksomgevingen waar publiek en kunstenaars samen nieuwe vormen exploreren.",
+            "why_it_matters": "Dit signaleert dat audiences bereid zijn om rauw, onaf werk te consumeren en dat festivals als culturele R&D-motoren fungeren, niet langer gatekeepers maar trendsetters die subculturele fenomenen naar mainstream legitimiteit tillen.",
+            "strategic_signal": "Merken die 'cultural relevance' zoeken kunnen festivals als testbeds gebruiken om niche-doelgroepen (analog horror fans, digital culture enthusiasts) te activeren voordat ze massaal gaan—investeer in festival-partnerships waar je publiek co-creator is, niet consument.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Consequence",
+              "Coolhunting",
+              "De Tijd Cultuur",
+              "Google News BE Entertainment (FR)",
+              "Google News BE Festivals",
+              "HLN Antwerpen",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Cairo Film Festival Artistic Director Mohamed Tarek on Trusting Audiences: They ‘Are Often More Adventurous Than We Imagine’",
+                "url": "https://variety.com/2026/film/global/cairo-film-festival-artistic-director-mohamed-tarek-1236946096/",
+                "source": "Variety",
+                "published": "2026-11-12T14:23:57.000Z"
+              },
+              {
+                "title": "Rotterdam Film Festival, in Nod to ‘Backrooms’ and ‘Obsession,’ Sets Analog Horror 2.0 Focus",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/rotterdam-2027-iffr-backrooms-nod-analog-horror-focus-1236753830/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-12T14:00:00.000Z"
+              },
+              {
+                "title": "Full Circle blikt terug op topeditie met 15.000 feestvarkens, festival kijkt uit naar nieuwe editie in Gent",
+                "url": "https://www.hln.be/antwerpen/full-circle-blikt-terug-op-topeditie-met-15-000-feestvarkens-festival-kijkt-uit-naar-nieuwe-editie-in-gent~ae17fda5/",
+                "source": "HLN Antwerpen",
+                "published": "2026-11-12T13:18:56.000Z"
+              },
+              {
+                "title": "Signal Festival Founder Martin Pošta on Light, Crowds and Changing Society Homeopathically",
+                "url": "https://coolhunting.com/culture/signal-festival-founder-martin-posta-on-light-crowds-and-changing-society-homeopathically/",
+                "source": "Coolhunting",
+                "published": "2026-11-12T12:02:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
+          {
+            "trend": "Smart Home Display als Ambient Lifestyle Interface",
+            "summary": "Apple's HomeView en concurrerende smart displays positioneren zich niet als utiliteitsapparaten maar als lifestyle-anchors—ze integreren authenticatie, huishoudcontrole en omgevingsdesign in één object. Reviews benadrukken 'favoriet apparaat'-status en gezinsgebruik in plaats van puur functionaliteit.",
+            "why_it_matters": "Dit markeert een verschuiving van IoT-als-tool naar IoT-als-décor: smart home is nu een statement over je woonkeuze en technologische smaak, niet alleen efficiëntie. Dit opent merken nieuwe ruimtes voor lifestyle-positionering.",
+            "strategic_signal": "Merken kunnen smart displays framen als 'centerpiece' van daily rituals (koffie, avondrust) in plaats van tech specs—denk eerder 'ambient companion' dan 'voice assistant' in je creatives en partnerships.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Adweek",
+              "Ars Technica",
+              "The Verge",
+              "Wired"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "I reviewed the Apple HomeView, ask me anything",
+                "url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
+                "source": "The Verge",
+                "published": "2026-11-12T14:10:00.000Z"
+              },
+              {
+                "title": "The pricey new Apple TV 4K is still the best streamer around",
+                "url": "https://www.theverge.com/tech/1031633/apple-tv-4k-4th-gen-review",
+                "source": "The Verge",
+                "published": "2026-11-12T14:00:00.000Z"
+              },
+              {
+                "title": "Apple’s HomeView is my new favorite smart display — but not my daughter’s",
+                "url": "https://www.theverge.com/tech/1031726/apple-homeview-review-smart-display-homekit",
+                "source": "The Verge",
+                "published": "2026-11-12T14:00:00.000Z"
+              },
+              {
+                "title": "Apple’s HomeView Tries Face Authentication Without FaceID",
+                "url": "https://www.wired.com/story/apples-homeview-tries-face-authentication-without-faceid/",
+                "source": "Wired",
+                "published": "2026-11-12T14:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-12T14:20:58.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Holiday ads face the craft test",
+        "category": "fashion",
+        "what_is_happening": "Dior's six-minute animated holiday film, Christian Dior's Night in Color, directed by Sylvain Chomet and billed as hand-drawn, drew online accusations of generative AI, which producer Aton Soumache answered by saying artists drew it over seven months and an interpolation tool was used for a very small part. Prada, E.l.f. and Strathberry are also putting the human labour behind their holiday ads front and centre.",
+        "why_it_matters_for_brands": "When a brand sells craft, audiences now check the frames, so a hand-made claim needs proof ready before anyone asks for it.",
+        "what_brands_can_do": [
+          "Publish sketches, process footage and named makers alongside any campaign you bill as hand-made.",
+          "Disclose every automated tool in the production up front, however small its role, rather than explaining it after the backlash.",
+          "Brief agencies to document the making of each holiday asset, so the evidence exists before launch."
+        ],
+        "sources": [
+          "https://fashionista.com/2026/11/skims-holiday-advent-calendar-backlash"
+        ]
+      },
+      {
+        "trend": "Chef personality beats Instagram sameness",
+        "category": "local",
+        "what_is_happening": "Gault&Millau 2027 made Boury in Roeselare the only Belgian restaurant with 19/20, named Gert De Mangeleer of Hertog Jan in Antwerp Chef of the Year and gave Pierre Wynants a standing ovation as Comme chez soi turns 100. Critic Jan Scheidtweiler pointed to a chef's personality as a possible deciding factor, since many restaurants now look alike on Instagram.",
+        "why_it_matters_for_brands": "When every plate looks the same on a feed, the person behind it becomes the difference, and the same holds for brands.",
+        "what_brands_can_do": [
+          "Put the faces and convictions behind your product in your content, not just the polished end result.",
+          "Partner with chefs or makers at the moment they are recognised, and let them speak in their own voice.",
+          "Mark annual guides like Gault&Millau in your calendar as fixed moments for food, hospitality and premium brands."
+        ],
+        "sources": [
+          "https://www.vrt.be/vrtnws/nl/2026/11/09/tim-boury-roeselare-blijft-aan-top-19-op-20-gault-millau-score-b/",
+          "https://www.brusselstimes.com/2400280/antwerps-gert-de-mangeleer-is-gaultmillau-chef-of-the-year"
+        ]
+      },
+      {
+        "trend": "GTA 6 launch clears the calendar",
+        "category": "gaming",
+        "what_is_happening": "Rockstar's Grand Theft Auto VI launches on 19 November on PlayStation 5 and Xbox Series X|S, unlocking at midnight local time in every region, with preloads open since 10 November and Xbox One owners able to stream it via Xbox Cloud Gaming. Take-Two says pre-orders have far exceeded its internal forecasts, and physical copies carry a download code rather than a disc.",
+        "why_it_matters_for_brands": "One release will absorb a huge audience's time and attention for days, so any brand launching that week competes with it whether it planned to or not.",
+        "what_brands_can_do": [
+          "Move your own launches and big announcements away from 19 November and the days that follow.",
+          "Acknowledge the moment with a light, relevant nod in your channels rather than borrowing the game's imagery without a licence.",
+          "Plan content for the people around the players, such as partners, flatmates and colleagues, who lose them for a week."
+        ],
+        "sources": [
+          "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+          "https://www.forbes.com/sites/brianmazique/2026/11/12/gta-6-unlocks-at-midnight-on-november-19-but-millions-of-americans-can-start-playing-the-night-before/",
+          "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+          "https://www.ibtimes.co.uk/gta-6-preorders-exceed-expectations-no-holiday-discounts-1813575"
+        ]
+      }
+    ],
+    "sendDate": "2026-11-13",
+    "locked": true,
+    "selection": "manual",
+    "lockedAt": "2026-11-12T14:20:58.970Z"
+  }
+}
