@@ -261,41 +261,58 @@
     ]
   },
   "weeklyBrandSignals": {
-    "generatedAt": "2026-11-11T13:53:33.552Z",
+    "generatedAt": "2026-11-12T14:20:58.000Z",
     "weeklyBrandSignals": [
       {
-        "trend": "Festival Lineups Reframe Cultural Belonging",
-        "category": "music",
-        "what_is_happening": "Coachella 2027 and State Fayre are making deliberate curatorial choices that foreground geographic diversity and gender representation, elevating Latin American artists to mainstage prominence and building an entirely all-female billing. These are not accidental programming decisions but public statements about who deserves visibility at the highest level of mainstream culture.",
-        "why_it_matters_for_brands": "Festival partnerships and sponsorships are now read as endorsements of a curatorial worldview, meaning brands that align with specific lineups are implicitly taking a position on representation and cultural access.",
+        "trend": "Holiday ads face the craft test",
+        "category": "fashion",
+        "what_is_happening": "Dior's six-minute animated holiday film, Christian Dior's Night in Color, directed by Sylvain Chomet and billed as hand-drawn, drew online accusations of generative AI, which producer Aton Soumache answered by saying artists drew it over seven months and an interpolation tool was used for a very small part. Prada, E.l.f. and Strathberry are also putting the human labour behind their holiday ads front and centre.",
+        "why_it_matters_for_brands": "When a brand sells craft, audiences now check the frames, so a hand-made claim needs proof ready before anyone asks for it.",
         "what_brands_can_do": [
-          "Audit which artists and communities your sponsorships actually amplify, then adjust partnership criteria to reflect deliberate representation choices.",
-          "Commission original content around underrepresented genres, giving artists creative control rather than producing brand-first formats.",
-          "Build long-term artist relationships beyond single activations, signalling sustained investment in communities rather than trend-chasing."
+          "Publish sketches, process footage and named makers alongside any campaign you bill as hand-made.",
+          "Disclose every automated tool in the production up front, however small its role, rather than explaining it after the backlash.",
+          "Brief agencies to document the making of each holiday asset, so the evidence exists before launch."
+        ],
+        "sources": [
+          "https://fashionista.com/2026/11/skims-holiday-advent-calendar-backlash"
         ]
       },
       {
-        "trend": "Architecture Designed as Collective Memory",
-        "category": "art",
-        "what_is_happening": "Jean Nouvel's Shenzhen Opera House and Sumayya Vally's Elie Khouri Art Foundation are both using concepts of memory and belonging as the central design logic, not just as aesthetic choices but as explicit briefs. These megaprojects signal a broader shift in which buildings are commissioned to perform cultural identity work as much as functional ones.",
-        "why_it_matters_for_brands": "As institutions and cities invest in physical spaces that anchor collective identity, brands that create or inhabit meaningful physical environments gain a credibility that digital presence alone cannot replicate.",
+        "trend": "Chef personality beats Instagram sameness",
+        "category": "local",
+        "what_is_happening": "Gault&Millau 2027 made Boury in Roeselare the only Belgian restaurant with 19/20, named Gert De Mangeleer of Hertog Jan in Antwerp Chef of the Year and gave Pierre Wynants a standing ovation as Comme chez soi turns 100. Critic Jan Scheidtweiler pointed to a chef's personality as a possible deciding factor, since many restaurants now look alike on Instagram.",
+        "why_it_matters_for_brands": "When every plate looks the same on a feed, the person behind it becomes the difference, and the same holds for brands.",
         "what_brands_can_do": [
-          "Invest in physical spaces that reference local history or community memory, moving beyond generic flagship aesthetics.",
-          "Partner with architects or spatial designers whose work engages with cultural heritage, lending depth to brand environments.",
-          "Design retail or event spaces around a specific memory or place-based concept, giving visitors something to remember rather than merely experience."
+          "Put the faces and convictions behind your product in your content, not just the polished end result.",
+          "Partner with chefs or makers at the moment they are recognised, and let them speak in their own voice.",
+          "Mark annual guides like Gault&Millau in your calendar as fixed moments for food, hospitality and premium brands."
+        ],
+        "sources": [
+          "https://www.vrt.be/vrtnws/nl/2026/11/09/tim-boury-roeselare-blijft-aan-top-19-op-20-gault-millau-score-b/",
+          "https://www.brusselstimes.com/2400280/antwerps-gert-de-mangeleer-is-gaultmillau-chef-of-the-year"
         ]
       },
       {
-        "trend": "Publishers Retreat from Infinite Engagement",
+        "trend": "GTA 6 launch clears the calendar",
         "category": "gaming",
-        "what_is_happening": "Sony has cancelled its live-service title Fairgames and is refocusing on its core console model, following a broader pattern of major publishers stepping back from the live-service format that dominated strategic thinking for the past five years. This represents not just a financial correction but a cultural signal that perpetual engagement loops are losing both player trust and institutional confidence.",
-        "why_it_matters_for_brands": "The collapse of the infinite-engagement model in gaming challenges the assumption, shared across many brand categories, that sustained attention is best captured through always-on, update-driven content strategies.",
+        "what_is_happening": "Rockstar's Grand Theft Auto VI launches on 19 November on PlayStation 5 and Xbox Series X|S, unlocking at midnight local time in every region, with preloads open since 10 November and Xbox One owners able to stream it via Xbox Cloud Gaming. Take-Two says pre-orders have far exceeded its internal forecasts, and physical copies carry a download code rather than a disc.",
+        "why_it_matters_for_brands": "One release will absorb a huge audience's time and attention for days, so any brand launching that week competes with it whether it planned to or not.",
         "what_brands_can_do": [
-          "Shift content planning from volume and frequency towards fewer, higher-quality moments that audiences genuinely anticipate.",
-          "Measure engagement quality, return visits with intent, over raw time-on-platform or interaction counts.",
-          "Test finite content formats, defined series, seasonal drops, or one-off events, rather than defaulting to perpetual content streams."
+          "Move your own launches and big announcements away from 19 November and the days that follow.",
+          "Acknowledge the moment with a light, relevant nod in your channels rather than borrowing the game's imagery without a licence.",
+          "Plan content for the people around the players, such as partners, flatmates and colleagues, who lose them for a week."
+        ],
+        "sources": [
+          "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+          "https://www.forbes.com/sites/brianmazique/2026/11/12/gta-6-unlocks-at-midnight-on-november-19-but-millions-of-americans-can-start-playing-the-night-before/",
+          "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+          "https://www.ibtimes.co.uk/gta-6-preorders-exceed-expectations-no-holiday-discounts-1813575"
         ]
       }
-    ]
+    ],
+    "sendDate": "2026-11-13",
+    "locked": true,
+    "selection": "manual",
+    "lockedAt": "2026-11-12T14:20:58.970Z"
   }
 }
