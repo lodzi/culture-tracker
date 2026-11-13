@@ -1,61 +1,108 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-12T14:53:33.297Z",
-    "intro": "2 categorieën · 2 trends · laatste 24u",
+    "generatedAt": "2026-11-13T14:18:17.684Z",
+    "intro": "3 categorieën · 3 trends · laatste 24u",
     "categories": [
       {
         "id": "lokaal",
         "label": "Lokaal",
         "insights": [
           {
-            "trend": "Festival as Curatorial Laboratory for Niche Genres",
-            "summary": "Filmfestivals (Rotterdam, Cairo) en creatieve stadsfestivals positioneren zich als experimenteerplatformen voor opkomende culturele fenomenen, van analog horror tot hybride performances. Deze festivals functioneren niet meer primair als showcases, maar als onderzoeksomgevingen waar publiek en kunstenaars samen nieuwe vormen exploreren.",
-            "why_it_matters": "Dit signaleert dat audiences bereid zijn om rauw, onaf werk te consumeren en dat festivals als culturele R&D-motoren fungeren, niet langer gatekeepers maar trendsetters die subculturele fenomenen naar mainstream legitimiteit tillen.",
-            "strategic_signal": "Merken die 'cultural relevance' zoeken kunnen festivals als testbeds gebruiken om niche-doelgroepen (analog horror fans, digital culture enthusiasts) te activeren voordat ze massaal gaan—investeer in festival-partnerships waar je publiek co-creator is, niet consument.",
+            "trend": "Institutional Power & Abuse as Urgent Cultural Reckonings",
+            "summary": "Multiple sources documenteren institutionele machtsmisbruik (conservatorium, politieke briefs, verkeersjustice) waar langdurige systemen van gatekeeping en impuniteit crashen. Dit gaat verder dan individuele schandalen, het raakt de legitimiteit van de instituties zelf.",
+            "why_it_matters": "Dit markeert een verdergaande erosie van vertrouwen in hiërarchische culturele en politieke instanties; wat werd stille norm is nu publieke crisis.",
+            "strategic_signal": "Voor culturele organisaties in België: audit je eigen power structures nu; transparantie over misconduct voorkomt latere institutionele implosie zoals we zien bij conservatoria.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Bruzz",
+              "Humo",
+              "VRT NWS",
+              "Volkskrant Cultuur"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Bestuurder krijgt boete na dodelijk ongeval met fietser in Haacht, maar is niet schuldig aan doodslag",
+                "url": "https://vrtnws.be/p.PqOAjB0JO",
+                "source": "VRT NWS",
+                "published": "2026-11-13T13:50:08.000Z"
+              },
+              {
+                "title": "Fontaines D.C. bewees in de AFAS Dome dat groter worden niet hetzelfde is als minder durven",
+                "url": "https://www.humo.be/muziek/recensie-fontaines-d-c-in-afas-dome-nooit-verslapping~b35aed43/",
+                "source": "Humo",
+                "published": "2026-11-13T06:50:00.000Z"
+              },
+              {
+                "title": "Oekraïense soldaten grijpen steeds vaker naar drank en drugs: ‘De oorlog zit in mijn systeem. Ik kan niet meer zonder, vrees ik’",
+                "url": "https://www.humo.be/muziek/oekraiense-soldaten-grijpen-steeds-vaker-naar-drank-en-drugs-de-oorlog-zit-in-mijn-systeem-ik-kan-niet-meer-zonder-vrees-ik~ba82ec96/",
+                "source": "Humo",
+                "published": "2026-11-13T06:03:46.000Z"
+              },
+              {
+                "title": "BRUZZ 24 ontvangt staatssecretaris Persoons na briefincident: 'Ik snap Crucke totaal niet'",
+                "url": "https://www.bruzz.be/videoreeks/journaal-bruzz-24/video-bruzz-24-ontvangt-staatssecretaris-persoons-na-briefincident-ik-snap-crucke-totaal-niet",
+                "source": "Bruzz",
+                "published": "2026-11-12T18:41:39.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Anime-to-Arena: Character IP as Concert Infrastructure",
+            "summary": "Netflix's 'KPop Demon Hunters' en andere anime properties worden rechtstreeks naar arena-sized live experiences getransformeerd, met geanimeerde karakters als headliners naast live stunts en performers. Dit markeert een fundamentele shift van character licensing naar character-as-talent in de concerteconomie.",
+            "why_it_matters": "Dit signaleert dat de grens tussen animatie, streaming IP en fysieke live entertainment volledig vervagen, merken kunnen nu karakter-driven experiences verkopen zonder afhankelijkheid van menselijke artiesten.",
+            "strategic_signal": "Voor festival- en event-strategen: onderzoek partnerships met anime/streaming studios voor co-branded arena events in 2027; dit is de volgende fase na gaming collaborations.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
+              "Billboard",
               "Consequence",
-              "Coolhunting",
-              "De Tijd Cultuur",
-              "Google News BE Entertainment (FR)",
-              "Google News BE Festivals",
-              "HLN Antwerpen",
-              "The Hollywood Reporter",
+              "IndieWire",
+              "NME",
+              "Pitchfork News",
+              "Sneaker News",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Cairo Film Festival Artistic Director Mohamed Tarek on Trusting Audiences: They ‘Are Often More Adventurous Than We Imagine’",
-                "url": "https://variety.com/2026/film/global/cairo-film-festival-artistic-director-mohamed-tarek-1236946096/",
+                "title": "HUNTR/X Hitting the Road for 2027 KPop Demon Hunters Golden World Tour: See Dates",
+                "url": "https://www.billboard.com/culture/tv-film/huntrx-2027-kpop-demon-hunters-golden-world-tour-dates-1236381638/",
+                "source": "Billboard",
+                "published": "2026-11-13T14:05:37.000Z"
+              },
+              {
+                "title": "‘KPop Demon Hunters’ Golden World Tour Sets 2027 Arena Dates",
+                "url": "https://variety.com/2026/music/news/kpop-demon-hunters-golden-world-tour-2027-arena-dates-1236946944/",
                 "source": "Variety",
-                "published": "2026-11-12T14:23:57.000Z"
+                "published": "2026-11-13T13:55:59.000Z"
               },
               {
-                "title": "Rotterdam Film Festival, in Nod to ‘Backrooms’ and ‘Obsession,’ Sets Analog Horror 2.0 Focus",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/rotterdam-2027-iffr-backrooms-nod-analog-horror-focus-1236753830/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-12T14:00:00.000Z"
+                "title": "Blink-182, Bring Me the Horizon, Turnstile, Motley Crue and The Prodigy to Headline 2027 Download Festival",
+                "url": "https://www.billboard.com/music/concerts/2027-download-festival-blink-182-evanescence-turnstile-lineup-1236381601/",
+                "source": "Billboard",
+                "published": "2026-11-13T13:24:32.000Z"
               },
               {
-                "title": "Full Circle blikt terug op topeditie met 15.000 feestvarkens, festival kijkt uit naar nieuwe editie in Gent",
-                "url": "https://www.hln.be/antwerpen/full-circle-blikt-terug-op-topeditie-met-15-000-feestvarkens-festival-kijkt-uit-naar-nieuwe-editie-in-gent~ae17fda5/",
-                "source": "HLN Antwerpen",
-                "published": "2026-11-12T13:18:56.000Z"
-              },
-              {
-                "title": "Signal Festival Founder Martin Pošta on Light, Crowds and Changing Society Homeopathically",
-                "url": "https://coolhunting.com/culture/signal-festival-founder-martin-posta-on-light-crowds-and-changing-society-homeopathically/",
-                "source": "Coolhunting",
-                "published": "2026-11-12T12:02:00.000Z"
+                "title": "Download 2027: Blink-182, Bring Me The Horizon and Evanescence lead stacked line-up",
+                "url": "https://www.nme.com/news/music/download-2027-blink-182-bring-me-the-horizon-and-evanescence-lead-stacked-line-up-3975835",
+                "source": "NME",
+                "published": "2026-11-13T10:25:43.000Z"
               }
             ]
           }
@@ -66,49 +113,63 @@
         "label": "Internet",
         "insights": [
           {
-            "trend": "Smart Home Display als Ambient Lifestyle Interface",
-            "summary": "Apple's HomeView en concurrerende smart displays positioneren zich niet als utiliteitsapparaten maar als lifestyle-anchors—ze integreren authenticatie, huishoudcontrole en omgevingsdesign in één object. Reviews benadrukken 'favoriet apparaat'-status en gezinsgebruik in plaats van puur functionaliteit.",
-            "why_it_matters": "Dit markeert een verschuiving van IoT-als-tool naar IoT-als-décor: smart home is nu een statement over je woonkeuze en technologische smaak, niet alleen efficiëntie. Dit opent merken nieuwe ruimtes voor lifestyle-positionering.",
-            "strategic_signal": "Merken kunnen smart displays framen als 'centerpiece' van daily rituals (koffie, avondrust) in plaats van tech specs—denk eerder 'ambient companion' dan 'voice assistant' in je creatives en partnerships.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
+            "trend": "Enterprise Infrastructure as Cultural Flashpoint",
+            "summary": "De massale Microsoft 365-outage triggerde een golf van viraal humor en publieke schadenfreude, wat aantoont dat bedrijfsinfrastructuur-storingen nu direct deel uitmaken van het cultuurgespreksonderwerp. Wat eerst een IT-incident was, werd geframed als collectieve social media-moment.",
+            "why_it_matters": "Dit toont aan dat bedrijfsbetrouwbaarheid nu een cultureel statement is, brand reputation wordt niet alleen bepaald door marketing, maar door hoe goed je systemen presteren onder druk in het volle zicht van miljarden mensen.",
+            "strategic_signal": "Communicatieteams: zorg dat je crisis-response tonaal aansluit op de manier waarop je doelgroep (met humor, transparantie) ermee omgaat; stilzwijgen of corporate-jargon versterkt de negatieve narrative.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
             "sources": [
-              "A.V. Club",
-              "Adweek",
-              "Ars Technica",
+              "Fast Company",
+              "Rock Paper Shotgun",
               "The Verge",
-              "Wired"
+              "VRT NWS"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "I reviewed the Apple HomeView, ask me anything",
-                "url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
-                "source": "The Verge",
-                "published": "2026-11-12T14:10:00.000Z"
+                "title": "Wereldwijde Microsoft-storing leidt tot hilariteit op sociale media: \"Maak er maar Microsoft 364 van\"",
+                "url": "https://vrtnws.be/p.LNWAvO1G1",
+                "source": "VRT NWS",
+                "published": "2026-11-13T13:53:23.000Z"
               },
               {
-                "title": "The pricey new Apple TV 4K is still the best streamer around",
-                "url": "https://www.theverge.com/tech/1031633/apple-tv-4k-4th-gen-review",
-                "source": "The Verge",
-                "published": "2026-11-12T14:00:00.000Z"
+                "title": "Microsoft’s massive Outlook outage collides with bad optics—from layoffs and buyouts to confusing updates",
+                "url": "https://www.fastcompany.com/91641977/microsoft-outlook-outage-bad-optics-with-layoffs-buyouts-updates",
+                "source": "Fast Company",
+                "published": "2026-11-13T13:13:00.000Z"
               },
               {
-                "title": "Apple’s HomeView is my new favorite smart display — but not my daughter’s",
-                "url": "https://www.theverge.com/tech/1031726/apple-homeview-review-smart-display-homekit",
-                "source": "The Verge",
-                "published": "2026-11-12T14:00:00.000Z"
+                "title": "Microsoft suffer system outage affecting Outlook, Teams and Copilot, exec says there's \"no indication this is the result of malicious or cyber activity\"",
+                "url": "https://www.rockpapershotgun.com/microsoft-suffer-system-outage-affecting-outlook-teams-and-copilot-exec-says-theres-no-indication-this-is-the-result-of-malicious-or-cyber-activity",
+                "source": "Rock Paper Shotgun",
+                "published": "2026-11-13T13:06:20.000Z"
               },
               {
-                "title": "Apple’s HomeView Tries Face Authentication Without FaceID",
-                "url": "https://www.wired.com/story/apples-homeview-tries-face-authentication-without-faceid/",
-                "source": "Wired",
-                "published": "2026-11-12T14:00:00.000Z"
+                "title": "Microsoft is winding down its Oracle deal. It could be a sign of what’s to come",
+                "url": "https://www.fastcompany.com/91638597/microsoft-is-winding-down-its-oracle-deal-it-could-be-a-sign-of-whats-to-come",
+                "source": "Fast Company",
+                "published": "2026-11-13T12:49:33.000Z"
               }
             ]
           }
         ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-11-13T14:18:20.705Z",
+    "megaTrends": [
+      {
+        "trend": "Institutional Systems Under Cultural Scrutiny",
+        "summary": "Zowel in lokale maatschappij als op internet worden machtsstructuren (van misbruik tot tech-infrastructuur) als culturele conflictpunten ervaren. Dit uit zich in urgente afrekeningen met bestaande instituties.",
+        "why_it_matters": "Dit duidt op een breder verlies van vertrouwen in gevestigde systemen en autoriteiten, wat fundamenteel herdefineert hoe cultuur zich organiseert.",
+        "categories": [
+          "lokaal",
+          "internet"
+        ],
+        "strength": "matig"
       }
     ]
   },
