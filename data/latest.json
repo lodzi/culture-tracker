@@ -1,175 +1,155 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-13T14:18:17.684Z",
-    "intro": "3 categorieën · 3 trends · laatste 24u",
+    "generatedAt": "2026-11-14T13:14:43.824Z",
+    "intro": "2 categorieën · 3 trends · laatste 24u",
     "categories": [
       {
         "id": "lokaal",
         "label": "Lokaal",
         "insights": [
           {
-            "trend": "Institutional Power & Abuse as Urgent Cultural Reckonings",
-            "summary": "Multiple sources documenteren institutionele machtsmisbruik (conservatorium, politieke briefs, verkeersjustice) waar langdurige systemen van gatekeeping en impuniteit crashen. Dit gaat verder dan individuele schandalen, het raakt de legitimiteit van de instituties zelf.",
-            "why_it_matters": "Dit markeert een verdergaande erosie van vertrouwen in hiërarchische culturele en politieke instanties; wat werd stille norm is nu publieke crisis.",
-            "strategic_signal": "Voor culturele organisaties in België: audit je eigen power structures nu; transparantie over misconduct voorkomt latere institutionele implosie zoals we zien bij conservatoria.",
-            "trajectory": "piekend",
-            "daysActive": 3,
-            "isNew": false,
-            "sources": [
-              "Bruzz",
-              "Humo",
-              "VRT NWS",
-              "Volkskrant Cultuur"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Bestuurder krijgt boete na dodelijk ongeval met fietser in Haacht, maar is niet schuldig aan doodslag",
-                "url": "https://vrtnws.be/p.PqOAjB0JO",
-                "source": "VRT NWS",
-                "published": "2026-11-13T13:50:08.000Z"
-              },
-              {
-                "title": "Fontaines D.C. bewees in de AFAS Dome dat groter worden niet hetzelfde is als minder durven",
-                "url": "https://www.humo.be/muziek/recensie-fontaines-d-c-in-afas-dome-nooit-verslapping~b35aed43/",
-                "source": "Humo",
-                "published": "2026-11-13T06:50:00.000Z"
-              },
-              {
-                "title": "Oekraïense soldaten grijpen steeds vaker naar drank en drugs: ‘De oorlog zit in mijn systeem. Ik kan niet meer zonder, vrees ik’",
-                "url": "https://www.humo.be/muziek/oekraiense-soldaten-grijpen-steeds-vaker-naar-drank-en-drugs-de-oorlog-zit-in-mijn-systeem-ik-kan-niet-meer-zonder-vrees-ik~ba82ec96/",
-                "source": "Humo",
-                "published": "2026-11-13T06:03:46.000Z"
-              },
-              {
-                "title": "BRUZZ 24 ontvangt staatssecretaris Persoons na briefincident: 'Ik snap Crucke totaal niet'",
-                "url": "https://www.bruzz.be/videoreeks/journaal-bruzz-24/video-bruzz-24-ontvangt-staatssecretaris-persoons-na-briefincident-ik-snap-crucke-totaal-niet",
-                "source": "Bruzz",
-                "published": "2026-11-12T18:41:39.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "music",
-        "label": "Muziek",
-        "insights": [
-          {
-            "trend": "Anime-to-Arena: Character IP as Concert Infrastructure",
-            "summary": "Netflix's 'KPop Demon Hunters' en andere anime properties worden rechtstreeks naar arena-sized live experiences getransformeerd, met geanimeerde karakters als headliners naast live stunts en performers. Dit markeert een fundamentele shift van character licensing naar character-as-talent in de concerteconomie.",
-            "why_it_matters": "Dit signaleert dat de grens tussen animatie, streaming IP en fysieke live entertainment volledig vervagen, merken kunnen nu karakter-driven experiences verkopen zonder afhankelijkheid van menselijke artiesten.",
-            "strategic_signal": "Voor festival- en event-strategen: onderzoek partnerships met anime/streaming studios voor co-branded arena events in 2027; dit is de volgende fase na gaming collaborations.",
+            "trend": "Brussel als illustratie-cultureel exportcentrum",
+            "summary": "Leo Timmers (Brussels illustrator) haalt New York Times top 10 prentenboeken, tweede bron bevestigt via VRT dezelfde publicatie. Dit markeert een groeiende erkenning van Belgische jeugdcultuur op internationale kinderboeken-circuits.",
+            "why_it_matters": "België positioneert zich als bron van authentieke, handgemaakt illustratief erfgoed, tegen digitale vervlakking, wat merken aantekt die nostalgie en craftsmanship willen signaleren.",
+            "strategic_signal": "Content-merken kunnen nu Belgische illustratie-expertise als cultural credibility-marker gebruiken in internationale campagnes, niet alleen als lokale troef.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Billboard",
-              "Consequence",
-              "IndieWire",
-              "NME",
-              "Pitchfork News",
-              "Sneaker News",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "HUNTR/X Hitting the Road for 2027 KPop Demon Hunters Golden World Tour: See Dates",
-                "url": "https://www.billboard.com/culture/tv-film/huntrx-2027-kpop-demon-hunters-golden-world-tour-dates-1236381638/",
-                "source": "Billboard",
-                "published": "2026-11-13T14:05:37.000Z"
-              },
-              {
-                "title": "‘KPop Demon Hunters’ Golden World Tour Sets 2027 Arena Dates",
-                "url": "https://variety.com/2026/music/news/kpop-demon-hunters-golden-world-tour-2027-arena-dates-1236946944/",
-                "source": "Variety",
-                "published": "2026-11-13T13:55:59.000Z"
-              },
-              {
-                "title": "Blink-182, Bring Me the Horizon, Turnstile, Motley Crue and The Prodigy to Headline 2027 Download Festival",
-                "url": "https://www.billboard.com/music/concerts/2027-download-festival-blink-182-evanescence-turnstile-lineup-1236381601/",
-                "source": "Billboard",
-                "published": "2026-11-13T13:24:32.000Z"
-              },
-              {
-                "title": "Download 2027: Blink-182, Bring Me The Horizon and Evanescence lead stacked line-up",
-                "url": "https://www.nme.com/news/music/download-2027-blink-182-bring-me-the-horizon-and-evanescence-lead-stacked-line-up-3975835",
-                "source": "NME",
-                "published": "2026-11-13T10:25:43.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "internet",
-        "label": "Internet",
-        "insights": [
-          {
-            "trend": "Enterprise Infrastructure as Cultural Flashpoint",
-            "summary": "De massale Microsoft 365-outage triggerde een golf van viraal humor en publieke schadenfreude, wat aantoont dat bedrijfsinfrastructuur-storingen nu direct deel uitmaken van het cultuurgespreksonderwerp. Wat eerst een IT-incident was, werd geframed als collectieve social media-moment.",
-            "why_it_matters": "Dit toont aan dat bedrijfsbetrouwbaarheid nu een cultureel statement is, brand reputation wordt niet alleen bepaald door marketing, maar door hoe goed je systemen presteren onder druk in het volle zicht van miljarden mensen.",
-            "strategic_signal": "Communicatieteams: zorg dat je crisis-response tonaal aansluit op de manier waarop je doelgroep (met humor, transparantie) ermee omgaat; stilzwijgen of corporate-jargon versterkt de negatieve narrative.",
-            "trajectory": "piekend",
-            "daysActive": 2,
-            "isNew": false,
-            "sources": [
-              "Fast Company",
-              "Rock Paper Shotgun",
-              "The Verge",
+              "Bruzz",
+              "Google News BE Entertainment (NL)",
+              "Google News BE Festivals",
+              "Humo",
               "VRT NWS"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Wereldwijde Microsoft-storing leidt tot hilariteit op sociale media: \"Maak er maar Microsoft 364 van\"",
-                "url": "https://vrtnws.be/p.LNWAvO1G1",
+                "title": "Station van Deinze al zeker tot woensdag niet bereikbaar met de auto na waterlek",
+                "url": "https://vrtnws.be/p.y316xB31W",
                 "source": "VRT NWS",
-                "published": "2026-11-13T13:53:23.000Z"
+                "published": "2026-11-14T11:52:08.000Z"
               },
               {
-                "title": "Microsoft’s massive Outlook outage collides with bad optics—from layoffs and buyouts to confusing updates",
-                "url": "https://www.fastcompany.com/91641977/microsoft-outlook-outage-bad-optics-with-layoffs-buyouts-updates",
-                "source": "Fast Company",
-                "published": "2026-11-13T13:13:00.000Z"
+                "title": "Matteo Simoni twijfelde geen seconde over rol in ‘Heysel 85’: “Driekwart van het stadion wist niet wat er aan de hand was” - Nieuwsblad",
+                "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQYnFGSHpaSkQ0MGduVkNzLURrbllFMGE2S3phSlNYaEFHRUo1Nk16ZlVWeC1LbkNCeTRMVWZCZkdqallzMW00WkQ3YjhGRzJwel9pOFR5N1FBaXVDR3Rwcmd2aFBweGs5WEJvZVFSWG5TTHZSV09ISVdkQVBlLWtFc0FrWi1UQ3Y3dkNJMlczNWN2N3FFc3ZXZlhqQ1ZQSUJBdDNxTzZuTXhfcnA0akdjR0dKSFpYX1hvODdoT0Q2NmtSLUtNcGkwSXdUTzcyT0t0VUtLZEJKNXJtdGo5RDZYQmx5RDNZVEh1LWJDZnp0Zjk0YWpLdXlTR1Bua1RxbDhBdFpfRFVhNWRpand1WXh1VkdnbTZYdVU?oc=5",
+                "source": "Google News BE Entertainment (NL)",
+                "published": "2026-11-14T11:00:00.000Z"
               },
               {
-                "title": "Microsoft suffer system outage affecting Outlook, Teams and Copilot, exec says there's \"no indication this is the result of malicious or cyber activity\"",
-                "url": "https://www.rockpapershotgun.com/microsoft-suffer-system-outage-affecting-outlook-teams-and-copilot-exec-says-theres-no-indication-this-is-the-result-of-malicious-or-cyber-activity",
-                "source": "Rock Paper Shotgun",
-                "published": "2026-11-13T13:06:20.000Z"
+                "title": "‘Trial by social media’ of net niet? ‘Tegen een mediafiguur wil je de strijd niet alleen voeren’",
+                "url": "https://www.humo.be/nieuws/is-de-zaak-bruinemehdi-een-trial-by-social-media-tegen-een-mediafiguur-wil-je-de-strijd-niet-alleen-voeren~b223f2c6/",
+                "source": "Humo",
+                "published": "2026-11-14T10:46:11.000Z"
               },
               {
-                "title": "Microsoft is winding down its Oracle deal. It could be a sign of what’s to come",
-                "url": "https://www.fastcompany.com/91638597/microsoft-is-winding-down-its-oracle-deal-it-could-be-a-sign-of-whats-to-come",
-                "source": "Fast Company",
-                "published": "2026-11-13T12:49:33.000Z"
+                "title": "Kamagurka: ‘Mijn kortetermijngeheugen is niet meer wat het drie minuten geleden geweest is’",
+                "url": "https://www.humo.be/humor/nieuwe-cartoons-van-kamagurka-mijn-kortetermijngeheugen-is-niet-meer-wat-het-drie-minuten-geleden-geweest-is~b4b81740/",
+                "source": "Humo",
+                "published": "2026-11-14T09:49:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Antwerpen horeca als curatorische buurtnaam-strategie",
+            "summary": "Horeca-uitbaters onder kathedraaltoren bundelen tot 'Pelgrimskwartier', een belevingsbuurt naar voorbeeld van Eilandje en Zuid. Dit is bewuste branding van geografische identiteit voor lokale attractie.",
+            "why_it_matters": "Steden transformeren informele horeca-clusters in naamgestelde cultuurzones, wat consument-navigatie en merkwaarde vergroot. Dit is publieke placemaking.",
+            "strategic_signal": "Voor horeca/lifestyle-merken: onderzoek of lokale business-coalities jullie merk kunnen integreren in deze emerging 'named neighborhoods'. Dit geeft schaalvoordeel zonder corporate overhead.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Bruzz",
+              "Dezeen",
+              "Fashionista",
+              "Google News BE Entertainment (NL)",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Brusselse illustrator Leo Timmers haalt top 10 prentenboeken van New York Times",
+                "url": "https://www.bruzz.be/select/literatuur/brusselse-illustrator-leo-timmers-haalt-top-10-prentenboeken-van-new-york-times-2026-11-14",
+                "source": "Bruzz",
+                "published": "2026-11-14T10:09:40.000Z"
+              },
+              {
+                "title": "Vlaamse jeugdauteur en illustrator Leo Timmers haalt top 10 prentenboeken van New York Times: \"Er gaat niets boven prenten maken op papier\" - VRT",
+                "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbm1RcmpLb0xtNmZJYWtLMmNCSUMtaTZRM1hGQm9hbE0wdHZoZ0ZYMWoxMFFGWHpXUWhnYlE1Sm1FS1BHY3FncGVWcUszWnE2eDE1TmhnRHZrdWZnZWVVdHI2UjNLTGtuNXdiRlh5QnE4TXVOUGY0NFZ1QXlwRmVqaXppMGpBY2tKdE8yaEliVTF5SE1ycFhIQzFsX3RMdw?oc=5",
+                "source": "Google News BE Entertainment (NL)",
+                "published": "2026-11-14T09:41:17.000Z"
+              },
+              {
+                "title": "Ben Stiller Gives Update on His New York Knicks Documentary: “The Pressure Is on”",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/ben-stiller-new-york-knicks-documentary-update-hbo-a24-1236754821/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-14T00:08:28.000Z"
+              },
+              {
+                "title": "ESP Showroom Is Hiring A Wholesale Fashion Showroom & Sales Coordinator In New York, NY (Hybrid)",
+                "url": "https://fashionista.com/2026/11/esp-showroom-is-hiring-a-wholesale-fashion-showroom-sales-coordinator-in-new-york-ny-hybrid",
+                "source": "Fashionista",
+                "published": "2026-11-13T18:37:55.000Z"
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  "crossCategory": {
-    "generatedAt": "2026-11-13T14:18:20.705Z",
-    "megaTrends": [
+      },
       {
-        "trend": "Institutional Systems Under Cultural Scrutiny",
-        "summary": "Zowel in lokale maatschappij als op internet worden machtsstructuren (van misbruik tot tech-infrastructuur) als culturele conflictpunten ervaren. Dit uit zich in urgente afrekeningen met bestaande instituties.",
-        "why_it_matters": "Dit duidt op een breder verlies van vertrouwen in gevestigde systemen en autoriteiten, wat fundamenteel herdefineert hoe cultuur zich organiseert.",
-        "categories": [
-          "lokaal",
-          "internet"
-        ],
-        "strength": "matig"
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Europese auteurs als internationale award-contenders",
+            "summary": "Lukas Dhont's 'Coward' en andere Europese films dominerend in European Film Award-nominaties, met Sandra Hüller als meervoudig genomineerde. Dit markeert een consolidatie van Europese arthaus-cinema in institutionele erkenning.",
+            "why_it_matters": "Europese cinema positioneert zich niet meer als regionaal genre maar als globale artistieke standaard, wat merken aantrekt die authenticity en cultureel gewicht zoeken.",
+            "strategic_signal": "Voor premium merk-partnerships: kijk naar Europese auteur-cinema als cultureel anker voor brand prestige, niet alleen Hollywood gravitatie.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Deadline",
+              "Google News BE Film",
+              "IndieWire",
+              "The Hollywood Reporter",
+              "VRT NWS",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Gentse regisseur Lukas Dhont maakt met 'Coward' kans op 2 European Film Awards",
+                "url": "https://vrtnws.be/p.OvkDakv1N",
+                "source": "VRT NWS",
+                "published": "2026-11-14T11:13:59.000Z"
+              },
+              {
+                "title": "Gentse regisseur Lukas Dhont maakt met 'Coward' kans op 2 European Film Awards - VRT",
+                "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ3pTallzMG1IQ201Z0d0Ty1iRHJIQ0NwOFVuR05RRVY1MWxNYnlidHp1eUlMWVlVTkN1WTRrZXFDaW12ZGw4dVRhQTdHZWxMRTZxU1dOb19NSU5KRnBiSGRQU1BERVQ1TTEyQVBhZ25aM3hHYUpBOFB0X096eTRVSUdxMW91bXc?oc=5",
+                "source": "Google News BE Film",
+                "published": "2026-11-14T11:13:59.000Z"
+              },
+              {
+                "title": "‘Fatherland,’ ‘La Bola Negra,’ ‘Fjord’ Lead European Film Award Nominations",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/fatherland-la-bola-negra-european-film-award-nominations-1236754942/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-14T10:30:00.000Z"
+              },
+              {
+                "title": "European Film Awards: ‘Fatherland’ & ‘La Bola Negra’ Top Nominations – Full List Of Films & Credits",
+                "url": "https://deadline.com/2026/11/european-film-awards-2026-nominations-1237223704/",
+                "source": "Deadline",
+                "published": "2026-11-14T10:28:48.000Z"
+              }
+            ]
+          }
+        ]
       }
     ]
   },

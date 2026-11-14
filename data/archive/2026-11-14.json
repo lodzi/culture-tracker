@@ -1,0 +1,211 @@
+{
+  "date": "2026-11-14",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-14T13:14:43.824Z",
+    "intro": "2 categorieën · 3 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "lokaal",
+        "label": "Lokaal",
+        "insights": [
+          {
+            "trend": "Brussel als illustratie-cultureel exportcentrum",
+            "summary": "Leo Timmers (Brussels illustrator) haalt New York Times top 10 prentenboeken, tweede bron bevestigt via VRT dezelfde publicatie. Dit markeert een groeiende erkenning van Belgische jeugdcultuur op internationale kinderboeken-circuits.",
+            "why_it_matters": "België positioneert zich als bron van authentieke, handgemaakt illustratief erfgoed, tegen digitale vervlakking, wat merken aantekt die nostalgie en craftsmanship willen signaleren.",
+            "strategic_signal": "Content-merken kunnen nu Belgische illustratie-expertise als cultural credibility-marker gebruiken in internationale campagnes, niet alleen als lokale troef.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Bruzz",
+              "Google News BE Entertainment (NL)",
+              "Google News BE Festivals",
+              "Humo",
+              "VRT NWS"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Station van Deinze al zeker tot woensdag niet bereikbaar met de auto na waterlek",
+                "url": "https://vrtnws.be/p.y316xB31W",
+                "source": "VRT NWS",
+                "published": "2026-11-14T11:52:08.000Z"
+              },
+              {
+                "title": "Matteo Simoni twijfelde geen seconde over rol in ‘Heysel 85’: “Driekwart van het stadion wist niet wat er aan de hand was” - Nieuwsblad",
+                "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQYnFGSHpaSkQ0MGduVkNzLURrbllFMGE2S3phSlNYaEFHRUo1Nk16ZlVWeC1LbkNCeTRMVWZCZkdqallzMW00WkQ3YjhGRzJwel9pOFR5N1FBaXVDR3Rwcmd2aFBweGs5WEJvZVFSWG5TTHZSV09ISVdkQVBlLWtFc0FrWi1UQ3Y3dkNJMlczNWN2N3FFc3ZXZlhqQ1ZQSUJBdDNxTzZuTXhfcnA0akdjR0dKSFpYX1hvODdoT0Q2NmtSLUtNcGkwSXdUTzcyT0t0VUtLZEJKNXJtdGo5RDZYQmx5RDNZVEh1LWJDZnp0Zjk0YWpLdXlTR1Bua1RxbDhBdFpfRFVhNWRpand1WXh1VkdnbTZYdVU?oc=5",
+                "source": "Google News BE Entertainment (NL)",
+                "published": "2026-11-14T11:00:00.000Z"
+              },
+              {
+                "title": "‘Trial by social media’ of net niet? ‘Tegen een mediafiguur wil je de strijd niet alleen voeren’",
+                "url": "https://www.humo.be/nieuws/is-de-zaak-bruinemehdi-een-trial-by-social-media-tegen-een-mediafiguur-wil-je-de-strijd-niet-alleen-voeren~b223f2c6/",
+                "source": "Humo",
+                "published": "2026-11-14T10:46:11.000Z"
+              },
+              {
+                "title": "Kamagurka: ‘Mijn kortetermijngeheugen is niet meer wat het drie minuten geleden geweest is’",
+                "url": "https://www.humo.be/humor/nieuwe-cartoons-van-kamagurka-mijn-kortetermijngeheugen-is-niet-meer-wat-het-drie-minuten-geleden-geweest-is~b4b81740/",
+                "source": "Humo",
+                "published": "2026-11-14T09:49:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Antwerpen horeca als curatorische buurtnaam-strategie",
+            "summary": "Horeca-uitbaters onder kathedraaltoren bundelen tot 'Pelgrimskwartier', een belevingsbuurt naar voorbeeld van Eilandje en Zuid. Dit is bewuste branding van geografische identiteit voor lokale attractie.",
+            "why_it_matters": "Steden transformeren informele horeca-clusters in naamgestelde cultuurzones, wat consument-navigatie en merkwaarde vergroot. Dit is publieke placemaking.",
+            "strategic_signal": "Voor horeca/lifestyle-merken: onderzoek of lokale business-coalities jullie merk kunnen integreren in deze emerging 'named neighborhoods'. Dit geeft schaalvoordeel zonder corporate overhead.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Bruzz",
+              "Dezeen",
+              "Fashionista",
+              "Google News BE Entertainment (NL)",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Brusselse illustrator Leo Timmers haalt top 10 prentenboeken van New York Times",
+                "url": "https://www.bruzz.be/select/literatuur/brusselse-illustrator-leo-timmers-haalt-top-10-prentenboeken-van-new-york-times-2026-11-14",
+                "source": "Bruzz",
+                "published": "2026-11-14T10:09:40.000Z"
+              },
+              {
+                "title": "Vlaamse jeugdauteur en illustrator Leo Timmers haalt top 10 prentenboeken van New York Times: \"Er gaat niets boven prenten maken op papier\" - VRT",
+                "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbm1RcmpLb0xtNmZJYWtLMmNCSUMtaTZRM1hGQm9hbE0wdHZoZ0ZYMWoxMFFGWHpXUWhnYlE1Sm1FS1BHY3FncGVWcUszWnE2eDE1TmhnRHZrdWZnZWVVdHI2UjNLTGtuNXdiRlh5QnE4TXVOUGY0NFZ1QXlwRmVqaXppMGpBY2tKdE8yaEliVTF5SE1ycFhIQzFsX3RMdw?oc=5",
+                "source": "Google News BE Entertainment (NL)",
+                "published": "2026-11-14T09:41:17.000Z"
+              },
+              {
+                "title": "Ben Stiller Gives Update on His New York Knicks Documentary: “The Pressure Is on”",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/ben-stiller-new-york-knicks-documentary-update-hbo-a24-1236754821/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-14T00:08:28.000Z"
+              },
+              {
+                "title": "ESP Showroom Is Hiring A Wholesale Fashion Showroom & Sales Coordinator In New York, NY (Hybrid)",
+                "url": "https://fashionista.com/2026/11/esp-showroom-is-hiring-a-wholesale-fashion-showroom-sales-coordinator-in-new-york-ny-hybrid",
+                "source": "Fashionista",
+                "published": "2026-11-13T18:37:55.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Europese auteurs als internationale award-contenders",
+            "summary": "Lukas Dhont's 'Coward' en andere Europese films dominerend in European Film Award-nominaties, met Sandra Hüller als meervoudig genomineerde. Dit markeert een consolidatie van Europese arthaus-cinema in institutionele erkenning.",
+            "why_it_matters": "Europese cinema positioneert zich niet meer als regionaal genre maar als globale artistieke standaard, wat merken aantrekt die authenticity en cultureel gewicht zoeken.",
+            "strategic_signal": "Voor premium merk-partnerships: kijk naar Europese auteur-cinema als cultureel anker voor brand prestige, niet alleen Hollywood gravitatie.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Deadline",
+              "Google News BE Film",
+              "IndieWire",
+              "The Hollywood Reporter",
+              "VRT NWS",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Gentse regisseur Lukas Dhont maakt met 'Coward' kans op 2 European Film Awards",
+                "url": "https://vrtnws.be/p.OvkDakv1N",
+                "source": "VRT NWS",
+                "published": "2026-11-14T11:13:59.000Z"
+              },
+              {
+                "title": "Gentse regisseur Lukas Dhont maakt met 'Coward' kans op 2 European Film Awards - VRT",
+                "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ3pTallzMG1IQ201Z0d0Ty1iRHJIQ0NwOFVuR05RRVY1MWxNYnlidHp1eUlMWVlVTkN1WTRrZXFDaW12ZGw4dVRhQTdHZWxMRTZxU1dOb19NSU5KRnBiSGRQU1BERVQ1TTEyQVBhZ25aM3hHYUpBOFB0X096eTRVSUdxMW91bXc?oc=5",
+                "source": "Google News BE Film",
+                "published": "2026-11-14T11:13:59.000Z"
+              },
+              {
+                "title": "‘Fatherland,’ ‘La Bola Negra,’ ‘Fjord’ Lead European Film Award Nominations",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/fatherland-la-bola-negra-european-film-award-nominations-1236754942/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-14T10:30:00.000Z"
+              },
+              {
+                "title": "European Film Awards: ‘Fatherland’ & ‘La Bola Negra’ Top Nominations – Full List Of Films & Credits",
+                "url": "https://deadline.com/2026/11/european-film-awards-2026-nominations-1237223704/",
+                "source": "Deadline",
+                "published": "2026-11-14T10:28:48.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-12T14:20:58.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Holiday ads face the craft test",
+        "category": "fashion",
+        "what_is_happening": "Dior's six-minute animated holiday film, Christian Dior's Night in Color, directed by Sylvain Chomet and billed as hand-drawn, drew online accusations of generative AI, which producer Aton Soumache answered by saying artists drew it over seven months and an interpolation tool was used for a very small part. Prada, E.l.f. and Strathberry are also putting the human labour behind their holiday ads front and centre.",
+        "why_it_matters_for_brands": "When a brand sells craft, audiences now check the frames, so a hand-made claim needs proof ready before anyone asks for it.",
+        "what_brands_can_do": [
+          "Publish sketches, process footage and named makers alongside any campaign you bill as hand-made.",
+          "Disclose every automated tool in the production up front, however small its role, rather than explaining it after the backlash.",
+          "Brief agencies to document the making of each holiday asset, so the evidence exists before launch."
+        ],
+        "sources": [
+          "https://fashionista.com/2026/11/skims-holiday-advent-calendar-backlash"
+        ]
+      },
+      {
+        "trend": "Chef personality beats Instagram sameness",
+        "category": "local",
+        "what_is_happening": "Gault&Millau 2027 made Boury in Roeselare the only Belgian restaurant with 19/20, named Gert De Mangeleer of Hertog Jan in Antwerp Chef of the Year and gave Pierre Wynants a standing ovation as Comme chez soi turns 100. Critic Jan Scheidtweiler pointed to a chef's personality as a possible deciding factor, since many restaurants now look alike on Instagram.",
+        "why_it_matters_for_brands": "When every plate looks the same on a feed, the person behind it becomes the difference, and the same holds for brands.",
+        "what_brands_can_do": [
+          "Put the faces and convictions behind your product in your content, not just the polished end result.",
+          "Partner with chefs or makers at the moment they are recognised, and let them speak in their own voice.",
+          "Mark annual guides like Gault&Millau in your calendar as fixed moments for food, hospitality and premium brands."
+        ],
+        "sources": [
+          "https://www.vrt.be/vrtnws/nl/2026/11/09/tim-boury-roeselare-blijft-aan-top-19-op-20-gault-millau-score-b/",
+          "https://www.brusselstimes.com/2400280/antwerps-gert-de-mangeleer-is-gaultmillau-chef-of-the-year"
+        ]
+      },
+      {
+        "trend": "GTA 6 launch clears the calendar",
+        "category": "gaming",
+        "what_is_happening": "Rockstar's Grand Theft Auto VI launches on 19 November on PlayStation 5 and Xbox Series X|S, unlocking at midnight local time in every region, with preloads open since 10 November and Xbox One owners able to stream it via Xbox Cloud Gaming. Take-Two says pre-orders have far exceeded its internal forecasts, and physical copies carry a download code rather than a disc.",
+        "why_it_matters_for_brands": "One release will absorb a huge audience's time and attention for days, so any brand launching that week competes with it whether it planned to or not.",
+        "what_brands_can_do": [
+          "Move your own launches and big announcements away from 19 November and the days that follow.",
+          "Acknowledge the moment with a light, relevant nod in your channels rather than borrowing the game's imagery without a licence.",
+          "Plan content for the people around the players, such as partners, flatmates and colleagues, who lose them for a week."
+        ],
+        "sources": [
+          "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+          "https://www.forbes.com/sites/brianmazique/2026/11/12/gta-6-unlocks-at-midnight-on-november-19-but-millions-of-americans-can-start-playing-the-night-before/",
+          "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+          "https://www.ibtimes.co.uk/gta-6-preorders-exceed-expectations-no-holiday-discounts-1813575"
+        ]
+      }
+    ],
+    "sendDate": "2026-11-13",
+    "locked": true,
+    "selection": "manual",
+    "lockedAt": "2026-11-12T14:20:58.970Z"
+  }
+}
