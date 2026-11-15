@@ -1,0 +1,249 @@
+{
+  "date": "2026-11-15",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-15T13:42:55.705Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "fashion",
+        "label": "Fashion",
+        "insights": [
+          {
+            "trend": "Nike Remixing Heritage as Infinite Customization Play",
+            "summary": "Nike repliceert Air Force 1 en Air Max 90 in doorlopende 'iridescent', 'quilted' en 'flipped' colorway-variaties, waarbij elke release dezelfde silhouet met microvariaties positioneert. NOCTA en collaborators nemen deel aan deze iteratieve remixing.",
+            "why_it_matters": "Dit signaleert dat sneaker-culture verschuift van limited-drop-scarcity naar infinite-variation abundance; waarde ligt nu in *personaliseringmogelijkheid* in plaats van exclusiviteit.",
+            "strategic_signal": "Merken kunnen heritage-silhouetten transformeren in 'customization-platforms' eerder dan als eindproducten; elke micro-variant maakt bestaande ownership meer waardevol in plaats van vervangen.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Highsnobiety",
+              "Hypebeast",
+              "Sneaker News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Nike Air Force 1 Low “Iridescent Wolf Grey” Shimmers With Blue and Lavender Hues",
+                "url": "https://hypebeast.com/2026/11/nike-air-force-1-low-wolf-grey-white-geyser-grey-ix0154-001-official-images",
+                "source": "Hypebeast",
+                "published": "2026-11-15T08:00:15.000Z"
+              },
+              {
+                "title": "Nike Chanel-ified the Air Force 1",
+                "url": "https://www.highsnobiety.com/p/nike-air-force-1-quilted-white/",
+                "source": "Highsnobiety",
+                "published": "2026-11-15T09:22:00.000Z"
+              },
+              {
+                "title": "NOCTA's Got Its Own Nike “Shox” Air Maxes",
+                "url": "https://www.highsnobiety.com/p/nocta-nike-air-modmax/",
+                "source": "Highsnobiety",
+                "published": "2026-11-14T22:43:32.000Z"
+              },
+              {
+                "title": "Nike’s Flipped Air Max Is Just as Clean as the Original",
+                "url": "https://www.highsnobiety.com/p/nike-air-max-90-infrared-flip/",
+                "source": "Highsnobiety",
+                "published": "2026-11-14T22:37:25.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Live Comedy as Cultural Hot-Take Infrastructure",
+            "summary": "SNL evolueert van sketch-show naar direct politieke commentary-platform, waarbij hosts realtime actuele events (FAA-uitval, tech-schandalen) in cold opens integreren. John Mulaney's monoloques adresseren RFK Jr. en nationale crises in dezelfde broadcast.",
+            "why_it_matters": "Dit signaleert dat live entertainment nu primair channel is voor culturele verwerking van crisis en politieke controverse in plaats van 24u-nieuwscyclus.",
+            "strategic_signal": "Merken die authentieke culturele momentum willen grijpen, kunnen real-time satirische reacties in live content gebruiken als trust-signal (zie: Mulaney's directheid) in plaats van wachten op redactionele cycles.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Billboard",
+              "Deadline",
+              "Hypebeast",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "John Mulaney does the (almost) impossible for his seventh time hosting Saturday Night Live",
+                "url": "https://www.avclub.com/saturday-night-live-recap-season-52-episode-6",
+                "source": "A.V. Club",
+                "published": "2026-11-15T07:53:40.000Z"
+              },
+              {
+                "title": "John Mulaney Mocks Robert F. Kennedy Jr. in ‘SNL’ Monologue: ‘No One Likes Him. You Dumbass … Your Thing Can’t Be the Measles!’",
+                "url": "https://variety.com/2026/tv/news/john-mulaney-mocks-robert-f-kennedy-jr-snl-monologue-1236947905/",
+                "source": "Variety",
+                "published": "2026-11-15T05:05:55.000Z"
+              },
+              {
+                "title": "‘SNL’: John Mulaney Roasts RFK Jr. In Opening Monologue, Makes Out With Jeremy Culhane During 7th Hosting Gig",
+                "url": "https://deadline.com/2026/11/snl-john-mulaney-roasts-rfk-jr-opening-monologue-1237224369/",
+                "source": "Deadline",
+                "published": "2026-11-15T05:04:42.000Z"
+              },
+              {
+                "title": "Bowen Yang Makes Surprise ‘SNL’ Appearance as Jensen Huang as John Mulaney Pokes at FAA Ground Stop and Microsoft Outage in Cold Open",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/bowen-yang-snl-john-mulaney-ground-stop-microsoft-1236755542/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-15T04:57:39.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "European Festival Cinema as Award-Contention Engine",
+            "summary": "Seville European Film Festival, Locarno en Venice Biennale produceren nu contenders voor internationale awards (Golden Leopard → Seville Golden Giraldillo). Belgische en noordeuropese films (Florin Şerban, Mathilde Arcel) domineren in dit circuit.",
+            "why_it_matters": "Europese festivals bepalen nu de global awards-conversation in plaats van Hollywood te volgen; dit positioneert Europese filmmakers als trendsetters voor 'social commentary cinema'.",
+            "strategic_signal": "Merkstrategen kunnen Europese festival-circuits monitoren als indicator voor komende 'prestige cinema' narratives en audience-shifts naar introspective, socially-aware storytelling.",
+            "trajectory": "opkomend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Deadline",
+              "Google News BE Entertainment (NL)",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Seville European Film Festival Prizes: ‘You Don’t Belong Here,’ ‘Falling House,’ ’Adult Supervision’ Win Big",
+                "url": "https://variety.com/2026/film/global/seville-european-film-festival-prizes-you-dont-belong-here-1236948019/",
+                "source": "Variety",
+                "published": "2026-11-15T12:52:04.000Z"
+              },
+              {
+                "title": "‘Wicker’ Star Alexander Skarsgård Appreciated “Social Commentary” Of Feminist Romantasy Film Without It Being “Too Preachy” – Contenders L.A.",
+                "url": "https://deadline.com/2026/11/alexander-skarsgard-wicker-interview-1237224217/",
+                "source": "Deadline",
+                "published": "2026-11-15T01:55:07.000Z"
+              },
+              {
+                "title": "Chris Pratt “Would Love” to Make a Fourth ‘Guardians of the Galaxy’ Film With James Gunn “If He Wanted to” Amid DC Exit",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/chris-pratt-james-gunn-guardians-of-the-galaxy-4-1236755525/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-14T23:43:14.000Z"
+              },
+              {
+                "title": "Danseres, choreografe en inspiratie voor film 'Girl': wie is Nora Monsecour (30)? - VRT",
+                "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRWNyQkhNck5wRFQySUdpY1QzQkhZMDRxamNCM004ZXJoY0M4cWJBUlhvTDExdFpZMmtTMFdLUDRzZWlyZnZwbGoxcnh0TDJUTTN0TUtsaTNxU3g0el9iUHd3Y3BKTHMzV0xDVjJrNmxMREtPaUkwQXlMY2lrQWpOeUtJTF9vcEF1X3B2R1h0Wld2UGc5OGl3?oc=5",
+                "source": "Google News BE Entertainment (NL)",
+                "published": "2026-11-15T08:05:04.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
+          {
+            "trend": "Reusable Spaceflight as Cultural Inflection Point",
+            "summary": "SpaceX's 'chopstick'-booster-capture van Starship Flight 15 markeert shift van raketwetenschap naar praktische reusability; media framing positioneert dit als democratisering van ruimtevaart ('toegang tot de ruimte wordt steeds goedkoper').",
+            "why_it_matters": "Dit transformeert ruimte-exploratie van existentiële ambitie naar infrastructuur-vraagstuk; cultureel betekent dit dat 'de toekomst' nu technisch-praktisch is in plaats van speculatief.",
+            "strategic_signal": "Future-focused merken kunnen SpaceX's 'reusability'-framing adopteren als metafoor voor duurzaamheid en kostenefficiëntie in eigen messaging (vermijd 'innovation' jargon; gebruik 'practical progress').",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Ars Technica",
+              "The Verge",
+              "VRT NWS"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Nu SpaceX grote stap zet richting herbruikbare raketten: \"De toegang tot de ruimte wordt steeds goedkoper, vooral voor SpaceX zelf\"",
+                "url": "https://vrtnws.be/p.BlYbR6K3G",
+                "source": "VRT NWS",
+                "published": "2026-11-15T13:16:58.000Z"
+              },
+              {
+                "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+                "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+                "source": "Ars Technica",
+                "published": "2026-11-15T00:40:59.000Z"
+              },
+              {
+                "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+                "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+                "source": "The Verge",
+                "published": "2026-11-14T21:44:44.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-12T14:20:58.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Holiday ads face the craft test",
+        "category": "fashion",
+        "what_is_happening": "Dior's six-minute animated holiday film, Christian Dior's Night in Color, directed by Sylvain Chomet and billed as hand-drawn, drew online accusations of generative AI, which producer Aton Soumache answered by saying artists drew it over seven months and an interpolation tool was used for a very small part. Prada, E.l.f. and Strathberry are also putting the human labour behind their holiday ads front and centre.",
+        "why_it_matters_for_brands": "When a brand sells craft, audiences now check the frames, so a hand-made claim needs proof ready before anyone asks for it.",
+        "what_brands_can_do": [
+          "Publish sketches, process footage and named makers alongside any campaign you bill as hand-made.",
+          "Disclose every automated tool in the production up front, however small its role, rather than explaining it after the backlash.",
+          "Brief agencies to document the making of each holiday asset, so the evidence exists before launch."
+        ],
+        "sources": [
+          "https://fashionista.com/2026/11/skims-holiday-advent-calendar-backlash"
+        ]
+      },
+      {
+        "trend": "Chef personality beats Instagram sameness",
+        "category": "local",
+        "what_is_happening": "Gault&Millau 2027 made Boury in Roeselare the only Belgian restaurant with 19/20, named Gert De Mangeleer of Hertog Jan in Antwerp Chef of the Year and gave Pierre Wynants a standing ovation as Comme chez soi turns 100. Critic Jan Scheidtweiler pointed to a chef's personality as a possible deciding factor, since many restaurants now look alike on Instagram.",
+        "why_it_matters_for_brands": "When every plate looks the same on a feed, the person behind it becomes the difference, and the same holds for brands.",
+        "what_brands_can_do": [
+          "Put the faces and convictions behind your product in your content, not just the polished end result.",
+          "Partner with chefs or makers at the moment they are recognised, and let them speak in their own voice.",
+          "Mark annual guides like Gault&Millau in your calendar as fixed moments for food, hospitality and premium brands."
+        ],
+        "sources": [
+          "https://www.vrt.be/vrtnws/nl/2026/11/09/tim-boury-roeselare-blijft-aan-top-19-op-20-gault-millau-score-b/",
+          "https://www.brusselstimes.com/2400280/antwerps-gert-de-mangeleer-is-gaultmillau-chef-of-the-year"
+        ]
+      },
+      {
+        "trend": "GTA 6 launch clears the calendar",
+        "category": "gaming",
+        "what_is_happening": "Rockstar's Grand Theft Auto VI launches on 19 November on PlayStation 5 and Xbox Series X|S, unlocking at midnight local time in every region, with preloads open since 10 November and Xbox One owners able to stream it via Xbox Cloud Gaming. Take-Two says pre-orders have far exceeded its internal forecasts, and physical copies carry a download code rather than a disc.",
+        "why_it_matters_for_brands": "One release will absorb a huge audience's time and attention for days, so any brand launching that week competes with it whether it planned to or not.",
+        "what_brands_can_do": [
+          "Move your own launches and big announcements away from 19 November and the days that follow.",
+          "Acknowledge the moment with a light, relevant nod in your channels rather than borrowing the game's imagery without a licence.",
+          "Plan content for the people around the players, such as partners, flatmates and colleagues, who lose them for a week."
+        ],
+        "sources": [
+          "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+          "https://www.forbes.com/sites/brianmazique/2026/11/12/gta-6-unlocks-at-midnight-on-november-19-but-millions-of-americans-can-start-playing-the-night-before/",
+          "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+          "https://www.ibtimes.co.uk/gta-6-preorders-exceed-expectations-no-holiday-discounts-1813575"
+        ]
+      }
+    ],
+    "sendDate": "2026-11-13",
+    "locked": true,
+    "selection": "manual",
+    "lockedAt": "2026-11-12T14:20:58.970Z"
+  }
+}

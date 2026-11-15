@@ -1,101 +1,56 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-14T13:14:43.824Z",
-    "intro": "2 categorieën · 3 trends · laatste 24u",
+    "generatedAt": "2026-11-15T13:42:55.705Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
     "categories": [
       {
-        "id": "lokaal",
-        "label": "Lokaal",
+        "id": "fashion",
+        "label": "Fashion",
         "insights": [
           {
-            "trend": "Brussel als illustratie-cultureel exportcentrum",
-            "summary": "Leo Timmers (Brussels illustrator) haalt New York Times top 10 prentenboeken, tweede bron bevestigt via VRT dezelfde publicatie. Dit markeert een groeiende erkenning van Belgische jeugdcultuur op internationale kinderboeken-circuits.",
-            "why_it_matters": "België positioneert zich als bron van authentieke, handgemaakt illustratief erfgoed, tegen digitale vervlakking, wat merken aantekt die nostalgie en craftsmanship willen signaleren.",
-            "strategic_signal": "Content-merken kunnen nu Belgische illustratie-expertise als cultural credibility-marker gebruiken in internationale campagnes, niet alleen als lokale troef.",
-            "trajectory": "opkomend",
+            "trend": "Nike Remixing Heritage as Infinite Customization Play",
+            "summary": "Nike repliceert Air Force 1 en Air Max 90 in doorlopende 'iridescent', 'quilted' en 'flipped' colorway-variaties, waarbij elke release dezelfde silhouet met microvariaties positioneert. NOCTA en collaborators nemen deel aan deze iteratieve remixing.",
+            "why_it_matters": "Dit signaleert dat sneaker-culture verschuift van limited-drop-scarcity naar infinite-variation abundance; waarde ligt nu in *personaliseringmogelijkheid* in plaats van exclusiviteit.",
+            "strategic_signal": "Merken kunnen heritage-silhouetten transformeren in 'customization-platforms' eerder dan als eindproducten; elke micro-variant maakt bestaande ownership meer waardevol in plaats van vervangen.",
+            "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Bruzz",
-              "Google News BE Entertainment (NL)",
-              "Google News BE Festivals",
-              "Humo",
-              "VRT NWS"
+              "Highsnobiety",
+              "Hypebeast",
+              "Sneaker News"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Station van Deinze al zeker tot woensdag niet bereikbaar met de auto na waterlek",
-                "url": "https://vrtnws.be/p.y316xB31W",
-                "source": "VRT NWS",
-                "published": "2026-11-14T11:52:08.000Z"
+                "title": "Nike Air Force 1 Low “Iridescent Wolf Grey” Shimmers With Blue and Lavender Hues",
+                "url": "https://hypebeast.com/2026/11/nike-air-force-1-low-wolf-grey-white-geyser-grey-ix0154-001-official-images",
+                "source": "Hypebeast",
+                "published": "2026-11-15T08:00:15.000Z"
               },
               {
-                "title": "Matteo Simoni twijfelde geen seconde over rol in ‘Heysel 85’: “Driekwart van het stadion wist niet wat er aan de hand was” - Nieuwsblad",
-                "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQYnFGSHpaSkQ0MGduVkNzLURrbllFMGE2S3phSlNYaEFHRUo1Nk16ZlVWeC1LbkNCeTRMVWZCZkdqallzMW00WkQ3YjhGRzJwel9pOFR5N1FBaXVDR3Rwcmd2aFBweGs5WEJvZVFSWG5TTHZSV09ISVdkQVBlLWtFc0FrWi1UQ3Y3dkNJMlczNWN2N3FFc3ZXZlhqQ1ZQSUJBdDNxTzZuTXhfcnA0akdjR0dKSFpYX1hvODdoT0Q2NmtSLUtNcGkwSXdUTzcyT0t0VUtLZEJKNXJtdGo5RDZYQmx5RDNZVEh1LWJDZnp0Zjk0YWpLdXlTR1Bua1RxbDhBdFpfRFVhNWRpand1WXh1VkdnbTZYdVU?oc=5",
-                "source": "Google News BE Entertainment (NL)",
-                "published": "2026-11-14T11:00:00.000Z"
+                "title": "Nike Chanel-ified the Air Force 1",
+                "url": "https://www.highsnobiety.com/p/nike-air-force-1-quilted-white/",
+                "source": "Highsnobiety",
+                "published": "2026-11-15T09:22:00.000Z"
               },
               {
-                "title": "‘Trial by social media’ of net niet? ‘Tegen een mediafiguur wil je de strijd niet alleen voeren’",
-                "url": "https://www.humo.be/nieuws/is-de-zaak-bruinemehdi-een-trial-by-social-media-tegen-een-mediafiguur-wil-je-de-strijd-niet-alleen-voeren~b223f2c6/",
-                "source": "Humo",
-                "published": "2026-11-14T10:46:11.000Z"
+                "title": "NOCTA's Got Its Own Nike “Shox” Air Maxes",
+                "url": "https://www.highsnobiety.com/p/nocta-nike-air-modmax/",
+                "source": "Highsnobiety",
+                "published": "2026-11-14T22:43:32.000Z"
               },
               {
-                "title": "Kamagurka: ‘Mijn kortetermijngeheugen is niet meer wat het drie minuten geleden geweest is’",
-                "url": "https://www.humo.be/humor/nieuwe-cartoons-van-kamagurka-mijn-kortetermijngeheugen-is-niet-meer-wat-het-drie-minuten-geleden-geweest-is~b4b81740/",
-                "source": "Humo",
-                "published": "2026-11-14T09:49:00.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Antwerpen horeca als curatorische buurtnaam-strategie",
-            "summary": "Horeca-uitbaters onder kathedraaltoren bundelen tot 'Pelgrimskwartier', een belevingsbuurt naar voorbeeld van Eilandje en Zuid. Dit is bewuste branding van geografische identiteit voor lokale attractie.",
-            "why_it_matters": "Steden transformeren informele horeca-clusters in naamgestelde cultuurzones, wat consument-navigatie en merkwaarde vergroot. Dit is publieke placemaking.",
-            "strategic_signal": "Voor horeca/lifestyle-merken: onderzoek of lokale business-coalities jullie merk kunnen integreren in deze emerging 'named neighborhoods'. Dit geeft schaalvoordeel zonder corporate overhead.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Bruzz",
-              "Dezeen",
-              "Fashionista",
-              "Google News BE Entertainment (NL)",
-              "The Hollywood Reporter"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Brusselse illustrator Leo Timmers haalt top 10 prentenboeken van New York Times",
-                "url": "https://www.bruzz.be/select/literatuur/brusselse-illustrator-leo-timmers-haalt-top-10-prentenboeken-van-new-york-times-2026-11-14",
-                "source": "Bruzz",
-                "published": "2026-11-14T10:09:40.000Z"
-              },
-              {
-                "title": "Vlaamse jeugdauteur en illustrator Leo Timmers haalt top 10 prentenboeken van New York Times: \"Er gaat niets boven prenten maken op papier\" - VRT",
-                "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbm1RcmpLb0xtNmZJYWtLMmNCSUMtaTZRM1hGQm9hbE0wdHZoZ0ZYMWoxMFFGWHpXUWhnYlE1Sm1FS1BHY3FncGVWcUszWnE2eDE1TmhnRHZrdWZnZWVVdHI2UjNLTGtuNXdiRlh5QnE4TXVOUGY0NFZ1QXlwRmVqaXppMGpBY2tKdE8yaEliVTF5SE1ycFhIQzFsX3RMdw?oc=5",
-                "source": "Google News BE Entertainment (NL)",
-                "published": "2026-11-14T09:41:17.000Z"
-              },
-              {
-                "title": "Ben Stiller Gives Update on His New York Knicks Documentary: “The Pressure Is on”",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/ben-stiller-new-york-knicks-documentary-update-hbo-a24-1236754821/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-14T00:08:28.000Z"
-              },
-              {
-                "title": "ESP Showroom Is Hiring A Wholesale Fashion Showroom & Sales Coordinator In New York, NY (Hybrid)",
-                "url": "https://fashionista.com/2026/11/esp-showroom-is-hiring-a-wholesale-fashion-showroom-sales-coordinator-in-new-york-ny-hybrid",
-                "source": "Fashionista",
-                "published": "2026-11-13T18:37:55.000Z"
+                "title": "Nike’s Flipped Air Max Is Just as Clean as the Original",
+                "url": "https://www.highsnobiety.com/p/nike-air-max-90-infrared-flip/",
+                "source": "Highsnobiety",
+                "published": "2026-11-14T22:37:25.000Z"
               }
             ]
           }
@@ -106,46 +61,129 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Europese auteurs als internationale award-contenders",
-            "summary": "Lukas Dhont's 'Coward' en andere Europese films dominerend in European Film Award-nominaties, met Sandra Hüller als meervoudig genomineerde. Dit markeert een consolidatie van Europese arthaus-cinema in institutionele erkenning.",
-            "why_it_matters": "Europese cinema positioneert zich niet meer als regionaal genre maar als globale artistieke standaard, wat merken aantrekt die authenticity en cultureel gewicht zoeken.",
-            "strategic_signal": "Voor premium merk-partnerships: kijk naar Europese auteur-cinema als cultureel anker voor brand prestige, niet alleen Hollywood gravitatie.",
+            "trend": "Live Comedy as Cultural Hot-Take Infrastructure",
+            "summary": "SNL evolueert van sketch-show naar direct politieke commentary-platform, waarbij hosts realtime actuele events (FAA-uitval, tech-schandalen) in cold opens integreren. John Mulaney's monoloques adresseren RFK Jr. en nationale crises in dezelfde broadcast.",
+            "why_it_matters": "Dit signaleert dat live entertainment nu primair channel is voor culturele verwerking van crisis en politieke controverse in plaats van 24u-nieuwscyclus.",
+            "strategic_signal": "Merken die authentieke culturele momentum willen grijpen, kunnen real-time satirische reacties in live content gebruiken als trust-signal (zie: Mulaney's directheid) in plaats van wachten op redactionele cycles.",
             "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
+              "A.V. Club",
+              "Billboard",
               "Deadline",
-              "Google News BE Film",
-              "IndieWire",
+              "Hypebeast",
               "The Hollywood Reporter",
-              "VRT NWS",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Gentse regisseur Lukas Dhont maakt met 'Coward' kans op 2 European Film Awards",
-                "url": "https://vrtnws.be/p.OvkDakv1N",
-                "source": "VRT NWS",
-                "published": "2026-11-14T11:13:59.000Z"
+                "title": "John Mulaney does the (almost) impossible for his seventh time hosting Saturday Night Live",
+                "url": "https://www.avclub.com/saturday-night-live-recap-season-52-episode-6",
+                "source": "A.V. Club",
+                "published": "2026-11-15T07:53:40.000Z"
               },
               {
-                "title": "Gentse regisseur Lukas Dhont maakt met 'Coward' kans op 2 European Film Awards - VRT",
-                "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ3pTallzMG1IQ201Z0d0Ty1iRHJIQ0NwOFVuR05RRVY1MWxNYnlidHp1eUlMWVlVTkN1WTRrZXFDaW12ZGw4dVRhQTdHZWxMRTZxU1dOb19NSU5KRnBiSGRQU1BERVQ1TTEyQVBhZ25aM3hHYUpBOFB0X096eTRVSUdxMW91bXc?oc=5",
-                "source": "Google News BE Film",
-                "published": "2026-11-14T11:13:59.000Z"
+                "title": "John Mulaney Mocks Robert F. Kennedy Jr. in ‘SNL’ Monologue: ‘No One Likes Him. You Dumbass … Your Thing Can’t Be the Measles!’",
+                "url": "https://variety.com/2026/tv/news/john-mulaney-mocks-robert-f-kennedy-jr-snl-monologue-1236947905/",
+                "source": "Variety",
+                "published": "2026-11-15T05:05:55.000Z"
               },
               {
-                "title": "‘Fatherland,’ ‘La Bola Negra,’ ‘Fjord’ Lead European Film Award Nominations",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/fatherland-la-bola-negra-european-film-award-nominations-1236754942/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-14T10:30:00.000Z"
-              },
-              {
-                "title": "European Film Awards: ‘Fatherland’ & ‘La Bola Negra’ Top Nominations – Full List Of Films & Credits",
-                "url": "https://deadline.com/2026/11/european-film-awards-2026-nominations-1237223704/",
+                "title": "‘SNL’: John Mulaney Roasts RFK Jr. In Opening Monologue, Makes Out With Jeremy Culhane During 7th Hosting Gig",
+                "url": "https://deadline.com/2026/11/snl-john-mulaney-roasts-rfk-jr-opening-monologue-1237224369/",
                 "source": "Deadline",
-                "published": "2026-11-14T10:28:48.000Z"
+                "published": "2026-11-15T05:04:42.000Z"
+              },
+              {
+                "title": "Bowen Yang Makes Surprise ‘SNL’ Appearance as Jensen Huang as John Mulaney Pokes at FAA Ground Stop and Microsoft Outage in Cold Open",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/bowen-yang-snl-john-mulaney-ground-stop-microsoft-1236755542/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-15T04:57:39.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "European Festival Cinema as Award-Contention Engine",
+            "summary": "Seville European Film Festival, Locarno en Venice Biennale produceren nu contenders voor internationale awards (Golden Leopard → Seville Golden Giraldillo). Belgische en noordeuropese films (Florin Şerban, Mathilde Arcel) domineren in dit circuit.",
+            "why_it_matters": "Europese festivals bepalen nu de global awards-conversation in plaats van Hollywood te volgen; dit positioneert Europese filmmakers als trendsetters voor 'social commentary cinema'.",
+            "strategic_signal": "Merkstrategen kunnen Europese festival-circuits monitoren als indicator voor komende 'prestige cinema' narratives en audience-shifts naar introspective, socially-aware storytelling.",
+            "trajectory": "opkomend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Deadline",
+              "Google News BE Entertainment (NL)",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Seville European Film Festival Prizes: ‘You Don’t Belong Here,’ ‘Falling House,’ ’Adult Supervision’ Win Big",
+                "url": "https://variety.com/2026/film/global/seville-european-film-festival-prizes-you-dont-belong-here-1236948019/",
+                "source": "Variety",
+                "published": "2026-11-15T12:52:04.000Z"
+              },
+              {
+                "title": "‘Wicker’ Star Alexander Skarsgård Appreciated “Social Commentary” Of Feminist Romantasy Film Without It Being “Too Preachy” – Contenders L.A.",
+                "url": "https://deadline.com/2026/11/alexander-skarsgard-wicker-interview-1237224217/",
+                "source": "Deadline",
+                "published": "2026-11-15T01:55:07.000Z"
+              },
+              {
+                "title": "Chris Pratt “Would Love” to Make a Fourth ‘Guardians of the Galaxy’ Film With James Gunn “If He Wanted to” Amid DC Exit",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/chris-pratt-james-gunn-guardians-of-the-galaxy-4-1236755525/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-14T23:43:14.000Z"
+              },
+              {
+                "title": "Danseres, choreografe en inspiratie voor film 'Girl': wie is Nora Monsecour (30)? - VRT",
+                "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRWNyQkhNck5wRFQySUdpY1QzQkhZMDRxamNCM004ZXJoY0M4cWJBUlhvTDExdFpZMmtTMFdLUDRzZWlyZnZwbGoxcnh0TDJUTTN0TUtsaTNxU3g0el9iUHd3Y3BKTHMzV0xDVjJrNmxMREtPaUkwQXlMY2lrQWpOeUtJTF9vcEF1X3B2R1h0Wld2UGc5OGl3?oc=5",
+                "source": "Google News BE Entertainment (NL)",
+                "published": "2026-11-15T08:05:04.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
+          {
+            "trend": "Reusable Spaceflight as Cultural Inflection Point",
+            "summary": "SpaceX's 'chopstick'-booster-capture van Starship Flight 15 markeert shift van raketwetenschap naar praktische reusability; media framing positioneert dit als democratisering van ruimtevaart ('toegang tot de ruimte wordt steeds goedkoper').",
+            "why_it_matters": "Dit transformeert ruimte-exploratie van existentiële ambitie naar infrastructuur-vraagstuk; cultureel betekent dit dat 'de toekomst' nu technisch-praktisch is in plaats van speculatief.",
+            "strategic_signal": "Future-focused merken kunnen SpaceX's 'reusability'-framing adopteren als metafoor voor duurzaamheid en kostenefficiëntie in eigen messaging (vermijd 'innovation' jargon; gebruik 'practical progress').",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Ars Technica",
+              "The Verge",
+              "VRT NWS"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Nu SpaceX grote stap zet richting herbruikbare raketten: \"De toegang tot de ruimte wordt steeds goedkoper, vooral voor SpaceX zelf\"",
+                "url": "https://vrtnws.be/p.BlYbR6K3G",
+                "source": "VRT NWS",
+                "published": "2026-11-15T13:16:58.000Z"
+              },
+              {
+                "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+                "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+                "source": "Ars Technica",
+                "published": "2026-11-15T00:40:59.000Z"
+              },
+              {
+                "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+                "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+                "source": "The Verge",
+                "published": "2026-11-14T21:44:44.000Z"
               }
             ]
           }
