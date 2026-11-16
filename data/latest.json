@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-15T13:42:55.705Z",
+    "generatedAt": "2026-11-16T15:17:29.195Z",
     "intro": "3 categorieën · 4 trends · laatste 24u",
     "categories": [
       {
@@ -14,14 +14,16 @@
         "label": "Fashion",
         "insights": [
           {
-            "trend": "Nike Remixing Heritage as Infinite Customization Play",
-            "summary": "Nike repliceert Air Force 1 en Air Max 90 in doorlopende 'iridescent', 'quilted' en 'flipped' colorway-variaties, waarbij elke release dezelfde silhouet met microvariaties positioneert. NOCTA en collaborators nemen deel aan deze iteratieve remixing.",
-            "why_it_matters": "Dit signaleert dat sneaker-culture verschuift van limited-drop-scarcity naar infinite-variation abundance; waarde ligt nu in *personaliseringmogelijkheid* in plaats van exclusiviteit.",
-            "strategic_signal": "Merken kunnen heritage-silhouetten transformeren in 'customization-platforms' eerder dan als eindproducten; elke micro-variant maakt bestaande ownership meer waardevol in plaats van vervangen.",
-            "trajectory": "piekend",
+            "trend": "Nike's Tuned Air: Heritage as Technology Inflection",
+            "summary": "Nike is repositioning its 50-year Air cushioning legacy not as nostalgia, but as an innovation platform, unveiling Tuned Air with 3D-printed air bags and the Vomero 19 as the flagship for next-gen performance. Multiple sources confirm this is a deliberate shift from retro cool to functional futurity.",
+            "why_it_matters": "This demonstrates how heritage brands are converting archive access into innovation credibility—the past becomes proof of R&D depth, not just aesthetic cool, reshaping how legacy competes with newcomers.",
+            "strategic_signal": "If you hold a heritage brand, stress-test whether your archive is positioned as *proof of innovation* or *proof of nostalgia*—Nike's move shows the former drives price premium and Gen Z trust more effectively than the latter.",
+            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
+              "Dezeen",
+              "Fast Company",
               "Highsnobiety",
               "Hypebeast",
               "Sneaker News"
@@ -29,28 +31,28 @@
             "trending": true,
             "articles": [
               {
-                "title": "Nike Air Force 1 Low “Iridescent Wolf Grey” Shimmers With Blue and Lavender Hues",
-                "url": "https://hypebeast.com/2026/11/nike-air-force-1-low-wolf-grey-white-geyser-grey-ix0154-001-official-images",
-                "source": "Hypebeast",
-                "published": "2026-11-15T08:00:15.000Z"
+                "title": "Beyond Retro: Nike Is Betting On Innovation To Keep It’s Cool",
+                "url": "https://sneakernews.com/2026/11/16/nike-morpho-x-project-ride-therma-fit-air/",
+                "source": "Sneaker News",
+                "published": "2026-11-16T14:30:35.000Z"
               },
               {
-                "title": "Nike Chanel-ified the Air Force 1",
-                "url": "https://www.highsnobiety.com/p/nike-air-force-1-quilted-white/",
-                "source": "Highsnobiety",
-                "published": "2026-11-15T09:22:00.000Z"
+                "title": "First Look At The Nike Vomero 19, The Next Evolution Of Nike’s Popular Running Shoe",
+                "url": "https://sneakernews.com/2026/11/16/nike-vomero-19/",
+                "source": "Sneaker News",
+                "published": "2026-11-16T14:20:39.000Z"
               },
               {
-                "title": "NOCTA's Got Its Own Nike “Shox” Air Maxes",
-                "url": "https://www.highsnobiety.com/p/nocta-nike-air-modmax/",
-                "source": "Highsnobiety",
-                "published": "2026-11-14T22:43:32.000Z"
+                "title": "Nike Tuned Air \"a huge stride forward\" in air-filled trainer design says innovation lead",
+                "url": "https://www.dezeen.com/2026/11/16/nike-tuned-air-new-era/",
+                "source": "Dezeen",
+                "published": "2026-11-16T14:12:41.000Z"
               },
               {
-                "title": "Nike’s Flipped Air Max Is Just as Clean as the Original",
-                "url": "https://www.highsnobiety.com/p/nike-air-max-90-infrared-flip/",
-                "source": "Highsnobiety",
-                "published": "2026-11-14T22:37:25.000Z"
+                "title": "Nike Book 3 Officially Unveiled",
+                "url": "https://sneakernews.com/2026/11/16/nike-book-3-officially-unveiled/",
+                "source": "Sneaker News",
+                "published": "2026-11-16T14:05:41.000Z"
               }
             ]
           }
@@ -61,88 +63,46 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Live Comedy as Cultural Hot-Take Infrastructure",
-            "summary": "SNL evolueert van sketch-show naar direct politieke commentary-platform, waarbij hosts realtime actuele events (FAA-uitval, tech-schandalen) in cold opens integreren. John Mulaney's monoloques adresseren RFK Jr. en nationale crises in dezelfde broadcast.",
-            "why_it_matters": "Dit signaleert dat live entertainment nu primair channel is voor culturele verwerking van crisis en politieke controverse in plaats van 24u-nieuwscyclus.",
-            "strategic_signal": "Merken die authentieke culturele momentum willen grijpen, kunnen real-time satirische reacties in live content gebruiken als trust-signal (zie: Mulaney's directheid) in plaats van wachten op redactionele cycles.",
+            "trend": "Pattinson as Bond: Auteur-Driven Franchise Reinvention",
+            "summary": "Robert Pattinson is officially cast as the next James Bond by Amazon MGM Studios, with Denis Villeneuve directing from a Steven Knight script. This marks a deliberate pivot toward prestige cinema and arthouse credibility for the Bond franchise after Daniel Craig's era.",
+            "why_it_matters": "The casting signals that legacy franchises are now competing for cultural legitimacy through auteur partnerships, not just star power—this reshapes how heritage IP repositions itself in a fragmented media landscape.",
+            "strategic_signal": "Brands tied to established franchises should audit their creative partnerships now: are your legacy collaborators still credible with Gen Z, or do you need to signal a creative reset through unexpected auteur alignment?",
             "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "A.V. Club",
-              "Billboard",
-              "Deadline",
-              "Hypebeast",
+              "Humo",
+              "IndieWire",
+              "Polygon",
               "The Hollywood Reporter",
+              "VRT NWS",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "John Mulaney does the (almost) impossible for his seventh time hosting Saturday Night Live",
-                "url": "https://www.avclub.com/saturday-night-live-recap-season-52-episode-6",
-                "source": "A.V. Club",
-                "published": "2026-11-15T07:53:40.000Z"
+                "title": "De nieuwe James Bond is bekend: Robert Pattinson (40) neemt rol over van Daniel Craig (58)",
+                "url": "https://vrtnws.be/p.WkjmmBKAM",
+                "source": "VRT NWS",
+                "published": "2026-11-16T15:09:07.000Z"
               },
               {
-                "title": "John Mulaney Mocks Robert F. Kennedy Jr. in ‘SNL’ Monologue: ‘No One Likes Him. You Dumbass … Your Thing Can’t Be the Measles!’",
-                "url": "https://variety.com/2026/tv/news/john-mulaney-mocks-robert-f-kennedy-jr-snl-monologue-1236947905/",
+                "title": "Robert Pattinson Is the Next James Bond: Denis Villeneuve Finds Star for His 007 Movie",
+                "url": "https://www.indiewire.com/news/breaking-news/robert-pattinson-next-james-bond-denis-villeneuve-007-movie-1235223210/",
+                "source": "IndieWire",
+                "published": "2026-11-16T15:06:17.000Z"
+              },
+              {
+                "title": "New James Bond Actor Has Been Officially Announced: Robert Pattinson is 007",
+                "url": "https://www.polygon.com/next-james-bond-actor-cast-denis-villeneuve/",
+                "source": "Polygon",
+                "published": "2026-11-16T15:06:04.000Z"
+              },
+              {
+                "title": "Robert Pattinson Is Officially James Bond: Meet the New 007 Actor",
+                "url": "https://variety.com/2026/film/global/robert-pattinson-new-james-bond-007-1236946655/",
                 "source": "Variety",
-                "published": "2026-11-15T05:05:55.000Z"
-              },
-              {
-                "title": "‘SNL’: John Mulaney Roasts RFK Jr. In Opening Monologue, Makes Out With Jeremy Culhane During 7th Hosting Gig",
-                "url": "https://deadline.com/2026/11/snl-john-mulaney-roasts-rfk-jr-opening-monologue-1237224369/",
-                "source": "Deadline",
-                "published": "2026-11-15T05:04:42.000Z"
-              },
-              {
-                "title": "Bowen Yang Makes Surprise ‘SNL’ Appearance as Jensen Huang as John Mulaney Pokes at FAA Ground Stop and Microsoft Outage in Cold Open",
-                "url": "https://www.hollywoodreporter.com/tv/tv-news/bowen-yang-snl-john-mulaney-ground-stop-microsoft-1236755542/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-15T04:57:39.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "European Festival Cinema as Award-Contention Engine",
-            "summary": "Seville European Film Festival, Locarno en Venice Biennale produceren nu contenders voor internationale awards (Golden Leopard → Seville Golden Giraldillo). Belgische en noordeuropese films (Florin Şerban, Mathilde Arcel) domineren in dit circuit.",
-            "why_it_matters": "Europese festivals bepalen nu de global awards-conversation in plaats van Hollywood te volgen; dit positioneert Europese filmmakers als trendsetters voor 'social commentary cinema'.",
-            "strategic_signal": "Merkstrategen kunnen Europese festival-circuits monitoren als indicator voor komende 'prestige cinema' narratives en audience-shifts naar introspective, socially-aware storytelling.",
-            "trajectory": "opkomend",
-            "daysActive": 3,
-            "isNew": false,
-            "sources": [
-              "Deadline",
-              "Google News BE Entertainment (NL)",
-              "The Hollywood Reporter",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Seville European Film Festival Prizes: ‘You Don’t Belong Here,’ ‘Falling House,’ ’Adult Supervision’ Win Big",
-                "url": "https://variety.com/2026/film/global/seville-european-film-festival-prizes-you-dont-belong-here-1236948019/",
-                "source": "Variety",
-                "published": "2026-11-15T12:52:04.000Z"
-              },
-              {
-                "title": "‘Wicker’ Star Alexander Skarsgård Appreciated “Social Commentary” Of Feminist Romantasy Film Without It Being “Too Preachy” – Contenders L.A.",
-                "url": "https://deadline.com/2026/11/alexander-skarsgard-wicker-interview-1237224217/",
-                "source": "Deadline",
-                "published": "2026-11-15T01:55:07.000Z"
-              },
-              {
-                "title": "Chris Pratt “Would Love” to Make a Fourth ‘Guardians of the Galaxy’ Film With James Gunn “If He Wanted to” Amid DC Exit",
-                "url": "https://www.hollywoodreporter.com/movies/movie-news/chris-pratt-james-gunn-guardians-of-the-galaxy-4-1236755525/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-14T23:43:14.000Z"
-              },
-              {
-                "title": "Danseres, choreografe en inspiratie voor film 'Girl': wie is Nora Monsecour (30)? - VRT",
-                "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRWNyQkhNck5wRFQySUdpY1QzQkhZMDRxamNCM004ZXJoY0M4cWJBUlhvTDExdFpZMmtTMFdLUDRzZWlyZnZwbGoxcnh0TDJUTTN0TUtsaTNxU3g0el9iUHd3Y3BKTHMzV0xDVjJrNmxMREtPaUkwQXlMY2lrQWpOeUtJTF9vcEF1X3B2R1h0Wld2UGc5OGl3?oc=5",
-                "source": "Google News BE Entertainment (NL)",
-                "published": "2026-11-15T08:05:04.000Z"
+                "published": "2026-11-16T15:01:07.000Z"
               }
             ]
           }
@@ -153,37 +113,86 @@
         "label": "Internet",
         "insights": [
           {
-            "trend": "Reusable Spaceflight as Cultural Inflection Point",
-            "summary": "SpaceX's 'chopstick'-booster-capture van Starship Flight 15 markeert shift van raketwetenschap naar praktische reusability; media framing positioneert dit als democratisering van ruimtevaart ('toegang tot de ruimte wordt steeds goedkoper').",
-            "why_it_matters": "Dit transformeert ruimte-exploratie van existentiële ambitie naar infrastructuur-vraagstuk; cultureel betekent dit dat 'de toekomst' nu technisch-praktisch is in plaats van speculatief.",
-            "strategic_signal": "Future-focused merken kunnen SpaceX's 'reusability'-framing adopteren als metafoor voor duurzaamheid en kostenefficiëntie in eigen messaging (vermijd 'innovation' jargon; gebruik 'practical progress').",
-            "trajectory": "opkomend",
+            "trend": "Nvidia's Leadership Crisis: Tech Superpower Transparency Stress",
+            "summary": "Jensen Huang's resignation and allies forming a 'war room' for his potential return exposes institutional fragility at the core of AI infrastructure. Multiple sources cover the scandal's depth—regulatory pressure, competitive threats, and leadership instability converging simultaneously.",
+            "why_it_matters": "This signals that even market-dominant tech leaders face reputational vulnerability when personal conduct intersects with geopolitical scrutiny; it reshapes how institutional trust in AI governance is perceived by policymakers and consumers.",
+            "strategic_signal": "B2B tech marketers: stress-test your narratives about leadership stability and ethical governance now—the Nvidia crisis shows that innovation momentum alone no longer insulates founders from accountability narratives.",
+            "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
               "Ars Technica",
+              "Quartz",
               "The Verge",
-              "VRT NWS"
+              "Wired"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Nu SpaceX grote stap zet richting herbruikbare raketten: \"De toegang tot de ruimte wordt steeds goedkoper, vooral voor SpaceX zelf\"",
-                "url": "https://vrtnws.be/p.BlYbR6K3G",
-                "source": "VRT NWS",
-                "published": "2026-11-15T13:16:58.000Z"
+                "title": "Stocks slide as Nvidia leads AI names lower ahead of its earnings Tuesday",
+                "url": "https://qz.com/stocks-slide-nvidia-ai-names-earnings-anthropic-ipo-111626",
+                "source": "Quartz",
+                "published": "2026-11-16T14:50:23.000Z"
               },
               {
-                "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
-                "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+                "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+                "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
                 "source": "Ars Technica",
-                "published": "2026-11-15T00:40:59.000Z"
+                "published": "2026-11-16T14:06:16.000Z"
               },
               {
-                "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
-                "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+                "title": "The Nvidia scandal isn’t slowing down",
+                "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
                 "source": "The Verge",
-                "published": "2026-11-14T21:44:44.000Z"
+                "published": "2026-11-16T13:00:00.000Z"
+              },
+              {
+                "title": "Senator slams Commerce Secretary for flow of Nvidia AI chips to China",
+                "url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+                "source": "The Verge",
+                "published": "2026-11-16T11:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Apple TV Absorbs Podcasts: Streaming Consolidation as Discovery Model",
+            "summary": "Apple is integrating video podcasts into the Apple TV app, converting podcasts from standalone audio medium into a discoverable, free-to-watch streaming category. Multiple sources confirm this is part of Apple's broader bundling strategy.",
+            "why_it_matters": "This marks the normalization of podcast-as-video and the erosion of podcast independence—platforms are consolidating audio and video discovery under streaming umbrellas, fundamentally shifting creator economics and audience reach patterns.",
+            "strategic_signal": "If you produce branded audio content or sponsor podcasts, prepare for fragmentation: expect your audience to fragment across Apple TV, YouTube, Spotify—single-platform dependency is now a business risk, not a default.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Coolhunting",
+              "The Hollywood Reporter",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Apple Podcasts Are Coming to Apple TV App",
+                "url": "https://variety.com/2026/tv/news/watch-apple-podcasts-video-apple-tv-app-1236948907/",
+                "source": "Variety",
+                "published": "2026-11-16T15:00:03.000Z"
+              },
+              {
+                "title": "Apple TV Bulks Up With Video Podcasts",
+                "url": "https://www.hollywoodreporter.com/business/digital/apple-bringing-video-podcasts-to-apple-tv-1236756175/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-16T14:54:19.000Z"
+              },
+              {
+                "title": "Apple TV is getting video podcasts you can watch for free",
+                "url": "https://www.theverge.com/entertainment/1034168/apple-tv-video-podcasts",
+                "source": "The Verge",
+                "published": "2026-11-16T14:45:56.000Z"
+              },
+              {
+                "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+                "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+                "source": "The Verge",
+                "published": "2026-11-16T01:26:56.000Z"
               }
             ]
           }

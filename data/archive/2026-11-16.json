@@ -1,0 +1,258 @@
+{
+  "date": "2026-11-16",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-16T15:17:29.195Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "fashion",
+        "label": "Fashion",
+        "insights": [
+          {
+            "trend": "Nike's Tuned Air: Heritage as Technology Inflection",
+            "summary": "Nike is repositioning its 50-year Air cushioning legacy not as nostalgia, but as an innovation platform, unveiling Tuned Air with 3D-printed air bags and the Vomero 19 as the flagship for next-gen performance. Multiple sources confirm this is a deliberate shift from retro cool to functional futurity.",
+            "why_it_matters": "This demonstrates how heritage brands are converting archive access into innovation credibility—the past becomes proof of R&D depth, not just aesthetic cool, reshaping how legacy competes with newcomers.",
+            "strategic_signal": "If you hold a heritage brand, stress-test whether your archive is positioned as *proof of innovation* or *proof of nostalgia*—Nike's move shows the former drives price premium and Gen Z trust more effectively than the latter.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Dezeen",
+              "Fast Company",
+              "Highsnobiety",
+              "Hypebeast",
+              "Sneaker News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Beyond Retro: Nike Is Betting On Innovation To Keep It’s Cool",
+                "url": "https://sneakernews.com/2026/11/16/nike-morpho-x-project-ride-therma-fit-air/",
+                "source": "Sneaker News",
+                "published": "2026-11-16T14:30:35.000Z"
+              },
+              {
+                "title": "First Look At The Nike Vomero 19, The Next Evolution Of Nike’s Popular Running Shoe",
+                "url": "https://sneakernews.com/2026/11/16/nike-vomero-19/",
+                "source": "Sneaker News",
+                "published": "2026-11-16T14:20:39.000Z"
+              },
+              {
+                "title": "Nike Tuned Air \"a huge stride forward\" in air-filled trainer design says innovation lead",
+                "url": "https://www.dezeen.com/2026/11/16/nike-tuned-air-new-era/",
+                "source": "Dezeen",
+                "published": "2026-11-16T14:12:41.000Z"
+              },
+              {
+                "title": "Nike Book 3 Officially Unveiled",
+                "url": "https://sneakernews.com/2026/11/16/nike-book-3-officially-unveiled/",
+                "source": "Sneaker News",
+                "published": "2026-11-16T14:05:41.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Pattinson as Bond: Auteur-Driven Franchise Reinvention",
+            "summary": "Robert Pattinson is officially cast as the next James Bond by Amazon MGM Studios, with Denis Villeneuve directing from a Steven Knight script. This marks a deliberate pivot toward prestige cinema and arthouse credibility for the Bond franchise after Daniel Craig's era.",
+            "why_it_matters": "The casting signals that legacy franchises are now competing for cultural legitimacy through auteur partnerships, not just star power—this reshapes how heritage IP repositions itself in a fragmented media landscape.",
+            "strategic_signal": "Brands tied to established franchises should audit their creative partnerships now: are your legacy collaborators still credible with Gen Z, or do you need to signal a creative reset through unexpected auteur alignment?",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Humo",
+              "IndieWire",
+              "Polygon",
+              "The Hollywood Reporter",
+              "VRT NWS",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "De nieuwe James Bond is bekend: Robert Pattinson (40) neemt rol over van Daniel Craig (58)",
+                "url": "https://vrtnws.be/p.WkjmmBKAM",
+                "source": "VRT NWS",
+                "published": "2026-11-16T15:09:07.000Z"
+              },
+              {
+                "title": "Robert Pattinson Is the Next James Bond: Denis Villeneuve Finds Star for His 007 Movie",
+                "url": "https://www.indiewire.com/news/breaking-news/robert-pattinson-next-james-bond-denis-villeneuve-007-movie-1235223210/",
+                "source": "IndieWire",
+                "published": "2026-11-16T15:06:17.000Z"
+              },
+              {
+                "title": "New James Bond Actor Has Been Officially Announced: Robert Pattinson is 007",
+                "url": "https://www.polygon.com/next-james-bond-actor-cast-denis-villeneuve/",
+                "source": "Polygon",
+                "published": "2026-11-16T15:06:04.000Z"
+              },
+              {
+                "title": "Robert Pattinson Is Officially James Bond: Meet the New 007 Actor",
+                "url": "https://variety.com/2026/film/global/robert-pattinson-new-james-bond-007-1236946655/",
+                "source": "Variety",
+                "published": "2026-11-16T15:01:07.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
+          {
+            "trend": "Nvidia's Leadership Crisis: Tech Superpower Transparency Stress",
+            "summary": "Jensen Huang's resignation and allies forming a 'war room' for his potential return exposes institutional fragility at the core of AI infrastructure. Multiple sources cover the scandal's depth—regulatory pressure, competitive threats, and leadership instability converging simultaneously.",
+            "why_it_matters": "This signals that even market-dominant tech leaders face reputational vulnerability when personal conduct intersects with geopolitical scrutiny; it reshapes how institutional trust in AI governance is perceived by policymakers and consumers.",
+            "strategic_signal": "B2B tech marketers: stress-test your narratives about leadership stability and ethical governance now—the Nvidia crisis shows that innovation momentum alone no longer insulates founders from accountability narratives.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Ars Technica",
+              "Quartz",
+              "The Verge",
+              "Wired"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Stocks slide as Nvidia leads AI names lower ahead of its earnings Tuesday",
+                "url": "https://qz.com/stocks-slide-nvidia-ai-names-earnings-anthropic-ipo-111626",
+                "source": "Quartz",
+                "published": "2026-11-16T14:50:23.000Z"
+              },
+              {
+                "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+                "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+                "source": "Ars Technica",
+                "published": "2026-11-16T14:06:16.000Z"
+              },
+              {
+                "title": "The Nvidia scandal isn’t slowing down",
+                "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
+                "source": "The Verge",
+                "published": "2026-11-16T13:00:00.000Z"
+              },
+              {
+                "title": "Senator slams Commerce Secretary for flow of Nvidia AI chips to China",
+                "url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+                "source": "The Verge",
+                "published": "2026-11-16T11:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Apple TV Absorbs Podcasts: Streaming Consolidation as Discovery Model",
+            "summary": "Apple is integrating video podcasts into the Apple TV app, converting podcasts from standalone audio medium into a discoverable, free-to-watch streaming category. Multiple sources confirm this is part of Apple's broader bundling strategy.",
+            "why_it_matters": "This marks the normalization of podcast-as-video and the erosion of podcast independence—platforms are consolidating audio and video discovery under streaming umbrellas, fundamentally shifting creator economics and audience reach patterns.",
+            "strategic_signal": "If you produce branded audio content or sponsor podcasts, prepare for fragmentation: expect your audience to fragment across Apple TV, YouTube, Spotify—single-platform dependency is now a business risk, not a default.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Coolhunting",
+              "The Hollywood Reporter",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Apple Podcasts Are Coming to Apple TV App",
+                "url": "https://variety.com/2026/tv/news/watch-apple-podcasts-video-apple-tv-app-1236948907/",
+                "source": "Variety",
+                "published": "2026-11-16T15:00:03.000Z"
+              },
+              {
+                "title": "Apple TV Bulks Up With Video Podcasts",
+                "url": "https://www.hollywoodreporter.com/business/digital/apple-bringing-video-podcasts-to-apple-tv-1236756175/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-16T14:54:19.000Z"
+              },
+              {
+                "title": "Apple TV is getting video podcasts you can watch for free",
+                "url": "https://www.theverge.com/entertainment/1034168/apple-tv-video-podcasts",
+                "source": "The Verge",
+                "published": "2026-11-16T14:45:56.000Z"
+              },
+              {
+                "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+                "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+                "source": "The Verge",
+                "published": "2026-11-16T01:26:56.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-12T14:20:58.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Holiday ads face the craft test",
+        "category": "fashion",
+        "what_is_happening": "Dior's six-minute animated holiday film, Christian Dior's Night in Color, directed by Sylvain Chomet and billed as hand-drawn, drew online accusations of generative AI, which producer Aton Soumache answered by saying artists drew it over seven months and an interpolation tool was used for a very small part. Prada, E.l.f. and Strathberry are also putting the human labour behind their holiday ads front and centre.",
+        "why_it_matters_for_brands": "When a brand sells craft, audiences now check the frames, so a hand-made claim needs proof ready before anyone asks for it.",
+        "what_brands_can_do": [
+          "Publish sketches, process footage and named makers alongside any campaign you bill as hand-made.",
+          "Disclose every automated tool in the production up front, however small its role, rather than explaining it after the backlash.",
+          "Brief agencies to document the making of each holiday asset, so the evidence exists before launch."
+        ],
+        "sources": [
+          "https://fashionista.com/2026/11/skims-holiday-advent-calendar-backlash"
+        ]
+      },
+      {
+        "trend": "Chef personality beats Instagram sameness",
+        "category": "local",
+        "what_is_happening": "Gault&Millau 2027 made Boury in Roeselare the only Belgian restaurant with 19/20, named Gert De Mangeleer of Hertog Jan in Antwerp Chef of the Year and gave Pierre Wynants a standing ovation as Comme chez soi turns 100. Critic Jan Scheidtweiler pointed to a chef's personality as a possible deciding factor, since many restaurants now look alike on Instagram.",
+        "why_it_matters_for_brands": "When every plate looks the same on a feed, the person behind it becomes the difference, and the same holds for brands.",
+        "what_brands_can_do": [
+          "Put the faces and convictions behind your product in your content, not just the polished end result.",
+          "Partner with chefs or makers at the moment they are recognised, and let them speak in their own voice.",
+          "Mark annual guides like Gault&Millau in your calendar as fixed moments for food, hospitality and premium brands."
+        ],
+        "sources": [
+          "https://www.vrt.be/vrtnws/nl/2026/11/09/tim-boury-roeselare-blijft-aan-top-19-op-20-gault-millau-score-b/",
+          "https://www.brusselstimes.com/2400280/antwerps-gert-de-mangeleer-is-gaultmillau-chef-of-the-year"
+        ]
+      },
+      {
+        "trend": "GTA 6 launch clears the calendar",
+        "category": "gaming",
+        "what_is_happening": "Rockstar's Grand Theft Auto VI launches on 19 November on PlayStation 5 and Xbox Series X|S, unlocking at midnight local time in every region, with preloads open since 10 November and Xbox One owners able to stream it via Xbox Cloud Gaming. Take-Two says pre-orders have far exceeded its internal forecasts, and physical copies carry a download code rather than a disc.",
+        "why_it_matters_for_brands": "One release will absorb a huge audience's time and attention for days, so any brand launching that week competes with it whether it planned to or not.",
+        "what_brands_can_do": [
+          "Move your own launches and big announcements away from 19 November and the days that follow.",
+          "Acknowledge the moment with a light, relevant nod in your channels rather than borrowing the game's imagery without a licence.",
+          "Plan content for the people around the players, such as partners, flatmates and colleagues, who lose them for a week."
+        ],
+        "sources": [
+          "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+          "https://www.forbes.com/sites/brianmazique/2026/11/12/gta-6-unlocks-at-midnight-on-november-19-but-millions-of-americans-can-start-playing-the-night-before/",
+          "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+          "https://www.ibtimes.co.uk/gta-6-preorders-exceed-expectations-no-holiday-discounts-1813575"
+        ]
+      }
+    ],
+    "sendDate": "2026-11-13",
+    "locked": true,
+    "selection": "manual",
+    "lockedAt": "2026-11-12T14:20:58.970Z"
+  }
+}
