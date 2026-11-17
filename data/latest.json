@@ -1,58 +1,60 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-16T15:17:29.195Z",
-    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "generatedAt": "2026-11-17T15:44:00.034Z",
+    "intro": "4 categorieën · 4 trends · laatste 24u",
     "categories": [
       {
-        "id": "fashion",
-        "label": "Fashion",
+        "id": "music",
+        "label": "Muziek",
         "insights": [
           {
-            "trend": "Nike's Tuned Air: Heritage as Technology Inflection",
-            "summary": "Nike is repositioning its 50-year Air cushioning legacy not as nostalgia, but as an innovation platform, unveiling Tuned Air with 3D-printed air bags and the Vomero 19 as the flagship for next-gen performance. Multiple sources confirm this is a deliberate shift from retro cool to functional futurity.",
-            "why_it_matters": "This demonstrates how heritage brands are converting archive access into innovation credibility—the past becomes proof of R&D depth, not just aesthetic cool, reshaping how legacy competes with newcomers.",
-            "strategic_signal": "If you hold a heritage brand, stress-test whether your archive is positioned as *proof of innovation* or *proof of nostalgia*—Nike's move shows the former drives price premium and Gen Z trust more effectively than the latter.",
+            "trend": "Julien Baker Solo Comeback: Collaborative Reinvention",
+            "summary": "Julien Baker kondigde haar eerste solo-album in vijf jaar aan ('This World or The Next') in samenwerking met producenten Matt Gilliam en Calvin Lauber, met single 'Hound' die artistieke expansie signaleert. Meerdere onafhankelijke bronnen (NME, Pitchfork, Consequence) dekken dezelfde release op dezelfde dag.",
+            "why_it_matters": "Dit markeert een bredere trend waarin solo-artiesten hun comeback-albums uitdrukkelijk als 'collaborative evolution' framen, niet als terugkeer naar oude formule, relevant voor hoe publieke figuren re-engagement positioneren.",
+            "strategic_signal": "Voor merken die artiesten-partners inzetten: frame partnerships niet als 'comeback' maar als 'collaborated reinvention'. Dit resoneerde met Baker's narratief en kan authentic aanvoelen voor Gen-Z publiek.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Dezeen",
-              "Fast Company",
-              "Highsnobiety",
-              "Hypebeast",
-              "Sneaker News"
+              "Billboard",
+              "Consequence",
+              "Deadline",
+              "NME",
+              "Rock Paper Shotgun",
+              "Sneaker News",
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Beyond Retro: Nike Is Betting On Innovation To Keep It’s Cool",
-                "url": "https://sneakernews.com/2026/11/16/nike-morpho-x-project-ride-therma-fit-air/",
-                "source": "Sneaker News",
-                "published": "2026-11-16T14:30:35.000Z"
+                "title": "Santana Announce 2027 North American Tour",
+                "url": "https://consequence.net/2026/11/santana-2027-north-american-tour/",
+                "source": "Consequence",
+                "published": "2026-11-17T15:41:56.000Z"
               },
               {
-                "title": "First Look At The Nike Vomero 19, The Next Evolution Of Nike’s Popular Running Shoe",
-                "url": "https://sneakernews.com/2026/11/16/nike-vomero-19/",
-                "source": "Sneaker News",
-                "published": "2026-11-16T14:20:39.000Z"
+                "title": "U.K. Executives Respond to Strong Showing in 2027 Grammy Nominations: ‘British Music Has Gone From Strength to Strength’",
+                "url": "https://www.billboard.com/pro/british-acts-20227-grammy-nominees-reaction/",
+                "source": "Billboard",
+                "published": "2026-11-17T15:13:30.000Z"
               },
               {
-                "title": "Nike Tuned Air \"a huge stride forward\" in air-filled trainer design says innovation lead",
-                "url": "https://www.dezeen.com/2026/11/16/nike-tuned-air-new-era/",
-                "source": "Dezeen",
-                "published": "2026-11-16T14:12:41.000Z"
+                "title": "Larry David Sets Six-City Live Conversation Tour For February 2027",
+                "url": "https://deadline.com/2026/11/larry-david-tour-2027-unveiled-1237225507/",
+                "source": "Deadline",
+                "published": "2026-11-17T15:00:00.000Z"
               },
               {
-                "title": "Nike Book 3 Officially Unveiled",
-                "url": "https://sneakernews.com/2026/11/16/nike-book-3-officially-unveiled/",
-                "source": "Sneaker News",
-                "published": "2026-11-16T14:05:41.000Z"
+                "title": "Banijay Reveals First Financials Following All3Media Merger, Says Synergies From Deal ‘Expected to Ramp Up in 2027’",
+                "url": "https://variety.com/2026/tv/global/banijay-reveals-first-financials-following-all3media-merger-1236950226/",
+                "source": "Variety",
+                "published": "2026-11-17T14:57:36.000Z"
               }
             ]
           }
@@ -63,140 +65,167 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Pattinson as Bond: Auteur-Driven Franchise Reinvention",
-            "summary": "Robert Pattinson is officially cast as the next James Bond by Amazon MGM Studios, with Denis Villeneuve directing from a Steven Knight script. This marks a deliberate pivot toward prestige cinema and arthouse credibility for the Bond franchise after Daniel Craig's era.",
-            "why_it_matters": "The casting signals that legacy franchises are now competing for cultural legitimacy through auteur partnerships, not just star power—this reshapes how heritage IP repositions itself in a fragmented media landscape.",
-            "strategic_signal": "Brands tied to established franchises should audit their creative partnerships now: are your legacy collaborators still credible with Gen Z, or do you need to signal a creative reset through unexpected auteur alignment?",
-            "trajectory": "piekend",
+            "trend": "Vertical Microdrama as Platform-Native Storytelling",
+            "summary": "Will Packer en NBCUniversal lanceren 'June', een microdrama studio specifiek voor vertical video-series gericht op Black viewers. Dit is niet 'TikTok content' maar een dedicated platform-first storytelling practice met geldingskracht van established producers.",
+            "why_it_matters": "Dit signaleert dat vertical video niet meer 'discount' content is, maar een eigenstandig format dat studios kunnen legitimeren door er thematische expertise en A-team-producenten in te investeren.",
+            "strategic_signal": "Merk-storytelling kan zich richten op vertical-first narrative design voor niche-audiences (niet 'one story, all platforms'), vooral waar creator-economics zich vormen rond community-specifieke platforms.",
+            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Humo",
-              "IndieWire",
-              "Polygon",
+              "Deadline",
+              "Dezeen",
+              "GamesIndustry.biz",
+              "Rock Paper Shotgun",
               "The Hollywood Reporter",
-              "VRT NWS",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "De nieuwe James Bond is bekend: Robert Pattinson (40) neemt rol over van Daniel Craig (58)",
-                "url": "https://vrtnws.be/p.WkjmmBKAM",
-                "source": "VRT NWS",
-                "published": "2026-11-16T15:09:07.000Z"
+                "title": "Roblox launches creator program for devs to bring games to its platform for free",
+                "url": "https://www.gamesindustry.biz/roblox-launches-creator-program-for-devs-to-bring-games-to-its-platform-for-free",
+                "source": "GamesIndustry.biz",
+                "published": "2026-11-17T15:07:20.000Z"
               },
               {
-                "title": "Robert Pattinson Is the Next James Bond: Denis Villeneuve Finds Star for His 007 Movie",
-                "url": "https://www.indiewire.com/news/breaking-news/robert-pattinson-next-james-bond-denis-villeneuve-007-movie-1235223210/",
-                "source": "IndieWire",
-                "published": "2026-11-16T15:06:17.000Z"
-              },
-              {
-                "title": "New James Bond Actor Has Been Officially Announced: Robert Pattinson is 007",
-                "url": "https://www.polygon.com/next-james-bond-actor-cast-denis-villeneuve/",
-                "source": "Polygon",
-                "published": "2026-11-16T15:06:04.000Z"
-              },
-              {
-                "title": "Robert Pattinson Is Officially James Bond: Meet the New 007 Actor",
-                "url": "https://variety.com/2026/film/global/robert-pattinson-new-james-bond-007-1236946655/",
+                "title": "NBCUniversal Launches Black Vertical Drama Platform From ‘Girls Trip’ Producer Will Packer",
+                "url": "https://variety.com/2026/tv/news/nbcuniversal-black-vertical-drama-will-packer-1236950237/",
                 "source": "Variety",
-                "published": "2026-11-16T15:01:07.000Z"
+                "published": "2026-11-17T15:00:00.000Z"
+              },
+              {
+                "title": "Will Packer Launches Microdrama Studio With Backing From NBCUniversal, HarbourView",
+                "url": "https://www.hollywoodreporter.com/business/business-news/will-packer-microdrama-studio-june-1236756577/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-17T15:00:00.000Z"
+              },
+              {
+                "title": "Will Packer Launches Microdrama Studio June With NBCU Backing",
+                "url": "https://deadline.com/2026/11/will-packer-microdrama-studio-june-nbcuniversal-backing-1237226364/",
+                "source": "Deadline",
+                "published": "2026-11-17T15:00:00.000Z"
               }
             ]
           }
         ]
       },
       {
-        "id": "internet",
-        "label": "Internet",
+        "id": "art",
+        "label": "Art & Design",
         "insights": [
           {
-            "trend": "Nvidia's Leadership Crisis: Tech Superpower Transparency Stress",
-            "summary": "Jensen Huang's resignation and allies forming a 'war room' for his potential return exposes institutional fragility at the core of AI infrastructure. Multiple sources cover the scandal's depth—regulatory pressure, competitive threats, and leadership instability converging simultaneously.",
-            "why_it_matters": "This signals that even market-dominant tech leaders face reputational vulnerability when personal conduct intersects with geopolitical scrutiny; it reshapes how institutional trust in AI governance is perceived by policymakers and consumers.",
-            "strategic_signal": "B2B tech marketers: stress-test your narratives about leadership stability and ethical governance now—the Nvidia crisis shows that innovation momentum alone no longer insulates founders from accountability narratives.",
-            "trajectory": "piekend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Ars Technica",
-              "Quartz",
-              "The Verge",
-              "Wired"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Stocks slide as Nvidia leads AI names lower ahead of its earnings Tuesday",
-                "url": "https://qz.com/stocks-slide-nvidia-ai-names-earnings-anthropic-ipo-111626",
-                "source": "Quartz",
-                "published": "2026-11-16T14:50:23.000Z"
-              },
-              {
-                "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
-                "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
-                "source": "Ars Technica",
-                "published": "2026-11-16T14:06:16.000Z"
-              },
-              {
-                "title": "The Nvidia scandal isn’t slowing down",
-                "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
-                "source": "The Verge",
-                "published": "2026-11-16T13:00:00.000Z"
-              },
-              {
-                "title": "Senator slams Commerce Secretary for flow of Nvidia AI chips to China",
-                "url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
-                "source": "The Verge",
-                "published": "2026-11-16T11:00:00.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Apple TV Absorbs Podcasts: Streaming Consolidation as Discovery Model",
-            "summary": "Apple is integrating video podcasts into the Apple TV app, converting podcasts from standalone audio medium into a discoverable, free-to-watch streaming category. Multiple sources confirm this is part of Apple's broader bundling strategy.",
-            "why_it_matters": "This marks the normalization of podcast-as-video and the erosion of podcast independence—platforms are consolidating audio and video discovery under streaming umbrellas, fundamentally shifting creator economics and audience reach patterns.",
-            "strategic_signal": "If you produce branded audio content or sponsor podcasts, prepare for fragmentation: expect your audience to fragment across Apple TV, YouTube, Spotify—single-platform dependency is now a business risk, not a default.",
+            "trend": "Reclaimed Materials as Placemaking Activism",
+            "summary": "Een opeenvolging van projecten—van Oekraïense kunstenaars die 5.000 salvaged fragments gebruiken voor een mosaic-installatie op COP31, tot kunstenaars die Space Shuttle-tanks en plastic-gewikkelde bomen omvormen—breidt het concept van 'found object art' uit naar infrastructuur-schaal en climate-consciousness. Dit gebeurt niet in galeries, maar in publieke/civieke contexten.",
+            "why_it_matters": "Dit signaleert dat 'sustainability' in kunst niet langer abstract is, maar tactiel, monumentaal en politiek wordt. Publieke waarde krijgt voorrang over collectible waarde.",
+            "strategic_signal": "Voor culturele instellingen en merk-activaties: onderzoek partnerships met beeldende kunstenaars die materiaal-hergebruik als core practice hebben, niet als 'eco-add-on'. Dit heeft echte publieke legitimiteit.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
+              "Ars Technica",
               "Coolhunting",
-              "The Hollywood Reporter",
-              "The Verge",
+              "Dezeen",
+              "Hypebeast",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Apple Podcasts Are Coming to Apple TV App",
-                "url": "https://variety.com/2026/tv/news/watch-apple-podcasts-video-apple-tv-app-1236948907/",
+                "title": "House Democrats promise a US return to global climate talks",
+                "url": "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks/",
+                "source": "Ars Technica",
+                "published": "2026-11-17T15:32:43.000Z"
+              },
+              {
+                "title": "‘Ramayana’ VFX House DNEG Partners With Meta on 3D Movies for VR Glasses, Including ‘The Hunger Games: Sunrise on the Reaping’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/biz/news/ramayana-vfx-firm-dneg-meta-3d-movies-vr-glasses-1236950144/",
                 "source": "Variety",
-                "published": "2026-11-16T15:00:03.000Z"
+                "published": "2026-11-17T14:00:00.000Z"
               },
               {
-                "title": "Apple TV Bulks Up With Video Podcasts",
-                "url": "https://www.hollywoodreporter.com/business/digital/apple-bringing-video-podcasts-to-apple-tv-1236756175/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-16T14:54:19.000Z"
+                "title": "La Cabra Coffee Opens at Lantern House In Chelsea",
+                "url": "https://coolhunting.com/design/la-cabra-coffee-opens-at-lantern-house-in-chelsea/",
+                "source": "Coolhunting",
+                "published": "2026-11-17T12:04:00.000Z"
               },
               {
-                "title": "Apple TV is getting video podcasts you can watch for free",
-                "url": "https://www.theverge.com/entertainment/1034168/apple-tv-video-podcasts",
-                "source": "The Verge",
-                "published": "2026-11-16T14:45:56.000Z"
-              },
-              {
-                "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
-                "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
-                "source": "The Verge",
-                "published": "2026-11-16T01:26:56.000Z"
+                "title": "Construction underway on Jean Nouvel's landmark opera house in China",
+                "url": "https://www.dezeen.com/2026/11/17/jean-nouvels-shenzhen-opera-house/",
+                "source": "Dezeen",
+                "published": "2026-11-17T11:00:00.000Z"
               }
             ]
           }
         ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "Pattinson as Auteur-Franchise Hybrid Bond",
+            "summary": "Meerdere bronnen positioneren Robert Pattinson als ideale Bond-kandidaat precies omdat hij zowel blockbuster-ervaring (Twilight, Batman) als regisseur-gedreven risico's (The Lighthouse, Cosmopolis) heeft genomen. Dit signaleert een verschuiving in hoe franchises hun A-list talent selecteren.",
+            "why_it_matters": "Dit weerspiegelt een fundamentele verandering in franchisedenken: niet meer 'bankable star', maar 'star met artistieke integriteit die franchises kan eleveren zonder ze te domesticeren'.",
+            "strategic_signal": "Merk-partnerships en casting-strategie kunnen voortaan 'artiest-with-reach' profileren als waarde-proposition, niet louter 'audience-pull'; test dit in talent-scouting voor heritage-brand-ambassadorships.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "De Tijd Cultuur",
+              "Deadline",
+              "GQ",
+              "Hypebeast",
+              "IndieWire",
+              "NME",
+              "Quartz",
+              "Wikipedia Trending EN",
+              "Wikipedia Trending NL"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Robert Pattinson",
+                "url": "https://nl.wikipedia.org/wiki/Robert_Pattinson",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-17T15:43:42.699Z"
+              },
+              {
+                "title": "Robert Pattinson filmography",
+                "url": "https://en.wikipedia.org/wiki/Robert_Pattinson_filmography",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-17T15:43:42.518Z"
+              },
+              {
+                "title": "Jon Stewart Coulda Been A Bond Contender But The FAA, Riverboats & Robert Pattinson Got In The Way",
+                "url": "https://deadline.com/2026/11/jon-stewart-robert-pattinson-james-bond-1237226514/",
+                "source": "Deadline",
+                "published": "2026-11-17T15:27:24.000Z"
+              },
+              {
+                "title": "16 Robert Pattinson films, from Twilight to Bond-era blockbusters and art-house risks",
+                "url": "https://qz.com/robert-pattinson-movies",
+                "source": "Quartz",
+                "published": "2026-11-17T15:14:31.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-11-17T15:44:03.190Z",
+    "megaTrends": [
+      {
+        "trend": "Auteurschap Binnen Institutionele Systemen Heruitgevonden",
+        "summary": "Established creatives herontdekken persoonlijke artistieke controle terwijl zij zich binnen grotere systemen bevinden: Julien Baker als solo-kunstenaar na bandgeschiedenis, Robert Pattinson als auteur-regisseur die franchiseformules ombuigt. Dit reflecteert een bredere verschuiving van artiest-als-uitvoerder naar artiest-als-regisseur van eigen narratief.",
+        "why_it_matters": "Dit signaleert dat 'selling out' versus 'authenticity' als false binary verdwijnt; de nieuwe culturele waarde ligt in hoe creatieven machtsstructuren van binnenuit hertekenen.",
+        "categories": [
+          "music",
+          "trends"
+        ],
+        "strength": "matig"
       }
     ]
   },
