@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-18",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-18T15:23:57.240Z",
+    "intro": "2 categorieën · 2 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Festival-aankondigingen als merkcalender-ritual",
+            "summary": "Glastonbury 2027 lineup-reveal (Harry Styles, Billie Eilish, Cher, King Gizzard) en RAYE's dubbele BST Hyde Park 2027-datum worden massaal gedekt als planningsmoment voor consumenten. De aankondigingen genereren méér gesprek dan de festivals zelf nog hebben plaatsgevonden.",
+            "why_it_matters": "Festival-aankondigingen zijn geen muzieknieuws meer, ze zijn rituele cultuurmomenten waarop massaal gesprek ontstaat over wie 'relevant' nog is en wat de zomer van 2027 'betekent'. Dit is pure merkentraffiekseis.",
+            "strategic_signal": "Boek nu advertorial-ruimte rond festival-aankondigingen (niet het festival zelf): gebruik het moment als anker voor 'What's Next'-content over zomertrends, nostalgie en iconiciteit.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "Crack Magazine",
+              "Google News BE Festivals",
+              "Google News BE Muziek",
+              "Hypebeast",
+              "NME",
+              "Pitchfork News",
+              "Sneaker News"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Glastonbury Unveils 2027 Lineup with Harry Styles, Billie Eilish, Cher, and Sam Fender",
+                "url": "https://consequence.net/2026/11/glastonbury-2027-lineup-harry-styles-billie-eilish-cher-sam-fender/",
+                "source": "Consequence",
+                "published": "2026-11-18T15:21:57.000Z"
+              },
+              {
+                "title": "RAYE announces second London BST Hyde Park 2027 show due to phenomenal demand",
+                "url": "https://www.nme.com/news/music/raye-announces-second-bst-hyde-park-2027-show-phenomenal-demand-tickets-3976332",
+                "source": "NME",
+                "published": "2026-11-18T13:50:14.000Z"
+              },
+              {
+                "title": "‘Threads: My Songs in Symphony’ To Celebrate Dolly Parton’s Legacy on 2027 Orchestral Tour of U.S., U.K. and Australia",
+                "url": "https://www.billboard.com/music/country/dolly-parton-threads-my-songs-symphony-2027-orchestral-tour-dates-1236384734/",
+                "source": "Billboard",
+                "published": "2026-11-18T13:44:31.000Z"
+              },
+              {
+                "title": "Glastonbury 2027: Fans react to line-up",
+                "url": "https://www.nme.com/news/music/glastonbury-2027-fans-react-to-line-up-3976320",
+                "source": "NME",
+                "published": "2026-11-18T13:30:58.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "GTA VI als culturele geldstandaard",
+            "summary": "Grand Theft Auto VI domineert niet alleen als blockbuster-game (99 Metacritic, recordbrekende launch), maar wordt ook geëvalueerd als potentieel film/tv-franchise en economische indicator vergelijkbaar met Taylor Swift. Het spel fungeert als barometer voor wat entertainment-impact betekent in 2026.",
+            "why_it_matters": "Dit signaleert dat games niet langer als aparte mediumcategorie worden behandeld, maar als cultuurbepaler met dezelfde impact-meting als film en muziek. Merken moeten game-launches serieus nemen als culturele events, niet als niche.",
+            "strategic_signal": "Activeer game-launches als prestige-marketing-momenten: partner niet met GTA VI zelf, maar creëer rond de launch-week eigen 'cultural relevance'-content die het moment benut, net zoals je bij major film-releases zou doen.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Dazed",
+              "Deadline",
+              "Eurogamer",
+              "Fast Company",
+              "GQ",
+              "GamesIndustry.biz",
+              "Google News BE Gaming",
+              "NME",
+              "Rock Paper Shotgun",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "PlayStation has no Game of the Year nominations at The Game Awards for the first time in 11 years",
+                "url": "https://www.eurogamer.net/playstation-sony-game-awards-no-nominations",
+                "source": "Eurogamer",
+                "published": "2026-11-18T15:17:10.000Z"
+              },
+              {
+                "title": "‘Grand Theft Auto VI’: Could Video Game Franchise Become Film Or TV Show? “We’re Very, Very Selective,” Says Take-Two CEO",
+                "url": "https://deadline.com/2026/11/grand-theft-auto-6-could-be-tv-show-film-1237227890/",
+                "source": "Deadline",
+                "published": "2026-11-18T15:10:34.000Z"
+              },
+              {
+                "title": "‘GTA 6’ Earns Rave Reviews and Lands 99 Metacritic Score, Tying for Highest-Rated Game of All Time",
+                "url": "https://variety.com/2026/gaming/news/gta-6-reviews-highest-rated-video-game-1236951803/",
+                "source": "Variety",
+                "published": "2026-11-18T14:23:49.000Z"
+              },
+              {
+                "title": "Infinity Nikki fans threaten to boycott game after promotion by Elon Musk's mother, but there may be a genuine reason for her involvement",
+                "url": "https://www.eurogamer.net/infinity-nikki-elon-musk-maye-mother-fan-reaction",
+                "source": "Eurogamer",
+                "published": "2026-11-18T14:14:50.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-18T15:25:41.888Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Festival Announcements As Cultural Ritual",
+        "category": "music",
+        "what_is_happening": "The Glastonbury 2027 lineup reveal featuring Harry Styles, Billie Eilish, Cher and King Gizzard, alongside RAYE's double BST Hyde Park dates, is generating more cultural conversation than many events that have already taken place. Festival announcements have become planning rituals for consumers, sparking mass debate about relevance, taste and what a future summer will mean culturally.",
+        "why_it_matters_for_brands": "The announcement moment now carries more reach and emotional weight than the event itself, giving brands a predictable, high-attention cultural calendar beat to build around long before a ticket is scanned.",
+        "what_brands_can_do": [
+          "Map festival announcement dates into your content calendar as primary cultural moments, not secondary ones.",
+          "Create positioning around the anticipation phase, not just event sponsorship or on-site activations.",
+          "Use lineup debates to understand which artists signal cultural credibility to your specific audience right now."
+        ]
+      },
+      {
+        "trend": "GTA VI As Cross-Media Economic Standard",
+        "category": "gaming",
+        "what_is_happening": "Grand Theft Auto VI launched with a 99 Metacritic score and record-breaking sales figures, but the conversation has quickly moved beyond gaming coverage to frame it as a potential film and TV franchise and an economic indicator comparable to Taylor Swift's touring impact. Games are now being measured with the same cultural and financial metrics applied to music and cinema.",
+        "why_it_matters_for_brands": "Any brand still treating major game launches as niche media events is misreading where mass cultural attention actually lives in 2026.",
+        "what_brands_can_do": [
+          "Treat tier-one game launches as equivalent cultural moments to major film releases in your media planning.",
+          "Identify crossover audiences between GTA VI players and your existing customers to find credible points of entry.",
+          "Commission or repurpose content that speaks to gaming culture without reducing it to stereotypes or surface-level references."
+        ]
+      }
+    ]
+  }
+}

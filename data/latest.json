@@ -1,212 +1,117 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-17T15:44:00.034Z",
-    "intro": "4 categorieën · 4 trends · laatste 24u",
+    "generatedAt": "2026-11-18T15:23:57.240Z",
+    "intro": "2 categorieën · 2 trends · laatste 24u",
     "categories": [
       {
         "id": "music",
         "label": "Muziek",
         "insights": [
           {
-            "trend": "Julien Baker Solo Comeback: Collaborative Reinvention",
-            "summary": "Julien Baker kondigde haar eerste solo-album in vijf jaar aan ('This World or The Next') in samenwerking met producenten Matt Gilliam en Calvin Lauber, met single 'Hound' die artistieke expansie signaleert. Meerdere onafhankelijke bronnen (NME, Pitchfork, Consequence) dekken dezelfde release op dezelfde dag.",
-            "why_it_matters": "Dit markeert een bredere trend waarin solo-artiesten hun comeback-albums uitdrukkelijk als 'collaborative evolution' framen, niet als terugkeer naar oude formule, relevant voor hoe publieke figuren re-engagement positioneren.",
-            "strategic_signal": "Voor merken die artiesten-partners inzetten: frame partnerships niet als 'comeback' maar als 'collaborated reinvention'. Dit resoneerde met Baker's narratief en kan authentic aanvoelen voor Gen-Z publiek.",
+            "trend": "Festival-aankondigingen als merkcalender-ritual",
+            "summary": "Glastonbury 2027 lineup-reveal (Harry Styles, Billie Eilish, Cher, King Gizzard) en RAYE's dubbele BST Hyde Park 2027-datum worden massaal gedekt als planningsmoment voor consumenten. De aankondigingen genereren méér gesprek dan de festivals zelf nog hebben plaatsgevonden.",
+            "why_it_matters": "Festival-aankondigingen zijn geen muzieknieuws meer, ze zijn rituele cultuurmomenten waarop massaal gesprek ontstaat over wie 'relevant' nog is en wat de zomer van 2027 'betekent'. Dit is pure merkentraffiekseis.",
+            "strategic_signal": "Boek nu advertorial-ruimte rond festival-aankondigingen (niet het festival zelf): gebruik het moment als anker voor 'What's Next'-content over zomertrends, nostalgie en iconiciteit.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
               "Billboard",
               "Consequence",
-              "Deadline",
-              "NME",
-              "Rock Paper Shotgun",
-              "Sneaker News",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Santana Announce 2027 North American Tour",
-                "url": "https://consequence.net/2026/11/santana-2027-north-american-tour/",
-                "source": "Consequence",
-                "published": "2026-11-17T15:41:56.000Z"
-              },
-              {
-                "title": "U.K. Executives Respond to Strong Showing in 2027 Grammy Nominations: ‘British Music Has Gone From Strength to Strength’",
-                "url": "https://www.billboard.com/pro/british-acts-20227-grammy-nominees-reaction/",
-                "source": "Billboard",
-                "published": "2026-11-17T15:13:30.000Z"
-              },
-              {
-                "title": "Larry David Sets Six-City Live Conversation Tour For February 2027",
-                "url": "https://deadline.com/2026/11/larry-david-tour-2027-unveiled-1237225507/",
-                "source": "Deadline",
-                "published": "2026-11-17T15:00:00.000Z"
-              },
-              {
-                "title": "Banijay Reveals First Financials Following All3Media Merger, Says Synergies From Deal ‘Expected to Ramp Up in 2027’",
-                "url": "https://variety.com/2026/tv/global/banijay-reveals-first-financials-following-all3media-merger-1236950226/",
-                "source": "Variety",
-                "published": "2026-11-17T14:57:36.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "film",
-        "label": "Film & TV",
-        "insights": [
-          {
-            "trend": "Vertical Microdrama as Platform-Native Storytelling",
-            "summary": "Will Packer en NBCUniversal lanceren 'June', een microdrama studio specifiek voor vertical video-series gericht op Black viewers. Dit is niet 'TikTok content' maar een dedicated platform-first storytelling practice met geldingskracht van established producers.",
-            "why_it_matters": "Dit signaleert dat vertical video niet meer 'discount' content is, maar een eigenstandig format dat studios kunnen legitimeren door er thematische expertise en A-team-producenten in te investeren.",
-            "strategic_signal": "Merk-storytelling kan zich richten op vertical-first narrative design voor niche-audiences (niet 'one story, all platforms'), vooral waar creator-economics zich vormen rond community-specifieke platforms.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Deadline",
-              "Dezeen",
-              "GamesIndustry.biz",
-              "Rock Paper Shotgun",
-              "The Hollywood Reporter",
-              "Variety"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Roblox launches creator program for devs to bring games to its platform for free",
-                "url": "https://www.gamesindustry.biz/roblox-launches-creator-program-for-devs-to-bring-games-to-its-platform-for-free",
-                "source": "GamesIndustry.biz",
-                "published": "2026-11-17T15:07:20.000Z"
-              },
-              {
-                "title": "NBCUniversal Launches Black Vertical Drama Platform From ‘Girls Trip’ Producer Will Packer",
-                "url": "https://variety.com/2026/tv/news/nbcuniversal-black-vertical-drama-will-packer-1236950237/",
-                "source": "Variety",
-                "published": "2026-11-17T15:00:00.000Z"
-              },
-              {
-                "title": "Will Packer Launches Microdrama Studio With Backing From NBCUniversal, HarbourView",
-                "url": "https://www.hollywoodreporter.com/business/business-news/will-packer-microdrama-studio-june-1236756577/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-17T15:00:00.000Z"
-              },
-              {
-                "title": "Will Packer Launches Microdrama Studio June With NBCU Backing",
-                "url": "https://deadline.com/2026/11/will-packer-microdrama-studio-june-nbcuniversal-backing-1237226364/",
-                "source": "Deadline",
-                "published": "2026-11-17T15:00:00.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "art",
-        "label": "Art & Design",
-        "insights": [
-          {
-            "trend": "Reclaimed Materials as Placemaking Activism",
-            "summary": "Een opeenvolging van projecten—van Oekraïense kunstenaars die 5.000 salvaged fragments gebruiken voor een mosaic-installatie op COP31, tot kunstenaars die Space Shuttle-tanks en plastic-gewikkelde bomen omvormen—breidt het concept van 'found object art' uit naar infrastructuur-schaal en climate-consciousness. Dit gebeurt niet in galeries, maar in publieke/civieke contexten.",
-            "why_it_matters": "Dit signaleert dat 'sustainability' in kunst niet langer abstract is, maar tactiel, monumentaal en politiek wordt. Publieke waarde krijgt voorrang over collectible waarde.",
-            "strategic_signal": "Voor culturele instellingen en merk-activaties: onderzoek partnerships met beeldende kunstenaars die materiaal-hergebruik als core practice hebben, niet als 'eco-add-on'. Dit heeft echte publieke legitimiteit.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Ars Technica",
-              "Coolhunting",
-              "Dezeen",
+              "Crack Magazine",
+              "Google News BE Festivals",
+              "Google News BE Muziek",
               "Hypebeast",
-              "Variety"
+              "NME",
+              "Pitchfork News",
+              "Sneaker News"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "House Democrats promise a US return to global climate talks",
-                "url": "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks/",
-                "source": "Ars Technica",
-                "published": "2026-11-17T15:32:43.000Z"
+                "title": "Glastonbury Unveils 2027 Lineup with Harry Styles, Billie Eilish, Cher, and Sam Fender",
+                "url": "https://consequence.net/2026/11/glastonbury-2027-lineup-harry-styles-billie-eilish-cher-sam-fender/",
+                "source": "Consequence",
+                "published": "2026-11-18T15:21:57.000Z"
               },
               {
-                "title": "‘Ramayana’ VFX House DNEG Partners With Meta on 3D Movies for VR Glasses, Including ‘The Hunger Games: Sunrise on the Reaping’ (EXCLUSIVE)",
-                "url": "https://variety.com/2026/biz/news/ramayana-vfx-firm-dneg-meta-3d-movies-vr-glasses-1236950144/",
-                "source": "Variety",
-                "published": "2026-11-17T14:00:00.000Z"
+                "title": "RAYE announces second London BST Hyde Park 2027 show due to phenomenal demand",
+                "url": "https://www.nme.com/news/music/raye-announces-second-bst-hyde-park-2027-show-phenomenal-demand-tickets-3976332",
+                "source": "NME",
+                "published": "2026-11-18T13:50:14.000Z"
               },
               {
-                "title": "La Cabra Coffee Opens at Lantern House In Chelsea",
-                "url": "https://coolhunting.com/design/la-cabra-coffee-opens-at-lantern-house-in-chelsea/",
-                "source": "Coolhunting",
-                "published": "2026-11-17T12:04:00.000Z"
+                "title": "‘Threads: My Songs in Symphony’ To Celebrate Dolly Parton’s Legacy on 2027 Orchestral Tour of U.S., U.K. and Australia",
+                "url": "https://www.billboard.com/music/country/dolly-parton-threads-my-songs-symphony-2027-orchestral-tour-dates-1236384734/",
+                "source": "Billboard",
+                "published": "2026-11-18T13:44:31.000Z"
               },
               {
-                "title": "Construction underway on Jean Nouvel's landmark opera house in China",
-                "url": "https://www.dezeen.com/2026/11/17/jean-nouvels-shenzhen-opera-house/",
-                "source": "Dezeen",
-                "published": "2026-11-17T11:00:00.000Z"
+                "title": "Glastonbury 2027: Fans react to line-up",
+                "url": "https://www.nme.com/news/music/glastonbury-2027-fans-react-to-line-up-3976320",
+                "source": "NME",
+                "published": "2026-11-18T13:30:58.000Z"
               }
             ]
           }
         ]
       },
       {
-        "id": "trends",
-        "label": "Trends",
+        "id": "gaming",
+        "label": "Gaming",
         "insights": [
           {
-            "trend": "Pattinson as Auteur-Franchise Hybrid Bond",
-            "summary": "Meerdere bronnen positioneren Robert Pattinson als ideale Bond-kandidaat precies omdat hij zowel blockbuster-ervaring (Twilight, Batman) als regisseur-gedreven risico's (The Lighthouse, Cosmopolis) heeft genomen. Dit signaleert een verschuiving in hoe franchises hun A-list talent selecteren.",
-            "why_it_matters": "Dit weerspiegelt een fundamentele verandering in franchisedenken: niet meer 'bankable star', maar 'star met artistieke integriteit die franchises kan eleveren zonder ze te domesticeren'.",
-            "strategic_signal": "Merk-partnerships en casting-strategie kunnen voortaan 'artiest-with-reach' profileren als waarde-proposition, niet louter 'audience-pull'; test dit in talent-scouting voor heritage-brand-ambassadorships.",
+            "trend": "GTA VI als culturele geldstandaard",
+            "summary": "Grand Theft Auto VI domineert niet alleen als blockbuster-game (99 Metacritic, recordbrekende launch), maar wordt ook geëvalueerd als potentieel film/tv-franchise en economische indicator vergelijkbaar met Taylor Swift. Het spel fungeert als barometer voor wat entertainment-impact betekent in 2026.",
+            "why_it_matters": "Dit signaleert dat games niet langer als aparte mediumcategorie worden behandeld, maar als cultuurbepaler met dezelfde impact-meting als film en muziek. Merken moeten game-launches serieus nemen als culturele events, niet als niche.",
+            "strategic_signal": "Activeer game-launches als prestige-marketing-momenten: partner niet met GTA VI zelf, maar creëer rond de launch-week eigen 'cultural relevance'-content die het moment benut, net zoals je bij major film-releases zou doen.",
             "trajectory": "piekend",
             "daysActive": 2,
             "isNew": false,
             "sources": [
-              "De Tijd Cultuur",
+              "Dazed",
               "Deadline",
+              "Eurogamer",
+              "Fast Company",
               "GQ",
-              "Hypebeast",
-              "IndieWire",
+              "GamesIndustry.biz",
+              "Google News BE Gaming",
               "NME",
-              "Quartz",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL"
+              "Rock Paper Shotgun",
+              "The Verge",
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Robert Pattinson",
-                "url": "https://nl.wikipedia.org/wiki/Robert_Pattinson",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-11-17T15:43:42.699Z"
+                "title": "PlayStation has no Game of the Year nominations at The Game Awards for the first time in 11 years",
+                "url": "https://www.eurogamer.net/playstation-sony-game-awards-no-nominations",
+                "source": "Eurogamer",
+                "published": "2026-11-18T15:17:10.000Z"
               },
               {
-                "title": "Robert Pattinson filmography",
-                "url": "https://en.wikipedia.org/wiki/Robert_Pattinson_filmography",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-11-17T15:43:42.518Z"
-              },
-              {
-                "title": "Jon Stewart Coulda Been A Bond Contender But The FAA, Riverboats & Robert Pattinson Got In The Way",
-                "url": "https://deadline.com/2026/11/jon-stewart-robert-pattinson-james-bond-1237226514/",
+                "title": "‘Grand Theft Auto VI’: Could Video Game Franchise Become Film Or TV Show? “We’re Very, Very Selective,” Says Take-Two CEO",
+                "url": "https://deadline.com/2026/11/grand-theft-auto-6-could-be-tv-show-film-1237227890/",
                 "source": "Deadline",
-                "published": "2026-11-17T15:27:24.000Z"
+                "published": "2026-11-18T15:10:34.000Z"
               },
               {
-                "title": "16 Robert Pattinson films, from Twilight to Bond-era blockbusters and art-house risks",
-                "url": "https://qz.com/robert-pattinson-movies",
-                "source": "Quartz",
-                "published": "2026-11-17T15:14:31.000Z"
+                "title": "‘GTA 6’ Earns Rave Reviews and Lands 99 Metacritic Score, Tying for Highest-Rated Game of All Time",
+                "url": "https://variety.com/2026/gaming/news/gta-6-reviews-highest-rated-video-game-1236951803/",
+                "source": "Variety",
+                "published": "2026-11-18T14:23:49.000Z"
+              },
+              {
+                "title": "Infinity Nikki fans threaten to boycott game after promotion by Elon Musk's mother, but there may be a genuine reason for her involvement",
+                "url": "https://www.eurogamer.net/infinity-nikki-elon-musk-maye-mother-fan-reaction",
+                "source": "Eurogamer",
+                "published": "2026-11-18T14:14:50.000Z"
               }
             ]
           }
@@ -214,74 +119,31 @@
       }
     ]
   },
-  "crossCategory": {
-    "generatedAt": "2026-11-17T15:44:03.190Z",
-    "megaTrends": [
-      {
-        "trend": "Auteurschap Binnen Institutionele Systemen Heruitgevonden",
-        "summary": "Established creatives herontdekken persoonlijke artistieke controle terwijl zij zich binnen grotere systemen bevinden: Julien Baker als solo-kunstenaar na bandgeschiedenis, Robert Pattinson als auteur-regisseur die franchiseformules ombuigt. Dit reflecteert een bredere verschuiving van artiest-als-uitvoerder naar artiest-als-regisseur van eigen narratief.",
-        "why_it_matters": "Dit signaleert dat 'selling out' versus 'authenticity' als false binary verdwijnt; de nieuwe culturele waarde ligt in hoe creatieven machtsstructuren van binnenuit hertekenen.",
-        "categories": [
-          "music",
-          "trends"
-        ],
-        "strength": "matig"
-      }
-    ]
-  },
   "weeklyBrandSignals": {
-    "generatedAt": "2026-11-12T14:20:58.000Z",
+    "generatedAt": "2026-11-18T15:25:41.888Z",
     "weeklyBrandSignals": [
       {
-        "trend": "Holiday ads face the craft test",
-        "category": "fashion",
-        "what_is_happening": "Dior's six-minute animated holiday film, Christian Dior's Night in Color, directed by Sylvain Chomet and billed as hand-drawn, drew online accusations of generative AI, which producer Aton Soumache answered by saying artists drew it over seven months and an interpolation tool was used for a very small part. Prada, E.l.f. and Strathberry are also putting the human labour behind their holiday ads front and centre.",
-        "why_it_matters_for_brands": "When a brand sells craft, audiences now check the frames, so a hand-made claim needs proof ready before anyone asks for it.",
+        "trend": "Festival Announcements As Cultural Ritual",
+        "category": "music",
+        "what_is_happening": "The Glastonbury 2027 lineup reveal featuring Harry Styles, Billie Eilish, Cher and King Gizzard, alongside RAYE's double BST Hyde Park dates, is generating more cultural conversation than many events that have already taken place. Festival announcements have become planning rituals for consumers, sparking mass debate about relevance, taste and what a future summer will mean culturally.",
+        "why_it_matters_for_brands": "The announcement moment now carries more reach and emotional weight than the event itself, giving brands a predictable, high-attention cultural calendar beat to build around long before a ticket is scanned.",
         "what_brands_can_do": [
-          "Publish sketches, process footage and named makers alongside any campaign you bill as hand-made.",
-          "Disclose every automated tool in the production up front, however small its role, rather than explaining it after the backlash.",
-          "Brief agencies to document the making of each holiday asset, so the evidence exists before launch."
-        ],
-        "sources": [
-          "https://fashionista.com/2026/11/skims-holiday-advent-calendar-backlash"
+          "Map festival announcement dates into your content calendar as primary cultural moments, not secondary ones.",
+          "Create positioning around the anticipation phase, not just event sponsorship or on-site activations.",
+          "Use lineup debates to understand which artists signal cultural credibility to your specific audience right now."
         ]
       },
       {
-        "trend": "Chef personality beats Instagram sameness",
-        "category": "local",
-        "what_is_happening": "Gault&Millau 2027 made Boury in Roeselare the only Belgian restaurant with 19/20, named Gert De Mangeleer of Hertog Jan in Antwerp Chef of the Year and gave Pierre Wynants a standing ovation as Comme chez soi turns 100. Critic Jan Scheidtweiler pointed to a chef's personality as a possible deciding factor, since many restaurants now look alike on Instagram.",
-        "why_it_matters_for_brands": "When every plate looks the same on a feed, the person behind it becomes the difference, and the same holds for brands.",
-        "what_brands_can_do": [
-          "Put the faces and convictions behind your product in your content, not just the polished end result.",
-          "Partner with chefs or makers at the moment they are recognised, and let them speak in their own voice.",
-          "Mark annual guides like Gault&Millau in your calendar as fixed moments for food, hospitality and premium brands."
-        ],
-        "sources": [
-          "https://www.vrt.be/vrtnws/nl/2026/11/09/tim-boury-roeselare-blijft-aan-top-19-op-20-gault-millau-score-b/",
-          "https://www.brusselstimes.com/2400280/antwerps-gert-de-mangeleer-is-gaultmillau-chef-of-the-year"
-        ]
-      },
-      {
-        "trend": "GTA 6 launch clears the calendar",
+        "trend": "GTA VI As Cross-Media Economic Standard",
         "category": "gaming",
-        "what_is_happening": "Rockstar's Grand Theft Auto VI launches on 19 November on PlayStation 5 and Xbox Series X|S, unlocking at midnight local time in every region, with preloads open since 10 November and Xbox One owners able to stream it via Xbox Cloud Gaming. Take-Two says pre-orders have far exceeded its internal forecasts, and physical copies carry a download code rather than a disc.",
-        "why_it_matters_for_brands": "One release will absorb a huge audience's time and attention for days, so any brand launching that week competes with it whether it planned to or not.",
+        "what_is_happening": "Grand Theft Auto VI launched with a 99 Metacritic score and record-breaking sales figures, but the conversation has quickly moved beyond gaming coverage to frame it as a potential film and TV franchise and an economic indicator comparable to Taylor Swift's touring impact. Games are now being measured with the same cultural and financial metrics applied to music and cinema.",
+        "why_it_matters_for_brands": "Any brand still treating major game launches as niche media events is misreading where mass cultural attention actually lives in 2026.",
         "what_brands_can_do": [
-          "Move your own launches and big announcements away from 19 November and the days that follow.",
-          "Acknowledge the moment with a light, relevant nod in your channels rather than borrowing the game's imagery without a licence.",
-          "Plan content for the people around the players, such as partners, flatmates and colleagues, who lose them for a week."
-        ],
-        "sources": [
-          "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
-          "https://www.forbes.com/sites/brianmazique/2026/11/12/gta-6-unlocks-at-midnight-on-november-19-but-millions-of-americans-can-start-playing-the-night-before/",
-          "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
-          "https://www.ibtimes.co.uk/gta-6-preorders-exceed-expectations-no-holiday-discounts-1813575"
+          "Treat tier-one game launches as equivalent cultural moments to major film releases in your media planning.",
+          "Identify crossover audiences between GTA VI players and your existing customers to find credible points of entry.",
+          "Commission or repurpose content that speaks to gaming culture without reducing it to stereotypes or surface-level references."
         ]
       }
-    ],
-    "sendDate": "2026-11-13",
-    "locked": true,
-    "selection": "manual",
-    "lockedAt": "2026-11-12T14:20:58.970Z"
+    ]
   }
 }
