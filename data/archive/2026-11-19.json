@@ -1,0 +1,270 @@
+{
+  "date": "2026-11-19",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-19T15:29:47.383Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Reality-TV-castings als prestige-theater",
+            "summary": "Barack en Michelle Obama fungeren als co-producers op een Off-Broadway-revival van 'Rumors' met castleden uit 'Real Housewives'. Deadline en Consequence presenteren dit als legitimering van reality-TV als talent-pool, niet als downgrade.",
+            "why_it_matters": "Dit markeert einde van hiërarchie tussen 'prestige' en 'popular' cultuur. Reality-TV-prominentie is nu even waardevol als klassieke acteersschool.",
+            "strategic_signal": "Merken hoeven niet langer te kiezen tussen 'brand safety' en 'reality-access' — integreer reality-stars rechtstreeks in merknarratieven zonder apologetische framing.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Consequence",
+              "Deadline",
+              "Digiday",
+              "GQ",
+              "IndieWire",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Barack and Michelle Obama Join Producing Team For ‘Rumors’ Play Starring ‘The Real Housewives’",
+                "url": "https://www.hollywoodreporter.com/lifestyle/arts/barack-michelle-obama-rumors-play-real-housewives-1236759277/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-19T15:23:00.000Z"
+              },
+              {
+                "title": "43 U.S. Army Soldiers Reenlist for Chance to Play GTA VI on Release Day",
+                "url": "https://consequence.net/2026/11/43-soldiers-reenlist-play-gta-vi-release/",
+                "source": "Consequence",
+                "published": "2026-11-19T14:43:50.000Z"
+              },
+              {
+                "title": "‘The Nightingale’ Trailer: Dakota and Elle Fanning Share the Screen for the First Time and Play Sisters During WWII in Adaptation of Popular Book",
+                "url": "https://variety.com/2026/film/news/the-nightingale-trailer-dakota-elle-fanning-book-1236953111/",
+                "source": "Variety",
+                "published": "2026-11-19T14:38:22.000Z"
+              },
+              {
+                "title": "Qatar’s Film Committee & UAE-Based Yango Play Explore Partnership Kicking Off With Falconry Doc Series ‘Elzam’",
+                "url": "https://deadline.com/2026/11/qatar-film-committee-uae-yango-play-explore-falconry-elzam-1237228915/",
+                "source": "Deadline",
+                "published": "2026-11-19T12:59:52.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Cryptoschandaal als intiem dramasaga",
+            "summary": "'The Altruists' op Netflix vertelt Sam Bankman-Fried's ondergang als toxische love story; IndieWire en The Hollywood Reporter benadrukken hoe de serie economische criminaliteit herbrand naar relationeel drama, niet analytische onderzoeksjournalistiek.",
+            "why_it_matters": "Dit onthult hoe streamers grote scandalen demoraliseren door ze te privatiseren. Culturele betekenis verplaatst van 'systeemkritiek' naar 'psychologische fascinatie'.",
+            "strategic_signal": "Voorkom dat je merk involuntair in soortgelijke narratieve trivialiseringen terecht komt — als jij in schandaal betrokken bent, stuur pro-actief de systemische framing, niet de persoonlijke.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "IndieWire",
+              "Variety",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Dancing with the Stars (American TV series) season 35",
+                "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-19T15:29:25.114Z"
+              },
+              {
+                "title": "CMAs Photo Gallery: See Taylor Swift, Ella Langley, Kacey Musgraves, Lainey Wilson, Stella Lefty and Other Stars on the Carpet and On-Stage",
+                "url": "https://variety.com/2026/music/news/cma-awards-photos-taylor-swift-ella-langley-kacey-musgraves-1236952762/",
+                "source": "Variety",
+                "published": "2026-11-19T15:03:19.000Z"
+              },
+              {
+                "title": "Glen Powell Joined By Nashville’s Biggest Stars in Raucous Trailer For Country Comedy ‘The Comeback King’: Watch",
+                "url": "https://www.billboard.com/culture/tv-film/glen-powell-nashville-stars-trailer-the-comeback-king-watch-1236385558/",
+                "source": "Billboard",
+                "published": "2026-11-19T13:28:49.000Z"
+              },
+              {
+                "title": "‘Bedford Park’ Trailer: Sundance Winner Stars Moon Choi, Who Falls for the Other Driver in Her Mother’s Car Accident",
+                "url": "https://www.indiewire.com/news/trailers/bedford-park-trailer-moon-choi-son-sukku-1235228988/",
+                "source": "IndieWire",
+                "published": "2026-11-18T22:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "Rockstar labor battles als brand-architectuur",
+            "summary": "Rockstar Games vecht IWGB-werknemsrecht aan terwijl Sam Houser's GTA 6-statement de game als 'medium-pushers' framde; GamesIndustry.biz en Rock Paper Shotgun volgen dit als coherente spanning tussen worker autonomy en auteur-branding.",
+            "why_it_matters": "Dit onthult hoe grote creatieve bedrijven auteur-prestige gebruiken om arbeidsverhoudingen te schaden. Cultuurproducten en labor exploitation zijn nu onafscheidelijk.",
+            "strategic_signal": "Als je merk met game-studios samenwerkkt, map hun labor-track record expliciet in partnership-deals; reputatierisico is hoger dan 10 jaar geleden.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "GQ",
+              "GamesIndustry.biz",
+              "Rock Paper Shotgun",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Rockstar Games",
+                "url": "https://en.wikipedia.org/wiki/Rockstar_Games",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-19T15:29:25.114Z"
+              },
+              {
+                "title": "The GTA Files: My Long-Lost Interview With the Brothers Who Founded Rockstar",
+                "url": "https://www.gq.com/story/houser-grand-theft-auto-interview",
+                "source": "GQ",
+                "published": "2026-11-19T11:00:00.000Z"
+              },
+              {
+                "title": "Rockstar and IWGB members issue closing arguments following conclusion of employment tribunal",
+                "url": "https://www.gamesindustry.biz/rockstar-and-iwgb-members-issue-closing-arguments-following-conclusion-of-employment-tribunal",
+                "source": "GamesIndustry.biz",
+                "published": "2026-11-19T10:03:40.000Z"
+              },
+              {
+                "title": "Rockstar firings tribunal hears closing statements, with judge promising to deliver a verdict \"as quickly as I possibly can\" - though it may take a while",
+                "url": "https://www.rockpapershotgun.com/rockstar-firings-tribunal-hears-closing-statements-with-judge-promising-to-deliver-a-verdict-as-quickly-as-i-possibly-can-though-it-may-take-a-while",
+                "source": "Rock Paper Shotgun",
+                "published": "2026-11-19T10:34:20.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "GTA VI als culturele geldstandaard",
+            "summary": "Grand Theft Auto VI functioneert niet alleen als game maar als cultureel referentiekader. Van militaire incentives tot smartphone-narratieven die 2026 simuleren. Meerdere bronnen (404 Media, Consequence, Rock Paper Shotgun) behandelen GTA VI als spiegel van actuele cultuur, niet alleen entertainment.",
+            "why_it_matters": "Dit signaleert dat blockbuster-media niet meer alleen recreatie zijn, maar fungeren als culturele normbepaling waaraan andere instituten (militair, tech, media) zich aanpassen.",
+            "strategic_signal": "Merken kunnen GTA VI-voorkeuren tracken als early indicator van wat consumenten over 'toekomstige normaliteit' denken — gebruik dit voor product-roadmaps en scenario-planning, niet alleen gaming-sponsorships.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "404 Media",
+              "Consequence",
+              "Fast Company",
+              "NME",
+              "The Verge",
+              "Wikipedia Trending EN",
+              "Wikipedia Trending NL"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Grand Theft Auto VI",
+                "url": "https://nl.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-19T15:29:25.147Z"
+              },
+              {
+                "title": "Grand Theft Auto (computerspelserie)",
+                "url": "https://nl.wikipedia.org/wiki/Grand_Theft_Auto_(computerspelserie)",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-19T15:29:25.147Z"
+              },
+              {
+                "title": "Grand Theft Auto",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-19T15:29:25.114Z"
+              },
+              {
+                "title": "Grand Theft Auto V",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-19T15:29:25.114Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-11-19T15:29:51.801Z",
+    "megaTrends": [
+      {
+        "trend": "Corporatieve drama als cultureel spiegelteken",
+        "summary": "Bedrijfsconflicten en schandalen (Rockstar labor battles, cryptofraude) worden vertaald naar entertainment-formaten (prestige-theater, intieme dramasaga's). De grens tussen zakelijke werkelijkheid en narratieve spectacle verdwijnt.",
+        "why_it_matters": "Dit weerspiegelt hoe publiek steeds minder onderscheid maakt tussen 'echte' bedrijfsgeschiedenis en geënsceneerde verhalen. Beide worden consumeerbaar.",
+        "categories": [
+          "gaming",
+          "film"
+        ],
+        "strength": "matig"
+      },
+      {
+        "trend": "GTA VI als cultuurdefiniërend referentiepunt",
+        "summary": "GTA VI fungeert niet alleen als game maar als normatieve currency voor culturele waarde (geldstandaard) en trekt daarmee aandacht van film (reality-TV-casting dynamieken, dramatische narratieven) en gamingindustrie (bedrijfsstructuren onder druk).",
+        "why_it_matters": "Een enkel product wordt de lingua franca waartegen andere cultuurvormen zichzelf meten — een zeldzame concentratie van soft power.",
+        "categories": [
+          "gaming",
+          "film",
+          "trends"
+        ],
+        "strength": "sterk"
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-19T14:29:47.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Microdrama gets its own studio",
+        "category": "film",
+        "what_is_happening": "Will Packer, producer of Girls Trip, has launched June, a studio built for vertical microdramas aimed at Black viewers, backed by NBCUniversal and HarbourView. It is a dedicated platform-first storytelling practice from an established producer, not a cut-down version of TikTok content.",
+        "why_it_matters_for_brands": "Vertical series now have serious producers and funding behind them, so short-form story is a format brands can commission, not just a place to repost ads.",
+        "what_brands_can_do": [
+          "Commission a short vertical series with a clear story, rather than cutting a TV spot down to size.",
+          "Work with creators and studios who already know the format and the community you want to reach.",
+          "Design each episode to stand alone, so new viewers can start anywhere in the series."
+        ]
+      },
+      {
+        "trend": "Outages become shared internet jokes",
+        "category": "internet",
+        "what_is_happening": "The global Microsoft outage that hit Outlook, Teams and Copilot triggered a wave of social media humour, including the headline \"Just make it Microsoft 364\" reported by VRT NWS. Fast Company noted the outage collided with bad optics, from layoffs and buyouts to confusing updates.",
+        "why_it_matters_for_brands": "When a failure becomes a joke, brands tied to it are judged on how they respond, not on the failure itself.",
+        "what_brands_can_do": [
+          "Prepare a calm, human holding message before any outage happens, and publish it early.",
+          "Join the humour only when your own product is not the one failing, and never mock affected users.",
+          "Offer practical help first, such as a status page or an alternative, then add the tone."
+        ]
+      },
+      {
+        "trend": "Bond casting bets on credibility",
+        "category": "trends",
+        "what_is_happening": "Amazon MGM Studios has confirmed Robert Pattinson as the next James Bond, with Denis Villeneuve directing from a Steven Knight script. Coverage reads the choice as a move towards prestige cinema, noting Pattinson's mix of blockbusters such as Twilight and Batman with riskier work such as The Lighthouse and Cosmopolis.",
+        "why_it_matters_for_brands": "A franchise that casts for creative risk over pure reach shows that credibility is chosen on purpose, and audiences read that choice as a brand statement.",
+        "what_brands_can_do": [
+          "Choose ambassadors for their record of creative risk and craft, not only for follower counts.",
+          "Give a new face room to bring a personal style to an old brand, instead of copying the previous era.",
+          "Announce changes with a clear reason, because audiences will compare the new choice with the old one straight away."
+        ]
+      }
+    ]
+  }
+}

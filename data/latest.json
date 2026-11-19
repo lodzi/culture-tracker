@@ -1,62 +1,102 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-18T15:23:57.240Z",
-    "intro": "2 categorieën · 2 trends · laatste 24u",
+    "generatedAt": "2026-11-19T15:29:47.383Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
     "categories": [
       {
-        "id": "music",
-        "label": "Muziek",
+        "id": "film",
+        "label": "Film & TV",
         "insights": [
           {
-            "trend": "Festival-aankondigingen als merkcalender-ritual",
-            "summary": "Glastonbury 2027 lineup-reveal (Harry Styles, Billie Eilish, Cher, King Gizzard) en RAYE's dubbele BST Hyde Park 2027-datum worden massaal gedekt als planningsmoment voor consumenten. De aankondigingen genereren méér gesprek dan de festivals zelf nog hebben plaatsgevonden.",
-            "why_it_matters": "Festival-aankondigingen zijn geen muzieknieuws meer, ze zijn rituele cultuurmomenten waarop massaal gesprek ontstaat over wie 'relevant' nog is en wat de zomer van 2027 'betekent'. Dit is pure merkentraffiekseis.",
-            "strategic_signal": "Boek nu advertorial-ruimte rond festival-aankondigingen (niet het festival zelf): gebruik het moment als anker voor 'What's Next'-content over zomertrends, nostalgie en iconiciteit.",
+            "trend": "Reality-TV-castings als prestige-theater",
+            "summary": "Barack en Michelle Obama fungeren als co-producers op een Off-Broadway-revival van 'Rumors' met castleden uit 'Real Housewives'. Deadline en Consequence presenteren dit als legitimering van reality-TV als talent-pool, niet als downgrade.",
+            "why_it_matters": "Dit markeert einde van hiërarchie tussen 'prestige' en 'popular' cultuur. Reality-TV-prominentie is nu even waardevol als klassieke acteersschool.",
+            "strategic_signal": "Merken hoeven niet langer te kiezen tussen 'brand safety' en 'reality-access' — integreer reality-stars rechtstreeks in merknarratieven zonder apologetische framing.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Consequence",
+              "Deadline",
+              "Digiday",
+              "GQ",
+              "IndieWire",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Barack and Michelle Obama Join Producing Team For ‘Rumors’ Play Starring ‘The Real Housewives’",
+                "url": "https://www.hollywoodreporter.com/lifestyle/arts/barack-michelle-obama-rumors-play-real-housewives-1236759277/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-19T15:23:00.000Z"
+              },
+              {
+                "title": "43 U.S. Army Soldiers Reenlist for Chance to Play GTA VI on Release Day",
+                "url": "https://consequence.net/2026/11/43-soldiers-reenlist-play-gta-vi-release/",
+                "source": "Consequence",
+                "published": "2026-11-19T14:43:50.000Z"
+              },
+              {
+                "title": "‘The Nightingale’ Trailer: Dakota and Elle Fanning Share the Screen for the First Time and Play Sisters During WWII in Adaptation of Popular Book",
+                "url": "https://variety.com/2026/film/news/the-nightingale-trailer-dakota-elle-fanning-book-1236953111/",
+                "source": "Variety",
+                "published": "2026-11-19T14:38:22.000Z"
+              },
+              {
+                "title": "Qatar’s Film Committee & UAE-Based Yango Play Explore Partnership Kicking Off With Falconry Doc Series ‘Elzam’",
+                "url": "https://deadline.com/2026/11/qatar-film-committee-uae-yango-play-explore-falconry-elzam-1237228915/",
+                "source": "Deadline",
+                "published": "2026-11-19T12:59:52.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Cryptoschandaal als intiem dramasaga",
+            "summary": "'The Altruists' op Netflix vertelt Sam Bankman-Fried's ondergang als toxische love story; IndieWire en The Hollywood Reporter benadrukken hoe de serie economische criminaliteit herbrand naar relationeel drama, niet analytische onderzoeksjournalistiek.",
+            "why_it_matters": "Dit onthult hoe streamers grote scandalen demoraliseren door ze te privatiseren. Culturele betekenis verplaatst van 'systeemkritiek' naar 'psychologische fascinatie'.",
+            "strategic_signal": "Voorkom dat je merk involuntair in soortgelijke narratieve trivialiseringen terecht komt — als jij in schandaal betrokken bent, stuur pro-actief de systemische framing, niet de persoonlijke.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
               "Billboard",
-              "Consequence",
-              "Crack Magazine",
-              "Google News BE Festivals",
-              "Google News BE Muziek",
-              "Hypebeast",
-              "NME",
-              "Pitchfork News",
-              "Sneaker News"
+              "IndieWire",
+              "Variety",
+              "Wikipedia Trending EN"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Glastonbury Unveils 2027 Lineup with Harry Styles, Billie Eilish, Cher, and Sam Fender",
-                "url": "https://consequence.net/2026/11/glastonbury-2027-lineup-harry-styles-billie-eilish-cher-sam-fender/",
-                "source": "Consequence",
-                "published": "2026-11-18T15:21:57.000Z"
+                "title": "Dancing with the Stars (American TV series) season 35",
+                "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-19T15:29:25.114Z"
               },
               {
-                "title": "RAYE announces second London BST Hyde Park 2027 show due to phenomenal demand",
-                "url": "https://www.nme.com/news/music/raye-announces-second-bst-hyde-park-2027-show-phenomenal-demand-tickets-3976332",
-                "source": "NME",
-                "published": "2026-11-18T13:50:14.000Z"
+                "title": "CMAs Photo Gallery: See Taylor Swift, Ella Langley, Kacey Musgraves, Lainey Wilson, Stella Lefty and Other Stars on the Carpet and On-Stage",
+                "url": "https://variety.com/2026/music/news/cma-awards-photos-taylor-swift-ella-langley-kacey-musgraves-1236952762/",
+                "source": "Variety",
+                "published": "2026-11-19T15:03:19.000Z"
               },
               {
-                "title": "‘Threads: My Songs in Symphony’ To Celebrate Dolly Parton’s Legacy on 2027 Orchestral Tour of U.S., U.K. and Australia",
-                "url": "https://www.billboard.com/music/country/dolly-parton-threads-my-songs-symphony-2027-orchestral-tour-dates-1236384734/",
+                "title": "Glen Powell Joined By Nashville’s Biggest Stars in Raucous Trailer For Country Comedy ‘The Comeback King’: Watch",
+                "url": "https://www.billboard.com/culture/tv-film/glen-powell-nashville-stars-trailer-the-comeback-king-watch-1236385558/",
                 "source": "Billboard",
-                "published": "2026-11-18T13:44:31.000Z"
+                "published": "2026-11-19T13:28:49.000Z"
               },
               {
-                "title": "Glastonbury 2027: Fans react to line-up",
-                "url": "https://www.nme.com/news/music/glastonbury-2027-fans-react-to-line-up-3976320",
-                "source": "NME",
-                "published": "2026-11-18T13:30:58.000Z"
+                "title": "‘Bedford Park’ Trailer: Sundance Winner Stars Moon Choi, Who Falls for the Other Driver in Her Mother’s Car Accident",
+                "url": "https://www.indiewire.com/news/trailers/bedford-park-trailer-moon-choi-son-sukku-1235228988/",
+                "source": "IndieWire",
+                "published": "2026-11-18T22:00:00.000Z"
               }
             ]
           }
@@ -67,55 +107,125 @@
         "label": "Gaming",
         "insights": [
           {
-            "trend": "GTA VI als culturele geldstandaard",
-            "summary": "Grand Theft Auto VI domineert niet alleen als blockbuster-game (99 Metacritic, recordbrekende launch), maar wordt ook geëvalueerd als potentieel film/tv-franchise en economische indicator vergelijkbaar met Taylor Swift. Het spel fungeert als barometer voor wat entertainment-impact betekent in 2026.",
-            "why_it_matters": "Dit signaleert dat games niet langer als aparte mediumcategorie worden behandeld, maar als cultuurbepaler met dezelfde impact-meting als film en muziek. Merken moeten game-launches serieus nemen als culturele events, niet als niche.",
-            "strategic_signal": "Activeer game-launches als prestige-marketing-momenten: partner niet met GTA VI zelf, maar creëer rond de launch-week eigen 'cultural relevance'-content die het moment benut, net zoals je bij major film-releases zou doen.",
+            "trend": "Rockstar labor battles als brand-architectuur",
+            "summary": "Rockstar Games vecht IWGB-werknemsrecht aan terwijl Sam Houser's GTA 6-statement de game als 'medium-pushers' framde; GamesIndustry.biz en Rock Paper Shotgun volgen dit als coherente spanning tussen worker autonomy en auteur-branding.",
+            "why_it_matters": "Dit onthult hoe grote creatieve bedrijven auteur-prestige gebruiken om arbeidsverhoudingen te schaden. Cultuurproducten en labor exploitation zijn nu onafscheidelijk.",
+            "strategic_signal": "Als je merk met game-studios samenwerkkt, map hun labor-track record expliciet in partnership-deals; reputatierisico is hoger dan 10 jaar geleden.",
             "trajectory": "piekend",
             "daysActive": 2,
             "isNew": false,
             "sources": [
-              "Dazed",
-              "Deadline",
-              "Eurogamer",
-              "Fast Company",
               "GQ",
               "GamesIndustry.biz",
-              "Google News BE Gaming",
-              "NME",
               "Rock Paper Shotgun",
-              "The Verge",
-              "Variety"
+              "Wikipedia Trending EN"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "PlayStation has no Game of the Year nominations at The Game Awards for the first time in 11 years",
-                "url": "https://www.eurogamer.net/playstation-sony-game-awards-no-nominations",
-                "source": "Eurogamer",
-                "published": "2026-11-18T15:17:10.000Z"
+                "title": "Rockstar Games",
+                "url": "https://en.wikipedia.org/wiki/Rockstar_Games",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-19T15:29:25.114Z"
               },
               {
-                "title": "‘Grand Theft Auto VI’: Could Video Game Franchise Become Film Or TV Show? “We’re Very, Very Selective,” Says Take-Two CEO",
-                "url": "https://deadline.com/2026/11/grand-theft-auto-6-could-be-tv-show-film-1237227890/",
-                "source": "Deadline",
-                "published": "2026-11-18T15:10:34.000Z"
+                "title": "The GTA Files: My Long-Lost Interview With the Brothers Who Founded Rockstar",
+                "url": "https://www.gq.com/story/houser-grand-theft-auto-interview",
+                "source": "GQ",
+                "published": "2026-11-19T11:00:00.000Z"
               },
               {
-                "title": "‘GTA 6’ Earns Rave Reviews and Lands 99 Metacritic Score, Tying for Highest-Rated Game of All Time",
-                "url": "https://variety.com/2026/gaming/news/gta-6-reviews-highest-rated-video-game-1236951803/",
-                "source": "Variety",
-                "published": "2026-11-18T14:23:49.000Z"
+                "title": "Rockstar and IWGB members issue closing arguments following conclusion of employment tribunal",
+                "url": "https://www.gamesindustry.biz/rockstar-and-iwgb-members-issue-closing-arguments-following-conclusion-of-employment-tribunal",
+                "source": "GamesIndustry.biz",
+                "published": "2026-11-19T10:03:40.000Z"
               },
               {
-                "title": "Infinity Nikki fans threaten to boycott game after promotion by Elon Musk's mother, but there may be a genuine reason for her involvement",
-                "url": "https://www.eurogamer.net/infinity-nikki-elon-musk-maye-mother-fan-reaction",
-                "source": "Eurogamer",
-                "published": "2026-11-18T14:14:50.000Z"
+                "title": "Rockstar firings tribunal hears closing statements, with judge promising to deliver a verdict \"as quickly as I possibly can\" - though it may take a while",
+                "url": "https://www.rockpapershotgun.com/rockstar-firings-tribunal-hears-closing-statements-with-judge-promising-to-deliver-a-verdict-as-quickly-as-i-possibly-can-though-it-may-take-a-while",
+                "source": "Rock Paper Shotgun",
+                "published": "2026-11-19T10:34:20.000Z"
               }
             ]
           }
         ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "GTA VI als culturele geldstandaard",
+            "summary": "Grand Theft Auto VI functioneert niet alleen als game maar als cultureel referentiekader. Van militaire incentives tot smartphone-narratieven die 2026 simuleren. Meerdere bronnen (404 Media, Consequence, Rock Paper Shotgun) behandelen GTA VI als spiegel van actuele cultuur, niet alleen entertainment.",
+            "why_it_matters": "Dit signaleert dat blockbuster-media niet meer alleen recreatie zijn, maar fungeren als culturele normbepaling waaraan andere instituten (militair, tech, media) zich aanpassen.",
+            "strategic_signal": "Merken kunnen GTA VI-voorkeuren tracken als early indicator van wat consumenten over 'toekomstige normaliteit' denken — gebruik dit voor product-roadmaps en scenario-planning, niet alleen gaming-sponsorships.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "404 Media",
+              "Consequence",
+              "Fast Company",
+              "NME",
+              "The Verge",
+              "Wikipedia Trending EN",
+              "Wikipedia Trending NL"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Grand Theft Auto VI",
+                "url": "https://nl.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-19T15:29:25.147Z"
+              },
+              {
+                "title": "Grand Theft Auto (computerspelserie)",
+                "url": "https://nl.wikipedia.org/wiki/Grand_Theft_Auto_(computerspelserie)",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-19T15:29:25.147Z"
+              },
+              {
+                "title": "Grand Theft Auto",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-19T15:29:25.114Z"
+              },
+              {
+                "title": "Grand Theft Auto V",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-19T15:29:25.114Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-11-19T15:29:51.801Z",
+    "megaTrends": [
+      {
+        "trend": "Corporatieve drama als cultureel spiegelteken",
+        "summary": "Bedrijfsconflicten en schandalen (Rockstar labor battles, cryptofraude) worden vertaald naar entertainment-formaten (prestige-theater, intieme dramasaga's). De grens tussen zakelijke werkelijkheid en narratieve spectacle verdwijnt.",
+        "why_it_matters": "Dit weerspiegelt hoe publiek steeds minder onderscheid maakt tussen 'echte' bedrijfsgeschiedenis en geënsceneerde verhalen. Beide worden consumeerbaar.",
+        "categories": [
+          "gaming",
+          "film"
+        ],
+        "strength": "matig"
+      },
+      {
+        "trend": "GTA VI als cultuurdefiniërend referentiepunt",
+        "summary": "GTA VI fungeert niet alleen als game maar als normatieve currency voor culturele waarde (geldstandaard) en trekt daarmee aandacht van film (reality-TV-casting dynamieken, dramatische narratieven) en gamingindustrie (bedrijfsstructuren onder druk).",
+        "why_it_matters": "Een enkel product wordt de lingua franca waartegen andere cultuurvormen zichzelf meten — een zeldzame concentratie van soft power.",
+        "categories": [
+          "gaming",
+          "film",
+          "trends"
+        ],
+        "strength": "sterk"
       }
     ]
   },
