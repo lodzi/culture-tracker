@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-20",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-20T15:07:42.837Z",
+    "intro": "3 categorieën · 3 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "fashion",
+        "label": "Fashion",
+        "insights": [
+          {
+            "trend": "Luxury goods via auteur-franchise redefinitie",
+            "summary": "Jonathan Anderson (Dior) en luxury fashion teams anticiperen op Robert Pattinson's Bond-casting door de volledige esthetiek van de franchise te herontwerpen; dit is design als narratieve architectuur, niet costuming. Luxury positioneert zich als creator van franchise-identiteit, niet als toevoeging.",
+            "why_it_matters": "Dit markeert een verschuiving: luxury fashion bepaalt nu de culturele betekenis van media-franchises door auteur-visie, in plaats van reactief 'branded moments' te creëren.",
+            "strategic_signal": "Luxurymerken moeten zich positioneren als 'creative co-architects' van media-narratieven (bijv. bij filmreleases, seriereboots) met volledige ontwerpbeslissingen, niet als merchandise-partners.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Consequence",
+              "GQ",
+              "Highsnobiety",
+              "The Hollywood Reporter",
+              "Variety",
+              "WWD"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Karen O Reflects on Discovering ESG in Exclusive Excerpt of On the Records by Brian Beck with Piotr Orlov",
+                "url": "https://consequence.net/2026/11/karen-o-esg-on-the-records-exclusive-book-excerpt/",
+                "source": "Consequence",
+                "published": "2026-11-20T15:00:01.000Z"
+              },
+              {
+                "title": "CNN Films Acquires Documentary ‘Bernie Taupin: Life, Music, Elton & Me’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/tv/news/cnn-films-acquires-bernie-taupin-documentary-elton-john-1236954105/",
+                "source": "Variety",
+                "published": "2026-11-20T14:45:00.000Z"
+              },
+              {
+                "title": "Kristen Doute to Host Sports and Pop Culture Podcast ‘Run It Back’ in Partnership With PODGO (Exclusive)",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/kristen-doute-sports-pop-culture-podcast-run-it-back-podgo-1236759725/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-20T14:30:00.000Z"
+              },
+              {
+                "title": "Exclusive: Shohei Ohtani Just Signed a Historic Deal With New Balance",
+                "url": "https://www.gq.com/story/exclusive-shohei-ohtani-new-balance-career-deal-11-19-2026",
+                "source": "GQ",
+                "published": "2026-11-20T14:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Pattinson als auteur-franchise hybride Bond",
+            "summary": "Robert Pattinson's selectie als nieuwe James Bond markeert een verschuiving naar casting van 'artistic directors' in plaats van traditionele actionhelden; designers zoals Jonathan Anderson anticiperen al op Dior-herdefiniëring van de Bond-esthetiek. Dit is geen statische franchise-continuation maar een creatieve heruitvinding met auteur-credentials.",
+            "why_it_matters": "Dit toont dat zelfs legacy franchises nu op artistieke integriteit en designvisie selecteren. Het einde van 'star power' alleen, het begin van 'visionaire eigenaarschap' als casting-criterium.",
+            "strategic_signal": "Merken die luxury goods/fashion promoten kunnen de Bond-herdefiniëring anticiperen door auteur-partnerships (designer collaborations, artist residencies) in plaats van celebrity endorsements in te zetten.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "A.V. Club",
+              "Fashionista",
+              "IndieWire",
+              "Polygon",
+              "Quartz",
+              "Rock Paper Shotgun",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Hunger Games Director Reveals Why He Made the Darkest Movie in Franchise History",
+                "url": "https://www.polygon.com/sunrise-on-the-reaping-francis-lawrence-interview/",
+                "source": "Polygon",
+                "published": "2026-11-20T15:00:18.000Z"
+              },
+              {
+                "title": "Trump fired White House cyber director, tapped Pentagon official as replacement",
+                "url": "https://qz.com/trump-fires-cyber-director-cairncross-davies-112026",
+                "source": "Quartz",
+                "published": "2026-11-20T14:00:30.000Z"
+              },
+              {
+                "title": "Akira Kurabayashi, company director at Arika and developer on Street Fighter EX, Tetris 99, Fighting EX Layer and more, has sadly passed away due to heart failure",
+                "url": "https://www.rockpapershotgun.com/akira-kurabayashi-company-director-at-arika-and-developer-on-street-fighter-ex-tetris-99-fighting-ex-layer-and-more-has-sadly-passed-away-due-to-heart-failure",
+                "source": "Rock Paper Shotgun",
+                "published": "2026-11-20T13:00:00.000Z"
+              },
+              {
+                "title": "How Shopbop's Senior Fashion Director Manages Her Super Busy, Cross-Functional Role",
+                "url": "https://fashionista.com/2026/11/caroline-maguire-shopbop-career-interview",
+                "source": "Fashionista",
+                "published": "2026-11-20T13:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "GTA VI als culturele geldstandaard",
+            "summary": "GTA VI genereert $1,65 miljard in pre-orders en breekt internet-records, terwijl het spel zich positioneert als referentiepunt voor wat blockbuster-gaming kan betekenen. Het spel wordt niet alleen als product waargenomen, maar als cultureel artefact dat narratieve, economische en designstandaarden bepaalt.",
+            "why_it_matters": "Dit signaleert dat games nu op dezelfde schaal culturele betekenis hebben als film en muziek. Ze bepalen hoe we verhalen vertellen, waarde meten en innovatie definiëren.",
+            "strategic_signal": "Merken kunnen GTA VI-culturele momenten (soundtrack releases, character cameos, in-game pastiche) gebruiken als co-creatie mogelijkheden; niet als product placement maar als narratieve participatie.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Eurogamer",
+              "GamesIndustry.biz",
+              "Kotaku",
+              "Polygon",
+              "Rock Paper Shotgun",
+              "Stereogum"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "GTA 6: the first billion-dollar game may also be the last",
+                "url": "https://www.gamesindustry.biz/gta-6-the-first-billion-dollar-game-may-also-be-the-last",
+                "source": "GamesIndustry.biz",
+                "published": "2026-11-20T15:02:20.000Z"
+              },
+              {
+                "title": "GTA VI Unveils Soundtrack Album, Game Includes Surprise Songs And Cameos",
+                "url": "https://stereogum.com/2518780/gta-vi-unveils-soundtrack-album-game-includes-surprise-songs-and-cameos/news/",
+                "source": "Stereogum",
+                "published": "2026-11-20T14:12:42.000Z"
+              },
+              {
+                "title": "I completed GTA 6's indie game darling pastiche, Tenebrae Lux, and all I got was this lousy sense of accomplishment",
+                "url": "https://www.eurogamer.net/tenebrae-lux-gta-6-now-playing",
+                "source": "Eurogamer",
+                "published": "2026-11-20T13:21:00.000Z"
+              },
+              {
+                "title": "How the EU's Digital Fairness Act will impact game design, and why it hits European indies particularly hard",
+                "url": "https://www.gamesindustry.biz/how-the-eus-digital-fairness-act-will-impact-game-design-and-why-it-hits-european-indies-particularly-hard",
+                "source": "GamesIndustry.biz",
+                "published": "2026-11-20T12:27:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-11-20T15:07:45.337Z",
+    "megaTrends": [
+      {
+        "trend": "Auteur-franchise hybride als cultureel model",
+        "summary": "Individuele creatieve visie wordt ingezet om massaproductie-franchises te heruitzonden. Dit zien we in Pattinson die Bond als auteurwerk herinterpreteerd en in luxury brands die zich herdefiniëren via sterke persoonlijke designers.",
+        "why_it_matters": "Dit signaleert dat mainstream cultuur niet langer kiest tussen artistieke integriteit of commerciële schaal. Het eist allebei tegelijk.",
+        "categories": [
+          "film",
+          "fashion"
+        ],
+        "strength": "matig"
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-19T14:29:47.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Microdrama gets its own studio",
+        "category": "film",
+        "what_is_happening": "Will Packer, producer of Girls Trip, has launched June, a studio built for vertical microdramas aimed at Black viewers, backed by NBCUniversal and HarbourView. It is a dedicated platform-first storytelling practice from an established producer, not a cut-down version of TikTok content.",
+        "why_it_matters_for_brands": "Vertical series now have serious producers and funding behind them, so short-form story is a format brands can commission, not just a place to repost ads.",
+        "what_brands_can_do": [
+          "Commission a short vertical series with a clear story, rather than cutting a TV spot down to size.",
+          "Work with creators and studios who already know the format and the community you want to reach.",
+          "Design each episode to stand alone, so new viewers can start anywhere in the series."
+        ]
+      },
+      {
+        "trend": "Outages become shared internet jokes",
+        "category": "internet",
+        "what_is_happening": "The global Microsoft outage that hit Outlook, Teams and Copilot triggered a wave of social media humour, including the headline \"Just make it Microsoft 364\" reported by VRT NWS. Fast Company noted the outage collided with bad optics, from layoffs and buyouts to confusing updates.",
+        "why_it_matters_for_brands": "When a failure becomes a joke, brands tied to it are judged on how they respond, not on the failure itself.",
+        "what_brands_can_do": [
+          "Prepare a calm, human holding message before any outage happens, and publish it early.",
+          "Join the humour only when your own product is not the one failing, and never mock affected users.",
+          "Offer practical help first, such as a status page or an alternative, then add the tone."
+        ]
+      },
+      {
+        "trend": "Bond casting bets on credibility",
+        "category": "trends",
+        "what_is_happening": "Amazon MGM Studios has confirmed Robert Pattinson as the next James Bond, with Denis Villeneuve directing from a Steven Knight script. Coverage reads the choice as a move towards prestige cinema, noting Pattinson's mix of blockbusters such as Twilight and Batman with riskier work such as The Lighthouse and Cosmopolis.",
+        "why_it_matters_for_brands": "A franchise that casts for creative risk over pure reach shows that credibility is chosen on purpose, and audiences read that choice as a brand statement.",
+        "what_brands_can_do": [
+          "Choose ambassadors for their record of creative risk and craft, not only for follower counts.",
+          "Give a new face room to bring a personal style to an old brand, instead of copying the previous era.",
+          "Announce changes with a clear reason, because audiences will compare the new choice with the old one straight away."
+        ]
+      }
+    ]
+  }
+}

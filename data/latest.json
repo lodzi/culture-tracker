@@ -1,102 +1,110 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-19T15:29:47.383Z",
-    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "generatedAt": "2026-11-20T15:07:42.837Z",
+    "intro": "3 categorieën · 3 trends · laatste 24u",
     "categories": [
       {
-        "id": "film",
-        "label": "Film & TV",
+        "id": "fashion",
+        "label": "Fashion",
         "insights": [
           {
-            "trend": "Reality-TV-castings als prestige-theater",
-            "summary": "Barack en Michelle Obama fungeren als co-producers op een Off-Broadway-revival van 'Rumors' met castleden uit 'Real Housewives'. Deadline en Consequence presenteren dit als legitimering van reality-TV als talent-pool, niet als downgrade.",
-            "why_it_matters": "Dit markeert einde van hiërarchie tussen 'prestige' en 'popular' cultuur. Reality-TV-prominentie is nu even waardevol als klassieke acteersschool.",
-            "strategic_signal": "Merken hoeven niet langer te kiezen tussen 'brand safety' en 'reality-access' — integreer reality-stars rechtstreeks in merknarratieven zonder apologetische framing.",
+            "trend": "Luxury goods via auteur-franchise redefinitie",
+            "summary": "Jonathan Anderson (Dior) en luxury fashion teams anticiperen op Robert Pattinson's Bond-casting door de volledige esthetiek van de franchise te herontwerpen; dit is design als narratieve architectuur, niet costuming. Luxury positioneert zich als creator van franchise-identiteit, niet als toevoeging.",
+            "why_it_matters": "Dit markeert een verschuiving: luxury fashion bepaalt nu de culturele betekenis van media-franchises door auteur-visie, in plaats van reactief 'branded moments' te creëren.",
+            "strategic_signal": "Luxurymerken moeten zich positioneren als 'creative co-architects' van media-narratieven (bijv. bij filmreleases, seriereboots) met volledige ontwerpbeslissingen, niet als merchandise-partners.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
               "Consequence",
-              "Deadline",
-              "Digiday",
               "GQ",
-              "IndieWire",
+              "Highsnobiety",
               "The Hollywood Reporter",
-              "Variety"
+              "Variety",
+              "WWD"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Barack and Michelle Obama Join Producing Team For ‘Rumors’ Play Starring ‘The Real Housewives’",
-                "url": "https://www.hollywoodreporter.com/lifestyle/arts/barack-michelle-obama-rumors-play-real-housewives-1236759277/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-19T15:23:00.000Z"
-              },
-              {
-                "title": "43 U.S. Army Soldiers Reenlist for Chance to Play GTA VI on Release Day",
-                "url": "https://consequence.net/2026/11/43-soldiers-reenlist-play-gta-vi-release/",
+                "title": "Karen O Reflects on Discovering ESG in Exclusive Excerpt of On the Records by Brian Beck with Piotr Orlov",
+                "url": "https://consequence.net/2026/11/karen-o-esg-on-the-records-exclusive-book-excerpt/",
                 "source": "Consequence",
-                "published": "2026-11-19T14:43:50.000Z"
+                "published": "2026-11-20T15:00:01.000Z"
               },
               {
-                "title": "‘The Nightingale’ Trailer: Dakota and Elle Fanning Share the Screen for the First Time and Play Sisters During WWII in Adaptation of Popular Book",
-                "url": "https://variety.com/2026/film/news/the-nightingale-trailer-dakota-elle-fanning-book-1236953111/",
+                "title": "CNN Films Acquires Documentary ‘Bernie Taupin: Life, Music, Elton & Me’ (EXCLUSIVE)",
+                "url": "https://variety.com/2026/tv/news/cnn-films-acquires-bernie-taupin-documentary-elton-john-1236954105/",
                 "source": "Variety",
-                "published": "2026-11-19T14:38:22.000Z"
+                "published": "2026-11-20T14:45:00.000Z"
               },
               {
-                "title": "Qatar’s Film Committee & UAE-Based Yango Play Explore Partnership Kicking Off With Falconry Doc Series ‘Elzam’",
-                "url": "https://deadline.com/2026/11/qatar-film-committee-uae-yango-play-explore-falconry-elzam-1237228915/",
-                "source": "Deadline",
-                "published": "2026-11-19T12:59:52.000Z"
+                "title": "Kristen Doute to Host Sports and Pop Culture Podcast ‘Run It Back’ in Partnership With PODGO (Exclusive)",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/kristen-doute-sports-pop-culture-podcast-run-it-back-podgo-1236759725/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-20T14:30:00.000Z"
+              },
+              {
+                "title": "Exclusive: Shohei Ohtani Just Signed a Historic Deal With New Balance",
+                "url": "https://www.gq.com/story/exclusive-shohei-ohtani-new-balance-career-deal-11-19-2026",
+                "source": "GQ",
+                "published": "2026-11-20T14:00:00.000Z"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
           {
-            "trend": "Cryptoschandaal als intiem dramasaga",
-            "summary": "'The Altruists' op Netflix vertelt Sam Bankman-Fried's ondergang als toxische love story; IndieWire en The Hollywood Reporter benadrukken hoe de serie economische criminaliteit herbrand naar relationeel drama, niet analytische onderzoeksjournalistiek.",
-            "why_it_matters": "Dit onthult hoe streamers grote scandalen demoraliseren door ze te privatiseren. Culturele betekenis verplaatst van 'systeemkritiek' naar 'psychologische fascinatie'.",
-            "strategic_signal": "Voorkom dat je merk involuntair in soortgelijke narratieve trivialiseringen terecht komt — als jij in schandaal betrokken bent, stuur pro-actief de systemische framing, niet de persoonlijke.",
+            "trend": "Pattinson als auteur-franchise hybride Bond",
+            "summary": "Robert Pattinson's selectie als nieuwe James Bond markeert een verschuiving naar casting van 'artistic directors' in plaats van traditionele actionhelden; designers zoals Jonathan Anderson anticiperen al op Dior-herdefiniëring van de Bond-esthetiek. Dit is geen statische franchise-continuation maar een creatieve heruitvinding met auteur-credentials.",
+            "why_it_matters": "Dit toont dat zelfs legacy franchises nu op artistieke integriteit en designvisie selecteren. Het einde van 'star power' alleen, het begin van 'visionaire eigenaarschap' als casting-criterium.",
+            "strategic_signal": "Merken die luxury goods/fashion promoten kunnen de Bond-herdefiniëring anticiperen door auteur-partnerships (designer collaborations, artist residencies) in plaats van celebrity endorsements in te zetten.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Billboard",
+              "A.V. Club",
+              "Fashionista",
               "IndieWire",
-              "Variety",
-              "Wikipedia Trending EN"
+              "Polygon",
+              "Quartz",
+              "Rock Paper Shotgun",
+              "The Hollywood Reporter"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Dancing with the Stars (American TV series) season 35",
-                "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)_season_35",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-11-19T15:29:25.114Z"
+                "title": "Hunger Games Director Reveals Why He Made the Darkest Movie in Franchise History",
+                "url": "https://www.polygon.com/sunrise-on-the-reaping-francis-lawrence-interview/",
+                "source": "Polygon",
+                "published": "2026-11-20T15:00:18.000Z"
               },
               {
-                "title": "CMAs Photo Gallery: See Taylor Swift, Ella Langley, Kacey Musgraves, Lainey Wilson, Stella Lefty and Other Stars on the Carpet and On-Stage",
-                "url": "https://variety.com/2026/music/news/cma-awards-photos-taylor-swift-ella-langley-kacey-musgraves-1236952762/",
-                "source": "Variety",
-                "published": "2026-11-19T15:03:19.000Z"
+                "title": "Trump fired White House cyber director, tapped Pentagon official as replacement",
+                "url": "https://qz.com/trump-fires-cyber-director-cairncross-davies-112026",
+                "source": "Quartz",
+                "published": "2026-11-20T14:00:30.000Z"
               },
               {
-                "title": "Glen Powell Joined By Nashville’s Biggest Stars in Raucous Trailer For Country Comedy ‘The Comeback King’: Watch",
-                "url": "https://www.billboard.com/culture/tv-film/glen-powell-nashville-stars-trailer-the-comeback-king-watch-1236385558/",
-                "source": "Billboard",
-                "published": "2026-11-19T13:28:49.000Z"
+                "title": "Akira Kurabayashi, company director at Arika and developer on Street Fighter EX, Tetris 99, Fighting EX Layer and more, has sadly passed away due to heart failure",
+                "url": "https://www.rockpapershotgun.com/akira-kurabayashi-company-director-at-arika-and-developer-on-street-fighter-ex-tetris-99-fighting-ex-layer-and-more-has-sadly-passed-away-due-to-heart-failure",
+                "source": "Rock Paper Shotgun",
+                "published": "2026-11-20T13:00:00.000Z"
               },
               {
-                "title": "‘Bedford Park’ Trailer: Sundance Winner Stars Moon Choi, Who Falls for the Other Driver in Her Mother’s Car Accident",
-                "url": "https://www.indiewire.com/news/trailers/bedford-park-trailer-moon-choi-son-sukku-1235228988/",
-                "source": "IndieWire",
-                "published": "2026-11-18T22:00:00.000Z"
+                "title": "How Shopbop's Senior Fashion Director Manages Her Super Busy, Cross-Functional Role",
+                "url": "https://fashionista.com/2026/11/caroline-maguire-shopbop-career-interview",
+                "source": "Fashionista",
+                "published": "2026-11-20T13:00:00.000Z"
               }
             ]
           }
@@ -107,95 +115,46 @@
         "label": "Gaming",
         "insights": [
           {
-            "trend": "Rockstar labor battles als brand-architectuur",
-            "summary": "Rockstar Games vecht IWGB-werknemsrecht aan terwijl Sam Houser's GTA 6-statement de game als 'medium-pushers' framde; GamesIndustry.biz en Rock Paper Shotgun volgen dit als coherente spanning tussen worker autonomy en auteur-branding.",
-            "why_it_matters": "Dit onthult hoe grote creatieve bedrijven auteur-prestige gebruiken om arbeidsverhoudingen te schaden. Cultuurproducten en labor exploitation zijn nu onafscheidelijk.",
-            "strategic_signal": "Als je merk met game-studios samenwerkkt, map hun labor-track record expliciet in partnership-deals; reputatierisico is hoger dan 10 jaar geleden.",
-            "trajectory": "piekend",
-            "daysActive": 2,
-            "isNew": false,
-            "sources": [
-              "GQ",
-              "GamesIndustry.biz",
-              "Rock Paper Shotgun",
-              "Wikipedia Trending EN"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Rockstar Games",
-                "url": "https://en.wikipedia.org/wiki/Rockstar_Games",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-11-19T15:29:25.114Z"
-              },
-              {
-                "title": "The GTA Files: My Long-Lost Interview With the Brothers Who Founded Rockstar",
-                "url": "https://www.gq.com/story/houser-grand-theft-auto-interview",
-                "source": "GQ",
-                "published": "2026-11-19T11:00:00.000Z"
-              },
-              {
-                "title": "Rockstar and IWGB members issue closing arguments following conclusion of employment tribunal",
-                "url": "https://www.gamesindustry.biz/rockstar-and-iwgb-members-issue-closing-arguments-following-conclusion-of-employment-tribunal",
-                "source": "GamesIndustry.biz",
-                "published": "2026-11-19T10:03:40.000Z"
-              },
-              {
-                "title": "Rockstar firings tribunal hears closing statements, with judge promising to deliver a verdict \"as quickly as I possibly can\" - though it may take a while",
-                "url": "https://www.rockpapershotgun.com/rockstar-firings-tribunal-hears-closing-statements-with-judge-promising-to-deliver-a-verdict-as-quickly-as-i-possibly-can-though-it-may-take-a-while",
-                "source": "Rock Paper Shotgun",
-                "published": "2026-11-19T10:34:20.000Z"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "trends",
-        "label": "Trends",
-        "insights": [
-          {
             "trend": "GTA VI als culturele geldstandaard",
-            "summary": "Grand Theft Auto VI functioneert niet alleen als game maar als cultureel referentiekader. Van militaire incentives tot smartphone-narratieven die 2026 simuleren. Meerdere bronnen (404 Media, Consequence, Rock Paper Shotgun) behandelen GTA VI als spiegel van actuele cultuur, niet alleen entertainment.",
-            "why_it_matters": "Dit signaleert dat blockbuster-media niet meer alleen recreatie zijn, maar fungeren als culturele normbepaling waaraan andere instituten (militair, tech, media) zich aanpassen.",
-            "strategic_signal": "Merken kunnen GTA VI-voorkeuren tracken als early indicator van wat consumenten over 'toekomstige normaliteit' denken — gebruik dit voor product-roadmaps en scenario-planning, niet alleen gaming-sponsorships.",
+            "summary": "GTA VI genereert $1,65 miljard in pre-orders en breekt internet-records, terwijl het spel zich positioneert als referentiepunt voor wat blockbuster-gaming kan betekenen. Het spel wordt niet alleen als product waargenomen, maar als cultureel artefact dat narratieve, economische en designstandaarden bepaalt.",
+            "why_it_matters": "Dit signaleert dat games nu op dezelfde schaal culturele betekenis hebben als film en muziek. Ze bepalen hoe we verhalen vertellen, waarde meten en innovatie definiëren.",
+            "strategic_signal": "Merken kunnen GTA VI-culturele momenten (soundtrack releases, character cameos, in-game pastiche) gebruiken als co-creatie mogelijkheden; niet als product placement maar als narratieve participatie.",
             "trajectory": "piekend",
-            "daysActive": 2,
+            "daysActive": 3,
             "isNew": false,
             "sources": [
-              "404 Media",
-              "Consequence",
-              "Fast Company",
-              "NME",
-              "The Verge",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL"
+              "Eurogamer",
+              "GamesIndustry.biz",
+              "Kotaku",
+              "Polygon",
+              "Rock Paper Shotgun",
+              "Stereogum"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Grand Theft Auto VI",
-                "url": "https://nl.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-11-19T15:29:25.147Z"
+                "title": "GTA 6: the first billion-dollar game may also be the last",
+                "url": "https://www.gamesindustry.biz/gta-6-the-first-billion-dollar-game-may-also-be-the-last",
+                "source": "GamesIndustry.biz",
+                "published": "2026-11-20T15:02:20.000Z"
               },
               {
-                "title": "Grand Theft Auto (computerspelserie)",
-                "url": "https://nl.wikipedia.org/wiki/Grand_Theft_Auto_(computerspelserie)",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-11-19T15:29:25.147Z"
+                "title": "GTA VI Unveils Soundtrack Album, Game Includes Surprise Songs And Cameos",
+                "url": "https://stereogum.com/2518780/gta-vi-unveils-soundtrack-album-game-includes-surprise-songs-and-cameos/news/",
+                "source": "Stereogum",
+                "published": "2026-11-20T14:12:42.000Z"
               },
               {
-                "title": "Grand Theft Auto",
-                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-11-19T15:29:25.114Z"
+                "title": "I completed GTA 6's indie game darling pastiche, Tenebrae Lux, and all I got was this lousy sense of accomplishment",
+                "url": "https://www.eurogamer.net/tenebrae-lux-gta-6-now-playing",
+                "source": "Eurogamer",
+                "published": "2026-11-20T13:21:00.000Z"
               },
               {
-                "title": "Grand Theft Auto V",
-                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-11-19T15:29:25.114Z"
+                "title": "How the EU's Digital Fairness Act will impact game design, and why it hits European indies particularly hard",
+                "url": "https://www.gamesindustry.biz/how-the-eus-digital-fairness-act-will-impact-game-design-and-why-it-hits-european-indies-particularly-hard",
+                "source": "GamesIndustry.biz",
+                "published": "2026-11-20T12:27:00.000Z"
               }
             ]
           }
@@ -204,28 +163,17 @@
     ]
   },
   "crossCategory": {
-    "generatedAt": "2026-11-19T15:29:51.801Z",
+    "generatedAt": "2026-11-20T15:07:45.337Z",
     "megaTrends": [
       {
-        "trend": "Corporatieve drama als cultureel spiegelteken",
-        "summary": "Bedrijfsconflicten en schandalen (Rockstar labor battles, cryptofraude) worden vertaald naar entertainment-formaten (prestige-theater, intieme dramasaga's). De grens tussen zakelijke werkelijkheid en narratieve spectacle verdwijnt.",
-        "why_it_matters": "Dit weerspiegelt hoe publiek steeds minder onderscheid maakt tussen 'echte' bedrijfsgeschiedenis en geënsceneerde verhalen. Beide worden consumeerbaar.",
+        "trend": "Auteur-franchise hybride als cultureel model",
+        "summary": "Individuele creatieve visie wordt ingezet om massaproductie-franchises te heruitzonden. Dit zien we in Pattinson die Bond als auteurwerk herinterpreteerd en in luxury brands die zich herdefiniëren via sterke persoonlijke designers.",
+        "why_it_matters": "Dit signaleert dat mainstream cultuur niet langer kiest tussen artistieke integriteit of commerciële schaal. Het eist allebei tegelijk.",
         "categories": [
-          "gaming",
-          "film"
+          "film",
+          "fashion"
         ],
         "strength": "matig"
-      },
-      {
-        "trend": "GTA VI als cultuurdefiniërend referentiepunt",
-        "summary": "GTA VI fungeert niet alleen als game maar als normatieve currency voor culturele waarde (geldstandaard) en trekt daarmee aandacht van film (reality-TV-casting dynamieken, dramatische narratieven) en gamingindustrie (bedrijfsstructuren onder druk).",
-        "why_it_matters": "Een enkel product wordt de lingua franca waartegen andere cultuurvormen zichzelf meten — een zeldzame concentratie van soft power.",
-        "categories": [
-          "gaming",
-          "film",
-          "trends"
-        ],
-        "strength": "sterk"
       }
     ]
   },
