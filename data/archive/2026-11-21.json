@@ -1,0 +1,280 @@
+{
+  "date": "2026-11-21",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-21T14:26:52.010Z",
+    "intro": "4 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Phone-free live performance als prestige-marker",
+            "summary": "Phoebe Bridgers organiseert opzettelijk telefoonvrije arena-concerten; fans creëren fysieke artwork ter nagedachtenis van deze ervaring in plaats van digitale captures. Dit wordt gedekt door Billboard en Consequence als intentionele artistieke keuze die intimiteit en aanwezigheid prioriteert.",
+            "why_it_matters": "Dit weerspiegelt een groeiende tegencultuur tegen social-media-activatie van live-events: prestige verschuift van bereik naar authenticiteit en exclusiviteit van ervaring.",
+            "strategic_signal": "Merken die live-ervaringen activeren kunnen 'phone-free zones' niet als gimmick maar als merkmedicijn positioneren, exclusiviteit zonder FOMO, niet eronderheen.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Google News BE Muziek",
+              "HLN Antwerpen",
+              "NME",
+              "Stereogum"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Fans Trampled At OsamaSon’s Terminal 5 Show After DJ Tells Crowd To Rush Merch Booth For Jordan 4s",
+                "url": "https://stereogum.com/2519052/fans-trampled-at-osamasons-terminal-5-show-after-dj-tells-crowd-to-rush-merch-booth-for-jordan-4s/news/",
+                "source": "Stereogum",
+                "published": "2026-11-21T12:51:47.000Z"
+              },
+              {
+                "title": "Phoebe Bridgers fans are creating artwork to remember her phone-free arena concerts",
+                "url": "https://www.nme.com/news/music/phoebe-bridgers-fans-are-creating-artwork-to-remember-her-phone-free-arena-concerts-3976631",
+                "source": "NME",
+                "published": "2026-11-21T11:34:27.000Z"
+              },
+              {
+                "title": "Neen, we spelen niet allemaal GTA: Antwerp Expo overspoeld door LEGO-fans voor Brick Mania",
+                "url": "https://www.hln.be/antwerpen/neen-we-spelen-niet-allemaal-gta-antwerp-expo-overspoeld-door-lego-fans-voor-brick-mania~a9d95cfb/",
+                "source": "HLN Antwerpen",
+                "published": "2026-11-21T11:22:00.000Z"
+              },
+              {
+                "title": "Kylie Cantrall Talks ‘Bold, Grown & Messy’ New Music, How Her Disney Fans ‘Coexist’ With Growing Audience",
+                "url": "https://www.billboard.com/music/pop/kyliecantrall-opens-up-about-new-music-its-bold-grown-messy-1236385194/",
+                "source": "Billboard",
+                "published": "2026-11-21T00:20:22.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Auteurische controle als Marvel-antidotum",
+            "summary": "Filmmaker Bassam Tariq publiceert kritiek op Marvel's 'Blade'-productie voor 'scrapping' zonder proper script; IndieWire en The Hollywood Reporter dekken dit als symptoom van industrieel systeemfalen. Dit sluit aan bij voorgaande observaties (2026-11-20) over auteur-franchise spanningen.",
+            "why_it_matters": "De kloof tussen franchise-machinerie en artistieke integriteit wordt openlijk als career-bedreiging ervaren; dit legitimiseert indie/prestige-paden als moreel superieuur.",
+            "strategic_signal": "Merk-partnerschappen met filmmakers moeten expliciet 'creative autonomy'-garanties bieden als differentiator; franchise-aantakeling is nu stigma voor serieuze auteurs.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Design Boom",
+              "Fast Company",
+              "IndieWire",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "SNL’s ‘Sister’ sketch hit a nerve, but here’s how to care for elderly parents without upending your life",
+                "url": "https://www.fastcompany.com/91645503/caring-for-elderly-parents-without-recreating-snls-viral-sister-sketch",
+                "source": "Fast Company",
+                "published": "2026-11-21T10:00:00.000Z"
+              },
+              {
+                "title": "Bassam Tariq Says Marvel’s Scrapped ‘Blade’ Reboot Taught Him “Life’s Too Short to Make Sh** Films”",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/bassam-tariq-marvel-blade-life-too-short-shit-films-1236760314/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-21T00:28:41.000Z"
+              },
+              {
+                "title": "angelo renna’s eight principles for welcoming non-human life back into our cities",
+                "url": "https://www.designboom.com/architecture/angelo-renna-eight-principles-welcoming-non-human-life-back-into-our-cities-guest-essays/",
+                "source": "Design Boom",
+                "published": "2026-11-20T21:35:56.000Z"
+              },
+              {
+                "title": "How World-Class Filmmaker Andrey Zvyagintsev Came Back to Life for ‘Minotaur’",
+                "url": "https://www.indiewire.com/features/interviews/andrey-zvyagintsev-cannes-interview-minotaur-1235195741/",
+                "source": "IndieWire",
+                "published": "2026-11-20T20:30:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "GTA VI accessibility als normalisatie-statement",
+            "summary": "GTA 6 implementeert omvangrijke accessibility-featureset; Kotaku en Aftermath dekken dit niet als PR-move maar als industrieel standaard-signaal. Dit onderscheidt zich van traditionele AAA-'inclusiviteit'-narratieven.",
+            "why_it_matters": "Dit signaleert dat accessibility nu aangestuurd door game-design-ambitie, niet compliance-druk; het wordt deel van wat 'miljard-dollar production value' betekent.",
+            "strategic_signal": "Gaming-merken kunnen accessibility als core feature positioneren (niet apologie) in pre-launch marketing; dit domineert hardcore-discourse meer dan graphics-specs.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Aftermath",
+              "GamesIndustry.biz",
+              "Hypebeast",
+              "Kotaku",
+              "Polygon",
+              "The Verge"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "The game of the year is finally here",
+                "url": "https://www.theverge.com/tech/1039433/gta-vi-alfred-6-clockwisetv-installer",
+                "source": "The Verge",
+                "published": "2026-11-21T13:00:00.000Z"
+              },
+              {
+                "title": "George R.R. Martin’s 7 Best Non-Game of Thrones Books, Ranked",
+                "url": "https://www.polygon.com/george-rr-martins-best-non-game-of-thrones-books-ranked/",
+                "source": "Polygon",
+                "published": "2026-11-21T10:00:17.000Z"
+              },
+              {
+                "title": "Axel Arigato Invites You to Its Community Game Night",
+                "url": "https://hypebeast.com/2026/11/axel-arigato-invites-you-to-its-community-game-night-release-info",
+                "source": "Hypebeast",
+                "published": "2026-11-20T18:04:18.000Z"
+              },
+              {
+                "title": "GTA 6 Has An Impressive Number Of Accessibility Options To Make The Game Less Frustrating",
+                "url": "https://kotaku.com/gta-6-has-an-impressive-number-of-accessibility-options-to-make-the-game-less-frustrating-2000758984",
+                "source": "Kotaku",
+                "published": "2026-11-20T21:01:06.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "GTA VI als culturele geldstandaard",
+            "summary": "GTA VI genereert massale online aandacht (3.345+ nl.wiki views, rang #8) en domineert speelcultuursdiscussie; het spel wordt niet alleen als product maar als cultureel referentiekader behandeld. Meerdere onafhankelijke bronnen (A.V. Club, Billboard, Consequence, Eurogamer) positioneren het niet louter als game maar als cultuurgebeurtenis.",
+            "why_it_matters": "Dit signaleert een fundamentele verschuiving: grote games fungeren niet meer als entertainment, maar als gedeelde culturele momenten die betekenisgeving bepalen, vergelijkbaar met filmreleases of albumdrops.",
+            "strategic_signal": "Merken moeten GTA VI-releasedata (2025) als planningsanker voor Q1 2025 campagnes behandelen; timing rond dit event bepaalt viral potentiaal meer dan traditionele mediakalenders.",
+            "trajectory": "piekend",
+            "daysActive": 4,
+            "isNew": false,
+            "sources": [
+              "A.V. Club",
+              "Billboard",
+              "Consequence",
+              "Eurogamer",
+              "GQ",
+              "Google News BE Film",
+              "Hypebeast",
+              "Kotaku",
+              "NME",
+              "Wikipedia Trending EN",
+              "Wikipedia Trending NL"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Grand Theft Auto VI",
+                "url": "https://nl.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-21T14:26:28.585Z"
+              },
+              {
+                "title": "Grand Theft Auto (computerspelserie)",
+                "url": "https://nl.wikipedia.org/wiki/Grand_Theft_Auto_(computerspelserie)",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-21T14:26:28.585Z"
+              },
+              {
+                "title": "Grand Theft Auto",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-21T14:26:28.361Z"
+              },
+              {
+                "title": "Grand Theft Auto V",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-21T14:26:28.361Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-11-21T14:26:56.628Z",
+    "megaTrends": [
+      {
+        "trend": "Authentieke controle tegen algoritme-regulering",
+        "summary": "Creatoren eisen volledige autoriteit terug over hun werk: muzikanten verbieden telefoons op concerten, filmmakers weigeren studio-inmenging, en GTA VI wordt het referentiepunt voor ongefiltered culturele uitspraken. Dit is verzet tegen algoritmes, studio's en platforms die creatief autoriteit mediëren.",
+        "why_it_matters": "Dit signaleert een cultuurverschuiving naar 'integrity as luxury', auteurs gebruiken controle als status-symbool in een wereld van AI, algoritmes en corporate homogenisatie.",
+        "categories": [
+          "music",
+          "film",
+          "gaming"
+        ],
+        "strength": "sterk"
+      },
+      {
+        "trend": "GTA VI als culturele suprematie-marker",
+        "summary": "GTA VI fungeert niet alleen als game maar als standaard voor culturele vrijheid: zijn accessibility-features normaliseren inclusie, terwijl het tegelijk als 'geldstandaard' geldt voor wat cultuur mag zeggen en doen. Het is cultureel normatief geworden.",
+        "why_it_matters": "Een commercieel product definieert nu maatschappelijke waarden, dit toont hoe entertainment-franchises beleidsmaking en normen bepalen.",
+        "categories": [
+          "gaming",
+          "trends"
+        ],
+        "strength": "matig"
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-19T14:29:47.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Microdrama gets its own studio",
+        "category": "film",
+        "what_is_happening": "Will Packer, producer of Girls Trip, has launched June, a studio built for vertical microdramas aimed at Black viewers, backed by NBCUniversal and HarbourView. It is a dedicated platform-first storytelling practice from an established producer, not a cut-down version of TikTok content.",
+        "why_it_matters_for_brands": "Vertical series now have serious producers and funding behind them, so short-form story is a format brands can commission, not just a place to repost ads.",
+        "what_brands_can_do": [
+          "Commission a short vertical series with a clear story, rather than cutting a TV spot down to size.",
+          "Work with creators and studios who already know the format and the community you want to reach.",
+          "Design each episode to stand alone, so new viewers can start anywhere in the series."
+        ]
+      },
+      {
+        "trend": "Outages become shared internet jokes",
+        "category": "internet",
+        "what_is_happening": "The global Microsoft outage that hit Outlook, Teams and Copilot triggered a wave of social media humour, including the headline \"Just make it Microsoft 364\" reported by VRT NWS. Fast Company noted the outage collided with bad optics, from layoffs and buyouts to confusing updates.",
+        "why_it_matters_for_brands": "When a failure becomes a joke, brands tied to it are judged on how they respond, not on the failure itself.",
+        "what_brands_can_do": [
+          "Prepare a calm, human holding message before any outage happens, and publish it early.",
+          "Join the humour only when your own product is not the one failing, and never mock affected users.",
+          "Offer practical help first, such as a status page or an alternative, then add the tone."
+        ]
+      },
+      {
+        "trend": "Bond casting bets on credibility",
+        "category": "trends",
+        "what_is_happening": "Amazon MGM Studios has confirmed Robert Pattinson as the next James Bond, with Denis Villeneuve directing from a Steven Knight script. Coverage reads the choice as a move towards prestige cinema, noting Pattinson's mix of blockbusters such as Twilight and Batman with riskier work such as The Lighthouse and Cosmopolis.",
+        "why_it_matters_for_brands": "A franchise that casts for creative risk over pure reach shows that credibility is chosen on purpose, and audiences read that choice as a brand statement.",
+        "what_brands_can_do": [
+          "Choose ambassadors for their record of creative risk and craft, not only for follower counts.",
+          "Give a new face room to bring a personal style to an old brand, instead of copying the previous era.",
+          "Announce changes with a clear reason, because audiences will compare the new choice with the old one straight away."
+        ]
+      }
+    ]
+  }
+}
