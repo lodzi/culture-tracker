@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-22",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-22T14:20:55.986Z",
+    "intro": "2 categorieën · 3 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "fashion",
+        "label": "Fashion",
+        "insights": [
+          {
+            "trend": "Pattinson as auteur-franchise hybrid",
+            "summary": "Robert Pattinson's James Bond casting activates een nieuw arcetype: actor-als-creative-director die franchises hertekent in plaats van ze uit te voeren. De Twilight×Crocs collab en Bond-narratief tonen hoe een performer nu 'ownership' claimt over iconische intellectueel eigendom.",
+            "why_it_matters": "Dit vervangt de klassieke hiërarchie (studio controleert ster) door auteurschap-van-onderuit: performers worden curators van hun eigen merken, niet enkel ambassadors.",
+            "strategic_signal": "Zoek naar actors/performers die actief hun eigen merchandise-narratief structureren; partner met hen rond 'vision' niet 'visibility', Pattinson's waarde ligt in zijn vermogen om franchises om te definiëren, niet alleen in te vullen.",
+            "trajectory": "opkomend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Deadline",
+              "Hypebeast",
+              "WWD",
+              "Wikipedia Trending NL"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Robert Pattinson",
+                "url": "https://nl.wikipedia.org/wiki/Robert_Pattinson",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-22T14:20:39.269Z"
+              },
+              {
+                "title": "John Carpenter Reveals Robert Rodriguez Back In Running To Helm ‘Escape from New York’ Reimagining",
+                "url": "https://deadline.com/2026/11/john-carpenter-robert-rodriguez-running-helm-escape-new-york-1237231028/",
+                "source": "Deadline",
+                "published": "2026-11-22T00:10:01.000Z"
+              },
+              {
+                "title": "'Twilight' x Crocs Unveils \"Edward and Bella\" Classic Clog After Robert Pattinson is Named Next James Bond",
+                "url": "https://hypebeast.com/2026/11/twilight-crocs-classic-clog-edward-and-bella-215785-90h-following-robert-pattinson-named-next-james-bond-release-info",
+                "source": "Hypebeast",
+                "published": "2026-11-22T01:26:35.000Z"
+              },
+              {
+                "title": "Rosalía Wears Dove Headpiece by Robert Wun to the Los 40 Music Awards in Barcelona",
+                "url": "https://wwd.com/pop-culture/celebrity-news/rosalia-dove-headpiece-robert-wun-los-40-music-awards-1239461500/",
+                "source": "WWD",
+                "published": "2026-11-21T18:15:11.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Nostalgie-heruitvinding via designer-collab",
+            "summary": "Nike GYAKUSOU-terugkeer, Air Max 90-herissues en velvet-Mary-Jane innovaties tonen hoe nostalgie niet als retro-pastiche wordt beleef, maar als hergebruik van archief voor nieuwe textiel-experimenten. Jun Takahashi en Nike gebruiken '00s-DNA voor 2027-innovatie.",
+            "why_it_matters": "Dit betekent dat 'revival' niet meer authenticity-zoeken is, maar materiële verfijning, merken hoeven niet hun archief puur te behouden, maar mogen het herwaarderen met hedendaagse ambities.",
+            "strategic_signal": "Voor luxury/sportswear: heruitgaven zijn kansen voor materiaal-upgrade en genderfluid-repositioning (velvet, netted textures, ballerina references), nostalgie als excuus voor experimentele luxe, niet backward-looking purisme.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Highsnobiety",
+              "Hypebeast",
+              "Sneaker News",
+              "WWD"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Nike and Jun Takahashi Announce the Official Return of GYAKUSOU",
+                "url": "https://hypebeast.com/2026/11/nike-jun-takahashi-gyakusou-official-return-announcement",
+                "source": "Hypebeast",
+                "published": "2026-11-22T07:26:05.000Z"
+              },
+              {
+                "title": "The Nike Air Max 90 Grabs Netted Textures In “Obsidian”",
+                "url": "https://sneakernews.com/2026/11/21/nike-air-max-90-obsidian-light-racer-blue-ix0126-400/",
+                "source": "Sneaker News",
+                "published": "2026-11-22T01:00:31.000Z"
+              },
+              {
+                "title": "Nike's Velvet Mary Jane Is a Cozy Lil' Ballerina Sneaker",
+                "url": "https://www.highsnobiety.com/p/nike-shox-z-calistra-black-velvet/",
+                "source": "Highsnobiety",
+                "published": "2026-11-21T21:58:09.000Z"
+              },
+              {
+                "title": "Nike’s Olive Suede Sneaker-Boot Is a Dream Winter Shoe",
+                "url": "https://www.highsnobiety.com/p/nike-air-max-goadome-low-twilight-marsh/",
+                "source": "Highsnobiety",
+                "published": "2026-11-21T21:42:22.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trends",
+        "label": "Trends",
+        "insights": [
+          {
+            "trend": "GTA VI als culturele geldstandaard",
+            "summary": "Grand Theft Auto VI domineert niet alleen gamingdiscussie maar transformeert tot referentiepunt voor merkcolaboraties, celebrity-partnerships en culturele waarde. Van Nike Air Forces tot discussies over game-ethiek, GTA VI fungeert als normatief kader voor wat 'cultureel relevant' betekent.",
+            "why_it_matters": "Dit signaleert een fundamentele verschuiving: videogames bepalen nu de culturele waarde van fysieke producten en persoonlijkheden (Pattinson, Hamilton), niet andersom, een machtsomslag die merken moeten erkennen.",
+            "strategic_signal": "Voor merken: elk product dat 'relevantie' zoekt, moet zich expliciet verhouden tot gaming-cultuur; wacht niet op passive association, maar build active GTA VI-connectivity in product storytelling (zoals Cactus Jack doet).",
+            "trajectory": "piekend",
+            "daysActive": 4,
+            "isNew": false,
+            "sources": [
+              "Humo",
+              "Hypebeast",
+              "Wikipedia Trending EN",
+              "Wikipedia Trending NL"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Grand Theft Auto VI",
+                "url": "https://nl.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+                "source": "Wikipedia Trending NL",
+                "published": "2026-11-22T14:20:39.269Z"
+              },
+              {
+                "title": "Grand Theft Auto",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-22T14:20:39.157Z"
+              },
+              {
+                "title": "Lewis Hamilton's +44 Unveils \"Area +44\" Collection Ahead of Las Vegas Grand Prix",
+                "url": "https://hypebeast.com/2026/11/lewis-hamilton-plus-44-las-vegas-grand-prix-area-44-collection-release-info",
+                "source": "Hypebeast",
+                "published": "2026-11-22T05:16:01.000Z"
+              },
+              {
+                "title": "‘Een geheimzinnige, veeleisende workaholic’: wie is Sam Houser (55), de man achter ‘Grand Theft Auto’?",
+                "url": "https://www.humo.be/tv/een-geheimzinnige-veeleisende-workaholic-wie-is-sam-houser-55-de-man-achter-grand-theft-auto~bea0b45f/",
+                "source": "Humo",
+                "published": "2026-11-21T14:51:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-19T14:29:47.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Microdrama gets its own studio",
+        "category": "film",
+        "what_is_happening": "Will Packer, producer of Girls Trip, has launched June, a studio built for vertical microdramas aimed at Black viewers, backed by NBCUniversal and HarbourView. It is a dedicated platform-first storytelling practice from an established producer, not a cut-down version of TikTok content.",
+        "why_it_matters_for_brands": "Vertical series now have serious producers and funding behind them, so short-form story is a format brands can commission, not just a place to repost ads.",
+        "what_brands_can_do": [
+          "Commission a short vertical series with a clear story, rather than cutting a TV spot down to size.",
+          "Work with creators and studios who already know the format and the community you want to reach.",
+          "Design each episode to stand alone, so new viewers can start anywhere in the series."
+        ]
+      },
+      {
+        "trend": "Outages become shared internet jokes",
+        "category": "internet",
+        "what_is_happening": "The global Microsoft outage that hit Outlook, Teams and Copilot triggered a wave of social media humour, including the headline \"Just make it Microsoft 364\" reported by VRT NWS. Fast Company noted the outage collided with bad optics, from layoffs and buyouts to confusing updates.",
+        "why_it_matters_for_brands": "When a failure becomes a joke, brands tied to it are judged on how they respond, not on the failure itself.",
+        "what_brands_can_do": [
+          "Prepare a calm, human holding message before any outage happens, and publish it early.",
+          "Join the humour only when your own product is not the one failing, and never mock affected users.",
+          "Offer practical help first, such as a status page or an alternative, then add the tone."
+        ]
+      },
+      {
+        "trend": "Bond casting bets on credibility",
+        "category": "trends",
+        "what_is_happening": "Amazon MGM Studios has confirmed Robert Pattinson as the next James Bond, with Denis Villeneuve directing from a Steven Knight script. Coverage reads the choice as a move towards prestige cinema, noting Pattinson's mix of blockbusters such as Twilight and Batman with riskier work such as The Lighthouse and Cosmopolis.",
+        "why_it_matters_for_brands": "A franchise that casts for creative risk over pure reach shows that credibility is chosen on purpose, and audiences read that choice as a brand statement.",
+        "what_brands_can_do": [
+          "Choose ambassadors for their record of creative risk and craft, not only for follower counts.",
+          "Give a new face room to bring a personal style to an old brand, instead of copying the previous era.",
+          "Announce changes with a clear reason, because audiences will compare the new choice with the old one straight away."
+        ]
+      }
+    ]
+  }
+}
