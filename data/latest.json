@@ -1,151 +1,253 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-22T14:20:55.986Z",
-    "intro": "2 categorieën · 3 trends · laatste 24u",
+    "generatedAt": "2026-11-23T17:44:36.428Z",
+    "intro": "3 categorieën · 5 trends · laatste 24u",
     "categories": [
       {
-        "id": "fashion",
-        "label": "Fashion",
+        "id": "music",
+        "label": "Muziek",
         "insights": [
           {
-            "trend": "Pattinson as auteur-franchise hybrid",
-            "summary": "Robert Pattinson's James Bond casting activates een nieuw arcetype: actor-als-creative-director die franchises hertekent in plaats van ze uit te voeren. De Twilight×Crocs collab en Bond-narratief tonen hoe een performer nu 'ownership' claimt over iconische intellectueel eigendom.",
-            "why_it_matters": "Dit vervangt de klassieke hiërarchie (studio controleert ster) door auteurschap-van-onderuit: performers worden curators van hun eigen merken, niet enkel ambassadors.",
-            "strategic_signal": "Zoek naar actors/performers die actief hun eigen merchandise-narratief structureren; partner met hen rond 'vision' niet 'visibility', Pattinson's waarde ligt in zijn vermogen om franchises om te definiëren, niet alleen in te vullen.",
-            "trajectory": "opkomend",
-            "daysActive": 2,
+            "trend": "GTA VI als culturele geldstandaard",
+            "summary": "GTA VI's soundtrack-album bereikt 57 tracks via deluxe-editie met Travis Scott, Anitta, Slayyyter. Videogame-muziek wordt niet meer supplementair maar primair distributiekanaal voor artiesten op topniveau.",
+            "why_it_matters": "Dit bewijst dat games culturele autoriteit hebben bereikt die Spotify/Apple Music-features overtreffen, ze bepalen welke muziek relevant is, niet omgekeerd.",
+            "strategic_signal": "Merken targeting Gen Z/millennials: game-soundtrack-partnerships zijn nu even waardevol als playlisting deals. Positioneer product-placements in games als 'canon', niet 'advertentie'.",
+            "trajectory": "piekend",
+            "daysActive": 4,
             "isNew": false,
             "sources": [
-              "Deadline",
-              "Hypebeast",
-              "WWD",
-              "Wikipedia Trending NL"
+              "Billboard",
+              "Consequence",
+              "NME",
+              "The Verge",
+              "Wikipedia Trending EN"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Robert Pattinson",
-                "url": "https://nl.wikipedia.org/wiki/Robert_Pattinson",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-11-22T14:20:39.269Z"
+                "title": "Grand Theft Auto VI",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-23T17:44:14.045Z"
               },
               {
-                "title": "John Carpenter Reveals Robert Rodriguez Back In Running To Helm ‘Escape from New York’ Reimagining",
-                "url": "https://deadline.com/2026/11/john-carpenter-robert-rodriguez-running-helm-escape-new-york-1237231028/",
-                "source": "Deadline",
-                "published": "2026-11-22T00:10:01.000Z"
+                "title": "Grand Theft Auto",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-23T17:44:14.045Z"
               },
               {
-                "title": "'Twilight' x Crocs Unveils \"Edward and Bella\" Classic Clog After Robert Pattinson is Named Next James Bond",
-                "url": "https://hypebeast.com/2026/11/twilight-crocs-classic-clog-edward-and-bella-215785-90h-following-robert-pattinson-named-next-james-bond-release-info",
-                "source": "Hypebeast",
-                "published": "2026-11-22T01:26:35.000Z"
+                "title": "Travis Scott, Slayyyter, Offset, Anitta & More Power ‘Grand Theft Auto VI: The Album’ Deluxe Edition: Stream It Now",
+                "url": "https://www.billboard.com/music/music-news/gta-6-album-deluxe-offset-travis-scott-slayyyter-anitta-1236387752/",
+                "source": "Billboard",
+                "published": "2026-11-23T17:10:43.000Z"
               },
               {
-                "title": "Rosalía Wears Dove Headpiece by Robert Wun to the Los 40 Music Awards in Barcelona",
-                "url": "https://wwd.com/pop-culture/celebrity-news/rosalia-dove-headpiece-robert-wun-los-40-music-awards-1239461500/",
-                "source": "WWD",
-                "published": "2026-11-21T18:15:11.000Z"
+                "title": "FKA Twigs and Patti Smith added to Gasometer grand opening as we go inside the “new cultural landmark for Northern Europe”",
+                "url": "https://www.nme.com/news/music/gasometer-stockholm-new-venue-interview-opening-tickets-gig-plans-3976585",
+                "source": "NME",
+                "published": "2026-11-23T16:37:17.000Z"
               }
             ]
           },
           {
-            "trend": "Nostalgie-heruitvinding via designer-collab",
-            "summary": "Nike GYAKUSOU-terugkeer, Air Max 90-herissues en velvet-Mary-Jane innovaties tonen hoe nostalgie niet als retro-pastiche wordt beleef, maar als hergebruik van archief voor nieuwe textiel-experimenten. Jun Takahashi en Nike gebruiken '00s-DNA voor 2027-innovatie.",
-            "why_it_matters": "Dit betekent dat 'revival' niet meer authenticity-zoeken is, maar materiële verfijning, merken hoeven niet hun archief puur te behouden, maar mogen het herwaarderen met hedendaagse ambities.",
-            "strategic_signal": "Voor luxury/sportswear: heruitgaven zijn kansen voor materiaal-upgrade en genderfluid-repositioning (velvet, netted textures, ballerina references), nostalgie als excuus voor experimentele luxe, niet backward-looking purisme.",
-            "trajectory": "piekend",
+            "trend": "Liveshow-veiligheid als prestige-eis",
+            "summary": "Don Toliver's Manchester-shows worden geëvacueerd voor onbekende stoffen; artist postponeert toch optredens. Veiligheid wordt niet meer achtergrond-logistiek maar publieke statement over artistieke waarde.",
+            "why_it_matters": "Dit markeert shift: artiesten claimen controle over venue-standaarden als deel van hun merk — liever geen show dan een onveilige.",
+            "strategic_signal": "Voor venue-partners en merk-activaties: 'phone-free' en 'substance-free' environments worden premium positioning. Communiceer dit vooraf als feature, niet regel.",
+            "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Highsnobiety",
-              "Hypebeast",
-              "Sneaker News",
-              "WWD"
+              "Billboard",
+              "Consequence",
+              "Pitchfork News",
+              "The Hollywood Reporter"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Nike and Jun Takahashi Announce the Official Return of GYAKUSOU",
-                "url": "https://hypebeast.com/2026/11/nike-jun-takahashi-gyakusou-official-return-announcement",
-                "source": "Hypebeast",
-                "published": "2026-11-22T07:26:05.000Z"
+                "title": "Don Toliver Postpones O2 Arena Show After Evacuation Due to “Unknown Substance” Released at Manchester Concert",
+                "url": "https://www.hollywoodreporter.com/music/music-news/don-toliver-02-arena-concert-postponed-evacuation-1236761147/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-23T17:29:12.000Z"
               },
               {
-                "title": "The Nike Air Max 90 Grabs Netted Textures In “Obsidian”",
-                "url": "https://sneakernews.com/2026/11/21/nike-air-max-90-obsidian-light-racer-blue-ix0126-400/",
-                "source": "Sneaker News",
-                "published": "2026-11-22T01:00:31.000Z"
+                "title": "Don Toliver Delays London Gig After Manchester Set Evacuated for ‘Unknown Substance’: ‘Stop Bringing Bulls–t’ Into My Shows!’",
+                "url": "https://www.billboard.com/music/rb-hip-hop/don-toliver-show-evacuated-unknown-substance-rapper-reacts-1236387729/",
+                "source": "Billboard",
+                "published": "2026-11-23T15:54:14.000Z"
               },
               {
-                "title": "Nike's Velvet Mary Jane Is a Cozy Lil' Ballerina Sneaker",
-                "url": "https://www.highsnobiety.com/p/nike-shox-z-calistra-black-velvet/",
-                "source": "Highsnobiety",
-                "published": "2026-11-21T21:58:09.000Z"
+                "title": "Don Toliver’s Show in Manchester Evacuated After “Unknown Substance” Released in the Crowd",
+                "url": "https://consequence.net/2026/11/don-toliver-concert-manchester-evacuated-unknown-substance/",
+                "source": "Consequence",
+                "published": "2026-11-23T15:28:52.000Z"
               },
               {
-                "title": "Nike’s Olive Suede Sneaker-Boot Is a Dream Winter Shoe",
-                "url": "https://www.highsnobiety.com/p/nike-air-max-goadome-low-twilight-marsh/",
-                "source": "Highsnobiety",
-                "published": "2026-11-21T21:42:22.000Z"
+                "title": "Don Toliver Concert Evacuated After Airborne Substance Released Into Crowd",
+                "url": "https://pitchfork.com/story/don-toliver-concert-evacuated-after-airborne-substance-released-into-crowd/",
+                "source": "Pitchfork News",
+                "published": "2026-11-23T12:48:14.000Z"
               }
             ]
           }
         ]
       },
       {
-        "id": "trends",
-        "label": "Trends",
+        "id": "film",
+        "label": "Film & TV",
         "insights": [
           {
-            "trend": "GTA VI als culturele geldstandaard",
-            "summary": "Grand Theft Auto VI domineert niet alleen gamingdiscussie maar transformeert tot referentiepunt voor merkcolaboraties, celebrity-partnerships en culturele waarde. Van Nike Air Forces tot discussies over game-ethiek, GTA VI fungeert als normatief kader voor wat 'cultureel relevant' betekent.",
-            "why_it_matters": "Dit signaleert een fundamentele verschuiving: videogames bepalen nu de culturele waarde van fysieke producten en persoonlijkheden (Pattinson, Hamilton), niet andersom, een machtsomslag die merken moeten erkennen.",
-            "strategic_signal": "Voor merken: elk product dat 'relevantie' zoekt, moet zich expliciet verhouden tot gaming-cultuur; wacht niet op passive association, maar build active GTA VI-connectivity in product storytelling (zoals Cactus Jack doet).",
+            "trend": "Legacy-sequel prestige als culturele maatstaf",
+            "summary": "Filmfranchises uit de jaren 2000 krijgen nieuwe delen met A-list cast (Stiller, De Niro, Grande in 'Focker-in-Law'; Anderson/Spielberg western). Studios herontdekken IP niet als nostalgie maar als canvas voor autorische herdefiniëring.",
+            "why_it_matters": "Dit signaleert dat het 'reboot'-model evolueert van geldgraaierij naar artistieke heruitvinding — wat filmmakers aantrok naar franchises die eerder als commercieel gezien werden.",
+            "strategic_signal": "Merken kunnen dit seizoen legacy-IP niet meer als kitsch positioneren, maar als 'regisseur leest klassieker opnieuw' — perfect voor premium positioning of generatie-overstijgende campagnes.",
             "trajectory": "piekend",
-            "daysActive": 4,
-            "isNew": false,
+            "daysActive": 1,
+            "isNew": true,
             "sources": [
-              "Humo",
-              "Hypebeast",
-              "Wikipedia Trending EN",
-              "Wikipedia Trending NL"
+              "Adweek",
+              "Crack Magazine",
+              "Deadline",
+              "NME",
+              "Variety",
+              "Wikipedia Trending EN"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Grand Theft Auto VI",
-                "url": "https://nl.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-                "source": "Wikipedia Trending NL",
-                "published": "2026-11-22T14:20:39.269Z"
-              },
-              {
-                "title": "Grand Theft Auto",
-                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+                "title": "XXX (2002 film)",
+                "url": "https://en.wikipedia.org/wiki/XXX_(2002_film)",
                 "source": "Wikipedia Trending EN",
-                "published": "2026-11-22T14:20:39.157Z"
+                "published": "2026-11-23T17:44:14.045Z"
               },
               {
-                "title": "Lewis Hamilton's +44 Unveils \"Area +44\" Collection Ahead of Las Vegas Grand Prix",
-                "url": "https://hypebeast.com/2026/11/lewis-hamilton-plus-44-las-vegas-grand-prix-area-44-collection-release-info",
-                "source": "Hypebeast",
-                "published": "2026-11-22T05:16:01.000Z"
+                "title": "Steven Spielberg Sets Adaptation Of ‘The Heart In Winter’ As Next Film At Focus With Jessie Buckley, Cillian Murphy And Mark Rylance Starring And Paul Thomas Anderson Adapting The Script",
+                "url": "https://deadline.com/2026/11/steven-spielberg-the-heart-in-winter-paul-thomas-anderson-1237231172/",
+                "source": "Deadline",
+                "published": "2026-11-23T17:30:00.000Z"
               },
               {
-                "title": "‘Een geheimzinnige, veeleisende workaholic’: wie is Sam Houser (55), de man achter ‘Grand Theft Auto’?",
-                "url": "https://www.humo.be/tv/een-geheimzinnige-veeleisende-workaholic-wie-is-sam-houser-55-de-man-achter-grand-theft-auto~bea0b45f/",
-                "source": "Humo",
-                "published": "2026-11-21T14:51:00.000Z"
+                "title": "BAFTA Film Awards Losing Headline Sponsor EE After 30 Years",
+                "url": "https://variety.com/2026/film/awards/bafta-film-awards-losing-headline-sponsor-ee-1236956014/",
+                "source": "Variety",
+                "published": "2026-11-23T17:12:11.000Z"
+              },
+              {
+                "title": "Spike Lee and Willem Dafoe Board Short Film ‘Pankaja’ as Exec Producers (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/spike-lee-willem-dafoe-short-film-pankaja-exec-producers-1236955965/",
+                "source": "Variety",
+                "published": "2026-11-23T16:34:48.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Auteurische controle als blockbuster-antidotum",
+            "summary": "Paul Thomas Anderson adapteert 'The Heart in Winter' voor Spielberg's focus; Spike Lee en Willem Dafoe co-produceren experimenteel kortwerk. Topauteurs migreren naar franchise-werk maar onder eigen voorwaarden, niet omgekeerd.",
+            "why_it_matters": "Dit is de directe tegenpol van Marvel-hegemonie: auteurs accepteren IP maar enkel met creatieve autonomie — wat voorgangers zoals Anderson jarenlang weigerden.",
+            "strategic_signal": "Voor merken met filmpartners: 'auteur betrokken' is nu markering voor prestige, niet luxe-label. Dit werkt beter voor premium tech of luxury brands dan voor massamarkt.",
+            "trajectory": "opkomend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Deadline",
+              "IndieWire",
+              "NME",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Focker-In-Law’ review: Even Ariana Grande’s comedy chops can’t save this legacy sequel",
+                "url": "https://www.nme.com/reviews/film-reviews/focker-in-law-review-ariana-grande-ben-stiller-rober-de-niro-3976765",
+                "source": "NME",
+                "published": "2026-11-23T17:03:51.000Z"
+              },
+              {
+                "title": "‘Focker In-Law’ Review: An Eager Ariana Grande Isn’t Enough to Save a Comedy Sequel That Can’t Remember What People Liked About This Franchise",
+                "url": "https://www.indiewire.com/criticism/movies/focker-in-law-movie-review-ariana-grande-ben-stiller-1235230046/",
+                "source": "IndieWire",
+                "published": "2026-11-23T17:00:00.000Z"
+              },
+              {
+                "title": "‘Focker-in-Law’ Review: Ariana Grande Sporadically Livens Up a Tired Comedy Retread",
+                "url": "https://variety.com/2026/film/reviews/focker-in-law-review-1236955690/",
+                "source": "Variety",
+                "published": "2026-11-23T17:00:00.000Z"
+              },
+              {
+                "title": "‘Focker In-Law’ Review: Ariana Grande Outshines Robert De Niro and Ben Stiller in an Otherwise Dire Fourth Installment",
+                "url": "https://www.hollywoodreporter.com/movies/movie-reviews/focker-in-law-review-ariana-grande-robert-de-niro-1236760021/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-23T17:00:00.000Z"
               }
             ]
           }
         ]
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
+          {
+            "trend": "Cyberpunk-nostalgie als prestige-dramaturgie",
+            "summary": "'Blade Runner 2099' wordt gelezen als 'origineel werk dat toevallig in franchise-universum leeft' (Yeoh, Schafer, eigen creatief DNA). Sci-fi dystopie is nu voertuig voor stilistische autoriteit, niet spectacle.",
+            "why_it_matters": "Dit bewijst dat 'retelling' acceptabel is zolang de toon autorisch voelt — het genre zelf (cyberpunk) garandeert geen prestige meer, alleen de auteur.",
+            "strategic_signal": "Voor tech- en streaming-merken: 'slow cinema' en 'distraction-resistant' framing werkt beter voor premium positionering dan 'immersive' branding. Laat de dystopie spreken.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "IndieWire",
+              "NME",
+              "The Verge"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Blade Runner 2099’ review: a hollow retread of the cult dystopian classic",
+                "url": "https://www.nme.com/reviews/tv-reviews/blade-runner-2099-review-michelle-yeoh-hunter-schafer-amazon-prime-3976755",
+                "source": "NME",
+                "published": "2026-11-23T15:28:26.000Z"
+              },
+              {
+                "title": "Blade Runner 2099 is an inventive twist on a cyberpunk classic",
+                "url": "https://www.theverge.com/entertainment/1039095/blade-runner-2099-review",
+                "source": "The Verge",
+                "published": "2026-11-23T14:00:00.000Z"
+              },
+              {
+                "title": "‘Blade Runner 2099’ Review: Michelle Yeoh and Hunter Schafer Are a Fine Pair in an Awesome World",
+                "url": "https://www.indiewire.com/criticism/shows/blade-runner-2099-review-amazon-series-michelle-yeoh-1235229717/",
+                "source": "IndieWire",
+                "published": "2026-11-23T14:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-11-23T17:44:38.679Z",
+    "megaTrends": [
+      {
+        "trend": "Prestige via controle en authenticiteit",
+        "summary": "Zowel in film (auteurische controle als blockbuster-antidotum) als in muziek (liveshow-veiligheid als prestige-eis) zien we dat makers status claimen door directe controle over kwaliteit en veiligheid. Dit is een reactie op massaproductie en algoritmische mediatie.",
+        "why_it_matters": "Creators en kunstenaars herdefiniëren succes niet via bereik, maar via volledige autonomie en gegarandeerde kwaliteit — een shift van populair naar principieel.",
+        "categories": [
+          "music",
+          "film"
+        ],
+        "strength": "matig"
       }
     ]
   },

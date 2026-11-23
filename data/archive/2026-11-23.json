@@ -1,0 +1,292 @@
+{
+  "date": "2026-11-23",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-23T17:44:36.428Z",
+    "intro": "3 categorieën · 5 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "GTA VI als culturele geldstandaard",
+            "summary": "GTA VI's soundtrack-album bereikt 57 tracks via deluxe-editie met Travis Scott, Anitta, Slayyyter. Videogame-muziek wordt niet meer supplementair maar primair distributiekanaal voor artiesten op topniveau.",
+            "why_it_matters": "Dit bewijst dat games culturele autoriteit hebben bereikt die Spotify/Apple Music-features overtreffen, ze bepalen welke muziek relevant is, niet omgekeerd.",
+            "strategic_signal": "Merken targeting Gen Z/millennials: game-soundtrack-partnerships zijn nu even waardevol als playlisting deals. Positioneer product-placements in games als 'canon', niet 'advertentie'.",
+            "trajectory": "piekend",
+            "daysActive": 4,
+            "isNew": false,
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "NME",
+              "The Verge",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Grand Theft Auto VI",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-23T17:44:14.045Z"
+              },
+              {
+                "title": "Grand Theft Auto",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-23T17:44:14.045Z"
+              },
+              {
+                "title": "Travis Scott, Slayyyter, Offset, Anitta & More Power ‘Grand Theft Auto VI: The Album’ Deluxe Edition: Stream It Now",
+                "url": "https://www.billboard.com/music/music-news/gta-6-album-deluxe-offset-travis-scott-slayyyter-anitta-1236387752/",
+                "source": "Billboard",
+                "published": "2026-11-23T17:10:43.000Z"
+              },
+              {
+                "title": "FKA Twigs and Patti Smith added to Gasometer grand opening as we go inside the “new cultural landmark for Northern Europe”",
+                "url": "https://www.nme.com/news/music/gasometer-stockholm-new-venue-interview-opening-tickets-gig-plans-3976585",
+                "source": "NME",
+                "published": "2026-11-23T16:37:17.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Liveshow-veiligheid als prestige-eis",
+            "summary": "Don Toliver's Manchester-shows worden geëvacueerd voor onbekende stoffen; artist postponeert toch optredens. Veiligheid wordt niet meer achtergrond-logistiek maar publieke statement over artistieke waarde.",
+            "why_it_matters": "Dit markeert shift: artiesten claimen controle over venue-standaarden als deel van hun merk — liever geen show dan een onveilige.",
+            "strategic_signal": "Voor venue-partners en merk-activaties: 'phone-free' en 'substance-free' environments worden premium positioning. Communiceer dit vooraf als feature, niet regel.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "Pitchfork News",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Don Toliver Postpones O2 Arena Show After Evacuation Due to “Unknown Substance” Released at Manchester Concert",
+                "url": "https://www.hollywoodreporter.com/music/music-news/don-toliver-02-arena-concert-postponed-evacuation-1236761147/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-23T17:29:12.000Z"
+              },
+              {
+                "title": "Don Toliver Delays London Gig After Manchester Set Evacuated for ‘Unknown Substance’: ‘Stop Bringing Bulls–t’ Into My Shows!’",
+                "url": "https://www.billboard.com/music/rb-hip-hop/don-toliver-show-evacuated-unknown-substance-rapper-reacts-1236387729/",
+                "source": "Billboard",
+                "published": "2026-11-23T15:54:14.000Z"
+              },
+              {
+                "title": "Don Toliver’s Show in Manchester Evacuated After “Unknown Substance” Released in the Crowd",
+                "url": "https://consequence.net/2026/11/don-toliver-concert-manchester-evacuated-unknown-substance/",
+                "source": "Consequence",
+                "published": "2026-11-23T15:28:52.000Z"
+              },
+              {
+                "title": "Don Toliver Concert Evacuated After Airborne Substance Released Into Crowd",
+                "url": "https://pitchfork.com/story/don-toliver-concert-evacuated-after-airborne-substance-released-into-crowd/",
+                "source": "Pitchfork News",
+                "published": "2026-11-23T12:48:14.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Legacy-sequel prestige als culturele maatstaf",
+            "summary": "Filmfranchises uit de jaren 2000 krijgen nieuwe delen met A-list cast (Stiller, De Niro, Grande in 'Focker-in-Law'; Anderson/Spielberg western). Studios herontdekken IP niet als nostalgie maar als canvas voor autorische herdefiniëring.",
+            "why_it_matters": "Dit signaleert dat het 'reboot'-model evolueert van geldgraaierij naar artistieke heruitvinding — wat filmmakers aantrok naar franchises die eerder als commercieel gezien werden.",
+            "strategic_signal": "Merken kunnen dit seizoen legacy-IP niet meer als kitsch positioneren, maar als 'regisseur leest klassieker opnieuw' — perfect voor premium positioning of generatie-overstijgende campagnes.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Adweek",
+              "Crack Magazine",
+              "Deadline",
+              "NME",
+              "Variety",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "XXX (2002 film)",
+                "url": "https://en.wikipedia.org/wiki/XXX_(2002_film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-23T17:44:14.045Z"
+              },
+              {
+                "title": "Steven Spielberg Sets Adaptation Of ‘The Heart In Winter’ As Next Film At Focus With Jessie Buckley, Cillian Murphy And Mark Rylance Starring And Paul Thomas Anderson Adapting The Script",
+                "url": "https://deadline.com/2026/11/steven-spielberg-the-heart-in-winter-paul-thomas-anderson-1237231172/",
+                "source": "Deadline",
+                "published": "2026-11-23T17:30:00.000Z"
+              },
+              {
+                "title": "BAFTA Film Awards Losing Headline Sponsor EE After 30 Years",
+                "url": "https://variety.com/2026/film/awards/bafta-film-awards-losing-headline-sponsor-ee-1236956014/",
+                "source": "Variety",
+                "published": "2026-11-23T17:12:11.000Z"
+              },
+              {
+                "title": "Spike Lee and Willem Dafoe Board Short Film ‘Pankaja’ as Exec Producers (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/spike-lee-willem-dafoe-short-film-pankaja-exec-producers-1236955965/",
+                "source": "Variety",
+                "published": "2026-11-23T16:34:48.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Auteurische controle als blockbuster-antidotum",
+            "summary": "Paul Thomas Anderson adapteert 'The Heart in Winter' voor Spielberg's focus; Spike Lee en Willem Dafoe co-produceren experimenteel kortwerk. Topauteurs migreren naar franchise-werk maar onder eigen voorwaarden, niet omgekeerd.",
+            "why_it_matters": "Dit is de directe tegenpol van Marvel-hegemonie: auteurs accepteren IP maar enkel met creatieve autonomie — wat voorgangers zoals Anderson jarenlang weigerden.",
+            "strategic_signal": "Voor merken met filmpartners: 'auteur betrokken' is nu markering voor prestige, niet luxe-label. Dit werkt beter voor premium tech of luxury brands dan voor massamarkt.",
+            "trajectory": "opkomend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Deadline",
+              "IndieWire",
+              "NME",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Focker-In-Law’ review: Even Ariana Grande’s comedy chops can’t save this legacy sequel",
+                "url": "https://www.nme.com/reviews/film-reviews/focker-in-law-review-ariana-grande-ben-stiller-rober-de-niro-3976765",
+                "source": "NME",
+                "published": "2026-11-23T17:03:51.000Z"
+              },
+              {
+                "title": "‘Focker In-Law’ Review: An Eager Ariana Grande Isn’t Enough to Save a Comedy Sequel That Can’t Remember What People Liked About This Franchise",
+                "url": "https://www.indiewire.com/criticism/movies/focker-in-law-movie-review-ariana-grande-ben-stiller-1235230046/",
+                "source": "IndieWire",
+                "published": "2026-11-23T17:00:00.000Z"
+              },
+              {
+                "title": "‘Focker-in-Law’ Review: Ariana Grande Sporadically Livens Up a Tired Comedy Retread",
+                "url": "https://variety.com/2026/film/reviews/focker-in-law-review-1236955690/",
+                "source": "Variety",
+                "published": "2026-11-23T17:00:00.000Z"
+              },
+              {
+                "title": "‘Focker In-Law’ Review: Ariana Grande Outshines Robert De Niro and Ben Stiller in an Otherwise Dire Fourth Installment",
+                "url": "https://www.hollywoodreporter.com/movies/movie-reviews/focker-in-law-review-ariana-grande-robert-de-niro-1236760021/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-23T17:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "label": "Internet",
+        "insights": [
+          {
+            "trend": "Cyberpunk-nostalgie als prestige-dramaturgie",
+            "summary": "'Blade Runner 2099' wordt gelezen als 'origineel werk dat toevallig in franchise-universum leeft' (Yeoh, Schafer, eigen creatief DNA). Sci-fi dystopie is nu voertuig voor stilistische autoriteit, niet spectacle.",
+            "why_it_matters": "Dit bewijst dat 'retelling' acceptabel is zolang de toon autorisch voelt — het genre zelf (cyberpunk) garandeert geen prestige meer, alleen de auteur.",
+            "strategic_signal": "Voor tech- en streaming-merken: 'slow cinema' en 'distraction-resistant' framing werkt beter voor premium positionering dan 'immersive' branding. Laat de dystopie spreken.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "IndieWire",
+              "NME",
+              "The Verge"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "‘Blade Runner 2099’ review: a hollow retread of the cult dystopian classic",
+                "url": "https://www.nme.com/reviews/tv-reviews/blade-runner-2099-review-michelle-yeoh-hunter-schafer-amazon-prime-3976755",
+                "source": "NME",
+                "published": "2026-11-23T15:28:26.000Z"
+              },
+              {
+                "title": "Blade Runner 2099 is an inventive twist on a cyberpunk classic",
+                "url": "https://www.theverge.com/entertainment/1039095/blade-runner-2099-review",
+                "source": "The Verge",
+                "published": "2026-11-23T14:00:00.000Z"
+              },
+              {
+                "title": "‘Blade Runner 2099’ Review: Michelle Yeoh and Hunter Schafer Are a Fine Pair in an Awesome World",
+                "url": "https://www.indiewire.com/criticism/shows/blade-runner-2099-review-amazon-series-michelle-yeoh-1235229717/",
+                "source": "IndieWire",
+                "published": "2026-11-23T14:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "crossCategory": {
+    "generatedAt": "2026-11-23T17:44:38.679Z",
+    "megaTrends": [
+      {
+        "trend": "Prestige via controle en authenticiteit",
+        "summary": "Zowel in film (auteurische controle als blockbuster-antidotum) als in muziek (liveshow-veiligheid als prestige-eis) zien we dat makers status claimen door directe controle over kwaliteit en veiligheid. Dit is een reactie op massaproductie en algoritmische mediatie.",
+        "why_it_matters": "Creators en kunstenaars herdefiniëren succes niet via bereik, maar via volledige autonomie en gegarandeerde kwaliteit — een shift van populair naar principieel.",
+        "categories": [
+          "music",
+          "film"
+        ],
+        "strength": "matig"
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-19T14:29:47.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Microdrama gets its own studio",
+        "category": "film",
+        "what_is_happening": "Will Packer, producer of Girls Trip, has launched June, a studio built for vertical microdramas aimed at Black viewers, backed by NBCUniversal and HarbourView. It is a dedicated platform-first storytelling practice from an established producer, not a cut-down version of TikTok content.",
+        "why_it_matters_for_brands": "Vertical series now have serious producers and funding behind them, so short-form story is a format brands can commission, not just a place to repost ads.",
+        "what_brands_can_do": [
+          "Commission a short vertical series with a clear story, rather than cutting a TV spot down to size.",
+          "Work with creators and studios who already know the format and the community you want to reach.",
+          "Design each episode to stand alone, so new viewers can start anywhere in the series."
+        ]
+      },
+      {
+        "trend": "Outages become shared internet jokes",
+        "category": "internet",
+        "what_is_happening": "The global Microsoft outage that hit Outlook, Teams and Copilot triggered a wave of social media humour, including the headline \"Just make it Microsoft 364\" reported by VRT NWS. Fast Company noted the outage collided with bad optics, from layoffs and buyouts to confusing updates.",
+        "why_it_matters_for_brands": "When a failure becomes a joke, brands tied to it are judged on how they respond, not on the failure itself.",
+        "what_brands_can_do": [
+          "Prepare a calm, human holding message before any outage happens, and publish it early.",
+          "Join the humour only when your own product is not the one failing, and never mock affected users.",
+          "Offer practical help first, such as a status page or an alternative, then add the tone."
+        ]
+      },
+      {
+        "trend": "Bond casting bets on credibility",
+        "category": "trends",
+        "what_is_happening": "Amazon MGM Studios has confirmed Robert Pattinson as the next James Bond, with Denis Villeneuve directing from a Steven Knight script. Coverage reads the choice as a move towards prestige cinema, noting Pattinson's mix of blockbusters such as Twilight and Batman with riskier work such as The Lighthouse and Cosmopolis.",
+        "why_it_matters_for_brands": "A franchise that casts for creative risk over pure reach shows that credibility is chosen on purpose, and audiences read that choice as a brand statement.",
+        "what_brands_can_do": [
+          "Choose ambassadors for their record of creative risk and craft, not only for follower counts.",
+          "Give a new face room to bring a personal style to an old brand, instead of copying the previous era.",
+          "Announce changes with a clear reason, because audiences will compare the new choice with the old one straight away."
+        ]
+      }
+    ]
+  }
+}
