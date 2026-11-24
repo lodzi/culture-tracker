@@ -1,0 +1,243 @@
+{
+  "date": "2026-11-24",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-24T17:16:23.928Z",
+    "intro": "2 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "lokaal",
+        "label": "Lokaal",
+        "insights": [
+          {
+            "trend": "Nostalgie-heruitvinding als prestige-begeving",
+            "summary": "Belgische TV-formats en klassieke media-franchises maken comebacks (De Familie Backeljau, Rock Werchter line-ups) als programmering-strategieën voor herkenbare waarde. Dit gebeurt parallel aan internationale legacy-touren (U2 Carnaval De Luz) en wordt mogelijk als cultural benchmarking-moment.",
+            "why_it_matters": "Nostalgie werkt niet meer als sentiment alleen, maar als prestige-architectuur. Het legitimeren van kwaliteit via herkenning, niet vernieuwing.",
+            "strategic_signal": "Merk- en programmerings-strategen kunnen nostalgische IP het komende kwartaal positioneren als 'kwaliteits-garantie' in plaats van 'archive-mining', vooral voor Belgische doelgroepen die comfort-value zoeken.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Ars Technica",
+              "Deadline",
+              "Google News BE Festivals",
+              "Google News BE Muziek",
+              "HLN Antwerpen",
+              "NME",
+              "Pitchfork News",
+              "Rock Paper Shotgun",
+              "The Bulletin"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "U2 announce 2027 North American ‘Carnaval De Luz’ stadium tour",
+                "url": "https://www.nme.com/news/music/u2-announce-2027-north-american-carnaval-de-luz-stadium-tour-3976883",
+                "source": "NME",
+                "published": "2026-11-24T16:44:35.000Z"
+              },
+              {
+                "title": "No more heated seat subscriptions for cars in New York from 2027",
+                "url": "https://arstechnica.com/cars/2026/11/new-york-says-no-more-subscriptions-for-in-car-features-or-does-it/",
+                "source": "Ars Technica",
+                "published": "2026-11-24T16:20:37.000Z"
+              },
+              {
+                "title": "U2 Sets North American Stops On 2027 Stadium Tour; 2 LA Shows Planned",
+                "url": "https://deadline.com/2026/11/u2-2027-north-american-tour-1237232558/",
+                "source": "Deadline",
+                "published": "2026-11-24T15:37:13.000Z"
+              },
+              {
+                "title": "Wilco Expand 2027 Tour With U.S. Dates",
+                "url": "https://pitchfork.com/story/wilco-expand-2027-tour-with-us-dates/",
+                "source": "Pitchfork News",
+                "published": "2026-11-24T15:02:40.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Animator-spectacle als compensatie voor narratieve zwakte",
+            "summary": "Disney's 'Hexed' krijgt convergente kritieken die visuele ambities (animation design, spectacle) tegen zwakke storytelling uitspelen (Harry Potter-Incredibles pastiche). Dit patroon zichtbaar in reviews van meerdere onafhankelijke outlets.",
+            "why_it_matters": "Studios benutten technical virtuosity als narratieve troef. Wanneer plot faalt, mag visuele craft het compenseren. Dit signaleert verschuiving van story-first naar medium-first filmmaking.",
+            "strategic_signal": "Voor brand-partnerships in family/fantasy-content: onderhandel over visual differentiation eerder dan story integrity; audiences accepteren plot-zwakte als animation-budget evident is.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Deadline",
+              "Polygon",
+              "Quartz",
+              "The Hollywood Reporter",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Hulu, Disney+, Apple TV, HBO Max and More Streamers Up to 80% Off For Black Friday",
+                "url": "https://variety.com/2026/shopping/news/best-black-friday-streaming-deals-1235441075/",
+                "source": "Variety",
+                "published": "2026-11-24T17:00:51.000Z"
+              },
+              {
+                "title": "Disney’s Unwatchable New Fantasy Movie is a Sloppy Harry Potter-The Incredibles Mash-Up",
+                "url": "https://www.polygon.com/disney-hexed-review/",
+                "source": "Polygon",
+                "published": "2026-11-24T17:00:18.000Z"
+              },
+              {
+                "title": "‘Hexed’ Review: Disney’s Not-So-Wicked Witch Tale Is Cheery Enough, but Not Terribly Crafty",
+                "url": "https://variety.com/2026/film/reviews/hexed-review-1236956898/",
+                "source": "Variety",
+                "published": "2026-11-24T17:00:08.000Z"
+              },
+              {
+                "title": "‘Hexed’ Review: Hailee Steinfeld and Rashida Jones Lead a Disney Fantasy More Enchanting in Its Spectacle Than Its Storytelling",
+                "url": "https://www.hollywoodreporter.com/movies/movie-reviews/hexed-review-hailee-steinfeld-rashida-jones-disney-1236761588/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-24T17:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Concert-documentaire als artistieke integrity-ritual",
+            "summary": "Ariana Grande en U2 bundelen tour-films met 'making-of'-documentaires (Peacock, stadium releases) als dubbele bewijs van auteurschap. Dit gebeurt terwijl live-performance zelf prestige-marker wordt.",
+            "why_it_matters": "Artiesten bewijzen artistieke controle niet via klassieke album-rollout, maar via totale regie over documentaire-vertelling van hun eigen werk. Tour wordt authorial statement.",
+            "strategic_signal": "Muziek- en entertainmentmerken kunnen concert-vertaling naar documentary-format inzetten om 'achter-de-schermen'-authenticiteit te claimen. Dit werkt beter voor generatie Z dan traditionele EPK's.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Deadline",
+              "Pitchfork News",
+              "Rock Paper Shotgun",
+              "Stereogum",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Ariana Grande, Peacock Team on ‘Eternal Sunshine Tour‘ Doc, Concert Film",
+                "url": "https://www.hollywoodreporter.com/music/music-news/ariana-grande-eternal-sunshine-doc-concert-film-peacock-1236762204/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-24T16:43:49.000Z"
+              },
+              {
+                "title": "Ariana Grande Sets Peacock Double Play With ‘Eternal Sunshine Tour’ Concert Film & Making-Of Doc",
+                "url": "https://deadline.com/2026/11/ariana-grande-peacock-special-eternal-sunshine-diaries-tour-1237232613/",
+                "source": "Deadline",
+                "published": "2026-11-24T16:43:18.000Z"
+              },
+              {
+                "title": "Ariana Grande’s ‘Eternal Sunshine Tour’ Concert Movie and Making-of Documentary to Stream on Peacock in December",
+                "url": "https://variety.com/2026/music/news/ariana-grande-teases-eternal-sunshine-tour-movie-peacock-1236956068/",
+                "source": "Variety",
+                "published": "2026-11-24T16:15:00.000Z"
+              },
+              {
+                "title": "U2 Plot North American Stadium Tour",
+                "url": "https://pitchfork.com/story/u2-plot-north-american-stadium-tour/",
+                "source": "Pitchfork News",
+                "published": "2026-11-24T15:44:52.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Belgische cinema als Oscar-prestige-speler",
+            "summary": "'Coward' van Lukas Dhont (Cannes-winnaars, WWI-queerness) verschijnt in festival-circuits als Oscar-entry naast internationale blockbusters (Avengers, Hunger Games). België positioneert zich als auteur-filmland.",
+            "why_it_matters": "Belgische cinema bewijst dat prestige niet meer aan blockbuster-budget gebonden is; kleine-budget queer-drama kan even veel culturele waarde claimen als Marvel-tentpoles.",
+            "strategic_signal": "Communicatieprofessionals die met culturele instituten werken: positioneer Belgische films niet tegen internationaal product, maar als alternatieve prestige-maatstaf. Voor premium brands is dit onderscheidend.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Dazed",
+              "Design Boom",
+              "Eurogamer",
+              "Hypebeast",
+              "IndieWire",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Oobah Butler Wants to Expose the World’s Stupidest Industries, but They Get Worse Faster Than He Can Plan His Stunts",
+                "url": "https://www.indiewire.com/features/interviews/oobah-butler-scams-for-a-better-tomorrow-interview-1235229738/",
+                "source": "IndieWire",
+                "published": "2026-11-24T17:00:00.000Z"
+              },
+              {
+                "title": "‘52 Blue’ Director on How Lionel Messi Fandom Inspired World Cup Film: ‘People Will Die for These Players’",
+                "url": "https://variety.com/2026/film/global/ali-el-arabi-52-blue-doha-film-festival-wegz-1236956908/",
+                "source": "Variety",
+                "published": "2026-11-24T16:05:18.000Z"
+              },
+              {
+                "title": "As Blizzard whacks one World of Warcraft: Forever gold farming exploit, it struggles to contain all of the alternatives popping up",
+                "url": "https://www.eurogamer.net/blizzard-world-of-warcraft-forever-gold-exploits",
+                "source": "Eurogamer",
+                "published": "2026-11-24T14:38:30.000Z"
+              },
+              {
+                "title": "In pictures: Sweaty, transcendent portraits of ravers around the world",
+                "url": "https://www.dazeddigital.com/music/article/71399/1/portraits-of-ravers-around-the-world-indie-sleaze-forever-sub-club-glasgow?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=in-pictures-sweaty-transcendent-portraits-of-ravers-around-the-world",
+                "source": "Dazed",
+                "published": "2026-11-24T10:48:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-19T14:29:47.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Microdrama gets its own studio",
+        "category": "film",
+        "what_is_happening": "Will Packer, producer of Girls Trip, has launched June, a studio built for vertical microdramas aimed at Black viewers, backed by NBCUniversal and HarbourView. It is a dedicated platform-first storytelling practice from an established producer, not a cut-down version of TikTok content.",
+        "why_it_matters_for_brands": "Vertical series now have serious producers and funding behind them, so short-form story is a format brands can commission, not just a place to repost ads.",
+        "what_brands_can_do": [
+          "Commission a short vertical series with a clear story, rather than cutting a TV spot down to size.",
+          "Work with creators and studios who already know the format and the community you want to reach.",
+          "Design each episode to stand alone, so new viewers can start anywhere in the series."
+        ]
+      },
+      {
+        "trend": "Outages become shared internet jokes",
+        "category": "internet",
+        "what_is_happening": "The global Microsoft outage that hit Outlook, Teams and Copilot triggered a wave of social media humour, including the headline \"Just make it Microsoft 364\" reported by VRT NWS. Fast Company noted the outage collided with bad optics, from layoffs and buyouts to confusing updates.",
+        "why_it_matters_for_brands": "When a failure becomes a joke, brands tied to it are judged on how they respond, not on the failure itself.",
+        "what_brands_can_do": [
+          "Prepare a calm, human holding message before any outage happens, and publish it early.",
+          "Join the humour only when your own product is not the one failing, and never mock affected users.",
+          "Offer practical help first, such as a status page or an alternative, then add the tone."
+        ]
+      },
+      {
+        "trend": "Bond casting bets on credibility",
+        "category": "trends",
+        "what_is_happening": "Amazon MGM Studios has confirmed Robert Pattinson as the next James Bond, with Denis Villeneuve directing from a Steven Knight script. Coverage reads the choice as a move towards prestige cinema, noting Pattinson's mix of blockbusters such as Twilight and Batman with riskier work such as The Lighthouse and Cosmopolis.",
+        "why_it_matters_for_brands": "A franchise that casts for creative risk over pure reach shows that credibility is chosen on purpose, and audiences read that choice as a brand statement.",
+        "what_brands_can_do": [
+          "Choose ambassadors for their record of creative risk and craft, not only for follower counts.",
+          "Give a new face room to bring a personal style to an old brand, instead of copying the previous era.",
+          "Announce changes with a clear reason, because audiences will compare the new choice with the old one straight away."
+        ]
+      }
+    ]
+  }
+}

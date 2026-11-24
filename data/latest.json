@@ -1,100 +1,62 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "aiModel": {
     "daily": "claude-haiku-4-5-20251001",
     "weekly": "claude-sonnet-4-6",
     "monthly": "claude-sonnet-4-6"
   },
   "daily": {
-    "generatedAt": "2026-11-23T17:44:36.428Z",
-    "intro": "3 categorieën · 5 trends · laatste 24u",
+    "generatedAt": "2026-11-24T17:16:23.928Z",
+    "intro": "2 categorieën · 4 trends · laatste 24u",
     "categories": [
       {
-        "id": "music",
-        "label": "Muziek",
+        "id": "lokaal",
+        "label": "Lokaal",
         "insights": [
           {
-            "trend": "GTA VI als culturele geldstandaard",
-            "summary": "GTA VI's soundtrack-album bereikt 57 tracks via deluxe-editie met Travis Scott, Anitta, Slayyyter. Videogame-muziek wordt niet meer supplementair maar primair distributiekanaal voor artiesten op topniveau.",
-            "why_it_matters": "Dit bewijst dat games culturele autoriteit hebben bereikt die Spotify/Apple Music-features overtreffen, ze bepalen welke muziek relevant is, niet omgekeerd.",
-            "strategic_signal": "Merken targeting Gen Z/millennials: game-soundtrack-partnerships zijn nu even waardevol als playlisting deals. Positioneer product-placements in games als 'canon', niet 'advertentie'.",
+            "trend": "Nostalgie-heruitvinding als prestige-begeving",
+            "summary": "Belgische TV-formats en klassieke media-franchises maken comebacks (De Familie Backeljau, Rock Werchter line-ups) als programmering-strategieën voor herkenbare waarde. Dit gebeurt parallel aan internationale legacy-touren (U2 Carnaval De Luz) en wordt mogelijk als cultural benchmarking-moment.",
+            "why_it_matters": "Nostalgie werkt niet meer als sentiment alleen, maar als prestige-architectuur. Het legitimeren van kwaliteit via herkenning, niet vernieuwing.",
+            "strategic_signal": "Merk- en programmerings-strategen kunnen nostalgische IP het komende kwartaal positioneren als 'kwaliteits-garantie' in plaats van 'archive-mining', vooral voor Belgische doelgroepen die comfort-value zoeken.",
             "trajectory": "piekend",
-            "daysActive": 4,
+            "daysActive": 2,
             "isNew": false,
             "sources": [
-              "Billboard",
-              "Consequence",
+              "Ars Technica",
+              "Deadline",
+              "Google News BE Festivals",
+              "Google News BE Muziek",
+              "HLN Antwerpen",
               "NME",
-              "The Verge",
-              "Wikipedia Trending EN"
-            ],
-            "trending": true,
-            "articles": [
-              {
-                "title": "Grand Theft Auto VI",
-                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-11-23T17:44:14.045Z"
-              },
-              {
-                "title": "Grand Theft Auto",
-                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-11-23T17:44:14.045Z"
-              },
-              {
-                "title": "Travis Scott, Slayyyter, Offset, Anitta & More Power ‘Grand Theft Auto VI: The Album’ Deluxe Edition: Stream It Now",
-                "url": "https://www.billboard.com/music/music-news/gta-6-album-deluxe-offset-travis-scott-slayyyter-anitta-1236387752/",
-                "source": "Billboard",
-                "published": "2026-11-23T17:10:43.000Z"
-              },
-              {
-                "title": "FKA Twigs and Patti Smith added to Gasometer grand opening as we go inside the “new cultural landmark for Northern Europe”",
-                "url": "https://www.nme.com/news/music/gasometer-stockholm-new-venue-interview-opening-tickets-gig-plans-3976585",
-                "source": "NME",
-                "published": "2026-11-23T16:37:17.000Z"
-              }
-            ]
-          },
-          {
-            "trend": "Liveshow-veiligheid als prestige-eis",
-            "summary": "Don Toliver's Manchester-shows worden geëvacueerd voor onbekende stoffen; artist postponeert toch optredens. Veiligheid wordt niet meer achtergrond-logistiek maar publieke statement over artistieke waarde.",
-            "why_it_matters": "Dit markeert shift: artiesten claimen controle over venue-standaarden als deel van hun merk — liever geen show dan een onveilige.",
-            "strategic_signal": "Voor venue-partners en merk-activaties: 'phone-free' en 'substance-free' environments worden premium positioning. Communiceer dit vooraf als feature, niet regel.",
-            "trajectory": "opkomend",
-            "daysActive": 1,
-            "isNew": true,
-            "sources": [
-              "Billboard",
-              "Consequence",
               "Pitchfork News",
-              "The Hollywood Reporter"
+              "Rock Paper Shotgun",
+              "The Bulletin"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "Don Toliver Postpones O2 Arena Show After Evacuation Due to “Unknown Substance” Released at Manchester Concert",
-                "url": "https://www.hollywoodreporter.com/music/music-news/don-toliver-02-arena-concert-postponed-evacuation-1236761147/",
-                "source": "The Hollywood Reporter",
-                "published": "2026-11-23T17:29:12.000Z"
+                "title": "U2 announce 2027 North American ‘Carnaval De Luz’ stadium tour",
+                "url": "https://www.nme.com/news/music/u2-announce-2027-north-american-carnaval-de-luz-stadium-tour-3976883",
+                "source": "NME",
+                "published": "2026-11-24T16:44:35.000Z"
               },
               {
-                "title": "Don Toliver Delays London Gig After Manchester Set Evacuated for ‘Unknown Substance’: ‘Stop Bringing Bulls–t’ Into My Shows!’",
-                "url": "https://www.billboard.com/music/rb-hip-hop/don-toliver-show-evacuated-unknown-substance-rapper-reacts-1236387729/",
-                "source": "Billboard",
-                "published": "2026-11-23T15:54:14.000Z"
+                "title": "No more heated seat subscriptions for cars in New York from 2027",
+                "url": "https://arstechnica.com/cars/2026/11/new-york-says-no-more-subscriptions-for-in-car-features-or-does-it/",
+                "source": "Ars Technica",
+                "published": "2026-11-24T16:20:37.000Z"
               },
               {
-                "title": "Don Toliver’s Show in Manchester Evacuated After “Unknown Substance” Released in the Crowd",
-                "url": "https://consequence.net/2026/11/don-toliver-concert-manchester-evacuated-unknown-substance/",
-                "source": "Consequence",
-                "published": "2026-11-23T15:28:52.000Z"
+                "title": "U2 Sets North American Stops On 2027 Stadium Tour; 2 LA Shows Planned",
+                "url": "https://deadline.com/2026/11/u2-2027-north-american-tour-1237232558/",
+                "source": "Deadline",
+                "published": "2026-11-24T15:37:13.000Z"
               },
               {
-                "title": "Don Toliver Concert Evacuated After Airborne Substance Released Into Crowd",
-                "url": "https://pitchfork.com/story/don-toliver-concert-evacuated-after-airborne-substance-released-into-crowd/",
+                "title": "Wilco Expand 2027 Tour With U.S. Dates",
+                "url": "https://pitchfork.com/story/wilco-expand-2027-tour-with-us-dates/",
                 "source": "Pitchfork News",
-                "published": "2026-11-23T12:48:14.000Z"
+                "published": "2026-11-24T15:02:40.000Z"
               }
             ]
           }
@@ -105,149 +67,138 @@
         "label": "Film & TV",
         "insights": [
           {
-            "trend": "Legacy-sequel prestige als culturele maatstaf",
-            "summary": "Filmfranchises uit de jaren 2000 krijgen nieuwe delen met A-list cast (Stiller, De Niro, Grande in 'Focker-in-Law'; Anderson/Spielberg western). Studios herontdekken IP niet als nostalgie maar als canvas voor autorische herdefiniëring.",
-            "why_it_matters": "Dit signaleert dat het 'reboot'-model evolueert van geldgraaierij naar artistieke heruitvinding — wat filmmakers aantrok naar franchises die eerder als commercieel gezien werden.",
-            "strategic_signal": "Merken kunnen dit seizoen legacy-IP niet meer als kitsch positioneren, maar als 'regisseur leest klassieker opnieuw' — perfect voor premium positioning of generatie-overstijgende campagnes.",
+            "trend": "Animator-spectacle als compensatie voor narratieve zwakte",
+            "summary": "Disney's 'Hexed' krijgt convergente kritieken die visuele ambities (animation design, spectacle) tegen zwakke storytelling uitspelen (Harry Potter-Incredibles pastiche). Dit patroon zichtbaar in reviews van meerdere onafhankelijke outlets.",
+            "why_it_matters": "Studios benutten technical virtuosity als narratieve troef. Wanneer plot faalt, mag visuele craft het compenseren. Dit signaleert verschuiving van story-first naar medium-first filmmaking.",
+            "strategic_signal": "Voor brand-partnerships in family/fantasy-content: onderhandel over visual differentiation eerder dan story integrity; audiences accepteren plot-zwakte als animation-budget evident is.",
             "trajectory": "piekend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
-              "Adweek",
-              "Crack Magazine",
               "Deadline",
-              "NME",
-              "Variety",
-              "Wikipedia Trending EN"
+              "Polygon",
+              "Quartz",
+              "The Hollywood Reporter",
+              "The Verge",
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "XXX (2002 film)",
-                "url": "https://en.wikipedia.org/wiki/XXX_(2002_film)",
-                "source": "Wikipedia Trending EN",
-                "published": "2026-11-23T17:44:14.045Z"
-              },
-              {
-                "title": "Steven Spielberg Sets Adaptation Of ‘The Heart In Winter’ As Next Film At Focus With Jessie Buckley, Cillian Murphy And Mark Rylance Starring And Paul Thomas Anderson Adapting The Script",
-                "url": "https://deadline.com/2026/11/steven-spielberg-the-heart-in-winter-paul-thomas-anderson-1237231172/",
-                "source": "Deadline",
-                "published": "2026-11-23T17:30:00.000Z"
-              },
-              {
-                "title": "BAFTA Film Awards Losing Headline Sponsor EE After 30 Years",
-                "url": "https://variety.com/2026/film/awards/bafta-film-awards-losing-headline-sponsor-ee-1236956014/",
+                "title": "Hulu, Disney+, Apple TV, HBO Max and More Streamers Up to 80% Off For Black Friday",
+                "url": "https://variety.com/2026/shopping/news/best-black-friday-streaming-deals-1235441075/",
                 "source": "Variety",
-                "published": "2026-11-23T17:12:11.000Z"
+                "published": "2026-11-24T17:00:51.000Z"
               },
               {
-                "title": "Spike Lee and Willem Dafoe Board Short Film ‘Pankaja’ as Exec Producers (EXCLUSIVE)",
-                "url": "https://variety.com/2026/film/global/spike-lee-willem-dafoe-short-film-pankaja-exec-producers-1236955965/",
+                "title": "Disney’s Unwatchable New Fantasy Movie is a Sloppy Harry Potter-The Incredibles Mash-Up",
+                "url": "https://www.polygon.com/disney-hexed-review/",
+                "source": "Polygon",
+                "published": "2026-11-24T17:00:18.000Z"
+              },
+              {
+                "title": "‘Hexed’ Review: Disney’s Not-So-Wicked Witch Tale Is Cheery Enough, but Not Terribly Crafty",
+                "url": "https://variety.com/2026/film/reviews/hexed-review-1236956898/",
                 "source": "Variety",
-                "published": "2026-11-23T16:34:48.000Z"
+                "published": "2026-11-24T17:00:08.000Z"
+              },
+              {
+                "title": "‘Hexed’ Review: Hailee Steinfeld and Rashida Jones Lead a Disney Fantasy More Enchanting in Its Spectacle Than Its Storytelling",
+                "url": "https://www.hollywoodreporter.com/movies/movie-reviews/hexed-review-hailee-steinfeld-rashida-jones-disney-1236761588/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-24T17:00:00.000Z"
               }
             ]
           },
           {
-            "trend": "Auteurische controle als blockbuster-antidotum",
-            "summary": "Paul Thomas Anderson adapteert 'The Heart in Winter' voor Spielberg's focus; Spike Lee en Willem Dafoe co-produceren experimenteel kortwerk. Topauteurs migreren naar franchise-werk maar onder eigen voorwaarden, niet omgekeerd.",
-            "why_it_matters": "Dit is de directe tegenpol van Marvel-hegemonie: auteurs accepteren IP maar enkel met creatieve autonomie — wat voorgangers zoals Anderson jarenlang weigerden.",
-            "strategic_signal": "Voor merken met filmpartners: 'auteur betrokken' is nu markering voor prestige, niet luxe-label. Dit werkt beter voor premium tech of luxury brands dan voor massamarkt.",
+            "trend": "Concert-documentaire als artistieke integrity-ritual",
+            "summary": "Ariana Grande en U2 bundelen tour-films met 'making-of'-documentaires (Peacock, stadium releases) als dubbele bewijs van auteurschap. Dit gebeurt terwijl live-performance zelf prestige-marker wordt.",
+            "why_it_matters": "Artiesten bewijzen artistieke controle niet via klassieke album-rollout, maar via totale regie over documentaire-vertelling van hun eigen werk. Tour wordt authorial statement.",
+            "strategic_signal": "Muziek- en entertainmentmerken kunnen concert-vertaling naar documentary-format inzetten om 'achter-de-schermen'-authenticiteit te claimen. Dit werkt beter voor generatie Z dan traditionele EPK's.",
             "trajectory": "opkomend",
-            "daysActive": 3,
-            "isNew": false,
+            "daysActive": 1,
+            "isNew": true,
             "sources": [
               "Deadline",
-              "IndieWire",
-              "NME",
+              "Pitchfork News",
+              "Rock Paper Shotgun",
+              "Stereogum",
               "The Hollywood Reporter",
               "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "‘Focker-In-Law’ review: Even Ariana Grande’s comedy chops can’t save this legacy sequel",
-                "url": "https://www.nme.com/reviews/film-reviews/focker-in-law-review-ariana-grande-ben-stiller-rober-de-niro-3976765",
-                "source": "NME",
-                "published": "2026-11-23T17:03:51.000Z"
-              },
-              {
-                "title": "‘Focker In-Law’ Review: An Eager Ariana Grande Isn’t Enough to Save a Comedy Sequel That Can’t Remember What People Liked About This Franchise",
-                "url": "https://www.indiewire.com/criticism/movies/focker-in-law-movie-review-ariana-grande-ben-stiller-1235230046/",
-                "source": "IndieWire",
-                "published": "2026-11-23T17:00:00.000Z"
-              },
-              {
-                "title": "‘Focker-in-Law’ Review: Ariana Grande Sporadically Livens Up a Tired Comedy Retread",
-                "url": "https://variety.com/2026/film/reviews/focker-in-law-review-1236955690/",
-                "source": "Variety",
-                "published": "2026-11-23T17:00:00.000Z"
-              },
-              {
-                "title": "‘Focker In-Law’ Review: Ariana Grande Outshines Robert De Niro and Ben Stiller in an Otherwise Dire Fourth Installment",
-                "url": "https://www.hollywoodreporter.com/movies/movie-reviews/focker-in-law-review-ariana-grande-robert-de-niro-1236760021/",
+                "title": "Ariana Grande, Peacock Team on ‘Eternal Sunshine Tour‘ Doc, Concert Film",
+                "url": "https://www.hollywoodreporter.com/music/music-news/ariana-grande-eternal-sunshine-doc-concert-film-peacock-1236762204/",
                 "source": "The Hollywood Reporter",
-                "published": "2026-11-23T17:00:00.000Z"
+                "published": "2026-11-24T16:43:49.000Z"
+              },
+              {
+                "title": "Ariana Grande Sets Peacock Double Play With ‘Eternal Sunshine Tour’ Concert Film & Making-Of Doc",
+                "url": "https://deadline.com/2026/11/ariana-grande-peacock-special-eternal-sunshine-diaries-tour-1237232613/",
+                "source": "Deadline",
+                "published": "2026-11-24T16:43:18.000Z"
+              },
+              {
+                "title": "Ariana Grande’s ‘Eternal Sunshine Tour’ Concert Movie and Making-of Documentary to Stream on Peacock in December",
+                "url": "https://variety.com/2026/music/news/ariana-grande-teases-eternal-sunshine-tour-movie-peacock-1236956068/",
+                "source": "Variety",
+                "published": "2026-11-24T16:15:00.000Z"
+              },
+              {
+                "title": "U2 Plot North American Stadium Tour",
+                "url": "https://pitchfork.com/story/u2-plot-north-american-stadium-tour/",
+                "source": "Pitchfork News",
+                "published": "2026-11-24T15:44:52.000Z"
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": "internet",
-        "label": "Internet",
-        "insights": [
+          },
           {
-            "trend": "Cyberpunk-nostalgie als prestige-dramaturgie",
-            "summary": "'Blade Runner 2099' wordt gelezen als 'origineel werk dat toevallig in franchise-universum leeft' (Yeoh, Schafer, eigen creatief DNA). Sci-fi dystopie is nu voertuig voor stilistische autoriteit, niet spectacle.",
-            "why_it_matters": "Dit bewijst dat 'retelling' acceptabel is zolang de toon autorisch voelt — het genre zelf (cyberpunk) garandeert geen prestige meer, alleen de auteur.",
-            "strategic_signal": "Voor tech- en streaming-merken: 'slow cinema' en 'distraction-resistant' framing werkt beter voor premium positionering dan 'immersive' branding. Laat de dystopie spreken.",
+            "trend": "Belgische cinema als Oscar-prestige-speler",
+            "summary": "'Coward' van Lukas Dhont (Cannes-winnaars, WWI-queerness) verschijnt in festival-circuits als Oscar-entry naast internationale blockbusters (Avengers, Hunger Games). België positioneert zich als auteur-filmland.",
+            "why_it_matters": "Belgische cinema bewijst dat prestige niet meer aan blockbuster-budget gebonden is; kleine-budget queer-drama kan even veel culturele waarde claimen als Marvel-tentpoles.",
+            "strategic_signal": "Communicatieprofessionals die met culturele instituten werken: positioneer Belgische films niet tegen internationaal product, maar als alternatieve prestige-maatstaf. Voor premium brands is dit onderscheidend.",
             "trajectory": "opkomend",
             "daysActive": 1,
             "isNew": true,
             "sources": [
+              "Dazed",
+              "Design Boom",
+              "Eurogamer",
+              "Hypebeast",
               "IndieWire",
-              "NME",
-              "The Verge"
+              "Variety"
             ],
             "trending": true,
             "articles": [
               {
-                "title": "‘Blade Runner 2099’ review: a hollow retread of the cult dystopian classic",
-                "url": "https://www.nme.com/reviews/tv-reviews/blade-runner-2099-review-michelle-yeoh-hunter-schafer-amazon-prime-3976755",
-                "source": "NME",
-                "published": "2026-11-23T15:28:26.000Z"
-              },
-              {
-                "title": "Blade Runner 2099 is an inventive twist on a cyberpunk classic",
-                "url": "https://www.theverge.com/entertainment/1039095/blade-runner-2099-review",
-                "source": "The Verge",
-                "published": "2026-11-23T14:00:00.000Z"
-              },
-              {
-                "title": "‘Blade Runner 2099’ Review: Michelle Yeoh and Hunter Schafer Are a Fine Pair in an Awesome World",
-                "url": "https://www.indiewire.com/criticism/shows/blade-runner-2099-review-amazon-series-michelle-yeoh-1235229717/",
+                "title": "Oobah Butler Wants to Expose the World’s Stupidest Industries, but They Get Worse Faster Than He Can Plan His Stunts",
+                "url": "https://www.indiewire.com/features/interviews/oobah-butler-scams-for-a-better-tomorrow-interview-1235229738/",
                 "source": "IndieWire",
-                "published": "2026-11-23T14:00:00.000Z"
+                "published": "2026-11-24T17:00:00.000Z"
+              },
+              {
+                "title": "‘52 Blue’ Director on How Lionel Messi Fandom Inspired World Cup Film: ‘People Will Die for These Players’",
+                "url": "https://variety.com/2026/film/global/ali-el-arabi-52-blue-doha-film-festival-wegz-1236956908/",
+                "source": "Variety",
+                "published": "2026-11-24T16:05:18.000Z"
+              },
+              {
+                "title": "As Blizzard whacks one World of Warcraft: Forever gold farming exploit, it struggles to contain all of the alternatives popping up",
+                "url": "https://www.eurogamer.net/blizzard-world-of-warcraft-forever-gold-exploits",
+                "source": "Eurogamer",
+                "published": "2026-11-24T14:38:30.000Z"
+              },
+              {
+                "title": "In pictures: Sweaty, transcendent portraits of ravers around the world",
+                "url": "https://www.dazeddigital.com/music/article/71399/1/portraits-of-ravers-around-the-world-indie-sleaze-forever-sub-club-glasgow?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=in-pictures-sweaty-transcendent-portraits-of-ravers-around-the-world",
+                "source": "Dazed",
+                "published": "2026-11-24T10:48:00.000Z"
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  "crossCategory": {
-    "generatedAt": "2026-11-23T17:44:38.679Z",
-    "megaTrends": [
-      {
-        "trend": "Prestige via controle en authenticiteit",
-        "summary": "Zowel in film (auteurische controle als blockbuster-antidotum) als in muziek (liveshow-veiligheid als prestige-eis) zien we dat makers status claimen door directe controle over kwaliteit en veiligheid. Dit is een reactie op massaproductie en algoritmische mediatie.",
-        "why_it_matters": "Creators en kunstenaars herdefiniëren succes niet via bereik, maar via volledige autonomie en gegarandeerde kwaliteit — een shift van populair naar principieel.",
-        "categories": [
-          "music",
-          "film"
-        ],
-        "strength": "matig"
       }
     ]
   },
