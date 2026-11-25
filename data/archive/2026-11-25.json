@@ -1,0 +1,273 @@
+{
+  "date": "2026-11-25",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-25T16:58:26.804Z",
+    "intro": "2 categorieën · 5 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "GTA VI als culturele obsessie-motor",
+            "summary": "Grand Theft Auto VI (198.339 views, rang #6 op Wikipedia trending) is een viraal referentie-ecosysteem voor muzikanten (Noah Kahan, The Weeknd, Underscores begroeten Vice City als artistiek domein) en heeft $4 miljard verdiend met een filmische narratieve ervaring. Dit is niet uitsluitend gamingcultuur, het is een cross-media cosmology waar muziek, mode en prestige convergeren.",
+            "why_it_matters": "GTA VI signaleert dat videogeluid niet langer 'soundtrack' is, maar een eerste-klasse artistieke uitdagingsforum; dit heroriënteert waar popmusici hun identiteit en innovatie plaatsen.",
+            "strategic_signal": "Voor muzieklabels en artiesten: onderzoek de komende 10 dagen of muziekplaatsing in GTA VI-inspired content (fan tracks, ambient remixes, Vice City-aesthetics) meer cultureel krediet levert dan traditionele streaming playlists.",
+            "trajectory": "opkomend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Ars Technica",
+              "Billboard",
+              "Hypebeast",
+              "NME"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+                "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+                "source": "Ars Technica",
+                "published": "2026-11-25T16:47:14.000Z"
+              },
+              {
+                "title": "Bonehead to raffle iconic signed Oasis Live ’25 cut-out of himself for charity",
+                "url": "https://www.nme.com/news/music/bonehead-to-raffle-iconic-signed-oasis-live-25-cut-out-of-himself-for-charity-3976932",
+                "source": "NME",
+                "published": "2026-11-25T12:47:15.000Z"
+              },
+              {
+                "title": "Noah Kahan Caps Epic Year With ‘Live From the Great Divide’ Album",
+                "url": "https://www.billboard.com/music/pop/noah-kahan-live-from-the-great-divide-concert-album-1236389418/",
+                "source": "Billboard",
+                "published": "2026-11-25T12:37:36.000Z"
+              },
+              {
+                "title": "Deborah Ann Woll Is Bringing Faye From the 'God of War' Games to Prime Video's Live-Action Series",
+                "url": "https://hypebeast.com/2026/11/deborah-ann-woll-joins-god-of-war-tv-series-as-faye",
+                "source": "Hypebeast",
+                "published": "2026-11-25T07:45:38.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Festival-relocation als prestige-verschuiving",
+            "summary": "ESSENCE Festival of Culture vertrekt na 30 jaar uit New Orleans; Banff World Media Festival verliest langdurige directie (Jenn Kuzmyk). Dit zijn niet crisis-meldingen maar intentionele repositionings, festivals herlocaliseren naar economische en netwerklogica's die buiten traditionele 'totemplaatsen' liggen.",
+            "why_it_matters": "Festival-migratie duidt op een verschuiving in hoe cultuur geografisch wordt gelegitimeerd; het einde van het 'peregrinatie naar heilige sites' narratief.",
+            "strategic_signal": "Voor festival- en events-marketing: probeer in de komende 3 weken te definiëren welke 'plaats-waarde' jouw event nog heeft na verhuizing, dus niet 'we verhuizen naar X' maar 'we verhuizen naar digitale/decentralized ownership'.",
+            "trajectory": "afbouwend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Hypebeast",
+              "IndieWire",
+              "NME",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Grand Theft Auto VI",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-25T16:58:04.861Z"
+              },
+              {
+                "title": "‘Grand Theft Auto VI’ Made Nearly $4 Billion Doing What Movies Can’t",
+                "url": "https://www.indiewire.com/features/commentary/grand-theft-auto-6-video-game-movie-criticism-1235230976/",
+                "source": "IndieWire",
+                "published": "2026-11-25T13:36:07.000Z"
+              },
+              {
+                "title": "These musicians are obsessed with ‘Grand Theft Auto 6’",
+                "url": "https://www.nme.com/news/gaming-news/musicians-obsessed-grand-theft-auto-6-noah-kahan-underscores-3976936",
+                "source": "NME",
+                "published": "2026-11-25T13:18:17.000Z"
+              },
+              {
+                "title": "LISA Gives The Nike Zoom Streak 3 \"Black/Red\" an Early Debut at the F1 Las Vegas Grand Prix",
+                "url": "https://hypebeast.com/2026/11/lisa-wears-unreleased-nike-zoom-streak-3-f1-vegas",
+                "source": "Hypebeast",
+                "published": "2026-11-25T08:13:15.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Liveshow-architectuur als 2027 speculatieve trend",
+            "summary": "Meerdere onafhankelijke bronnen (Consequence, NME, Crack) melden 2027 tour-announcements met expliciete 'conceptualisering': Getdown Services beschrijft shows als theatrale hybriden ('The Little Mermaid meets The Greatest Showman meets Alien: Romulus'); Jungle belooft 'eerste volledige set in 14 jaar' als architectonische terugkeer. Dit is anticipatoir prestige-marketing.",
+            "why_it_matters": "2027-tour-aankondigingen werken als toekomstspeculatie, ze positioneren live performance als narratieve ervaring, niet muzikale delivery.",
+            "strategic_signal": "Voor tour-operators en venues: test de komende 2 weken of beschrijving van concerts via 'conceptuele hybriditeit' (genre-collage, filmische referenties) merkaantrekkingskracht verhoogt versus traditionele lineup-promotie.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Deadline",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Coachella Sues Walmart for Selling Knockoffs at Stores Near Festival: ‘Who Needs the Merch Tent?’",
+                "url": "https://www.billboard.com/pro/coachella-sues-walmart-for-selling-knockoffs-near-festival/",
+                "source": "Billboard",
+                "published": "2026-11-25T15:26:31.000Z"
+              },
+              {
+                "title": "Jenn Kuzmyk to Exit Banff World Media Festival as Executive Director",
+                "url": "https://www.hollywoodreporter.com/business/business-news/jenn-kuzmyk-exit-banff-1236763033/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-25T15:00:29.000Z"
+              },
+              {
+                "title": "Jenn Kuzmyk Stepping Down From Banff World Media Festival After Nearly A Decade",
+                "url": "https://deadline.com/2026/11/jenn-kuzmyk-stepping-down-banff-world-media-festival-1237233161/",
+                "source": "Deadline",
+                "published": "2026-11-25T15:00:00.000Z"
+              },
+              {
+                "title": "ESSENCE Festival of Culture Moving On From New Orleans After Three Decades: ‘Memories Were Made — And So Was History’",
+                "url": "https://www.billboard.com/music/concerts/essence-festival-culture-leaving-new-orleans-three-decades-1236389426/",
+                "source": "Billboard",
+                "published": "2026-11-25T13:41:33.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Auteurische controle als blockbuster-strategie",
+            "summary": "Regisseurs als Jesse Eisenberg en Peter Berg gebruiken prestige-formats (documentaire-achtig, festival-winnende korte films) om blockbuster-franchises en streaming-content te heffen met artistieke integriteit. Dit gebeurt tegelijk met het uitfaseren van legacy-actrices (Patrick Stewart's finale) en de valorisatie van indie-credentials in mainstream Hollywood.",
+            "why_it_matters": "Dit signaleert dat prestige nu niet meer alleen indie blijft, maar volledig is gecoloniseerd door grote budgetten, merken en creatieven moeten inzien dat 'auteur' en 'blockbuster' geen opposities meer zijn, maar hybride identiteiten.",
+            "strategic_signal": "Voor filmmarketing: positioneer blockbusters via regisseur-statement en kunstenaarsrechten eerder dan cast of spectacle; test dit narrative frame in campaign messaging de komende 3 weken.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Film Comment",
+              "IndieWire",
+              "NME",
+              "Variety",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "XXX (2002 film)",
+                "url": "https://en.wikipedia.org/wiki/XXX_(2002_film)",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-25T16:58:04.861Z"
+              },
+              {
+                "title": "Salma Hayek Pinault and Saúl ‘Canelo’ Álvarez Board Cannes Short Film Palme d’Or Winner ‘For the Opponents,’ Igniting Its Oscar Campaign (EXCLUSIVE)",
+                "url": "https://variety.com/2026/film/global/salma-hayek-pinault-saul-canelo-alvarez-for-the-opponents-1236957909/",
+                "source": "Variety",
+                "published": "2026-11-25T16:03:12.000Z"
+              },
+              {
+                "title": "Patrick Stewart’s ‘Avengers: Doomsday’ wrap speech indicated it was “his last day on a film set”",
+                "url": "https://www.nme.com/news/film/patrick-stewart-avengers-doomsday-wrap-speech-very-emotional-3976910",
+                "source": "NME",
+                "published": "2026-11-25T11:07:32.000Z"
+              },
+              {
+                "title": "Mike Plante, Sundance Film Festival Shorts Programmer, Dies at 56",
+                "url": "https://www.indiewire.com/news/obituary/mike-plante-sundance-shorts-programmer-dead-at-56-1235230914/",
+                "source": "IndieWire",
+                "published": "2026-11-24T21:30:08.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Nostalgie-heruitvinding via posthume eerbetoon",
+            "summary": "Dolly Parton's dood (zomer 2026) genereert legacy-award ceremonies waarbij levende celebrities (Miley Cyrus) erfgenaam-rollen overnemen; gelijktijdig zien we Ava DuVernay's 'trailblazer'-awards waarin feministische canon-herijking plaatsvindt. Dit is geen simpele necropolitics, maar rituele doorvoering van culturele waarde.",
+            "why_it_matters": "Posthume tributes zijn niet anekdotisch, zij herschrijven wie cultureel 'telt' en creëren ceremonies waarin jonge creatieven legitimatie krijgen via erfenis, niet originality.",
+            "strategic_signal": "Voor merkpartnerships en award-sponsorships: onderzoek komende 2 weken of jouw audience responds op 'legacy-bridging' narrative (jong talent dat oudere makers eerbiedigt) versus 'disruptie'-framing.",
+            "trajectory": "piekend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Billboard",
+              "The Hollywood Reporter",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Miley Cyrus to Accept CNN Heroes Legacy Award to Dolly Parton",
+                "url": "https://variety.com/2026/tv/news/miley-cyrus-cnn-heroes-legacy-award-dolly-parton-1236957974/",
+                "source": "Variety",
+                "published": "2026-11-25T15:19:45.000Z"
+              },
+              {
+                "title": "Mindy Kaling Will Be Honored With The Hollywood Reporter’s Equity in Entertainment Award at Women in Entertainment Gala",
+                "url": "https://www.hollywoodreporter.com/business/business-news/mindy-kaling-hollywood-reporter-equity-entertainment-award-1236762197/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-25T15:00:00.000Z"
+              },
+              {
+                "title": "Dolly Parton to Receive CNN Heroes Legacy Award, Miley Cyrus to Accept on Her Behalf",
+                "url": "https://www.billboard.com/music/awards/dolly-parton-cnn-heroes-legacy-award-miley-cyrus-accept-1236389084/",
+                "source": "Billboard",
+                "published": "2026-11-25T14:00:00.000Z"
+              },
+              {
+                "title": "Ava DuVernay to Receive London Critics’ Circle Inaugural Laura Mulvey Female Trailblazer Award",
+                "url": "https://www.hollywoodreporter.com/movies/movie-news/ava-duvernay-london-critics-circle-award-laura-mulvey-film-1236762987/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-25T14:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-25T17:00:15.817Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "GTA VI as cross-media cosmology",
+        "category": "music",
+        "what_is_happening": "Grand Theft Auto VI has become a convergence point for musicians including Noah Kahan, The Weeknd and Underscores, who are actively positioning Vice City as a legitimate artistic domain rather than a gaming backdrop. With $4 billion earned and nearly 200,000 Wikipedia page views in a single day, the release functions less as a product launch and more as a shared cultural cosmology where music, fashion and prestige meet.",
+        "why_it_matters_for_brands": "Brands that treat gaming solely as an advertising channel are missing the deeper shift: GTA VI has become a primary arena where musical identity and cultural credibility are now being staked.",
+        "what_brands_can_do": [
+          "Partner with musicians to create original in-world content rather than placing existing catalogue tracks.",
+          "Map your brand's cultural positioning against the aesthetics and references that GTA VI is amplifying right now.",
+          "Commission sound designers or composers, not just visual artists, when entering gaming-adjacent cultural spaces."
+        ]
+      },
+      {
+        "trend": "Auteur credentials enter blockbuster logic",
+        "category": "film",
+        "what_is_happening": "Directors such as Jesse Eisenberg and Peter Berg are applying festival-film sensibilities, documentary textures and indie credentials directly to mainstream Hollywood and streaming productions, blurring the line between prestige and commercial scale. At the same time, legacy figures are being retired and replaced, opening space for a new hybrid identity where artistic integrity and large budgets are no longer considered incompatible.",
+        "why_it_matters_for_brands": "This shift signals that audiences and industry gatekeepers now reward creative rigour at any budget level, meaning brands that commission or sponsor screen content can no longer hide behind production scale as a substitute for genuine creative intent.",
+        "what_brands_can_do": [
+          "Brief your content productions with a director-led creative vision rather than a committee-approved concept.",
+          "Seek partnerships with emerging directors who hold festival credibility but are ready to work at commercial scale.",
+          "Audit your brand's film and video output to identify where production ambition is outrunning genuine creative perspective."
+        ]
+      },
+      {
+        "trend": "Posthumous tribute as canon rewriting",
+        "category": "culture",
+        "what_is_happening": "The legacy ceremonies following Dolly Parton's death in summer 2026 are functioning as formal rituals in which living artists such as Miley Cyrus are publicly appointed as cultural heirs, transferring legitimacy through inheritance rather than through original output alone. Simultaneously, award ceremonies led by figures such as Ava DuVernay are actively reordering the feminist cultural canon, deciding who counts and who is remembered.",
+        "why_it_matters_for_brands": "These ceremonies are rewriting which cultural references carry weight and which figures grant legitimacy, so brands that anchor their positioning in cultural heritage need to understand that the canon is actively being renegotiated right now.",
+        "what_brands_can_do": [
+          "Identify which cultural figures or movements your brand references, and assess whether those references still carry the intended weight.",
+          "Invest in supporting living artists who are being positioned as heirs to major legacies, before that positioning becomes mainstream.",
+          "Design partnership or sponsorship structures that acknowledge artistic lineage explicitly, rather than borrowing from it invisibly."
+        ]
+      }
+    ]
+  }
+}
