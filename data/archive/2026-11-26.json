@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-26",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-26T16:38:54.112Z",
+    "intro": "2 categorieën · 3 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "Andy Taylor Legacy als prestige-moment",
+            "summary": "De dood van Andy Taylor (Duran Duran-gitarist) genereert massale tributecoverage van peers zoals Belinda Carlisle en Spandau Ballet. Dit wordt niet alleen als necrologische nieuwsplicht behandeld, maar als herdefiniëring van een carrière vol 'overlooked moments' die nu ineens cultureel relevant worden.",
+            "why_it_matters": "Dit signaleert hoe de muziekindustrie sterfte van legacy-figures nu gebruikt om narratieven van artistieke integriteit en ondergewaardeerde innovatie te herschrijven, een cultureel ritueel dat prestige construeert via posthume herinterpretatie.",
+            "strategic_signal": "Merk-partnerships met legacy-muziek kunnen de komende weken een 'rediscovery angle' gebruiken: niet 'nostalgie verkopen' maar 'ondergewaardeerde innovatie herpositioneren' via tributes en archief-content.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "404 Media",
+              "A.V. Club",
+              "Billboard",
+              "Consequence",
+              "Stereogum",
+              "The Hollywood Reporter",
+              "VRT NWS",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Box Office: ‘Hunger Games: Sunrise on the Reaping’ Leads With $15 Million on Thanksgiving Eve, ‘Focker In-Law’ Earns $5 Million on Opening Day",
+                "url": "https://variety.com/2026/film/box-office/sunrise-on-the-reaping-box-office-hunger-games-thanksgiving-eve-focker-in-law-1236958999/",
+                "source": "Variety",
+                "published": "2026-11-26T16:11:18.000Z"
+              },
+              {
+                "title": "Noodweer in de Verenigde Staten stuurt Thanksgiving-plannen van miljoenen mensen in de war",
+                "url": "https://vrtnws.be/p.E1djBBlkV",
+                "source": "VRT NWS",
+                "published": "2026-11-26T15:52:41.000Z"
+              },
+              {
+                "title": "U2 Perform Their Dolly Parton Collaboration At First-Ever Thanksgiving Eve NFL Game",
+                "url": "https://stereogum.com/2521986/u2-perform-their-dolly-parton-collaboration-at-first-ever-thanksgiving-eve-nfl-game/news/",
+                "source": "Stereogum",
+                "published": "2026-11-26T14:31:18.000Z"
+              },
+              {
+                "title": "NBC Uses Thanksgiving TV to Kickstart 2028 LA Olympics Marketing Push",
+                "url": "https://www.hollywoodreporter.com/business/business-news/nbc-new-2028-la-olympics-spot-thanksgiving-1236763173/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-26T13:46:17.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "GTA VI als culturele geldstandaard",
+            "summary": "GTA VI blijft dominant in Wikipedia-traffic (#8 rang, 151k views) en wordt structureel gebruikt als referentiekader voor game-industrie-debatten, van lang-termijn talent retention tot mature storytelling versus 'dumb product names'. Het spel is niet meer alleen een product maar een culturele maatstaf waartegen andere industriepraktijken worden afgemeten.",
+            "why_it_matters": "Dit toont hoe blockbuster-games nu de narratieve autoriteit hebben gekregen die films ooit hadden: ze dicteren niet alleen consumentengeld maar ook industriestandaarden voor 'volwassen' storytelling en auteurlijke controle.",
+            "strategic_signal": "Voor merken: associatie met GTA VI's 'mature storytelling' framing kan legitimiteitspunten opleveren, zorg dat je collaboratie geen 'dumb product name' energie heeft, maar iets dat de toon van artistieke verantwoordelijkheid aanraakt.",
+            "trajectory": "piekend",
+            "daysActive": 3,
+            "isNew": false,
+            "sources": [
+              "Aftermath",
+              "Consequence",
+              "Deadline",
+              "Fast Company",
+              "Polygon",
+              "The Verge",
+              "Variety"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Mark Tildesley, Production Designer on ‘No Time to Die,’ ‘28 Days Later’ and Upcoming Beatles Biopics, Dies at 63",
+                "url": "https://variety.com/2026/film/global/mark-tildesley-dead-no-time-to-die-production-designer-1236958968/",
+                "source": "Variety",
+                "published": "2026-11-26T16:22:29.000Z"
+              },
+              {
+                "title": "Epic Games Store Officially Makes a Top Co-op Game Free for a Limited Time",
+                "url": "https://www.polygon.com/epic-games-store-free-games-11-26-2026-download/",
+                "source": "Polygon",
+                "published": "2026-11-26T16:11:23.000Z"
+              },
+              {
+                "title": "The One Reason Nintendo and Rockstar Can Make Games Like Ocarina of Time and GTA 6",
+                "url": "https://www.polygon.com/gta-6-ocarina-of-time-layoffs/",
+                "source": "Polygon",
+                "published": "2026-11-26T15:00:18.000Z"
+              },
+              {
+                "title": "Here’s where you can save (a little) on the Ocarina of Time remake",
+                "url": "https://www.theverge.com/gadgets/1040110/zelda-ocarina-of-time-switch-2-black-friday-2026-deal-sale",
+                "source": "The Verge",
+                "published": "2026-11-26T14:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Rockstar worker sentiment als anti-union bloc",
+            "summary": "GTA VI-studio Rockstar Games werkt massaal tegen unionisatie (93.2% tegen), en dit wordt gedekt als industriële stemmingsindicator. Dit is niet een geïsoleerde HR-move maar een signaal van werknemer-consensus tegen formele organisatie.",
+            "why_it_matters": "Dit weerspiegelt een splitsing in game-industry-arbeid: grote blockbuster-studios kunnen nog steeds anti-collectieve sentiment handhaven, wat betekent dat de 'crunch culture'-kritiek geen materiële machtsverschuiving heeft opgeleverd.",
+            "strategic_signal": "Voor brand-purpose-narratieven: 'gaming ethics' messaging gaat jarenlang tegen de werkelijke arbeidsrealiteit botsen bij top-studios, wees voorzichtig met 'inclusive game development'-claims zonder worker-angle te checken.",
+            "trajectory": "afbouwend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Aftermath",
+              "Kotaku",
+              "VRT NWS",
+              "Wikipedia Trending EN",
+              "Wired"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Grand Theft Auto VI",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-26T16:38:34.912Z"
+              },
+              {
+                "title": "Zwembad van Meise blijft dicht na ongeval met auto in gevel: \"Schade is groter dan we dachten\"",
+                "url": "https://vrtnws.be/p.ew4LPqo56",
+                "source": "VRT NWS",
+                "published": "2026-11-26T15:50:15.000Z"
+              },
+              {
+                "title": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
+                "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
+                "source": "Wired",
+                "published": "2026-11-26T12:00:00.000Z"
+              },
+              {
+                "title": "With Grand Theft Auto 6, The Series Has Outgrown Some Of Its Joke Brand Names",
+                "url": "https://kotaku.com/with-grand-theft-auto-6-the-series-has-outgrown-some-of-its-joke-brand-names-2001000507",
+                "source": "Kotaku",
+                "published": "2026-11-25T22:54:04.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-26T09:46:04.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Phone-free arenas become a luxury",
+        "category": "music",
+        "what_is_happening": "Phoebe Bridgers is playing deliberately phone-free arena concerts, and NME reports that fans are now making their own artwork to remember the shows. Billboard and Consequence frame it as an artistic choice that puts presence ahead of capture.",
+        "why_it_matters_for_brands": "When an artist takes the camera away, the memory becomes the product, so brands at live events need a way to be remembered that does not depend on a feed.",
+        "what_brands_can_do": [
+          "Sponsor a phone-free moment and give fans a physical keepsake instead of a hashtag.",
+          "Invite fans to make their own artwork after the show, then credit them properly when you share it.",
+          "Measure live sponsorships on recall and sentiment, not only on social reach."
+        ]
+      },
+      {
+        "trend": "Festivals fight back against fake merch",
+        "category": "trends",
+        "what_is_happening": "Coachella has sued Walmart for selling knockoff merchandise in stores near the festival, Billboard reports. The festival is defending its logo the way a fashion label would.",
+        "why_it_matters_for_brands": "If a festival logo is worth copying, its merch has become a brand asset in its own right, and partners are judged on how well they protect it.",
+        "what_brands_can_do": [
+          "Treat event merch as a product line, with clear design, limited runs and official sales points.",
+          "Check your licensing and collaboration deals for counterfeit clauses before your next event.",
+          "Give fans an easy official option nearby, so the fake is never the more convenient choice."
+        ]
+      },
+      {
+        "trend": "LEGO fans fill Antwerp Expo",
+        "category": "local",
+        "what_is_happening": "HLN Antwerpen reports that Antwerp Expo was overrun by LEGO fans for Brick Mania, under the headline \"No, we don't all play GTA\". In the week of the biggest game launch of the year, a hands-on hobby fair drew the crowds.",
+        "why_it_matters_for_brands": "Next to the biggest game release, physical hobbies still pull large local crowds, and those fans are easier for brands to meet face to face.",
+        "what_brands_can_do": [
+          "Show up at local fan fairs with something to build or try, not just a stand and a flyer.",
+          "Work with local hobby communities on a small product or event that suits their craft.",
+          "Balance digital campaigns with hands-on moments in your own region."
+        ]
+      }
+    ]
+  }
+}
