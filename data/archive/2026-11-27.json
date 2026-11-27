@@ -1,0 +1,236 @@
+{
+  "date": "2026-11-27",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-27T16:24:13.807Z",
+    "intro": "2 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "music",
+        "label": "Muziek",
+        "insights": [
+          {
+            "trend": "GTA VI als culturele obsidiaan-steen",
+            "summary": "Grand Theft Auto VI domineert niet alleen als game maar als transmediaal cultuurfenomeen: de soundtrack bereikt #1 op charts, limited-edition vinyl met liquid-fill gaat viral als 'kunstwerk', en de game herdefiniëert wat blockbuster-narratief kan zijn. Dit strekt zich uit van muziek tot design tot werknemersverhalen.",
+            "why_it_matters": "Dit signaleert dat games niet langer alleen entertainment zijn, ze zijn cultuurproducenten die alle media absorberen en herdefinities van artistieke legitimiteit forceren.",
+            "strategic_signal": "Merk-partnerships rond GTA VI moeten zich richten op het 'collectible artwork'-aspect (denk limited editions, kunstmatige schaarste) in plaats van traditionele game-tie-ins; dit is een prestige-moment.",
+            "trajectory": "piekend",
+            "daysActive": 4,
+            "isNew": false,
+            "sources": [
+              "Adweek",
+              "Billboard",
+              "Consequence",
+              "NME",
+              "Quartz",
+              "The Verge"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "10 last-minute Black Friday tricks to check before you pay today",
+                "url": "https://qz.com/last-minute-black-friday-tips-heading-out-today",
+                "source": "Quartz",
+                "published": "2026-11-27T16:12:02.000Z"
+              },
+              {
+                "title": "Audible’s Black Friday Deal Gets You a Subscription to Bestselling Books for Only $.99 Per Month",
+                "url": "https://www.billboard.com/culture/product-recommendations/audible-black-friday-deal-2026-shop-bestselling-books-1236390210/",
+                "source": "Billboard",
+                "published": "2026-11-27T16:07:09.000Z"
+              },
+              {
+                "title": "10 Kohl's Black Friday deal categories where the sticker price is only part of the cost",
+                "url": "https://qz.com/kohls-black-friday-deals-by-category",
+                "source": "Quartz",
+                "published": "2026-11-27T15:51:02.000Z"
+              },
+              {
+                "title": "Small Business Saturday: 10 ways to shop local this Black Friday weekend",
+                "url": "https://qz.com/small-business-saturday-ways-shop-local",
+                "source": "Quartz",
+                "published": "2026-11-27T15:42:22.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Nostalgie-heruitvinding via 2027-festivalverplaatsingen",
+            "summary": "Mad Cool Festival verhuist naar Madrid en toont een curatoriale shift: klassieke acts (The Strokes, Echo & The Bunnymen, Happy Mondays) krijgen nieuwe podiumarchitectuur. Dit is geen 'jubileum-toer' maar een herlocalisering van prestige weg van traditionele hubs.",
+            "why_it_matters": "Festival-hertekening signaleert dat nostalgie niet zomaar revival is, het is een strategische verplaatsing van cultuurmacht naar nieuwe geografische centra.",
+            "strategic_signal": "Voor merken: associeer je niet met 'comeback'-verhalen maar met 'relocatie van prestige' — festivals zijn 2027 niet meer over archief maar over nieuwe plaatsen van legitimiteit.",
+            "trajectory": "opkomend",
+            "daysActive": 2,
+            "isNew": false,
+            "sources": [
+              "Billboard",
+              "Design Boom",
+              "GamesIndustry.biz",
+              "NME",
+              "The Verge",
+              "Wikipedia Trending EN"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Grand Theft Auto VI",
+                "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+                "source": "Wikipedia Trending EN",
+                "published": "2026-11-27T16:23:55.582Z"
+              },
+              {
+                "title": "‘Grand Theft Auto 6’s liquid-filled vinyl is going viral: “A work of art”",
+                "url": "https://www.nme.com/news/gaming-news/grand-theft-auto-6-liquid-filled-vinyl-viral-limited-edition-3977125",
+                "source": "NME",
+                "published": "2026-11-27T13:07:10.000Z"
+              },
+              {
+                "title": "Grand Theft Auto VI is a different kind of GTA — so it needed a different kind of ending",
+                "url": "https://www.theverge.com/entertainment/1043362/grand-theft-auto-6-ending",
+                "source": "The Verge",
+                "published": "2026-11-27T13:00:00.000Z"
+              },
+              {
+                "title": "‘Grand Theft Auto VI’ Soundtrack Drives to No. 1 on ARIA Chart",
+                "url": "https://www.billboard.com/music/chart-beat/grand-theft-auto-vi-soundtrack-no-1-aria-chart-1236390235/",
+                "source": "Billboard",
+                "published": "2026-11-27T06:47:44.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "BRIT Awards-trofee als kunstmatig authoriteitssymbool",
+            "summary": "Rachel Whiteread (kunstenaar van internationaal formaat) ontwerpt de 2027 BRIT-trofee als object vol gaten, een deliberate verwijzing naar breekbaarheid en transparantie. Dit transformeert de award van prestatie-object naar artistieke uitspraak.",
+            "why_it_matters": "Dit illustreert hoe prijs-architectuur zelf cultureel statement wordt; awards zijn niet langer trofeeën maar kunstwerken die curator-macht van artiest uitstralen.",
+            "strategic_signal": "Merken die award-activaties runnen: focus op het object als kunstwerk, niet op de winnaar, maak de trofee zelf Instagrammable en collectible.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Billboard",
+              "Consequence",
+              "Dezeen",
+              "MIT Tech Review",
+              "NME"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Mad Cool Festival Reveals 2027 Lineup with The Strokes, Tame Impala & Faith No More",
+                "url": "https://consequence.net/2026/11/mad-cool-festival-2027-lineup-the-strokes-tame-impala-faith-no-more/",
+                "source": "Consequence",
+                "published": "2026-11-27T14:15:26.000Z"
+              },
+              {
+                "title": "Echo & The Bunnymen and Happy Mondays announce joint 2027 UK ‘greatest hits’ tour",
+                "url": "https://www.nme.com/news/music/echo-the-bunnymen-happy-mondays-announce-joint-2027-uk-greatest-hits-tour-3977113",
+                "source": "NME",
+                "published": "2026-11-27T12:30:21.000Z"
+              },
+              {
+                "title": "Our 2027 Innovators Under 35 competition is now open",
+                "url": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
+                "source": "MIT Tech Review",
+                "published": "2026-11-27T10:48:47.000Z"
+              },
+              {
+                "title": "2027 BRIT Awards Trophy Designed by ‘One of Britain’s Greatest Living Artists’: See Photos",
+                "url": "https://www.billboard.com/music/awards/2027-brit-awards-trophy-designer-1236390153/",
+                "source": "Billboard",
+                "published": "2026-11-27T08:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "GTA VI als cultuurstandaard tegen indie-narratieven",
+            "summary": "GTA VI wint niet alle awards, indie-spellen als Rhell slaan het op Game Republic Awards. Dit signaleert een splitsing: AAA-titels definiëren werkelijkheidsnorm, indie-games definiëren artistieke integriteit. Beide kunnen co-existeren zonder hiërarchie.",
+            "why_it_matters": "Dit is geen 'indie versus AAA'-strijd maar erkenning dat verschillende speltypen verschillende cultuurarbeid doen; legitimiteit is nu meervoudig.",
+            "strategic_signal": "Voor game-merken: mix AAA-schaal met indie-curation in je marketing, toon dat je beide ecosystemen begrijpt, niet dat je voor één kiest.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "GamesIndustry.biz",
+              "NME",
+              "Rock Paper Shotgun"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Indie puzzle adventure Rhell beats GTA 6 to win Best Game Made in The North at the Game Republic Awards",
+                "url": "https://www.gamesindustry.biz/indie-puzzle-adventure-rhell-beats-gta-6-to-win-best-game-made-in-the-north-at-the-game-republic-awards",
+                "source": "GamesIndustry.biz",
+                "published": "2026-11-27T12:55:20.000Z"
+              },
+              {
+                "title": "The quiet beauty of the ‘Planet Of Lana’ indie game score – and how it saved its composer",
+                "url": "https://www.nme.com/features/gaming-features/planet-of-lana-soundtrack-takeshi-furukawa-composer-3976969",
+                "source": "NME",
+                "published": "2026-11-27T12:52:58.000Z"
+              },
+              {
+                "title": "‘GTA 6’ Lucia actor just made her first statement since the game’s launch",
+                "url": "https://www.nme.com/news/gaming-news/gta-6-lucia-actor-manni-perez-whirlwind-launch-grand-theft-auto-3977116",
+                "source": "NME",
+                "published": "2026-11-27T12:32:24.000Z"
+              },
+              {
+                "title": "Drone Pilots have come to Cyber Knights: Flashpoint, the stealth tactics game's \"most complex\" class yet, alongside a pet system and the promise of \"assassin cats\"",
+                "url": "https://www.rockpapershotgun.com/drone-pilots-have-come-to-cyber-knights-flashpoint-the-stealth-tactics-games-most-complex-class-yet-alongside-a-pet-system-and-the-promise-of-assassin-cats",
+                "source": "Rock Paper Shotgun",
+                "published": "2026-11-27T12:00:00.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-26T09:46:04.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Phone-free arenas become a luxury",
+        "category": "music",
+        "what_is_happening": "Phoebe Bridgers is playing deliberately phone-free arena concerts, and NME reports that fans are now making their own artwork to remember the shows. Billboard and Consequence frame it as an artistic choice that puts presence ahead of capture.",
+        "why_it_matters_for_brands": "When an artist takes the camera away, the memory becomes the product, so brands at live events need a way to be remembered that does not depend on a feed.",
+        "what_brands_can_do": [
+          "Sponsor a phone-free moment and give fans a physical keepsake instead of a hashtag.",
+          "Invite fans to make their own artwork after the show, then credit them properly when you share it.",
+          "Measure live sponsorships on recall and sentiment, not only on social reach."
+        ]
+      },
+      {
+        "trend": "Festivals fight back against fake merch",
+        "category": "trends",
+        "what_is_happening": "Coachella has sued Walmart for selling knockoff merchandise in stores near the festival, Billboard reports. The festival is defending its logo the way a fashion label would.",
+        "why_it_matters_for_brands": "If a festival logo is worth copying, its merch has become a brand asset in its own right, and partners are judged on how well they protect it.",
+        "what_brands_can_do": [
+          "Treat event merch as a product line, with clear design, limited runs and official sales points.",
+          "Check your licensing and collaboration deals for counterfeit clauses before your next event.",
+          "Give fans an easy official option nearby, so the fake is never the more convenient choice."
+        ]
+      },
+      {
+        "trend": "LEGO fans fill Antwerp Expo",
+        "category": "local",
+        "what_is_happening": "HLN Antwerpen reports that Antwerp Expo was overrun by LEGO fans for Brick Mania, under the headline \"No, we don't all play GTA\". In the week of the biggest game launch of the year, a hands-on hobby fair drew the crowds.",
+        "why_it_matters_for_brands": "Next to the biggest game release, physical hobbies still pull large local crowds, and those fans are easier for brands to meet face to face.",
+        "what_brands_can_do": [
+          "Show up at local fan fairs with something to build or try, not just a stand and a flyer.",
+          "Work with local hobby communities on a small product or event that suits their craft.",
+          "Balance digital campaigns with hands-on moments in your own region."
+        ]
+      }
+    ]
+  }
+}
