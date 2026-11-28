@@ -1,0 +1,240 @@
+{
+  "date": "2026-11-28",
+  "aiModel": {
+    "daily": "claude-haiku-4-5-20251001",
+    "weekly": "claude-sonnet-4-6",
+    "monthly": "claude-sonnet-4-6"
+  },
+  "daily": {
+    "generatedAt": "2026-11-28T15:17:41.188Z",
+    "intro": "3 categorieën · 4 trends · laatste 24u",
+    "categories": [
+      {
+        "id": "lokaal",
+        "label": "Lokaal",
+        "insights": [
+          {
+            "trend": "Peter Gabriel's lunar release-strategie als narratief-architectuur",
+            "summary": "Peter Gabriel released singles van album 'O/I' bij elke volle maan; het album itself behandelt mensheid-natuur reconnectie als thematische anker. Bruzz/Humo dekken zowel release-strategie als artistieke intentie.",
+            "why_it_matters": "Auteurs kiezen voor 'temporal pacing' via natuurcyclussen in plaats van industrie-calendars; dit signaleert autoriteit-shift van labels naar artistieke autonomie over timing.",
+            "strategic_signal": "Communicatie-teams kunnen cyclische release-patterns (lunaire, seizoenaal) gebruiken als differentiator voor 'mindful artist' positioning; Gabriel's move legitimeert anti-algoritme strategieën.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Google News BE Entertainment (NL)",
+              "Google News BE Festivals",
+              "Google News BE Mode",
+              "Humo",
+              "VRT NWS"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Peter Gabriel dropte bij elke volle maan een single van zijn nieuwe plaat: ‘Veel van mijn muziek gaat over het terugvinden van onze plaats in de natuur’",
+                "url": "https://www.humo.be/muziek/peter-gabriel-dropte-bij-elke-volle-maan-een-single-van-zijn-nieuwe-plaat-veel-van-mijn-muziek-gaat-over-het-terugvinden-van-onze-plaats-in-de-natuur~b249a48c8/",
+                "source": "Humo",
+                "published": "2026-11-28T14:24:00.000Z"
+              },
+              {
+                "title": "In Afghanistan mogen vrouwen in ziekenhuizen niet langer eigen naam dragen, maar zijn ze allemaal 'Bibi'",
+                "url": "https://vrtnws.be/p.BlYJNQNZk",
+                "source": "VRT NWS",
+                "published": "2026-11-28T14:22:26.000Z"
+              },
+              {
+                "title": "Eerste winterpark op de weide van Dranouter: “Ook wie het festivalterrein kent, zal verrast zijn” - Nieuwsblad",
+                "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVXQwLXlHTmJ1bTBlckNPU2VlZnQ5Sm80a2t0TkdBc1U5bEtPUm1UZkRWdHZnc3pDMW5EcXhubm1fTVlFWjJkUjBWVUFGVlQ5ZzNpTHQzWEZ0bUZuMkpmYllOSmdVZ2FtRFMtLUpoOEZxaUl3b1lWYkZyZzMxMVh5eHUyX25aUU1VMlhZaVAtRDQyYWY5YVBfMFBWeVkwRjVURDFEalpoNU9DTk5rSWhLS2RFNWtjemZFeURfbEs1Z1MzbGx5SmVrMGVLbUtxSnAycVMxQlRjdmpGeHdhdUFfNWpsN3FydTdxY2NLdFNpUUFsZ01tSTBzemJKVWxYNU9kN28wZUthZw?oc=5",
+                "source": "Google News BE Festivals",
+                "published": "2026-11-28T11:00:00.000Z"
+              },
+              {
+                "title": "‘O\\I’ van Peter Gabriel is bij momenten prachtig en diep ontroerend, maar in zijn geheel is het alleen een must voor verzamelaars",
+                "url": "https://www.humo.be/muziek/recensie-o-i-van-peter-gabriel~b21b0b2e/",
+                "source": "Humo",
+                "published": "2026-11-28T11:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "trend": "Marginale vrouwen-geschiedenissen als herwaardering-moment",
+            "summary": "Gottem-label 'heks' Tanneke Sconyncx (1602) krijgt eerherstel en 'stem terug' via audio-project; parallelle coverage in Bruzz en Humo signaleert groeiende aandacht voor 'reparatieve geschiedenis' via culturele heruitvinding.",
+            "why_it_matters": "Cultuur wordt gebruikt medium voor historische ongelijkheden te corrigeren; dit frameshift marginale verhalen van 'archief' naar 'actieve heruitnodiging', vrouwen als actoren, niet objecten.",
+            "strategic_signal": "Merken kunnen 'historical repair'-narratieven activeren (vrouwen, minderhedengroepen) als authenticiteit-move; Tanneke-model toont hoe audio/storytelling autoriteit-claims legitimeert.",
+            "trajectory": "opkomend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Bruzz",
+              "Google News BE Entertainment (NL)",
+              "Google News BE Film",
+              "Humo",
+              "VRT NWS"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Na 424 jaar krijgt ze eerherstel: Gottem geeft 'heks' Tanneke haar stem terug",
+                "url": "https://vrtnws.be/p.pAx0MdDjM",
+                "source": "VRT NWS",
+                "published": "2026-11-28T13:56:40.000Z"
+              },
+              {
+                "title": "Amber Piddington zette stap terug uit 'De slimste mens' en Kids With Buns na getuigenissen over partnergeweld - VRT",
+                "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ja1BRb09CRnFkcXI5VW51d0NtZVJOQXhoTVlhOGpzVDJ2Rk5vRGliSzJQX1pWTlh5VXdLYjZKX0xEQ0dGNWpRR2NJM0JsWkgwYTdfQmd3T2hKMm5zS2FVVkxmN3l6WHQ4VGJMVGpzcVVFeVo0bUxEYV9xdw?oc=5",
+                "source": "Google News BE Entertainment (NL)",
+                "published": "2026-11-28T11:30:18.000Z"
+              },
+              {
+                "title": "Amber Piddington trok zich terug uit ‘De slimste mens’ na plegen van partnergeweld: ‘Ik heb onomkeerbare fouten gemaakt’",
+                "url": "https://www.humo.be/tv/amber-piddington-trok-zich-terug-uit-de-slimste-mens-na-plegen-van-partnergeweld-ik-heb-onomkeerbare-fouten-gemaakt~be6f66b3/",
+                "source": "Humo",
+                "published": "2026-11-28T14:45:00.000Z"
+              },
+              {
+                "title": "Brusselse langdurig zieken keren minder vaak terug naar werk dan Vlaamse en Waalse",
+                "url": "https://www.bruzz.be/actua/samenleving/brusselse-langdurig-zieken-keren-minder-vaak-terug-naar-werk-dan-vlaamse-en-waalse-2026-11-28",
+                "source": "Bruzz",
+                "published": "2026-11-28T07:32:56.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "film",
+        "label": "Film & TV",
+        "insights": [
+          {
+            "trend": "Macy's 100e parade als 'historical anniversary canonization'",
+            "summary": "Macy's Thanksgiving Day Parade (1924-2026, 100e editie) verplaatst naar zaterdag vanwege weersomstandigheden; NBC/Telemundo dekken niet alleen event maar 'love letter to history' als medianarratief. Queen Latifah, LL Cool J, Dolly Parton als tributes.",
+            "why_it_matters": "Century-markers worden gebruikt om retail-events als 'cultural institutions' te canonicaliseren; Macy's reframt zichzelf als cultuurdrager, niet winkelaar.",
+            "strategic_signal": "Merken met 50+ jaar geschiedenis kunnen 'anniversary-as-cultural-reset' gebruiken; Macy's move (van 'shopping event' naar 'historical document') toont hoe retail symbolen inleent van civic culture.",
+            "trajectory": "piekend",
+            "daysActive": 1,
+            "isNew": true,
+            "sources": [
+              "Adweek",
+              "Billboard",
+              "Deadline",
+              "The Hollywood Reporter"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "Broadway Gets Speed-Dating-Style Tribute At Macy’s Thanksgiving Day Parade",
+                "url": "https://deadline.com/2026/11/macys-thanksgiving-parade-broadway-medley-1237234533/",
+                "source": "Deadline",
+                "published": "2026-11-28T15:07:05.000Z"
+              },
+              {
+                "title": "Macy’s Thanksgiving Day Parade Kicks Off, Making History On A Dry And Breezy Saturday",
+                "url": "https://deadline.com/2026/11/macys-thanksgiving-day-parade-2026-saturday-1237234526/",
+                "source": "Deadline",
+                "published": "2026-11-28T13:51:21.000Z"
+              },
+              {
+                "title": "Where to Watch the 100th Macy’s Thanksgiving Day Parade for Free to See Queen Latifah, LL Cool J & Dolly Parton Tribute",
+                "url": "https://www.billboard.com/culture/product-recommendations/how-to-watch-100th-macys-day-parade-thanksgiving-free-1236389567/",
+                "source": "Billboard",
+                "published": "2026-11-28T09:30:00.000Z"
+              },
+              {
+                "title": "When and Where to Stream the 100th Macy’s Thanksgiving Day Parade After Its Historic Delay",
+                "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-macys-thanksgiving-day-parade-2026-free-saturday-time-1236764275/",
+                "source": "The Hollywood Reporter",
+                "published": "2026-11-28T02:30:07.000Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gaming",
+        "label": "Gaming",
+        "insights": [
+          {
+            "trend": "GTA VI als perpetuele cultuur-standaard (voortzetting)",
+            "summary": "Mastodon vermeldt 'GTA VI appearance' in Grammy-nominatie context; het spel fungeert als cross-media-benchmark waar zelfs Grammy-nominees hun GTA-presence als relevantie-marker framen.",
+            "why_it_matters": "GTA VI is niet meer enkel game, het is een cultuur-index waartegen andere media zichzelf meten; dit voorspelt dat games architectuur voor mainstream-canoniciteit worden.",
+            "strategic_signal": "Music/entertainment-merken moeten GTA VI-presence als distribution-channel serieus nemen; Mastodon's naamvermelding in Grammy-context toont dat spel-featuring nu mainstream-prestige oplevert.",
+            "trajectory": "piekend",
+            "daysActive": 4,
+            "isNew": false,
+            "sources": [
+              "Highsnobiety",
+              "NME",
+              "Polygon",
+              "Yanko Design"
+            ],
+            "trending": true,
+            "articles": [
+              {
+                "title": "21 Years Later, Anime’s Forgotten 50-Episode Vampire Masterpiece Deserves a Second Look",
+                "url": "https://www.polygon.com/blood-plus-anime-vampires/",
+                "source": "Polygon",
+                "published": "2026-11-28T14:00:18.000Z"
+              },
+              {
+                "title": "12 Years Later, Hbo's Near-Perfect Vampire Series Still Has an Unwatchable Ending",
+                "url": "https://www.polygon.com/true-blood-series-finale-look-back/",
+                "source": "Polygon",
+                "published": "2026-11-28T11:00:17.000Z"
+              },
+              {
+                "title": "Sony’s Abandoned PS3 Boomerang controller finally reincarnates as a working gamepad 20 years later",
+                "url": "https://www.yankodesign.com/2026/11/27/sonys-abandoned-ps3-boomerang-controller-finally-reincarnates-as-a-working-gamepad-20-years-later/?utm_source=rss&utm_medium=rss&utm_campaign=sonys-abandoned-ps3-boomerang-controller-finally-reincarnates-as-a-working-gamepad-20-years-later",
+                "source": "Yanko Design",
+                "published": "2026-11-27T19:20:20.000Z"
+              },
+              {
+                "title": "Mastodon follow Grammy nomination and ‘GTA 6’ appearance with first UK and European tour in eight years",
+                "url": "https://www.nme.com/news/music/mastodon-announce-first-uk-and-european-tour-in-eight-years-buy-tickets-3977154",
+                "source": "NME",
+                "published": "2026-11-27T17:24:07.000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "weeklyBrandSignals": {
+    "generatedAt": "2026-11-26T09:46:04.000Z",
+    "weeklyBrandSignals": [
+      {
+        "trend": "Phone-free arenas become a luxury",
+        "category": "music",
+        "what_is_happening": "Phoebe Bridgers is playing deliberately phone-free arena concerts, and NME reports that fans are now making their own artwork to remember the shows. Billboard and Consequence frame it as an artistic choice that puts presence ahead of capture.",
+        "why_it_matters_for_brands": "When an artist takes the camera away, the memory becomes the product, so brands at live events need a way to be remembered that does not depend on a feed.",
+        "what_brands_can_do": [
+          "Sponsor a phone-free moment and give fans a physical keepsake instead of a hashtag.",
+          "Invite fans to make their own artwork after the show, then credit them properly when you share it.",
+          "Measure live sponsorships on recall and sentiment, not only on social reach."
+        ]
+      },
+      {
+        "trend": "Festivals fight back against fake merch",
+        "category": "trends",
+        "what_is_happening": "Coachella has sued Walmart for selling knockoff merchandise in stores near the festival, Billboard reports. The festival is defending its logo the way a fashion label would.",
+        "why_it_matters_for_brands": "If a festival logo is worth copying, its merch has become a brand asset in its own right, and partners are judged on how well they protect it.",
+        "what_brands_can_do": [
+          "Treat event merch as a product line, with clear design, limited runs and official sales points.",
+          "Check your licensing and collaboration deals for counterfeit clauses before your next event.",
+          "Give fans an easy official option nearby, so the fake is never the more convenient choice."
+        ]
+      },
+      {
+        "trend": "LEGO fans fill Antwerp Expo",
+        "category": "local",
+        "what_is_happening": "HLN Antwerpen reports that Antwerp Expo was overrun by LEGO fans for Brick Mania, under the headline \"No, we don't all play GTA\". In the week of the biggest game launch of the year, a hands-on hobby fair drew the crowds.",
+        "why_it_matters_for_brands": "Next to the biggest game release, physical hobbies still pull large local crowds, and those fans are easier for brands to meet face to face.",
+        "what_brands_can_do": [
+          "Show up at local fan fairs with something to build or try, not just a stand and a flyer.",
+          "Work with local hobby communities on a small product or event that suits their craft.",
+          "Balance digital campaigns with hands-on moments in your own region."
+        ]
+      }
+    ]
+  }
+}
